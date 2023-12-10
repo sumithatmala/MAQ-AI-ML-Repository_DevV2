@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const NotFound = () => {
   return (
@@ -13,13 +13,12 @@ const NotFound = () => {
         </span>
       </p>
       <Link
-        to="/"
-        className="text-gray-600 dark:text-gray-300 text-center font-semibold mt-5 hover:text-slate-700 dark:hover:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-700 py-2 px-5 rounded-lg"
-      >
+        to="/home"
+        className="text-gray-600 dark:text-gray-300 text-center font-semibold mt-5 hover:text-slate-700 dark:hover:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-700 py-2 px-5 rounded-lg">
         <span>Go to Home</span>
       </Link>
     </main>
-  )
-}
+  );
+};
 
-export default NotFound
+export default NotFound;
