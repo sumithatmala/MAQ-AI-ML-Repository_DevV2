@@ -12,7 +12,7 @@ const MenuLinks = (props) => {
   };
 
   const linkStyle = {
-    color: 'black', // Set the desired color
+    color: 'black',
   };
 
   return (
@@ -37,7 +37,7 @@ const MenuLinks = (props) => {
             className={`dropdown-menu p-4${activeDropdown === index ? ' show' : ''}`}
             aria-labelledby="dropdown04"
           >
-            <div className="w-0 p-3 row">
+            <div className="d-flex justify-content-center align-items-center flex-wrap">
               <LinkSubItems subLinks={link.subLinks} />
             </div>
           </div>

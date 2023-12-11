@@ -3447,7 +3447,12 @@ input[type="button"].btn-block {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; }
+/* #ftco-navbar {
+  height: 60px;
+  max-height: 1000px;
+} */
 
+    
 .navbar-brand {
   display: inline-block;
   padding-top: 0.3125rem;

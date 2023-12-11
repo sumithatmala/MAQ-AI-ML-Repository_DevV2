@@ -5,11 +5,15 @@ import MenuLinks from "../ui-elements/MenuLinks/MenuLinks";
 import "../../css/style.css";
 
 const NavMenu = () => {
+    const navbarStyles = {
+      '--bs-navbar-padding-y': '0rem', // Custom property for padding-y
+    };
   return (
     <>
       <nav
         className="navbar navbar-expand-lg  ftco-navbar-light fixed-top"
-        id="ftco-navbar">
+        id="ftco-navbar"
+        style={navbarStyles}>
         <div className="container">
           <CompanyLogo />
           <div className="col-md-4">
