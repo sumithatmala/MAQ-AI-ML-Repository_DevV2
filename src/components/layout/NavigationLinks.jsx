@@ -19,11 +19,12 @@ import UnsupervisedLearning from './images/Unsupervised-Learning.png'
 
 
 const ImageComponent = props => <div
-                                  className="img w-0 p-3"
+                                  className="img"
                                   style={{
                                     backgroundImage: `url(${props.src})`,
-                                    backgroundSize: 'cover',
-                                    height: "150px",
+                                    backgroundPosition: 'center', 
+                                    backgroundSize: 'contain',
+                                    paddingBottom: '75%',
                                   }}
                                   ></div>
 
