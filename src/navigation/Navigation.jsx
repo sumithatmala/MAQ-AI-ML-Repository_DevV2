@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Container from "../components/layout/Container";
 import NotFound from "../components/views/NotFound";
-import HomePage from "../home-page/HomePage";
+import HomePage from "../components/home-page/HomePage";
 import AboutUs from "../components/views/AboutUs";
 
 const Navigation = () => {

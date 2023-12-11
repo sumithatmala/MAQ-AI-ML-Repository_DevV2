@@ -54,3 +54,30 @@ body{
 .qty{
   font-size:12px;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(158, 144, 144, 0.548);/* Change this to your preferred color */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; /* Adjust the width as needed */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(158, 144, 144, 0.548); /* Change this to your preferred color on hover */
+}
+
+.carousel-item {
+  max-height: 100%; /* Adjust the max-height as needed */
+  overflow: hidden; /* Hide any content that overflows the carousel item */
+}
+
+.carousel-item img {
+  max-width: 100%; /* Make the image fit within the width of the carousel item */
+  height: auto; /* Allow the image to scale proportionally */
+  display: block; /* Remove any default image spacing */
+  margin: 0 auto; /* Center the image horizontally */
+}
