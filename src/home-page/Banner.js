@@ -1,12 +1,12 @@
 import React from "react";
 import "./Banner.css";
 // import "./plyr.min.css";
-import ai from "../images/hero-bg.jpg";
+import ai from "../images/banner.jpg";
 
 export default function Banner() {
   return (
     <section id="hero" className="hero">
-      <img src={ai} alt="" className="box fade-in" />
+      <img src={ai} alt="" className="box fade-in"/>
 
       <div className="container">
         <div className="row">

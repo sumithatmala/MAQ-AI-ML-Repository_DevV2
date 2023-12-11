@@ -8,7 +8,7 @@ const NavMenu = () => {
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg  ftco-navbar-light"
+        className="navbar navbar-expand-lg  ftco-navbar-light fixed-top"
         id="ftco-navbar">
         <div className="container">
           <CompanyLogo />
