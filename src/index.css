@@ -81,3 +81,50 @@ body{
   display: block; /* Remove any default image spacing */
   margin: 0 auto; /* Center the image horizontally */
 }
+
+#app {
+  height: 100vh;
+  opacity: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sidebar {
+  height: 50vh;
+  background-color: rgba(32, 89, 118, 0.3);
+  transition: width 0.8s ease; 
+}
+
+.menu {
+  background: transparent;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-item {
+  text-align: center;
+  opacity: 1; 
+  padding: 5px 0px;
+}
+
+.menu-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1b2e40;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.product-gallery-carousel:hover img {
+  opacity: 0.7; /* Adjust the opacity as needed */
+  transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
+
+.product-gallery-carousel img {
+  transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
+

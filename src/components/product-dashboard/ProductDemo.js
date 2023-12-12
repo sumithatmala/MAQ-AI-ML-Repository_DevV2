@@ -5,8 +5,14 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const ProductDemo = () => {
   return (
-    <Container fluid>
-        <Row className="bg-dark text-white p-4">
+    <Container fluid style={{paddingTop: "3%"}}>
+        <Row className="bg-dark text-white p-4" >
+        <Col>
+          <h1 className="display-4">Scikit-Learn</h1>
+          <p className="lead">Powerful machine learning library for Python</p>
+        </Col>
+      </Row>
+        <Row style={{paddingLeft: "15%", paddingTop: "3%", paddingRight: "15%"}}>
         <Col>
             <h2>Product Demo</h2>
           <p>Watch our demo video to see the product in action.</p>

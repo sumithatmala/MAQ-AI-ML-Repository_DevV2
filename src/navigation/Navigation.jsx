@@ -6,6 +6,8 @@ import HomePage from "../components/home-page/HomePage";
 import AboutUs from "../components/views/AboutUs";
 import SideBar from "../components/ui-elements/SideBar/SideBar";
 import ProductInformation from "../components/product-dashboard/ProductInformation";
+import ProductDemo from "../components/product-dashboard/ProductDemo";
+import ProductTryIt from "../components/product-dashboard/ProductTryIt";
 
 const Navigation = () => {
   return (
@@ -20,6 +22,26 @@ const Navigation = () => {
               <>
                 <SideBar />
                 <ProductInformation />
+              </>
+            }
+          />
+          <Route
+            path="/productdemo"
+            element={
+              <>
+              
+                <SideBar />
+                <ProductDemo />
+              </>
+            }
+          />
+          <Route
+            path="/producttryit"
+            element={
+              <>
+              
+                <SideBar />
+                <ProductTryIt />
               </>
             }
           />

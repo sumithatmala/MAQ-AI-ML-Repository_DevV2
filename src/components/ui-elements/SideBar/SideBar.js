@@ -9,7 +9,7 @@ import InfoRoundedIcon from "@mui/icons-material/InfoRounded";
 import { React, useState } from "react";
 
 export default function SideBar() {
-  const [opac, setOpac] = useState("0.7");
+  const [opac, setOpac] = useState("1");
   const {
     collapseSidebar,
     collapsed, // Accessing the 'collapsed' state
@@ -17,13 +17,13 @@ export default function SideBar() {
 
   const handleOnMouseEnter = () => {
     if (collapsed) {
-      setOpac("0.7");
+      setOpac("1");
       collapseSidebar();
     }
   };
   const handleOnMouseLeave = () => {
     if (!collapsed) {
-      setOpac("0.2");
+      setOpac("0.7");
       collapseSidebar();
     }
   };
@@ -41,6 +41,7 @@ export default function SideBar() {
           justifyContent: "center",
         }}>
         <Sidebar
+        
           style={{
             height: "50vh",
             backgroundColor: "rgba(32,89,118,0.3)",
@@ -72,7 +73,7 @@ export default function SideBar() {
                 textDecoration: "none",
                 textAlign: "center",
                 fontWeight: "bold",
-                color: "#1b2e40",
+                color: "#000000",
                 fontSize: "20px",
                 fontFamily: "Arial, Helvetica, sans-serif",
               }}>
@@ -84,12 +85,12 @@ export default function SideBar() {
             </NavLink>
 
             <NavLink
-              to={"/AboutUs"}
+              to={"/productdemo"}
               style={{
                 textDecoration: "none",
                 textAlign: "center",
                 fontWeight: "bold",
-                color: "#1b2e40",
+                color: "#000000",
                 fontSize: "20px",
                 fontFamily: "Arial, Helvetica, sans-serif",
               }}>
@@ -103,18 +104,18 @@ export default function SideBar() {
             </NavLink>
 
             <NavLink
-              to={"/AboutUs"}
+              to={"/producttryit"}
               style={{
                 textDecoration: "none",
                 textAlign: "center",
                 fontWeight: "bold",
-                color: "#1b2e40",
+                color: "#000000",
                 fontSize: "20px",
                 fontFamily: "Arial, Helvetica, sans-serif",
               }}>
               <MenuItem
                 style={{ marginBottom: "15px" }}
-                icon={<TryRoundedIcon style={{ fontSize: "3rem" }} />}>
+                icon={<TryRoundedIcon  style={{ fontSize: "3rem" }} />}>
                 Try It!
               </MenuItem>
             </NavLink>
@@ -124,7 +125,7 @@ export default function SideBar() {
                 textDecoration: "none",
                 textAlign: "center",
                 fontWeight: "bold",
-                color: "#1b2e40",
+                color: "#000000",
                 fontSize: "20px",
                 fontFamily: "Arial, Helvetica, sans-serif",
               }}>

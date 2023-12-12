@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Card, Carousel, Accordion, Button } from 'react-bootstrap';
-import Footer from '../views/Footer';
 
 const ProductInformation = () => {
     const [isOpenDescription, setIsOpenDescription] = useState(false);
@@ -41,7 +40,7 @@ const ProductInformation = () => {
         </Col>
       </Row>
        {/* Product Overview Section */}
-      <Row style={{paddingLeft: "15%", paddingTop: "3%"}}>
+      <Row style={{paddingLeft: "15%", paddingTop: "3%", paddingRight: "15%"}}>
         <Col>
           <h2>Product Overview</h2>
           <p>
@@ -58,18 +57,18 @@ const ProductInformation = () => {
         </Col>
       </Row>
       {/* Product Screenshots Section */}
-      <Row style={{paddingLeft: "15%"}}>
+      <Row style={{paddingLeft: "15%", paddingRight: "15%"}}>
         <Col>
           <h2>Product Gallery</h2>
-          <Carousel>
+          <Carousel className="product-gallery-carousel" style={{ width: "60%", height: "300px", overflow: "hidden"  }}>
             <Carousel.Item>
-              <img className="d-block w-100" src="https://www.solivatech.com/assets/uploads/media-uploader/scikit-learn1624452317.png" alt="Screenshot 1" />
+              <img className="img-thumbnail d-block w-100" src="https://www.solivatech.com/assets/uploads/media-uploader/scikit-learn1624452317.png" alt="Screenshot 1" />
               <Carousel.Caption>
                 Caption for Screenshot 1.
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block w-100" src="https://i0.wp.com/pythonguides.com/wp-content/uploads/2022/01/scikit-learn-classification.png" alt="Screenshot 2" />
+              <img className="img-thumbnail d-block w-100" src="https://i0.wp.com/pythonguides.com/wp-content/uploads/2022/01/scikit-learn-classification.png" alt="Screenshot 2" />
               <Carousel.Caption>
                 Caption for Screenshot 2.
               </Carousel.Caption>
@@ -78,7 +77,7 @@ const ProductInformation = () => {
         </Col>
       </Row>
       {/* Detailed Content Section */}
-      <Row style={{paddingLeft: "15%"}}>
+      <Row style={{paddingLeft: "15%", paddingRight: "15%"}}>
         <Col>
           <h2>Detailed Content</h2>
           <Card>
@@ -150,8 +149,6 @@ const ProductInformation = () => {
           </Card>
         </Col>
       </Row>
-      {/* Footer Section */}
-          <Footer />
     </Container>
   );
 };
