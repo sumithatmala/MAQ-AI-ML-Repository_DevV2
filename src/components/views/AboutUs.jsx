@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 min-vh-100 d-flex flex-column bg-light p-10 h-[calc(100% - 4em)] d-flex flex-column justify-content-center" style={{paddingTop: "3%"}}>
       <h2>About Our Initiative</h2>
       <p>
         Create a comprehensive and user-friendly web portal that serves as a

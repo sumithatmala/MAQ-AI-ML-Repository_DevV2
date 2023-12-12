@@ -5,6 +5,8 @@ import NotFound from "../components/views/NotFound";
 import HomePage from "../components/home-page/HomePage";
 import AboutUs from "../components/views/AboutUs";
 import SideBar from "../components/ui-elements/SideBar/SideBar";
+import ProductInformation from "../components/product-dashboard/ProductInformation";
+import { RedirectHandler } from "undici-types";
 
 const Navigation = () => {
   return (
@@ -14,14 +16,16 @@ const Navigation = () => {
           <Route path="/Home" element={<HomePage />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route
-            path="/changelog"
+            path="/productdetails"
             element={
               <>
                 <SideBar />
-                <HomePage></HomePage>
+                <ProductInformation />
               </>
             }
           />
+          <Route path="/admin" render={(props) => <AdminLayout {...props} />} />
+          <RedirectHandler from="/" to="/admin/dashboard" />
           {/* <Route path="contact" element={<Contact />} />
         <Route path="external1" element={<External1 />} />
         <Route path="external2" element={<External2 />} /> */}

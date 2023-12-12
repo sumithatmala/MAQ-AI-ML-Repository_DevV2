@@ -9,14 +9,20 @@ const ProductInformation = () => {
 
     const handleToggleDescription = () => {
       setIsOpenDescription(!isOpenDescription);
+      setIsOpenUseCases(false);
+      setIsOpenTechSpecs(false);
     };
   
     const handleToggleUseCases = () => {
       setIsOpenUseCases(!isOpenUseCases);
+      setIsOpenDescription(false);
+      setIsOpenTechSpecs(false);
     };
   
     const handleToggleTechSpecs = () => {
       setIsOpenTechSpecs(!isOpenTechSpecs);
+      setIsOpenDescription(false);
+      setIsOpenUseCases(false);
     };
 
     const buttonStyle = {
@@ -27,15 +33,15 @@ const ProductInformation = () => {
     };
 
   return (
-    <Container fluid>
-      <Row className="bg-dark text-white p-4">
+    <Container fluid style={{paddingTop: "3%"}}>
+      <Row className="bg-dark text-white p-4" >
         <Col>
           <h1 className="display-4">Scikit-Learn</h1>
           <p className="lead">Powerful machine learning library for Python</p>
         </Col>
       </Row>
        {/* Product Overview Section */}
-      <Row className="p-4">
+      <Row style={{paddingLeft: "15%", paddingTop: "3%"}}>
         <Col>
           <h2>Product Overview</h2>
           <p>
@@ -52,7 +58,7 @@ const ProductInformation = () => {
         </Col>
       </Row>
       {/* Product Screenshots Section */}
-      <Row className="p-4">
+      <Row style={{paddingLeft: "15%"}}>
         <Col>
           <h2>Product Gallery</h2>
           <Carousel>
@@ -72,7 +78,7 @@ const ProductInformation = () => {
         </Col>
       </Row>
       {/* Detailed Content Section */}
-      <Row className="p-4">
+      <Row style={{paddingLeft: "15%"}}>
         <Col>
           <h2>Detailed Content</h2>
           <Card>
