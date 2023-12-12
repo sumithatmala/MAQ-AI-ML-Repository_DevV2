@@ -1,5 +1,6 @@
 import React from "react";
 import "./Card.css";
+import { NavLink } from "react-router-dom";
 
 export default function Card(props) {
   return (
@@ -18,9 +19,11 @@ export default function Card(props) {
           />
         </div>
         <div className="wsk-cp-text">
-          <div className="category">
-            <span>{props.cardData.cardTitle}</span>
-          </div>
+          <NavLink to={props.cardData.redirectUrl}>
+            <div className="category">
+              <span>{props.cardData.cardTitle}</span>
+            </div>
+          </NavLink>
           <div className="title-product">
             <h3>{props.cardData.descriptionTitle}</h3>
           </div>
