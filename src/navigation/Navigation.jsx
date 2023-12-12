@@ -4,6 +4,7 @@ import Container from "../components/layout/Container";
 import NotFound from "../components/views/NotFound";
 import HomePage from "../components/home-page/HomePage";
 import AboutUs from "../components/views/AboutUs";
+import SideBar from "../components/ui-elements/SideBar/SideBar";
 
 const Navigation = () => {
   return (
@@ -12,8 +13,16 @@ const Navigation = () => {
         <Route path="/" element={<Container />}>
           <Route path="/Home" element={<HomePage />} />
           <Route path="/AboutUs" element={<AboutUs />} />
-          {/* <Route path="changelog" element={<Changelog />} />
-        <Route path="contact" element={<Contact />} />
+          <Route
+            path="/changelog"
+            element={
+              <>
+                <SideBar />
+                <HomePage></HomePage>
+              </>
+            }
+          />
+          {/* <Route path="contact" element={<Contact />} />
         <Route path="external1" element={<External1 />} />
         <Route path="external2" element={<External2 />} /> */}
           <Route path="*" element={<NotFound />} />
