@@ -8,6 +8,7 @@ import SideBar from "../components/ui-elements/SideBar/SideBar";
 import ProductInformation from "../components/product-dashboard/ProductInformation";
 import ProductDemo from "../components/product-dashboard/ProductDemo";
 import ProductTryIt from "../components/product-dashboard/ProductTryIt";
+import ProductContactUs from "../components/product-dashboard/ProductContactUs";
 
 const Navigation = () => {
   return (
@@ -45,9 +46,16 @@ const Navigation = () => {
               </>
             }
           />
-          {/* <Route path="contact" element={<Contact />} />
-        <Route path="external1" element={<External1 />} />
-        <Route path="external2" element={<External2 />} /> */}
+          <Route
+            path="/productcontactus"
+            element={
+              <>
+              
+                <SideBar />
+                <ProductContactUs />
+              </>
+            }
+          />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

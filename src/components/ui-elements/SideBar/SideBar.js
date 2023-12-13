@@ -120,7 +120,7 @@ export default function SideBar() {
               </MenuItem>
             </NavLink>
             <NavLink
-              to={"/AboutUs"}
+              to={"/productcontactus"}
               style={{
                 textDecoration: "none",
                 textAlign: "center",

@@ -4,7 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const ProductTryIt = () => {
   return (
-    <Container fluid style={{paddingTop: "3%"}}>
+    <section class="ftco-section">
+    <Container fluid style={{paddingLeft: "15%", paddingRight: "15%"}}>
         <Row className="bg-dark text-white p-4" >
         <Col>
           <h1 className="display-4">Scikit-Learn</h1>
@@ -16,7 +17,7 @@ const ProductTryIt = () => {
             <h2>Scikit-Learn Tool Showcase</h2>
         </Col>
       </Row>
-      <Row>
+      <Row style={{paddingLeft: "15%", paddingTop: "3%", paddingRight: "15%"}}>
         <Col>
         <MDBContainer>
             <iframe
@@ -31,6 +32,7 @@ const ProductTryIt = () => {
         </Col>
     </Row>
     </Container>
+    </section>
   );
 };
 

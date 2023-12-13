@@ -32,7 +32,8 @@ const ProductInformation = () => {
     };
 
   return (
-    <Container fluid style={{paddingTop: "3%"}}>
+    <section class="ftco-section">
+    <Container fluid  style={{paddingLeft: "15%", paddingRight: "15%"}}>
       <Row className="bg-dark text-white p-4" >
         <Col>
           <h1 className="display-4">Scikit-Learn</h1>
@@ -150,6 +151,7 @@ const ProductInformation = () => {
         </Col>
       </Row>
     </Container>
+    </section>
   );
 };
 

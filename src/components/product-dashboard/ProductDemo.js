@@ -5,7 +5,8 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const ProductDemo = () => {
   return (
-    <Container fluid style={{paddingTop: "3%"}}>
+    <section class="ftco-section">
+    <Container fluid style={{paddingLeft: "15%", paddingRight: "15%"}}>
         <Row className="bg-dark text-white p-4" >
         <Col>
           <h1 className="display-4">Scikit-Learn</h1>
@@ -18,7 +19,7 @@ const ProductDemo = () => {
           <p>Watch our demo video to see the product in action.</p>
         </Col>
       </Row>
-      <Row>
+      <Row style={{paddingLeft: "15%", paddingTop: "3%", paddingRight: "15%"}}>
         <Col>
           <MDBContainer>
             <div className="ratio ratio-16x9">
@@ -33,6 +34,7 @@ const ProductDemo = () => {
         </Col>
       </Row>
     </Container>
+    </section>
   );
 };
 
