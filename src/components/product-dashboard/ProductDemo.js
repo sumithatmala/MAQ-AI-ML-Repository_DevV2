@@ -19,7 +19,7 @@ const ProductDemo = () => {
           <p>Watch our demo video to see the product in action.</p>
         </Col>
       </Row>
-      <Row style={{paddingLeft: "15%", paddingTop: "3%", paddingRight: "15%"}}>
+      <Row style={{paddingLeft: "15%",  paddingRight: "15%"}}>
         <Col>
           <MDBContainer>
             <div className="ratio ratio-16x9">
