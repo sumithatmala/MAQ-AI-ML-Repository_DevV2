@@ -101,7 +101,7 @@ const ProductContactUs = () => {
 				        			<LanguageIcon />
 				        		</div>
 				        		<div class="text pl-3">
-					            <p><span>Website</span> <a href="#">maqsoftware.com/</a></p>
+					            <p><span>Website</span> <a href="#">maqsoftware.com</a></p>
 					          </div>
 				          </div>
 			          </div>
