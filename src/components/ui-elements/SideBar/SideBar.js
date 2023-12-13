@@ -9,21 +9,21 @@ import InfoRoundedIcon from "@mui/icons-material/InfoRounded";
 import { React, useState } from "react";
 
 export default function SideBar() {
-  const [opac, setOpac] = useState("1");
+  const [chgColor, setOpac] = useState("#6459d1");
   const {
     collapseSidebar,
-    collapsed, // Accessing the 'collapsed' state
+    collapsed,
   } = useProSidebar();
 
   const handleOnMouseEnter = () => {
     if (collapsed) {
-      setOpac("1");
+      setOpac("#6459d1");
       collapseSidebar();
     }
   };
   const handleOnMouseLeave = () => {
     if (!collapsed) {
-      setOpac("0.7");
+      setOpac("#3a316f");
       collapseSidebar();
     }
   };
@@ -34,7 +34,7 @@ export default function SideBar() {
         className="fixed-top"
         style={{
           height: "100vh",
-          opacity: opac,
+          opacity: "1",
           width: "0vh",
           display: "flex",
           flexDirection: "column",
@@ -44,7 +44,7 @@ export default function SideBar() {
         
           style={{
             height: "50vh",
-            backgroundColor: "rgba(32,89,118,0.3)",
+            // backgroundColor: "rgba(32,89,118,0.3)",
           }}
           breakPoint="sm"
           transitionDuration={800}
@@ -73,13 +73,13 @@ export default function SideBar() {
                 textDecoration: "none",
                 textAlign: "center",
                 fontWeight: "bold",
-                color: "#000000",
+                color: chgColor,
                 fontSize: "20px",
                 fontFamily: "Arial, Helvetica, sans-serif",
               }}>
               <MenuItem
                 style={{ marginBottom: "15px" }}
-                icon={<InfoRoundedIcon style={{ fontSize: "3rem" }} />}>
+                icon={<InfoRoundedIcon style={{color:chgColor, fontSize: "3rem" }} />}>
                 Details
               </MenuItem>
             </NavLink>
@@ -90,14 +90,14 @@ export default function SideBar() {
                 textDecoration: "none",
                 textAlign: "center",
                 fontWeight: "bold",
-                color: "#000000",
+                color: chgColor,
                 fontSize: "20px",
                 fontFamily: "Arial, Helvetica, sans-serif",
               }}>
               <MenuItem
                 style={{ marginBottom: "15px" }}
                 icon={
-                  <OndemandVideoRoundedIcon style={{ fontSize: "3rem" }} />
+                  <OndemandVideoRoundedIcon style={{color:chgColor,  fontSize: "3rem" }} />
                 }>
                 Demo
               </MenuItem>
@@ -109,13 +109,13 @@ export default function SideBar() {
                 textDecoration: "none",
                 textAlign: "center",
                 fontWeight: "bold",
-                color: "#000000",
+                color: chgColor,
                 fontSize: "20px",
                 fontFamily: "Arial, Helvetica, sans-serif",
               }}>
               <MenuItem
                 style={{ marginBottom: "15px" }}
-                icon={<TryRoundedIcon  style={{ fontSize: "3rem" }} />}>
+                icon={<TryRoundedIcon  style={{color:chgColor,  fontSize: "3rem" }} />}>
                 Try It!
               </MenuItem>
             </NavLink>
@@ -125,13 +125,13 @@ export default function SideBar() {
                 textDecoration: "none",
                 textAlign: "center",
                 fontWeight: "bold",
-                color: "#000000",
+                color: chgColor,
                 fontSize: "20px",
                 fontFamily: "Arial, Helvetica, sans-serif",
               }}>
               <MenuItem
                 style={{ marginBottom: "15px" }}
-                icon={<ContactsRoundedIcon style={{ fontSize: "3rem" }} />}>
+                icon={<ContactsRoundedIcon style={{color:chgColor,  fontSize: "3rem" }} />}>
                 Contacts
               </MenuItem>
             </NavLink>

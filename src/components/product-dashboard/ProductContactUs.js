@@ -8,20 +8,22 @@ import LanguageIcon from '@mui/icons-material/Language';
 const ProductContactUs = () => {
   return (
     
-        <section class="ftco-section">
-		<Container fluid style={{paddingLeft: "15%", paddingRight: "15%"}}>
-            <Row className="bg-dark text-white p-4" >
+        <section className='product-information'>
+		<Container fluid>
+            <Row className="product-header bg-voilet-linear-gradient text-white p-4" >
                 <Col>
                     <h1 className="display-4">Scikit-Learn</h1>
                     <p className="lead">Powerful machine learning library for Python</p>
                 </Col>
             </Row>
-			<div class="row justify-content-center" style={{paddingTop: "2rem"}}>
-				<div class="col-md-6 text-center mb-5">
+			<Row className="product-overview">
+				{/* <div class="col-md-6 text-center mb-5"> */}
+				<Col>
 					<h2 class="heading-section">Contact Form</h2>
-				</div>
-			</div>
-			<div class="justify-content-center">
+				</Col>
+				{/* </div> */}
+			</Row>
+			<div class="product-content justify-content-center">
 				<div class="col-md-12">
 					<div class="wrapper">
 						<div class="row no-gutters">
@@ -60,7 +62,7 @@ const ProductContactUs = () => {
 											</div>
 											<div class="col-md-12">
 												<div class="form-group">
-													<input type="submit" value="Send Message" class="btn bg-dark text-white"/>
+													<input type="submit" value="Send Message" class="btn bg-voilet-linear-gradient text-white"/>
 													<div class="submitting"></div>
 												</div>
 											</div>
@@ -69,7 +71,7 @@ const ProductContactUs = () => {
 								</div>
 							</div>
 							<div class="col-lg-4 col-md-5 d-flex align-items-stretch ">
-								<div class="info-wrap bg-dark text-white w-100 p-md-5 p-4" >
+								<div class="info-wrap bg-voilet-linear-gradient text-white w-100 p-md-5 p-4" >
 									<h3>Let's get in touch</h3>
 									<p class="mb-4">We're open for any suggestion or just to have a chat</p>
 				        	    <div class="dbox w-100 d-flex align-items-start">
@@ -101,7 +103,7 @@ const ProductContactUs = () => {
 				        			<LanguageIcon />
 				        		</div>
 				        		<div class="text pl-3">
-					            <p><span>Website</span> <a href="#">maqsoftware.com</a></p>
+					            <p><span>Website</span> <a href="https://maqsoftware.com/">maqsoftware.com</a></p>
 					          </div>
 				          </div>
 			          </div>
