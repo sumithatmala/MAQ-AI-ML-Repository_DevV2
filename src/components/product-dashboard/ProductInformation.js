@@ -72,6 +72,7 @@ const ProductInformation = () => {
                   aria-controls="description-collapse"
                   aria-expanded={isOpenDescription}
                   className='product-info-button'
+                  style={{width: "100%",textAlign: "left"}}
                 >
                   Description
                 </Button>
@@ -91,6 +92,7 @@ const ProductInformation = () => {
                   aria-controls="use-cases-collapse"
                   aria-expanded={isOpenUseCases}
                   className='product-info-button'
+                  style={{width: "100%",textAlign: "left"}}
                 >
                   Use Cases
                 </Button>
@@ -115,6 +117,7 @@ const ProductInformation = () => {
                   aria-controls="tech-specs-collapse"
                   aria-expanded={isOpenTechSpecs}
                   className='product-info-button'
+                  style={{width: "100%",textAlign: "left"}}
                 >
                   Technical Specifications
                 </Button>
