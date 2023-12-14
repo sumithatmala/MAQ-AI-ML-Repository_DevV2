@@ -8,8 +8,8 @@ export const CompanyLogo = () => {
         src={companyLogo}
         alt="Company Logo"
         style={{
-          width: "12.5rem",
-          height: "5rem",
+          width: "10rem",
+          height: "3rem",
           alignContent: "center",
         }}
         className="d-inline-block align-top"

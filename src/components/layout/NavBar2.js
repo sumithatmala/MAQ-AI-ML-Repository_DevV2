@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./style2.css";
 import CompanyLogo from "../ui-elements/CompanyLogo";
 import NavigationLinks from "./NavigationLinks";
 
@@ -10,7 +9,7 @@ const NavBar2 = () => {
     setNavActive(!isNavActive);
   };
 
-  const navClass = isNavActive ? "active nav1" : "nav1";
+  const navClass = isNavActive ? "active nav" : "nav";
 
   const SubMenu = ({ items, hasSubmenu }) => {
     const hasSubmenuClass = hasSubmenu ? "sub-menu" : "sub-menu2";
@@ -18,17 +17,17 @@ const NavBar2 = () => {
       <ul className={hasSubmenuClass}>
         {items.map((item, index) => (
           <li key={index}>
-            <a href={item.link} className="menu-item">
+            <a href={item.link} className="menu-item" style={{padding: "0px"}}>
               <span> {item.label} </span>
               {item.submenu && (
                 <i
-                  className={`fas fa-caret-down ${navClass}`}
+                  className={`fas fa-caret-down m-5-p ${navClass}`}
                   aria-hidden="true"
                 ></i>
               )}
               {item.submenu && (
                 <i
-                  className={`fas fa-caret-up ${navClass}`}
+                  className={`fas fa-caret-up m-5-p ${navClass}`}
                   aria-hidden="true"
                 ></i>
               )}

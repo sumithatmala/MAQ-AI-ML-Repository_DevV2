@@ -39,8 +39,8 @@ export default function SideBar() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-        }}
-        >
+          
+        }}>
         <Sidebar
         
           style={{
@@ -58,6 +58,7 @@ export default function SideBar() {
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
+              alignItems: "normal",
             }}>
             {/* <MenuItem
               icon={<MenuRoundedIcon style={{ fontSize: "3rem" }} />}
@@ -74,13 +75,13 @@ export default function SideBar() {
                 textDecoration: "none",
                 textAlign: "center",
                 fontWeight: "bold",
-                color: "#2e2654",
+                color: "#302758",
                 fontSize: "20px",
                 fontFamily: "Arial, Helvetica, sans-serif",
               }}>
               <MenuItem
                 style={{ marginBottom: "15px" }}
-                icon={<InfoRoundedIcon style={{color:"#2e2654", fontSize: "3rem" }} />}>
+                icon={<InfoRoundedIcon style={{ fontSize: "3rem" }} />}>
                 Details
               </MenuItem>
             </NavLink>
@@ -91,14 +92,14 @@ export default function SideBar() {
                 textDecoration: "none",
                 textAlign: "center",
                 fontWeight: "bold",
-                color: "#2e2654",
+                color: "#302758",
                 fontSize: "20px",
                 fontFamily: "Arial, Helvetica, sans-serif",
               }}>
               <MenuItem
                 style={{ marginBottom: "15px" }}
                 icon={
-                  <OndemandVideoRoundedIcon style={{color:"#2e2654",  fontSize: "3rem" }} />
+                  <OndemandVideoRoundedIcon style={{ fontSize: "3rem" }} />
                 }>
                 Demo
               </MenuItem>
@@ -110,13 +111,13 @@ export default function SideBar() {
                 textDecoration: "none",
                 textAlign: "center",
                 fontWeight: "bold",
-                color: "#2e2654",
+                color: "#302758",
                 fontSize: "20px",
                 fontFamily: "Arial, Helvetica, sans-serif",
               }}>
               <MenuItem
                 style={{ marginBottom: "15px" }}
-                icon={<TryRoundedIcon  style={{color:"#2e2654",  fontSize: "3rem" }} />}>
+                icon={<TryRoundedIcon  style={{ fontSize: "3rem" }} />}>
                 Try It!
               </MenuItem>
             </NavLink>
@@ -126,13 +127,13 @@ export default function SideBar() {
                 textDecoration: "none",
                 textAlign: "center",
                 fontWeight: "bold",
-                color: "#2e2654",
+                color: "#302758",
                 fontSize: "20px",
                 fontFamily: "Arial, Helvetica, sans-serif",
               }}>
               <MenuItem
                 style={{ marginBottom: "15px" }}
-                icon={<ContactsRoundedIcon style={{color:"#2e2654",  fontSize: "3rem" }} />}>
+                icon={<ContactsRoundedIcon style={{ fontSize: "3rem" }} />}>
                 Contacts
               </MenuItem>
             </NavLink>

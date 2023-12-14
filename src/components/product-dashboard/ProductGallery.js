@@ -7,7 +7,8 @@ import {
 
 export default function ProductGallery() {
   const carouselContainerStyle = {
-    height: "65vh",
+    height: "50vh",
+    width: "90vh",
     textShadow: "1px 1px 2px rgba(0, 0, 0, 0.5)",
   };
 
@@ -18,9 +19,9 @@ export default function ProductGallery() {
   };
 
   return (
-    <MDBCarousel showIndicators showControls fade>
-      <MDBCarouselItem className='active' style={carouselContainerStyle}>
-        <img className="img d-block w-100" style={imageStyle} src='https://miro.medium.com/v2/resize:fit:828/format:webp/1*hMGRmj9Wz-xGVJhlc08szQ.png' alt='Scikit v1.0.0' />
+    <MDBCarousel showIndicators showControls fade style={carouselContainerStyle}>
+      <MDBCarouselItem className='active' >
+        <img className="img d-block w-100" style={imageStyle} src='https://cdn.analyticsvidhya.com/wp-content/uploads/2020/05/Scikit-learn.jpg' alt='Scikit v1.0.0' />
         <MDBCarouselCaption>
           <h5>Scikit Learn V 1.0.0</h5>
           <p>

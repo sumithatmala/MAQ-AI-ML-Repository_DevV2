@@ -109,7 +109,7 @@ const NavigationLinks = [
   { label: "Home", link: "./home" },
   { 
     label: "Artificial Intelligence", 
-    link: "./ai",
+    link: "#",
     submenu: [
       { 
         label: "Frameworks", 
@@ -144,7 +144,7 @@ const NavigationLinks = [
   },
   { 
     label: "Machine Learning", 
-    link: "./ai",
+    link: "#",
     submenu: [
       { 
         label: "Data Processing", 

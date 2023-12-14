@@ -9,6 +9,7 @@ import ProductInformation from "../components/product-dashboard/ProductInformati
 import ProductDemo from "../components/product-dashboard/ProductDemo";
 import ProductTryIt from "../components/product-dashboard/ProductTryIt";
 import ProductContactUs from "../components/product-dashboard/ProductContactUs";
+import '../css/style.css'
 
 const Navigation = () => {
   return (

@@ -17,11 +17,9 @@ const ProductContactUs = () => {
                 </Col>
             </Row>
 			<Row className="product-overview">
-				{/* <div class="col-md-6 text-center mb-5"> */}
 				<Col>
 					<h2 class="heading-section">Contact Form</h2>
 				</Col>
-				{/* </div> */}
 			</Row>
 			<div class="product-content justify-content-center">
 				<div class="col-md-12">
@@ -62,7 +60,7 @@ const ProductContactUs = () => {
 											</div>
 											<div class="col-md-12">
 												<div class="form-group">
-													<input type="submit" value="Send Message" class="btn bg-voilet-linear-gradient text-white"/>
+													<input type="submit" value="Send Message" class="btn text-white" style={{backgroundColor: "#5248a6"}}/>
 													<div class="submitting"></div>
 												</div>
 											</div>
