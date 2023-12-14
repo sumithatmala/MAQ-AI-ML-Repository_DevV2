@@ -2,7 +2,7 @@ import React from "react";
 import CompanyLogo from "../ui-elements/CompanyLogo";
 import NavigationLinks from "./NavigationLinks";
 import MenuLinks from "../ui-elements/MenuLinks/MenuLinks";
-import "../../css/style.css";
+// import "../../css/style.css";
 
 const NavMenu = () => {
     const navbarStyles = {

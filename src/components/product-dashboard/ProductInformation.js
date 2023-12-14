@@ -3,6 +3,7 @@ import { Container, Row, Col, Card, Accordion, Button } from 'react-bootstrap';
 import ProductGallery from './ProductGallery';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
+import '../../css/style.css'
 
 const ProductInformation = () => {
   const [isOpenDescription, setIsOpenDescription] = useState(false);
@@ -28,6 +29,7 @@ const ProductInformation = () => {
   };
 
   return (
+    <body>
     <section className='product-information'>
       <Container fluid>
         <Row className="product-header bg-voilet-linear-gradient text-white p-4">
@@ -141,6 +143,7 @@ const ProductInformation = () => {
         </Row>
       </Container>
     </section>
+    </body>
   );
 };
 

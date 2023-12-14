@@ -7,7 +7,7 @@ import LanguageIcon from '@mui/icons-material/Language';
 
 const ProductContactUs = () => {
   return (
-    
+		<body>
         <section className='product-information'>
 		<Container fluid>
             <Row className="product-header bg-voilet-linear-gradient text-white p-4" >
@@ -114,7 +114,7 @@ const ProductContactUs = () => {
 			</div>
             </Container>
 	</section>
-    
+    </body>
   )
 }
 

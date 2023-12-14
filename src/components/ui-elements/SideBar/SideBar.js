@@ -39,7 +39,8 @@ export default function SideBar() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-        }}>
+        }}
+        >
         <Sidebar
         
           style={{

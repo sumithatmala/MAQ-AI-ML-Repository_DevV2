@@ -7,7 +7,8 @@ import {
 
 export default function ProductGallery() {
   const carouselContainerStyle = {
-    height: "600px",
+    height: "65vh",
+    textShadow: "1px 1px 2px rgba(0, 0, 0, 0.5)",
   };
 
   const imageStyle = {
@@ -19,7 +20,7 @@ export default function ProductGallery() {
   return (
     <MDBCarousel showIndicators showControls fade>
       <MDBCarouselItem className='active' style={carouselContainerStyle}>
-        <img className="img d-block w-100" style={imageStyle} src='https://images.contentstack.io/v3/assets/blt71da4c740e00faaa/bltfa1c2cc3224db5c3/6178559ac2de5e0b3c33bfc2/Scikit-Learn-Blog.png?format=webp' alt='Scikit Learn V 1.0.0' />
+        <img className="img d-block w-100" style={imageStyle} src='https://miro.medium.com/v2/resize:fit:828/format:webp/1*hMGRmj9Wz-xGVJhlc08szQ.png' alt='Scikit v1.0.0' />
         <MDBCarouselCaption>
           <h5>Scikit Learn V 1.0.0</h5>
           <p>

@@ -5,6 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const ProductDemo = () => {
   return (
+    <body>
     <section class="product-information">
     <Container fluid>
         <Row className="product-header bg-voilet-linear-gradient text-white p-4" >
@@ -35,6 +36,7 @@ const ProductDemo = () => {
       </Row>
     </Container>
     </section>
+    </body>
   );
 };
 
