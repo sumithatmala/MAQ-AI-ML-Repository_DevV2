@@ -6,13 +6,14 @@ import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { ProSidebarProvider } from "react-pro-sidebar";
+import { FluentProvider } from "@fluentui/react-components";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <ProSidebarProvider>
+    <FluentProvider>
       <App />
-    </ProSidebarProvider>
+    </FluentProvider>
   </React.StrictMode>
 );
 
