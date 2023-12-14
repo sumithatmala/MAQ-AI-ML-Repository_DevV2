@@ -1,5 +1,5 @@
 import React from 'react';
-import { Horizontal } from './Horizontal';
+// import { Horizontal } from './Horizontal';
 import BasicTabs from './BasicTabs';
 const Classification = () => {
     return (

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Card.css";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 export default function Card({cardTitle, cardDescription, imageURL, onClick, isSelected, ...props}) {
   // console.log(cardTitle, isSelected);
