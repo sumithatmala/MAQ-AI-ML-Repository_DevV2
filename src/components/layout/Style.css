@@ -1,0 +1,99 @@
+html, .body1{
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0rem !important;
+}
+.body1 {
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: #ecf0f1;
+    color: #666;
+}
+.header1 {
+    background-color: #2c3e50;
+    padding: 1rem 0;
+}
+.nav1 {
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.logo1 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
+.menu1 > li, .menu1 > a {
+    display: inline-block !important;
+}
+
+.menu1 a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 1.5rem;
+    transition: background-color .22s ease, color .22s ease ;
+}
+
+.menu1 a:hover{
+    background-color: #ba2222;
+    color: #fff;
+}
+
+.submenu1 {
+    position: absolute;
+    background-color: #2c3e50;
+    width: 140px;  
+    display: none;
+}
+.submenu2 {
+    position: absolute;
+    left: 100%;
+    width: 140px;
+    background-color: #2c3e50;
+    display: none;
+  }
+.menu1 li:hover > .submenu1{
+    display: block;
+    animation: slideup .5s ease;
+}
+
+.submenu1 li:hover > .submenu2 {
+    display: block;
+    animation: slideleft .5s ease;
+}
+
+@keyframes slideup {
+    0% {
+        opacity: 0;
+        transition: translateY(18px);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes slideleft {
+    0% {
+        opacity: 0;
+        transition: translateY(18px);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
