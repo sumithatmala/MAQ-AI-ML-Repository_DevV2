@@ -1,0 +1,43 @@
+// ProductDemo.jsx
+import React from "react";
+import { MDBContainer } from "mdb-react-ui-kit";
+import { Container, Row, Col } from "react-bootstrap";
+
+const ProductDemo = () => {
+  return (
+    <body>
+    <section class="product-information">
+    <Container fluid>
+        <Row className="product-header bg-voilet-linear-gradient text-white p-4" >
+        <Col>
+          <h1 className="display-4">Scikit-Learn</h1>
+          <p className="lead">Powerful machine learning library for Python</p>
+        </Col>
+      </Row>
+        <Row className='product-overview'>
+        <Col>
+            <h2>Product Demo</h2>
+          <p>Watch our demo video to see the product in action.</p>
+        </Col>
+      </Row>
+      <Row className='product-content'>
+        <Col>
+          <MDBContainer>
+            <div className="ratio ratio-16x9">
+                <iframe
+                src="https://media.istockphoto.com/id/1459392381/video/time-lapse-of-passenger-walking-and-running-on-escalator-in-rush-hour.mp4?s=mp4-640x640-is&k=20&c=tF-Zlbhb731ZvCEszW-EgBgPYvD_g_CMAh7N1jJhqzM="
+                title="Scikit-Learn"
+                allowfullscreen
+                style={{ width: "100%", height: "80%",paddingTop: "5%", }}
+                ></iframe>
+            </div>
+            </MDBContainer>
+        </Col>
+      </Row>
+    </Container>
+    </section>
+    </body>
+  );
+};
+
+export default ProductDemo;

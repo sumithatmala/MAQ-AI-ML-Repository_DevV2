@@ -9,21 +9,21 @@ import InfoRoundedIcon from "@mui/icons-material/InfoRounded";
 import { React, useState } from "react";
 
 export default function SideBar() {
-  const [opac, setOpac] = useState("0.7");
+  const [opac, setOpac] = useState("1");
   const {
     collapseSidebar,
-    collapsed, // Accessing the 'collapsed' state
+    collapsed,
   } = useProSidebar();
 
   const handleOnMouseEnter = () => {
     if (collapsed) {
-      setOpac("0.7");
+      setOpac("1");
       collapseSidebar();
     }
   };
   const handleOnMouseLeave = () => {
     if (!collapsed) {
-      setOpac("0.2");
+      setOpac("0.9");
       collapseSidebar();
     }
   };
@@ -39,11 +39,13 @@ export default function SideBar() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
+          
         }}>
         <Sidebar
+        
           style={{
             height: "50vh",
-            backgroundColor: "rgba(32,89,118,0.3)",
+            // backgroundColor: "rgba(32,89,118,0.3)",
           }}
           breakPoint="sm"
           transitionDuration={800}
@@ -56,6 +58,7 @@ export default function SideBar() {
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
+              alignItems: "normal",
             }}>
             {/* <MenuItem
               icon={<MenuRoundedIcon style={{ fontSize: "3rem" }} />}
@@ -67,12 +70,12 @@ export default function SideBar() {
             </MenuItem> */}
 
             <NavLink
-              to={"/AboutUs"}
+              to={"/productdetails"}
               style={{
                 textDecoration: "none",
                 textAlign: "center",
                 fontWeight: "bold",
-                color: "#1b2e40",
+                color: "#302758",
                 fontSize: "20px",
                 fontFamily: "Arial, Helvetica, sans-serif",
               }}>
@@ -84,12 +87,12 @@ export default function SideBar() {
             </NavLink>
 
             <NavLink
-              to={"/AboutUs"}
+              to={"/productdemo"}
               style={{
                 textDecoration: "none",
                 textAlign: "center",
                 fontWeight: "bold",
-                color: "#1b2e40",
+                color: "#302758",
                 fontSize: "20px",
                 fontFamily: "Arial, Helvetica, sans-serif",
               }}>
@@ -103,28 +106,28 @@ export default function SideBar() {
             </NavLink>
 
             <NavLink
-              to={"/AboutUs"}
+              to={"/producttryit"}
               style={{
                 textDecoration: "none",
                 textAlign: "center",
                 fontWeight: "bold",
-                color: "#1b2e40",
+                color: "#302758",
                 fontSize: "20px",
                 fontFamily: "Arial, Helvetica, sans-serif",
               }}>
               <MenuItem
                 style={{ marginBottom: "15px" }}
-                icon={<TryRoundedIcon style={{ fontSize: "3rem" }} />}>
+                icon={<TryRoundedIcon  style={{ fontSize: "3rem" }} />}>
                 Try It!
               </MenuItem>
             </NavLink>
             <NavLink
-              to={"/AboutUs"}
+              to={"/productcontactus"}
               style={{
                 textDecoration: "none",
                 textAlign: "center",
                 fontWeight: "bold",
-                color: "#1b2e40",
+                color: "#302758",
                 fontSize: "20px",
                 fontFamily: "Arial, Helvetica, sans-serif",
               }}>

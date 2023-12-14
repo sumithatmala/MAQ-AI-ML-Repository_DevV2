@@ -1,4 +1,4 @@
-import InHouseIcon from "../images/in-house-tools.png";
+import InHouseIcon from "./images/in-house-tools.png";
 
 export default function Homedata() {
     const Specializations = [

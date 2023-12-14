@@ -5,7 +5,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import { Title } from '@mui/icons-material';
-import ProductCard from '../../components/ui-elements/common/Product-Card';
+import ProductCard from '../../ui-elements/common/Product-Card';
 
 function CustomTabPanel(props) {
  const { children, value, index, ...other } = props;

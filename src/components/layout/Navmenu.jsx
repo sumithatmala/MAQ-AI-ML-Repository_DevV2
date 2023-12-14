@@ -2,16 +2,16 @@ import React from "react";
 import CompanyLogo from "../ui-elements/CompanyLogo";
 import NavigationLinks from "./NavigationLinks";
 import MenuLinks from "../ui-elements/MenuLinks/MenuLinks";
-import "../../css/style.css";
+// import "../../css/style.css";
 
 const NavMenu = () => {
     const navbarStyles = {
-      '--bs-navbar-padding-y': '0rem', // Custom property for padding-y
+      '--bs-navbar-padding-y': '0rem',
     };
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg  ftco-navbar-light fixed-top"
+        className="navbar navbar-expand-lg bg-light ftco-navbar-light fixed-top"
         id="ftco-navbar"
         style={navbarStyles}>
         <div className="container">

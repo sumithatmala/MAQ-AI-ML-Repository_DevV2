@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Sdata from "../Sdata.js";
+import Sdata from "./Sdata.js";
 import Card from "./Card.js";
 import Banner from "./Banner.js";
 import Homedata from "./HomeData.js";
