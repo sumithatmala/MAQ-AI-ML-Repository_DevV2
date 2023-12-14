@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
-import Sdata from "./Sdata.js";
+import React, { useState } from "react";
+// import Sdata from "./Sdata.js";
 import Card from "./Card.js";
 import Banner from "./Banner.js";
 import Homedata from "./HomeData.js";
-import { Home } from "@mui/icons-material";
+// import { Home } from "@mui/icons-material";
 import "./HomePage.css";
 import Classification from "./Classification/Classification.js";
 export default function HomePage() {

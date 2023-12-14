@@ -1,11 +1,9 @@
 import React from "react";
 import "./Banner.css";
-// import "./plyr.min.css";
 import hero from "./images/homepage.png"
-import heroTrial from "./images/Framebackgorund-trial.png"
+// import heroTrial from "./images/Framebackgorund-trial.png"
 import mouseIcon from "./images/mouse-icon.png"
 import downArrow from "./images/down-arow.png"
-import ai from "./images/banner.jpg";
 
 export default function Banner() {
   return (
