@@ -24,9 +24,9 @@ export default function ProductGallery() {
         <img className="img d-block w-100" style={imageStyle} src='https://cdn.analyticsvidhya.com/wp-content/uploads/2020/05/Scikit-learn.jpg' alt='Scikit v1.0.0' />
         <MDBCarouselCaption>
           <h5>Scikit Learn V 1.0.0</h5>
-          <p>
+          {/* <p>
             Scikit Learn version 1.0.0 introduces new features for enhanced machine learning capabilities. The release focuses on improved model interpretability and performance optimizations.
-          </p>
+          </p> */}
         </MDBCarouselCaption>
       </MDBCarouselItem>
 
@@ -34,9 +34,9 @@ export default function ProductGallery() {
         <img style={imageStyle} src='https://daxg39y63pxwu.cloudfront.net/images/blog/scikit-learn-projects/scikit_learn_projects.webp' alt='Scikit Example' />
         <MDBCarouselCaption>
           <h5>Scikit Example</h5>
-          <p>
+          {/* <p>
             Explore real-world Scikit-Learn examples and projects. Learn how Scikit-Learn is used in various domains, including finance, healthcare, and more.
-          </p>
+          </p> */}
         </MDBCarouselCaption>
       </MDBCarouselItem>
 
@@ -44,9 +44,9 @@ export default function ProductGallery() {
         <img style={imageStyle} src='https://pythonfix.com/pkg/s/sklearn/sklearn-banner.webp' alt='Scikit 2' />
         <MDBCarouselCaption>
           <h5>Scikit 2</h5>
-          <p>
+          {/* <p>
             Scikit version 2 introduces advanced model tuning options and compatibility enhancements. Stay updated with the latest improvements in Scikit-Learn.
-          </p>
+          </p> */}
         </MDBCarouselCaption>
       </MDBCarouselItem>
     </MDBCarousel>

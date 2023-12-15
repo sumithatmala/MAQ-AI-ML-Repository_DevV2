@@ -1,10 +1,11 @@
 import { Menu, MenuItem, useProSidebar, Sidebar } from "react-pro-sidebar";
-import { NavLink } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import TryRoundedIcon from "@mui/icons-material/TryRounded";
 import ContactsRoundedIcon from "@mui/icons-material/ContactsRounded";
 // import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import OndemandVideoRoundedIcon from "@mui/icons-material/OndemandVideoRounded";
 import InfoRoundedIcon from "@mui/icons-material/InfoRounded";
+import { HashLink } from 'react-router-hash-link';
 
 import { React, useState } from "react";
 
@@ -69,8 +70,8 @@ export default function SideBar() {
               {" "}
             </MenuItem> */}
 
-            <NavLink
-              to={"/productdetails"}
+            <HashLink
+              to={"./#prodinfo"}
               style={{
                 textDecoration: "none",
                 textAlign: "center",
@@ -84,10 +85,10 @@ export default function SideBar() {
                 icon={<InfoRoundedIcon style={{ fontSize: "3rem" }} />}>
                 Details
               </MenuItem>
-            </NavLink>
+            </HashLink>
 
-            <NavLink
-              to={"/productdemo"}
+            <HashLink
+              to={"./#demo"}
               style={{
                 textDecoration: "none",
                 textAlign: "center",
@@ -103,10 +104,10 @@ export default function SideBar() {
                 }>
                 Demo
               </MenuItem>
-            </NavLink>
+            </HashLink>
 
-            <NavLink
-              to={"/producttryit"}
+            <HashLink
+              to={"./#tryit"}
               style={{
                 textDecoration: "none",
                 textAlign: "center",
@@ -120,9 +121,9 @@ export default function SideBar() {
                 icon={<TryRoundedIcon  style={{ fontSize: "3rem" }} />}>
                 Try It!
               </MenuItem>
-            </NavLink>
-            <NavLink
-              to={"/productcontactus"}
+            </HashLink>
+            <HashLink
+              to={"./#contact"}
               style={{
                 textDecoration: "none",
                 textAlign: "center",
@@ -134,9 +135,9 @@ export default function SideBar() {
               <MenuItem
                 style={{ marginBottom: "15px" }}
                 icon={<ContactsRoundedIcon style={{ fontSize: "3rem" }} />}>
-                Contacts
+                Contact
               </MenuItem>
-            </NavLink>
+            </HashLink>
           </Menu>
         </Sidebar>
       </div>

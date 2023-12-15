@@ -3,40 +3,45 @@ import InHouseIcon from "./images/in-house-tools.png";
 export default function Homedata() {
     const Specializations = [
       {
-        title: "In-House Tools",
+        title: "Artificial Intelligence",
         description:"Reduce the time and resources required to migrate reports.",
         imageURL: InHouseIcon,
       },
         {
-            title: "Classification",
+            title: "Machine Learning",
             description:"Reduce the time and resources required to migrate reports.",
             imageURL: InHouseIcon,
         },
+        // {
+        //     title: "Classification",
+        //     description:"Reduce the time and resources required to migrate reports.",
+        //     imageURL: InHouseIcon,
+        // },
         {
-            title: "Clustering",
+            title: "Data Science",
             description:"Reduce the time and resources required to migrate reports.",
             imageURL: InHouseIcon,
         },
-        {
-            title: "Deep-Learning",
-            description:"Reduce the time and resources required to migrate reports.",
-            imageURL: InHouseIcon,
-        },
-        {
-            title: "Forecasting",
-            description:"Reduce the time and resources required to migrate reports.",
-            imageURL: InHouseIcon,
-        },
-        {
-            title: "NLP",
-            description:"Reduce the time and resources required to migrate reports.",
-            imageURL: InHouseIcon,
-        },
-        {
-            title: "Regression",
-            description:"Reduce the time and resources required to migrate reports.",
-            imageURL: InHouseIcon,
-        }
+        // {
+        //     title: "Deep-Learning",
+        //     description:"Reduce the time and resources required to migrate reports.",
+        //     imageURL: InHouseIcon,
+        // },
+        // {
+        //     title: "Forecasting",
+        //     description:"Reduce the time and resources required to migrate reports.",
+        //     imageURL: InHouseIcon,
+        // },
+        // {
+        //     title: "NLP",
+        //     description:"Reduce the time and resources required to migrate reports.",
+        //     imageURL: InHouseIcon,
+        // },
+        // {
+        //     title: "Regression",
+        //     description:"Reduce the time and resources required to migrate reports.",
+        //     imageURL: InHouseIcon,
+        // }
     ];
     return Specializations;
   }

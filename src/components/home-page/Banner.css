@@ -75,9 +75,9 @@ section {
     --background-color: #ffffff;
     --background-color-rgb: 0, 0, 0;
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     position: relative;
-    padding: 160px 0 80px 0;
+    padding: 160px 0 160px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,9 +163,9 @@ section {
 
   
 .box {
-    opacity: 0;
+    opacity: 1;
     /* transform: translateY(20px); */
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition: opacity 0.1s ease, transform 0.2s ease;
   }
 
   
@@ -251,7 +251,7 @@ section {
     height: 74.132px;
     flex-shrink: 0;
     margin: auto;
-    top: 15vh;
+    /* top: 15vh; */
     flex-direction: column;
   }
 
@@ -259,6 +259,7 @@ section {
     position: relative;
     z-index: 3;
     margin: auto;
+    margin-top:-10px;
   }
 
   .mouse-container p {

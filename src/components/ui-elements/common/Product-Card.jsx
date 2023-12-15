@@ -21,7 +21,7 @@ const ProductCard = (props) => {
                         fontWeight: "bold",
                         fontSize: "16px",
                     }} onClick={props.onClick} target="_blank" rel="noreferrer"
-                    >Try it now</button>
+                    >Read more</button>
                 </div>
             </div>
         </div>

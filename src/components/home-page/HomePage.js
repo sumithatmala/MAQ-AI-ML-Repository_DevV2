@@ -6,44 +6,52 @@ import Homedata from "./HomeData.js";
 // import { Home } from "@mui/icons-material";
 import "./HomePage.css";
 import Classification from "./Classification/Classification.js";
+import MachineLearning from "./MachineLearning/MachineLearning.js";
+import ArtificialIntelligence from "./ArtificialIntelligence/ArtificialIntelligence.js";
+
+
 export default function HomePage() {
   const specializations = Homedata();
-  const [selected, setSelected] = useState(specializations[1]);
+  const [selected, setSelected] = useState(specializations[0]);
   console.log(specializations);
 
   const displaySelected = () => {
     switch (selected.title) {
-      case "In-House Tools":
+      case "Artificial Intelligence":
         return (
-          <div className="specialization-details">
-            <div className="specialization-details-title">
-              {selected.title}
-            </div>
-            <div className="specialization-details-description">
-              {selected.description}
-            </div>
-            <div className="specialization-details-image">
-              <img src={selected.imageURL} alt="" className="specialization-details-image"/>
-            </div>
+          <div className="specialization-details" style={{marginLeft:"0rem"}}>
+          {/* //   <div className="specialization-details-title">
+          //     {selected.title}
+          //   </div>
+          //   <div className="specialization-details-description">
+          //     {selected.description}
+          //   </div>
+          //   <div className="specialization-details-image">
+          //     <img src={selected.imageURL} alt="" className="specialization-details-image"/>
+          //   </div> */}
+          <ArtificialIntelligence/>
           </div>
+          
         );
-      case "Classification":
+      case "Data Science":
         return (
           <Classification />
         );
-      case "Clustering":
+      case "Machine Learning":
         return (
-          <div className="specialization-details">
-            <div className="specialization-details-title">
-              {selected.title}
-            </div>
-            <div className="specialization-details-description">
-              {selected.description}
-            </div>
-            <div className="specialization-details-image">
-              <img src={selected.imageURL} alt="" className="specialization-details-image"/>
-            </div>
+          <div className="specialization-details" style={{marginLeft:"0rem"}}>
+          {/* //   <div className="specialization-details-title">
+          //     {selected.title}
+          //   </div>
+          //   <div className="specialization-details-description">
+          //     {selected.description}
+          //   </div>
+          //   <div className="specialization-details-image">
+          //     <img src={selected.imageURL} alt="" className="specialization-details-image"/>
+          //   </div> */}
+          <MachineLearning/>
           </div>
+         
         );
       case "Deep-Learning":
         return (
@@ -120,6 +128,7 @@ export default function HomePage() {
   return (
     <>
       <Banner />
+      <div className="parent-middle-sections" style={{paddingTop:"2px"}}>
       {/* Left list of specializations */}
       <div className="container middle-section">
         <div className="specializations">
@@ -143,6 +152,7 @@ export default function HomePage() {
         <div className="specialization-details">
           {displaySelected()}
         </div>
+      </div>
       </div>
     </>
   );
