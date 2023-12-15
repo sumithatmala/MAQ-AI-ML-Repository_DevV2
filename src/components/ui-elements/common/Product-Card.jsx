@@ -20,7 +20,12 @@ const ProductCard = (props) => {
                         boxShadow: "0px 2px 2px 0px rgba(0, 0, 0, 0.04)",
                         fontWeight: "bold",
                         fontSize: "16px",
-                    }} onClick={props.onClick} target="_blank" rel="noreferrer"
+                    }} onClick={
+                        // redirecting to the /productdetails page
+                        () => {
+                            window.location.href = "/productdetails"
+                        }
+                    } target="_blank" rel="noreferrer"
                     >Try it now</button>
                 </div>
             </div>

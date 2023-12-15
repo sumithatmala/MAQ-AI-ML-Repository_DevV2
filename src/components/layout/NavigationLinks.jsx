@@ -128,7 +128,7 @@ const NavigationLinks = [
         label: "Generative AI & GPT", 
         link: "#",
         submenu: [
-          { label: "Generative AI Developement", link: "/productdetails" , icon: <BlurCircularIcon />},
+          { label: "Generative AI Develop", link: "/productdetails" , icon: <BlurCircularIcon />},
           { label: "GPT Integration Services", link: "/productdetails" , icon: <BlurCircularIcon />},
           { label: "AI Chatbot Development", link: "/productdetails" , icon: <BlurCircularIcon />},
           { label: "LLM Development", link: "/productdetails", icon: <BlurCircularIcon /> },
@@ -139,8 +139,8 @@ const NavigationLinks = [
         link: "#",
         submenu: [
           { label: "OpenCV", link: "#", icon: <BlurCircularIcon /> },
-          { label: "TensorFlow Object Detection API", link: "#", icon: <BlurCircularIcon /> },
-          { label: "YOLO", link: "#", icon: <BlurCircularIcon /> },
+          { label: "TensorFlow ", link: "#", icon: <BlurCircularIcon /> },
+          { label: "Object Detection API", link: "#", icon: <BlurCircularIcon /> },
           { label: "Dlib", link: "#" , icon: <BlurCircularIcon />},
         ],
       },
@@ -149,8 +149,8 @@ const NavigationLinks = [
         link: "#",
         submenu: [
           { label: "OpenCV", link: "#", icon: <BlurCircularIcon /> },
-          { label: "TensorFlow Object Detection API", link: "#" , icon: <BlurCircularIcon />},
-          { label: "YOLO", link: "#" , icon: <BlurCircularIcon />},
+          { label: "TensorFlow ", link: "#" , icon: <BlurCircularIcon />},
+          { label: "Object Detection API", link: "#" , icon: <BlurCircularIcon />},
           { label: "Dlib", link: "#", icon: <BlurCircularIcon /> },
         ],
       },
