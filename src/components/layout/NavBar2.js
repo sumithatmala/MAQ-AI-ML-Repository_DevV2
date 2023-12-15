@@ -14,11 +14,25 @@ const NavBar2 = () => {
   const SubMenu = ({ items, hasSubmenu }) => {
     const hasSubmenuClass = hasSubmenu ? "sub-menu" : "sub-menu2";
     return (
-      <ul className={hasSubmenuClass}>
+      <ul className={hasSubmenuClass} style={{width:'fit-content'}}>
         {items.map((item, index) => (
-          <li key={index}>
-            <a href={item.link} className="menu-item" style={{padding: "0px"}}>
-              <span> {item.label} </span>
+          <li key={index} style={
+            {
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-between",
+              alignItems: "center",
+              padding: "10px",
+              width: "fit-content",
+              textWrap: "nowrap",
+              zIndex: "5",
+            }
+          }>
+                {item.icon !== null && item.icon}
+            <a href={item.link} className="menu-item" style={{paddingLeft: "5px", textAlign:'left'}} >
+              <span > 
+                {item.label} 
+              </span>
               {item.submenu && (
                 <i
                   className={`fas fa-caret-down m-5-p ${navClass}`}
@@ -45,7 +59,9 @@ const NavBar2 = () => {
     return (
       <li>
         <a href={link} className="menu-item">
-          <span> {label} </span>
+          <span> 
+            {label} 
+          </span>
           {submenu && (
             <i
               className={`fas fa-caret-down ${navClass}`}

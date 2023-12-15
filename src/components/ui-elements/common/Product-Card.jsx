@@ -5,7 +5,7 @@ const ProductCard = (props) => {
     return (
         <div>
             {/* card showing details of a product with a heading, description on left aligned and Try it now button button at the right corner   */}
-            <div className="card" style={{width:'100%', padding:'20px', margin:'20px 0px'}}>
+            <div className="card" style={{width:'100%', padding:'25px', margin:'20px 0px'}}>
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
                     <p className="card-text">{props.description}</p>

@@ -104,46 +104,60 @@
 //     // },
     
 //   ];
+import React from 'react';
+import BlurCircularIcon from '@mui/icons-material/BlurCircular';
 
 const NavigationLinks = [
   { label: "Home", link: "./home" },
   { 
-    label: "Artificial Intelligence", 
+    label: "Services", 
     link: "#",
+    icon: null,
     submenu: [
       { 
-        label: "Frameworks", 
+        label: "AI & ML", 
         link: "#",
+        icon: null,
         submenu: [
-          { label: "TensorFlow", link: "#" },
-          { label: "PyTorch", link: "#" },
-          { label: "Keras", link: "#" },
+          { label: "AI Consulting", link: "/productdetails", icon: <BlurCircularIcon /> },
+          { label: "AI Software Development", link: "/productdetails" , icon: <BlurCircularIcon />},
+          { label: "Data Science Services", link: "/productdetails", icon: <BlurCircularIcon /> },
         ],
       },
       { 
-        label: "NLP", 
+        label: "Generative AI & GPT", 
         link: "#",
         submenu: [
-          { label: "SpaCy", link: "#" },
-          { label: "NLTK", link: "#" },
-          { label: "GPT Models", link: "#" },
-          { label: "BERT", link: "#" },
+          { label: "Generative AI Developement", link: "/productdetails" , icon: <BlurCircularIcon />},
+          { label: "GPT Integration Services", link: "/productdetails" , icon: <BlurCircularIcon />},
+          { label: "AI Chatbot Development", link: "/productdetails" , icon: <BlurCircularIcon />},
+          { label: "LLM Development", link: "/productdetails", icon: <BlurCircularIcon /> },
         ],
       },
       { 
-        label: "Computer Vision", 
+        label: "Big Data & Cloud", 
         link: "#",
         submenu: [
-          { label: "OpenCV", link: "#" },
-          { label: "TensorFlow Object Detection API", link: "#" },
-          { label: "YOLO", link: "#" },
-          { label: "Dlib", link: "#" },
+          { label: "OpenCV", link: "#", icon: <BlurCircularIcon /> },
+          { label: "TensorFlow Object Detection API", link: "#", icon: <BlurCircularIcon /> },
+          { label: "YOLO", link: "#", icon: <BlurCircularIcon /> },
+          { label: "Dlib", link: "#" , icon: <BlurCircularIcon />},
+        ],
+      },
+      { 
+        label: "Software Development", 
+        link: "#",
+        submenu: [
+          { label: "OpenCV", link: "#", icon: <BlurCircularIcon /> },
+          { label: "TensorFlow Object Detection API", link: "#" , icon: <BlurCircularIcon />},
+          { label: "YOLO", link: "#" , icon: <BlurCircularIcon />},
+          { label: "Dlib", link: "#", icon: <BlurCircularIcon /> },
         ],
       },
     ],
   },
   { 
-    label: "Machine Learning", 
+    label: "Solutions", 
     link: "#",
     submenu: [
       { 

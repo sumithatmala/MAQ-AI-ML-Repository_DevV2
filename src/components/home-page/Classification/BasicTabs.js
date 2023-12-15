@@ -45,15 +45,15 @@ export default function BasicTabs() {
  const BinaryClassificationProducts = [
     {
         title: "Binary Classification",
-        description: "Binary classification is the process of classifying data into two distinct categories. It is the simplest form of classification problem where the response variable can only take two distinct values, for example, either 0 or 1, true or false, spam or no spam, etc.",
+        description: "Binary classification is the process of classifying data into two distinct categories. It is the simplest form of classification problem where the response variable can only take two distinct values.",
     },
     {
         title: "Binary Classification",
-        description: "Binary classification is the process of classifying data into two distinct categories. It is the simplest form of classification problem where the response variable can only take two distinct values, for example, either 0 or 1, true or false, spam or no spam, etc.",
+        description: "Binary classification is the process of classifying data into two distinct categories. It is the simplest form of classification problem where the response variable can only take two distinct values.",
     },
     {
         title: "Binary Classification",
-        description: "Binary classification is the process of classifying data into two distinct categories. It is the simplest form of classification problem where the response variable can only take two distinct values, for example, either 0 or 1, true or false, spam or no spam, etc.",
+        description: "Binary classification is the process of classifying data into two distinct categories. It is the simplest form of classification problem where the response variable can only take two distinct values.",
     }
 ];
 
