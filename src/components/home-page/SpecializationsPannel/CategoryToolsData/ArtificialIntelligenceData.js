@@ -30,7 +30,7 @@ export const ArtificialIntelligenceData = [
             {
                 title: "Feedback Summarizer Bot",
                 description: "NLTK is a type of classification in which a single class label is predicted for each instance. In multi-class classification, a class label should be predicted for each sample. For example, classification of fruits into its respective type.",
-                link: "./FeedbackSummarizerBot",
+                link: "./product/FeedbackSummarizerBot",
             },
             {
                 title: "GPT Models",
