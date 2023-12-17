@@ -49,12 +49,14 @@ const ProductInformation = () => {
         </Row>
         )}
         {/* Product Screenshots Section */}
+        {productDetails.gallery && (
         <Row className='product-gallery'>
           <Col>
             <h2>Product Gallery</h2>
             <ProductGallery images={productDetails.gallery}/>
           </Col>
         </Row>
+        )}
         {/*target users */}
         {productDetails.targetUsers && productDetails.targetUsers.length > 0 && (
         <Row className='product-overview d-flex justify-content-center' data-aos="fade-left">
