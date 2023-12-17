@@ -163,7 +163,7 @@ const ProductInformation = () => {
       </Container>
     </section>
     <ProductDemo link={productDetails.demo.link}/>
-    <ProductTryIt />
+    <ProductTryIt items={productDetails.title}/>
     <ProductContactUs />
     </>
   );

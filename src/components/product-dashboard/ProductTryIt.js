@@ -2,13 +2,13 @@ import React from 'react';
 import { MDBContainer } from "mdb-react-ui-kit";
 import { Container, Row, Col } from "react-bootstrap";
 
-const ProductTryIt = () => {
+const ProductTryIt = (props) => {
   return (
     <section id="tryit" className='product-information'>
     <Container fluid>
       <Row className='product-overview'>
         <Col>
-            <h2>Scikit-Learn Tool Showcase</h2>
+            <h2>{props.items} Tool Showcase</h2>
         </Col>
       </Row>
       <Row className='product-content'>
