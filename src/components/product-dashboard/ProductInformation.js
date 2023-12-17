@@ -46,12 +46,12 @@ const ProductInformation = () => {
           </Col>
         </Row>
         {/* Product Screenshots Section */}
-        {/* <Row className='product-gallery'>
+        <Row className='product-gallery'>
           <Col>
             <h2>Product Gallery</h2>
-            <ProductGallery />
+            <ProductGallery images={productDetails.gallery}/>
           </Col>
-        </Row> */}
+        </Row>
         {/*target users */}
         <Row className='product-overview d-flex justify-content-center' data-aos="fade-left">
         <h3>Target Users</h3>

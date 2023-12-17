@@ -11,7 +11,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import SpeedIcon from '@mui/icons-material/Speed';
 import OutputIcon from '@mui/icons-material/Output';
-
+// import SessionInformationBotimg1 from "../images/SessionInformationBot1.png";
 const iconSize = {
     height: "3rem", 
     width: "3rem"
@@ -126,6 +126,12 @@ export const SessionInformationBot = {
     demo: {
       link: "https://media.istockphoto.com/id/1459392381/video/time-lapse-of-passenger-walking-and-running-on-escalator-in-rush-hour.mp4?s=mp4-640x640-is&k=20&c=tF-Zlbhb731ZvCEszW-EgBgPYvD_g_CMAh7N1jJhqzM=",
     },
+    gallery: [
+                {
+                    name: "SessionInformationBot-1",
+                    url: "SessionInformationBot1.png",
+                },
+            ],
   };
   
 // export default SessionInformationBot;
