@@ -1654,7 +1654,7 @@ button.bg-dark:focus {
 
 .square:hover {
   transition: .5s;
-  background-color: #300141;
+  background-color: var(--main-color);
   color: #fff;
 }
 
