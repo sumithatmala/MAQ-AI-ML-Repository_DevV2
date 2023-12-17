@@ -1,7 +1,7 @@
 import * as SessionInformationBot from './SessionInformationBot.js';
-import * as SessionInformationBot2 from './SessionInformationBot2.js';
+import * as FeedbackSummarizerBot from './FeedbackSummarizerBot.js';
 
-export {SessionInformationBot, SessionInformationBot2}
+export {SessionInformationBot, FeedbackSummarizerBot}
 
 
-export const allExports = [SessionInformationBot, SessionInformationBot2];
+export const allExports = [SessionInformationBot, FeedbackSummarizerBot];

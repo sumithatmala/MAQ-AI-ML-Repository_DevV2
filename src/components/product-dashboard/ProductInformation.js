@@ -13,6 +13,7 @@ import * as ToolDetails from './ToolDetails/index.js';
 const ProductInformation = () => {
   const { productName } = useParams();
   const productDetails = ToolDetails[productName][productName]
+  console.log(productDetails)
   // console.log(ToolDetails[productName][productName].title)
   useEffect(() => {
     AOS.init({
@@ -31,6 +32,7 @@ const ProductInformation = () => {
             <ProductHeader data={{title: productDetails.title, description: productDetails.description}}/>
         </Row>
         {/* Product Overview Section */}
+        {productDetails.BusinessCase && productDetails.BusinessCase.length > 0 && (
         <Row id="prodinfo" className='product-overview'>
           <Col>
           <div className='product-container' data-aos="fade-right">
@@ -45,6 +47,7 @@ const ProductInformation = () => {
             </div>
           </Col>
         </Row>
+        )}
         {/* Product Screenshots Section */}
         <Row className='product-gallery'>
           <Col>
@@ -53,6 +56,7 @@ const ProductInformation = () => {
           </Col>
         </Row>
         {/*target users */}
+        {productDetails.targetUsers && productDetails.targetUsers.length > 0 && (
         <Row className='product-overview d-flex justify-content-center' data-aos="fade-left">
         <h3>Target Users</h3>
         {productDetails.targetUsers.map((user, index) => (
@@ -70,8 +74,10 @@ const ProductInformation = () => {
             ))}
           
         </Row>
+        )}
 
         {/*business outcomes */}
+        {productDetails.businessOutcomes && productDetails.businessOutcomes.length > 0 && (
         <Row className='fade-in product-overview d-flex justify-content-center' data-aos="fade-right">
         <h3>Business Outcomes</h3>
         {productDetails.businessOutcomes.map((outcome, index) => (
@@ -89,8 +95,10 @@ const ProductInformation = () => {
             ))}
           
         </Row>
+        )}
 
           {/*Solution Highlights​ */}
+          {productDetails.solutionHighlights && productDetails.solutionHighlights.length > 0 && (
           <Row id="prodinfo" className='product-overview' data-aos="fade-left">
             <Col>
             <div className='product-container' >
@@ -103,7 +111,9 @@ const ProductInformation = () => {
             </div>
           </Col>
         </Row>
+          )}
         {/*Summary */}
+        {productDetails.summary && productDetails.summary.length > 0 && (
         <Row id="prodinfo" className='product-overview'>
           <h3>Summary</h3>
           {productDetails.summary.map((highlights, index) => (
@@ -113,6 +123,7 @@ const ProductInformation = () => {
                   <div className='product-container'>
                     <h4>{highlights.title}</h4>
                     <ul>
+                      {console.log(highlights)}
                       {highlights.details.map((highlights, index) => (
                       <li key={index}>{highlights}</li>
                      ))}
@@ -146,6 +157,7 @@ const ProductInformation = () => {
             )
           ))}
         </Row>
+        )}
       </Container>
     </section>
     <ProductDemo link={productDetails.demo.link}/>

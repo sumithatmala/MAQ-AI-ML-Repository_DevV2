@@ -10,7 +10,7 @@ const ProductCard = (props) => {
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
                     <p className="card-text">{props.description}</p>
-                    <Link to="./product/SessionInformationBot">
+                    <Link to={props.link}>
                     <button href="./product/SessionInformationBot" className="btn py-2" style={{
                         position: 'absolute',
                         right: '20px',
@@ -22,7 +22,7 @@ const ProductCard = (props) => {
                         boxShadow: "0px 2px 2px 0px rgba(0, 0, 0, 0.04)",
                         fontWeight: "bold",
                         fontSize: "16px",
-                    }} onClick={props.onClick} target="_blank" rel="noreferrer"
+                    }} target="_blank" rel="noreferrer"
                     >Read more</button>
                     </Link>
                 </div>

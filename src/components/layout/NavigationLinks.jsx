@@ -125,7 +125,7 @@ const NavigationLinks = [
         link: "#",
         submenu: [
           { label: "Session Information Bot", link: "./product/SessionInformationBot" },
-          { label: "NLTK", link: "#" },
+          { label: "Feedback Summarizer Bot", link: "./product/FeedbackSummarizerBot" },
           { label: "GPT Models", link: "#" },
           { label: "BERT", link: "#" },
         ],

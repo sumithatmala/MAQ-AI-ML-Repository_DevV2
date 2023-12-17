@@ -86,6 +86,7 @@ export default function BasicTabs(props) {
               key={subIndex}
               title={subLink.title}
               description={subLink.description}
+              link={subLink.link}
             />
           ))}
         </CustomTabPanel>
