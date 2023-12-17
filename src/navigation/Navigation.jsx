@@ -1,25 +1,24 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {HashRouter as Router, BrowserRouter, Routes, Route } from "react-router-dom";
 import Container from "../components/layout/Container";
 import NotFound from "../components/views/NotFound";
 import HomePage from "../components/home-page/HomePage";
 import AboutUs from "../components/views/AboutUs";
 import SideBar from "../components/ui-elements/SideBar/SideBar";
 import ProductInformation from "../components/product-dashboard/ProductInformation";
-import ProductDemo from "../components/product-dashboard/ProductDemo";
-import ProductTryIt from "../components/product-dashboard/ProductTryIt";
-import ProductContactUs from "../components/product-dashboard/ProductContactUs";
 import '../css/style.css'
+import ScrollToTop from './ScrollToTop';
 
 const Navigation = () => {
   return (
-    <BrowserRouter>
+    <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
-          <Route path="/Home" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route
-            path="/productdetails"
+            path="/product/:productName"
             element={
               <>
                 <SideBar />
@@ -27,40 +26,10 @@ const Navigation = () => {
               </>
             }
           />
-          <Route
-            path="/productdemo"
-            element={
-              <>
-              
-                <SideBar />
-                <ProductDemo />
-              </>
-            }
-          />
-          <Route
-            path="/producttryit"
-            element={
-              <>
-              
-                <SideBar />
-                <ProductTryIt />
-              </>
-            }
-          />
-          <Route
-            path="/productcontactus"
-            element={
-              <>
-              
-                <SideBar />
-                <ProductContactUs />
-              </>
-            }
-          />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 };
 

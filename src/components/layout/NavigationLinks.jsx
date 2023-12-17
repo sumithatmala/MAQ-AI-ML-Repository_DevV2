@@ -106,7 +106,7 @@
 //   ];
 
 const NavigationLinks = [
-  { label: "Home", link: "./home" },
+  { label: "Home", link: "./" },
   { 
     label: "Artificial Intelligence", 
     link: "#",
@@ -124,8 +124,8 @@ const NavigationLinks = [
         label: "NLP", 
         link: "#",
         submenu: [
-          { label: "SpaCy", link: "#" },
-          { label: "NLTK", link: "#" },
+          { label: "Session Information Bot", link: "./product/SessionInformationBot" },
+          { label: "Feedback Summarizer Bot", link: "./product/FeedbackSummarizerBot" },
           { label: "GPT Models", link: "#" },
           { label: "BERT", link: "#" },
         ],

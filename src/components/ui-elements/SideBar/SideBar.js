@@ -1,5 +1,5 @@
 import { Menu, MenuItem, useProSidebar, Sidebar } from "react-pro-sidebar";
-import { NavLink} from "react-router-dom";
+// import { NavLink} from "react-router-dom";
 import TryRoundedIcon from "@mui/icons-material/TryRounded";
 import ContactsRoundedIcon from "@mui/icons-material/ContactsRounded";
 // import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
@@ -43,7 +43,7 @@ export default function SideBar() {
           
         }}>
         <Sidebar
-        
+          defaultCollapsed
           style={{
             height: "50vh",
             // backgroundColor: "rgba(32,89,118,0.3)",

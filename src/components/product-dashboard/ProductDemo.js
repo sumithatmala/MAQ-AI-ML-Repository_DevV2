@@ -1,41 +1,32 @@
 // ProductDemo.jsx
 import React from "react";
-import { MDBContainer } from "mdb-react-ui-kit";
 import { Container, Row, Col } from "react-bootstrap";
+import {Media, Video } from '@vidstack/player-react';
 
-const ProductDemo = () => {
+const ProductDemo = (props) => {
+  console.log(props.link.demoVideo)
   return (
-    <section class="product-information" style={{paddingTop: "60px"}}>
-    <Container fluid>
-        <Row className="product-header bg-voilet-linear-gradient text-white p-4" >
-        <Col>
-          <h1 className="display-4">Scikit-Learn</h1>
-          <p className="lead">Powerful machine learning library for Python</p>
-        </Col>
-      </Row>
+    <section id="demo" className="product-information">
+      <Container fluid>
         <Row className='product-overview'>
-        <Col>
+          <Col>
             <h2>Product Demo</h2>
-          <p>Watch our demo video to see the product in action.</p>
-        </Col>
-      </Row>
-      <Row className='product-content'>
-        <Col>
-          <MDBContainer>
-            <div className="ratio ratio-16x9">
-                <iframe
-                src="https://media.istockphoto.com/id/1459392381/video/time-lapse-of-passenger-walking-and-running-on-escalator-in-rush-hour.mp4?s=mp4-640x640-is&k=20&c=tF-Zlbhb731ZvCEszW-EgBgPYvD_g_CMAh7N1jJhqzM="
-                title="Scikit-Learn"
-                allowfullscreen
-                style={{ width: "100%", height: "80%",paddingTop: "5%", }}
-                ></iframe>
-            </div>
-            </MDBContainer>
-        </Col>
-      </Row>
-    </Container>
+            <p>Watch our demo video to see the product in action.</p>
+          </Col>
+        </Row>
+        <Row className='product-content'>
+          <Col>
+          <Media>
+            <Video loading="visible" controls preload="true">
+              <video loading="visible"  src={props.link.demoVideo} preload="none" data-video="0" controls />
+            </Video>
+          </Media>
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 };
 
 export default ProductDemo;
+  

@@ -5,12 +5,12 @@ import ProductBackground from './images/product-banner-2.jpg'
 import './button.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import mouseIcon from "./images/mouse-icon.png"
-// import downArrow from "./images/down-arow.png"
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 
-const ProductHeader = () => {
-    
+const ProductHeader = (props) => {
+    const data = props.data
   useEffect(() => {
     AOS.init({
       
@@ -27,10 +27,10 @@ const ProductHeader = () => {
                 <div className="row justify-content-end">
                     <div className="col-lg-5">
                         <div data-aos="zoom-in" data-aos-delay="500">
-                        <div style={{fontFamily:"segoe UI",fontSize:"60px",fontWeight:"600"}}>Scikit-Learn</div>
+                        <div style={{fontFamily:"segoe UI",fontSize:"60px",fontWeight:"600"}}>{data.title}</div>
                         </div>
                         <p className="mt-3" data-aos="zoom-in" data-aos-delay="1000" style={{fontFamily:"segoe UI",color:"#fff"}}>
-                            Powerful machine learning library for Python
+                            {data.description}
                         </p>
                     </div>
                 </div>
@@ -39,14 +39,18 @@ const ProductHeader = () => {
                     Reach out to learn more
                 </div> */}
                 <div id="container" className="row justify-content-center">
-                {/* <a href="./#prodinfo"> */}
-                    <button class="learn-more" >
-                        <span class="circle" aria-hidden="true">
-                            <span class="icon arrow"></span>
+                <HashLink
+                        to={"./#prodinfo"}
+                        style={{
+                            textAlign: "center",
+                        }}>
+                    <button className="learn-more">
+                        <span className="circle" aria-hidden="true">
+                        <span className="icon arrow"></span>
                         </span>
-                        <span class="button-text" style={{paddingLeft: "12px"}}>Learn More</span>
+                        <span className="button-text" style={{ paddingLeft: "12px" }}>Learn More</span>
                     </button>
-                {/* </a> */}
+                </HashLink>
                 </div>
             </div>
         </section>
