@@ -5,12 +5,10 @@ import ProductBackground from './images/product-banner-2.jpg'
 import './button.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import mouseIcon from "./images/mouse-icon.png"
-// import downArrow from "./images/down-arow.png"
 
 
-const ProductHeader = () => {
-    
+const ProductHeader = (props) => {
+    const data = props.data
   useEffect(() => {
     AOS.init({
       
@@ -27,10 +25,10 @@ const ProductHeader = () => {
                 <div className="row justify-content-end">
                     <div className="col-lg-5">
                         <div data-aos="zoom-in" data-aos-delay="500">
-                        <div style={{fontFamily:"segoe UI",fontSize:"60px",fontWeight:"600"}}>Scikit-Learn</div>
+                        <div style={{fontFamily:"segoe UI",fontSize:"60px",fontWeight:"600"}}>{data.title}</div>
                         </div>
                         <p className="mt-3" data-aos="zoom-in" data-aos-delay="1000" style={{fontFamily:"segoe UI",color:"#fff"}}>
-                            Powerful machine learning library for Python
+                            {data.description}
                         </p>
                     </div>
                 </div>

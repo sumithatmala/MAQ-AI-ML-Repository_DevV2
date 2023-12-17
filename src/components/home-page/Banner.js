@@ -30,7 +30,7 @@ export default function Banner() {
         <div className="mouse-container move-mouse fade-up3"
           onClick={() => {
             const element = document.getElementsByClassName("parent-middle-sections");
-            console.log(element);
+            // console.log(element);
             //scroll down to the middle-section class
             element[0].scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 

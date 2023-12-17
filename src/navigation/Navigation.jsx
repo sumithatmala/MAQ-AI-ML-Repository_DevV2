@@ -6,9 +6,6 @@ import HomePage from "../components/home-page/HomePage";
 import AboutUs from "../components/views/AboutUs";
 import SideBar from "../components/ui-elements/SideBar/SideBar";
 import ProductInformation from "../components/product-dashboard/ProductInformation";
-import ProductDemo from "../components/product-dashboard/ProductDemo";
-import ProductTryIt from "../components/product-dashboard/ProductTryIt";
-import ProductContactUs from "../components/product-dashboard/ProductContactUs";
 import '../css/style.css'
 
 const Navigation = () => {
@@ -19,41 +16,11 @@ const Navigation = () => {
           <Route path="/Home" element={<HomePage />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route
-            path="/productdetails"
+            path="/product/:productName"
             element={
               <>
                 <SideBar />
                 <ProductInformation />
-              </>
-            }
-          />
-          <Route
-            path="/productdemo"
-            element={
-              <>
-              
-                <SideBar />
-                <ProductDemo />
-              </>
-            }
-          />
-          <Route
-            path="/producttryit"
-            element={
-              <>
-              
-                <SideBar />
-                <ProductTryIt />
-              </>
-            }
-          />
-          <Route
-            path="/productcontactus"
-            element={
-              <>
-              
-                <SideBar />
-                <ProductContactUs />
               </>
             }
           />

@@ -124,7 +124,7 @@ const NavigationLinks = [
         label: "NLP", 
         link: "#",
         submenu: [
-          { label: "SpaCy", link: "#" },
+          { label: "Session Information Bot", link: "./product/SessionInformationBot" },
           { label: "NLTK", link: "#" },
           { label: "GPT Models", link: "#" },
           { label: "BERT", link: "#" },

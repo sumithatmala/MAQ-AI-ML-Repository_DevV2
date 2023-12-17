@@ -1642,3 +1642,31 @@ button.bg-dark:focus {
 .dbox > div {
   margin-right: 15px; /* Adjust the value as needed */
 }
+
+.square {
+  border: 1.5px solid #000;
+  border-radius: 1.04167vw;
+  padding: 1.51042vw 1.875vw 1.5625vw 2.29167vw;
+  color: #000;
+  overflow: hidden;
+  position: relative;
+}
+
+.square:hover {
+  transition: .5s;
+  background-color: #300141;
+  color: #fff;
+}
+
+.square h3 {
+  color: inherit;
+}
+
+.fixed-dimensions {
+  width: 12rem; /* Adjust the width as needed */
+  height: 18rem; /* Adjust the height as needed */
+}
+.icon-container {
+  opacity: 1;
+  transition: opacity 1s ease; /* Add transition property */
+}
