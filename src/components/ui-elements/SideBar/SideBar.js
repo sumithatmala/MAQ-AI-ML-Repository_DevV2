@@ -43,7 +43,7 @@ export default function SideBar() {
           
         }}>
         <Sidebar
-        
+          defaultCollapsed
           style={{
             height: "50vh",
             // backgroundColor: "rgba(32,89,118,0.3)",
