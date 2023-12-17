@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CompanyLogo from "../ui-elements/CompanyLogo";
 import NavigationLinks from "./NavigationLinks";
+import { HashLink } from "react-router-hash-link";
 
 const NavBar2 = () => {
   const [isNavActive, setNavActive] = useState(false);
@@ -17,7 +18,7 @@ const NavBar2 = () => {
       <ul className={hasSubmenuClass}>
         {items.map((item, index) => (
           <li key={index}>
-            <a href={item.link} className="menu-item" style={{padding: "0px"}}>
+            <HashLink to={item.link} className="menu-item" style={{padding: "0px"}}>
               <span> {item.label} </span>
               {item.submenu && (
                 <i
@@ -31,7 +32,7 @@ const NavBar2 = () => {
                   aria-hidden="true"
                 ></i>
               )}
-            </a>
+            </HashLink>
             {item.submenu && (
               <SubMenu items={item.submenu} hasSubmenu={true} />
             )}
@@ -44,7 +45,7 @@ const NavBar2 = () => {
   const MenuItem = ({ label, link, submenu }) => {
     return (
       <li>
-        <a href={link} className="menu-item">
+        <HashLink to={link} className="menu-item">
           <span> {label} </span>
           {submenu && (
             <i
@@ -58,7 +59,7 @@ const NavBar2 = () => {
               aria-hidden="true"
             ></i>
           )}
-        </a>
+        </HashLink>
         {submenu && <SubMenu items={submenu} hasSubmenu={true} />}
       </li>
     );
