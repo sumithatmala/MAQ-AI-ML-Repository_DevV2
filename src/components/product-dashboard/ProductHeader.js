@@ -5,6 +5,8 @@ import ProductBackground from './images/product-banner-2.jpg'
 import './button.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 
 const ProductHeader = (props) => {
@@ -37,14 +39,18 @@ const ProductHeader = (props) => {
                     Reach out to learn more
                 </div> */}
                 <div id="container" className="row justify-content-center">
-                {/* <a href="./#prodinfo"> */}
-                    <button class="learn-more" >
-                        <span class="circle" aria-hidden="true">
-                            <span class="icon arrow"></span>
+                <HashLink
+                        to={"./#prodinfo"}
+                        style={{
+                            textAlign: "center",
+                        }}>
+                    <button className="learn-more">
+                        <span className="circle" aria-hidden="true">
+                        <span className="icon arrow"></span>
                         </span>
-                        <span class="button-text" style={{paddingLeft: "12px"}}>Learn More</span>
+                        <span className="button-text" style={{ paddingLeft: "12px" }}>Learn More</span>
                     </button>
-                {/* </a> */}
+                </HashLink>
                 </div>
             </div>
         </section>

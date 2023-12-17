@@ -20,8 +20,8 @@ export default function ProductGallery(props) {
 
   return (
     <MDBCarousel showIndicators showControls fade style={carouselContainerStyle}>
-      {props.images.map((item, link) => (
-        <MDBCarouselItem className='active' >
+      {props.images.map((item, index) => (
+        <MDBCarouselItem key={index} className='active' >
         <img className="img d-block w-100" style={imageStyle} src={`./images/${item.url}`} alt='Scikit v1.0.0' />
         <MDBCarouselCaption>
           <h5>{item.name}</h5>

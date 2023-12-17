@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 const ProductCard = (props) => {
@@ -9,7 +10,8 @@ const ProductCard = (props) => {
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
                     <p className="card-text">{props.description}</p>
-                    <button href="#" className="btn py-2" style={{
+                    <Link to="./product/SessionInformationBot">
+                    <button href="./product/SessionInformationBot" className="btn py-2" style={{
                         position: 'absolute',
                         right: '20px',
                         bottom: '20px',
@@ -22,6 +24,7 @@ const ProductCard = (props) => {
                         fontSize: "16px",
                     }} onClick={props.onClick} target="_blank" rel="noreferrer"
                     >Read more</button>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -3,7 +3,7 @@ import companyLogo from "./MAQ-Software-Logo.svg";
 
 export const CompanyLogo = () => {
   return (
-    <Link to="./home" className="Navbar-brand mb-0 h1">
+    <Link to="./" className="Navbar-brand mb-0 h1">
       <img
         src={companyLogo}
         alt="Company Logo"

@@ -106,7 +106,7 @@
 //   ];
 
 const NavigationLinks = [
-  { label: "Home", link: "./home" },
+  { label: "Home", link: "./" },
   { 
     label: "Artificial Intelligence", 
     link: "#",
