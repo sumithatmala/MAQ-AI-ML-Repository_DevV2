@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Container, Row, Col} from 'react-bootstrap';
 import ProductGallery from './ProductGallery';
@@ -8,24 +8,38 @@ import "aos/dist/aos.css";
 import ProductDemo from './ProductDemo';
 import ProductTryIt from './ProductTryIt';
 import ProductContactUs from './ProductContactUs';
-import * as ToolDetails from './ToolDetails/index.js';
+// import * as ToolDetails from './ToolDetails/index.js';
+import './target-users.css'
 
 const ProductInformation = () => {
+  const [productDetails, setproductDetails] = useState(null);
   const { productName } = useParams();
-  const productDetails = ToolDetails[productName][productName]
+  
   console.log(productDetails)
-  // console.log(ToolDetails[productName][productName].title)
   useEffect(() => {
     AOS.init({
       delay: 20
     }
     );
     AOS.refresh();
+    console.log("module")
+    import(`./ToolDetails/${productName}.js`)
+      .then((module) => {
+        setproductDetails(module.default);
+        // console.log(module)
+      })
+      .catch((error) => {
+        console.error('Error loading dynamicContent.js:', error);
+      });
   }, []);
 
+  if (!productDetails) {
+    // Loading state or alternative content
+    return <div style={{height: "100vh"}}>Loading...</div>;
+  }
   return (
     <>
-    {/* {console.log(productData)} */}
+    {productDetails? console.log(productDetails): console.log("aaa")}
     <section className='product-information'>
       <Container fluid>
         <Row className="bg-voilet-linear-gradient text-white">
@@ -58,7 +72,29 @@ const ProductInformation = () => {
         </Row>
         )}
         {/*target users */}
-        {productDetails.targetUsers && productDetails.targetUsers.length > 0 && (
+        {productDetails.businessOutcomes && productDetails.businessOutcomes.length > 0 && (
+        <section class="target-section">
+          <div class="target__inner">
+            <h2 class="head-block-center">Target Users</h2>
+            {/* <div class="text-block-center">Virtual assistant software development will enable you to delegate non-core tasks to a chatbot and focus on&nbsp;growing&nbsp;your business.</div> */}
+            <div class="target__list">
+            {productDetails.targetUsers.map((user, index) => (
+              <div key={index} class="target__list-item">
+                <div class="target__item">
+                  <div class="target__item-icon"> 
+                  {/* <img src="https://indatalabs.com/wp-content/uploads/2022/09/icon-24hours.svg" alt="ai customer care analytics"/> */}
+                  {user.icon}
+                  </div>
+                  <h3 class="target__item-title">{user.name}</h3>
+                  <div class="target__item-text">{user.caption}</div>
+                </div>
+              </div>
+            ))}
+            </div>
+          </div>
+        </section>
+        )}
+        {/* {productDetails.targetUsers && productDetails.targetUsers.length > 0 && (
         <Row className='product-overview d-flex justify-content-center' data-aos="fade-left">
         <h3>Target Users</h3>
         {productDetails.targetUsers.map((user, index) => (
@@ -76,7 +112,7 @@ const ProductInformation = () => {
             ))}
           
         </Row>
-        )}
+        )} */}
 
         {/*business outcomes */}
         {productDetails.businessOutcomes && productDetails.businessOutcomes.length > 0 && (

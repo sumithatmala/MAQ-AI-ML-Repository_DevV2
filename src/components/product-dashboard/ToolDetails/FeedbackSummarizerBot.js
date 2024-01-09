@@ -90,4 +90,4 @@ export const FeedbackSummarizerBot = {
     },
   };
   
-// export default SessionInformationBot;
+export default FeedbackSummarizerBot;

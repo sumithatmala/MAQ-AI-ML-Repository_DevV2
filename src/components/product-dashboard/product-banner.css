@@ -55,7 +55,7 @@
     font-family: var(--heading-font);
   }
   
-  section {
+  #productbanner {
     color: var(--default-color);
     background-color: var(--background-color);
     padding: 0rem 0;
