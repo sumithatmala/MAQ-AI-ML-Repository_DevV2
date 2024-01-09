@@ -480,7 +480,7 @@ nav a {
   padding: 0;
   display: block;
   position: absolute;
-  border-top: 3px solid var(--main-color);
+  border-top: 3px solid rgba(178, 175, 231, 0.856);
   background-color: rgb(244 245 246);
   /* z-index: 100; */
   top: 16rem;
@@ -499,19 +499,19 @@ nav a {
   top: -2.5rem;
   left: 40%;
   border: 1.2rem solid transparent;
-  border-bottom: 1.2rem solid var(--main-color);
+  border-bottom: 1.2rem solid rgba(178, 175, 231, 0.856);
 }
 
 .sub-menu .sub-menu::before {
   top: 0.3rem;
   left: -2.5rem;
   border: 1.2rem solid transparent;
-  border-right-color: var(--main-color);
+  border-right-color: rgba(178, 175, 231, 0.856);
 }
 
 .sub-menu .sub-menu {
   border-top: none;
-  border-left: 3px solid var(--main-color);
+  border-left: 3px solid rgba(178, 175, 231, 0.856);
   top: 0;
   left: 160%;
 }

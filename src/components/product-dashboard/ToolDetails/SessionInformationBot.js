@@ -127,12 +127,12 @@ export const SessionInformationBot = {
     demo: {
       link: {demoVideo},
     },
-    gallery: [
-                {
-                    name: "SessionInformationBot-1",
-                    url: "SessionInformationBot1.png",
-                },
-            ],
+    // gallery: [
+    //             {
+    //                 name: "SessionInformationBot-1",
+    //                 url: "SessionInformationBot1.png",
+    //             },
+    //         ],
   };
   
-// export default SessionInformationBot;
+export default SessionInformationBot;
