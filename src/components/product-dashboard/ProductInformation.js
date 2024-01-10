@@ -28,7 +28,7 @@ const ProductInformation = () => {
 
       })
       .catch((error) => {
-        console.error('Error loading dynamicContent.js:', error);
+        console.error(`Error loading ${productName}.js:`, error);
       });
   }, []);
 
