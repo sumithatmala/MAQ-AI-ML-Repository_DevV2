@@ -22,11 +22,10 @@ const ProductInformation = () => {
     }
     );
     AOS.refresh();
-    console.log("module")
     import(`./ToolDetails/${productName}.js`)
       .then((module) => {
         setproductDetails(module.default);
-        // console.log(module)
+
       })
       .catch((error) => {
         console.error('Error loading dynamicContent.js:', error);
@@ -39,7 +38,6 @@ const ProductInformation = () => {
   }
   return (
     <>
-    {productDetails? console.log(productDetails): console.log("aaa")}
     <section className='product-information'>
       <Container fluid>
         <Row className="bg-voilet-linear-gradient text-white">
@@ -72,17 +70,15 @@ const ProductInformation = () => {
         </Row>
         )}
         {/*target users */}
-        {productDetails.businessOutcomes && productDetails.businessOutcomes.length > 0 && (
+        {productDetails.targetUsers && productDetails.targetUsers.length > 0 && (
         <section class="target-section">
           <div class="target__inner">
             <h2 class="head-block-center">Target Users</h2>
-            {/* <div class="text-block-center">Virtual assistant software development will enable you to delegate non-core tasks to a chatbot and focus on&nbsp;growing&nbsp;your business.</div> */}
             <div class="target__list">
             {productDetails.targetUsers.map((user, index) => (
               <div key={index} class="target__list-item">
                 <div class="target__item">
                   <div class="target__item-icon"> 
-                  {/* <img src="https://indatalabs.com/wp-content/uploads/2022/09/icon-24hours.svg" alt="ai customer care analytics"/> */}
                   {user.icon}
                   </div>
                   <h3 class="target__item-title">{user.name}</h3>
