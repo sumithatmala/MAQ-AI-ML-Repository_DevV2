@@ -9,14 +9,15 @@ import ProductDemo from './ProductDemo';
 import ProductTryIt from './ProductTryIt';
 import ProductContactUs from './ProductContactUs';
 // import * as ToolDetails from './ToolDetails/index.js';
-import './target-users.css'
+import './css/target-users.css'
+import FAQs from './FAQs';
 
 const ProductInformation = () => {
   const [productDetails, setproductDetails] = useState(null);
   const { productName } = useParams();
-  
-  console.log(productDetails)
+
   useEffect(() => {
+    console.log(productName)
     AOS.init({
       delay: 20
     }
@@ -30,7 +31,7 @@ const ProductInformation = () => {
       .catch((error) => {
         console.error(`Error loading ${productName}.js:`, error);
       });
-  }, []);
+  }, [productName]);
 
   if (!productDetails) {
     // Loading state or alternative content
@@ -196,7 +197,10 @@ const ProductInformation = () => {
     </section>
     <ProductDemo link={productDetails.demo.link}/>
     <ProductTryIt items={productDetails.title}/>
-    <ProductContactUs />
+    <ProductContactUs/>
+    {productDetails.FAQs && productDetails.FAQs.length > 0 && (
+    <FAQs FAQs = {productDetails.FAQs}/>
+    )}
     </>
   );
 };

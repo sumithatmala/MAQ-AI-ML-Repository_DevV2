@@ -8,7 +8,9 @@
     display: block;
 
 }
-
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
 .head-block-center {
     max-width: 600px;
     margin: 0 auto 26px;
@@ -43,7 +45,8 @@
 }
 
 .target__item {
-    height: 100%;
+    /* height: 100%; */
+    height: 350px;
     padding: 25px 15px 15px;
     margin-bottom: 0;
     box-shadow: 0 15px 15px rgba(69, 60, 144, .2),0 4px 5px rgba(69, 60, 144, .12),0 2px 4px rgba(69, 60, 144, .14);

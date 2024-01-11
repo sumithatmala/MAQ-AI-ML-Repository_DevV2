@@ -24,12 +24,12 @@ export const ArtificialIntelligenceData = [
         subLinks: [
             {
                 title: "Session Information Bot",
-                description: "The Session Information Bot streamlines access to past session details, providing quick, accurate retrieval and an interactive interface for efficient content exploration.",
+                description: "The Session Information Bot streamlines access to past sessions with fast retrieval and an interactive interface for efficient content exploration.",
                 link: "./product/SessionInformationBot",
             },
             {
                 title: "Feedback Summarizer Bot",
-                description: "NLTK is a type of classification in which a single class label is predicted for each instance. In multi-class classification, a class label should be predicted for each sample. For example, classification of fruits into its respective type.",
+                description: "The Feedback Summarizer Bot utilizes AI and NLP to swiftly analyze and summarize customer feedback, streamlining organizational responses and improving product development.",
                 link: "./product/FeedbackSummarizerBot",
             },
             {

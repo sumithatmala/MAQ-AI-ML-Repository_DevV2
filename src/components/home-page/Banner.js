@@ -22,12 +22,19 @@ export default function Banner() {
             </p>
           </div>
           {/* Reach out button */}
-          <div className="reach-out mt-4 fade-up3 ml-3" style={{fontFamily:"segoe UI"}}>
+          <div className="reach-out mt-4 fade-up3 ml-3" style={{fontFamily:"segoe UI"}}
+            onClick={() => {
+              const element = document.getElementsByClassName("parent-middle-sections");
+              // console.log(element);
+              //scroll down to the middle-section class
+              element[0].scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+
+            }}>
               Read more
           </div>
         </div>
         {/* add mouse image to show user to scroll to learn more */}
-        <div className="mouse-container move-mouse fade-up3"
+        <div className="mouse-container move-mouse fade-up3" style={{}}
           onClick={() => {
             const element = document.getElementsByClassName("parent-middle-sections");
             // console.log(element);

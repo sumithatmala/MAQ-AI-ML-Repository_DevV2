@@ -133,6 +133,40 @@ export const SessionInformationBot = {
     //                 url: "SessionInformationBot1.png",
     //             },
     //         ],
+    FAQs: [
+      {
+        "question": "What is Session Information Bot?",
+        "answer": "Session Information Bot is a tool designed to optimize information retrieval from past sessions. It offers quick access, contextual search, and interactive user experiences, enhancing knowledge management within organizations."
+      },
+      {
+        "question": "Who are the primary users of Session Information Bot?",
+        "answer": "The primary users include attendees, analysts, training teams, and administrators. Attendees can reference session content, analysts can gather insights, training teams facilitate efficient knowledge management, and administrators maintain records of sessions and transcripts."
+      },
+      {
+        "question": "What are the business outcomes of using Session Information Bot?",
+        "answer": "The business outcomes include accelerated onboarding, enhanced data analysis and research capabilities, efficient project management, improved employee engagement in learning, enhanced learning and development initiatives, and improved knowledge sharing and collaboration."
+      },
+      {
+        "question": "How does Session Information Bot help in data analysis?",
+        "answer": "Researchers and analysts can leverage Session Information Bot to extract insights from session content and recordings, supporting data analysis and research projects."
+      },
+      {
+        "question": "What are the key features of Session Information Bot?",
+        "answer": "Key features include quick and accurate information retrieval, contextual search capabilities, an interactive UI experience, retrieval of video content with relevant timestamps, and results including supporting sources like video links or documents."
+      },
+      {
+        "question": "How does Session Information Bot address pain points?",
+        "answer": "Session Information Bot addresses pain points such as the dissipation of knowledge sources, difficulty in finding specific content, limited availability and accessibility of past sessions, lack of context in search results, and lengthy training and onboarding periods."
+      },
+      {
+        "question": "What are the outcomes of using Session Information Bot?",
+        "answer": "The outcomes include accelerated onboarding and training, enhanced data analysis and research capabilities, efficient project management, heightened employee engagement, enhanced learning and development initiatives, and improved knowledge sharing and collaboration."
+      },
+      {
+        "question": "Is there a demo available for Session Information Bot?",
+        "answer": "Yes, you can watch the demo video by following this link: [Demo Video](demoVideo)."
+      }
+    ]
   };
   
 export default SessionInformationBot;

@@ -1,8 +1,8 @@
 
 import React, { useEffect } from 'react';
-import "./product-banner.css";
+import "./css/product-banner.css";
 import ProductBackground from './images/product-banner-2.jpg'
-import './button.css'
+import './css/button.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';

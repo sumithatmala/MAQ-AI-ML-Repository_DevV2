@@ -88,6 +88,48 @@ export const FeedbackSummarizerBot = {
     demo: {
       link: {demoVideo},
     },
+    FAQs: [
+      {
+        "question": "What is the Feedback Summarizer Bot?",
+        "answer": "The Feedback Summarizer Bot is an AI-powered tool designed to swiftly analyze and summarize customer feedback, facilitating efficient organizational responses and improvements in product development."
+      },
+      {
+        "question": "Who are the target users for the Feedback Summarizer Bot?",
+        "answer": "The tool caters to various users, including Product Managers, Data Analysts, Customer Support Representatives, and Product Development Teams, each playing a unique role in leveraging customer feedback."
+      },
+      {
+        "question": "How does the Feedback Summarizer Bot benefit Product Managers?",
+        "answer": "Product Managers can extract actionable insights from customer feedback, generating valuable reports through in-depth analysis facilitated by the tool."
+      },
+      {
+        "question": "What outcomes can businesses expect from using the Feedback Summarizer Bot?",
+        "answer": "The tool delivers outcomes such as enhanced customer experience, improved product development, accelerated decision-making, increased customer satisfaction, proactive issue resolution, and a competitive advantage."
+      },
+      {
+        "question": "How does the Feedback Summarizer Bot enhance customer experience?",
+        "answer": "Organizations can prioritize product enhancements based on insights derived from customer feedback, resulting in more innovative and customer-centric products."
+      },
+      {
+        "question": "What role does the Feedback Summarizer Bot play in accelerating decision-making?",
+        "answer": "The tool facilitates faster decision-making by providing timely insights derived from feedback analysis, empowering business teams to make informed choices."
+      },
+      {
+        "question": "Can businesses use the tool to proactively resolve customer issues?",
+        "answer": "Yes, businesses can proactively identify and resolve customer issues by analyzing feedback in real-time, minimizing negative impacts, and improving customer loyalty."
+      },
+      {
+        "question": "How does the chatbot service work in the Feedback Summarizer Bot?",
+        "answer": "A chatbot service is implemented to interact with feedback data, allowing users to ask questions related to product feedback and retrieve relevant comments."
+      },
+      {
+        "question": "What are the key solution highlights of the Feedback Summarizer Bot?",
+        "answer": "Solution highlights include automatic categorization and summarization of feedback data based on factors like sentiment and product type, as well as the implementation of a chatbot service for interactive feedback analysis."
+      },
+      {
+        "question": "Is there a demo available for the Feedback Summarizer Bot?",
+        "answer": "Yes, a demo is available, and you can access it through the provided link to a demo video."
+      }
+    ]
   };
   
 export default FeedbackSummarizerBot;

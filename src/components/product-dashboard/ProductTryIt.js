@@ -21,6 +21,7 @@ const ProductTryIt = (props) => {
                 src="https://onecompiler.com/python/3wz7uns6h"
                 frameborder="0"
                 allowfullscreen
+                style={{border: "3px solid black"}}
             ></iframe>
         </MDBContainer>
         </Col>
