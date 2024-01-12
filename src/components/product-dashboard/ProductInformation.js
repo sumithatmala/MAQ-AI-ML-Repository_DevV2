@@ -155,8 +155,8 @@ const ProductInformation = () => {
               </Row>
             )}
 
-          {/*Solution Highlights​ */}
-          {productDetails.solutionHighlights && productDetails.solutionHighlights.length > 0 && (
+          {/* Solution Highlights​ */}
+          {/* {productDetails.solutionHighlights && productDetails.solutionHighlights.length > 0 && (
               <Row id="prodinfo" className='product-overview' data-aos="fade-left">
                 <Col>
                   <div className='product-container' >
@@ -169,9 +169,9 @@ const ProductInformation = () => {
                   </div>
                 </Col>
               </Row>
-            )}
+            )} */}
           {/*Summary */}
-          {productDetails.summary && productDetails.summary.length > 0 && (
+          {/* {productDetails.summary && productDetails.summary.length > 0 && (
             <Row id="prodinfo" className='product-overview'>
               <h3>Summary</h3>
               {productDetails.summary.map((highlights, index) => (
@@ -215,6 +215,123 @@ const ProductInformation = () => {
                 )
               ))}
             </Row>
+          )} */}
+
+           {/*Solution Highlights​ */}
+           {productDetails.solutionHighlights &&
+            productDetails.solutionHighlights.length > 0 && (
+              <Row
+                id="prodinfo"
+                className="product-overview"
+                data-aos="fade-left"
+                style={{ boxShadow: "none" }}
+              >
+                <Col>
+                  <div className="product-container">
+                    <h3 style={{color:'black'}}>Solution Highlights​</h3>
+                    <ul>
+                      {productDetails.solutionHighlights.map(
+                        (highlights, index) => (
+                          <li key={index}>{highlights}</li>
+                        )
+                      )}
+                    </ul>
+                  </div>
+                </Col>
+              </Row>
+            )}
+          {/*Summary */}
+          {productDetails.summary && productDetails.summary.length > 0 && (
+            <Row id="prodinfo" className="product-overview">
+              <h3>Summary</h3>
+              {productDetails.summary.map((highlights, index) =>
+                index % 2 === 0 ? (
+                  <Row key={index}>
+                    <Col data-aos="fade-right">
+                      <div className="product-container">
+                        <h4>{highlights.title}</h4>
+                        <ul>
+                          {console.log(highlights)}
+                          {highlights.details.map((highlights, index) => (
+                            <li key={index}>{highlights}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    </Col>
+                    <Col>
+                      <div
+                        className="icon-container"
+                        style={{
+                          display: "flex",
+                          flexDirection: "column",
+                          alignItems: "center",
+                        }}
+                      >
+                        {/* {highlights.icon} */}
+                        
+
+                        <iframe
+                          src="https://giphy.com/embed/LESpNIDaNBUcRIPzng"
+                          width="480"
+                          height="466"
+                          // frameBorder="0"
+                          class="giphy-embed"
+                          allowFullScreen
+                        ></iframe>
+                        <p>
+                          <a href="https://giphy.com/gifs/gears-setting-configure-LESpNIDaNBUcRIPzng">
+                            via GIPHY
+                          </a>
+                        </p>
+                      </div>
+                    </Col>
+                  </Row>
+                ) : (
+                  <Row key={index}>
+                    <Col>
+                      <div
+                        className="icon-container"
+                        style={{
+                          display: "flex",
+                          flexDirection: "column",
+                          alignItems: "center",
+                        }}
+                      >
+                        {/* {highlights.icon} */}
+                        
+
+                        <iframe
+                          src="https://giphy.com/embed/LESpNIDaNBUcRIPzng"
+                          width="480"
+                          height="466"
+                          // frameBorder="0"
+                          class="giphy-embed"
+                          allowFullScreen
+                        ></iframe>
+                        <p>
+                          <a href="https://giphy.com/gifs/gears-setting-configure-LESpNIDaNBUcRIPzng">
+                            via GIPHY
+                          </a>
+                        </p>
+
+
+
+                      </div>
+                    </Col>
+                    <Col data-aos="fade-left">
+                      <div className="product-container">
+                        <h4>{highlights.title}</h4>
+                        <ul>
+                          {highlights.details.map((highlights, index) => (
+                            <li key={index}>{highlights}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    </Col>
+                  </Row>
+                )
+              )}
+              </Row>
           )}
         </Container>
       </section>
