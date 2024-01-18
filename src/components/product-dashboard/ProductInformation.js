@@ -47,7 +47,7 @@ const ProductInformation = () => {
           </Row>
           {/* Product Overview Section */}
           {productDetails.BusinessCase && productDetails.BusinessCase.length > 0 && (
-              <Row id="prodinfo" className='product-overview'>
+              <Row id="prodinfo" className='product-overview' style={{backgroundColor: "white"}}>
                 <Col>
                   <div className='product-container' data-aos="fade-right">
 
@@ -64,7 +64,7 @@ const ProductInformation = () => {
             )}
           {/* Product Screenshots Section */}
           {productDetails.gallery && (
-            <Row className='product-gallery'>
+            <Row className='product-gallery' >
               <Col>
                 <h2>Product Gallery</h2>
                 <ProductGallery images={productDetails.gallery}/>
@@ -73,7 +73,7 @@ const ProductInformation = () => {
           )}
           {/*target users */}
           {productDetails.targetUsers && productDetails.targetUsers.length > 0 && (
-              <section class="target-section">
+              <section class="target-section" style={{backgroundColor: "white"}}>
                 <div class="target__inner">
                   <h2 class="head-block-center">Target Users</h2>
                   <div class="target__list">
@@ -115,9 +115,9 @@ const ProductInformation = () => {
           {/*business outcomes */}
           {productDetails.businessOutcomes &&
             productDetails.businessOutcomes.length > 1 && (
-              <Row className='fade-in product-overview d-flex justify-content-center' data-aos="fade-right">
+              <Row className='fade-in product-overview d-flex justify-content-center'>
                 <h2 className="head-block-center">Business Outcomes</h2>
-                <Carousel data-bs-theme="dark" interval={null} fade>
+                <Carousel data-bs-theme="dark" interval={null} fade touch >
                   {[
                     ...Array(
                       Math.ceil(productDetails.businessOutcomes.length / 3)

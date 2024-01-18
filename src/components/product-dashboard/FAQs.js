@@ -27,7 +27,7 @@ export default function App(props) {
           {props.FAQs.map((faq, index) => (
                       // <li key={index}>{highlights}</li>
                      
-            <MDBAccordionItem key={index} className="custom-accordion-item" collapseId={index+1} headerTitle={faq.question}>
+            <MDBAccordionItem key={index} className="FAQ__item custom-accordion-item" collapseId={index+1} headerTitle={faq.question}>
               {faq.answer}
             </MDBAccordionItem>
             

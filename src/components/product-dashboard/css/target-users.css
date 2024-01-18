@@ -1,6 +1,6 @@
 .target-section{
-    margin-bottom: 70px;
-    margin-top: 100px;
+    /* margin-bottom: 70px;
+    margin-top: 100px; */
     display: block;
 }
 .target__inner {
@@ -95,4 +95,8 @@ body{
     background: #fff;
     border-radius: 7px;
     text-align: center;
+}
+
+.FAQ__item {
+    box-shadow: 15px 15px 15px rgba(69, 60, 144, .2),0 4px 5px rgba(69, 60, 144, .12),0 2px 4px rgba(69, 60, 144, .14);
 }
