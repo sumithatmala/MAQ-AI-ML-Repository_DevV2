@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import ProductGallery from './ProductGallery';
 import ProductHeader from './ProductHeader';
 import AOS from "aos";
@@ -12,6 +12,24 @@ import ProductContactUs from './ProductContactUs';
 import './css/target-users.css'
 import FAQs from './FAQs';
 import { Carousel } from "react-bootstrap";
+import AnimatedDevelopment from './AnimatedDevelopment';
+
+// import React from 'react';
+
+// const MyComponent = () => {
+//   return (
+//     <div>
+//       <img
+//         src="src\components\product-dashboard\images\idea.png"
+//         alt="new"
+//       />
+//     </div>
+//   );
+// };
+
+// export default MyComponent;
+
+
 
 const ProductInformation = () => {
   const [productDetails, setproductDetails] = useState(null);
@@ -36,62 +54,62 @@ const ProductInformation = () => {
 
   if (!productDetails) {
     // Loading state or alternative content
-    return <div style={{height: "100vh"}}>Loading...</div>;
+    return <div style={{ height: "100vh" }}>Loading...</div>;
   }
   return (
     <>
       <section className='product-information'>
         <Container fluid>
           <Row className="bg-voilet-linear-gradient text-white">
-              <ProductHeader data={{title: productDetails.title, description: productDetails.description}}/>
+            <ProductHeader data={{ title: productDetails.title, description: productDetails.description }} />
           </Row>
           {/* Product Overview Section */}
           {productDetails.BusinessCase && productDetails.BusinessCase.length > 0 && (
-              <Row id="prodinfo" className='product-overview'>
-                <Col>
-                  <div className='product-container' data-aos="fade-right">
+            <Row id="prodinfo" className='product-overview'>
+              <Col>
+                <div className='product-container' data-aos="fade-right">
 
-          
-                    <h3>Business Case</h3>
-                    <ul>
-                      {productDetails.BusinessCase.map((item, index) => (
-                        <li key={index}>{item}</li>
-                      ))}
-                    </ul>
-                  </div>
-                </Col>
-              </Row>
-            )}
+
+                  <h3>Business Case</h3>
+                  <ul>
+                    {productDetails.BusinessCase.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              </Col>
+            </Row>
+          )}
           {/* Product Screenshots Section */}
           {productDetails.gallery && (
             <Row className='product-gallery'>
               <Col>
                 <h2>Product Gallery</h2>
-                <ProductGallery images={productDetails.gallery}/>
+                <ProductGallery images={productDetails.gallery} />
               </Col>
             </Row>
           )}
           {/*target users */}
           {productDetails.targetUsers && productDetails.targetUsers.length > 0 && (
-              <section class="target-section">
-                <div class="target__inner">
-                  <h2 class="head-block-center">Target Users</h2>
-                  <div class="target__list">
-                    {productDetails.targetUsers.map((user, index) => (
-                      <div key={index} class="target__list-item">
-                        <div class="target__item">
-                          <div class="target__item-icon"> 
-                  {user.icon}
-                  </div>
-                          <h3 class="target__item-title">{user.name}</h3>
-                          <div class="target__item-text">{user.caption}</div>
+            <section class="target-section">
+              <div class="target__inner">
+                <h2 class="head-block-center">Target Users</h2>
+                <div class="target__list">
+                  {productDetails.targetUsers.map((user, index) => (
+                    <div key={index} class="target__list-item">
+                      <div class="target__item">
+                        <div class="target__item-icon">
+                          {user.icon}
                         </div>
+                        <h3 class="target__item-title">{user.name}</h3>
+                        <div class="target__item-text">{user.caption}</div>
                       </div>
-                    ))}
-                  </div>
+                    </div>
+                  ))}
                 </div>
-              </section>
-            )}
+              </div>
+            </section>
+          )}
           {/* {productDetails.targetUsers && productDetails.targetUsers.length > 0 && (
         <Row className='product-overview d-flex justify-content-center' data-aos="fade-left">
         <h3>Target Users</h3>
@@ -164,9 +182,30 @@ const ProductInformation = () => {
                 data-aos="fade-left"
                 style={{ boxShadow: "none" }}
               >
+
+                <Col>
+                  <div
+                    className="icon-container"
+                    style={{                                                                
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                     
+                    }}
+                  >
+
+                    <img
+                      style={{height:"350px"}}
+                      src= 'https://www.pinclipart.com/picdir/big/394-3941805_groundbreaking-technology-light-bulb-icon-transparent-clipart.png' 
+                      alt="new"
+                    ></img>
+
+
+                  </div>
+                </Col>
                 <Col>
                   <div className="product-container">
-                    <h3 style={{color:'black'}}>Solution Highlights​</h3>
+                    <h3 style={{ color: 'black' }}>Solution Highlights​</h3>
                     <ul>
                       {productDetails.solutionHighlights.map(
                         (highlights, index) => (
@@ -176,6 +215,7 @@ const ProductInformation = () => {
                     </ul>
                   </div>
                 </Col>
+
               </Row>
             )}
 
@@ -207,9 +247,9 @@ const ProductInformation = () => {
                         }}
                       >
                         {/* {highlights.icon} */}
-                        
 
-                        <iframe
+                        <AnimatedDevelopment />
+                        {/* <iframe
                           src="https://giphy.com/embed/LESpNIDaNBUcRIPzng"
                           width="480"
                           height="466"
@@ -221,7 +261,7 @@ const ProductInformation = () => {
                           <a href="https://giphy.com/gifs/gears-setting-configure-LESpNIDaNBUcRIPzng">
                             via GIPHY
                           </a>
-                        </p>
+                        </p> */}
                       </div>
                     </Col>
                   </Row>
@@ -237,9 +277,9 @@ const ProductInformation = () => {
                         }}
                       >
                         {/* {highlights.icon} */}
-                        
 
-                        <iframe
+
+                        {/* <iframe
                           src="https://giphy.com/embed/LESpNIDaNBUcRIPzng"
                           width="480"
                           height="466"
@@ -251,7 +291,9 @@ const ProductInformation = () => {
                           <a href="https://giphy.com/gifs/gears-setting-configure-LESpNIDaNBUcRIPzng">
                             via GIPHY
                           </a>
-                        </p>
+                        </p> */}
+
+                        <AnimatedDevelopment />
 
 
 
@@ -274,11 +316,11 @@ const ProductInformation = () => {
           )}
         </Container>
       </section>
-      <ProductDemo link={productDetails.demo.link}/>
-      <ProductTryIt items={productDetails.title}/>
-      <ProductContactUs/>
+      <ProductDemo link={productDetails.demo.link} />
+      <ProductTryIt items={productDetails.title} />
+      <ProductContactUs />
       {productDetails.FAQs && productDetails.FAQs.length > 0 && (
-        <FAQs FAQs = {productDetails.FAQs}/>
+        <FAQs FAQs={productDetails.FAQs} />
       )}
     </>
   );

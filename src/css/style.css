@@ -720,6 +720,8 @@ li.move-right {
   color:#141414;
   font-family: proxima-nova,Helvetica Neue,Arial,sans-serif;
   font-weight: 300;
+  display: flex;
+  justify-content: left;
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 5%;
@@ -1468,6 +1470,8 @@ button.bg-dark:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* max-width: fit-content;
+  max-height: fit-content; */
 }
 
 .map-marker-icon {
