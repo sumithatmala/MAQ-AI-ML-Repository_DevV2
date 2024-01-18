@@ -727,6 +727,9 @@ li.move-right {
   background: white;
   /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
   border-radius: 8px;
+  font-family: proxima-nova,Helvetica Neue,Arial,sans-serif;
+  font-weight: 300;
+  color: #141414;
 }
 
 .product-content h2 {

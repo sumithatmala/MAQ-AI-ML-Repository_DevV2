@@ -159,12 +159,14 @@ const ProductInformation = () => {
           {/* {productDetails.solutionHighlights && productDetails.solutionHighlights.length > 0 && (
               <Row id="prodinfo" className='product-overview' data-aos="fade-left">
                 <Col>
-                  <div className='product-container' >
-                    <h3>Solution Highlights​</h3>
+                  <div className="product-container">
+                    <h3 style={{color:'black'}}>Solution Highlights​</h3>
                     <ul>
-                      {productDetails.solutionHighlights.map((highlights, index) => (
+                      {productDetails.solutionHighlights.map(
+                        (highlights, index) => (
                           <li key={index}>{highlights}</li>
-                        ))}
+                        )
+                      )}
                     </ul>
                   </div>
                 </Col>
@@ -174,11 +176,11 @@ const ProductInformation = () => {
           {/* {productDetails.summary && productDetails.summary.length > 0 && (
             <Row id="prodinfo" className='product-overview'>
               <h3>Summary</h3>
-              {productDetails.summary.map((highlights, index) => (
+              {productDetails.summary.map((highlights, index) =>
                 index % 2 === 0 ? (
                   <Row key={index}>
                     <Col data-aos="fade-right">
-                      <div className='product-container'>
+                      <div className="product-container">
                         <h4>{highlights.title}</h4>
                         <ul>
                           {console.log(highlights)}
@@ -189,20 +191,67 @@ const ProductInformation = () => {
                       </div>
                     </Col>
                     <Col>
-                      <div className="icon-container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                        {highlights.icon}
+                      <div
+                        className="icon-container"
+                        style={{
+                          display: "flex",
+                          flexDirection: "column",
+                          alignItems: "center",
+                        }}
+                      >
+                        {/* {highlights.icon} */}
+                        
+
+                        <iframe
+                          src="https://giphy.com/embed/LESpNIDaNBUcRIPzng"
+                          width="480"
+                          height="466"
+                          // frameBorder="0"
+                          class="giphy-embed"
+                          allowFullScreen
+                        ></iframe>
+                        <p>
+                          <a href="https://giphy.com/gifs/gears-setting-configure-LESpNIDaNBUcRIPzng">
+                            via GIPHY
+                          </a>
+                        </p>
                       </div>
                     </Col>
                   </Row>
                 ) : (
                   <Row key={index}>
                     <Col>
-                      <div className="icon-container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                        {highlights.icon}
+                      <div
+                        className="icon-container"
+                        style={{
+                          display: "flex",
+                          flexDirection: "column",
+                          alignItems: "center",
+                        }}
+                      >
+                        {/* {highlights.icon} */}
+                        
+
+                        <iframe
+                          src="https://giphy.com/embed/LESpNIDaNBUcRIPzng"
+                          width="480"
+                          height="466"
+                          // frameBorder="0"
+                          class="giphy-embed"
+                          allowFullScreen
+                        ></iframe>
+                        <p>
+                          <a href="https://giphy.com/gifs/gears-setting-configure-LESpNIDaNBUcRIPzng">
+                            via GIPHY
+                          </a>
+                        </p>
+
+
+
                       </div>
                     </Col>
                     <Col data-aos="fade-left">
-                      <div className='product-container'>
+                      <div className="product-container">
                         <h4>{highlights.title}</h4>
                         <ul>
                           {highlights.details.map((highlights, index) => (
