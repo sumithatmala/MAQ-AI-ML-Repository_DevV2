@@ -12,19 +12,12 @@ import ProductContactUs from './ProductContactUs';
 import './css/target-users.css'
 import FAQs from './FAQs';
 import { Carousel } from "react-bootstrap";
-import { ReactComponent as MyAnimatedSVG } from "./icons/development.svg"
-import { useSpring, animated } from 'react-spring';
-import AnimatedDevelopment from './icons/AnimatedDevelopment';
-import AnimatedSolution from './icons/AnimatedSolution';
-import AnimatedOutcome from './icons/AnimatedOutcome';
+
+
 
 const ProductInformation = () => {
   const [productDetails, setproductDetails] = useState(null);
   const { productName } = useParams();
-  const animatedSvgStyle = useSpring({
-    opacity: 1,
-    from: { opacity: 0 },
-  });
   useEffect(() => {
     console.log(productName)
     AOS.init({
@@ -185,9 +178,6 @@ const ProductInformation = () => {
           {productDetails.summary && productDetails.summary.length > 0 && (
             <Row id="prodinfo" className='product-overview'>
               <h3>Summary</h3>
-              <AnimatedDevelopment />
-              <AnimatedSolution />
-              <AnimatedOutcome />
               {productDetails.summary.map((highlights, index) => (
                 index % 2 === 0 ? (
                   <Row key={index}>
