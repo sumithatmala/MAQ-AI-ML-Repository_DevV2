@@ -1,7 +1,8 @@
 .target-section {
     margin-bottom: 70px;
-    margin-top: 100px;
+    padding-top: 100px;
     display: block;
+    background-color: white;
 }
 
 .target__inner {

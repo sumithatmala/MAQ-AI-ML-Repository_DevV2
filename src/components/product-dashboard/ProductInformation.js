@@ -15,6 +15,8 @@ import ProductContactUs from './ProductContactUs';
 import './css/target-users.css'
 import FAQs from './FAQs';
 
+
+
 const ProductInformation = () => {
   const [productDetails, setproductDetails] = useState(null);
   const { productName } = useParams();
@@ -69,9 +71,9 @@ const ProductInformation = () => {
           </Row>
           {/* Product Overview Section */}
           {productDetails.BusinessCase && productDetails.BusinessCase.length > 0 && (
-            <Row id="prodinfo" className='product-overview'>
-              <Col>
-                <div className='product-container' data-aos="fade-right">
+              <Row id="prodinfo" className='product-overview' style={{backgroundColor: "white"}}>
+                <Col>
+                  <div className='product-container' data-aos="fade-right">
 
 
                   <h3>Business Case</h3>
@@ -95,18 +97,18 @@ const ProductInformation = () => {
           )}
           {/*target users */}
           {productDetails.targetUsers && productDetails.targetUsers.length > 0 && (
-            <section class="target-section">
-              <div class="target__inner">
-                <h2 class="head-block-center">Target Users</h2>
-                <div class="target__list">
-                  {productDetails.targetUsers.map((user, index) => (
-                    <div key={index} class="target__list-item">
-                      <div class="target__item">
-                        <div class="target__item-icon">
-                          {user.icon}
-                        </div>
-                        <h3 class="target__item-title">{user.name}</h3>
-                        <div class="target__item-text">{user.caption}</div>
+              <section class="target-section" style={{backgroundColor: "white"}}>
+                <div class="target__inner">
+                  <h2 class="head-block-center">Target Users</h2>
+                  <div class="target__list">
+                    {productDetails.targetUsers.map((user, index) => (
+                      <div key={index} class="target__list-item">
+                        <div class="target__item">
+                          <div class="target__item-icon"> 
+                  {user.icon}
+                  </div>
+                          <h3 class="target__item-title">{user.name}</h3>
+                          <div class="target__item-text">{user.caption}</div>
                       </div>
                     </div>
                   ))}
@@ -134,38 +136,39 @@ const ProductInformation = () => {
         </Row>
         )} */}
 
-          {/*business outcomes */}
-{productDetails.businessOutcomes && productDetails.businessOutcomes.length > 0 && (
-            <Row className='fade-in product-overview d-flex justify-content-center' data-aos="fade-right">
-              <h3>Business Outcomes</h3>
-              <Slider {...settings}>
-                {productDetails.businessOutcomes.map((outcome, index) => (
-                  <>
-                  <div style={{ justifyContent: "center", display: "flex" }}>
-                    <div key={index} className="carousal__item mb-5">
-                      <div
-                        className="target__item-icon"
-                        style={{
-                          display: "flex",
-                          flexDirection: "column",
-                          alignItems: "center",
-                        }}>
-                        {outcome.icon}
+        {/*business outcomes */}
+        {productDetails.businessOutcomes && productDetails.businessOutcomes.length > 0 && (
+                <Row className='fade-in product-overview d-flex justify-content-center' data-aos="fade-right">
+                  <h3>Business Outcomes</h3>
+                  <Slider {...settings}>
+                    {productDetails.businessOutcomes.map((outcome, index) => (
+                      <>
+                      <div style={{ justifyContent: "center", display: "flex" }}>
+                        <div key={index} className="carousal__item mb-5">
+                          <div
+                            className="target__item-icon"
+                            style={{
+                              display: "flex",
+                              flexDirection: "column",
+                              alignItems: "center",
+                            }}>
+                            {outcome.icon}
+                          </div>
+                          <div className="target__item-title" style={{ fontSize: "0.9rem" }}>
+                            {outcome.outcome}
+                          </div>
+                          <div className="target__item-text" style={{ fontSize: "0.7rem" }} >
+                            {outcome.caption}
+                          </div>
+                        </div>
                       </div>
-                      <div className="target__item-title" style={{ fontSize: "0.9rem" }}>
-                        {outcome.outcome}
-                      </div>
-                      <div className="target__item-text" style={{ fontSize: "0.7rem" }} >
-                        {outcome.caption}
-                      </div>
-                    </div>
-                  </div>
-                  </>
-                ))}
-              </Slider>
+                      </>
+                    ))}
+                  </Slider>
 
-            </Row>
-          )}
+                </Row>
+              )}
+
 
           {/*Solution Highlights​ */}
           {productDetails.solutionHighlights && productDetails.solutionHighlights.length > 0 && (
