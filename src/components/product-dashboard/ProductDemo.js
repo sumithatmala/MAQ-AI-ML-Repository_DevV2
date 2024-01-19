@@ -6,7 +6,7 @@ import {Media, Video } from '@vidstack/player-react';
 const ProductDemo = (props) => {
   console.log(props.link.demoVideo)
   return (
-    <section id="demo" className="product-information">
+    <section id="demo" className="product-information" style={{paddingTop: "2%", backgroundColor: "white"}}>
       <Container fluid>
         <Row className='product-overview'>
           <Col>

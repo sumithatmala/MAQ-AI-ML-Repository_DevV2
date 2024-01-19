@@ -7,14 +7,14 @@ import LanguageIcon from '@mui/icons-material/Language';
 
 const ProductContactUs = () => {
   return (
-        <section id="contact" className='product-information'>
+        <section id="contact" className='product-information' style={{paddingTop: "2%", backgroundColor: "white"}}>
 		<Container fluid>
 			<Row className="product-overview">
 				<Col>
 					<h2 class="heading-section">Contact Form</h2>
 				</Col>
 			</Row>
-			<div class="product-content justify-content-center">
+			<div class="product-content justify-content-center" >
 				<div class="col-md-12">
 					<div class="wrapper">
 						<div class="row no-gutters">
