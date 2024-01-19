@@ -193,10 +193,13 @@ const ProductInformation = () => {
                 <Col>
                   <div className="product-container" style={{ display: "Block" }}>
                     <h3 style={{ color: 'black' }}>Solution Highlights​</h3>
-                    <ul>
+                    <ul className='bulletStyle'>
                       {productDetails.solutionHighlights.map(
                         (highlights, index) => (
-                          <li key={index}>{highlights}</li>
+                          // <li key={index}>{highlights}</li>
+                          <li key={index} style={{ color: "#141414", position: 'relative', paddingLeft: '1.2em' }}>
+                            {/* <span style={{ position: 'absolute', left: '0em', color: "#453c90" }}>•</span>*/} {highlights}
+                          </li>
                         )
                       )}
                     </ul>
@@ -214,12 +217,13 @@ const ProductInformation = () => {
                 index === 0 ? (
                   <Row key={index}>
                     <Col data-aos="fade-right">
-                      <div className="product-container">
+                      <div className="product-container" style={{ display: "block" }}>
                         <h4>{highlights.title}</h4>
-                        <ul>
-                          {console.log(highlights)}
-                          {highlights.details.map((highlights, index) => (
-                            <li key={index}>{highlights}</li>
+                        <ul className='bulletStyle' style={{ padding: 0 }}>
+                          {highlights.details.map((highlight, index) => (
+                            <li key={index} style={{ color: "#141414", position: 'relative', paddingLeft: '1.2em' }}>
+                              {highlight}
+                            </li>
                           ))}
                         </ul>
                       </div>
@@ -237,15 +241,17 @@ const ProductInformation = () => {
                       </div>
                     </Col>
                   </Row>
-                ): index === 2 ? (
+                ) : index === 2 ? (
                   <Row key={index}>
                     <Col data-aos="fade-right">
-                      <div className="product-container">
+                      <div className="product-container" style={{ display: "block" }}>
                         <h4>{highlights.title}</h4>
-                        <ul>
-                          {console.log(highlights)}
-                          {highlights.details.map((highlights, index) => (
-                            <li key={index}>{highlights}</li>
+                        <ul className='bulletStyle' style={{ padding: 0 }}>
+                          {highlights.details.map((highlight, index) => (
+                            <li key={index} style={{ color: "#141414", position: 'relative', paddingLeft: '1.2em' }}>
+                              {/* <span style={{ position: 'absolute', left: '0em', color: "#453c90" }}>•</span>  */}
+                              {highlight}
+                            </li>
                           ))}
                         </ul>
                       </div>
@@ -264,35 +270,42 @@ const ProductInformation = () => {
                     </Col>
                   </Row>
                 )
-                 :(
-                  <Row key={index}>
-                    <Col>
-                      <div
-                        className="icon-container"
-                        style={{
-                          display: "flex",
-                          flexDirection: "column",
-                          alignItems: "center",
-                        }}
-                      >
-                        {/* {highlights.icon} */}
-                        <AnimatedSolution />
-                      </div>
-                    </Col>
-                    <Col data-aos="fade-left">
-                      <div className="product-container">
-                        <h4>{highlights.title}</h4>
-                        <ul>
-                          {highlights.details.map((highlights, index) => (
-                            <li key={index}>{highlights}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    </Col>
-                    
+                  : (
+                    <Row key={index}>
+                      <Col>
+                        <div
+                          className="icon-container"
+                          style={{
+                            display: "flex",
+                            flexDirection: "column",
+                            alignItems: "center",
+                          }}
+                        >
+                          {/* {highlights.icon} */}
+                          <AnimatedSolution />
+                        </div>
+                      </Col>
+                      <Col data-aos="fade-left">
+                        <div className="product-container" style={{ display: "block" }}>
+                          <h4>{highlights.title}</h4>
+                          <ul className='bulletStyle' style={{ padding: 0 }}>
+                            {highlights.details.map((highlight, index) => (
+                              <li key={index} style={{ position: 'relative', paddingLeft: '1em' }}>
 
-                  </Row>
-                )
+
+                                <span style={{ color: "#141414" }}>{highlight}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </Col>
+
+
+
+
+
+                    </Row>
+                  )
               )}
             </Row>
           )}
