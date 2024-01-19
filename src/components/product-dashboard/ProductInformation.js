@@ -227,7 +227,7 @@ const ProductInformation = () => {
           {/*Summary */}
           {productDetails.summary && productDetails.summary.length > 0 && (
             <Row id="prodinfo" className="product-overview">
-              <h3>Summary</h3>
+              {/* <h3>Summary</h3> */}
               {productDetails.summary.map((highlights, index) =>
                 index === 0 ? (
                   <Row key={index}>
