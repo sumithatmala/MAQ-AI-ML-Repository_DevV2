@@ -6,7 +6,10 @@ import ContactsRoundedIcon from "@mui/icons-material/ContactsRounded";
 import OndemandVideoRoundedIcon from "@mui/icons-material/OndemandVideoRounded";
 import InfoRoundedIcon from "@mui/icons-material/InfoRounded";
 import { HashLink } from 'react-router-hash-link';
-
+import videoPlayer from './icons/videoplayer.png'
+import details from './icons/details.png'
+import tryIt from './icons/tryit.png'
+import contacts from './icons/contacts.png'
 import { React, useState } from "react";
 
 export default function SideBar() {
@@ -35,7 +38,7 @@ export default function SideBar() {
         className="fixed-top"
         style={{
           height: "100vh",
-          opacity: opac,
+          opacity: 1,
           width: "0vh",
           display: "flex",
           flexDirection: "column",
@@ -82,7 +85,8 @@ export default function SideBar() {
               }}>
               <MenuItem
                 style={{ marginBottom: "15px" }}
-                icon={<InfoRoundedIcon style={{ fontSize: "3rem" }} />}>
+                
+                icon={<img src={details} height={"150%"}/>}>
                 Details
               </MenuItem>
             </HashLink>
@@ -99,9 +103,7 @@ export default function SideBar() {
               }}>
               <MenuItem
                 style={{ marginBottom: "15px" }}
-                icon={
-                  <OndemandVideoRoundedIcon style={{ fontSize: "3rem" }} />
-                }>
+                icon={<img src={videoPlayer} height={"150%"}/>}>
                 Demo
               </MenuItem>
             </HashLink>
@@ -118,7 +120,7 @@ export default function SideBar() {
               }}>
               <MenuItem
                 style={{ marginBottom: "15px" }}
-                icon={<TryRoundedIcon  style={{ fontSize: "3rem" }} />}>
+                icon={<img src={tryIt} height={"150%"}/>}>
                 Try It!
               </MenuItem>
             </HashLink>
@@ -134,7 +136,7 @@ export default function SideBar() {
               }}>
               <MenuItem
                 style={{ marginBottom: "15px" }}
-                icon={<ContactsRoundedIcon style={{ fontSize: "3rem" }} />}>
+                icon={<img src={contacts} height={"150%"}/>}>
                 Contact
               </MenuItem>
             </HashLink>
