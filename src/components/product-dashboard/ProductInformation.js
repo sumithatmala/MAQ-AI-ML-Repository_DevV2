@@ -13,22 +13,8 @@ import './css/target-users.css'
 import FAQs from './FAQs';
 import { Carousel } from "react-bootstrap";
 import AnimatedDevelopment from './AnimatedDevelopment';
-
-// import React from 'react';
-
-// const MyComponent = () => {
-//   return (
-//     <div>
-//       <img
-//         src="src\components\product-dashboard\images\idea.png"
-//         alt="new"
-//       />
-//     </div>
-//   );
-// };
-
-// export default MyComponent;
-
+import AnimatedOutcome from './AnimatedOutcome';
+import AnimatedSolution from './AnimatedSolution';
 
 
 const ProductInformation = () => {
@@ -179,24 +165,25 @@ const ProductInformation = () => {
               <Row
                 id="prodinfo"
                 className="product-overview"
-                data-aos="fade-left"
-                style={{ boxShadow: "none" }}
+              // data-aos="fade-left"
+              // style={{ boxShadow: "none" }}
               >
 
-                <Col>
+                <Col data-aos="fade-left"
+                  style={{ boxShadow: "none" }}>
                   <div
                     className="icon-container"
-                    style={{                                                                
+                    style={{
                       display: "flex",
                       flexDirection: "column",
                       alignItems: "center",
-                     
+
                     }}
                   >
 
                     <img
-                      style={{height:"350px"}}
-                      src= 'https://www.pinclipart.com/picdir/big/394-3941805_groundbreaking-technology-light-bulb-icon-transparent-clipart.png' 
+                      style={{ height: "350px" }}
+                      src='https://www.pinclipart.com/picdir/big/394-3941805_groundbreaking-technology-light-bulb-icon-transparent-clipart.png'
                       alt="new"
                     ></img>
 
@@ -204,7 +191,7 @@ const ProductInformation = () => {
                   </div>
                 </Col>
                 <Col>
-                  <div className="product-container">
+                  <div className="product-container" style={{ display: "Block" }}>
                     <h3 style={{ color: 'black' }}>Solution Highlights​</h3>
                     <ul>
                       {productDetails.solutionHighlights.map(
@@ -224,7 +211,7 @@ const ProductInformation = () => {
             <Row id="prodinfo" className="product-overview">
               <h3>Summary</h3>
               {productDetails.summary.map((highlights, index) =>
-                index % 2 === 0 ? (
+                index === 0 ? (
                   <Row key={index}>
                     <Col data-aos="fade-right">
                       <div className="product-container">
@@ -246,26 +233,38 @@ const ProductInformation = () => {
                           alignItems: "center",
                         }}
                       >
-                        {/* {highlights.icon} */}
-
                         <AnimatedDevelopment />
-                        {/* <iframe
-                          src="https://giphy.com/embed/LESpNIDaNBUcRIPzng"
-                          width="480"
-                          height="466"
-                          // frameBorder="0"
-                          class="giphy-embed"
-                          allowFullScreen
-                        ></iframe>
-                        <p>
-                          <a href="https://giphy.com/gifs/gears-setting-configure-LESpNIDaNBUcRIPzng">
-                            via GIPHY
-                          </a>
-                        </p> */}
                       </div>
                     </Col>
                   </Row>
-                ) : (
+                ): index === 2 ? (
+                  <Row key={index}>
+                    <Col data-aos="fade-right">
+                      <div className="product-container">
+                        <h4>{highlights.title}</h4>
+                        <ul>
+                          {console.log(highlights)}
+                          {highlights.details.map((highlights, index) => (
+                            <li key={index}>{highlights}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    </Col>
+                    <Col>
+                      <div
+                        className="icon-container"
+                        style={{
+                          display: "flex",
+                          flexDirection: "column",
+                          alignItems: "center",
+                        }}
+                      >
+                        <AnimatedOutcome />
+                      </div>
+                    </Col>
+                  </Row>
+                )
+                 :(
                   <Row key={index}>
                     <Col>
                       <div
@@ -277,26 +276,7 @@ const ProductInformation = () => {
                         }}
                       >
                         {/* {highlights.icon} */}
-
-
-                        {/* <iframe
-                          src="https://giphy.com/embed/LESpNIDaNBUcRIPzng"
-                          width="480"
-                          height="466"
-                          // frameBorder="0"
-                          class="giphy-embed"
-                          allowFullScreen
-                        ></iframe>
-                        <p>
-                          <a href="https://giphy.com/gifs/gears-setting-configure-LESpNIDaNBUcRIPzng">
-                            via GIPHY
-                          </a>
-                        </p> */}
-
-                        <AnimatedDevelopment />
-
-
-
+                        <AnimatedSolution />
                       </div>
                     </Col>
                     <Col data-aos="fade-left">
@@ -309,11 +289,14 @@ const ProductInformation = () => {
                         </ul>
                       </div>
                     </Col>
+                    
+
                   </Row>
                 )
               )}
             </Row>
           )}
+
         </Container>
       </section>
       <ProductDemo link={productDetails.demo.link} />
