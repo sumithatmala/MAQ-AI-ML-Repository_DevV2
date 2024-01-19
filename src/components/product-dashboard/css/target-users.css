@@ -1,5 +1,5 @@
 .target-section {
-    margin-bottom: 70px;
+    padding-bottom: 70px;
     padding-top: 100px;
     display: block;
     background-color: white;
@@ -22,6 +22,7 @@ body {
     font-weight: 500;
     line-height: 30px;
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 .text-block-center {
