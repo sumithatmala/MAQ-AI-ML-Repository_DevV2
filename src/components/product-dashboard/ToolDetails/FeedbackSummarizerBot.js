@@ -22,9 +22,7 @@ export const FeedbackSummarizerBot = {
     title: "Feedback Summarizer Bot",
     description: "The Feedback Summarizer Bot utilizes AI and NLP to swiftly analyze and summarize customer feedback, streamlining organizational responses and improving product development.",
     BusinessCase: [
-      "As businesses increasingly rely on customer feedback to guide product development and improve the customer experience, it can be a challenge to efficiently analyze and understand the large amounts of feedback data they receive.",
-      "Traditional methods of analysis can be subjective and time-consuming, leading to missed opportunities and delays in implementing necessary changes.",
-      "Hence there is a need for an efficient intelligent feedback mechanism in place to accelerate the organization response to the feedback received.",
+      "As businesses increasingly depend on customer feedback for product development and enhancing customer experience, efficiently analyzing vast amounts of feedback data poses a significant challenge. Traditional analysis methods are often subjective and time-consuming, resulting in missed opportunities and delays in implementing crucial changes. Recognizing this, there is a pressing need for an intelligent feedback mechanism that efficiently accelerates organizational responses to the received feedback, facilitating more timely and informed decision-making processes."
     ],
     targetUsers: [
       {

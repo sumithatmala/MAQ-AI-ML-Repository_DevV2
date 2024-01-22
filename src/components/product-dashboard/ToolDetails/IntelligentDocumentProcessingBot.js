@@ -18,11 +18,11 @@ const iconSize = {
     width: "3rem"
 }
 
-export const SessionInformationBot = {
-    title: "Session Information Bot",
-    description: "The Session Information Bot optimizes information retrieval from past sessions, offering quick access, contextual search, and interactive user experiences. It enhances knowledge management, streamlining support processes and fostering improved collaboration within organizations.",
+export const IntelligentDocumentProcessingBot = {
+    title: "Intelligent Document Processing Bot",
+    description: "An OCR system is needed to automate the conversion of patient information from PDFs and images, reducing manual effort and errors. The system extracts data from various documents, adds it to a structured knowledge base, and employs a question-based approach for accurate retrieval. An interactive virtual agent enhances user experience with an intuitive interface.",
     BusinessCase: [
-      "Organizations often grapple with the challenge of retrieving pertinent information from past sessions and meetings, as the accessibility of session metadata and summaries remains limited for users. This results in time-consuming searches and difficulties in locating specific content. To overcome this hurdle, there is a pressing need for a comprehensive solution that provides users with effortless access to relevant content and recordings from previous sessions, consolidating all essential information in one accessible platform."
+      "A highly efficient and accurate OCR system is required to automate the conversion of patient information from PDFs and images, reducing manual effort, saving time, and minimizing errors while generating structured and insightful data.",
     ],
     targetUsers: [
       {
@@ -168,4 +168,4 @@ export const SessionInformationBot = {
     ]
   };
   
-export default SessionInformationBot;
+export default IntelligentDocumentProcessingBot;

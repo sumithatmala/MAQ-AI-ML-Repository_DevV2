@@ -715,8 +715,7 @@ li.move-right {
   text-decoration:underline !important;
 }
 
-
-.product-container {
+.shadow-container {
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 5%;
@@ -724,6 +723,23 @@ li.move-right {
   background: white;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+}
+.product-container {
+  color:#141414;
+  font-family: proxima-nova,Helvetica Neue,Arial,sans-serif;
+  font-weight: 300;
+  display: flex;
+  justify-content: left;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  background: white;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 8px;
+  font-family: proxima-nova,Helvetica Neue,Arial,sans-serif;
+  font-weight: 300;
+  color: #141414;
 }
 
 .product-content h2 {
@@ -1462,6 +1478,8 @@ button.bg-dark:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* max-width: fit-content;
+  max-height: fit-content; */
 }
 
 .map-marker-icon {
@@ -1669,4 +1687,9 @@ button.bg-dark:focus {
 .icon-container {
   opacity: 1;
   transition: opacity 1s ease; /* Add transition property */
+}
+
+.bulletStyle li::marker{
+  color:#453c90;
+  font-size: 150%;
 }
