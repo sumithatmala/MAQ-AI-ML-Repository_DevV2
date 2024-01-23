@@ -25,14 +25,17 @@ const ProductInformation = () => {
   const { productName } = useParams();
 
   const settings = {
+    className: "center",
     infinite: true,
-    speed: 500,
+    centerMode: true,
+    autoplaySpeed: 5000,
+    autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     dots: false,
     responsive: [
       {
-        breakpoint: 1200,
+        breakpoint: 1350,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -146,7 +149,7 @@ const ProductInformation = () => {
                     {productDetails.businessOutcomes.map((outcome, index) => (
                       <>
                       <div style={{ justifyContent: "center", display: "flex" }}>
-                        <div key={index} className="carousal__item mb-5">
+                        <div key={index} className="carousal__item mb-6 mt-7">
                           <div
                             className="target__item-icon"
                             style={{
@@ -156,10 +159,10 @@ const ProductInformation = () => {
                             }}>
                             {outcome.icon}
                           </div>
-                          <div className="target__item-title" style={{ fontSize: "0.9rem" }}>
+                          <div className="target__item-title">
                             {outcome.outcome}
                           </div>
-                          <div className="target__item-text" style={{ fontSize: "0.7rem" }} >
+                          <div className="target__item-text">
                             {outcome.caption}
                           </div>
                         </div>
