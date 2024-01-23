@@ -2,7 +2,7 @@ import NavigationLinks from './NavigationLinks';
 import { useState, useEffect, useRef } from 'react';
 import './NewNavbar.css';
 import { Link } from 'react-router-dom';
-
+import logo from './icons/nlp.png'
 
 const Dropdown = ({ submenus, dropdown, depthLevel }) => {
     depthLevel = depthLevel + 1;
@@ -19,7 +19,6 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
 const MenuItems = ({ items, depthLevel }) => {
     //toggle dropdown
     const [dropdown, setDropdown] = useState(false);
-
     //mouse click outside handle
     let ref = useRef();
     useEffect(() => {
@@ -56,21 +55,24 @@ const MenuItems = ({ items, depthLevel }) => {
             onMouseLeave={onMouseLeave}   
             onClick={closeDropdown} 
         >
-        {items.submenu ? (
-            <>
-                <button type="button" aria-haspopup="menu" aria-expanded={dropdown ? "true" : "false"} onClick={() => setDropdown((prev) => !prev)}>
-                    {items.label}{' '} 
-                    {/* {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />} */}
-                </button>
-                <Dropdown 
-                submenus={items.submenu} 
-                dropdown={dropdown}
-                depthLevel = {depthLevel}/>
-            
-            </>
-        ) : (
-            <Link to={items.link}>{items.label}</Link>
-        )}
+            {items.submenu ? (
+                <>
+                    <button type="button" aria-haspopup="menu" aria-expanded={dropdown ? "true" : "false"} onClick={() => setDropdown((prev) => !prev)}>
+                        {items.icon ?(
+                            <img src={process.env.PUBLIC_URL + items.icon} alt={items.alt} height={20}/>
+                        ):(<></>)}
+                        {items.label}{' '} 
+                        {/* {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />} */}
+                    </button>
+                    <Dropdown 
+                    submenus={items.submenu} 
+                    dropdown={dropdown}
+                    depthLevel = {depthLevel}/>
+                
+                </>
+            ) : (
+                <Link to={items.link}>{items.label}</Link>
+            )}
         </li>
     );
 };

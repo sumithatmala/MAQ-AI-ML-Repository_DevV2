@@ -62,7 +62,7 @@
     padding-left: 450px;
     transition: all 0.3s ease-in-out;
   }
-  @media screen and (max-width: 1165px) {
+  @media screen and (max-width: 1195px) {
     .desktop-nav .menus {
       padding-left: 200px;
     }
@@ -87,15 +87,18 @@
       left: 0;
       width: 0; /* Initially, the line has no width */
       height: 2px; /* Height of the line */
-      background-color: #a844b3b2; /* Color of the line */
+      background-color: #b9091b; /* Color of the line */
       transition: width 0.3s; /* Transition width change */
     }
   }
   .desktop-nav .menu-items a:hover {
-    color: #a844b3b2;
+    color: #b9091b;
   }
   .desktop-nav .menu-items a:hover::after {
     width: 100%;
+  }
+  .desktop-nav .menu-items img {
+    padding-right: 15px;
   }
   
   .desktop-nav .menu-items button {
@@ -114,12 +117,12 @@
       left: 0;
       width: 0; /* Initially, the line has no width */
       height: 2px; /* Height of the line */
-      background-color: #a744b3; /* Color of the line */
+      background-color: #b9091b; /* Color of the line */
       transition: width 0.3s; /* Transition width change */
     }
   }
   .desktop-nav .menu-items button:hover {
-    color: #a744b3;
+    color: #b9091b;
   }
   .desktop-nav .menu-items button:hover::after {
     width: 100%;
@@ -170,8 +173,8 @@
     display: block;
   }
   .desktop-nav .dropdown.show a:hover{
-    color: #a844b3b2;
-    background-color: #aa6ab35e;
+    color: #fff;
+    background-color: #cc3d4bda;
   }
   .desktop-nav .dropdown.show a:hover::after {
     display: none;
