@@ -62,7 +62,7 @@
     padding-left: 450px;
     transition: all 0.3s ease-in-out;
   }
-  @media screen and (max-width: 1195px) {
+  @media screen and (max-width: 1200px) {
     .desktop-nav .menus {
       padding-left: 200px;
     }
