@@ -2,7 +2,6 @@ import NavigationLinks from './NavigationLinks';
 import { useState, useEffect, useRef } from 'react';
 import './NewNavbar.css';
 import { Link } from 'react-router-dom';
-import logo from './icons/nlp.png'
 
 const Dropdown = ({ submenus, dropdown, depthLevel }) => {
     depthLevel = depthLevel + 1;
