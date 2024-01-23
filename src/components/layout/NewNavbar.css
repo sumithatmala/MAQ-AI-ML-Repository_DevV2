@@ -76,19 +76,52 @@
   
   .desktop-nav .menu-items a {
     display: block;
-    font-size: inherit;
+    font-size: 15px;
+    font-weight: 500;
     color: inherit;
     text-decoration: none;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0; /* Initially, the line has no width */
+      height: 2px; /* Height of the line */
+      background-color: #a844b3b2; /* Color of the line */
+      transition: width 0.3s; /* Transition width change */
+    }
+  }
+  .desktop-nav .menu-items a:hover {
+    color: #a844b3b2;
+  }
+  .desktop-nav .menu-items a:hover::after {
+    width: 100%;
   }
   
   .desktop-nav .menu-items button {
     display: flex;
     align-items: center;
     color: inherit;
-    font-size: inherit;
+    font-size: 15px;
+    font-weight: 500;
     border: none;
-    background-color: transparent;
     cursor: pointer;
+    width: 100%;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0; /* Initially, the line has no width */
+      height: 2px; /* Height of the line */
+      background-color: #a744b3; /* Color of the line */
+      transition: width 0.3s; /* Transition width change */
+    }
+  }
+  .desktop-nav .menu-items button:hover {
+    color: #a744b3;
+  }
+  .desktop-nav .menu-items button:hover::after {
     width: 100%;
   }
   
@@ -136,7 +169,14 @@
   .desktop-nav .dropdown.show {
     display: block;
   }
-  
+  .desktop-nav .dropdown.show a:hover{
+    color: #a844b3b2;
+    background-color: #aa6ab35e;
+  }
+  .desktop-nav .dropdown.show a:hover::after {
+    display: none;
+  }
+
   .desktop-nav .dropdown .dropdown-submenu {
     position: absolute;
     left: 100%;
