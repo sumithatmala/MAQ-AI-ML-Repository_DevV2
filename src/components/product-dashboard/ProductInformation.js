@@ -140,7 +140,7 @@ const ProductInformation = () => {
         {/*business outcomes */}
         {productDetails.businessOutcomes && productDetails.businessOutcomes.length > 0 && (
           <section class="target-section" style={{backgroundColor: "white"}}>
-                <Row className='fade-in product-overview d-flex justify-content-center ' data-aos="fade-right" style={{backgroundColor: "white"}}>
+                <Row className='fade-in product-overview d-flex justify-content-center ' style={{backgroundColor: "white"}}>
                   <h3 class="head-block-center">Business Outcomes</h3>
                   <Slider {...settings}>
                     {productDetails.businessOutcomes.map((outcome, index) => (
@@ -183,7 +183,7 @@ const ProductInformation = () => {
               // style={{ boxShadow: "none" }}
               >
 
-                <Col data-aos="fade-left"
+                <Col
                   style={{ boxShadow: "none" }}>
                   <div
                     className="icon-container"
@@ -201,12 +201,12 @@ const ProductInformation = () => {
                       src = {Highlights}
                       alt="Highlights"
                     ></img> */}
-                    <AnimatedHighlights />
+                    <AnimatedHighlights/>
 
                   </div>
                 </Col>
                 <Col>
-                  <div className="product-container" style={{ display: "Block" }}>
+                  <div className="product-container" data-aos="fade-left" style={{ display: "Block" }}>
                     <h3 style={{ color: 'black' }}>Solution Highlights​</h3>
                     <ul className='bulletStyle'>
                       {productDetails.solutionHighlights.map(
