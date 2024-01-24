@@ -118,7 +118,7 @@ export const DocumentClassificationWithVirtualAssistant = {
         },
     ],
     demo: {
-        link: [ demoVideo ],
+        link: { demoVideo },
     },
     // demo: {
     //     link: { demoVideo2 },

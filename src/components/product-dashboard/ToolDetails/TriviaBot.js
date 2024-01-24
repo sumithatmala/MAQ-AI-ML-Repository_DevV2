@@ -13,7 +13,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import SpeedIcon from '@mui/icons-material/Speed';
 import OutputIcon from '@mui/icons-material/Output';
-// import demoVideo from './demos/SmartSupportFramework.mp4';
+import demoVideo from './demos/SmartSupportFramework.mp4';
 
 const iconSize = {
     height: "3rem",
@@ -26,28 +26,6 @@ export const TriviaBot = {
     BusinessCase: [
         "Addressing sales challenges, Trivia Bot revolutionizes customer engagement through an interactive trivia generator, offering a gamified learning experience that efficiently gathers insights on specific topics, providing sales teams with a novel approach for enhanced interaction and knowledge acquisition.",
     ],
-    // targetUsers: [
-    //     {
-    //         name: "Ticket Requester",
-    //         caption: "Users who submit support tickets and seek timely and accurate assistance.",
-    //         icon: <MdGroups style={iconSize} />,
-    //     },
-    //     {
-    //         name: "Support Representative",
-    //         caption: "Support Engineers who are responsible for managing and resolving support tickets.",
-    //         icon: <PsychologyIcon style={iconSize} />,
-    //     },
-    //     {
-    //         name: "Support Manager",
-    //         caption: "Leads or supervisors overseeing support teams, ensuring efficient ticket resolution and customer satisfaction.",
-    //         icon: <CastForEducationIcon style={iconSize} />,
-    //     },
-    //     {
-    //         name: "System Administrator",
-    //         caption: "Administrators responsible for configuring and maintaining the support ticket management system.",
-    //         icon: <GrUserAdmin style={iconSize} />,
-    //     },
-    // ],
     businessOutcomes: [
         {
             outcome: "Increased Customer Engagement",
@@ -116,15 +94,10 @@ export const TriviaBot = {
             ],
         },
     ],
-    // demoimg: [
-    //     { link: <TriviaBotImg key="1" /> },
-    //     // Add more links as needed
-    //   ],
-      
-    
-    // demo: {
-    //     // link: { demoVideo2 },
-    // },
+    demo:{
+        // this is of smart support framework. have to add trivia bot video here
+        link: {demoVideo},
+    },
     FAQs : [
         {
           question: "What is the purpose of the Trivia Bot?",

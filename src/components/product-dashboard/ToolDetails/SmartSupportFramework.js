@@ -12,7 +12,6 @@ import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import SpeedIcon from '@mui/icons-material/Speed';
 import OutputIcon from '@mui/icons-material/Output';
 import demoVideo from './demos/SmartSupportFramework.mp4'
-import demoVideo2 from './demos/SmartSupportFramework.mp4'
 
 const iconSize = {
     height: "3rem",
@@ -120,11 +119,8 @@ export const SmartSupportFramework = {
         },
     ],
     demo: {
-        link: [ demoVideo, demoVideo2 ],
+        link: { demoVideo },
     },
-    // demo: {
-    //     link: { demoVideo2 },
-    // },
     FAQs : [
         {
           question: "What is the purpose of the Smart Support Framework?",
