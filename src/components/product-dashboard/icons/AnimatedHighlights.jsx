@@ -21,6 +21,7 @@ const AnimatedHighlights = () => {
       height="300"
       viewBox="0 0 627 778"
       version="1.1"
+      preserveAspectRatio="xMidYMid meet"
     >
       <animated.g
         transform="matrix(1,0,0,1,0,0))"
