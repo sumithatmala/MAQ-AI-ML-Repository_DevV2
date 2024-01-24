@@ -19,22 +19,24 @@
     max-width: 100%;
     padding: 10px 20px;
     background-color: rgb(244 245 246);
+    justify-content: center;
     font-family: sans-serif ;
     color: #333333;
     height: 3.5rem;
+    margin: 0 auto;
+  
     /* width: 100%;
     border-radius: 1px solid rgba(255, 255, 255, 0.1);
     -webkit-border-radius: 1px solid rgba(255, 255, 255, 0.1);
+    flex-direction: column;
     -moz-border-radius: 1px solid rgba(255, 255, 255, 0.1);
     -ms-border-radius: 1px solid rgba(255, 255, 255, 0.1);
     -o-border-radius: 1px solid rgba(255, 255, 255, 0.1);
     display: flex;
-    align-items: center;
     height: 3rem;
     justify-content: center;
     gap: 2rem;
     background-color: rgb(244 245 246);
-    flex-direction: column;
     font-family: sans-serif !important;
     color: #333333 !important; */
   }
@@ -48,36 +50,81 @@
   
   /* menu on desktop */
   .desktop-nav {
-    margin: 10px 0 0 30rem;
+    /* margin: 10px 0 0 30rem; */
+    margin-top: 20px;
   }
+
   .desktop-nav .menus {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     list-style: none;
+    padding-left: 450px;
+    transition: all 0.3s ease-in-out;
   }
-  
+  @media screen and (max-width: 1200px) {
+    .desktop-nav .menus {
+      padding-left: 200px;
+    }
+  }
+
   .desktop-nav .menu-items {
-    padding: 0 10px 0 10px;
+    /* padding: 0 10px 0 10px; */
     position: relative;
     font-size: 14px;
   }
   
   .desktop-nav .menu-items a {
     display: block;
-    font-size: inherit;
+    font-size: 15px;
+    font-weight: 500;
     color: inherit;
     text-decoration: none;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0; /* Initially, the line has no width */
+      height: 2px; /* Height of the line */
+      background-color: #b9091b; /* Color of the line */
+      transition: width 0.3s; /* Transition width change */
+    }
+  }
+  .desktop-nav .menu-items a:hover {
+    color: #b9091b;
+  }
+  .desktop-nav .menu-items a:hover::after {
+    width: 100%;
+  }
+  .desktop-nav .menu-items img {
+    padding-right: 15px;
   }
   
   .desktop-nav .menu-items button {
     display: flex;
     align-items: center;
     color: inherit;
-    font-size: inherit;
+    font-size: 15px;
+    font-weight: 500;
     border: none;
-    background-color: transparent;
     cursor: pointer;
+    width: 100%;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0; /* Initially, the line has no width */
+      height: 2px; /* Height of the line */
+      background-color: #b9091b; /* Color of the line */
+      transition: width 0.3s; /* Transition width change */
+    }
+  }
+  .desktop-nav .menu-items button:hover {
+    color: #b9091b;
+  }
+  .desktop-nav .menu-items button:hover::after {
     width: 100%;
   }
   
@@ -114,7 +161,7 @@
       0 4px 6px -2px rgba(71, 63, 79, 0.16);
     font-size: 0.875rem;
     z-index: 9999;
-    min-width: 10rem;
+    min-width: 13rem;
     padding: 0.5rem 0;
     list-style: none;
     background-color: #fff;
@@ -125,7 +172,14 @@
   .desktop-nav .dropdown.show {
     display: block;
   }
-  
+  .desktop-nav .dropdown.show a:hover{
+    color: #fff;
+    background-color: #cc3d4bda;
+  }
+  .desktop-nav .dropdown.show a:hover::after {
+    display: none;
+  }
+
   .desktop-nav .dropdown .dropdown-submenu {
     position: absolute;
     left: 100%;
@@ -137,11 +191,11 @@
   }
   
   /* menu on mobile */
-  @media screen and (max-width: 1320px) {
+  @media screen and (max-width: 1030px) {
     .nav-area {
       justify-content: space-between;
     }
-  
+
     .desktop-nav {
       display: none;
       text-align: right;
@@ -149,10 +203,11 @@
   
     .mobile-nav {
       display: block;
-      
+      justify-content: center;
     }
+
     .mobile-nav .mobile-nav__menu-button {
-        margin-left: auto;
+      margin-left: auto;
       color: inherit;
       font-size: inherit;
       border: none;
@@ -160,6 +215,7 @@
       cursor: pointer;
       position: relative;
     }
+
     .mobile-nav .menus {
       list-style: none;
       position: absolute;

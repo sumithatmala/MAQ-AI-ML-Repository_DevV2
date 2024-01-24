@@ -109,20 +109,19 @@ const NavigationLinks = [
   { label: "Home", link: "./" },
   { 
     label: "Artificial Intelligence", 
-    link: "#",
     submenu: [
       { 
         label: "Frameworks", 
-        link: "#",
         submenu: [
           { label: "TensorFlow", link: "#" },
           { label: "PyTorch", link: "#" },
           { label: "Keras", link: "#" },
         ],
+        icon: "/icons/framework.svg",
+        alt: "frwk",
       },
       { 
         label: "NLP", 
-        link: "#",
         submenu: [
           { label: "Session Information Bot", link: "./product/SessionInformationBot" },
           { label: "Feedback Summarizer Bot", link: "./product/FeedbackSummarizerBot" },
@@ -130,36 +129,38 @@ const NavigationLinks = [
           { label: "GPT Models", link: "#" },
           { label: "BERT", link: "#" },
         ],
+        icon: "/icons/nlp.svg",
+        alt: "nlp",
       },
       { 
         label: "Computer Vision", 
-        link: "#",
         submenu: [
           { label: "OpenCV", link: "#" },
           { label: "TensorFlow Object Detection API", link: "#" },
           { label: "YOLO", link: "#" },
           { label: "Dlib", link: "#" },
         ],
+        icon: "/icons/computerVision.svg",
+        alt: "comp",
       },
     ],
   },
   { 
     label: "Machine Learning", 
-    link: "#",
     submenu: [
       { 
         label: "Data Processing", 
-        link: "#",
         submenu: [
           { label: "Pandas", link: "#" },
           { label: "NumPy", link: "#" },
           { label: "Apache Spark", link: "#" },
           { label: "Dask", link: "#" },
         ],
+        icon: "/icons/dataP.svg",
+        alt: "data",
       },
       { 
         label: "ML Models", 
-        link: "#",
         submenu: [
           { label: "Scikit Learn", link: "./productdetails" },
           { label: "Regression", link: "#" },
@@ -167,15 +168,18 @@ const NavigationLinks = [
           { label: "Clustering", link: "#" },
           { label: "Neural Networks", link: "#" },
         ],
+        icon: "/icons/ML.svg",
+        alt: "ML",
       },
       { 
         label: "Data Visualization", 
-        link: "#",
         submenu: [
           { label: "Matplotlib", link: "#" },
           { label: "Seaborn", link: "#" },
           { label: "Plotly", link: "#" },
         ],
+        icon: "/icons/dataV.svg",
+        alt: "data",
       },
     ],
   },
