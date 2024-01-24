@@ -11,13 +11,13 @@ import "aos/dist/aos.css";
 import ProductDemo from './ProductDemo';
 import ProductTryIt from './ProductTryIt';
 import ProductContactUs from './ProductContactUs';
-// import * as ToolDetails from './ToolDetails/index.js';
 import './css/target-users.css'
 import FAQs from './FAQs';
-import AnimatedDevelopment from './AnimatedDevelopment';
-import AnimatedOutcome from './AnimatedOutcome';
-import AnimatedSolution from './AnimatedSolution';
-import Highlights from './images/highlights.png'
+import AnimatedDevelopment from './icons/AnimatedDevelopment';
+import AnimatedOutcome from './icons/AnimatedOutcome';
+import AnimatedSolution from './icons/AnimatedSolution';
+import AnimatedHighlights from './icons/AnimatedHighlights';
+import LoaderComp from '../views/LoaderComp';
 
 
 const ProductInformation = () => {
@@ -25,14 +25,17 @@ const ProductInformation = () => {
   const { productName } = useParams();
 
   const settings = {
+    className: "center",
     infinite: true,
-    speed: 500,
+    centerMode: true,
+    autoplaySpeed: 5000,
+    autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     dots: false,
     responsive: [
       {
-        breakpoint: 1200,
+        breakpoint: 1350,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -59,8 +62,8 @@ const ProductInformation = () => {
   }, [productName]);
 
   if (!productDetails) {
-    // Loading state or alternative content
-    return <div style={{height: "100vh"}}>Loading...</div>;
+    return <LoaderComp />
+    // <div style={{height: "100vh"}}><center style = {{paddingTop: "20%"}}><h3>Loading...</h3></center></div>;
   }
 
  
@@ -100,7 +103,7 @@ const ProductInformation = () => {
           {productDetails.targetUsers && productDetails.targetUsers.length > 0 && (
               <section class="target-section" style={{backgroundColor: "white"}}>
                 <div class="target__inner">
-                  <h2 class="head-block-center">Target Users</h2>
+                  <h3 class="head-block-center" style={{ color: 'black' }}>Target Users</h3>
                   <div class="target__list">
                     {productDetails.targetUsers.map((user, index) => (
                       <div key={index} class="target__list-item">
@@ -140,13 +143,13 @@ const ProductInformation = () => {
         {/*business outcomes */}
         {productDetails.businessOutcomes && productDetails.businessOutcomes.length > 0 && (
           <section class="target-section" style={{backgroundColor: "white"}}>
-                <Row className='fade-in product-overview d-flex justify-content-center ' data-aos="fade-right" style={{backgroundColor: "white"}}>
+                <Row className='fade-in product-overview d-flex justify-content-center ' style={{backgroundColor: "white"}}>
                   <h3 class="head-block-center">Business Outcomes</h3>
                   <Slider {...settings}>
                     {productDetails.businessOutcomes.map((outcome, index) => (
                       <>
                       <div style={{ justifyContent: "center", display: "flex" }}>
-                        <div key={index} className="carousal__item mb-5">
+                        <div key={index} className="carousal__item mb-6 mt-7">
                           <div
                             className="target__item-icon"
                             style={{
@@ -156,10 +159,10 @@ const ProductInformation = () => {
                             }}>
                             {outcome.icon}
                           </div>
-                          <div className="target__item-title" style={{ fontSize: "0.9rem" }}>
+                          <div className="target__item-title">
                             {outcome.outcome}
                           </div>
-                          <div className="target__item-text" style={{ fontSize: "0.7rem" }} >
+                          <div className="target__item-text">
                             {outcome.caption}
                           </div>
                         </div>
@@ -183,7 +186,7 @@ const ProductInformation = () => {
               // style={{ boxShadow: "none" }}
               >
 
-                <Col data-aos="fade-left"
+                <Col
                   style={{ boxShadow: "none" }}>
                   <div
                     className="icon-container"
@@ -195,18 +198,18 @@ const ProductInformation = () => {
                     }}
                   >
 
-                    <img
+                    {/* <img
                       style={{ height: "350px" }}
                       // src='https://www.pinclipart.com/picdir/big/394-3941805_groundbreaking-technology-light-bulb-icon-transparent-clipart.png'
                       src = {Highlights}
                       alt="Highlights"
-                    ></img>
-
+                    ></img> */}
+                    <AnimatedHighlights/>
 
                   </div>
                 </Col>
                 <Col>
-                  <div className="product-container" style={{ display: "Block" }}>
+                  <div className="product-container" data-aos="fade-left" style={{ display: "Block" }}>
                     <h3 style={{ color: 'black' }}>Solution Highlights​</h3>
                     <ul className='bulletStyle'>
                       {productDetails.solutionHighlights.map(

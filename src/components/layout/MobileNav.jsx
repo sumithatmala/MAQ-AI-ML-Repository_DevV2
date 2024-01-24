@@ -80,7 +80,7 @@ const MobileMenuItems = ({ items, depthLevel, showMenu, setShowMenu }) => {
           />
         </>
       ) : (
-        <Link to={items.link}>{items.label}</Link>
+        <Link to={items.link} onClick={closeDropdown}>{items.label}</Link>
       )}
     </li>
   );
