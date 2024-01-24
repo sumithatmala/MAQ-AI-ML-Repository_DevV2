@@ -8,9 +8,9 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
     const dropdownClass = depthLevel > 1 ? "dropdown-submenu" : "";
  return (
     <ul className={`dropdown ${dropdownClass} ${dropdown ? "show" : ""}`}>
-    {submenus.map((submenu, index) => (
-    <MenuItems items={submenu} key={index} depthLevel={depthLevel}/>
-    ))}
+        {submenus.map((submenu, index) => (
+            <MenuItems items={submenu} key={index} depthLevel={depthLevel}/>
+        ))}
     </ul>
  );
 };
@@ -67,7 +67,6 @@ const MenuItems = ({ items, depthLevel }) => {
                     submenus={items.submenu} 
                     dropdown={dropdown}
                     depthLevel = {depthLevel}/>
-                
                 </>
             ) : (
                 <Link to={items.link}>{items.label}</Link>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom';
 // import Navmenu from "./Navmenu"
-import NavBar2 from './NavBar2';
+// import NavBar2 from './NavBar2';
 import MobileNav from './MobileNav';
 import NewNavbar from './NewNavbar';
 import CompanyLogo from '../ui-elements/CompanyLogo';

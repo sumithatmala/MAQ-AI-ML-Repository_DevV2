@@ -11,7 +11,59 @@
   box-shadow: 0px 0px 53.9px 0px rgba(0, 163, 255, 0.05);
   backdrop-filter: blur(26.94999885559082px);
   cursor: pointer;
-  /* padding: 15px; */
+  padding: 10px;
+  transition: box-shadow 0.3s;
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card:hover {
+  /* -webkit-transform: scale(1.02);
+  transform: scale(1.02); */
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.selected{
+  flex-shrink: 0;
+  /* border-radius: 20px; */
+  /* border: 1.5px solid #b9091b !important;
+  background-color: #000000; */
+  margin: 2px;
+  display: flex;
+  flex-direction: row !important;
+  width: 408px;
+  height: 158px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 5px solid rgba(112, 51, 173, 0.20);
+  background: rgba(255, 255, 255, 0.29);
+  box-shadow: 0px 0px 53.9px 0px rgba(0, 163, 255, 0.05);
+  backdrop-filter: blur(26.94999885559082px);
+  cursor: pointer;
+  padding: 10px;
+  transition: all 0.3s;
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: box-shadow;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  /* box-shadow: inset 0 0 0 2.5px #362558, 0 0 1px rgba(0, 0, 0, 0); */
 }
 
 .card-body {
@@ -41,21 +93,14 @@
   line-height: 22px; 
 }
 
-.selected{
-  flex-shrink: 0;
-  border-radius: 20px;
-  border: 3.5px solid #362F6A !important;
-  background: rgba(255, 255, 255, 0.29);
-  box-shadow: 0px 0px 53.9px 0px rgba(0, 163, 255, 0.05);
-  backdrop-filter: blur(26.94999885559082px);
-}
 
 @media (max-width: 1200px) {
   .card {
     /* display: flex;
     flex-direction: row !important; */
-    width: 33%;
+    width: 30%;
     height: 50%;
+    margin: 10px;
     /* flex-shrink: 0;
     border-radius: 20px;
     border: 3px solid rgba(112, 51, 173, 0.20);

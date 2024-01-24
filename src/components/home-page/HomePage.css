@@ -22,10 +22,8 @@
     width: 60% ;
 }
 .specialization-card{
-    width: 100%;
-    
-    padding: 20px;
-    
+    width: 100%;  
+    padding: 20px; 
 }
 
 .specialization-details{
@@ -47,5 +45,8 @@
 
     .specializations {
         flex-direction: row;
+    }
+    .specialization-details {
+        margin: 10px;
     }
 }
