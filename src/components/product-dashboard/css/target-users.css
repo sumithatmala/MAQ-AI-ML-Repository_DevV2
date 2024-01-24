@@ -1,6 +1,6 @@
 .target-section {
-    padding-bottom: 70px;
-    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-top: 40px;
     display: block;
     background-color: white;
 }
@@ -69,7 +69,7 @@ body {
 }
 
 .target__item-icon {
-    margin: 0 auto 10px;
+    margin: 0 auto ;
     width: 104px;
     height: 90px;
 }
@@ -93,11 +93,11 @@ body {
 
 .carousal__item {
     /* height: 100%; */
-    min-height: 350px;
+    height: 400px;
     padding: 25px 15px 15px;
     margin-bottom: 0;
     box-shadow: 15px 15px 15px rgba(69, 60, 144, .2),0 4px 5px rgba(69, 60, 144, .12),0 2px 4px rgba(69, 60, 144, .14);
-    margin: 10px 15px 32px;
+    margin: 25px 15px 15px;
     width: 75%;
     background: #fff;
     border-radius: 7px;
@@ -111,6 +111,7 @@ body {
 .slick-prev {
     width: 18px;
     height: 36px;
+    top: 46%;
     transform: rotate(180deg);
     background-image: url(../icons/icon-reviews-arrow.svg);
     background-position: 50%;
@@ -146,4 +147,20 @@ body {
     background-image: url(../icons/icon-reviews-arrow.svg);
     /* visibility: hidden; */
     background-repeat: no-repeat;
+}
+
+.slick-center {
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+
+@media only screen and (max-width: 1350px) {
+    .slick-center {
+        transform: scale(1);
+    /* transition: transform 0.5s ease; */
+    }
+}
+
+.slick-list{
+    height: 460px;
 }
