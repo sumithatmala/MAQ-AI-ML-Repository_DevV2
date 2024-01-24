@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const ProductTryIt = (props) => {
   return (
-    <section id="tryit" className='product-information' style={{paddingTop: "2%", backgroundColor: "white", height: "100vh"}}>
+    <section id="tryit" className='product-information' style={{paddingTop: "2%", backgroundColor: "white", height: "100%"}}>
     <Container fluid>
       <Row className='product-overview'>
         <Col>
@@ -17,7 +17,7 @@ const ProductTryIt = (props) => {
             <iframe
                 title="Scikit-Learn Tool"
                 width="100%"
-                height="700"
+                height="700vh"
                 src="https://onecompiler.com/python/3wz7uns6h"
                 frameborder="0"
                 allowfullscreen

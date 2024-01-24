@@ -17,8 +17,8 @@ const AnimatedHighlights = () => {
   return (
     <animated.svg
       xmlns="http://www.w3.org/2000/svg"
-      width="627"
-      height="378"
+      width="534"
+      height="300"
       viewBox="0 0 627 778"
       version="1.1"
     >

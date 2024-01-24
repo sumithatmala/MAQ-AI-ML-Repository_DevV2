@@ -236,8 +236,8 @@ const ProductInformation = () => {
                   <Row key={index}>
                     <Col data-aos="fade-right">
                       <div className="product-container" style={{ display: "block" }}>
-                        <h4>{highlights.title}</h4>
-                        <ul className='bulletStyle' style={{ padding: 0 }}>
+                        <h3>{highlights.title}</h3>
+                        <ul className='bulletStyle'>
                           {highlights.details.map((highlight, index) => (
                             <li key={index} style={{ color: "#141414", position: 'relative', paddingLeft: '1.2em' }}>
                               {highlight}
@@ -263,8 +263,8 @@ const ProductInformation = () => {
                   <Row key={index}>
                     <Col data-aos="fade-right">
                       <div className="product-container" style={{ display: "block" }}>
-                        <h4>{highlights.title}</h4>
-                        <ul className='bulletStyle' style={{ padding: 0 }}>
+                        <h3>{highlights.title}</h3>
+                        <ul className='bulletStyle'>
                           {highlights.details.map((highlight, index) => (
                             <li key={index} style={{ color: "#141414", position: 'relative', paddingLeft: '1.2em' }}>
                               {/* <span style={{ position: 'absolute', left: '0em', color: "#453c90" }}>•</span>  */}
@@ -306,7 +306,7 @@ const ProductInformation = () => {
                       <Col data-aos="fade-left">
                         <div className="product-container" style={{ display: "block" }}>
                           <h4>{highlights.title}</h4>
-                          <ul className='bulletStyle' style={{ padding: 0 }}>
+                          <ul className='bulletStyle'>
                             {highlights.details.map((highlight, index) => (
                               <li key={index} style={{ position: 'relative', paddingLeft: '1em' }}>
 
