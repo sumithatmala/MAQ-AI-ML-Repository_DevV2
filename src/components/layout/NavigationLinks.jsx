@@ -107,79 +107,168 @@
 
 const NavigationLinks = [
   { label: "Home", link: "./" },
+  { label: "Expertise", link: "#" },
   { 
-    label: "Artificial Intelligence", 
+    label: "Services",
     submenu: [
-      { 
-        label: "Frameworks", 
+      {
+        label: "Artificial Intelligence & ML",
         submenu: [
-          { label: "TensorFlow", link: "#" },
-          { label: "PyTorch", link: "#" },
-          { label: "Keras", link: "#" },
+          { 
+            label: "Session Information Bot", 
+            link: "./product/SessionInformationBot" 
+          },
+          { 
+            label: "Feedback Summarizer Bot", 
+            link: "./product/FeedbackSummarizerBot"
+           },
+          { 
+            label: "Intelligent Document Processing Bot", 
+            link: "./product/IntelligentDocumentProcessingBot" 
+          },
         ],
-        icon: "/icons/framework.svg",
-        alt: "frwk",
       },
-      { 
-        label: "NLP", 
-        submenu: [
-          { label: "Session Information Bot", link: "./product/SessionInformationBot" },
-          { label: "Feedback Summarizer Bot", link: "./product/FeedbackSummarizerBot" },
-          { label: "Intelligent Document Processing Bot", link: "./product/IntelligentDocumentProcessingBot" },
-          { label: "GPT Models", link: "#" },
-          { label: "BERT", link: "#" },
-        ],
-        icon: "/icons/nlp.svg",
-        alt: "nlp",
+      {
+        label: "Generative AI & GPT",
+        submenu: [],
+        icon: "",
+        alt: "",
+        link: "#",
       },
-      { 
-        label: "Computer Vision", 
-        submenu: [
-          { label: "OpenCV", link: "#" },
-          { label: "TensorFlow Object Detection API", link: "#" },
-          { label: "YOLO", link: "#" },
-          { label: "Dlib", link: "#" },
-        ],
-        icon: "/icons/computerVision.svg",
-        alt: "comp",
-      },
-    ],
+    ], 
   },
   { 
-    label: "Machine Learning", 
+    label: "Solutions", 
     submenu: [
       { 
-        label: "Data Processing", 
-        submenu: [
-          { label: "Pandas", link: "#" },
-          { label: "NumPy", link: "#" },
-          { label: "Apache Spark", link: "#" },
-          { label: "Dask", link: "#" },
-        ],
+        label: "Virtual Assistant Tool", 
         icon: "/icons/dataP.svg",
         alt: "data",
       },
       { 
-        label: "ML Models", 
-        submenu: [
-          { label: "Scikit Learn", link: "./productdetails" },
-          { label: "Regression", link: "#" },
-          { label: "Classification", link: "#" },
-          { label: "Clustering", link: "#" },
-          { label: "Neural Networks", link: "#" },
-        ],
+        label: "Custom Large Language Models", 
+
         icon: "/icons/ML.svg",
         alt: "ML",
       },
       { 
-        label: "Data Visualization", 
-        submenu: [
-          { label: "Matplotlib", link: "#" },
-          { label: "Seaborn", link: "#" },
-          { label: "Plotly", link: "#" },
-        ],
+        label: "Natural Language Processing", 
+
         icon: "/icons/dataV.svg",
         alt: "data",
+      },
+      { 
+        label: "Consumer Sentiment Analysis", 
+
+        icon: "/icons/dataV.svg",
+        alt: "data",
+      },
+      { 
+        label: "Text Analysis", 
+
+        icon: "/icons/dataV.svg",
+        alt: "data",
+      },
+      { 
+        label: "Al Call Center Solutions", 
+
+        icon: "/icons/dataV.svg",
+        alt: "data",
+      },
+      { 
+        label: "Predictive Analytics", 
+
+        icon: "/icons/dataV.svg",
+        alt: "data",
+      },
+      { 
+        label: "Recommendation Systems", 
+
+        icon: "/icons/dataV.svg",
+        alt: "data",
+      },
+      { 
+        label: "Computer Vision", 
+
+        icon: "/icons/dataV.svg",
+        alt: "data",
+      },
+      { 
+        label: "Image Recognition", 
+
+        icon: "/icons/dataV.svg",
+        alt: "data",
+      },
+      { 
+        label: "Pose Estimation", 
+
+        icon: "/icons/dataV.svg",
+        alt: "data",
+      },
+      { 
+        label: "Data capture & OCR", 
+
+        icon: "/icons/dataV.svg",
+        alt: "data",
+      },
+    ],
+  },
+  { 
+    label: "Industries", 
+    submenu: [
+      { 
+        label: "Healthcare & Pharma", 
+
+        icon: "/icons/framework.svg",
+        alt: "frwk",
+      },
+      { 
+        label: "Sport & Wellness", 
+
+        icon: "/icons/nlp.svg",
+        alt: "nlp",
+      },
+      { 
+        label: "E-commerce", 
+
+        icon: "/icons/computerVision.svg",
+        alt: "comp",
+      },
+      { 
+        label: "MarTech", 
+
+        icon: "/icons/computerVision.svg",
+        alt: "comp",
+      },
+      { 
+        label: "Automotive", 
+
+        icon: "/icons/computerVision.svg",
+        alt: "comp",
+      },
+      { 
+        label: "Logistics", 
+
+        icon: "/icons/computerVision.svg",
+        alt: "comp",
+      },
+      { 
+        label: "Game & Entertainment", 
+
+        icon: "/icons/computerVision.svg",
+        alt: "comp",
+      },
+      { 
+        label: "Fintech", 
+
+        icon: "/icons/computerVision.svg",
+        alt: "comp",
+      },
+      { 
+        label: "Retail", 
+
+        icon: "/icons/computerVision.svg",
+        alt: "comp",
       },
     ],
   },
