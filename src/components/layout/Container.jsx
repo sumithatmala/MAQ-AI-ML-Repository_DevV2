@@ -3,8 +3,9 @@ import { Outlet } from 'react-router-dom';
 // import Navmenu from "./Navmenu"
 // import NavBar2 from './NavBar2';
 import MobileNav from './MobileNav';
-import NewNavbar from './NewNavbar';
+
 import CompanyLogo from '../ui-elements/CompanyLogo';
+import Navbar from '../ui-elements/NavBar/NavBar';
 
 const Container = () => {
   return (
@@ -13,7 +14,7 @@ const Container = () => {
         {/* <Navmenu /> */}
         {/* <NavBar2 /> */}
         <CompanyLogo/>
-        <NewNavbar/>
+        <Navbar/>
         <MobileNav/>
       </div>
       <Outlet/>

@@ -1,13 +1,14 @@
-import NavigationLinks from './NavigationLinks';
 import { useState, useEffect, useRef } from 'react';
-// import './NewNavbar.css';
+import './Navbar.css';
 import { Link } from 'react-router-dom';
+import NavigationLinks from '../../layout/NavigationLinks';
 
 const Dropdown = ({ submenus, dropdown, depthLevel }) => {
     depthLevel = depthLevel + 1;
     const dropdownClass = depthLevel > 1 ? "dropdown-submenu" : "";
  return (
-    <ul className={`dropdown ${dropdownClass} ${dropdown ? "show" : ""}`}>
+    <ul className={`dropdown ${dropdownClass} wrapper ${dropdown ? "show" : ""}`}>
+     {/* <ul className={`dropdown ${dropdownClass} wrapper ${true ? "show" : ""}`}> */}
         {submenus.map((submenu, index) => (
             <MenuItems items={submenu} key={index} depthLevel={depthLevel}/>
         ))}
@@ -23,6 +24,8 @@ const MenuItems = ({ items, depthLevel }) => {
     useEffect(() => {
         const handler = (event) => {
          if (dropdown && ref.current && !ref.current.contains(event.target)) {
+            console.log(event)
+            console.log(ref.current )
             setDropdown(false);
          }
         };
@@ -56,20 +59,20 @@ const MenuItems = ({ items, depthLevel }) => {
         >
             {items.submenu ? (
                 <>
-                    <button type="button" aria-haspopup="menu" aria-expanded={dropdown ? "true" : "false"} onClick={() => setDropdown((prev) => !prev)}>
+                    <button className='nav-list__item' type="button" aria-haspopup="menu" aria-expanded={dropdown ? "true" : "false"} onClick={() => setDropdown((prev) => !prev)}>
                         {items.icon ?(
                             <img src={process.env.PUBLIC_URL + items.icon} alt={items.alt} height={20}/>
                         ):(<></>)}
                         {items.label}{' '} 
                         {/* {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />} */}
                     </button>
-                    <Dropdown 
-                    submenus={items.submenu} 
+                    <Dropdown
+                    submenus={items.submenu}
                     dropdown={dropdown}
                     depthLevel = {depthLevel}/>
                 </>
             ) : (
-                <Link to={items.link}>{items.label}</Link>
+                <Link to={items.link} className='nav-list__item link__underline'>{items.label} </Link>
             )}
         </li>
     );

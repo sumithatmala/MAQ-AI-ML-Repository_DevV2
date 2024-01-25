@@ -1372,7 +1372,11 @@ button.bg-dark:focus {
   margin-left: -0.625rem;
   border-bottom: 0;
 }
-
+.wrapper {
+  display: grid ;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
 .card-header-pills {
   margin-right: -0.625rem;
   margin-left: -0.625rem;
@@ -1382,12 +1386,12 @@ button.bg-dark:focus {
   color: black !important;
   text-decoration: none !important;
 }
-.wrapper {
+/* .wrapper {
   width: 100%;
   -webkit-box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
-}
+} */
 
 .no-gutters {
   margin-right: 0;
