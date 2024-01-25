@@ -10,7 +10,7 @@ const ProductCard = (props) => {
                 <p className="specialization-card-text">{props.description}</p>
                 <Link to={props.link}>
                     {/* <button className='learnBtn'> Read more </button> */}
-                    <button className="button-17 learnBtn" role="button">Read More</button>
+                    <button className="button-17 learnBtn">Read More</button>
                 </Link>
             </div>
         </div>

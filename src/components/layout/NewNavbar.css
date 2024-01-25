@@ -156,6 +156,7 @@
   }
   
   .desktop-nav .dropdown {
+    animation: 0.5s slidein;
     position: absolute;
     right: auto;
     left: 2px;
@@ -170,7 +171,19 @@
     border-radius: 0.5rem;
     display: none;
   }
+
+  @keyframes slidein {
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
   
+    100% {
+      transform: translateY(0rem);
+      opacity: 1;
+    }
+  }
+
   .desktop-nav .dropdown.show {
     display: block;
   }
