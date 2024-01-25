@@ -1,0 +1,12 @@
+.Headervisual {
+    display: block;
+    width: 100%;
+    background-color: #97a8f3;
+    height: fit-content;
+}
+
+.cropSvg {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}

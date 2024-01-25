@@ -1,5 +1,7 @@
 import React from "react";
 import {HashRouter as Router, BrowserRouter, Routes, Route } from "react-router-dom";
+
+//Product elements
 import Container from "../components/layout/Container";
 import NotFound from "../components/views/NotFound";
 import HomePage from "../components/home-page/HomePage";
@@ -8,6 +10,7 @@ import SideBar from "../components/ui-elements/SideBar/SideBar";
 import ProductInformation from "../components/product-dashboard/ProductInformation";
 import '../css/style.css'
 import ScrollToTop from './ScrollToTop';
+import TextAnalysis from "../components/solutions/TextAnalysis";
 
 const Navigation = () => {
   return (
@@ -26,6 +29,7 @@ const Navigation = () => {
               </>
             }
           />
+          <Route path="/product/TextAnalysis" element={<TextAnalysis/>}/>
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

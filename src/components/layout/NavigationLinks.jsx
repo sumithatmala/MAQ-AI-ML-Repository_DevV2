@@ -129,6 +129,7 @@ const NavigationLinks = [
           { label: "Document Classification With Virtual Assistant", link: "./product/DocumentClassificationWithVirtualAssistant" },
           { label: "Smart Support Framework", link: "./product/SmartSupportFramework" },
           { label: "TriviaBot", link: "./product/TriviaBot" },
+          { label: "TextAnalysis", link: "./product/TextAnalysis"},
         ],
         icon: "/icons/nlp.svg",
         alt: "nlp",
