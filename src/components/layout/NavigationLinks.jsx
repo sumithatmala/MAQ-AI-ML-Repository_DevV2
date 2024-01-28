@@ -130,7 +130,24 @@ const NavigationLinks = [
       },
       {
         label: "Generative AI & GPT",
-        submenu: [],
+        submenu: [
+          { 
+            label: "Hugging Face Transformers", 
+            link: "#" 
+          },
+          { 
+            label: "RunwayML", 
+            link: "#"
+           },
+          { 
+            label: "DeepAI Text Generation API", 
+            link: "#" 
+          },
+          { 
+            label: "EleutherAI GPT Models", 
+            link: "#" 
+          },
+        ],
         icon: "",
         alt: "",
         link: "#",
@@ -272,8 +289,8 @@ const NavigationLinks = [
       },
     ],
   },
-  { label: "Blog", link: "#" },
-  { label: "Contact", link: "#" },
+  // { label: "Blog", link: "#" },
+  // { label: "Contact", link: "#" },
 ];
 
 

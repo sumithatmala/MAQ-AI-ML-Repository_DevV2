@@ -70,7 +70,7 @@
   }
 
   .desktop-nav .menu-items {
-    padding: 0 10px 0 10px;
+    /* padding: 0 10px 0 10px; */
     /* position: relative; */
     font-size: 14px;
   }
@@ -126,14 +126,50 @@
       transition: width 0.3s; /* Transition width change */
     }
   }
+
+  
   .wrapper {
-    gap: 10px;
+    gap: 30px;
     padding: 2% 10% !important;
   }
   
-  .dropdown.show {
+  .wrapper.dropdown.show {
     display: grid !important;
     grid-template-columns: repeat(3, 1fr);
+  }
+
+.list-sub-menu {
+  display: flex;
+}
+.static-pos {
+  top: 16%;
+  left: 20%;
+  position: fixed;
+  /* display: grid !important;
+  grid-template-columns: repeat(3, 1fr); */
+  border-left: 2px solid #b9091b;
+}
+  .list-wrapper.dropdown.show {
+    display: -ms-flexbox;
+    /* display: flex !important; */
+    height: auto;
+    min-height: 250px;
+    max-height: 430px;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* display: none;
+    position: absolute; */
+    /* top: 0 ; */
+    /* left: 50%;  */
+    /* Position submenu to the right */
+    /* margin-left: 10px; */
+     /* Add some space between the link and submenu */
+    /* background-color: #fff; */
+    /* min-width: 200px; */
+    /* border: 1px solid #ccc; */
+    /* z-index: 999; */
   }
   
   /* Add any other necessary styling for hiding/showing the submenu */
@@ -148,7 +184,15 @@
   .desktop-nav button span {
     margin-left: 3px;
   }
-  
+  .list-layout-menu-item {
+    width: 20%;
+    display: flex;
+  }
+  .dropdown.list-wrapper.show {
+    padding: 3%;
+    line-height: 3;
+
+  }
   .desktop-nav .menu-items > a,
   .desktop-nav .menu-items button {
     text-align: left;
@@ -212,6 +256,9 @@
 
   .desktop-nav .dropdown.show {
     display: block;
+  }
+  .desktop-nav .dropdown.show a {
+    padding-left: 0;
   }
   .desktop-nav .dropdown.show a:hover{
     background-color: #fff;

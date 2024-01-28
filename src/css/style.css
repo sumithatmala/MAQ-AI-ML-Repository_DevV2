@@ -1372,11 +1372,11 @@ button.bg-dark:focus {
   margin-left: -0.625rem;
   border-bottom: 0;
 }
-.wrapper {
+/* .wrapper {
   display: grid ;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-}
+} */
 .card-header-pills {
   margin-right: -0.625rem;
   margin-left: -0.625rem;
