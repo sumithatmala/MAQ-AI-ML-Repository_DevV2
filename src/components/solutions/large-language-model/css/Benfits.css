@@ -127,16 +127,10 @@
     border-radius: 6px;
     text-align: center;
 }
-.page-type-llm .whychoose-section .whychoose-section-list__title {
+ .whychoose-section .whychoose-section-list__title {
     margin-bottom: 10px;
     font-size: 16px;
-    font-weight: 500;
-    line-height: 1.875;
-}
-.whychoose-section .whychoose-section-list__title {
-    margin-bottom: 10px;
-    font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.875;
 }
 .whychoose-section .whychoose-section-list__description {
