@@ -1,12 +1,239 @@
-.Headervisual {
-    display: block;
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.HeaderVisual {
+    display: flex;
+    text-align: center;
+    color: white;
     width: 100%;
-    background-color: #97a8f3;
-    height: fit-content;
+    background-color: #453c90;
+    height: 65vh;
+    align-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.HeaderVisual h1 {
+    font-size: xx-large;
+}
+.HeaderVisual h2 {
+    font-size: large;
+    text-align: center;
 }
 
 .cropSvg {
     width: 100%;
-    height: 600px;
-    object-fit: cover;
+    height: 275px;
+    align-items: end;
+    /* object-fit: cover; */
 }
+
+.InfoVisual {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: fit-content;
+    flex-direction: column;
+}
+
+.HeaderBox {
+    margin-top: 5rem;
+    font-size:medium;
+    margin: 60px 25% 0 25%;
+    text-align: center;
+}
+.HeaderBox p {
+    margin-top: 30px;
+}
+.HeaderBox h1 {
+    font-size: x-large;
+}
+
+.LearnMoreList {
+    display: flex;
+    text-align: center;
+    flex-wrap: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.LearnMoreCard {
+    display: flex;
+    float: left;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    max-width: 255px;
+    height: 255px;
+    margin: 20px;
+    transition: box-shadow 0.3s;
+}
+.LearnMoreCard p {
+    color: black;
+    margin-top: 20px;
+}
+/* .LearnMoreCard a {
+    display: none;
+} */
+
+.LearnMoreCard:hover{
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
+}
+
+.BannerVisualLft {
+    margin: 40px;
+    padding: 10px;
+    display: flex;
+}
+
+.BannerVisualRgt {
+    margin: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.BannerDetails {
+    line-height: 1.7;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 30rem;
+}
+
+.ContactBtn {
+    font-size:medium;
+    margin-right:auto;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: 1px solid #453c90;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.ContactBtn:hover {
+    background-color: #453c90;
+}
+.ContactBtn a {
+    color:#453c90;
+}
+.ContactBtn a:hover{
+    color: white;
+}
+
+.SpecialContainer {
+    margin: 5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.SpecialCards {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.indCard {
+    max-width: 12rem;
+    margin: 10px 30px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+}
+.indCard p{
+    font-size: 14px;
+}
+.indCard h3{
+    margin-top: 10px;
+    font-size: 18px;
+}
+/* Form */
+
+.FormBox {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    min-height: fit-content;
+    /* background: #1f242d; */
+    margin: 20px;
+}
+.Contact {
+    width: 50rem;
+
+}
+.Contact form{
+    text-align: center;
+    align-items: center;
+}
+.Contact h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+form .input-box {
+    display :flex;
+    justify-content: space-between;
+}
+.field .item {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid #73819c;
+    outline: none;
+    border-radius: 6px;
+    margin: 10px 20px;
+}
+
+.field .item :placeholder-shown {
+    color: rgba(255, 255, 255, .3);
+}
+
+.input-box .input-field {
+    width: 48.5%;
+}
+
+form .textarea-field .item {
+    resize: none;
+}
+
+form .textarea-field .error-txt {
+    font-size: 14.5px;
+    color: #d93e25;
+    text-align: left;
+    margin: -5px 20px 10px;
+    display: none;
+}
+
+form button {
+    color: white;
+    padding: 12px 32px;
+    background: #453c90;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    /* color:#333; */
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px #453c90;
+    /* font-weight: 600; */
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+form button:hover {
+    box-shadow: none;
+}
+
+.field .error-txt {
+    font-size: 14.5px;
+    color: #d93e25;
+    text-align: left;
+    margin: -5px 20px 10px;
+    display: none;
+}
+    
