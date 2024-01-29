@@ -142,8 +142,8 @@
   display: flex;
 }
 .static-pos {
-  top: 16%;
-  left: 20%;
+  top: 100px;
+  left: 30%;
   position: fixed;
   /* display: grid !important;
   grid-template-columns: repeat(3, 1fr); */
@@ -189,7 +189,7 @@
     display: flex;
   }
   .dropdown.list-wrapper.show {
-    padding: 3%;
+    padding: 3% 3% 3% 20%;
     line-height: 3;
 
   }

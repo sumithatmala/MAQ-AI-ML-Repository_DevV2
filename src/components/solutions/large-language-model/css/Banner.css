@@ -1,0 +1,121 @@
+.heading {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 0;
+    min-height: 610px;
+    padding: 32px 20px;
+    margin-top: -90px;
+    background-color: #453c90;
+    color: #fff;
+}
+@media (min-width: 640px) {
+.heading {
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+}
+@media (min-width: 640px) {
+.heading-bg {
+    min-height: 690px;
+}
+}
+.heading-bg:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: h 1s 2s forwards;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 972px auto;
+    content: "";
+    /* opacity: 0; */
+}
+@media (min-width: 640px) {
+ .heading:before {
+    background-image: url(../img/heading-net-bg.svg);
+}
+}
+.heading-inner {
+    position: relative;
+    z-index: 2;
+    min-width: 0;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    margin: auto;
+}
+.heading-order-effects .__w-800 {
+    max-width: 800px;
+    text-align: center;
+}
+.heading-order-effects .heading-title {
+    max-width: 690px;
+    margin: 0 auto 20px;
+    animation: h 1s .2s forwards;
+    font-size: 35px;
+    /* opacity: 0; */
+}
+@media (min-width: 640px){
+.heading-title {
+    animation: h 1s .2s forwards;
+    /* opacity: 0; */
+}
+}
+.heading-title {
+    padding: 0;
+    margin: 0 0 12px;
+    color: inherit;
+    font-size: 35px;
+    text-align: center;
+}
+
+.heading-order-effects .__w-900 {
+    max-width: 900px;
+    text-align: center;
+}
+.heading-order-effects .heading-subtitle {
+    max-width: 690px;
+    margin: 0 auto 30px;
+    animation: h 1s 1.2s forwards;
+    font-size: 18px;
+    /* opacity: 0; */
+}
+@media (min-width: 640px) {
+    .heading-subtitle {
+        animation: h 1s .2s forwards;
+        /* opacity: 0; */
+    }
+}
+.heading-subtitle {
+    padding: 0;
+    margin: 0 0 30px;
+    color: inherit;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+@media (min-width: 742px) {
+    .heading #heading-animation {
+        bottom: 0;
+        max-width: 360px !important;
+        max-height: 300px;
+    }
+}
+@media (min-width: 742px) {
+    .heading #heading-animation {
+        position: absolute;
+        right: 0;
+        left: 0;
+        max-width: 870px;
+        margin: auto;
+    }
+}
+#heading-animation {
+    animation: h 1.5s 3s forwards;
+    /* opacity: 0; */
+}
+.text-alert {
+    /* color: #ff9c00; */
+}

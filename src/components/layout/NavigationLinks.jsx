@@ -164,7 +164,7 @@ const NavigationLinks = [
       },
       { 
         label: "Custom Large Language Models", 
-
+        link: "../solutions/large-language-model/LargeLanguageModel.jsx",
         icon: "/icons/ML.svg",
         alt: "ML",
       },
