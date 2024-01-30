@@ -3,10 +3,16 @@ import Banner from "./Banner";
 import Benfits from "./Benfits";
 import UseCases from "./UseCases";
 import Industries from "./Industries";
-import "./css/Industries.css";
+// import "./css/Industries.css";
 import "./css/LargeLanguageModel.css"
 import Expertise from "./Expertise";
 import ArticleBanner from "./ArticleBanner";
+import Benfits2 from "./Benfits2";
+import Integration from "./Integration";
+import WhyMAQSoftware from "../common/WhyMAQSoftware";
+import OurTechStack from "./OurTechStack";
+import BroadExpertise from "./BroadExpertise";
+import CustomerSuccess from "./CustomerSuccess";
 
 const LargeLanguageModel = () => {
   return (
@@ -26,7 +32,13 @@ const LargeLanguageModel = () => {
           </div>
         </div>
         <Expertise />
-        <ArticleBanner />
+        {/* <ArticleBanner /> */}
+        <Benfits2 />
+        <Integration />
+        <OurTechStack />
+        <BroadExpertise />
+        {/* <WhyMAQSoftware /> */}
+        <CustomerSuccess />
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ const Benfits = () => {
           secure.
         </div>
         <ul class="whychoose-section-list">
-          {" "}
+          
           <li class="whychoose-section-list__list-item">
             <div class="whychoose-section-list__item">
               <div class="whychoose-section-list__text">
@@ -26,8 +26,8 @@ const Benfits = () => {
                   </p>
                 </div>
               </div>
-            </div>{" "}
-          </li>{" "}
+            </div>
+          </li>
           <li class="whychoose-section-list__list-item">
             <div class="whychoose-section-list__item">
               <div class="whychoose-section-list__text">
@@ -43,11 +43,11 @@ const Benfits = () => {
                   </p>
                 </div>
               </div>
-            </div>{" "}
+            </div>
           </li>
         </ul>
         <div class="block__action">
-          {" "}
+          
           <a
             href="large-language-model.html#section-contacts"
             class="btn btn-empty"

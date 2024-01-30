@@ -70,7 +70,7 @@ export default function SideBar() {
                 collapseSidebar();
               }}
               style={{ textAlign: "center", opacity: "1" }}>
-              {" "}
+              
             </MenuItem> */}
 
             <HashLink

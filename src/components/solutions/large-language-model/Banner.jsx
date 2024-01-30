@@ -2,7 +2,7 @@ import React from 'react'
 import './css/Banner.css'
 const Banner = () => {
   return (
-        <section class="heading heading-order-effects heading-bg">
+        <section class="heading heading-order-effects heading-bg" Style="margin-top: 0px;">
           <div class="heading-inner">
             <h1 class="heading-title __w-800">
               <span class="text-alert">

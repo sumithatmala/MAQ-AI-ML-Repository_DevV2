@@ -1,4 +1,5 @@
 import React from "react";
+import "./css/Industries.css";
 import icon_ecommerce_alt from './img/icon-ecommerce-alt.svg'
 import bi_fin_service from './img/bi-fin-service.svg'
 import bi_marketing from './img/bi-marketing.svg'
@@ -20,7 +21,7 @@ const Industries = () => {
           <div class="industries__item-link">
             <div class="industries__item">
               <div class="industries__item-icon">
-                {" "}
+                
                 <img
                   src={bi_fin_service}
                   alt="Financial Services"
@@ -32,7 +33,7 @@ const Industries = () => {
           <div class="industries__item-link">
             <div class="industries__item">
               <div class="industries__item-icon">
-                {" "}
+                
                 <img
                   src={icon_ecommerce_alt}
                   alt="ecommerce"
@@ -44,7 +45,7 @@ const Industries = () => {
           <div class="industries__item-link">
             <div class="industries__item">
               <div class="industries__item-icon">
-                {" "}
+                
                 <img
                   src={bi_marketing}
                   alt="Marketing &amp; Advertising"
@@ -58,7 +59,7 @@ const Industries = () => {
           <div class="industries__item-link">
             <div class="industries__item">
               <div class="industries__item-icon">
-                {" "}
+                
                 <img
                   src={icon_telecommunications}
                   alt="telecommunications"
@@ -70,7 +71,7 @@ const Industries = () => {
           <div class="industries__item-link">
             <div class="industries__item">
               <div class="industries__item-icon">
-                {" "}
+                
                 <img
                   src={bi_icon_conslng}
                   alt="BI Consulting Services"
@@ -82,7 +83,7 @@ const Industries = () => {
           <div class="industries__item-link">
             <div class="industries__item">
               <div class="industries__item-icon">
-                {" "}
+                
                 <img
                   src={icon_security}
                   alt="security"
@@ -93,7 +94,7 @@ const Industries = () => {
           </div>
         </div>
         <div class="block__action">
-          {" "}
+          
           <a
             href="large-language-model.html#section-contacts"
             class="btn btn-empty"

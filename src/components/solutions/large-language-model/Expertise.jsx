@@ -30,9 +30,9 @@ const Expertise = () => {
                 infrastructure.
               </p>
               <ul>
-                {" "}
-                <li>Business case analysis</li> <li>Proof of Concept</li>{" "}
-                <li>Overview of proprietary data</li>{" "}
+                
+                <li>Business case analysis</li> <li>Proof of Concept</li>
+                <li>Overview of proprietary data</li>
                 <li>Project estimation and roadmap</li>
               </ul>
             </div>
@@ -60,9 +60,9 @@ const Expertise = () => {
                 experts help tailor the model to your specific business needs.
               </p>
               <ul>
-                {" "}
-                <li>User workflow development</li>{" "}
-                <li>Custom solutions development</li>{" "}
+                
+                <li>User workflow development</li>
+                <li>Custom solutions development</li>
                 <li>Dataset preparation</li> <li>LLM integration</li>
               </ul>
             </div>
@@ -89,10 +89,10 @@ const Expertise = () => {
                 rates, and make the model more efficient.
               </p>
               <ul>
-                {" "}
-                <li>Large language model fine-tuning</li>{" "}
-                <li>API integration</li>{" "}
-                <li>Data architecture modernization</li>{" "}
+                
+                <li>Large language model fine-tuning</li>
+                <li>API integration</li>
+                <li>Data architecture modernization</li>
                 <li>Large language model automation</li>
               </ul>
             </div>
