@@ -1,22 +1,23 @@
 const ContactForm = () => {
     //variables to be used at teh time of get request or mail stpl
-    const form = document.querySelector("form");
-    const name = document.getElementById("name");
-    const CompName = document.querySelector("compName");
-    const Email = document.querySelector("email");
-    const msg = document.querySelector("message");
+    
+    // const form = document.querySelector("form");
+    // const name = document.getElementById("name");
+    // const CompName = document.querySelector("compName");
+    // const email = document.querySelector("email");
+    // const msg = document.querySelector("message");
 
     function checkInpts() {
         const items = document.querySelectorAll(".item");
 
         for(const item of items) {
-            if(item.value == "") {
+            if(item.value === "") {
                 item.classList.add("error");
                 item.parentElement.classList.add("error");
             }
 
             item.addEventListener("keyup", ()=> {
-                if(item.value != "") {
+                if(item.value !== "") {
                     item.classList.remove("error");
                     item.parentElement.classList.remove("error");
                 } else {
@@ -27,7 +28,7 @@ const ContactForm = () => {
         }
 
     }
-    
+
     function handleSubmit(e) {
         e.preventDefault();
         // alert("form submitted!");
@@ -37,7 +38,7 @@ const ContactForm = () => {
     return (
         <div className="FormBox">
             <section className="Contact">
-                <h2>Get started with InData Labs today.</h2>
+                <h2>Get in Toch with MAQ Software Today</h2>
                 <p>Let's talk about your text analysis project</p>
                 <form action="#" onSubmit={handleSubmit}>
                     <div className="input-box">

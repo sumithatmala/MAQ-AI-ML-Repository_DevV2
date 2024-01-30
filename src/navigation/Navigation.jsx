@@ -1,5 +1,5 @@
 import React from "react";
-import {HashRouter as Router, BrowserRouter, Routes, Route } from "react-router-dom";
+import {HashRouter as Router, Routes, Route } from "react-router-dom";
 
 //Product elements
 import Container from "../components/layout/Container";
@@ -11,6 +11,8 @@ import ProductInformation from "../components/product-dashboard/ProductInformati
 import '../css/style.css'
 import ScrollToTop from './ScrollToTop';
 import TextAnalysis from "../components/solutions/textAnalysis/TextAnalysis";
+import ComputerVision from "../components/solutions/computerVision/ComputerVision";
+import ImageRecognition from "../components/solutions/imageRecognition/ImageRecognition";
 
 const Navigation = () => {
   return (
@@ -30,6 +32,8 @@ const Navigation = () => {
             }
           />
           <Route path="/product/TextAnalysis" element={<TextAnalysis/>}/>
+          <Route path="/product/ComputerVision" element={<ComputerVision/>}/>
+          <Route path="/product/ImageRecognition" element={<ImageRecognition/>}/>
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

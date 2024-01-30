@@ -1,0 +1,155 @@
+* {
+    line-height:2.5cap;
+}
+
+h1,h2 {
+    margin-bottom: 10px;
+}
+
+.HeaderVisual-ir {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    height: 65vh;
+    background-image: url("./visuals/backImg.jpg");
+    object-fit: cover   ;
+}
+
+.Container-ir {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Info-section {
+    display: flex;
+    justify-content: center;
+    width: 780px;
+    text-align: center;
+    margin: 5rem 20px 0 20px;
+    padding: auto;
+    flex-direction: column;
+}
+.Info-section p {
+    font-size: 16px;
+
+}
+
+.IntroBanner {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5rem 20px;
+}
+
+.IntroBanner-det {
+    padding: 10px;
+    margin: 20px;
+
+}
+.IntroBanner-det h2{
+    font-size: 18px;
+}
+
+/* roadmap */
+.RoadmapContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 740px;
+}
+
+.Roadmap {
+    height: 800px;
+    background-color: #443c90a8;
+    border-radius: 5px;
+    margin: 5rem 10px 5rem 10px;
+    padding: 10px;
+}
+
+/* Image recognition process */
+.irProcessContainer {
+    margin: 5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.irProcess {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: row;
+}
+.irProcess .ul {
+    float: left;
+    margin: 0;
+}
+
+.ProcessCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 360px;
+    max-height: 400px;
+    min-height: 300px;
+    padding: 10px;
+    align-items: center;
+    margin: 5rem 20px;
+}
+
+/* usage section */
+.UsageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    margin: 0 10px 5rem 10px;
+}
+
+.UsageText {
+    padding: 10px;
+    max-width: 500px;
+}
+
+/* industries */
+.IndustriesContainer {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    align-items: center;
+    margin: 20px;
+}
+
+.IndustryCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 510px;
+    height: 200px;
+    margin: 10px;
+    padding: auto;
+    /* border: 2px #443c90a8 solid; */
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+}
+.IndustryCard img {
+    margin: 10px;
+}
+
+.IndustryCard-txt {
+    margin: 10px;
+    display: block;
+}
+.IndustryCard-txt p {
+    font-size: 14px;
+}
