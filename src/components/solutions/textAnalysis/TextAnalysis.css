@@ -59,6 +59,10 @@
     justify-content: center;
     margin-top: 5rem;
 }
+.LearnMoreList ul{
+    margin-left: 0;
+    padding: 0;
+}
 
 .LearnMoreCard {
     display: flex;
@@ -78,7 +82,6 @@
 /* .LearnMoreCard a {
     display: none;
 } */
-
 .LearnMoreCard:hover{
     box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
 }
@@ -189,6 +192,19 @@ form .input-box {
     border-radius: 6px;
     margin: 10px 20px;
 }
+.field.error .item {
+    border-color: #d93e25;
+}
+.field .error-txt {
+    font-size: 14.5px;
+    color: #d93e25;
+    text-align: left;
+    margin: -5px 20px 10px;
+    display: none;
+}
+.field.error .error-txt {
+    display: block;
+}
 
 .field .item :placeholder-shown {
     color: rgba(255, 255, 255, .3);
@@ -229,11 +245,4 @@ form button:hover {
     box-shadow: none;
 }
 
-.field .error-txt {
-    font-size: 14.5px;
-    color: #d93e25;
-    text-align: left;
-    margin: -5px 20px 10px;
-    display: none;
-}
     

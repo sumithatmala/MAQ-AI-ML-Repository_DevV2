@@ -10,7 +10,7 @@ import SideBar from "../components/ui-elements/SideBar/SideBar";
 import ProductInformation from "../components/product-dashboard/ProductInformation";
 import '../css/style.css'
 import ScrollToTop from './ScrollToTop';
-import TextAnalysis from "../components/solutions/TextAnalysis";
+import TextAnalysis from "../components/solutions/textAnalysis/TextAnalysis";
 
 const Navigation = () => {
   return (
