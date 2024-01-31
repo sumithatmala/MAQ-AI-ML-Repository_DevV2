@@ -2,10 +2,10 @@ import "./ImageRecognition.css"
 import RecogImg from "./visuals/imgRec.jpg"
 import { process, industrialCards, benefitCards, technologies } from "./visuals/ImageRecList"
 import { Link } from "react-router-dom"
-import ContactForm from "../components/contactForm"
+import ContactForm from "../common/contactForm"
 import phoneImg from "./visuals/hand-holding-mobile-smartphone-touchscreen-technology-business-concept-3d-cartoon-illustration.jpg"
-import Grid from "../components/grid"
-import Technologies from "../components/technologies"
+import Grid from "../common/grid"
+import Technologies from "../common/technologies"
 
 const ImageRecognition = () => {
     return(

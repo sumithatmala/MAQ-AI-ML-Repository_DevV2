@@ -2,9 +2,9 @@ import headerImg from "./visuals/text-analysis.svg"
 import "./TextAnalysis.css"
 import { Link } from "react-router-dom";
 import { learnMoreItems, Banners, SpecialCards } from "./visuals/LearnMoreList";
-import ContactForm from "../components/contactForm";
-import Banner from "../components/banner";
-import SpecialContainer from "../components/specializationCards";
+import ContactForm from "../common/contactForm";
+import Banner from "../common/banner";
+import SpecialContainer from "../common/specializationCards";
 
 const TextAnalysis = () => {
     let count=0;

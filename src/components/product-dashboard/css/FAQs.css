@@ -31,3 +31,10 @@
     outline: none !important;
     box-shadow: none !important;
 }
+.custom-accordion-item .accordion-button {
+    font-style:normal;
+    font-size: 16px !important;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  }
+  
