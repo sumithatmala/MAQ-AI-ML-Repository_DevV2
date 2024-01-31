@@ -12,3 +12,17 @@ export const industrialCards = [
     {label: "Retail", disc:"Improve search experience by developing image recognition and analysis software solutions to please your customers with intelligent search by photo and help them find merchandise easily.", img: "/images/ImgRecognition/retail.svg"},
     {label: "Robotics", disc:"Enable machines to efficiently perform a variety of repetitive tasks, such as object and target recognition, navigation, manufacturing & assembly, assisting physically challenged people with image processing techniques, etc.", img: "/images/ImgRecognition/robot.svg"},
 ]
+
+export const benefitCards = [
+    {label: "Improved Accuracy", disc:"Automate different manual operations, reduce errors, and improve your business efficiency with ML algorithms powering image recognition solutions.", img: "/images/numbers/1.png"},
+    {label: "Lower Operational Cost", disc:"Eliminate simple errors and cost overrun by adopting a cost-efficient custom solution to help with workflow automation and acceleration.", img: "/images/numbers/2.png"},
+    {label: "Revamped Services", disc:"Cut time spent on routine tasks, improve service provision and redistribute your intellectual resources to focus on tasks requiring a human touch.", img: "/images/numbers/3.png"},
+    {label: "Automated Flow", disc:"Enhance employee productivity and achieve cost savings by seamlessly integrating custom recognition and analysis algorithms into your business operations.", img: "/images/numbers/4.png"},
+]
+
+export const technologies =  [
+    {img:"/images/technologies/python.png", alt:"python"},
+    {img:"/images/technologies/scikit-learn.png", alt:"scikit-learn"},
+    {img:"/images/technologies/spark.png", alt:"spark"},
+    {img:"/images/technologies/tensorflow.png", alt:"tensorflow"},
+]

@@ -38,7 +38,7 @@ const TextAnalysis = () => {
                 </div>
                 <Banner banners = {Banners} count={count}/>
                 <SpecialContainer SpecialCards={SpecialCards}/>
-                <ContactForm/>
+                <ContactForm contactMsg={"Let's talk about your text analysis project."}/>
             </div>
         </>
     )

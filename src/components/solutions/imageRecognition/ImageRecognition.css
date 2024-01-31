@@ -25,13 +25,11 @@ h1,h2 {
 }
 
 .Info-section {
-    display: flex;
-    justify-content: center;
+    display: block;
     width: 780px;
     text-align: center;
     margin: 5rem 20px 0 20px;
     padding: auto;
-    flex-direction: column;
 }
 .Info-section p {
     font-size: 16px;
@@ -47,8 +45,7 @@ h1,h2 {
 
 .IntroBanner-det {
     padding: 10px;
-    margin: 20px;
-
+    margin: 20px 60px 20px 20px;
 }
 .IntroBanner-det h2{
     font-size: 18px;
@@ -65,16 +62,16 @@ h1,h2 {
 }
 
 .Roadmap {
+    margin: 5rem 10px 5rem 10px;
     height: 800px;
     background-color: #443c90a8;
     border-radius: 5px;
-    margin: 5rem 10px 5rem 10px;
     padding: 10px;
 }
 
 /* Image recognition process */
 .irProcessContainer {
-    margin: 5rem auto;
+    margin: 0 auto 5rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,6 +114,7 @@ h1,h2 {
 .UsageText {
     padding: 10px;
     max-width: 500px;
+    margin-left: 40px;
 }
 
 /* industries */
@@ -135,13 +133,30 @@ h1,h2 {
     justify-content: center;
     flex-direction: row;
     max-width: 510px;
-    height: 200px;
+    height: auto;
     margin: 10px;
     padding: auto;
     /* border: 2px #443c90a8 solid; */
-    border-radius: 10px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px 0px #3d36809f;
+    padding: 10px;
 }
+
+.IndustryCard-noImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 510px;
+    height: auto;
+    margin: 10px;
+    padding: auto;
+    /* border: 2px #443c90a8 solid; */
+    /* border-radius: 5px;
+    box-shadow: 0px 1px 10px 0px #3d36809f; */
+    padding: 10px;
+}
+
 .IndustryCard img {
     margin: 10px;
 }
@@ -152,4 +167,36 @@ h1,h2 {
 }
 .IndustryCard-txt p {
     font-size: 14px;
+}
+
+.btn-class {
+    margin: 20px auto 5rem auto;
+}
+.Industry-btn {
+    color: black;
+    padding: 9px 10px;
+    border-radius: 5px;
+    border: 1px solid #443c90;
+    transition: background-color 0.3s;
+    font-weight: 50;
+}
+.Industry-btn:hover{
+    background-color: #443c90;
+    color: white;
+}
+
+/* Technologies */
+.technologies {
+    display: block;
+    text-align: center;
+    margin: 5rem 20px;
+}
+.technologies li {
+    list-style-type: none;
+    margin: 30px;
+    float: left;
+    align-items: center;
+}
+.techImg {
+    margin: 10px;
 }

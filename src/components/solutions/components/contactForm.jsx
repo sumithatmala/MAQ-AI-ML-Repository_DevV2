@@ -1,4 +1,4 @@
-const ContactForm = () => {
+const ContactForm = ({contactMsg}) => {
     //variables to be used at teh time of get request or mail stpl
     
     // const form = document.querySelector("form");
@@ -39,7 +39,7 @@ const ContactForm = () => {
         <div className="FormBox">
             <section className="Contact">
                 <h2>Get in Toch with MAQ Software Today</h2>
-                <p>Let's talk about your text analysis project</p>
+                <p>{contactMsg}</p>
                 <form action="#" onSubmit={handleSubmit}>
                     <div className="input-box">
                         <div className="input-field field">

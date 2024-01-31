@@ -1,29 +1,11 @@
 import "./ImageRecognition.css"
 import RecogImg from "./visuals/imgRec.jpg"
-import { process, industrialCards } from "./visuals/ImageRecList"
+import { process, industrialCards, benefitCards, technologies } from "./visuals/ImageRecList"
 import { Link } from "react-router-dom"
 import ContactForm from "../components/contactForm"
-
-const IndustrialCards = ({industryList}) => {
-    return (
-        <>
-        <section className="IndustriesContainer">
-            {industryList.map((item)=>{
-                return(
-                    <div className="IndustryCard">
-                        {item.img?(<img src={process.env.PUBLIC_URL + item.img} alt={item.label} width={100}></img>):(<></>)}
-                        <div className="IndustryCard-txt">
-                            <b>{item.label}</b>
-                            <p>{item.disc}</p>
-                        </div>
-                    </div>
-                )
-            })}
-        </section>
-        <button className="btn btn-light"><Link to={"#"}> Request a free Quote </Link></button>
-        </>
-    )
-}
+import phoneImg from "./visuals/hand-holding-mobile-smartphone-touchscreen-technology-business-concept-3d-cartoon-illustration.jpg"
+import Grid from "../components/grid"
+import Technologies from "../components/technologies"
 
 const ImageRecognition = () => {
     return(
@@ -78,7 +60,7 @@ const ImageRecognition = () => {
             </section>
             <h1>How Can You Use It</h1>
             <section className="UsageContainer">
-                <img src="" alt="phone app preview" width={500}></img>
+                <img src={phoneImg} alt="phone app preview" width={375}></img>
                 <div className="UsageText">
                     <p>Implementation and integration of custom image recognition and picture analysis solutions empower machines to replicate human vision and the ability to identify objects in day-to-day reality. ML algorithms enable the recognition of objects and people on raw images with quite low error rates.</p>
                     <p>At InData Labs, we train powerful ML algorithms to fuel custom image object recognition software that helps gather, recognize, analyze visual data and present accurate statistics.</p>
@@ -92,8 +74,12 @@ const ImageRecognition = () => {
                     </ul>
                 </div>
             </section>
-            <IndustrialCards industryList={industrialCards}/>
-            <ContactForm/>
+            <Grid content={industrialCards}/>
+            <div className="btn-class"><Link to={"#"} className="Industry-btn"> Request a Free Quote </Link></div>
+            <h2>Benefits</h2>
+            <Grid content={benefitCards}/>
+            <Technologies tech={technologies}/>
+            <ContactForm contactMsg={"Are you looking to improve your current image recognition software or require a tailor-made solution developed from the ground up? The team at MAQ Software is ready to deliver exceptional computer vision services and customized solutions to meet your needs."}/>
         </div>
         </>
     )

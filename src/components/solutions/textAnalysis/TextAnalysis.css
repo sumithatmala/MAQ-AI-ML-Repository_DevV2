@@ -165,10 +165,10 @@
     min-height: fit-content;
     /* background: #1f242d; */
     margin: 20px;
+    margin-top: 5rem;
 }
 .Contact {
     width: 50rem;
-
 }
 .Contact form{
     text-align: center;
@@ -190,7 +190,7 @@ form .input-box {
     border: 2px solid #73819c;
     outline: none;
     border-radius: 6px;
-    margin: 10px 20px;
+     margin-bottom: 10px; 
 }
 .field.error .item {
     border-color: #d93e25;
@@ -229,20 +229,17 @@ form .textarea-field .error-txt {
 form button {
     color: white;
     padding: 12px 32px;
-    background: #453c90;
+    background-color: #453c90;
     border: none;
-    outline: none;
     border-radius: 6px;
-    /* color:#333; */
     letter-spacing: 1px;
-    box-shadow: 0 0 10px #453c90;
-    /* font-weight: 600; */
     cursor: pointer;
     margin-top: 20px;
-    transition: 0.3s;
+    transition: box-shadow 0.3s;
+    box-shadow: 0 1px 2px #453c90;
 }
 form button:hover {
-    box-shadow: none;
+    background-color: #393375;
 }
 
     
