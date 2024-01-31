@@ -1,9 +1,9 @@
 import React from "react";
 import AnimatedTarget from "../../product-dashboard/icons/AnimatedTarget";
 import "./css/Expertise.css";
-import AnimatedDevelopment from "../../product-dashboard/AnimatedDevelopment";
-import AnimatedSolution from "../../product-dashboard/AnimatedSolution";
-import AnimatedOutcome from "../../product-dashboard/AnimatedOutcome";
+import AnimatedDevelopment from "../../product-dashboard/icons/AnimatedDevelopment";
+import AnimatedSolution from "../../product-dashboard/icons/AnimatedSolution";
+import AnimatedOutcome from "../../product-dashboard/icons/AnimatedOutcome";
 
 const Expertise = () => {
   return (

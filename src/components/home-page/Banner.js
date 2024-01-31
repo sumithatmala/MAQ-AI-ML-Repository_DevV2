@@ -9,7 +9,7 @@ export default function Banner() {
   return (
     <>
     <section id="hero" className="hero">
-      <img src={hero} alt="" className="box fade-into-view hero-img"/>
+      <img src={hero} style = {{marginTop: "2%"}} alt="" className="box fade-into-view hero-img"/>
 
       <div className="container">
         <div className="col mx-5">

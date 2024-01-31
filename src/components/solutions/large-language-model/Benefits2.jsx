@@ -30,26 +30,26 @@ const Benefits2 = () => {
   ];
 
   return (
-    <section className="section-cases">
-      <h2 className="center-heading w-800">
+    <section className="main-cases">
+      <h2 className="head-block-center w-800">
         Unlock the Potential Benefits of Large Language Learning Models
       </h2>
-      <div className="center-text">
+      <div className="text-block-center">
         Discover how LLMs can revolutionize your business operations and drive meaningful outcomes.
       </div>
-      <div className="prediction-cases __type-predict">
-        <div className="prediction-cases__outer">
-          <div className="prediction-cases__inner">
-            <div className="prediction-cases-list-wrapper __type-predict">
-              <ul className="prediction-cases-list">
+      <div className="use-cases __type-predict">
+        <div className="use-cases__outer">
+          <div className="use-cases__inner">
+            <div className="use-cases-list-wrapper __type-predict">
+              <ul className="use-cases-list">
                 {benefits.map((benefit, index) => (
-                  <li key={index} className="prediction-cases-list__list-item">
-                    <div className="prediction-cases-list__item">
-                      <div className="prediction-cases-list__icon">
+                  <li key={index} className="use-cases-list__list-item">
+                    <div className="use-cases-list__item">
+                      <div className="use-cases-list__icon">
                         <img src={benefit.icon} alt={benefit.title} />
                       </div>
-                      <h3 className="prediction-cases-list__title">{benefit.title}</h3>
-                      <div className="prediction-cases-list__text">{benefit.text}</div>
+                      <h3 className="use-cases-list__title">{benefit.title}</h3>
+                      <div className="use-cases-list__text">{benefit.text}</div>
                     </div>
                   </li>
                 ))}
