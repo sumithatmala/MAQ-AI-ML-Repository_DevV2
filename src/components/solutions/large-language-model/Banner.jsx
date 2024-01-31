@@ -10,12 +10,11 @@ const Banner = () => {
       <div className="banner-inner">
         <h1 className="banner-title">
           <span className="text-alert">
-            Large Language Model Development and Consulting
+            Unlock Efficiency and Cost Savings with Advanced Language Models
           </span>
         </h1>
         <div className="banner-subtitle">
-          Maximize automation and reduce operational costs with our expertise in
-          large language model (LLM) development
+          Leverage our specialized skills in developing and consulting on large language models (LLMs) to streamline processes and minimize expenses.
         </div>
       </div>
       <div id="banner-animation">
