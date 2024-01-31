@@ -33,15 +33,25 @@ export const ArtificialIntelligenceData = [
                 link: "./product/FeedbackSummarizerBot",
             },
             {
-                title: "GPT Models",
-                description: "GPT Models is a type of classification in which a single class label is predicted for each instance. In multi-class classification, a class label should be predicted for each sample. For example, classification of fruits into its respective type.",
-                link: "./",
+                title: "Intelligent Document Processing Bot",
+                description: "An Intelligent Document Processing Bot utilizing OCR technology and a knowledge base to extract, store, and retrieve patient data from diverse documents, enhanced by an interactive virtual agent for an intuitive user experience.",
+                link: "./product/IntelligentDocumentProcessingBot",
             },
             {
-                title: "BERT",
-                description: "BERT is a type of classification in which a single class label is predicted for each instance. In multi-class classification, a class label should be predicted for each sample. For example, classification of fruits into its respective type.",
-                link: "./",
-            }
+                title: "Document Classification With Virtual Assistant",
+                description: "Our Virtual Assistant employs AI-powered document classification for efficient and accurate data extraction, enabling quick retrieval and seamless communication, improving overall user experience in handling business documents.",
+                link: "./product/DocumentClassificationWithVirtualAssistant",
+            },
+            {
+                title: "Smart Support Framework",
+                description: "It utilizes OpenAI for intelligent ticket routing, prioritization, and collaboration, ensuring efficient resolution through contextual search and sentiment monitoring for user satisfaction. This solution streamlines support processes, addressing delays and enhancing communication across teams.",
+                link: "./product/SmartSupportFramework",
+            },
+            {
+                title: "TriviaBot",
+                description: "It transforms customer engagement in sales by gamifying learning through OpenAI, prompting users with strategic questions for interactive exploration. It enhances insights by extracting and generating scorecard reports, making the information-seeking process enjoyable and insightful.",
+                link: "./product/TriviaBot",
+            },
         ]
     },
     {

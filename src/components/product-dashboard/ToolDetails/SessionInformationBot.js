@@ -22,8 +22,7 @@ export const SessionInformationBot = {
     title: "Session Information Bot",
     description: "The Session Information Bot optimizes information retrieval from past sessions, offering quick access, contextual search, and interactive user experiences. It enhances knowledge management, streamlining support processes and fostering improved collaboration within organizations.",
     BusinessCase: [
-      "Many organizations face the challenge of finding relevant information from past sessions and meetings, as accessing session metadata and summaries is often not readily available to users.",
-      "This leads to time-consuming searches and difficulties in retrieving specific content. To address this issue, there is a need for a comprehensive solution that allows users to easily access relevant content and recordings from previous sessions, all in one place.",
+      "Organizations often grapple with the challenge of retrieving pertinent information from past sessions and meetings, as the accessibility of session metadata and summaries remains limited for users. This results in time-consuming searches and difficulties in locating specific content. To overcome this hurdle, there is a pressing need for a comprehensive solution that provides users with effortless access to relevant content and recordings from previous sessions, consolidating all essential information in one accessible platform."
     ],
     targetUsers: [
       {

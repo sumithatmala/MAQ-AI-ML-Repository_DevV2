@@ -1,32 +1,52 @@
 
+
 .middle-section {
+    align-items:safe;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
-    width: 90vw;
     /* padding: 15px; */
     position: relative;
-    margin-top: 6rem;
-    margin-left : 5rem;
+
 }
 
 .specializations {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width:fit-content;
+    height:max-content;
+    margin: 50px 0 0 0;
 }
 
 .specialization-page{
     width: 60% ;
 }
 .specialization-card{
-    width: 100%;
-    
-    padding: 20px;
-    
+    width: 100%;  
+    padding: 20px; 
 }
 
 .specialization-details{
-    margin-left: 8rem;
+    margin: 10px 10px 10px 6rem;
 }
 
+.specialization-details p{
+    margin: 10px;
+}
+
+.specialization-details h1{
+    margin:10px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .specializations {
+        flex-direction: row;
+    }
+    .specialization-details {
+        margin: 10px;
+    }
+}

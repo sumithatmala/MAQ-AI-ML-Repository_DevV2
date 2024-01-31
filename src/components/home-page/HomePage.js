@@ -5,6 +5,7 @@ import SpecializationsData from "./SpecializationsData.js";
 import "./HomePage.css";
 import SpecializationsPannel from "./SpecializationsPannel/SpecializationsPannel.js";
 import * as CategoryToolsData from './SpecializationsPannel/CategoryToolsData/index.js'
+import { Popup } from "semantic-ui-react"
 
 const filterByName = (idx, name) => {
   const FileName = name.replace(/\s/g, '') + 'Data';
@@ -17,30 +18,33 @@ export default function HomePage() {
   return (
     <>
       <Banner />
-      <div className="parent-middle-sections" style={{paddingTop:"2px"}}>
-      {/* Left list of specializations */}
-      <div className="container middle-section">
-        <div className="specializations">
-          {
-            SpecializationsData.map((specialization, index) => {
-              return(
-                <Card
-                  key={index}
-                  cardTitle={specialization.title}
-                  cardCaption={specialization.caption}
-                  imageURL={specialization.imageURL}
-                  onClick={() => (setSelected(specialization))}
-                  isSelected={selected.title === specialization.title}
-                />
-              )
-            })
-          }
+      <div className="parent-middle-sections" style={{ paddingTop: "2px" }}>
+        {/* Left list of specializations */}
+        <div className="container middle-section">
+          <div className="specializations">
+            {SpecializationsData.map((specialization, index) => {
+                return (
+                  <Popup
+                    trigger={<Card
+                      key={index}
+                      cardTitle={specialization.title}
+                      cardCaption={specialization.caption}
+                      imageURL={specialization.imageURL}
+                      onClick={() => (setSelected(specialization))}
+                      isSelected={selected.title === specialization.title}
+                    />}
+                    content={specialization.caption}
+                    on='hover' mouseEnterDelay={5000}
+                  />
+                )
+              })
+            }
+          </div>
+          {/* Right list according to the left list selection */}
+          <div className="specialization-details">
+            <SpecializationsPannel items={{ title: selected.title, description: selected.description, filteredData: filterByName(selected.index, selected.title) }} />
+          </div>
         </div>
-        {/* Right list according to the left list selection */}
-        <div className="specialization-details">
-          <SpecializationsPannel items={{ title: selected.title, description: selected.description, filteredData: filterByName(selected.index, selected.title) }}/>
-        </div>
-      </div>
       </div>
     </>
   );

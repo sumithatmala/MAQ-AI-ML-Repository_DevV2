@@ -1,28 +1,29 @@
 import React, { useEffect, useRef, useState } from "react";
 import NavigationLinks from "./NavigationLinks";
-import './NewNavbar.css';
+// import './NewNavbar.css';
 import Hamburger from 'hamburger-react'
 import { Link } from "react-router-dom";
 // import menuIcon from "../ui-elements/list.svg"
 
 const MobileDropdown = ({ submenus, dropdown, depthLevel }) => {
-    depthLevel = depthLevel + 1;
-    const dropdownClass = depthLevel > 1 ? "dropdown-submenu" : "";
-  
-    return (
-      <ul className={`dropdown ${dropdownClass} ${dropdown ? "show" : ""}`}>
-        {submenus.map((submenu, index) => (
-          <MobileMenuItems items={submenu} key={index} depthLevel={depthLevel} />
-        ))}
-      </ul>
-    );
-  };
-  
+  depthLevel = depthLevel + 1;
+  const dropdownClass = depthLevel > 1 ? "dropdown-submenu" : "";
+
+  return (
+    <ul className={`dropdown ${dropdownClass} ${dropdown ? "show" : ""}`}>
+      {submenus.map((submenu, index) => (
+        <MobileMenuItems items={submenu} key={index} depthLevel={depthLevel} />
+      ))}
+    </ul>
+  );
+};
+
+let closeDropdown;
 
 const MobileMenuItems = ({ items, depthLevel, showMenu, setShowMenu }) => {
   const [dropdown, setDropdown] = useState(false);
 
-  const closeDropdown = () => {
+  closeDropdown = () => {
     dropdown && setDropdown(false);
     showMenu && setShowMenu(false);
   };
@@ -33,16 +34,16 @@ const MobileMenuItems = ({ items, depthLevel, showMenu, setShowMenu }) => {
   };
 
   return (
-    <li className="menu-items" onClick={closeDropdown}>
+    <li className="menu-items" onClick={(e) => toggleDropdown(e)}>
       {items.link && items.submenu ? (
         <>
           <button
             type="button"
             aria-haspopup="menu"
             aria-expanded={dropdown ? "true" : "false"}>
-            <a href={items.link} onClick={closeDropdown}>
+            <Link to={items.link} >
               {items.label}
-            </a>
+            </Link>
             <div onClick={(e) => toggleDropdown(e)}>
               {dropdown ? (
                 <span className="arrow-close" />
@@ -79,7 +80,7 @@ const MobileMenuItems = ({ items, depthLevel, showMenu, setShowMenu }) => {
           />
         </>
       ) : (
-        <Link href={items.link}>{items.label}</Link>
+        <Link to={items.link} onClick={closeDropdown}>{items.label}</Link>
       )}
     </li>
   );
@@ -89,6 +90,8 @@ const MobileMenuItems = ({ items, depthLevel, showMenu, setShowMenu }) => {
 const MobileNav = () => {
     const depthLevel = 0;
     const [showMenu, setShowMenu] = useState(false);
+    
+  const [hamburgerToggle, setHamburgerToggle] = useState(false);
     let ref = useRef();
 
     useEffect(() => {
@@ -99,20 +102,22 @@ const MobileNav = () => {
         };
         document.addEventListener("mousedown", handler);
         document.addEventListener("touchstart", handler);
+        setHamburgerToggle(showMenu);
         return () => {
             // Cleanup the event listener
             document.removeEventListener("mousedown", handler);
             document.removeEventListener("touchstart", handler);
-        };
+        }
     }, [showMenu]);
 
     return (
         <nav className="mobile-nav">
-            <Hamburger onToggle={toggled => {
+            <Hamburger toggled={hamburgerToggle} onToggle={toggled => {
                 if (toggled) {
-                    setShowMenu(toggled);
+                  setShowMenu(toggled);
                 } else {
-                    setShowMenu(toggled);
+                  setShowMenu(false);
+                  closeDropdown(toggled);
                 }
             }} />
             {/* <button
@@ -126,11 +131,11 @@ const MobileNav = () => {
                     {NavigationLinks.map((menu, index) => {
                         return (
                             <MobileMenuItems
-                                items={menu}
-                                key={index}
-                                depthLevel={depthLevel}
-                                showMenu={showMenu}
-                                setShowMenu={setShowMenu}
+                              items={menu}
+                              key={index}
+                              depthLevel={depthLevel}
+                              showMenu={showMenu}
+                              setShowMenu={setShowMenu}
                             />
                         );
                     })}

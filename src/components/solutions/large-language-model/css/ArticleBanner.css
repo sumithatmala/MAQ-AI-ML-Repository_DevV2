@@ -1,0 +1,84 @@
+.article-banner {
+    max-width: 1120px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.article-banner-with-button.__without-icons {
+    background-size: cover;
+}
+.article-banner-with-button {
+    position: relative;
+    overflow: hidden;
+    padding: 40px 20px 50px;
+    margin: 20px 0 30px;
+    background: #103654;
+    border-radius: 8px;
+    text-align: center;
+}
+.bg-img {
+    background-image: url('../img/chatgpt-integration-banner-bg.webp');
+}
+.__w-head .article-banner-with-button__head {
+    color: #fff;
+}
+.article-banner-with-button__head {
+    position: relative;
+    z-index: 3;
+    margin-bottom: 20px;
+    color: #ff9c00;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+.article-banner-with-button__text {
+    position: relative;
+    z-index: 3;
+    max-width: 780px;
+    margin: 0 auto 30px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: .3px;
+    line-height: 27px;
+}
+.article-banner-with-button__link.btn {
+    position: relative;
+    z-index: 3;
+    height: 47px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 16px;
+}
+.block__action .btn.btn-empty {
+    display: inline-block;
+}
+.red-btn-empty {
+    display: inline-block;
+    min-height: 50px;
+    padding: 14px 25px;
+    border: 3px solid #b9091b;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 18px;
+}
+.red-btn {
+    display: inline-block;
+    min-width: 120px;
+    /* padding: 9px 10px; */
+    border: 1px solid #b9091b !important;
+    margin: 0;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #fff !important;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2 !important;
+    text-align: center;
+    text-decoration: none;
+    transition: color .2s,border .2s,background .2s;
+    vertical-align: top;
+}
+.red-btn:hover{
+    background-color: #b9091b !important;
+    color: white !important;
+}
