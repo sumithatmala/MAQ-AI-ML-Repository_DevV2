@@ -4,11 +4,10 @@ const Integration = () => {
   return (
     <div class="moving-arrow">
       <h2 class="head-block-center w-800">
-        Integrating Large Language Learning Models, Friction-Free
+        Integrating Large Language Learning Models, Effortlessly
       </h2>
       <div class="text-block-center">
-        Our developers seamlessly weave conversational AI into your
-        infrastructure.
+      Our developers seamlessly integrate conversational AI into your existing infrastructure, ensuring a smooth transition and minimal disruption to your operations.
       </div>
       <div class="moving-arrow-inner">
         <div 

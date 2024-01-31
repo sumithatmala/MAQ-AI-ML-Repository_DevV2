@@ -1,5 +1,5 @@
 import React from "react";
-import './css/Benfits.css'
+import './css/Benefits.css'
 const Benfits = () => {
   return (
     <section class="whychoose-section bg-icons">

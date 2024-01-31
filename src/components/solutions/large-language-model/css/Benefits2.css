@@ -1,0 +1,139 @@
+.section-cases {
+    margin: 100px auto 60px;
+}
+
+.center-heading.w-800 {
+    max-width: 800px;
+}
+
+.center-heading {
+    max-width: 600px;
+    margin: 0 auto 26px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.center-text {
+    max-width: 780px;
+    margin: 15px auto;
+    line-height: 1.875;
+    text-align: center;
+}
+
+.prediction-cases.__type-predict {
+    padding-top: 10px;
+}
+
+@media (min-width: 742px) {
+    .prediction-cases.__type-predict {
+        padding-top: 0;
+        padding-bottom: 44px;
+    }
+}
+
+@media (min-width: 742px) {
+    .prediction-cases {
+        padding-top: 104px;
+    }
+}
+
+.prediction-cases {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+@media (min-width: 742px) {
+    .prediction-cases.__type-predict .prediction-cases__outer {
+        padding-right: 104px;
+        padding-left: 104px;
+    }
+}
+
+.prediction-cases__outer {
+    width: 100%;
+    max-width: 1468px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+@media (min-width: 742px) {
+    .prediction-cases.__type-predict .prediction-cases-list {
+        margin: 0 0 -10px;
+    }
+}
+
+@media (min-width: 742px) {
+    .prediction-cases-list {
+        display: flex;
+        min-width: 0;
+        flex-wrap: wrap;
+    }
+}
+
+.prediction-cases-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.prediction-cases-list__list-item {
+    padding: 0;
+}
+
+@media (min-width: 742px) {
+    .prediction-cases-list__list-item {
+        width: 50%;
+        min-width: 0;
+        flex: 0 0 auto;
+        padding: 0;
+    }
+}
+
+.prediction-cases-list__list-item {
+    padding: 0 30px;
+}
+
+.prediction-cases-list__item {
+    display: block;
+    flex: 1 1 auto;
+    padding: 15px;
+    border: 0;
+    margin: 15px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 5px rgba(69, 60, 144,.2),0 3px 14px rgba(69, 60, 144,.12),0 8px 10px rgba(69, 60, 144,.14);
+    color: #141414;
+    cursor: pointer;
+    text-align: center;
+    transition: box-shadow .2s;
+}
+
+.prediction-cases-list__icon {
+    display: flex;
+    min-width: 0;
+    height: 72px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.prediction-cases-list__item img {
+    width: 72px;
+    height: 72px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.prediction-cases-list__title {
+    padding: 0;
+    margin: 0 0 22px;
+}
+
+.prediction-cases-list__text {
+    font-size: 15px;
+    line-height: 1.3333333333;
+}

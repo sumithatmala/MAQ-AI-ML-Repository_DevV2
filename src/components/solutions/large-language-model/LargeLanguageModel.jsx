@@ -1,19 +1,21 @@
 import React, { useEffect } from "react";
 import Banner from "./Banner";
-import Benfits from "./Benfits";
+import Benfits from "./Benefits";
 import UseCases from "./UseCases";
 import Industries from "./Industries";
 // import "./css/Industries.css";
 import "./css/LargeLanguageModel.css"
 import Expertise from "./Expertise";
 import ArticleBanner from "./ArticleBanner";
-import Benfits2 from "./Benfits2";
+import Benfits2 from "./Benefits2";
 import Integration from "./Integration";
 import WhyMAQSoftware from "../common/WhyMAQSoftware";
 import OurTechStack from "./OurTechStack";
 import BroadExpertise from "./BroadExpertise";
-import CustomerSuccess from "./CustomerSuccess";
-
+import CustomerSuccess from "../common/CustomerSuccess";
+import CutomerSuccessData from "./JSONData/CustomerSuccessData";
+import FAQs from '../../product-dashboard/FAQs'
+import FAQsData from "./JSONData/FAQsData";
 const LargeLanguageModel = () => {
   return (
     <div>
@@ -38,7 +40,8 @@ const LargeLanguageModel = () => {
         <OurTechStack />
         <BroadExpertise />
         {/* <WhyMAQSoftware /> */}
-        <CustomerSuccess />
+        <CustomerSuccess items={CutomerSuccessData}/>
+        <FAQs FAQs = {FAQsData} />
       </div>
     </div>
   );

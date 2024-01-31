@@ -9,11 +9,10 @@ const OurTechStack = () => {
     <section class="services-section __type-technologies">
       <div class="services-section-inner">
         <h2 class="head-block-center">
-          Our Stack of Large Language Learning Models
+          Our Array of Large Language Learning Models
         </h2>
         <div class="text-block-center">
-          We work with a variety of models to develop a robust solution your
-          business needs.
+          Explore our diverse selection of models tailored to address your business requirements.
         </div>
         <ul class="services-technologies-list  __with-mobile-slider">
           
