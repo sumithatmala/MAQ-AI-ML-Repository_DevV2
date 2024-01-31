@@ -1,0 +1,42 @@
+.slick-slider {
+    position: relative;
+    box-sizing: border-box;
+    user-select: none;
+    width: 80% !important;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.slick-slider .slick-list, .slick-slider .slick-track {
+    transform: translateZ(0);
+    height: 650px;
+}
+
+.separate-slider__content {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 15px 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 15px 15px 15px rgba(69, 60, 144, .2),0 4px 5px rgba(69, 60, 144, .12),0 2px 4px rgba(69, 60, 144, .14);
+    line-height: 27px;
+    height: 300px;
+}
+
+.separate-slider__item {
+    display: flex;
+    height: 650px;
+    flex-direction: column;
+    width: 95%;
+}
+
+.slick-slide img {
+    display: block;
+    width: 100%;
+}

@@ -8,6 +8,7 @@ import SideBar from "../components/ui-elements/SideBar/SideBar";
 import ProductInformation from "../components/product-dashboard/ProductInformation";
 import '../css/style.css'
 import ScrollToTop from './ScrollToTop';
+import LargeLanguageModel from "../components/solutions/large-language-model/LargeLanguageModel";
 
 const Navigation = () => {
   return (
@@ -15,7 +16,7 @@ const Navigation = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<LargeLanguageModel />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route
             path="/product/:productName"

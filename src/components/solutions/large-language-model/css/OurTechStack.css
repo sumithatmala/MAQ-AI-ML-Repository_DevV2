@@ -1,0 +1,98 @@
+.services-section {
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+}
+.services-section.__type-technologies .services-section-inner {
+    padding-top: 0;
+}
+@media (min-width: 1024px)
+{
+    .services-section.__type-technologies .services-section-inner {
+        max-width: 1180px;
+        padding-top: 60px;
+    }
+}
+.page-type-llm .services-section-inner {
+    padding-right: 20px;
+    padding-bottom: 0;
+    padding-left: 20px;
+}
+@media (min-width: 1024px)
+{
+    .services-section-inner {
+        max-width: 920px;
+        padding-top: 68px;
+        padding-bottom: 40px;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 640px)
+{
+    .services-section-inner {
+        padding-right: 76px;
+        padding-left: 76px;
+    }
+}
+.services-section-inner {
+    padding: 64px 20px;
+}
+.text-block-center {
+    max-width: 780px;
+    margin: 15px auto;
+    line-height: 1.875;
+    text-align: center;
+}
+.services-technologies-list {
+    margin: 25px auto;
+}
+@media (min-width: 1024px)
+{
+    .services-technologies-list.__with-mobile-slider {
+        display: -ms-flexbox;
+        display: flex !important;
+    }
+}
+.services-technologies-list.__with-mobile-slider {
+    display: block;
+}
+@media (min-width: 640px)
+{
+    .services-technologies-list {
+        margin-right: -30px;
+        margin-left: -30px;
+    }
+}
+.services-technologies-list {
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 0;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0 -20px;
+    list-style-type: none;
+}
+.services-technologies-list__list-item {
+    margin-right: 15px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.services-technologies-list__list-item {
+    min-width: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+.services-technologies-list__item img {
+    vertical-align: top;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
