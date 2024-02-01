@@ -173,7 +173,7 @@ const NavigationLinks = [
       },
       { 
         label: "Natural Language Processing", 
-
+        link: "/solution/NaturalLanguageProcessing",
         icon: "/icons/dataV.svg",
         alt: "data",
       },
@@ -185,7 +185,7 @@ const NavigationLinks = [
       },
       { 
         label: "Text Analysis", 
-        link: "./product/TextAnalysis",
+        link: "./solution/TextAnalysis",
         icon: "/icons/dataV.svg",
         alt: "data",
       },
@@ -209,13 +209,13 @@ const NavigationLinks = [
       },
       { 
         label: "Computer Vision", 
-        link: "./product/ComputerVision",
+        link: "./solution/ComputerVision",
         icon: "/icons/dataV.svg",
         alt: "data",
       },
       { 
         label: "Image Recognition", 
-        link: "./product/ImageRecognition",
+        link: "./solution/ImageRecognition",
         icon: "/icons/dataV.svg",
         alt: "data",
       },

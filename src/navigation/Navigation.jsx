@@ -14,6 +14,7 @@ import LargeLanguageModel from "../components/solutions/large-language-model/Lar
 import TextAnalysis from "../components/solutions/textAnalysis/TextAnalysis";
 import ComputerVision from "../components/solutions/computerVision/ComputerVision";
 import ImageRecognition from "../components/solutions/imageRecognition/ImageRecognition";
+import NaturalLanguageProcessing from "../components/solutions/natural-language-processing/naturalLanguageProcessing";
 
 const Navigation = () => {
   return (
@@ -32,9 +33,10 @@ const Navigation = () => {
               </>
             }
           />
-          <Route path="/product/TextAnalysis" element={<TextAnalysis/>}/>
-          <Route path="/product/ComputerVision" element={<ComputerVision/>}/>
-          <Route path="/product/ImageRecognition" element={<ImageRecognition/>}/>
+          <Route path="/solution/TextAnalysis" element={<TextAnalysis/>}/>
+          <Route path="/solution/ComputerVision" element={<ComputerVision/>}/>
+          <Route path="/solution/ImageRecognition" element={<ImageRecognition/>}/>
+          <Route path="/solution/NaturalLanguageProcessing" element={<NaturalLanguageProcessing/>}/>
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

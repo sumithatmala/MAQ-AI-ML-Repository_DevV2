@@ -5,15 +5,9 @@ const Technologies = ({tech}) => {
         <section className="technologies">
             <h3>Technologies</h3>
             <p>We use the best technologies available on the market, and we are continually expanding our tech stack.</p>
-            <ul>
-            {tech.map((item)=>{
-                return(
-                    <li>
-                        <img src={process.env.PUBLIC_URL + item.img} alt={item.alt}></img>
-                    </li>
-                )
-            })}
-            </ul>
+            <div className="imageContainer">
+            {tech.map((item)=>{return(item.img)})}
+            </div>
         </section>
     )
 }

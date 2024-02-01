@@ -1,15 +1,12 @@
 /* Technologies */
 .technologies {
-    display: block;
+    display: flex;
     text-align: center;
     margin: 5rem 20px;
-}
-.technologies li {
-    list-style-type: none;
-    margin: 30px;
-    float: left;
+    max-width: 70%;
     align-items: center;
+    flex-direction: column;
 }
-.techImg {
-    margin: 10px;
+.technologies img {
+    margin: 20px 30px;
 }

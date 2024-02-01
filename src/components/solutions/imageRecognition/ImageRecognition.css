@@ -14,7 +14,7 @@ h1,h2 {
     flex-direction: column;
     height: 65vh;
     background-image: url("./visuals/backImg.jpg");
-    object-fit: cover   ;
+    object-fit: cover;
 }
 
 .Container-ir {

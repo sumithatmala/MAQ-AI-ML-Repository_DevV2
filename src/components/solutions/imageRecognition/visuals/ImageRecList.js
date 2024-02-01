@@ -2,6 +2,10 @@ import case_targeted_advertising_system from "./case-targeted-advertising-system
 import case_customer_analytics_ai_nlp from "./case-customer-analytics-ai-nlp.webp"
 import case_customer_review_analytics_solution from "./case-customer-review-analytics-solution.webp"
 import case_predictive_models_improve_debt_collection_process from "./case-predictive-models.webp"
+import python from "./python.png"
+import scikit from "./scikit-learn.png"
+import spark from "./spark.png"
+import tensorflow from "./tensorflow.png"
 
 export const process = [
     {label: "Collect", disc:"We collect datasets, label images, and add meta tags to each unlabeled picture", img: "/images/ImgRecognition/collect.svg"},
@@ -26,10 +30,10 @@ export const benefitCards = [
 ]
 
 export const technologies =  [
-    {img:"/images/technologies/python.png", alt:"python"},
-    {img:"/images/technologies/scikit-learn.png", alt:"scikit-learn"},
-    {img:"/images/technologies/spark.png", alt:"spark"},
-    {img:"/images/technologies/tensorflow.png", alt:"tensorflow"},
+    {img: <img src={python} alt="python"></img>},
+    {img: <img src={scikit} alt="scikit-learn"></img>},
+    {img: <img src={spark} alt="spark"></img>},
+    {img: <img src={tensorflow} alt="tensorflow"></img>},
 ]
 
 export const customerSuccessData = [
