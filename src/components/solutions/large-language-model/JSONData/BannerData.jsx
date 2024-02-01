@@ -1,6 +1,6 @@
 const BannerData = {
-    "title": "Large Language Model Development and Consulting",
-    "subtitle": "Maximize automation and reduce operational costs with our expertise in large language model (LLM) development",
+    "title": "Unlock Efficiency and Cost Savings with Advanced Language Models",
+    "subtitle": "Leverage our specialized skills in developing and consulting on large language models (LLMs) to streamline processes and minimize expenses.",
     "svgCode": 
     <svg
     xmlns="http://www.w3.org/2000/svg"

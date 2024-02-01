@@ -27,11 +27,10 @@ const LargeLanguageModel = () => {
         <Industries />
         <div class="quick-block">
           <h2 class="head-block-center w-800">
-            Our Expertise in Large Language Model Development
+            Explore Our Advanced Language Model Solutions
           </h2>
           <div class="text-block-center">
-            We provide a broad spectrum of LLM Large Language Model services
-            that meet your needs at scale.
+            Discover a diverse range of language model services tailored to your specific requirements.
           </div>
         </div>
         <Expertise />

@@ -92,6 +92,7 @@ h6 {
     -o-object-fit: cover;
     object-fit: cover;
     z-index: 1;
+    margin-top: 0% !important;
   }
   
   .hero:before {

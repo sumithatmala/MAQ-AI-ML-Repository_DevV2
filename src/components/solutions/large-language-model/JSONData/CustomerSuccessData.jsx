@@ -1,7 +1,7 @@
 import case_targeted_advertising_system from "../img/case-targeted-advertising-system.webp"
 import case_customer_analytics_ai_nlp from "../img/case-customer-analytics-ai-nlp.webp"
 import case_customer_review_analytics_solution from "../img/case-customer-review-analytics-solution.webp"
-import case_predictive_models_improve_debt_collection_process from "../img/case-predictive-models-improve-debt-collection-process.webp"
+import case_predictive_models_improve_debt_collection_process from "../img/case-predictive-models.webp"
 
 const CustomerSuccessData = [
   {
@@ -12,6 +12,7 @@ const CustomerSuccessData = [
       "Increased customer engagement and sales conversion rates for our client's online store.",
     ],
   },
+  
   {
     title: "Healthcare Analytics Solution",
     image: <img src={case_customer_analytics_ai_nlp} alt="Healthcare Analytics Solution" />,
