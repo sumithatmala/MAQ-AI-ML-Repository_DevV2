@@ -6,16 +6,7 @@ const FAQData = [
   {
     id: 1,
     question: "What is VA software?",
-    answer: `VA software stands for virtual assistant software developed to assist a set of repetitive or tiresome tasks.
-    From saving time on complex initiatives and projects, and improving efficiency, to cutting labor costs, virtual assistant software tools can be of great help.
-    Here are the key benefits of having a virtual assistant:
-    - Automating business tasks
-    - Freeing up your human employees for more complex tasks
-    - Reducing operational costs
-    - Being available for customer support 24/7
-    - Advancing customer service
-    - Increasing client loyalty
-    - Boosting revenue, etc.`
+    answer: `Virtual Assistant (VA) software is designed to streamline and automate repetitive tasks, offering various advantages such as time savings, enhanced efficiency, and cost reduction. Key benefits include task automation, enabling human employees to focus on more complex responsibilities, lowering operational costs, providing 24/7 customer support, improving customer service, fostering client loyalty, and boosting revenue.`
   },
   {
     id: 2,
@@ -31,18 +22,7 @@ const FAQData = [
     id: 4,
     question: "What is an example of conversational Al?",
     answer: `
-    Conversational AI can be a valuable asset to your business operations, improving your team efficiency and increasing your customer loyalty.
-
-    Here are some modern use cases of conversational AI:
-
-    - A website chatbot – available 24/7 for your clients and generates personalized messages to accommodate the needs of the clients
-    - A CRM virtual assistant – simplifies the work with your customer base by solving data entry and transfer issues, scheduling appointments, and managing leads
-    - A real estate virtual assistant tool – provides help for real estate agents in keeping the base up-to-date, scheduling calls, and tracking time.
-    - Text generation software – enables quick and easy content creation and editing from scratch
-    - Voice assistants – voice-activated bots that recognize text and convert it into voice and vice versa
-    - ChatGPT tools for optimized design – tools for helping with design tasks such as logo, social media banner, video, flyer creation, etc.
-
-    You can literally develop any AI virtual assistant software catered to your needs. The only thing to be kept in mind is finding the right technology provider and gathering project requirements.
+    Conversational AI is a valuable asset for business operations, enhancing team efficiency and customer loyalty. Modern use cases include website chatbots for 24/7 personalized client interactions, CRM virtual assistants for simplifying customer data management, real estate virtual assistant tools for agent support, text generation software for content creation, voice assistants for voice-activated interactions, and ChatGPT tools for design tasks. Developing customized AI virtual assistant software requires choosing the right technology provider and gathering project requirements.
   `
   },
   {

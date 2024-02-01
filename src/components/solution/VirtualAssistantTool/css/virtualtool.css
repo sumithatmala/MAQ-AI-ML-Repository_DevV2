@@ -21,11 +21,33 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #103654;
+    background-color: #453c90;
+    height: 690px;
+    animation: h 1s 2s forwards;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 972px auto;
+    bottom: 0;
+    content: "";
+    left: 0;
+    /* position: absolute; */
+    right: 0;
+    top: 0;
+    background-image: url(../virtual-assistant-bg.svg);
 }
 
 .container{
-    width: 100%;
+    /* width: 100%; */
+    /* height: 600px;
+    width: 1126px; */
+    /* display: flex; */
+    
+}
+
+.grids{
+    padding-top: 100px;
+    /* height: 500px; */
+    
 }
 
 .top {
@@ -40,7 +62,8 @@ body {
     padding-top: 150px;
     text-align: center;
     font-weight: 600;
-    color: #ff9c00;
+    /* color: #ff9c00; */
+    color: #fff;
     font-size: 35px;
     font-family: cabin,Helvetica Neue,Arial,sans-serif;
 }
@@ -119,7 +142,7 @@ body {
 }
 
 .section-text-image{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .section-text-image-inner{
@@ -163,6 +186,7 @@ body {
     -ms-flex-align: stretch;
     align-items: stretch;
     margin: 35px auto 0;
+    /* margin-bottom: 20px; */
 }
 .industries__list {
     display: -ms-flexbox;
@@ -178,10 +202,20 @@ body {
 }
 
 .industries__item {
-    height: 100%;
+    /* height: 100%;
     padding: 25px 15px 15px;
     margin-bottom: 0;
-    box-shadow: 0 1px 10px rgba(81,169,225,.2), 0 4px 5px rgba(81,169,225,.12), 0 2px 4px rgba(81,169,225,.14);
+    box-shadow: 0 1px 10px #453c9033, 0 4px 5px #453c901f, 0 2px 4px #453c9024; */
+
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 1px 10px #453c9033, 0 4px 5px #453c901f, 0 2px 4px #453c9024;
+    height: 100%;
+    margin-bottom: 32px;
+    padding: 44px 20px 32px;
+    text-align: center;
+    transition: box-shadow .2s;
+    width: 256px;
 }
 .industries__list-item{
     height: 256px;
@@ -195,7 +229,7 @@ body {
     margin-bottom: 32px;
     background: #fff;
     border-radius: 7px;
-    box-shadow: 0 4px 20px rgba(146,201,236,.4);
+    box-shadow: 0 1px 10px #453c9033, 0 4px 5px #453c901f, 0 2px 4px #453c9024;
     text-align: center;
 }
 .industries__item-icon{
@@ -207,4 +241,29 @@ body {
     font-size: 16px;
     font-weight: 600;
     /* font-family; */
+}
+
+
+
+.block__action {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.block__action .btn-empty {
+    display: inline-block;
+    min-height: 50px;
+    padding: 14px 25px;
+    /* box-sizing: border-box; */
+    border: 1px solid #453c90;
+    margin: 0 auto;
+    color: #141414;
+    font-size: 18px;
+    
+}
+
+.block__action .btn-empty:hover{
+    background-color: #453c90;
+    color: #fff;
 }

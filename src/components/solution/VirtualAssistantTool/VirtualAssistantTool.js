@@ -10,6 +10,9 @@ import gif from "./Tools/bot.gif";
 import FAQ from "./FAQ";
 import ContactForm from "./contactForm";
 import "./css/contactform.css";
+import img1 from "./icon/icon-bi-analytics.svg";
+import IndustriesList from "./IndustryItem";
+import KeyFeaturesSection from "./KeyFeaturesSection";
 
 const VirtualAssistantTool = () => {
   return (
@@ -18,28 +21,31 @@ const VirtualAssistantTool = () => {
       <section className="toolinformation">
         {/* <Container fluid> */}
         <div className="container">
-          <div className="top">
-            <div className="heading">
-              <span>Conversational Virtual Assistant</span>
-            </div>
-            <div className="heading_inner">
-              <p>
-                Automate query resolving, enhance customer experience, and free
-                up human agents for more important tasks with your intelligent
-                virtual assistant tool.
-              </p>
-            </div>
-            <div className="buttons">
+          <div className="grids">
+            <div className="top">
+              <div className="heading">
+                <span>Advanced AI-powered Support</span>
+              </div>
+              <div className="heading_inner">
+                <p>
+                  Revolutionize query resolution, elevate customer satisfaction,
+                  and empower human agents for more impactful tasks with your
+                  intelligent virtual assistant tool.
+                </p>
+              </div>
+
+              {/* <div className="buttons">
               <div className="get_guid">
                 <button>Get the guide</button>
               </div>
               <div className="freechat">
                 <button>Free consultation on chatbots</button>
               </div>
-            </div>
-            <div className="images">
-              <div className="imageone"></div>
-              <div className="imagetwo"></div>
+            </div> */}
+              <div className="images">
+                <div className="imageone"></div>
+                <div className="imagetwo"></div>
+              </div>
             </div>
           </div>
         </div>
@@ -50,7 +56,7 @@ const VirtualAssistantTool = () => {
 
       <div className="video">
         <h2 className="aurora">
-          Meet Aurora Bore, our chatbot for intelligent customer support
+          Meet Aurora Borea, our chatbot for intelligent customer support
         </h2>
         <iframe
           style={{ display: "block", margin: "0 auto 100px", maxWidth: "100%" }}
@@ -64,15 +70,15 @@ const VirtualAssistantTool = () => {
         ></iframe>
       </div>
 
-      <div className="quick-block">
-        <div className="head-block-center">
+      {/* <div className="quick-block">
+        <div className="head-block-center" style={{marginBottom:"10px"}}>
           <h2 className="headblock">
-            Conversational AI Virtual Assistant: Features
+            AI-Powered Virtual Assistant: Key Features
           </h2>
         </div>
-        <div className="text-block-center">
-          Automate customer support and boost productivity with your virtual
-          assistant solution.
+        <div className="text-block-center" style={{marginBottom:"10px"}}>
+          Revolutionize customer support and enhance productivity with your
+          virtual assistant solution.
         </div>
       </div>
 
@@ -80,24 +86,24 @@ const VirtualAssistantTool = () => {
         <div className="section-text-image-inner">
           <div className="setion-text-image__details">
             <h3 className="section-text-image__title">
-              24/7 Personalised Customer Support
+              24/7 Personalized Customer Assistance
             </h3>
             <div className="section-text-image__description">
               <ul>
-                {" "}
                 <li>
-                  Handling common queries about the company’s services and
-                  products adjusted to the specific client’s request
-                </li>{" "}
+                  Addressing common queries about the company’s services and
+                  products tailored to the specific client’s request
+                </li>
                 <li>
-                  24/7 availability during festive seasons and hectic times
-                </li>{" "}
-                <li>Personalized human-like responses</li>{" "}
+                  Round-the-clock availability during festive seasons and busy
+                  times
+                </li>
+                <li>Personalized human-like responses</li>
                 <li>
                   Immediate comprehensive response to the query based on the
                   company’s proprietary knowledge base
-                </li>{" "}
-                <li>Virtual assistant tool for multilingual support</li>{" "}
+                </li>
+                <li>Virtual assistant tool for multilingual support</li>
                 <li>Recommendations concerning the topic generated by ML</li>
               </ul>
             </div>
@@ -114,20 +120,19 @@ const VirtualAssistantTool = () => {
           </div>
           <div className="setion-text-image__details">
             <h3 className="section-text-image__title">
-              Automated Sales Team Support
+              Automated Support for Sales Teams
             </h3>
-            <div class="section-text-image__description">
+            <div className="section-text-image__description">
               <ul>
-                {" "}
                 <li>
                   Automated Q&amp;A with customers to free up your human agents
                   for more intelligent and urgent tasks
-                </li>{" "}
-                <li>Effective appointment scheduling across time zones</li>{" "}
+                </li>
+                <li>Effective appointment scheduling across time zones</li>
                 <li>
                   Fast data transfer to the sales team (conversation history and
                   context)
-                </li>{" "}
+                </li>
                 <li>
                   Automatic email notifications to the sales team and customer
                 </li>
@@ -139,13 +144,12 @@ const VirtualAssistantTool = () => {
         <div className="section-text-image-inner">
           <div className="setion-text-image__details">
             <h3 className="section-text-image__title">
-              Appointment Scheduling
+              Streamlined Appointment Scheduling
             </h3>
-            <div class="section-text-image__description">
+            <div className="section-text-image__description">
               <ul>
-                {" "}
-                <li>Back-and-forth communication handling</li>{" "}
-                <li>Scheduling tasks across time zones</li>{" "}
+                <li>Efficient handling of back-and-forth communication</li>
+                <li>Scheduling tasks across time zones</li>
                 <li>Calendar integration</li>
               </ul>
             </div>
@@ -162,34 +166,30 @@ const VirtualAssistantTool = () => {
           </div>
           <div className="setion-text-image__details">
             <h3 className="section-text-image__title">
-              Easy Integration with CRM
-            </h3>
-            <div class="section-text-image__description">
-              <ul>
-                {" "}
-                <li>
-                  Automated data extraction and summarization
-                  from&nbsp;conversations
-                </li>{" "}
-                <li>Prompt creation of CRM records required</li>{" "}
-                <li>Enhanced data precision</li>
-              </ul>
-            </div>
-          </div>
-
-
-        </div>
-
-        <div className="section-text-image-inner">
-          
-          <div className="setion-text-image__details">
-            <h3 className="section-text-image__title">
-              Text and Voice Recognition
+              Seamless Integration with CRM
             </h3>
             <div className="section-text-image__description">
               <ul>
                 <li>
-                  The ability to audio communicate your need
+                  Automated data extraction and summarization
+                  from&nbsp;conversations
+                </li>
+                <li>Prompt creation of CRM records as required</li>
+                <li>Enhanced data precision</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="section-text-image-inner">
+          <div className="setion-text-image__details">
+            <h3 className="section-text-image__title">
+              Text and Voice Recognition Capabilities
+            </h3>
+            <div className="section-text-image__description">
+              <ul>
+                <li>
+                  The ability to audio communicate your needs
                   <br />
                   to a chatbot
                 </li>
@@ -201,118 +201,28 @@ const VirtualAssistantTool = () => {
             <img src={gif} alt="" />
           </div>
         </div>
-      </section>
+      </section> */}
+
+      <KeyFeaturesSection />
+
 
       <section className="section-industries">
-        <div className="industries__inner">
-          <h2 className="head-block-center">Benefits of Virtual Assistant</h2>
+        <div className="industries__inner" style={{marginTop:"10px",marginBottom:"0px"}}>
+          <h2 className="head-block-center">Advantages of Virtual Assistant</h2>
         </div>
 
-        <div class="text-block-center">
-          Virtual assistant software development will enable you to delegate
-          non-core tasks to a chatbot and focus on&nbsp;growing&nbsp;your
-          business.
+        <div class="text-block-center" style={{marginTop:"-10px", marginBottom:"20px"}}>
+          Virtual assistant software development allows you to delegate non-core
+          tasks to a chatbot and concentrate on growing your business.
         </div>
 
-        <div className="industries__list">
-          <div className="industries__list-item">
-            <div className="industries__item">
-              <div className="industries__item-icon">
-                <img
-                  src="https://indatalabs.com/wp-content/uploads/2022/09/icon-24hours.svg"
-                  alt="ai customer care analytics"
-                />
-              </div>
-              <h3 className="industries__item-title">
-                Effortless Customer Service
-              </h3>
-              <div className="industries__item-text">
-                Be there for your customers 24/7
-              </div>
-            </div>
-          </div>
+        <IndustriesList />
 
-          <div className="industries__list-item">
-            <div className="industries__item">
-              <div className="industries__item-icon">
-                <img
-                  src="https://indatalabs.com/wp-content/uploads/2020/07/icon-person-check.svg"
-                  alt="Intelligent Transport"
-                />
-              </div>
-              <h3 className="industries__item-title">
-                Personalized Experiences
-              </h3>
-              <div className="industries__item-text">
-                Increase retention and lifetime value
-              </div>
-            </div>
-          </div>
+        <div className="text-block-center" style={{marginTop:"50px"}}>
+      <span className="gap">Ready to learn more about chatbot development?</span>
+    </div>
 
-          <div className="industries__list-item">
-            <div className="industries__item">
-              <div className="industries__item-icon">
-                <img
-                  src="https://indatalabs.com/wp-content/uploads/2019/09/icon-engine.svg"
-                  alt="recommendation engine"
-                />
-              </div>
-              <h3 className="industries__item-title">
-                Routine Task Automation
-              </h3>
-              <div className="industries__item-text">
-                Free up time to stick to your priorities
-              </div>
-            </div>
-          </div>
-
-          <div className="industries__list-item">
-            <div className="industries__item">
-              <div className="industries__item-icon">
-                <img
-                  src="https://indatalabs.com/wp-content/uploads/2021/03/icon-cost-alt.svg"
-                  alt="increase"
-                />
-              </div>
-              <h3 className="industries__item-title">
-                Increase Deflections and Agent Productivity
-              </h3>
-              <div className="industries__item-text">
-                Guide your customers to a chatbot for consultation
-              </div>
-            </div>
-          </div>
-
-          <div className="industries__list-item">
-            <div className="industries__item">
-              <div className="industries__item-icon">
-                <img
-                  src="https://indatalabs.com/wp-content/uploads/2022/08/icon-dollar-reduce.svg"
-                  alt="dollar reduce"
-                />
-              </div>
-              <h3 className="industries__item-title">Cost Reduction</h3>
-              <div className="industries__item-text">
-                Fewer hiring hassles and reduced need for overtime pay
-              </div>
-            </div>
-          </div>
-
-          <div className="industries__list-item">
-            <div className="industries__item">
-              <div className="industries__item-icon">
-                <img
-                  src="https://indatalabs.com/wp-content/uploads/2019/11/icon-bi-analytics.svg"
-                  alt="business intelligence"
-                />
-              </div>
-              <h3 className="industries__item-title">Insights and Analytics</h3>
-              <div className="industries__item-text">
-                Analyze customer trends, needs, and pain points
-              </div>
-            </div>
-          </div>
-        </div>
+        <div className="block__action"> <a href="#section-contacts" class="btn btn-empty">Contact us</a></div>
 
         <FAQ />
         <ContactForm />
