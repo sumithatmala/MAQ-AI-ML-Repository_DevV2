@@ -153,6 +153,8 @@ body {
     margin: 10px;
     width: 500px;
     height: auto;
+    display: grid;
+  place-items: center;
 }
 .section-text-image__title{
     font-size: 24px;
@@ -172,6 +174,7 @@ body {
     font-size: 16px;
     line-height: 27px;
     font-weight: 300;
+    
 }
 .industries__inner{
     display: flex;
