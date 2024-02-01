@@ -1,0 +1,109 @@
+.section-benefits {
+    padding: 0;
+    margin-bottom: 100px;
+}
+.benefits-section {
+    padding: 76px 0 106px;
+}
+.inner-benefits {
+    max-width: 1124px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+.left-icon .benefits-title {
+    font-size: 24px;
+}
+.benefits-title {
+    margin-bottom: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+.left-icon .benefits-description {
+    max-width: 780px;
+    padding: 0 20px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+@media (min-width: 820px)
+{
+    .benefits-list {
+        max-width: 100% !important;
+    }
+}
+.benefits-list {
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 360px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+}
+@media (min-width: 820px)
+{
+    .benefits-item {
+        width: 33.33% !important;
+        padding: 10px 25px 0 !important;
+        text-align: left !important;
+    }
+}
+.benefits-item {
+    width: 100%;
+    padding: 10px 0 50px;
+    text-align: center;
+}
+.left-icon .benefits-item-figure {
+    height: 72px;
+    margin-bottom: 20px;
+}
+@media (min-width: 820px)
+{
+    .benefits-item-figure {
+        height: 88px;
+        margin-bottom: 30px;
+    }
+}
+.benefits-item-figure {
+    height: auto;
+    margin-bottom: 10px;
+}
+@media (min-width: 820px)
+{
+    .benefits-item-figure:before {
+        display: inline-block;
+        height: 100%;
+        content: "";
+        vertical-align: middle;
+    }
+}
+.left-icon .benefits-item-figure>* {
+    max-height: 100%;
+}
+.benefits-item-figure>* {
+    display: inline-block;
+    vertical-align: middle;
+}
+.benefits-item-description {
+    font-size: 15px;
+    line-height: 1.9;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+.benefits-item-title {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+ .benefits-description{
+    max-width: 780px;
+    padding: 0 20px;
+    margin: 0 auto 30px;
+    text-align: center;
+}

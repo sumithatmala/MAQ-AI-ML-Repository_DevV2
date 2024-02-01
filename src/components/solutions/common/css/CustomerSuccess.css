@@ -39,6 +39,11 @@
         height: 350px;
     }
 }
+@media (min-width: 1334px) {
+    .separate-slider__content {
+        height: 300px;
+    }
+}
 
 .separate-slider__item {
     display: flex;
