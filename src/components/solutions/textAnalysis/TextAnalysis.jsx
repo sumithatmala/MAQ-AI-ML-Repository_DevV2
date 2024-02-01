@@ -3,7 +3,7 @@ import "./TextAnalysis.css"
 import { Link } from "react-router-dom";
 import { learnMoreItems, Banners, SpecialCards } from "./visuals/LearnMoreList";
 import ContactForm from "../common/contactForm";
-import Banner from "../common/banner";
+import AlternateBanner from "../common/alternateBanner";
 import SpecialContainer from "../common/specializationCards";
 
 const TextAnalysis = () => {
@@ -35,7 +35,7 @@ const TextAnalysis = () => {
                         })}
                     </ul>
                 </div>
-                <Banner banners={Banners} count={0} ContactBtn={true}/>
+                <AlternateBanner banners={Banners} count={0} ContactBtn={true}/>
                 <SpecialContainer SpecialCards={SpecialCards}/>
                 <ContactForm contactMsg={"Let's talk about your text analysis project."}/>
             </div>

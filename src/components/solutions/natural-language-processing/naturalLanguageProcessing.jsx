@@ -1,10 +1,11 @@
 import "./css/NaturalLanguageProcessing.css"
-import Banner from "../common/banner";
+import AlternateBanner from "../common/alternateBanner";
 import { bannerData, technologies, customerSuccessData } from "./JSONData/NLPData";
 import { Link } from "react-router-dom";
 import Technologies from "../common/technologies"
 import SpecialContainer from "../common/specializationCards";
 import ContactForm from "../common/contactForm";
+
 
 const NaturalLanguageProcessing = () => {
     return (
@@ -18,7 +19,7 @@ const NaturalLanguageProcessing = () => {
                     <h2>What We Offer</h2>
                     <p>We're Pioneers in NLP Software Service Development. Whatever Your Business Problem is, We're Part of the Solution.</p>
                 </section>
-                <Banner banners={bannerData} count={0} ContactBtn={false}/>
+                <AlternateBanner banners={bannerData} count={0} ContactBtn={false}/>
                 <section className="LearnMoreSection">
                     <p>Lets have a talk on our NLP services</p>
                     <Link to={"#"} className="TalkToUs" >Talk To Us</Link>

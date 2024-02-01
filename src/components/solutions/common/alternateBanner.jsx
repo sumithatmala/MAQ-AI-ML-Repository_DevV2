@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom"
-import "./css/Banner.css"
+import "./css/AlternateBanner.css"
 
-const Banner = ({banners,ContactBtn}) => {
+const AlternateBanner = ({banners,ContactBtn}) => {
     return (
         <>
             {banners.map((item,count) => {
@@ -30,4 +30,4 @@ const Banner = ({banners,ContactBtn}) => {
     )
 }
 
-export default Banner;
+export default AlternateBanner;
