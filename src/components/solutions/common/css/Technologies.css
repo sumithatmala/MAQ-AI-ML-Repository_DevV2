@@ -1,0 +1,15 @@
+/* Technologies */
+.technologies {
+    display: block;
+    text-align: center;
+    margin: 5rem 20px;
+}
+.technologies li {
+    list-style-type: none;
+    margin: 30px;
+    float: left;
+    align-items: center;
+}
+.techImg {
+    margin: 10px;
+}

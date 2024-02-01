@@ -1,3 +1,5 @@
+import "./css/SpecializationCards.css"
+
 const SpecialContainer = ({SpecialCards}) => {
     return (
         <div className="SpecialContainer">

@@ -1,3 +1,5 @@
+import "./css/Technologies.css"
+
 const Technologies = ({tech}) => {
     return(
         <section className="technologies">

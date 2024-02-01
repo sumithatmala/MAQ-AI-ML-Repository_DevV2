@@ -1,11 +1,12 @@
 import "./ImageRecognition.css"
 import RecogImg from "./visuals/imgRec.jpg"
-import { process, industrialCards, benefitCards, technologies } from "./visuals/ImageRecList"
+import { process, industrialCards, benefitCards, technologies, customerSuccessData } from "./visuals/ImageRecList"
 import { Link } from "react-router-dom"
 import ContactForm from "../common/contactForm"
 import phoneImg from "./visuals/hand-holding-mobile-smartphone-touchscreen-technology-business-concept-3d-cartoon-illustration.jpg"
 import Grid from "../common/grid"
 import Technologies from "../common/technologies"
+import CustomerSuccess from "../common/CustomerSuccess"
 
 const ImageRecognition = () => {
     return(
@@ -79,8 +80,9 @@ const ImageRecognition = () => {
             <h2>Benefits</h2>
             <Grid content={benefitCards}/>
             <Technologies tech={technologies}/>
-            <ContactForm contactMsg={"Are you looking to improve your current image recognition software or require a tailor-made solution developed from the ground up? The team at MAQ Software is ready to deliver exceptional computer vision services and customized solutions to meet your needs."}/>
         </div>
+        <CustomerSuccess items={customerSuccessData}/>
+        <ContactForm contactMsg={"Are you looking to improve your current image recognition software or require a tailor-made solution developed from the ground up? The team at MAQ Software is ready to deliver exceptional computer vision services and customized solutions to meet your needs."}/>
         </>
     )
 }

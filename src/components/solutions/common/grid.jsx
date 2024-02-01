@@ -1,3 +1,5 @@
+import "./css/Grid.css"
+
 const Grid = ({content}) => {
     return (
         <section className="IndustriesContainer">
