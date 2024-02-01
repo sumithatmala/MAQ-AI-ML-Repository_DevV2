@@ -1,5 +1,5 @@
 import React from "react";
-import './css/BusinessCases.css'
+import './css/GridOfCards.css'
 
 const CaseItem = ({ iconSrc, altText, title, description }) => (
   <li className="predict-use-cases-list__list-item">

@@ -33,7 +33,7 @@
     }
 }
 .benefits-list {
-    display: -ms-flexbox;
+    
     display: flex;
     max-width: 360px;
     -ms-flex-wrap: wrap;

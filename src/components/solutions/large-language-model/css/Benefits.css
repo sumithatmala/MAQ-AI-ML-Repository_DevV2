@@ -48,7 +48,7 @@
 @media (min-width: 1024px)
 {
     .whychoose-section-list {
-        display: -ms-flexbox;
+        
         display: flex;
         min-width: 0;
         -ms-flex-wrap: wrap;
@@ -92,7 +92,7 @@
 @media (min-width: 742px)
 {
     .whychoose-section-list__item {
-        display: -ms-flexbox;
+        
         display: flex;
         min-width: 0;
         -ms-flex-align: start;
@@ -111,7 +111,7 @@
 @media (min-width: 742px)
 {
     .whychoose-section-list__item {
-        display: -ms-flexbox;
+        
         display: flex;
         min-width: 0;
         -ms-flex-align: start;

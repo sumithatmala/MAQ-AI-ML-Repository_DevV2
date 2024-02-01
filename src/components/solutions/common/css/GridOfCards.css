@@ -76,7 +76,7 @@
 @media (min-width: 742px)
 {
     .predict-use-cases-list {
-        display: -ms-flexbox;
+        
         display: flex;
         min-width: 0;
         -ms-flex-wrap: wrap;
@@ -93,7 +93,7 @@
     .predict-use-cases.__type-predict .predict-use-cases-list__list-item {
         position: relative;
         top: 0;
-        display: -ms-flexbox;
+        
         display: flex;
         transition: top .2s;
     }
