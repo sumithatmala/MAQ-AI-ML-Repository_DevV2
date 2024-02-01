@@ -1,64 +1,66 @@
-.trinity {
-    padding: 3% 0;
+.trinityContainer {
+    margin: 100px 0 80px;
 }
-.trinity__inner {
+
+.trinityInner {
     max-width: 1124px;
     padding: 0 20px;
     margin: 0 auto;
 }
-.head-block-center {
+
+.centeredTitle {
     max-width: 600px;
     margin: 0 auto 26px;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 30px;
     text-align: center;
 }
-.text-block-center.w-800 {
-    max-width: 800px;
-}
-.text-block-center {
-    max-width: 780px;
-    margin: 15px auto;
-    line-height: 1.875;
-    text-align: center;
-}
-.trinity__list {
+
+.trinityList {
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -ms-flex-align: start;
     align-items: flex-start;
-    -ms-flex-pack: center;
     justify-content: center;
     padding: 0;
     margin: 0 auto;
     list-style: none;
 }
-.trinity__item.__w-25, .trinity__item.__w-30, .trinity__item.__w-33 {
+
+.trinityItem:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.trinityItemWidth25,
+.trinityItemWidth30,
+.trinityItemWidth33 {
     line-height: 27px;
     text-align: center;
 }
-.trinity__item.__w-33 {
-    width: 33%;
-    padding: 10px 15px 0;
-}
-.trinity__item_figure {
+
+.trinityItemFigure {
     width: 72px;
     height: 72px;
     margin: 0 auto 10px;
 }
-.trinity__item_figure img {
+
+.trinityItemFigure img {
     width: 100%;
     height: auto;
     max-height: 100%;
 }
-img {
+
+.image {
     vertical-align: middle;
     border-style: none;
 }
-.trinity__item_title {
+
+.trinityItemTitle {
     margin-bottom: 10px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
+}
+
+.trinityItemDescription {
+    width: 17rem;
 }

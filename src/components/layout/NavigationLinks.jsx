@@ -12,7 +12,7 @@
 //                                   className="img"
 //                                   style={{
 //                                     backgroundImage: `url(${props.src})`,
-//                                     backgroundPosition: 'center', 
+//                                     backgroundPosition: 'center',
 //                                     backgroundSize: 'contain',
 //                                     paddingBottom: '75%',
 //                                   }}
@@ -97,192 +97,201 @@
 //           },
 //         ],
 //       },
-    
+
 //     // {
 //     //   name: "Demos",
 //     //   subLinks: [],
 //     // },
-    
+
 //   ];
 
 const NavigationLinks = [
   { label: "Home", link: "./" },
   { label: "Expertise", link: "#" },
-  { 
-    label: "Services",
+  {
+    label: "Products",
     submenu: [
       {
         label: "Artificial Intelligence & ML",
         submenu: [
-          { 
-            label: "Session Information Bot", 
-            link: "./product/SessionInformationBot" 
+          {
+            label: "Session Information Bot",
+            link: "./product/SessionInformationBot",
           },
-          { 
-            label: "Feedback Summarizer Bot", 
-            link: "./product/FeedbackSummarizerBot"
-           },
-          { 
-            label: "Intelligent Document Processing Bot", 
-            link: "./product/IntelligentDocumentProcessingBot" 
+          {
+            label: "Feedback Summarizer Bot",
+            link: "./product/FeedbackSummarizerBot",
           },
+          {
+            label: "Intelligent Document Processing Bot",
+            link: "./product/IntelligentDocumentProcessingBot",
+          },
+          {
+            label: "Document Classification With Virtual Assistant",
+            link: "./product/DocumentClassificationWithVirtualAssistant",
+          },
+          {
+            label: "Smart Support Framework",
+            link: "./product/SmartSupportFramework",
+          },
+          { label: "TriviaBot", link: "./product/TriviaBot" },
         ],
       },
       {
         label: "Generative AI & GPT",
         submenu: [
-          { 
-            label: "Hugging Face Transformers", 
-            link: "#" 
+          {
+            label: "Hugging Face Transformers",
+            link: "#",
           },
-          { 
-            label: "RunwayML", 
-            link: "#"
-           },
-          { 
-            label: "DeepAI Text Generation API", 
-            link: "#" 
+          {
+            label: "RunwayML",
+            link: "#",
           },
-          { 
-            label: "EleutherAI GPT Models", 
-            link: "#" 
+          {
+            label: "DeepAI Text Generation API",
+            link: "#",
+          },
+          {
+            label: "EleutherAI GPT Models",
+            link: "#",
           },
         ],
         icon: "",
         alt: "",
         link: "#",
       },
-    ], 
+    ],
   },
-  { 
-    label: "Solutions", 
+  {
+    label: "Solutions",
     submenu: [
-      { 
-        label: "Virtual Assistant Tool", 
+      {
+        label: "Virtual Assistant Tool",
         icon: "/icons/dataP.svg",
         alt: "data",
       },
-      { 
-        label: "Custom Large Language Models", 
+      {
+        label: "Custom Large Language Models",
         link: "../solutions/large-language-model/LargeLanguageModel.jsx",
         icon: "/icons/ML.svg",
         alt: "ML",
       },
-      { 
-        label: "Natural Language Processing", 
+      {
+        label: "Natural Language Processing",
 
         icon: "/icons/dataV.svg",
         alt: "data",
       },
-      { 
-        label: "Consumer Sentiment Analysis", 
+      {
+        label: "Consumer Sentiment Analysis",
 
         icon: "/icons/dataV.svg",
         alt: "data",
       },
-      { 
-        label: "Text Analysis", 
+      {
+        label: "Text Analysis",
 
         icon: "/icons/dataV.svg",
         alt: "data",
       },
-      { 
-        label: "Al Call Center Solutions", 
+      {
+        label: "Al Call Center Solutions",
 
         icon: "/icons/dataV.svg",
         alt: "data",
       },
-      { 
-        label: "Predictive Analytics", 
+      {
+        label: "Predictive Analytics",
 
         icon: "/icons/dataV.svg",
         alt: "data",
       },
-      { 
-        label: "Recommendation Systems", 
+      {
+        label: "Recommendation Systems",
 
         icon: "/icons/dataV.svg",
         alt: "data",
       },
-      { 
-        label: "Computer Vision", 
+      {
+        label: "Computer Vision",
 
         icon: "/icons/dataV.svg",
         alt: "data",
       },
-      { 
-        label: "Image Recognition", 
+      {
+        label: "Image Recognition",
 
         icon: "/icons/dataV.svg",
         alt: "data",
       },
-      { 
-        label: "Pose Estimation", 
+      {
+        label: "Pose Estimation",
 
         icon: "/icons/dataV.svg",
         alt: "data",
       },
-      { 
-        label: "Data capture & OCR", 
+      {
+        label: "Data capture & OCR",
 
         icon: "/icons/dataV.svg",
         alt: "data",
       },
     ],
   },
-  { 
-    label: "Industries", 
+  {
+    label: "Industries",
     submenu: [
-      { 
-        label: "Healthcare & Pharma", 
+      {
+        label: "Healthcare & Pharma",
 
         icon: "/icons/framework.svg",
         alt: "frwk",
       },
-      { 
-        label: "Sport & Wellness", 
+      {
+        label: "Sport & Wellness",
 
         icon: "/icons/nlp.svg",
         alt: "nlp",
       },
-      { 
-        label: "E-commerce", 
+      {
+        label: "E-commerce",
 
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },
-      { 
-        label: "MarTech", 
+      {
+        label: "MarTech",
 
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },
-      { 
-        label: "Automotive", 
+      {
+        label: "Automotive",
 
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },
-      { 
-        label: "Logistics", 
+      {
+        label: "Logistics",
 
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },
-      { 
-        label: "Game & Entertainment", 
+      {
+        label: "Game & Entertainment",
 
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },
-      { 
-        label: "Fintech", 
+      {
+        label: "Fintech",
 
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },
-      { 
-        label: "Retail", 
+      {
+        label: "Retail",
 
         icon: "/icons/computerVision.svg",
         alt: "comp",
@@ -293,5 +302,4 @@ const NavigationLinks = [
   // { label: "Contact", link: "#" },
 ];
 
-
-export default NavigationLinks
+export default NavigationLinks;
