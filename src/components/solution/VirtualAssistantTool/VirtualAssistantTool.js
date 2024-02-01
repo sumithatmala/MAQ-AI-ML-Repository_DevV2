@@ -61,15 +61,14 @@ const VirtualAssistantTool = () => {
           Virtual assistant software development allows you to delegate non-core
           tasks to a chatbot and concentrate on growing your business.
         </div>
-
+      </section>
         <IndustriesList />
-
+      <section className="section-industries">
         <div className="text-block-center" style={{marginTop:"50px"}}>
       <span className="gap">Ready to learn more about chatbot development?</span>
     </div>
 
         <div className="block__action"> <a href="#section-contacts" class="btn btn-empty">Contact us</a></div>
-
         <FAQ />
         <ContactForm />
       </section>
