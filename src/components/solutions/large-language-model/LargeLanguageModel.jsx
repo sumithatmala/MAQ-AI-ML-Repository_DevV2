@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Banner from "./Banner";
+import Banner from "../common/Banner";
 import Benfits from "./Benefits";
 import UseCases from "./UseCases";
 import Industries from "./Industries";
@@ -16,11 +16,12 @@ import CustomerSuccess from "../common/CustomerSuccess";
 import CutomerSuccessData from "./JSONData/CustomerSuccessData";
 import FAQs from '../../product-dashboard/FAQs'
 import FAQsData from "./JSONData/FAQsData";
+import BannerData from "./JSONData/BannerData";
 const LargeLanguageModel = () => {
   return (
     <div>
       <div>
-        <Banner />
+        <Banner BannerData={BannerData}/>
         <Benfits />
         <UseCases />
         <Industries />
