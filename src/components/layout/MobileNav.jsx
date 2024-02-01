@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import NavigationLinks from "./NavigationLinks";
-import './NewNavbar.css';
+// import './NewNavbar.css';
 import Hamburger from 'hamburger-react'
 import { Link } from "react-router-dom";
 // import menuIcon from "../ui-elements/list.svg"

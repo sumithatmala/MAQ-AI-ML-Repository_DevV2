@@ -1,0 +1,104 @@
+@media (min-width: 1024px)
+{
+    .section-text-image {
+        padding-top: 60px !important;
+        padding-bottom: 80px !important;
+    }
+}
+.section-text-image {
+    padding: 0 30px 64px;
+}
+@media (min-width: 1024px)
+{
+    .section-text-image-inner {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+}
+.section-text-image-inner {
+    max-width: 880px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 742px)
+{
+    .section-text-image.__xs-pic-size.__image-right .section-text-image__figure {
+        padding-right: 0;
+        padding-left: 40px;
+    }
+}
+@media (min-width: 742px)
+{
+    .section-text-image.__xs-pic-size .section-text-image__figure {
+        padding-right: 40px;
+        padding-left: 0;
+    }
+}
+.section-text-image.__xs-pic-size .section-text-image__figure {
+    max-width: 534px;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+.section-text-image.__image-right .section-text-image__figure {
+    -ms-flex-order: 1;
+    order: 1;
+}
+@media (min-width: 1024px)
+{
+    .section-text-image__figure {
+        display: block;
+        min-width: 0;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+    }
+}
+.section-text-image__figure {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+@media (min-width: 1024px)
+{
+    .__w-50 .section-text-image-details {
+        width: 50%;
+        min-width: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+    }
+}
+@media (min-width: 1024px)
+{
+    .section-text-image-details {
+        width: 400px;
+        min-width: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+    }
+}
+@media (min-width: 1024px)
+{
+    .section-text-image__title {
+        margin-bottom: 26px;
+    }
+}
+.section-text-image__title {
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.section-text-image__description {
+    font-size: 16px;
+    line-height: 27px;
+}
+/* .section-text-image__description ul li:before {
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    width: 6px;
+    height: 6px;
+    background: #51a9e1;
+    border-radius: 50%;
+    content: "";
+} */

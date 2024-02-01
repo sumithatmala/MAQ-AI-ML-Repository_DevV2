@@ -9,6 +9,7 @@ import ProductInformation from "../components/product-dashboard/ProductInformati
 import '../css/style.css'
 import ScrollToTop from './ScrollToTop';
 import VirtualAssistantTool from "../components/solution/VirtualAssistantTool/VirtualAssistantTool";
+import LargeLanguageModel from "../components/solutions/large-language-model/LargeLanguageModel";
 
 const Navigation = () => {
   return (
@@ -18,6 +19,7 @@ const Navigation = () => {
         <Route path="/" element={<Container />}>
           {/* <Route path="/" element={<HomePage />} /> */}
           <Route path="/" element={<VirtualAssistantTool/> } />
+          <Route path="/" element={<LargeLanguageModel />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route
             path="/product/:productName"

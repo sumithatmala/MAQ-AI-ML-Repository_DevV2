@@ -10,6 +10,7 @@ export default function App(props) {
         outline: none !important;
         box-shadow: none !important;
       }
+      
     `;
     document.head.appendChild(styleTag);
 
@@ -25,12 +26,9 @@ export default function App(props) {
         <MDBContainer className="mt-5" style={{ maxWidth: '1000px' }}>
           <MDBAccordion>
           {props.FAQs.map((faq, index) => (
-                      // <li key={index}>{highlights}</li>
-                     
             <MDBAccordionItem key={index} className="FAQ__item custom-accordion-item" collapseId={index+1} headerTitle={faq.question}>
               {faq.answer}
             </MDBAccordionItem>
-            
           ))}
           </MDBAccordion>
         </MDBContainer>
