@@ -8,6 +8,7 @@ import SideBar from "../components/ui-elements/SideBar/SideBar";
 import ProductInformation from "../components/product-dashboard/ProductInformation";
 import '../css/style.css'
 import ScrollToTop from './ScrollToTop';
+import VirtualAssistantTool from "../components/solution/VirtualAssistantTool/VirtualAssistantTool";
 
 const Navigation = () => {
   return (
@@ -15,7 +16,8 @@ const Navigation = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
-          <Route path="/" element={<HomePage />} />
+          {/* <Route path="/" element={<HomePage />} /> */}
+          <Route path="/" element={<VirtualAssistantTool/> } />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route
             path="/product/:productName"

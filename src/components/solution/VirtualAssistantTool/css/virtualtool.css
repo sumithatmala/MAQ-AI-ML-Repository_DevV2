@@ -1,0 +1,210 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* background-color: #fff; */
+    color: #141414;
+    font-family: 'proxima-nova', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+    font-weight: 300;
+    line-height: 1.25;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+.toolinformation {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #103654;
+}
+
+.container{
+    width: 100%;
+}
+
+.top {
+    max-width: 100%;
+    height:500px;
+    margin: 0;
+    text-align: center;
+    
+    justify-content: center;
+}
+.heading{
+    padding-top: 150px;
+    text-align: center;
+    font-weight: 600;
+    color: #ff9c00;
+    font-size: 35px;
+    font-family: cabin,Helvetica Neue,Arial,sans-serif;
+}
+.heading_inner{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    /* margin-left: 300px;
+    margin-right: 100px; */
+    /* max-width: 690px */
+    max-width: 100%;
+    /* width: 400px; */
+    font-weight: 400;
+    color: #fff;
+}
+.heading_inner p{
+    max-width: 690px;
+}
+.buttons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    /* padding: 20px; */
+}
+.buttons .get_guid{
+    border-color: #51a9e1;
+    background-color: #51a9e1;
+    border-radius: 4px;
+    padding: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.buttons .freechat{
+    margin-left: 20px;
+    padding: 20px;
+    border-color: #ce7d00;
+    background-color: #e68c00;
+    border-radius: 4px;
+    font-weight: 400;
+    color: #fff;
+}
+.get_guid, .freechat .button{
+    font-weight: 400;
+    color: #fff;
+}
+
+.video{
+    margin-top: 100px;
+    text-align: center;
+}
+.video h2{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.head-block-center{
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.headblock{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.text-block-center{
+    margin-top: 0px;
+    font-weight: 300;
+}
+
+.section-text-image{
+    margin-top: 100px;
+}
+
+.section-text-image-inner{
+    display: flex;
+    justify-content: center;
+}
+.setion-text-image__details{
+    margin: 10px;
+    width: 500px;
+    height: auto;
+}
+.section-text-image__title{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section-text-image__figure{
+    margin: 10px;
+    /* border: 2px solid black; */
+    /* width: 100px; */
+    /* height: 300px; */
+}
+.section-text-image__figure img{
+    width: 400px;
+}
+.section-text-image__description{
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 300;
+}
+.industries__inner{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.industries__list {
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    margin: 35px auto 0;
+}
+.industries__list {
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 832px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.industries__item {
+    height: 100%;
+    padding: 25px 15px 15px;
+    margin-bottom: 0;
+    box-shadow: 0 1px 10px rgba(81,169,225,.2), 0 4px 5px rgba(81,169,225,.12), 0 2px 4px rgba(81,169,225,.14);
+}
+.industries__list-item{
+    height: 256px;
+    margin: 10px;
+}
+
+.industries__item {
+    /* padding: 20px; */
+    width: 256px;
+    padding: 44px 20px 32px;
+    margin-bottom: 32px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 4px 20px rgba(146,201,236,.4);
+    text-align: center;
+}
+.industries__item-icon{
+    width: 104px;
+    height: 90px;
+    margin: 0 auto 10px;
+}
+.industries__item-title{
+    font-size: 16px;
+    font-weight: 600;
+    /* font-family; */
+}
