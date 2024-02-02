@@ -1,0 +1,49 @@
+.bi.bi-diagram {
+    box-sizing: border-box;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    border: none !important;
+    /* border: .07rem solid #dae1e7; */
+    /* border-radius: .25rem; */
+    /* box-shadow: 0 .8rem 1rem -.2rem rgba(69, 60, 144,.1),0 .25rem .5rem -.02rem rgba(69, 60, 144,.05); */
+    min-height: 100%;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    box-shadow: none;
+}
+.center__title {
+    padding: 0 20px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+.bi.bi-diagram .bi.bi-diagram-node.bi-diagram-node-default {
+    transition: box-shadow .25s ease-in-out,border .3s ease-out;
+    backface-visibility: hidden;
+    will-change: box-shadow,border;
+    border: .07rem solid rgba(185, 9, 27, 1);
+    background-color: #e3b6bb;
+    color: rgba(185, 9, 27, 1);
+    /* border-radius: .25rem; */
+    box-shadow: 0 .07rem .2rem 0 rgba(185, 9, 27,.3),0 .07rem .125rem 0 rgba(185, 9, 27,.5);
+    padding: .5rem;
+    
+    width: 120px;
+    height: 70px;
+    /* background: #e3b6bb; */
+    border-radius: 120px / 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.bi.bi-diagram .bi.bi-diagram-node.bi-diagram-node-default:hover {
+    border-radius: 35px;
+    background: #e3b6bb;
+}

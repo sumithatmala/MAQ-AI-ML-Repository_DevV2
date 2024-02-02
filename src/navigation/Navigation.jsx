@@ -15,6 +15,7 @@ import TextAnalysis from "../components/solutions/textAnalysis/TextAnalysis";
 import ComputerVision from "../components/solutions/computerVision/ComputerVision";
 import ImageRecognition from "../components/solutions/imageRecognition/ImageRecognition";
 import NaturalLanguageProcessing from "../components/solutions/natural-language-processing/naturalLanguageProcessing";
+import LargeLanguageModel from "../components/solutions/large-language-model/LargeLanguageModel";
 
 const Navigation = () => {
   return (
@@ -22,7 +23,7 @@ const Navigation = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
-          <Route path="/" element={< PredictiveAnalytics/>} />
+          <Route path="/" element={< HomePage/>} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route
             path="/product/:productName"
@@ -37,6 +38,8 @@ const Navigation = () => {
           <Route path="/solution/ComputerVision" element={<ComputerVision/>}/>
           <Route path="/solution/ImageRecognition" element={<ImageRecognition/>}/>
           <Route path="/solution/NaturalLanguageProcessing" element={<NaturalLanguageProcessing/>}/>
+          <Route path="/solution/LargeLanguageModel" element={<LargeLanguageModel/>}/>
+          <Route path="/solution/PredictiveAnalytics" element={<PredictiveAnalytics/>}/>
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

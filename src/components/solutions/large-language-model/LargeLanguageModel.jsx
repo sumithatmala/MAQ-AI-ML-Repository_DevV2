@@ -17,6 +17,8 @@ import CutomerSuccessData from "./JSONData/CustomerSuccessData";
 import FAQs from '../../product-dashboard/FAQs'
 import FAQsData from "./JSONData/FAQsData";
 import BannerData from "./JSONData/BannerData";
+import ContactForm from "../common/contactForm";
+
 const LargeLanguageModel = () => {
   return (
     <div>
@@ -42,6 +44,7 @@ const LargeLanguageModel = () => {
         {/* <WhyMAQSoftware /> */}
         <CustomerSuccess items={CutomerSuccessData} heading="Customer Success"/>
         <FAQs FAQs = {FAQsData} />
+        <ContactForm/>
       </div>
     </div>
   );
