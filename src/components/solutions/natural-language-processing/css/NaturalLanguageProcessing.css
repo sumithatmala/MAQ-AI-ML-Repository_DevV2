@@ -1,0 +1,57 @@
+.HeaderVisual-nlp {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    height: 65vh;
+    background-image: url("../img/backImg.jpg");
+    object-fit:contain;
+}
+
+.Container-nlp {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.WelcomeMsg {
+    margin: 5rem;
+    text-align: center;
+}
+
+.LearnMoreSection {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.TalkToUs {
+    color:black;
+    font-size:medium;
+    margin-right:auto;
+    margin: 20px;
+    padding: 5px 10px;
+    border: 1px solid #453c90;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.TalkToUs:hover {
+    color: white;
+    background-color: #453c90;
+}
+
+.WorkProcess {
+    display: block;
+    width: 70%;
+    margin-top: 5rem;
+}
+
+.ExplainProcess {
+    height: 20rem;
+    background-color: #443c9086;
+    margin-top: 3rem;
+    border-radius: 10px;
+}

@@ -156,6 +156,9 @@ const NavigationLinks = [
             label: "EleutherAI GPT Models",
             link: "#",
           },
+          { label: "Document Classification With Virtual Assistant", link: "./product/DocumentClassificationWithVirtualAssistant" },
+          { label: "Smart Support Framework", link: "./product/SmartSupportFramework" },
+          { label: "TriviaBot", link: "./product/TriviaBot" },
         ],
         icon: "",
         alt: "",
@@ -167,7 +170,7 @@ const NavigationLinks = [
     label: "Solutions",
     submenu: [
       {
-        label: "Virtual Assistant Tool",
+        label: "Virtual Assistant Tool", 
         icon: "/icons/dataP.svg",
         alt: "data",
       },
@@ -177,9 +180,9 @@ const NavigationLinks = [
         icon: "/icons/ML.svg",
         alt: "ML",
       },
-      {
-        label: "Natural Language Processing",
-
+      { 
+        label: "Natural Language Processing", 
+        link: "/solution/NaturalLanguageProcessing",
         icon: "/icons/dataV.svg",
         alt: "data",
       },
@@ -189,9 +192,9 @@ const NavigationLinks = [
         icon: "/icons/dataV.svg",
         alt: "data",
       },
-      {
-        label: "Text Analysis",
-
+      { 
+        label: "Text Analysis", 
+        link: "./solution/TextAnalysis",
         icon: "/icons/dataV.svg",
         alt: "data",
       },
@@ -213,15 +216,15 @@ const NavigationLinks = [
         icon: "/icons/dataV.svg",
         alt: "data",
       },
-      {
-        label: "Computer Vision",
-
+      { 
+        label: "Computer Vision", 
+        link: "./solution/ComputerVision",
         icon: "/icons/dataV.svg",
         alt: "data",
       },
-      {
-        label: "Image Recognition",
-
+      { 
+        label: "Image Recognition", 
+        link: "./solution/ImageRecognition",
         icon: "/icons/dataV.svg",
         alt: "data",
       },

@@ -1,5 +1,7 @@
 import React from "react";
-import {HashRouter as Router, BrowserRouter, Routes, Route } from "react-router-dom";
+import {HashRouter as Router, Routes, Route } from "react-router-dom";
+
+//Product elements
 import Container from "../components/layout/Container";
 import NotFound from "../components/views/NotFound";
 import HomePage from "../components/home-page/HomePage";
@@ -9,6 +11,10 @@ import ProductInformation from "../components/product-dashboard/ProductInformati
 import '../css/style.css'
 import ScrollToTop from './ScrollToTop';
 import PredictiveAnalytics from "../components/solutions/PredictiveAnalytics/PredictiveAnalytics";
+import TextAnalysis from "../components/solutions/textAnalysis/TextAnalysis";
+import ComputerVision from "../components/solutions/computerVision/ComputerVision";
+import ImageRecognition from "../components/solutions/imageRecognition/ImageRecognition";
+import NaturalLanguageProcessing from "../components/solutions/natural-language-processing/naturalLanguageProcessing";
 
 const Navigation = () => {
   return (
@@ -27,6 +33,10 @@ const Navigation = () => {
               </>
             }
           />
+          <Route path="/solution/TextAnalysis" element={<TextAnalysis/>}/>
+          <Route path="/solution/ComputerVision" element={<ComputerVision/>}/>
+          <Route path="/solution/ImageRecognition" element={<ImageRecognition/>}/>
+          <Route path="/solution/NaturalLanguageProcessing" element={<NaturalLanguageProcessing/>}/>
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

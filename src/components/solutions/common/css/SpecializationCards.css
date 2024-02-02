@@ -1,0 +1,29 @@
+.SpecialContainer {
+    margin: 5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.SpecialCards {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.indCard {
+    max-width: 12rem;
+    margin: 10px 30px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+}
+.indCard p{
+    font-size: 14px;
+}
+.indCard h3{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
