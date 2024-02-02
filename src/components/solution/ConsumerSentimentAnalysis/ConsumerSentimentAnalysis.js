@@ -11,6 +11,7 @@ import CustomerSuccess from "../../solutions/common/CustomerSuccess";
 import CarouselData from "./CarouselData";
 import FAQs from '../../product-dashboard/FAQs'
 import FAQsData from "./FAQsData";
+import ContactForm from "../../solutions/common/contactForm";
 
 
 const ConsumerSentimentAnalysis = () => {
@@ -88,6 +89,8 @@ const ConsumerSentimentAnalysis = () => {
       <CustomerSuccess items={CarouselData}/>
 
       <FAQs FAQs = {FAQsData} />
+
+      <ContactForm />
 
     </>
   );
