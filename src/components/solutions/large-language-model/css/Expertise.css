@@ -11,7 +11,7 @@
 @media (min-width: 1024px)
 {
     .section-text-image-inner {
-        display: -ms-flexbox;
+        
         display: flex;
         -ms-flex-pack: justify;
         justify-content: space-between;

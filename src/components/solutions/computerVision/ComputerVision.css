@@ -1,0 +1,9 @@
+.HeaderVisual1 {
+    display: block;
+    color: white;
+    width: 100%;
+    min-height: 65vh;
+    background-image: url('./visuals/backImg.jpg');
+    align-items: center;
+    text-align: center;
+}

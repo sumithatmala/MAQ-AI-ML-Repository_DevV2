@@ -24,7 +24,6 @@
     text-align: center;
 }
 .trinity__list {
-    display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;

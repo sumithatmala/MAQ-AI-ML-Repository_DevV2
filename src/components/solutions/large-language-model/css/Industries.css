@@ -40,7 +40,7 @@
     -ms-flex-align: stretch;
     align-items: stretch;
     margin: 35px auto 0;
-    display: -ms-flexbox;
+    
     display: flex;
     max-width: 832px;
     -ms-flex-wrap: wrap;
@@ -72,7 +72,7 @@
 }
 
 .industries__item-icon-alt {
-    display: -ms-flexbox;
+    
     display: flex;
     -ms-flex-align: center;
     align-items: center;

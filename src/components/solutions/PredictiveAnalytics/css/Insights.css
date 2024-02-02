@@ -1,0 +1,58 @@
+.vs-statistics {
+    overflow: hidden;
+    padding-bottom: 10px;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+.vs-statistics {
+    margin-top: 110px;
+    margin-bottom: 70px;
+}
+.vs-statistics__inner {
+    max-width: 840px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.vs-statistics__title {
+    padding: 0 20px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+.vs-statistics__list {
+    padding: 0;
+    list-style: none;
+}
+.vs-statistics__item:first-child {
+    z-index: 2;
+}
+.vs-statistics__item {
+    position: relative;
+    z-index: 1;
+    display: block;
+    max-width: 540px;
+    margin: 25px auto;
+}
+.vs-statistics.__content-auto .vs-statistics__item_inner {
+    min-height: inherit;
+}
+.vs-statistics__item_inner {
+    min-height: 120px;
+    padding: 15px 20px 15px 25px;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 1px 10px rgba(69, 60, 144,.2),0 4px 5px rgba(69, 60, 144,.12),0 2px 4px rgba(69, 60, 144,.14);
+}
+.vs-statistics__item_text {
+    line-height: 27px;
+}
+.vs-statistics.__content-auto .vs-statistics__item_note {
+    margin-top: 5px;
+}
+.vs-statistics__item_note {
+    color: #51a9e1;
+    font-style: italic;
+    line-height: 27px;
+}

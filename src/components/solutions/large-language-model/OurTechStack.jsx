@@ -36,36 +36,7 @@ const OurTechStack = () => {
               />
             </div>
           </li>
-          {/* <li class="services-technologies-list__list-item">
-            <div class="services-technologies-list__item">
-              
-              <img
-                src="https://indatalabs.com/wp-content/uploads/2023/06/logo-incite-redpijama.webp"
-                alt="incite-redpijama"
-                height="40px;"
-              />
-            </div>
-          </li> */}
-          {/* <li class="services-technologies-list__list-item">
-            <div class="services-technologies-list__item">
-              
-              <img
-                src="https://indatalabs.com/wp-content/uploads/2023/06/logo-stablelm.webp"
-                alt="stablelm"
-                height="40px;"
-              />
-            </div>
-          </li>
-          <li class="services-technologies-list__list-item">
-            <div class="services-technologies-list__item">
-              
-              <img
-                src="https://indatalabs.com/wp-content/uploads/2023/06/logo-eleutherai.webp"
-                alt="eleuther ai"
-                height="40px;"
-              />
-            </div>
-          </li> */}
+          
           <li class="services-technologies-list__list-item">
             <div class="services-technologies-list__item">
               
@@ -76,26 +47,7 @@ const OurTechStack = () => {
               />
             </div>
           </li>
-          {/* <li class="services-technologies-list__list-item">
-            <div class="services-technologies-list__item">
-              
-              <img
-                src="https://indatalabs.com/wp-content/uploads/2023/06/logo-palm2.svg"
-                alt="palm2"
-                height="40px;"
-              />
-            </div>
-          </li>
-          <li class="services-technologies-list__list-item">
-            <div class="services-technologies-list__item">
-              
-              <img
-                src="https://indatalabs.com/wp-content/uploads/2023/06/logo-pythia.webp"
-                alt="pythia"
-                height="40px;"
-              />
-            </div>
-          </li> */}
+          
           <li class="services-technologies-list__list-item">
             <div class="services-technologies-list__item">
               
@@ -106,46 +58,6 @@ const OurTechStack = () => {
               />
             </div>
           </li>
-          {/* <li class="services-technologies-list__list-item">
-            <div class="services-technologies-list__item">
-              
-              <img
-                src="https://indatalabs.com/wp-content/uploads/2023/06/logo-crm-ant.webp"
-                alt="crm-ant"
-                height="40px;"
-              />
-            </div>
-          </li>
-          <li class="services-technologies-list__list-item">
-            <div class="services-technologies-list__item">
-              
-              <img
-                src="https://indatalabs.com/wp-content/uploads/2023/06/logo-flan-ul2.svg"
-                alt="flan-ul2"
-                height="40px;"
-              />
-            </div>
-          </li>
-          <li class="services-technologies-list__list-item">
-            <div class="services-technologies-list__item">
-              
-              <img
-                src="https://indatalabs.com/wp-content/uploads/2023/06/logo-nvidia.webp"
-                alt="nvidia"
-                height="40px;"
-              />
-            </div>
-          </li>
-          <li class="services-technologies-list__list-item">
-            <div class="services-technologies-list__item">
-              
-              <img
-                src="https://indatalabs.com/wp-content/uploads/2023/06/logo-pangu.webp"
-                alt="pangu"
-                height="40px;"
-              />
-            </div>
-          </li> */}
         </ul>
       </div>
     </section>

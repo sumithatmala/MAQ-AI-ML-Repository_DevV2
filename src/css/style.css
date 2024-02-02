@@ -667,7 +667,7 @@ li.move-right {
 }
 .row {
   display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -801,7 +801,7 @@ li.move-right {
   left: 0;
   z-index: 15;
   display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -938,7 +938,7 @@ li.move-right {
   bottom: 0;
   z-index: 1;
   display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1084,7 +1084,7 @@ button.bg-dark:focus {
 .card {
   position: relative;
   display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1200,7 +1200,7 @@ button.bg-dark:focus {
 
 .card-deck {
   display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1221,7 +1221,7 @@ button.bg-dark:focus {
   }
   .card-deck .card {
     display: -webkit-box;
-    display: -ms-flexbox;
+    
     display: flex;
     -webkit-box-flex: 1;
     -ms-flex: 1 0 0%;
@@ -1238,7 +1238,7 @@ button.bg-dark:focus {
 
 .card-group {
   display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
