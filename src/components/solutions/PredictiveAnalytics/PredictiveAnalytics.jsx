@@ -13,6 +13,8 @@ import CutomerSuccessData from "./JSONData/CutomerSuccessData";
 import FAQs from '../../product-dashboard/FAQs'
 import FAQsData from "./JSONData/FAQsData";
 import ContactForm from "../common/contactForm";
+import RoadMap from '../common/RoadMap'
+import PredictiveAnalyticsModelsProcessData from './JSONData/PredictiveAnalyticsModelsProcessData'
 
 const PredictiveAnalytics = () => {
   return (
@@ -22,6 +24,7 @@ const PredictiveAnalytics = () => {
     <WhatWeOffer />
     <Insights />
     <FlatGridLayout items={IndustriesData}/>
+    <RoadMap items={PredictiveAnalyticsModelsProcessData}/>
     <CustomerSuccess items={CutomerSuccessData}/>
     <FAQs FAQs = {FAQsData} />
     <ContactForm/>
