@@ -157,7 +157,7 @@
 }
 @media (min-width: 1280px) {
   .static-pos {
-    top: 25%;
+    top: 20%;
     left: 25%;
     position: absolute;
     display: grid !important;
@@ -167,6 +167,12 @@
     width: 60%;
     line-height: 2;
 }
+}
+@media (min-width: 1630px) {
+  .static-pos {
+    top: 25%;
+  }
+
 }
   .list-wrapper.dropdown.show {
     
@@ -206,6 +212,7 @@
   .list-layout-menu-item {
     width: 20%;
     display: flex;
+    padding: 7px;
   }
   .dropdown.list-wrapper.show {
     padding: 3% 3% 3% 10%;
