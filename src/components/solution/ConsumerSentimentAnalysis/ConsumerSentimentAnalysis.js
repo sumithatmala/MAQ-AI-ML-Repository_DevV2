@@ -46,8 +46,11 @@ const ConsumerSentimentAnalysis = () => {
           Sentiment analytics is a cutting-edge NLP-based technology that identifies the underlying emotional tone of consumer sentiment data.
         </div>
       </section>
+
       <section>
+        <div>
       <IndustriesList />
+      </div>
       </section>
       
 
