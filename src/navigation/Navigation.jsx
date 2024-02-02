@@ -10,6 +10,7 @@ import '../css/style.css'
 import ScrollToTop from './ScrollToTop';
 import VirtualAssistantTool from "../components/solution/VirtualAssistantTool/VirtualAssistantTool";
 import LargeLanguageModel from "../components/solutions/large-language-model/LargeLanguageModel";
+import ConsumerSentimentAnalysis from "../components/solution/ConsumerSentimentAnalysis/ConsumerSentimentAnalysis";
 
 const Navigation = () => {
   return (
@@ -18,8 +19,10 @@ const Navigation = () => {
       <Routes>
         <Route path="/" element={<Container />}>
           {/* <Route path="/" element={<HomePage />} /> */}
-          <Route path="/" element={<VirtualAssistantTool/> } />
+          {/* <Route path="/" element={<VirtualAssistantTool/> } /> */}
+          <Route path="/" element={<ConsumerSentimentAnalysis />} />
           <Route path="/" element={<LargeLanguageModel />} />
+
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route
             path="/product/:productName"
