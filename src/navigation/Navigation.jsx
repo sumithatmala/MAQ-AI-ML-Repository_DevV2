@@ -10,12 +10,14 @@ import SideBar from "../components/ui-elements/SideBar/SideBar";
 import ProductInformation from "../components/product-dashboard/ProductInformation";
 import '../css/style.css'
 import ScrollToTop from './ScrollToTop';
+import VirtualAssistantTool from "../components/solution/VirtualAssistantTool/VirtualAssistantTool";
 import PredictiveAnalytics from "../components/solutions/PredictiveAnalytics/PredictiveAnalytics";
 import TextAnalysis from "../components/solutions/textAnalysis/TextAnalysis";
 import ComputerVision from "../components/solutions/computerVision/ComputerVision";
 import ImageRecognition from "../components/solutions/imageRecognition/ImageRecognition";
 import NaturalLanguageProcessing from "../components/solutions/natural-language-processing/naturalLanguageProcessing";
 import LargeLanguageModel from "../components/solutions/large-language-model/LargeLanguageModel";
+import ConsumerSentimentAnalysis from "../components/solution/ConsumerSentimentAnalysis/ConsumerSentimentAnalysis";
 
 const Navigation = () => {
   return (
@@ -23,6 +25,9 @@ const Navigation = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
+          <Route path="/" element={<HomePage />} />
+          
+
           <Route path="/" element={< HomePage/>} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route
@@ -40,6 +45,8 @@ const Navigation = () => {
           <Route path="/solution/NaturalLanguageProcessing" element={<NaturalLanguageProcessing/>}/>
           <Route path="/solution/LargeLanguageModel" element={<LargeLanguageModel/>}/>
           <Route path="/solution/PredictiveAnalytics" element={<PredictiveAnalytics/>}/>
+          <Route path="/solution/VirtualAssistantTool" element={<VirtualAssistantTool/> } />
+          <Route path="/solution/ConsumerSentimentAnalysis" element={<ConsumerSentimentAnalysis />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
