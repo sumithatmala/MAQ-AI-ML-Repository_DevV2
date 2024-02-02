@@ -104,7 +104,7 @@
 @media (min-width: 1280px)
 {
     .predict-use-cases-list__list-item {
-        width: 33.33% !important;
+        width: 33.33%
     }
 }
 @media (min-width: 742px)
