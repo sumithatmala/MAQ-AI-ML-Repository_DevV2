@@ -1,11 +1,3 @@
-// import React from 'react';
-// import img1 from './icon/icon-bi-analytics.svg'
-// import icon24 from './icon/icon-24hours.svg';
-// import iconCost from './icon/icon-cost-alt.svg';
-// import personcheck from './icon/icon-person-check.svg';
-// import engine from './icon/icon-engine.svg';
-// import dollar from './icon/icon-dollar-reduce.svg';
-
 import dataAnalysis from './icons/icon-data-analysis-2.svg';
 import idea from './icons/icon-idea.svg';
 import structured from './icons/icon-structured-data.svg';

@@ -5,6 +5,9 @@ import OurServices from "./OurServices";
 import AdoptSentiment from "./AdoptSentiment";
 import SentimentAnalysis from "./SentimentAnalysis";
 import SentimentAnalyticsSection from "./SentimentAnalyticsSection";
+import IndustryGrids from "./IndustryGrid";
+import SentimentAnalysisCompany from "./SentimentAnalysisCompany";
+
 
 const ConsumerSentimentAnalysis = () => {
   return (
@@ -68,6 +71,14 @@ const ConsumerSentimentAnalysis = () => {
 
       <section>
         <SentimentAnalyticsSection />
+      </section>
+
+        <div>
+         <IndustryGrids />
+        </div>
+
+      <section>
+        <SentimentAnalysisCompany />
       </section>
 
     </>
