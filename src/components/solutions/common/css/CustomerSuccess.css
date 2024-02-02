@@ -67,3 +67,9 @@
     font-size: 22px;
     margin-bottom: 20px;
 }
+
+.target-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
