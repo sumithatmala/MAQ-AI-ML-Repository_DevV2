@@ -25,10 +25,8 @@ const Navigation = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
-          {/* <Route path="/" element={<HomePage />} /> */}
-          {/* <Route path="/" element={<VirtualAssistantTool/> } /> */}
-          <Route path="/" element={<ConsumerSentimentAnalysis />} />
-          <Route path="/" element={<LargeLanguageModel />} />
+          <Route path="/" element={<HomePage />} />
+          
 
           <Route path="/" element={< HomePage/>} />
           <Route path="/AboutUs" element={<AboutUs />} />
@@ -47,6 +45,8 @@ const Navigation = () => {
           <Route path="/solution/NaturalLanguageProcessing" element={<NaturalLanguageProcessing/>}/>
           <Route path="/solution/LargeLanguageModel" element={<LargeLanguageModel/>}/>
           <Route path="/solution/PredictiveAnalytics" element={<PredictiveAnalytics/>}/>
+          <Route path="/solution/VirtualAssistantTool" element={<VirtualAssistantTool/> } />
+          <Route path="/solution/ConsumerSentimentAnalysis" element={<ConsumerSentimentAnalysis />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

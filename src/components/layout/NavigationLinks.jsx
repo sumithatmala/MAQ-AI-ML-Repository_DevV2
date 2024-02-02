@@ -171,6 +171,7 @@ const NavigationLinks = [
     submenu: [
       {
         label: "Virtual Assistant Tool", 
+        link: "/solution/VirtualAssistantTool",
         icon: "/icons/dataP.svg",
         alt: "data",
       },
@@ -188,7 +189,7 @@ const NavigationLinks = [
       },
       {
         label: "Consumer Sentiment Analysis",
-
+        link: "/solution/ConsumerSentimentAnalysis",
         icon: "/icons/dataV.svg",
         alt: "data",
       },
