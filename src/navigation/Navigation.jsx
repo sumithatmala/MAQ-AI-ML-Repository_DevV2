@@ -10,14 +10,14 @@ import SideBar from "../components/ui-elements/SideBar/SideBar";
 import ProductInformation from "../components/product-dashboard/ProductInformation";
 import '../css/style.css'
 import ScrollToTop from './ScrollToTop';
-import VirtualAssistantTool from "../components/solution/VirtualAssistantTool/VirtualAssistantTool";
 import PredictiveAnalytics from "../components/solutions/PredictiveAnalytics/PredictiveAnalytics";
 import TextAnalysis from "../components/solutions/textAnalysis/TextAnalysis";
 import ComputerVision from "../components/solutions/computerVision/ComputerVision";
 import ImageRecognition from "../components/solutions/imageRecognition/ImageRecognition";
 import NaturalLanguageProcessing from "../components/solutions/natural-language-processing/naturalLanguageProcessing";
 import LargeLanguageModel from "../components/solutions/large-language-model/LargeLanguageModel";
-import ConsumerSentimentAnalysis from "../components/solution/ConsumerSentimentAnalysis/ConsumerSentimentAnalysis";
+import ConsumerSentimentAnalysis from "../components/solutions/ConsumerSentimentAnalysis/ConsumerSentimentAnalysis";
+import VirtualAssistantTool from "../components/solutions/VirtualAssistantTool/VirtualAssistantTool";
 
 const Navigation = () => {
   return (
