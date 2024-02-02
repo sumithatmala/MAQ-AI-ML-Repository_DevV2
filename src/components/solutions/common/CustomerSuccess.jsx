@@ -16,7 +16,7 @@ const CustomerSuccess = (props) => {
     dots: false,
     responsive: [
       {
-        breakpoint: 1200,
+        breakpoint: 1440,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -53,9 +53,7 @@ const CustomerSuccess = (props) => {
                   </h3>
                   <div class="separate-slider__text">
                     {outcome.description.map((paragraph, index) =>(
-                      <p key={index}>
-                      {paragraph}
-                      </p>
+                      <p key={index}> {paragraph} </p>
                     ))}
                   </div>
                   {/* <a

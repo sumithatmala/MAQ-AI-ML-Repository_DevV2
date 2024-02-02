@@ -73,26 +73,23 @@ export const customerSuccessData = [
       title: "Helping a Leading Game Developer Automate Customer Feedback Analysis",
       image: <img src={gamedev} alt="Game dev customer feedback" />,
       description: [
-        "A renowned game developer invested significant effort in gathering and evaluating fan feedback from social media platforms regarding their game releases. Seeking to optimize this process, they engaged InData Labs to create an NLP-based tool for automating the collection and analysis of reviews.",
-        "The developed tool streamlined the aggregation of reviews and sentiments across different topics and dates, enabling the client to gain deeper insights into their fan base and enhance their social media interactions accordingly.",
-        "Consequently, our customer feedback analysis solution eliminated the need for manual topic extraction, as well as the classification of comments and reviews, empowering the client to focus on more strategic aspects of their fan engagement.",
+        "A well-known game developer dedicated considerable resources to gathering and analyzing fan feedback on social media about their game releases. To streamline this process, they enlisted InData Labs to develop an NLP-based tool for automated review collection and analysis.",
       ],
     },
     {
       title: "ML and NLP Models For Marketing & Advertising",
       image: <img src={cosmetics} alt="MML_NLP marketing ad" />,
       description: [
-        "The client, a beauty company, faced challenges in managing and interpreting large amounts of data. They sought to leverage machine learning (ML) to automate data collection and gain insights.",
-        "Our team developed custom ML models that achieved the following objectives:\n1. Automated data collection and analysis.\n2. Prediction of customer behavior.\n3. Search for beauty influencers.\n4. Multi-language sentiment analysis across social media platforms.",
-        "This collaboration resulted in the client receiving tailored software solutions for efficient data collection and analysis, accurate customer behavior prediction, and comprehensive brand health tracking.",
+        "The beauty company faced challenges in managing and interpreting large volumes of data and wanted to use machine learning (ML) to automate data collection and gain insights.",
+        "This collaboration resulted in the client receiving customized software for efficient data collection and analysis, accurate customer behavior prediction, and comprehensive brand health tracking.",
       ],
     },
     {
       title: "AI Customer Analytics Solution",
       image: <img src={customerAnalysis} alt="AI-Powered customer analytics" />,
       description: [
-        "A medium-sized FMCG company based in the US sought a natural language processing service provider to assist with data collection and analysis. They required our team to:\n1. Clean the data for analysis.\n2. Develop data architecture.\n3. NLP models.\n4. Implement text mining and extract insights from diverse sources.",
-        "In response, we delivered a comprehensive solution encompassing a data analysis pipeline for extracting insights. This software facilitates rapid and precise mining and analysis of email and audio data, meeting the client's needs effectively.",
+        "A medium-sized FMCG company based in the US sought a natural language processing service provider to assist with data collection and analysis.",
+        "In response, we provided a comprehensive solution with a data analysis pipeline for extracting insights. This software facilitates rapid and precise mining and analysis of email and audio data, effectively meeting the client's needs.",
       ],
     },
     {
@@ -100,8 +97,7 @@ export const customerSuccessData = [
       image: <img src={analytics} alt="E-commerce analytics solution" />,
       description: [
         "A major US-based e-commerce platform was in search of a vendor offering natural language processing services. Their goal was to gain insights into their products and services to enhance their marketing campaigns.",
-        "Our solution involved the development of AI-powered sentiment analysis software with the following key functionalities:\n1. Data collection and analysis of all customer reviews.\n2. Tracking overall customer satisfaction levels.\n3. Prediction of customer churn.",
-        "This solution enabled the client to leverage advanced analytics for informed decision-making, leading to more effective marketing strategies and improved customer satisfaction.",
+        "This solution enabled the client to use advanced analytics for better decision-making, leading to improved marketing strategies and customer satisfaction.",
       ],
     },
   ];

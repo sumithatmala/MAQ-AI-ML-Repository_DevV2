@@ -1,10 +1,12 @@
 import "./css/NaturalLanguageProcessing.css"
 import AlternateBanner from "../common/alternateBanner";
-import { bannerData, technologies, customerSuccessData } from "./JSONData/NLPData";
+import { bannerData, technologies, customerSuccessData, FAQsData } from "./JSONData/NLPData";
 import { Link } from "react-router-dom";
 import Technologies from "../common/technologies"
-import SpecialContainer from "../common/specializationCards";
+// import SpecialContainer from "../common/specializationCards";
 import ContactForm from "../common/contactForm";
+import FAQs from '../../product-dashboard/FAQs';
+import CustomerSuccess from "../common/CustomerSuccess";
 
 
 const NaturalLanguageProcessing = () => {
@@ -29,9 +31,10 @@ const NaturalLanguageProcessing = () => {
                     <div className="ExplainProcess"></div>
                 </section>
                 <Technologies tech = {technologies}/>
-                {/* <SpecialContainer items = {customerSuccessData}/> */}
-                <ContactForm/>
             </div>
+            <CustomerSuccess items={customerSuccessData}/>
+            <FAQs FAQs = {FAQsData}/>
+            <ContactForm/>
         </>
     )
 }
