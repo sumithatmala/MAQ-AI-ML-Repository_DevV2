@@ -12,7 +12,7 @@
     overflow: hidden;
     padding: 0;
     margin: 0;
-    height: 800px;
+    height: 800px !important;
 }
 
 .slick-slider .slick-list, .slick-slider .slick-track {
@@ -31,6 +31,22 @@
     line-height: 27px;
     height: 370px;
     margin-top: 20px;
+    
+}
+@media (min-width: 640px) {
+    .separate-slider__content {
+        height: 400px;
+    }
+}
+@media (min-width: 928px) {
+    .separate-slider__content {
+        height: 350px;
+    }
+}
+@media (min-width: 1334px) {
+    .separate-slider__content {
+        height: 350px;
+    }
 }
 
 .separate-slider__item {

@@ -12,6 +12,7 @@ const CustomerSuccessData = [
       "Increased customer engagement and sales conversion rates for our client's online store.",
     ],
   },
+  
   {
     title: "Healthcare Analytics Solution",
     image: <img src={case_customer_analytics_ai_nlp} alt="Healthcare Analytics Solution" />,

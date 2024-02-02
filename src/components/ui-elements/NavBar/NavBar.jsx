@@ -117,7 +117,7 @@ const MenuItems = ({ items, depthLevel }) => {
                         {items.label}
                     </button>
                     {/* For other submenus, render the default dropdown */}
-                    {items.label==='Services' && dropdown ? (
+                    {items.label==='Products' && dropdown ? (
                         <ListDropdown
                         submenus={items.submenu}
                         dropdown={dropdown}

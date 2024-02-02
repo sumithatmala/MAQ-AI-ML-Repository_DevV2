@@ -48,7 +48,7 @@
 @media (min-width: 1024px)
 {
     .services-technologies-list.__with-mobile-slider {
-        display: -ms-flexbox;
+        
         display: flex !important;
     }
 }
@@ -63,7 +63,7 @@
     }
 }
 .services-technologies-list {
-    display: -ms-flexbox;
+    
     display: flex;
     min-width: 0;
     -ms-flex-wrap: wrap;

@@ -51,7 +51,7 @@
 @media (min-width: 742px)
 {
     .section-benefits-list {
-        display: -ms-flexbox;
+        
         display: flex;
         min-width: 0;
         -ms-flex-wrap: wrap;
