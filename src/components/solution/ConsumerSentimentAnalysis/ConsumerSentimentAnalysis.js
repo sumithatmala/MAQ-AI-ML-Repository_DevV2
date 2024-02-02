@@ -7,6 +7,10 @@ import SentimentAnalysis from "./SentimentAnalysis";
 import SentimentAnalyticsSection from "./SentimentAnalyticsSection";
 import IndustryGrids from "./IndustryGrid";
 import SentimentAnalysisCompany from "./SentimentAnalysisCompany";
+import CustomerSuccess from "../../solutions/common/CustomerSuccess";
+import CarouselData from "./CarouselData";
+import FAQs from '../../product-dashboard/FAQs'
+import FAQsData from "./FAQsData";
 
 
 const ConsumerSentimentAnalysis = () => {
@@ -80,6 +84,10 @@ const ConsumerSentimentAnalysis = () => {
       <section>
         <SentimentAnalysisCompany />
       </section>
+
+      <CustomerSuccess items={CarouselData}/>
+
+      <FAQs FAQs = {FAQsData} />
 
     </>
   );
