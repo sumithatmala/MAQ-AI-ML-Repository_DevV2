@@ -284,7 +284,8 @@
     display: block;
   }
   .desktop-nav .dropdown.show a {
-    padding-left: 0;
+    /* padding-left: 0; */
+    padding: 6px;
   }
   .desktop-nav .dropdown.show a:hover{
     background-color: #fff;
