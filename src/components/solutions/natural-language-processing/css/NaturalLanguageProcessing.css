@@ -4,7 +4,7 @@
     text-align: center;
     color: white;
     flex-direction: column;
-    height: 65vh;
+    height: 70vh;
     background-image: url("../img/backImg.jpg");
     object-fit:contain;
 }
@@ -54,4 +54,21 @@
     background-color: #443c9086;
     margin-top: 3rem;
     border-radius: 10px;
+}
+
+/* industries */
+
+.TargetIndustries {
+    margin-top: 5rem;
+}
+
+.IndustryItems {
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.IndustryInditem {
+    margin: 10px 60px;
 }

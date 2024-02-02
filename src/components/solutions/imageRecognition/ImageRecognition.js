@@ -18,7 +18,7 @@ const ImageRecognition = () => {
         <div className="Container-ir">
             <section className="Info-section">
                 {/* <div> */}
-                <p>InData Labs has 7+ years of experience in computer vision under the belt. We cooperate with clients across multiple industries and assist them in levelling up their businesses by harnessing the power of Big Data.</p>
+                <p>We cooperate with clients across multiple industries and assist them in levelling up their businesses by harnessing the power of Big Data.</p>
                 <p>We have gained clients' trust across the globe by creating and delivering top-notch custom solutions for different industries. Our team of <b>machine learning (ML) experts</b> has extensive experience in on-demand computer vision and image recognition software development of any complexity.</p>
                 {/* </div> */}
             </section>
@@ -75,6 +75,10 @@ const ImageRecognition = () => {
                     </ul>
                 </div>
             </section>
+            <div className="Industryheading">
+                <h3>Industries</h3>
+                <p>Our team of machine learning experts has earned global trust by delivering custom solutions for various industries. Specializing in on-demand computer vision and image recognition software development, we customize solutions to address industry-specific needs. Our clientele spans diverse sectors including logistics, retail, media & entertainment, healthcare, and more.</p>
+            </div>
             <Grid content={industrialCards}/>
             <div className="btn-class"><Link to={"#"} className="Industry-btn"> Request a Free Quote </Link></div>
             <h2>Benefits</h2>

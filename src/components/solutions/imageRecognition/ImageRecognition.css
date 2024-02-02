@@ -28,11 +28,11 @@ h1,h2 {
     display: block;
     width: 780px;
     text-align: center;
-    margin: 5rem 20px 0 20px;
+    margin: 40px 0 0 0;
     padding: auto;
 }
 .Info-section p {
-    font-size: 16px;
+    font-size: 17px;
 
 }
 
@@ -64,9 +64,10 @@ h1,h2 {
 .Roadmap {
     margin: 5rem 10px 5rem 10px;
     height: 800px;
-    background-color: #443c90a8;
+    background-color: #443c9056;
     border-radius: 5px;
     padding: 10px;
+    width: 100%;
 }
 
 /* Image recognition process */
@@ -115,6 +116,11 @@ h1,h2 {
     padding: 10px;
     max-width: 500px;
     margin-left: 40px;
+}
+
+.Industryheading {
+    text-align: center;
+    width: 60%;
 }
 
 /* CustomerSuccess */
