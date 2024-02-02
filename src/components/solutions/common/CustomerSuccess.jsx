@@ -38,15 +38,14 @@ const CustomerSuccess = (props) => {
         className="slick-list draggable fade-in product-overview d-flex justify-content-center "
         style={{ backgroundColor: "white" }}
       >
-        <h3 class="head-block-center">Customer Success</h3>
+        <h3 class="head-block-center">{props.heading}</h3>
         <Slider {...settings}>
           {props.items.map((outcome, index) => (
             <>
               <div class="separate-slider__item" key={index}>
-                <div class="separate-slider__img-figure">
-                  
+                {outcome.image?(<div class="separate-slider__img-figure">
                   {outcome.image}
-                </div>
+                </div>):(<></>)}
                 <div class="separate-slider__content">
                   <h3 class="separate-slider__title">
                     {outcome.title}
@@ -63,6 +62,7 @@ const CustomerSuccess = (props) => {
                   >
                     <span>View Details</span>
                   </a> */}
+                  {outcome.link?(<a href={outcome.link}>Learn More</a>):(<></>)}
                 </div>
               </div>
             </>

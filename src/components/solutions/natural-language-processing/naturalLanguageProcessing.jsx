@@ -1,13 +1,20 @@
 import "./css/NaturalLanguageProcessing.css"
-import AlternateBanner from "../common/alternateBanner";
-import { bannerData, technologies, customerSuccessData, FAQsData } from "./JSONData/NLPData";
 import { Link } from "react-router-dom";
+
+//component
+import AlternateBanner from "../common/alternateBanner";
 import Technologies from "../common/technologies"
-// import SpecialContainer from "../common/specializationCards";
 import ContactForm from "../common/contactForm";
 import FAQs from '../../product-dashboard/FAQs';
 import CustomerSuccess from "../common/CustomerSuccess";
 
+//Data
+import customerSuccessData from "./JSONData/customerSuccessData";
+import bannerData from "./JSONData/bannerData"
+import technologiesData from "./JSONData/technologiesData"
+import FAQsData from "./JSONData/FaqData";
+import industriesData from "./JSONData/IndustriesData";
+import blogData from "./JSONData/blogData";
 
 const NaturalLanguageProcessing = () => {
     return (
@@ -30,10 +37,24 @@ const NaturalLanguageProcessing = () => {
                     <h3>How We Work</h3>
                     <div className="ExplainProcess"></div>
                 </section>
-                <Technologies tech = {technologies}/>
+                <section className="TargetIndustries">
+                    <h4>Industries</h4>
+                    <div className="IndustryItems">
+                        {industriesData.map((item) => {
+                            return(
+                                <div className="IndustryInditem">
+                                    {item.icon}
+                                    <h5><a href={item.link}>{item.name}</a></h5>
+                                </div>
+                            )
+                        })}
+                    </div>
+                </section>
+                <Technologies tech = {technologiesData}/>
             </div>
-            <CustomerSuccess items={customerSuccessData}/>
+            <CustomerSuccess items ={customerSuccessData} heading="Customer Success"/>
             <FAQs FAQs = {FAQsData}/>
+            <CustomerSuccess items={blogData} heading="More Insights"/>
             <ContactForm/>
         </>
     )
