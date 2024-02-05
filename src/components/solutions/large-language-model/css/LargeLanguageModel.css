@@ -39,9 +39,12 @@
     font-size: 18px;
 }
 .btn {
+    width: fit-content;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column-reverse;
     display: inline-block;
     min-width: 120px;
-    /* padding: 9px 10px; */
     border: 1px solid #453c90 !important;
     margin: 0;
     background-color: transparent;

@@ -3,7 +3,7 @@ import idea from './icons/icon-idea.svg';
 import structured from './icons/icon-structured-data.svg';
 
 const IndustryItem = ({ iconSrc, altText, title, description }) => (
-  <div className="industries__list-item">
+  <div className="industries__list-items">
     <div className="industries__item">
       <div className="industries__item-icon">
         <img src={iconSrc} alt={altText} />
@@ -20,20 +20,21 @@ const IndustriesList = () => {
       iconSrc: structured,
       altText: 'Aggregate',
       title: 'Aggregate',
-      description: 'Cast your nets wide when analyzing consumer behavior. Collect sentiments across sources and consolidate sentiment data into a unified view.',
+      description: 'Broaden your analysis of consumer behavior. Gather sentiments from various sources and consolidate the data into a unified view.',
     },
     {
       iconSrc: dataAnalysis,
       altText: 'Analyze',
       title: 'Analyze',
-      description: 'Add smart algorithms to check the vibe of emerging trends. Track crucial behavior shifts and hidden opportunities in sentiments.',
+      description: 'Incorporate intelligent algorithms to gauge the vibe of emerging trends. Monitor crucial shifts in behavior and uncover hidden opportunities within sentiments.',
     },
     {
-        iconSrc: idea,
-        altText: 'Activate',
-        title: 'Activate',
-        description: 'Communicate insights through interactive dashboards, act on your data, and make informed decisions about the trends to pursue.',
-      },
+      iconSrc: idea,
+      altText: 'Activate',
+      title: 'Activate',
+      description: 'Convey insights through interactive dashboards, take action based on your data, and make informed decisions regarding the trends to pursue.',
+    },
+    
       
       
       

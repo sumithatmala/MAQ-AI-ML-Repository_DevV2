@@ -210,7 +210,7 @@ const NavigationLinks = [
       },
       {
         label: "Recommendation Systems",
-
+        link: "/Industries/RecommendationSystems",
         icon: "/icons/dataV.svg",
         alt: "data",
       },
@@ -293,7 +293,7 @@ const NavigationLinks = [
       },
       {
         label: "Retail",
-
+        link: "/Industries/Retail",
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },

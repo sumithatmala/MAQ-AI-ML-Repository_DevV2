@@ -18,30 +18,31 @@ const BenefitItem = ({ imgSrc, imgAlt, title, text }) => (
 
 const AdoptSentiment = () => {
     const benefitsData = [
-        {
-          imgSrc: graph,
-          imgAlt: 'Track Sentiment Across Channels',
-          title: 'Track Sentiment Across Channels',
-          text: 'Extract, analyze, and act on sentiments across multiple touch points. Make sure your product resonates with the consumers, score big on customer experience, and rely on real-user feedback to inform your strategy.',
-        },
-        {
-          imgSrc: smile,
-          imgAlt: 'Plan Product Improvements',
-          title: 'Plan Product Improvements',
-          text: 'Take the pulse of public opinion and consumer sentiment data to analyze your latest product release. Collate user insights to identify gaps, add much-awaited features, and improve user experience.',
-        },
-        {
-          imgSrc: people,
-          imgAlt: 'Prioritize Customer Service Issues',
-          title: 'Prioritize Customer Service Issues',
-          text: 'Identify critical customer issues and put top-priority service tickets at the head of the queue. Enable ChatGPT solutions to avoid escalations when consumer complaints arrive - based on users’ real-time feelings.',
-        },
-        {
-          imgSrc: stars,
-          imgAlt: 'Monitor Brand Reputation',
-          title: 'Monitor Brand Reputation',
-          text: 'Let our sentiment analysis company help you establish a strong brand image through NLP and machine learning. Use sentiment data to spot negative mentions, react swiftly to alerts, and effectively manage your online reputation.',
-        },
+      {
+        imgSrc: graph,
+        imgAlt: 'Track Sentiment Across Channels',
+        title: 'Track Sentiment Across Channels',
+        text: 'Extract, analyze, and act on sentiments across multiple touchpoints. Ensure your product resonates with consumers, excel in customer experience, and rely on real-user feedback to inform your strategy.',
+      },
+      {
+        imgSrc: smile,
+        imgAlt: 'Plan Product Improvements',
+        title: 'Plan Product Improvements',
+        text: 'Take the pulse of public opinion and consumer sentiment data to analyze your latest product release. Aggregate user insights to identify gaps, add anticipated features, and enhance user experience.',
+      },
+      {
+        imgSrc: people,
+        imgAlt: 'Prioritize Customer Service Issues',
+        title: 'Prioritize Customer Service Issues',
+        text: 'Identify critical customer issues and prioritize service tickets accordingly. Leverage ChatGPT solutions to prevent escalations by addressing consumer complaints based on real-time sentiments.',
+      },
+      {
+        imgSrc: stars,
+        imgAlt: 'Monitor Brand Reputation',
+        title: 'Monitor Brand Reputation',
+        text: 'Allow our sentiment analysis services to help build a robust brand image through NLP and machine learning. Utilize sentiment data to identify negative mentions, respond promptly to alerts, and effectively manage your online reputation.',
+      },
+      
       ];
       
 

@@ -18,6 +18,8 @@ import NaturalLanguageProcessing from "../components/solutions/natural-language-
 import LargeLanguageModel from "../components/solutions/large-language-model/LargeLanguageModel";
 import ConsumerSentimentAnalysis from "../components/solutions/ConsumerSentimentAnalysis/ConsumerSentimentAnalysis";
 import VirtualAssistantTool from "../components/solutions/VirtualAssistantTool/VirtualAssistantTool";
+import RecommendationSystems from "../components/solutions/RecommendationSystems/RecommendationSystems";
+import Retail from "../components/industries/Retail/Retail";
 import Logistics from "../components/industries/Logistics/Logistics";
 import AISolutionsEcommerce from "../components/industries/AISolutionsEcommerce/AISolutionsEcommerce";
 const Navigation = () => {
@@ -26,6 +28,8 @@ const Navigation = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
+          {/* <Route path="/" element={<Retail />} /> */}
+          {/* <Route path="/" element={<RecommendationSystems/>} /> */}
           <Route path="/" element={<HomePage />} />
           
 
@@ -50,6 +54,8 @@ const Navigation = () => {
           <Route path="/solution/ConsumerSentimentAnalysis" element={<ConsumerSentimentAnalysis />} />
           <Route path="/Industries/Logistics" element={<Logistics />} />
           <Route path="/Industries/E-commerce" element={<AISolutionsEcommerce />} />
+          <Route path="/Industries/Retail" element={<Retail />} />
+          <Route path="/Industries/RecommendationSystems" element={<RecommendationSystems/>} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

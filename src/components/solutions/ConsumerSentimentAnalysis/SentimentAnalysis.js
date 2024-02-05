@@ -10,23 +10,24 @@ const SentimentAnalysis = () => {
     {
       iconSrc: like,
       title: "Monitor Your Brand’s Social Media",
-      description: "Make a health check of public opinion about your brand and verify if it’s in the green or the red zone. We build custom opinion tracking solutions that run opinion mining on unstructured data from the brand's social media channels.",
+      description: "Conduct a health check on public opinion about your brand and determine if it's in the green or red zone. We create custom opinion tracking solutions that perform opinion mining on unstructured data from your brand's social media channels.",
     },
     {
       iconSrc: conversation,
       title: "Focus on The Voice of the Customer (VoC)",
-      description: "Gain insight into consumer expectations, preferences, and pain points to gain competitive intelligence. Our VoC solutions analyze and derive insight from all types of VoC data using a variety of analytical and visualization techniques.",
+      description: "Gain insights into consumer expectations, preferences, and pain points for competitive intelligence. Our VoC solutions analyze and extract insights from various VoC data types using a range of analytical and visualization techniques.",
     },
     {
       iconSrc: bar,
       title: "Get Insights from Product Analysis",
-      description: "Convert negative comments into positive interactions and keep customers satisfied during product changes. Uncover gaps between your product and the competition and predict your customers' response to new products.",
+      description: "Transform negative comments into positive interactions and maintain customer satisfaction during product changes. Identify gaps between your product and competitors, and predict customer responses to new products.",
     },
     {
       iconSrc: search,
       title: "Track Your Competitors",
-      description: "Benchmark the strengths and weaknesses of your brand against competitors and detect reputation risks before they break loose. Lift your business ranking, get a better handle on your competition, and position your products strategically.",
+      description: "Benchmark the strengths and weaknesses of your brand against competitors and proactively identify reputation risks. Improve your business ranking, gain a better understanding of your competition, and strategically position your products.",
     },
+    
   ];
 
   return (
