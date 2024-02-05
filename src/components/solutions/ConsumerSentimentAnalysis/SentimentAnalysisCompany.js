@@ -18,13 +18,14 @@ const SentimentAnalysisCompany = () => (
           {
             icon: dataP,
             title: 'Scalable Results',
-            description: 'We base your solutions on scalable architectures to let them grow in lockstep with your business.',
+            description: 'We build your solutions on scalable architectures to let them grow in lockstep with your business.',
           },
           {
             icon: implemnet,
             title: 'State-of-the-Art Models',
-            description: 'Our sentiment analysis services are based on cutting-edge AI algorithms to deliver results with high accuracy.',
+            description: 'Our sentiment analysis services are built on cutting-edge AI algorithms to deliver results with high accuracy.',
           },
+          
         ].map((item, index) => (
           <li key={index} className="trinity__item __w-33">
             <div className="trinity__item_figure">

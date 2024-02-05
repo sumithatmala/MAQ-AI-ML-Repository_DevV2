@@ -1,4 +1,4 @@
-import "./css/toolinformation.css";
+import "./css/toolinformations.css";
 import IndustriesList from "./IndustriesList";
 import './css/ConsumerSentimentAnalysis.css';
 import OurServices from "./OurServices";
@@ -17,17 +17,16 @@ import ContactForm from "../../solutions/common/contactForm";
 const ConsumerSentimentAnalysis = () => {
   return (
     <>
-      <section className="toolinformation">
+      <section className="toolinformations">
         <div className="container">
           <div className="grids">
             <div className="top">
               <div className="heading">
-                <span>Sentiment Analysis Services For Your Project</span>
+                <span>Tailored Sentiment Analysis Solutions for Your Project</span>
               </div>
               <div className="heading_inner">
                 <p>
-                  Activate consumer interaction data at scale with our sentiment
-                  analysis services
+                  Leverage consumer interaction data at scale with our sentiment analysis services.
                 </p>
               </div>
               <div className="images">
@@ -39,30 +38,30 @@ const ConsumerSentimentAnalysis = () => {
         </div>
       </section>
 
-      <section className="section-industries">
+      <section className="section-SentimentAnalysis">
         <div
           className="industries__inner"
           style={{ marginTop: "40px", marginBottom: "0px" }}
         >
-          <h2 className="head-block-center">Refine Your Business Strategy with User Sentiment</h2>
+         <h2 className="head-block-center">Elevate Your Business Strategy with User Sentiment</h2>
         </div>
 
         <div
           class="text-block-center"
           style={{ marginTop: "0px", marginBottom: "20px" }}
         >
-          Sentiment analytics is a cutting-edge NLP-based technology that identifies the underlying emotional tone of consumer sentiment data.
+          Sentiment analytics, utilizing cutting-edge NLP-based technology, discerns the emotional tone within consumer sentiment data.
         </div>
       </section>
 
       <section>
         <div>
-      <IndustriesList />
-      </div>
+          <IndustriesList />
+        </div>
       </section>
-      
 
-      <section style={{marginTop:"100px"}}>
+
+      <section style={{ marginTop: "100px" }}>
         <OurServices />
       </section>
 
@@ -78,17 +77,17 @@ const ConsumerSentimentAnalysis = () => {
         <SentimentAnalyticsSection />
       </section>
 
-        <div>
-         <IndustryGrids />
-        </div>
+      <div>
+        <IndustryGrids />
+      </div>
 
       <section>
         <SentimentAnalysisCompany />
       </section>
 
-      <CustomerSuccess items={CarouselData}/>
+      <CustomerSuccess items={CarouselData} />
 
-      <FAQs FAQs = {FAQsData} />
+      <FAQs FAQs={FAQsData} />
 
       <ContactForm />
 

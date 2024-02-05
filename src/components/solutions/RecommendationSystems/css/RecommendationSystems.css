@@ -1,0 +1,94 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #141414;
+    font-family: 'proxima-nova', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.25;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+.toolinformations_recommend {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #453c90;
+    height: 690px;
+    animation: h 1s 2s forwards;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 972px auto;
+    bottom: 0;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    background-image: url(../Images/recommendation-system-bg.svg);
+}
+
+
+@media (min-width: 640px){
+.info-section-inner:last-child, .info-section__inner:last-child {
+    padding-bottom: 60px;
+}}
+
+.page-type-recommendation-system .info-section-inner {
+    padding-top: 0;
+}
+@media (min-width: 640px){
+.info-section-inner, .info-section__inner {
+    padding-top: 72px;
+    padding-bottom: 0;
+}}
+.info-section-inner, .info-section__inner {
+    max-width: 840px;
+    padding-top: 66px;
+    padding-bottom: 84px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.info-section__title {
+    margin-bottom: 26px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.info-section__title {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.info-section__description {
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.875;
+    text-align: center;
+}
+p {
+    margin: 0 0 20px;
+}
+
+.section-text-image.__type-content-change .section-text-image__figure{
+    width: 640px;
+    height: 369px;
+    margin: 0 auto;
+    background-image: url(../Images/girls-cards.png);
+}
+.recommend .separate-slider__item {
+    display: flex;
+    height: 700px;
+    /* flex-direction: column; */
+    max-width: 500px;
+    margin: 20px;
+    /* justify-content: center; */
+    margin-left: 35px;
+}

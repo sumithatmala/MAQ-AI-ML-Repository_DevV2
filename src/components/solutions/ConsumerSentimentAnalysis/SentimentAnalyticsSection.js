@@ -24,31 +24,33 @@ const SentimentAnalyticsSection = () => {
     {
       iconSrc: one,
       title: "Get Live Insights",
-      description: "Use our custom sentiment analytics solutions to recognize emotions behind texts across the web and integrate customer interaction into a single source of truth.",
+      description: "Utilize our custom sentiment analytics solutions to identify emotions behind texts across the web and consolidate customer interactions into a single source of truth.",
       link: "https://indatalabs.com/services/ai-customer-care-analytics-solutions"
     },
     {
       iconSrc: three,
       title: "Reduce Customer Churn",
-      description: "Gather unsolicited feedback to surface what’s truly top of mind for your clients, identify frustrated customers, and respond with the right retention strategy."
+      description: "Collect unsolicited feedback to uncover what's truly top of mind for your clients, identify frustrated customers, and respond with the appropriate retention strategy."
     },
     {
       iconSrc: two,
       title: "Provide Better Services",
-      description: "Gain a clear picture of the level of customer happiness, close the gap between your company and your customers, and maintain high service quality."
+      description: "Gain a clear understanding of customer happiness levels, bridge the gap between your company and customers, and maintain high service quality.",
     },
     {
       iconSrc: four,
       title: "Detect Changes in Customer Opinion",
-      description: "Detect drops and rises in optimism about your brand, monitor recurring trends, and align messages to consumer mindsets to build a positive brand image."
+      description: "Identify drops and rises in optimism about your brand, monitor recurring trends, and align messages with consumer mindsets to build a positive brand image."
     }
+    
   ];
 
   return (
     <section className="numbering-tile">
       <div className="numbering-tile-inner">
-        <h2 className="head-block-center">Capture the Whole Picture with Sentiment Analytics</h2>
-        <div className="text-block-center">Transform emotions into quantitative metrics and deliver the right products at the right time.</div>
+      <h2 className="head-block-center">Capture the Whole Picture with Sentiment Analytics</h2>
+<div className="text-block-center">Convert emotions into quantitative metrics and deliver the right products at the right time.</div>
+
         <ul className="numbering-tile-list">
           {items.map((item, index) => (
             (index % 2 === 0) && (

@@ -18,6 +18,7 @@ import NaturalLanguageProcessing from "../components/solutions/natural-language-
 import LargeLanguageModel from "../components/solutions/large-language-model/LargeLanguageModel";
 import ConsumerSentimentAnalysis from "../components/solutions/ConsumerSentimentAnalysis/ConsumerSentimentAnalysis";
 import VirtualAssistantTool from "../components/solutions/VirtualAssistantTool/VirtualAssistantTool";
+import RecommendationSystems from "../components/solutions/RecommendationSystems/RecommendationSystems";
 
 const Navigation = () => {
   return (
@@ -25,6 +26,7 @@ const Navigation = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
+          <Route path="/" element={<RecommendationSystems/>} />
           <Route path="/" element={<HomePage />} />
           
 
