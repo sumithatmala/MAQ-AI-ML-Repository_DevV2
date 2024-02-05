@@ -25,7 +25,7 @@ const WhyMAQSoftware = () => {
             <h3 class="trinity__item_title">Experience You Can Trust</h3>
             <div class="trinity__item_descr">
               Over 150 global companies have chosen us to deliver AI solutions
-              at scale – and the results speak for themselves.
+              at scale - and the results speak for themselves.
             </div>
           </li>
           <li class="trinity__item __w-33">

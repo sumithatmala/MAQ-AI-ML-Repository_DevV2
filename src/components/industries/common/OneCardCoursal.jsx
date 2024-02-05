@@ -5,20 +5,20 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "./css/CustomerSuccess.css"
+import "./css/OneCardCoursal.css"
 
-const CustomerSuccess = (props) => {
+const OneCardCoursal = (props) => {
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     dots: false,
     responsive: [
       {
         breakpoint: 1440,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
@@ -35,10 +35,10 @@ const CustomerSuccess = (props) => {
   return (
     <section class="target-section" style={{ backgroundColor: "white" }}>
       <Row
-        className="slick-list1 draggable fade-in product-overview d-flex justify-content-center "
-        style={{ backgroundColor: "white", height: "auto" }}
+        className="slick-list2 draggable fade-in product-overview d-flex justify-content-center "
+        style={{ backgroundColor: "white" }}
       >
-        <h3 class="head-block-center">{props.heading}</h3>
+        {props.heading && <h3 class="head-block-center">{props.heading}</h3>}
         <Slider {...settings}>
           {props.items.map((outcome, index) => (
             <>
@@ -73,4 +73,4 @@ const CustomerSuccess = (props) => {
   );
 };
 
-export default CustomerSuccess;
+export default OneCardCoursal;

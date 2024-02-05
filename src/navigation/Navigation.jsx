@@ -18,7 +18,8 @@ import NaturalLanguageProcessing from "../components/solutions/natural-language-
 import LargeLanguageModel from "../components/solutions/large-language-model/LargeLanguageModel";
 import ConsumerSentimentAnalysis from "../components/solutions/ConsumerSentimentAnalysis/ConsumerSentimentAnalysis";
 import VirtualAssistantTool from "../components/solutions/VirtualAssistantTool/VirtualAssistantTool";
-
+import Logistics from "../components/industries/Logistics/Logistics";
+import AISolutionsEcommerce from "../components/industries/AISolutionsEcommerce/AISolutionsEcommerce";
 const Navigation = () => {
   return (
     <Router>
@@ -47,6 +48,8 @@ const Navigation = () => {
           <Route path="/solution/PredictiveAnalytics" element={<PredictiveAnalytics/>}/>
           <Route path="/solution/VirtualAssistantTool" element={<VirtualAssistantTool/> } />
           <Route path="/solution/ConsumerSentimentAnalysis" element={<ConsumerSentimentAnalysis />} />
+          <Route path="/Industries/Logistics" element={<Logistics />} />
+          <Route path="/Industries/E-commerce" element={<AISolutionsEcommerce />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
