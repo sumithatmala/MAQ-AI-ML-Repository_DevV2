@@ -2,9 +2,9 @@ import React from "react";
 import "./css/Banner.css";
 
 const Banner = (props) => {
-  
+
   return (
-     <section
+    <section
       className="banner banner-order-effects banner-bg"
       style={{ marginTop: "0px" }}
     >
