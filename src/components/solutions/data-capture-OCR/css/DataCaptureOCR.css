@@ -1,0 +1,17 @@
+.SectionDesc {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.CenterDesc {
+    width: 45rem;
+    margin: 20px;
+}
+.CenterDesc h2 {
+    padding: 10px 20px;
+    /* margin-bottom: 10px; */
+    font-size: 26px;
+}

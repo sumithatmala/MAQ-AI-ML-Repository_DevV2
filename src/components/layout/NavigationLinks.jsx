@@ -234,7 +234,7 @@ const NavigationLinks = [
       // },
       {
         label: "Data capture & OCR",
-
+        link: "./solution/DataCaptureOCR",
         icon: "/icons/dataV.svg",
         alt: "data",
       },
