@@ -2,46 +2,48 @@
 // import case_customer_analytics_ai_nlp from "../img/case-customer-analytics-ai-nlp.webp"
 // import case_customer_review_analytics_solution from "../img/case-customer-review-analytics-solution.webp"
 // import case_predictive_models_improve_debt_collection_process from "../img/case-predictive-models.webp"
-
+import CookingAssistant from './Images/IntelligentCookingAssistant.jpeg';
+import ServiceSoltion from './Images/IntelligentServiceSolution.jpg';
+import AutomatedFeedback from './Images/AutomatedFeedback.png';
+import EmotionalAnalysis from './Images/EmotionalAnalysis.jpeg';
 
 const CarouselData = [
-    {
-      title: "Automated Customer Feedback Analysis",
-      image: <img src="https://indatalabs.com/wp-content/uploads/2022/06/game-dev.png" alt="Automated Customer Feedback Analysis" />,
-      description: [
-        "Our team was hired by an international game publisher to build a cost-effective feedback analytics tool.",
-        "Engineered a custom, NLP-powered solution reducing costs and time of analysis and minimizing bias in decision-making.",
-      ],
-      link: "https://indatalabs.com/resources/customer-feedback-analysis-software",
-    },
-    {
-      title: "Emotion Intelligence Monitoring",
-      image: <img src="https://indatalabs.com/wp-content/uploads/2022/04/customer-review-analytics-solution-case.jpg" alt="Emotion Intelligence Monitoring" />,
-      description: [
-        "Delivered for a large US e-commerce platform striving to improve customer experience with automated sentiment analytics.",
-        "Implemented an ML-powered emotion analysis software identifying the tone in customer reviews.",
-      ],
-      link: "https://indatalabs.com/resources/customer-review-analytics-solution",
-    },
-    {
-      title: "Smart Cooking Assistant",
-      image: <img src="https://indatalabs.com/wp-content/uploads/2023/03/ai-cooking-assistant.jpg" alt="Smart Cooking Assistant" />,
-      description: [
-        "Provided project rescue services to improve the existing product and fix speech recognition functionality.",
-        "Addressed all client’s concerns and delivered a revamped version of an AI cooking software with hands-free control and smart add-ons.",
-      ],
-      link: "https://indatalabs.com/resources/ai-cooking-assistant",
-    },
-    {
-      title: "Smart Client Service Solution",
-      image: <img src="https://indatalabs.com/wp-content/uploads/2022/03/ai-customer-analytics-solution.jpg" alt="Smart Client Service Solution" />,
-      description: [
-        "Client, a US FMCG company, needed a smart solution to mine actionable insights from emails and audio using NLP.",
-        "Set up a data analysis pipeline for sentiment analysis, becoming a central tool for the customer strategy of our client.",
-      ],
-      link: "https://indatalabs.com/resources/customer-analytics-ai-nlp",
-    },
-  ];
-  
-  export default CarouselData;
-  
+  {
+    title: "Automated Feedback Processing",
+    image: <img src={AutomatedFeedback} style={{height:"230px"}} />,
+    description: [
+      "Our team developed a cost-efficient analytics tool for evaluating feedback for an international game publisher.",
+      "Designed a tailored, NLP-driven solution to cut down on analysis costs and time, ensuring unbiased decision-making.",
+    ],
+    link: "https://indatalabs.com/resources/customer-feedback-analysis-software",
+  },
+  {
+    title: "Emotion Analysis Intelligence",
+    image: <img src={EmotionalAnalysis} alt="Emotion Analysis Intelligence" style={{height:"230px"}}/>,
+    description: [
+      "Provided to a major US e-commerce platform aiming to enhance customer experience through automated sentiment analytics.",
+      "Deployed an ML-powered emotion analysis tool to identify the emotional tone in customer reviews.",
+    ],
+    link: "https://indatalabs.com/resources/customer-review-analytics-solution",
+  },
+  {
+    title: "Intelligent Cooking Assistant",
+    image: <img src={CookingAssistant} alt="Intelligent Cooking Assistant" style={{height:"230px"}} />,
+    description: [
+      "Offered project recovery services to enhance the existing product and fix speech recognition functionality.",
+      "Addressed all client concerns and delivered an upgraded version of an AI cooking software with hands-free control and intelligent add-ons.",
+    ],
+    link: "https://indatalabs.com/resources/ai-cooking-assistant",
+  },
+  {
+    title: "Intelligent Service Solution",
+    image: <img src={ServiceSoltion} alt="Intelligent Service Solution" style={{height:"230px"}}/>,
+    description: [
+      "A US FMCG company required an intelligent solution to extract actionable insights from emails and audio using NLP.",
+      "Implemented a robust data analysis pipeline for sentiment analysis, becoming a central tool for our client's customer strategy.",
+    ],
+    link: "https://indatalabs.com/resources/customer-analytics-ai-nlp",
+  },
+];
+
+export default CarouselData;

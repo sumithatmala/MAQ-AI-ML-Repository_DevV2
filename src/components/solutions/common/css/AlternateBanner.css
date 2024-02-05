@@ -57,3 +57,6 @@
     color: white;
     background-color: #453c90;
 }
+li::marker {
+    color: #453c90;
+}

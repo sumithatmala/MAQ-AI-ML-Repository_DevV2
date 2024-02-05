@@ -7,11 +7,16 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./css/CustomerSuccess.css"
 
+
 const CustomerSuccess = (props) => {
+  const { items, defaultSlidesToShow } = props;
+
+  const slidesToShow = props.slidesToShow || defaultSlidesToShow;
+
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: slidesToShow,
     slidesToScroll: 1,
     dots: false,
     responsive: [
@@ -24,53 +29,54 @@ const CustomerSuccess = (props) => {
       },
     ],
   };
+
   useEffect(() => {
     AOS.init({
       delay: 20,
     });
     AOS.refresh();
   }, []);
-  
 
   return (
-    <section class="target-section" style={{ backgroundColor: "white" }}>
+    <section className="target-section" style={{ backgroundColor: "white" }}>
       <Row
-        className="slick-list draggable fade-in product-overview d-flex justify-content-center "
-        style={{ backgroundColor: "white" }}
+        className="slick-list1 draggable fade-in product-overview d-flex justify-content-center "
+        style={{ backgroundColor: "white", height: "auto" }}
       >
-        <h3 class="head-block-center">{props.heading}</h3>
         <Slider {...settings}>
-          {props.items.map((outcome, index) => (
-            <>
-              <div class="separate-slider__item" key={index}>
-                {outcome.image?(<div class="separate-slider__img-figure">
+          {items.map((outcome, index) => (
+            <div className="separate-slider__item" key={index}>
+              {outcome.image ? (
+                <div className="separate-slider__img-figure">
                   {outcome.image}
-                </div>):(<></>)}
-                <div class="separate-slider__content">
-                  <h3 class="separate-slider__title">
-                    {outcome.title}
-                  </h3>
-                  <div class="separate-slider__text">
-                    {outcome.description.map((paragraph, index) =>(
-                      <p key={index}> {paragraph} </p>
-                    ))}
-                  </div>
-                  {/* <a
-                    href="#"
-                    class="separate-slider__link reports-list__action"
-                    tabindex="0"
-                  >
-                    <span>View Details</span>
-                  </a> */}
-                  {outcome.link?(<a href={outcome.link}>Learn More</a>):(<></>)}
                 </div>
+              ) : (
+                <></>
+              )}
+              <div className="separate-slider__content">
+                <h3 className="separate-slider__title">{outcome.title}</h3>
+                <div className="separate-slider__text">
+                  {outcome.description.map((paragraph, index) => (
+                    <p key={index}> {paragraph} </p>
+                  ))}
+                </div>
+                {outcome.link ? (
+                  <a href={outcome.link}>Learn More</a>
+                ) : (
+                  <></>
+                )}
               </div>
-            </>
+            </div>
           ))}
         </Slider>
       </Row>
     </section>
   );
+};
+
+// Set a default value for slidesToShow if not provided
+CustomerSuccess.defaultProps = {
+  defaultSlidesToShow: 3,
 };
 
 export default CustomerSuccess;

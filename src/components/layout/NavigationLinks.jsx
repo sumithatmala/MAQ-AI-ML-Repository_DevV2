@@ -196,12 +196,12 @@ const NavigationLinks = [
         icon: "/icons/dataV.svg",
         alt: "data",
       },
-      {
-        label: "Al Call Center Solutions",
+      // {
+      //   label: "Al Call Center Solutions",
 
-        icon: "/icons/dataV.svg",
-        alt: "data",
-      },
+      //   icon: "/icons/dataV.svg",
+      //   alt: "data",
+      // },
       {
         label: "Predictive Analytics",
         link: "/solution/PredictiveAnalytics",
@@ -210,31 +210,31 @@ const NavigationLinks = [
       },
       {
         label: "Recommendation Systems",
-
+        link: "/Industries/RecommendationSystems",
         icon: "/icons/dataV.svg",
         alt: "data",
       },
-      { 
-        label: "Computer Vision", 
-        link: "./solution/ComputerVision",
-        icon: "/icons/dataV.svg",
-        alt: "data",
-      },
+      // { 
+      //   label: "Computer Vision", 
+      //   link: "./solution/ComputerVision",
+      //   icon: "/icons/dataV.svg",
+      //   alt: "data",
+      // },
       { 
         label: "Image Recognition", 
         link: "./solution/ImageRecognition",
         icon: "/icons/dataV.svg",
         alt: "data",
       },
-      {
-        label: "Pose Estimation",
+      // {
+      //   label: "Pose Estimation",
 
-        icon: "/icons/dataV.svg",
-        alt: "data",
-      },
+      //   icon: "/icons/dataV.svg",
+      //   alt: "data",
+      // },
       {
         label: "Data capture & OCR",
-
+        link: "./solution/DataCaptureOCR",
         icon: "/icons/dataV.svg",
         alt: "data",
       },
@@ -257,7 +257,7 @@ const NavigationLinks = [
       },
       {
         label: "E-commerce",
-
+        link: "/Industries/E-commerce",
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },
@@ -275,7 +275,7 @@ const NavigationLinks = [
       },
       {
         label: "Logistics",
-
+        link: "/Industries/Logistics",
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },
@@ -287,13 +287,13 @@ const NavigationLinks = [
       },
       {
         label: "Fintech",
-
+        
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },
       {
         label: "Retail",
-
+        link: "/Industries/Retail",
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },

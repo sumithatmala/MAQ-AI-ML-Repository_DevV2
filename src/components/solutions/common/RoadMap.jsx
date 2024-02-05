@@ -7,7 +7,7 @@ const RoadMap = (props) => {
     
     return ( 
       <section>
-        <h2 className="center__title">How We Build Predictive Analytics Models</h2>
+        <h2 className="center__title">{props.title}</h2>
         <div style={{ height: '30rem', display: "flex", justifyContent: "center" }}>
           <Diagram schema={schema} onChange={onChange} />
         </div>

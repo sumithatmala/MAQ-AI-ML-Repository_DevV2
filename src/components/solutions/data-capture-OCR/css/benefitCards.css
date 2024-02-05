@@ -1,0 +1,22 @@
+.BenefitCardsContainer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Benefitcards {
+    display: flex;
+    flex-direction: column;
+    width: 820px;
+}
+
+.BenefitcardInd {
+    display: flex;
+    flex-direction: row;
+}
+
+.BenefitcardDesc {
+    margin: 15px 20px;
+    padding: 15px 20px;
+    text-align: start;
+}
