@@ -19,6 +19,7 @@ import LargeLanguageModel from "../components/solutions/large-language-model/Lar
 import ConsumerSentimentAnalysis from "../components/solutions/ConsumerSentimentAnalysis/ConsumerSentimentAnalysis";
 import VirtualAssistantTool from "../components/solutions/VirtualAssistantTool/VirtualAssistantTool";
 import RecommendationSystems from "../components/solutions/RecommendationSystems/RecommendationSystems";
+import Retail from "../components/industries/Retail/Retail";
 
 const Navigation = () => {
   return (
@@ -26,8 +27,9 @@ const Navigation = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
+          {/* <Route path="/" element={<Retail />} /> */}
           <Route path="/" element={<RecommendationSystems/>} />
-          <Route path="/" element={<HomePage />} />
+          {/* <Route path="/" element={<HomePage />} /> */}
           
 
           <Route path="/" element={< HomePage/>} />
