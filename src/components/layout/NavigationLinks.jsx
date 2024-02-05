@@ -287,7 +287,7 @@ const NavigationLinks = [
       },
       {
         label: "Fintech",
-        
+        link: "/Industries/Fintech",
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },

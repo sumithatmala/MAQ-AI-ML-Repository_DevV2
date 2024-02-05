@@ -27,17 +27,14 @@ import RecommendationSystems from "../components/solutions/RecommendationSystems
 import Retail from "../components/industries/Retail/Retail";
 import Logistics from "../components/industries/Logistics/Logistics";
 import AISolutionsEcommerce from "../components/industries/AISolutionsEcommerce/AISolutionsEcommerce";
+import Fintech from "../components/industries/Fintech/Fintech";
 const Navigation = () => {
   return (
     <Router>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
-          {/* <Route path="/" element={<Retail />} /> */}
-          {/* <Route path="/" element={<RecommendationSystems/>} /> */}
           <Route path="/" element={<HomePage />} />
-          
-
           <Route path="/" element={< HomePage/>} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route
@@ -62,6 +59,7 @@ const Navigation = () => {
           <Route path="/Industries/E-commerce" element={<AISolutionsEcommerce />} />
           <Route path="/Industries/Retail" element={<Retail />} />
           <Route path="/Industries/RecommendationSystems" element={<RecommendationSystems/>} />
+          <Route path="/Industries/Fintech" element={<Fintech/>} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

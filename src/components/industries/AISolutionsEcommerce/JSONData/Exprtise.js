@@ -28,7 +28,7 @@ const OneCardData = [
   },
   {
     title: "Predictive Analytics for Customer Data Analysis",
-    image: <img src={pa_price_analysis} alt="pa_price_analysis" />,
+    image: <img src={pa_customer_data_analysis} alt="pa_price_analysis" />,
     description: [
       "Want to gain more profits from your e-store? Unlock the potential of predictive analytics in E-commerce. Analyze real-time customer behavior, past purchases, products liked and rated to make future product recommendations. Use AI solutions for E-commerce to make your customer buy more by pressuring them less.",
     ],
