@@ -48,7 +48,7 @@
     background: #e3b6bb;
 }
 .bi.bi-diagram .bi-link-canvas-layer .bi-diagram-link .bi-link-path {
-    stroke: rgba(185, 9, 27, 1);
+    stroke: #dc848d;
     stroke-dasharray: 10,2;
     animation: BiDashSegmentAnimation 1s linear infinite;
 }
