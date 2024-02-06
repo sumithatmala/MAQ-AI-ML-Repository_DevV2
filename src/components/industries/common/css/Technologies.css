@@ -1,0 +1,12 @@
+/* Technologies */
+.technologies {
+    display: flex;
+    text-align: center;
+    margin: 5rem 20px;
+    max-width: 70%;
+    align-items: center;
+    flex-direction: column;
+}
+.technologies img {
+    margin: 20px 30px;
+}
