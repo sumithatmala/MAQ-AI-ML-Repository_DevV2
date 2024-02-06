@@ -17,6 +17,7 @@ import TextAnalysis from "../components/solutions/textAnalysis/TextAnalysis";
 import ComputerVision from "../components/solutions/computerVision/ComputerVision";
 import ImageRecognition from "../components/solutions/imageRecognition/ImageRecognition";
 import DataCaptureOCR from "../components/solutions/data-capture-OCR/dataCaptureOCR";
+import Expertise from "../components/miscellaneous/Expertise/Expertise";
 
 //Saurabh
 import NaturalLanguageProcessing from "../components/solutions/natural-language-processing/naturalLanguageProcessing";
@@ -28,6 +29,8 @@ import Retail from "../components/industries/Retail/Retail";
 import Logistics from "../components/industries/Logistics/Logistics";
 import AISolutionsEcommerce from "../components/industries/AISolutionsEcommerce/AISolutionsEcommerce";
 import Fintech from "../components/industries/Fintech/Fintech";
+
+
 const Navigation = () => {
   return (
     <Router>
@@ -60,6 +63,7 @@ const Navigation = () => {
           <Route path="/Industries/Retail" element={<Retail />} />
           <Route path="/Industries/RecommendationSystems" element={<RecommendationSystems/>} />
           <Route path="/Industries/Fintech" element={<Fintech/>} />
+          <Route path="/Expertise" element={<Expertise/>} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
