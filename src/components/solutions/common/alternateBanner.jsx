@@ -8,7 +8,9 @@ const AlternateBanner = ({banners,ContactBtn}) => {
                 // console.log(item.points);
                 return (
                     <div className={'BannerVisual' + (count%2 ? 'Rgt' : 'Lft')}>
-                        <div className="ImgContainer"> {item.img} </div>
+                        <div className="ImgContainer"> 
+                            {item.img} 
+                        </div>
                         <div className="BannerDetails">
                             <h2>{item.heading}</h2>
                             <p>{item.details}</p>

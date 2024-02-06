@@ -1,4 +1,6 @@
-import AiImg from "../img/AI_power.svg"
+import nlp1 from "../img/nlp-1.svg"
+import nlp2 from "../img/nlp-2.svg"
+import nlp3 from "../img/nlp-3.svg"
 import icon1 from "../img/special-icon-1.svg"
 import icon2 from "../img/special-icon-2.svg"
 import icon3 from "../img/special-icon-3.svg"
@@ -15,20 +17,20 @@ export const Banners = [
         heading: "Tailored NLP models designed specifically for customer feedback analysis.", 
         details: "Customer feedback analysis software powered by custom models that surpass simple domain adaptation, ideal for companies with customers and prospects who use unique language styles.", 
         points: ["Sentiment analysis","Topic detection","Sentiment scored topic extraction","Semantic ontology development"],
-        img: <img src= {AiImg} alt= "Custom NLP"></img>,
+        img: <img src= {nlp1} alt= "Custom NLP" width={100}></img>,
     },
     {
         heading: "Power your product with NLP technology", 
         details: "Enhance your products' customer engagement and satisfaction rates through the capabilities of Natural Language Processing.", 
         points: ["Speech recognition","Information extraction (from topic classification to entity extraction)","Semantic search","Text categorization"],
-        img: <img src= {AiImg} alt= "NLP technology"></img>,
+        img: <img src= {nlp2} alt= "NLP technology" width={100}></img>,
 
     },
     {
         heading: "An NLP API tailored for social media analytics.",
         details: "A user-friendly Natural Language Processing API for analyzing text data from social media, providing detailed audience insights, including demographic information and more.", 
         points: ["Gender","Age","Location","Interests","Language", "etc."],
-        img: <img src= {AiImg} alt= "AI"></img>,
+        img: <img src= {nlp3} alt= "AI" width={100}></img>,
     },
 ]
 
