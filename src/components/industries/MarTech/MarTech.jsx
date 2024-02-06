@@ -21,7 +21,7 @@ const MarTech = () => {
         <h2>Our Strengths</h2>
         <div className='text-block-center'>Utilize our specialized knowledge to accelerate your digital evolution, minimize advertising expenditures, and elevate customer satisfaction through cutting-edge AI solutions.</div>
       </section>
-      <div className="Container-Logistics">
+      <div className="InfoVisual">
         <AlternateBanner banners={AlternateBannerData} count={0} ContactBtn={true}/>
       </div>
       <OneCardCoursal items={OneCardData}/>
