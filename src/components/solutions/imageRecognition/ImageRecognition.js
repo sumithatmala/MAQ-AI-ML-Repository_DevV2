@@ -7,6 +7,8 @@ import phoneImg from "./visuals/hand-holding-mobile.jpg"
 import Grid from "../common/grid"
 import Technologies from "../common/technologies"
 import CustomerSuccess from "../common/CustomerSuccess"
+import RoadMap from "../common/RoadMap"
+import {roadMapDataNew,roadMapDataExisting} from "./visuals/roadMapData"
 
 const ImageRecognition = () => {
     return(
@@ -42,10 +44,14 @@ const ImageRecognition = () => {
                     <p>Visual content is a trend in information provision. It makes image identification and recognition and analysis solutions an integral part of many business workflows. Developed for the client's business, they enable process automation and reduce labour costs.</p>
                     <p>Businesses get in touch with InData Labs having different initial queries. We never take a one-size-fits-all approach but foster close cooperation with each client over a best-fit custom solution. Together, we map out development phases based on the available datasets.</p>
                 </div>
-                <div className="Roadmap">
+                {/* <div className="Roadmap">
                     <h2>Describe the roadmap for the project development</h2>
-                </div>
+                </div> */}
             </section>
+            <div style={{width: "100%", margin: "5rem 20px"}}>
+                <RoadMap items={roadMapDataNew} title="New Project from scratch"/>
+                <RoadMap items={roadMapDataExisting} title="Existing App enhancement Project"/>
+            </div>
             <section className="irProcessContainer">
                 <div className="irProcess">
                         {process.map((item)=>{
@@ -63,21 +69,21 @@ const ImageRecognition = () => {
             <section className="UsageContainer">
                 <img src={phoneImg} alt="phone app preview" width={375}></img>
                 <div className="UsageText">
-                    <p>Implementation and integration of custom image recognition and picture analysis solutions empower machines to replicate human vision and the ability to identify objects in day-to-day reality. ML algorithms enable the recognition of objects and people on raw images with quite low error rates.</p>
-                    <p>At InData Labs, we train powerful ML algorithms to fuel custom image object recognition software that helps gather, recognize, analyze visual data and present accurate statistics.</p>
-                    <p>Custom image recognition software development by InData Labs can give your business the following perks:</p>
+                    <p>Custom image recognition and picture analysis solutions implementation and integration enable machines to replicate human vision, allowing them to identify objects and people in everyday reality. Machine learning algorithms contribute to recognizing objects and individuals in raw images with minimal error rates.</p>
+                    <p>MAQ Software specializes in training robust machine learning algorithms to power custom image object recognition software. This software aids in collecting, recognizing, analyzing visual data, and presenting accurate statistics.</p>
+                    <p>Developing custom image recognition software with InData Labs can provide your business with the following benefits:</p>
                     <ul>
-                        <li>Faster and safer visual data processing</li>
-                        <li>Optimized business processes</li>
                         <li>Enhanced performance</li>
-                        <li>Increased profitability</li>
                         <li>Reduced support costs</li>
+                        <li>Optimized business processes</li>
+                        <li>Faster and safer visual data processing</li>
+                        <li>Increased profitability</li>
                     </ul>
                 </div>
             </section>
             <div className="Industryheading">
                 <h3>Industries</h3>
-                <p>Our team of machine learning experts has earned global trust by delivering custom solutions for various industries. Specializing in on-demand computer vision and image recognition software development, we customize solutions to address industry-specific needs. Our clientele spans diverse sectors including logistics, retail, media & entertainment, healthcare, and more.</p>
+                <p>Our team of machine learning experts has gained global trust by delivering customized solutions for a wide range of industries. We specialize in on-demand computer vision and image recognition software development, tailoring solutions to meet industry-specific needs. Our clients come from diverse sectors, including logistics, retail, media & entertainment, healthcare, and more.</p>
             </div>
             <Grid content={industrialCards}/>
             <div className="btn-class"><Link to={"#"} className="btn btn-empty"> Request a Free Quote </Link></div>

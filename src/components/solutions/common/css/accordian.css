@@ -4,6 +4,7 @@
     max-width: 896px;
     flex-direction: column;
     margin-top: 3rem;
+    padding: 30px;
 }
 
 .AccordionTitle {

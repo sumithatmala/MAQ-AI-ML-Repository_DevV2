@@ -7,12 +7,12 @@ import AccordionData from "./JSONData/AccordianData"
 import customerSuccessData from "./JSONData/customerSuccessData"
 import roadMapData from "./JSONData/roadMapData"
 import benefitsData from "./JSONData/BenefitsData"
-import LogisticsBenefits from "./JSONData/LogisticsOCRData"
+import LogisticsBenefits from "./JSONData/LogisticsBenefits"
 
 //Components
 import Banner from "../common/Banner"
 import Services from '../common/GridOfCards'
-import AccordionStatic from "./accordionStatic"
+import AccordionStatic from "../common/accordionStatic"
 import ContactForm from "../common/contactForm"
 import CustomerSuccess from "../common/CustomerSuccess"
 import RoadMap from "../common/RoadMap"
@@ -35,7 +35,7 @@ const DataCaptureOCR = () => {
             <RoadMap items={roadMapData} title="How Our Data Capture and Extraction Services Work"/>
             <BackgroundBanner/>
             <BenefitCards cardsData = {benefitsData}/>
-            {/* <UsageBenefits item = {LogisticsBenefits} /> */}
+            {/* <UsageBenefits data = {LogisticsBenefits} /> */}
             <div style={{display: "flex", justifyContent: "center"}}>
                 <AccordionStatic title={"Other Industries"} desc = "As a data extraction company, we provide optical character recognition services and help companies across multiple industries optimize their business processes with the help of our automated data capture software." listItems = {AccordionData}/>
             </div>
