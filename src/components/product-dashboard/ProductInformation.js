@@ -102,7 +102,7 @@ const ProductInformation = () => {
           {/*target users */}
           {productDetails.targetUsers && productDetails.targetUsers.length > 0 && (
             <section class="target-section" style={{backgroundColor: "white"}}>
-              <GridOfCards items={{item: productDetails.targetUsers, title: "Target Users"}}/>
+              <GridOfCards items={{item: productDetails.targetUsers, NoCards:4, title: "Target Users"}}/>
             </section>
             //   <section class="target-section" style={{backgroundColor: "white"}}>
             //     <div class="target__inner">
