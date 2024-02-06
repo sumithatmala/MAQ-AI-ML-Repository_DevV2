@@ -21,13 +21,20 @@ import DataCaptureOCR from "../components/solutions/data-capture-OCR/dataCapture
 //Saurabh
 import NaturalLanguageProcessing from "../components/solutions/natural-language-processing/naturalLanguageProcessing";
 import LargeLanguageModel from "../components/solutions/large-language-model/LargeLanguageModel";
-
+import ConsumerSentimentAnalysis from "../components/solutions/ConsumerSentimentAnalysis/ConsumerSentimentAnalysis";
+import VirtualAssistantTool from "../components/solutions/VirtualAssistantTool/VirtualAssistantTool";
+import RecommendationSystems from "../components/solutions/RecommendationSystems/RecommendationSystems";
+import Retail from "../components/industries/Retail/Retail";
+import Logistics from "../components/industries/Logistics/Logistics";
+import AISolutionsEcommerce from "../components/industries/AISolutionsEcommerce/AISolutionsEcommerce";
+import Fintech from "../components/industries/Fintech/Fintech";
 const Navigation = () => {
   return (
     <Router>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
+          <Route path="/" element={<HomePage />} />
           <Route path="/" element={< HomePage/>} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route
@@ -46,6 +53,13 @@ const Navigation = () => {
           <Route path="/solution/LargeLanguageModel" element={<LargeLanguageModel/>}/>
           <Route path="/solution/DataCaptureOCR" element={<DataCaptureOCR/>}/>
           <Route path="/solution/PredictiveAnalytics" element={<PredictiveAnalytics/>}/>
+          <Route path="/solution/VirtualAssistantTool" element={<VirtualAssistantTool/> } />
+          <Route path="/solution/ConsumerSentimentAnalysis" element={<ConsumerSentimentAnalysis />} />
+          <Route path="/Industries/Logistics" element={<Logistics />} />
+          <Route path="/Industries/E-commerce" element={<AISolutionsEcommerce />} />
+          <Route path="/Industries/Retail" element={<Retail />} />
+          <Route path="/Industries/RecommendationSystems" element={<RecommendationSystems/>} />
+          <Route path="/Industries/Fintech" element={<Fintech/>} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

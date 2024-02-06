@@ -156,9 +156,6 @@ const NavigationLinks = [
             label: "EleutherAI GPT Models",
             link: "#",
           },
-          { label: "Document Classification With Virtual Assistant", link: "./product/DocumentClassificationWithVirtualAssistant" },
-          { label: "Smart Support Framework", link: "./product/SmartSupportFramework" },
-          { label: "TriviaBot", link: "./product/TriviaBot" },
         ],
         icon: "",
         alt: "",
@@ -171,6 +168,7 @@ const NavigationLinks = [
     submenu: [
       {
         label: "Virtual Assistant Tool", 
+        link: "/solution/VirtualAssistantTool",
         icon: "/icons/dataP.svg",
         alt: "data",
       },
@@ -188,7 +186,7 @@ const NavigationLinks = [
       },
       {
         label: "Consumer Sentiment Analysis",
-
+        link: "/solution/ConsumerSentimentAnalysis",
         icon: "/icons/dataV.svg",
         alt: "data",
       },
@@ -198,12 +196,12 @@ const NavigationLinks = [
         icon: "/icons/dataV.svg",
         alt: "data",
       },
-      {
-        label: "Al Call Center Solutions",
+      // {
+      //   label: "Al Call Center Solutions",
 
-        icon: "/icons/dataV.svg",
-        alt: "data",
-      },
+      //   icon: "/icons/dataV.svg",
+      //   alt: "data",
+      // },
       {
         label: "Predictive Analytics",
         link: "/solution/PredictiveAnalytics",
@@ -212,28 +210,28 @@ const NavigationLinks = [
       },
       {
         label: "Recommendation Systems",
-
+        link: "/Industries/RecommendationSystems",
         icon: "/icons/dataV.svg",
         alt: "data",
       },
-      { 
-        label: "Computer Vision", 
-        link: "./solution/ComputerVision",
-        icon: "/icons/dataV.svg",
-        alt: "data",
-      },
+      // { 
+      //   label: "Computer Vision", 
+      //   link: "./solution/ComputerVision",
+      //   icon: "/icons/dataV.svg",
+      //   alt: "data",
+      // },
       { 
         label: "Image Recognition", 
         link: "./solution/ImageRecognition",
         icon: "/icons/dataV.svg",
         alt: "data",
       },
-      {
-        label: "Pose Estimation",
+      // {
+      //   label: "Pose Estimation",
 
-        icon: "/icons/dataV.svg",
-        alt: "data",
-      },
+      //   icon: "/icons/dataV.svg",
+      //   alt: "data",
+      // },
       {
         label: "Data capture & OCR",
         link: "./solution/DataCaptureOCR",
@@ -259,7 +257,7 @@ const NavigationLinks = [
       },
       {
         label: "E-commerce",
-
+        link: "/Industries/E-commerce",
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },
@@ -277,7 +275,7 @@ const NavigationLinks = [
       },
       {
         label: "Logistics",
-
+        link: "/Industries/Logistics",
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },
@@ -289,13 +287,13 @@ const NavigationLinks = [
       },
       {
         label: "Fintech",
-
+        link: "/Industries/Fintech",
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },
       {
         label: "Retail",
-
+        link: "/Industries/Retail",
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },

@@ -1,0 +1,33 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #141414;
+    font-family: 'proxima-nova', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.25;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+.toolinformations {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #453c90;
+    height: 690px;
+    animation: h 1s 2s forwards;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 972px auto;
+    bottom: 0;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    background-image: url(../icons/sentiment-analysis-bg.svg);
+}

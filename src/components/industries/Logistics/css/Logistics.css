@@ -1,0 +1,16 @@
+.Container-Logistics {
+    align-items: center;
+    margin: 0rem 15rem;
+}
+.Container-Logistics, .HeaderVisual-Logistics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.Alternate-Logistics {
+    /* margin: 5rem 15rem; */
+}
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
