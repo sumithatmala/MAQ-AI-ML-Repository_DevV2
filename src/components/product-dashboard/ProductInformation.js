@@ -18,7 +18,7 @@ import AnimatedOutcome from './icons/AnimatedOutcome';
 import AnimatedSolution from './icons/AnimatedSolution';
 import AnimatedHighlights from './icons/AnimatedHighlights';
 import LoaderComp from '../views/LoaderComp';
-
+import GridOfCards from '../solutions/common/GridOfCards'
 
 const ProductInformation = () => {
   const [productDetails, setproductDetails] = useState(null);
@@ -79,7 +79,7 @@ const ProductInformation = () => {
           {productDetails.BusinessCase && productDetails.BusinessCase.length > 0 && (
             <Row id="prodinfo" className='product-overview'>
               <Col>
-                <div className='shadow-container' data-aos="fade-right">
+                <div className='shadow-container' data-aos="fade-right" style={{boxShadow: "none", paddingLeft: "40px",}}>
 
 
                   <h3>Business Case</h3>
@@ -101,24 +101,27 @@ const ProductInformation = () => {
           )}
           {/*target users */}
           {productDetails.targetUsers && productDetails.targetUsers.length > 0 && (
-              <section class="target-section" style={{backgroundColor: "white"}}>
-                <div class="target__inner">
-                  <h3 class="head-block-center" style={{ color: 'black' }}>Target Users</h3>
-                  <div class="target__list">
-                    {productDetails.targetUsers.map((user, index) => (
-                      <div key={index} class="target__list-item">
-                        <div class="target__item">
-                          <div class="target__item-icon"> 
-                  {user.icon}
-                  </div>
-                          <h3 class="target__item-title">{user.name}</h3>
-                          <div class="target__item-text">{user.caption}</div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
+            <section class="target-section" style={{backgroundColor: "white"}}>
+              <GridOfCards items={{item: productDetails.targetUsers, title: "Target Users"}}/>
             </section>
+            //   <section class="target-section" style={{backgroundColor: "white"}}>
+            //     <div class="target__inner">
+            //       <h3 class="head-block-center" style={{ color: 'black' }}>Target Users</h3>
+            //       <div class="target__list">
+            //         {productDetails.targetUsers.map((user, index) => (
+            //           <div key={index} class="target__list-item">
+            //             <div class="target__item">
+            //               <div class="target__item-icon"> 
+            //       {user.icon}
+            //       </div>
+            //               <h3 class="target__item-title">{user.name}</h3>
+            //               <div class="target__item-text">{user.caption}</div>
+            //           </div>
+            //         </div>
+            //       ))}
+            //     </div>
+            //   </div>
+            // </section>
           )}
           {/* {productDetails.targetUsers && productDetails.targetUsers.length > 0 && (
         <Row className='product-overview d-flex justify-content-center' data-aos="fade-left">
@@ -143,7 +146,7 @@ const ProductInformation = () => {
         {/*business outcomes */}
         {productDetails.businessOutcomes && productDetails.businessOutcomes.length > 0 && (
           <section class="target-section" style={{backgroundColor: "white"}}>
-                <Row className='fade-in product-overview d-flex justify-content-center ' style={{backgroundColor: "white"}}>
+                <Row className='slick-list3 draggable fade-in product-overview d-flex justify-content-center ' style={{backgroundColor: "white"}}>
                   <h3 class="head-block-center">Business Outcomes</h3>
                   <Slider {...settings}>
                     {productDetails.businessOutcomes.map((outcome, index) => (
@@ -330,7 +333,7 @@ const ProductInformation = () => {
         </Container>
       </section>
       <ProductDemo link={productDetails.demo.link}/>
-      <ProductTryIt items={productDetails.title}/>
+      <ProductTryIt items={productDetails.title} link={productDetails.tryit.link}/>
       <ProductContactUs/>
       {productDetails.FAQs && productDetails.FAQs.length > 0 && (
         <FAQs FAQs = {productDetails.FAQs}/>

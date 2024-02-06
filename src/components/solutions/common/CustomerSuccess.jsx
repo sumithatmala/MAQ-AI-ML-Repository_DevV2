@@ -14,10 +14,14 @@ const CustomerSuccess = (props) => {
   const slidesToShow = props.slidesToShow || defaultSlidesToShow;
 
   const settings = {
+    
     infinite: true,
     speed: 500,
     slidesToShow: slidesToShow,
+    // centerMode: true,
+    autoplay: true,
     slidesToScroll: 1,
+    slidesToShow: 3,
     dots: false,
     responsive: [
       {

@@ -16,7 +16,8 @@ import demoVideo2 from './demos/SmartSupportFramework.mp4'
 
 const iconSize = {
     height: "3rem",
-    width: "3rem"
+    width: "3rem",
+    color: "#dc848d"
 }
 
 export const SmartSupportFramework = {
@@ -27,24 +28,24 @@ export const SmartSupportFramework = {
     ],
     targetUsers: [
         {
-            name: "Ticket Requester",
-            caption: "Users who submit support tickets and seek timely and accurate assistance.",
-            icon: <MdGroups style={iconSize} />,
+            title: "Ticket Requester",
+            description: "Users who submit support tickets and seek timely and accurate assistance.",
+            iconSrc: <MdGroups style={iconSize} />,
         },
         {
-            name: "Support Representative",
-            caption: "Support Engineers who are responsible for managing and resolving support tickets.",
-            icon: <PsychologyIcon style={iconSize} />,
+            title: "Support Representative",
+            description: "Support Engineers who are responsible for managing and resolving support tickets.",
+            iconSrc: <PsychologyIcon style={iconSize} />,
         },
         {
-            name: "Support Manager",
-            caption: "Leads or supervisors overseeing support teams, ensuring efficient ticket resolution and customer satisfaction.",
-            icon: <CastForEducationIcon style={iconSize} />,
+            title: "Support Manager",
+            description: "Leads or supervisors overseeing support teams, ensuring efficient ticket resolution and customer satisfaction.",
+            iconSrc: <CastForEducationIcon style={iconSize} />,
         },
         {
-            name: "System Administrator",
-            caption: "Administrators responsible for configuring and maintaining the support ticket management system.",
-            icon: <GrUserAdmin style={iconSize} />,
+            title: "System Administrator",
+            description: "Administrators responsible for configuring and maintaining the support ticket management system.",
+            iconSrc: <GrUserAdmin style={iconSize} />,
         },
     ],
     businessOutcomes: [
@@ -121,6 +122,9 @@ export const SmartSupportFramework = {
     ],
     demo: {
         link: [ demoVideo, demoVideo2 ],
+    },
+    tryit: {
+        link: ""
     },
     // demo: {
     //     link: { demoVideo2 },
