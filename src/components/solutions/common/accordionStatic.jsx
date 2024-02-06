@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./css/accordian.css"
-import AccordianData from "./JSONData/AccordianData";
+import AccordianData from "../data-capture-OCR/JSONData/AccordianData";
 
 const Description = (props) => {
     return(
