@@ -7,12 +7,12 @@ import AccordionData from "./JSONData/AccordianData"
 import customerSuccessData from "./JSONData/customerSuccessData"
 import roadMapData from "./JSONData/roadMapData"
 import benefitsData from "./JSONData/BenefitsData"
-import LogisticsBenefits from "./JSONData/LogisticsOCRData"
+import LogisticsBenefits from "./JSONData/LogisticsBenefits"
 
 //Components
 import Banner from "../common/Banner"
 import Services from '../common/GridOfCards'
-import AccordionStatic from "./accordionStatic"
+import AccordionStatic from "../common/accordionStatic"
 import ContactForm from "../common/contactForm"
 import CustomerSuccess from "../common/CustomerSuccess"
 import RoadMap from "../common/RoadMap"

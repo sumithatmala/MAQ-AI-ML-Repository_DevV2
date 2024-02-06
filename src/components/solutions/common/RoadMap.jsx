@@ -8,7 +8,7 @@ const RoadMap = (props) => {
     return ( 
       <section>
         <h2 className="center__title">{props.title}</h2>
-        <div style={{ height: '30rem', display: "flex", justifyContent: "center" }}>
+        <div style={{width:'100%', height: '30rem', display: "flex", justifyContent: "center" }}>
           <Diagram schema={schema} onChange={onChange} />
         </div>
       </section>
