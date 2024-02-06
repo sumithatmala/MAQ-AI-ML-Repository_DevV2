@@ -16,7 +16,8 @@ import demoVideo from './demos/DocumentClassificationWithVirtualAssistant.mp4'
 
 const iconSize = {
     height: "3rem",
-    width: "3rem"
+    width: "3rem",
+    color: "#dc848d"
 }
 
 export const DocumentClassificationWithVirtualAssistant = {
@@ -27,24 +28,24 @@ export const DocumentClassificationWithVirtualAssistant = {
     ],
     targetUsers: [
         {
-            name: "Business Analysts",
-            caption: "Relies on accurate and timely data extraction from business documents to analyze trends, identify insights, and make informed business decisions.",
-            icon: <MdGroups style={iconSize} />,
+            title: "Business Analysts",
+            description: "Relies on accurate and timely data extraction from business documents to analyze trends, identify insights, and make informed business decisions.",
+            iconSrc: <MdGroups style={iconSize} />,
         },
         {
-            name: "Sales & Marketing teams",
-            caption: "Responsible to analyze marketing campaigns, track key metrics, monitor operational performance, and identify areas for improvement.",
-            icon: <PsychologyIcon style={iconSize} />,
+            title: "Sales & Marketing teams",
+            description: "Responsible to analyze marketing campaigns, track key metrics, monitor operational performance, and identify areas for improvement.",
+            iconSrc: <PsychologyIcon style={iconSize} />,
         },
         {
-            name: "Financial Advisors",
-            caption: "Help clients develop a comprehensive financial plan based on their goals, risk tolerance, and financial situation.",
-            icon: <CastForEducationIcon style={iconSize} />,
+            title: "Financial Advisors",
+            description: "Help clients develop a comprehensive financial plan based on their goals, risk tolerance, and financial situation.",
+            iconSrc: <CastForEducationIcon style={iconSize} />,
         },
         {
-            name: "Compliance Teams",
-            caption: "Ensures compliance with industry regulations and internal policies by extracting relevant information for audits and reporting.",
-            icon: <GrUserAdmin style={iconSize} />,
+            title: "Compliance Teams",
+            description: "Ensures compliance with industry regulations and internal policies by extracting relevant information for audits and reporting.",
+            iconSrc: <GrUserAdmin style={iconSize} />,
         },
     ],
     businessOutcomes: [
@@ -120,9 +121,9 @@ export const DocumentClassificationWithVirtualAssistant = {
     demo: {
         link: [ demoVideo ],
     },
-    // demo: {
-    //     link: { demoVideo2 },
-    // },
+    tryit: {
+        link: ""
+    },
     FAQs : [
         {
           question: "What is the purpose of implementing a chatbot for automated data extraction from business documents?",

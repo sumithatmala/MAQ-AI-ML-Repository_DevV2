@@ -32,7 +32,7 @@
 .btn-empty {
     display: inline-block;
     min-height: 50px;
-    padding: 14px 25px;
+    /* padding: 14px 25px; */
     border: 1px solid #77bce8;
     margin: 0 auto;
     color: #141414;
@@ -43,7 +43,7 @@
     justify-content: space-around;
     display: flex;
     flex-direction: column-reverse;
-    display: inline-block;
+    /* display: inline-block; */
     min-width: 120px;
     border: 1px solid #453c90 !important;
     margin: 0;

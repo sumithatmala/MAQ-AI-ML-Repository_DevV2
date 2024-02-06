@@ -1,5 +1,5 @@
 import headerImg from "./img/text-analysis.svg"
-import "./TextAnalysis.css"
+import "./css/TextAnalysis.css"
 import { Link } from "react-router-dom";
 import { learnMoreItems, Banners, SpecialCards } from "./JSON/LearnMoreList";
 import ContactForm from "../common/contactForm";
