@@ -9,63 +9,64 @@ import FAQs from "../../product-dashboard/FAQs";
 import FAQsDataAuto from "./FAQsDataAuto";
 import OneCardCoursal from "../common/OneCardCoursal";
 import OneCardDataAuto from "./OneCardDataAuto";
+import AccordionStatic from "../../solutions/common/accordionStatic";
+import AccordionDataAuto from "./AccordionDataAuto";
 
 const Automotive = () => {
-  return (
-    <>
-      <section className="automotivetool">
-        <div className="container">
-          <div className="grids">
-            <div className="top">
-              <div className="heading">
-                <span>
-                  Tailored Sentiment Analysis Solutions for Your Project
-                </span>
-              </div>
-              <div className="heading_inner">
-                <p>
-                  Leverage consumer interaction data at scale with our sentiment
-                  analysis services.
-                </p>
-              </div>
-              <div className="images">
-                <div className="imageone"></div>
-                <div className="imagetwo"></div>
-              </div>
+    return (
+        <>
+            <section className="automotivetool">
+                <div className="container">
+                    <div className="grids">
+                        <div className="top">
+                            <div className="heading">
+                                <span>Incorporating Artificial Intelligence in Automotive Manufacturing</span>
+                            </div>
+                            <div className="heading_inner">
+                                <p>
+                                    We assist manufacturers in integrating artificial intelligence into the automotive industry for intelligent and cost-effective vehicle production.
+                                </p>
+                            </div>
+
+                            <div className="images">
+                                <div className="imageone"></div>
+                                <div className="imagetwo"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="info-section">
+                <div class="info-section-inner"></div>
+            </section>
+
+            <OurExpertise />
+
+            <section className="onecard">
+                <OneCardCoursal items={OneCardDataAuto} />
+            </section>
+
+            <div style={{ display: "flex", justifyContent: "center" }}>
+                <AccordionStatic
+                    title={"Challenges Addressed in Manufacturing"}
+                    desc="Transform your manufacturing processes with the automated capabilities of artificial intelligence."
+                    listItems={AccordionDataAuto}
+                />
             </div>
-          </div>
-        </div>
-      </section>
 
-      <section class="info-section">
-        <div class="info-section-inner">
-          <h2 class="head-block-center">Our Expertise</h2>
-          <div class="text-block-center">
-            {" "}
-            We provide automotive AI services for car manufacturers that
-            leverage 3D computer vision to make data-driven decisions at each
-            manufacturing stage.
-          </div>
-        </div>
-      </section>
+            <section className="benefits">
+                <FlatGridLayout items={BenefitsData} title="Benefits for Your Business" />
+            </section>
+            <section className="griddd">
+                <Grid content={ServiceNum} />
+            </section>
 
-      <OurExpertise />
-    
-    <section className="onecard">
-      <OneCardCoursal items={OneCardDataAuto}/>
-      </section>
-      
-      <FlatGridLayout  items={BenefitsData} />
-    
-    <section className="griddd">
-      <Grid content={ServiceNum} />
-      </section>
+            <FAQs FAQs={FAQsDataAuto} />
 
-      <FAQs FAQs = {FAQsDataAuto} />
-
-      <ContactForm />
-    </>
-  );
+            <ContactForm />
+        </>
+    );
 };
 
 export default Automotive;

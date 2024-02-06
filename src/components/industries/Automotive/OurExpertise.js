@@ -1,5 +1,7 @@
 import React from 'react';
-import gif from  './icons/testOurExpertise.jpg'; 
+import geometry from './icons/Geometry.jpg';
+import dataAnalysis from './icons/dataAnalysis.jpg';
+import automatedDefect from './icons/AutomatedDefect.jpg';
 
 const FeatureItem = ({ title, description, gifSrc, alignRight }) => (
   <div className="section-text-image-inner" style={{ flexDirection: alignRight ? 'row-reverse' : 'row', maxWidth:"1200px" }}>
@@ -23,28 +25,28 @@ const FeatureItem = ({ title, description, gifSrc, alignRight }) => (
 const OurExpertise = () => {
   const featuresData = [
     {
-      title: 'Geometry Optimisation for Quick Design Studies',
+      title: 'Geometry Optimization for Rapid Design Studies',
       description: [
-        'Problem: Creating a high-performant geometry design is challenging and risk-prone. Simulations are widely used to aid manufacturers in building a robust design. Yet, they require much time and computational resources to solve complex load cases.',
-        'Solution: Amplify design of complex geometries with deep learning techniques. Geometry AI solutions for the automotive industry allow for a safe product design with real-time simulation while reducing costs and engineering effort.',
+        'Challenge: Creating a high-performing geometry design is difficult and risky. Simulations are commonly used to assist manufacturers in constructing a robust design. However, they require significant time and computational resources to solve complex load cases.',
+        'Solution: Enhance the design of complex geometries using deep learning techniques. Geometry AI solutions for the automotive industry enable safe product design with real-time simulation, reducing costs and engineering effort.',
       ],
-      gifSrc: gif,
+      gifSrc: geometry,
     },
     {
-      title: 'Data Analysis for Smart Design Engineering',
+      title: 'Data Analysis for Intelligent Design Engineering',
       description: [
-        'Problem: Automotive manufacturers perform complex simulations and numerous design iterations to stay competitive and compliant. These requirements generate a need to process huge information and get useful insights in an automated way.',
-        'Solution: Process the simulation results in an automated way with machine learning systems. An end-to-end data pipeline handles vast amounts of data and produces valuable insights like parameters affecting simulation results.',
+        'Challenge: Automotive manufacturers perform complex simulations and numerous design iterations to stay competitive and compliant. These requirements generate a need to process vast information and obtain useful insights in an automated way.',
+        'Solution: Process simulation results in an automated way with machine learning systems. An end-to-end data pipeline handles vast amounts of data and produces valuable insights like parameters affecting simulation results.',
       ],
-      gifSrc: gif,
+      gifSrc: dataAnalysis,
     },
     {
       title: 'Visual Inspection for Automated Defect Detection',
       description: [
-        'Problem: High-quality standards are essential to achieve the longevity and reliability of vehicles. However, manual inspection is error-prone and expensive, thus decreasing the accuracy of malfunction analysis.',
+        'Challenge: High-quality standards are essential to achieve the longevity and reliability of vehicles. However, manual inspection is error-prone and expensive, decreasing the accuracy of malfunction analysis.',
         'Solution: Non-destructive visual testing that relies on 3D Geometry-based vision systems, enabling reliable and automated quality inspection. This AI automotive solution improves efficiency at your production sites and ensures traceability with low human intervention.',
       ],
-      gifSrc: gif,
+      gifSrc: automatedDefect,
     },
   ];
 
@@ -53,12 +55,11 @@ const OurExpertise = () => {
       <div className="quick-block">
         <div className="head-block-center" style={{ marginBottom: '10px' }}>
           <h2 className="headblock">
-            AI-Powered Virtual Assistant: Key Features
+          Our Expertise
           </h2>
         </div>
         <div className="text-block-center" style={{ marginBottom: '10px' }}>
-          Revolutionize customer support and enhance productivity with your
-          virtual assistant solution.
+        We provide automotive AI services for car manufacturers that leverage 3D computer vision to make data-driven decisions at each manufacturing stage.
         </div>
       </div>
 
