@@ -263,7 +263,7 @@ const NavigationLinks = [
       },
       {
         label: "MarTech",
-
+        link: "/Industries/MarTech",
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },

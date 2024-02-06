@@ -10,15 +10,11 @@ import SideBar from "../components/ui-elements/SideBar/SideBar";
 import ProductInformation from "../components/product-dashboard/ProductInformation";
 import '../css/style.css'
 import ScrollToTop from './ScrollToTop';
-
-//Vsuhil
 import PredictiveAnalytics from "../components/solutions/PredictiveAnalytics/PredictiveAnalytics";
 import TextAnalysis from "../components/solutions/textAnalysis/TextAnalysis";
 import ComputerVision from "../components/solutions/computerVision/ComputerVision";
 import ImageRecognition from "../components/solutions/imageRecognition/ImageRecognition";
 import DataCaptureOCR from "../components/solutions/data-capture-OCR/dataCaptureOCR";
-
-//Saurabh
 import NaturalLanguageProcessing from "../components/solutions/natural-language-processing/naturalLanguageProcessing";
 import LargeLanguageModel from "../components/solutions/large-language-model/LargeLanguageModel";
 import ConsumerSentimentAnalysis from "../components/solutions/ConsumerSentimentAnalysis/ConsumerSentimentAnalysis";
@@ -28,6 +24,8 @@ import Retail from "../components/industries/Retail/Retail";
 import Logistics from "../components/industries/Logistics/Logistics";
 import AISolutionsEcommerce from "../components/industries/AISolutionsEcommerce/AISolutionsEcommerce";
 import Fintech from "../components/industries/Fintech/Fintech";
+import MarTech from "../components/industries/MarTech/MarTech";
+
 const Navigation = () => {
   return (
     <Router>
@@ -60,6 +58,7 @@ const Navigation = () => {
           <Route path="/Industries/Retail" element={<Retail />} />
           <Route path="/Industries/RecommendationSystems" element={<RecommendationSystems/>} />
           <Route path="/Industries/Fintech" element={<Fintech/>} />
+          <Route path="/Industries/MarTech" element={<MarTech/>} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
