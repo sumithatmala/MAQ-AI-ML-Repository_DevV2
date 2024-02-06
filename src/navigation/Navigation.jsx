@@ -10,17 +10,24 @@ import SideBar from "../components/ui-elements/SideBar/SideBar";
 import ProductInformation from "../components/product-dashboard/ProductInformation";
 import '../css/style.css'
 import ScrollToTop from './ScrollToTop';
+
+//Vsuhil
 import PredictiveAnalytics from "../components/solutions/PredictiveAnalytics/PredictiveAnalytics";
 import TextAnalysis from "../components/solutions/textAnalysis/TextAnalysis";
 import ComputerVision from "../components/solutions/computerVision/ComputerVision";
 import ImageRecognition from "../components/solutions/imageRecognition/ImageRecognition";
+import DataCaptureOCR from "../components/solutions/data-capture-OCR/dataCaptureOCR";
+
+//Saurabh
 import NaturalLanguageProcessing from "../components/solutions/natural-language-processing/naturalLanguageProcessing";
 import LargeLanguageModel from "../components/solutions/large-language-model/LargeLanguageModel";
 import ConsumerSentimentAnalysis from "../components/solutions/ConsumerSentimentAnalysis/ConsumerSentimentAnalysis";
 import VirtualAssistantTool from "../components/solutions/VirtualAssistantTool/VirtualAssistantTool";
 import RecommendationSystems from "../components/solutions/RecommendationSystems/RecommendationSystems";
 import Retail from "../components/industries/Retail/Retail";
-import Automotive from "../components/industries/Automotive/Automotive";
+import Logistics from "../components/industries/Logistics/Logistics";
+import AISolutionsEcommerce from "../components/industries/AISolutionsEcommerce/AISolutionsEcommerce";
+import Fintech from "../components/industries/Fintech/Fintech";import Automotive from "../components/industries/Automotive/Automotive";
 
 const Navigation = () => {
   return (
@@ -50,9 +57,15 @@ const Navigation = () => {
           <Route path="/solution/ImageRecognition" element={<ImageRecognition/>}/>
           <Route path="/solution/NaturalLanguageProcessing" element={<NaturalLanguageProcessing/>}/>
           <Route path="/solution/LargeLanguageModel" element={<LargeLanguageModel/>}/>
+          <Route path="/solution/DataCaptureOCR" element={<DataCaptureOCR/>}/>
           <Route path="/solution/PredictiveAnalytics" element={<PredictiveAnalytics/>}/>
           <Route path="/solution/VirtualAssistantTool" element={<VirtualAssistantTool/> } />
           <Route path="/solution/ConsumerSentimentAnalysis" element={<ConsumerSentimentAnalysis />} />
+          <Route path="/Industries/Logistics" element={<Logistics />} />
+          <Route path="/Industries/E-commerce" element={<AISolutionsEcommerce />} />
+          <Route path="/Industries/Retail" element={<Retail />} />
+          <Route path="/Industries/RecommendationSystems" element={<RecommendationSystems/>} />
+          <Route path="/Industries/Fintech" element={<Fintech/>} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

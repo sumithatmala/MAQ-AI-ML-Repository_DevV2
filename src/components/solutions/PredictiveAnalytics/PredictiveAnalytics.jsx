@@ -24,8 +24,8 @@ const PredictiveAnalytics = () => {
     <WhatWeOffer />
     <Insights />
     <FlatGridLayout items={IndustriesData}/>
-    <RoadMap items={PredictiveAnalyticsModelsProcessData}/>
-    <CustomerSuccess items={CutomerSuccessData}/>
+    <RoadMap items={PredictiveAnalyticsModelsProcessData} title="How We Build Predictive Analytics Models"/>
+    <CustomerSuccess items={CutomerSuccessData} heading="Customer Success"/>
     <FAQs FAQs = {FAQsData} />
     <ContactForm/>
     </>

@@ -31,7 +31,7 @@ const VirtualAssistantTool = () => {
         </div>
       </section>
 
-      <div className="video">
+      {/* <div className="video">
         <h2 className="aurora">
           Meet Aurora Borea, our chatbot for intelligent customer support
         </h2>
@@ -45,7 +45,7 @@ const VirtualAssistantTool = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         ></iframe>
-      </div>
+      </div> */}
 
 
 

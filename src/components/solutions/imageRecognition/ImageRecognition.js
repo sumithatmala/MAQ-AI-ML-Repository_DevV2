@@ -80,12 +80,12 @@ const ImageRecognition = () => {
                 <p>Our team of machine learning experts has earned global trust by delivering custom solutions for various industries. Specializing in on-demand computer vision and image recognition software development, we customize solutions to address industry-specific needs. Our clientele spans diverse sectors including logistics, retail, media & entertainment, healthcare, and more.</p>
             </div>
             <Grid content={industrialCards}/>
-            <div className="btn-class"><Link to={"#"} className="Industry-btn"> Request a Free Quote </Link></div>
+            <div className="btn-class"><Link to={"#"} className="btn btn-empty"> Request a Free Quote </Link></div>
             <h2>Benefits</h2>
             <Grid content={benefitCards}/>
             <Technologies tech={technologies}/>
         </div>
-        <CustomerSuccess items={customerSuccessData}/>
+        <CustomerSuccess items={customerSuccessData}  heading="Customer Success"/>
         <ContactForm contactMsg={"Are you looking to improve your current image recognition software or require a tailor-made solution developed from the ground up? The team at MAQ Software is ready to deliver exceptional computer vision services and customized solutions to meet your needs."}/>
         </>
     )

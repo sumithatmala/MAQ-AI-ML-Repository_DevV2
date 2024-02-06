@@ -82,7 +82,7 @@ const Retail = () => {
       <GridOfCards items={{ item: GridData, title: "Benefits of Artificial Intelligence in Retail Industry" }} />
 
       {/* <CustomerSuccess items={retailCustData} /> */}
-      <CustomerSuccess items={retailCustData} />
+      <CustomerSuccess items={retailCustData}  heading="Customer Success"/>
 
       <ContactForm />
     </>

@@ -40,9 +40,10 @@ const CustomerSuccess = (props) => {
   return (
     <section className="target-section" style={{ backgroundColor: "white" }}>
       <Row
-        className="slick-list draggable fade-in product-overview d-flex justify-content-center "
-        style={{ backgroundColor: "white" }}
+        className="slick-list1 draggable fade-in product-overview d-flex justify-content-center "
+        style={{ backgroundColor: "white", height: "auto" }}
       >
+        <h3 class="head-block-center">{props.heading}</h3>
         <Slider {...settings}>
           {items.map((outcome, index) => (
             <div className="separate-slider__item" key={index}>

@@ -31,7 +31,7 @@ const NaturalLanguageProcessing = () => {
                 <AlternateBanner banners={bannerData} count={0} ContactBtn={false}/>
                 <section className="LearnMoreSection">
                     <p>Lets have a talk on our NLP services</p>
-                    <Link to={"#"} className="TalkToUs" >Talk To Us</Link>
+                    <Link to={"#"} className="btn btn-empty" >Talk To Us</Link>
                 </section>
                 <section className="WorkProcess">
                     <h3>How We Work</h3>

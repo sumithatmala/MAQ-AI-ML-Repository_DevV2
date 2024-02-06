@@ -27,12 +27,12 @@
     backface-visibility: hidden;
     will-change: box-shadow,border;
     border: .07rem solid rgba(185, 9, 27, 1);
-    background-color: #e3b6bb;
-    color: rgba(185, 9, 27, 1);
+    background-color: #fff;
+    color: black;
+    font-weight: 500;
     /* border-radius: .25rem; */
     box-shadow: 0 .07rem .2rem 0 rgba(185, 9, 27,.3),0 .07rem .125rem 0 rgba(185, 9, 27,.5);
     padding: .5rem;
-    
     width: 120px;
     height: 70px;
     /* background: #e3b6bb; */
@@ -46,4 +46,14 @@
 .bi.bi-diagram .bi.bi-diagram-node.bi-diagram-node-default:hover {
     border-radius: 35px;
     background: #e3b6bb;
+}
+.bi.bi-diagram .bi-link-canvas-layer .bi-diagram-link .bi-link-path {
+    stroke: #dc848d;
+    stroke-dasharray: 10,2;
+    animation: BiDashSegmentAnimation 1s linear infinite;
+}
+.bi.bi-diagram .bi-link-canvas-layer .bi-diagram-link:hover .bi-link-path {
+    stroke: rgba(185, 9, 27, 0.5);
+    stroke-dasharray: 10,2;
+    animation: BiDashSegmentAnimation 1s linear infinite;
 }

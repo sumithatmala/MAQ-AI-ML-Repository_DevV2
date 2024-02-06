@@ -157,7 +157,7 @@
   }
   
   .desktop-nav .dropdown {
-    animation: 0.5s slidein;
+    /* animation: 0.5s slidein; */
     position: absolute;
     right: auto;
     left: 2px;
