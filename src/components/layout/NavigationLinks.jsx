@@ -107,7 +107,7 @@
 
 const NavigationLinks = [
   { label: "Home", link: "./" },
-  { label: "Expertise", link: "#" },
+  { label: "Expertise", link: "./Expertise" },
   {
     label: "Products",
     submenu: [
@@ -269,7 +269,7 @@ const NavigationLinks = [
       },
       {
         label: "Automotive",
-
+        link: "/Industries/Automotive",
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },
@@ -281,7 +281,7 @@ const NavigationLinks = [
       },
       {
         label: "Game & Entertainment",
-
+        link: "/Industries/GameEntertainment",
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },

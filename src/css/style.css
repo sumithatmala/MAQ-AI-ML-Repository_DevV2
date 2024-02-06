@@ -457,7 +457,7 @@ nav a {
 
 .btn {
   padding: 1.3rem;
-  display: inline-block;
+  /* display: inline-block; */
   border: 2px solid var(--main-color);
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;

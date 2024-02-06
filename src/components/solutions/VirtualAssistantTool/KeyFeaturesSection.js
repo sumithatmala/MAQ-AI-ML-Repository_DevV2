@@ -74,7 +74,7 @@ const KeyFeaturesSection = () => {
 
   return (
     <div>
-      <div className="quick-block" style={{ marginTop: '30px' }}>
+      <div className="quick-block">
         <div className="head-block-center" style={{ marginBottom: '10px' }}>
           <h2 className="headblock">
             AI-Powered Virtual Assistant: Key Features

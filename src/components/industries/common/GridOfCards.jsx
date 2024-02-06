@@ -19,7 +19,7 @@ const GridOfCards = (props) => {
   return (
     <section className="main-cases">
       {items.title && <h2 className="head-block-center">{items.title}</h2>}
-      {items.caption && <p style={{margin: "0% 17%"}}>{items.caption}</p>}
+      {items.caption && <div className='text-block-center'>{items.caption}</div>}
       <div className="predict-use-cases __type-predict">
         <div className="predict-use-cases__outer">
           <div className="predict-use-cases__inner">

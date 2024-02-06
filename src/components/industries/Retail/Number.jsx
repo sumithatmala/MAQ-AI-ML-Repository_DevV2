@@ -6,8 +6,9 @@ import four from '../../solutions/ConsumerSentimentAnalysis/icons/icon-4.svg';
 
 
 export const Number = [
-    {label: "Improved Accuracy", disc:"Automate different manual operations, reduce errors, and improve your business efficiency with ML algorithms powering image recognition solutions.", img: <img src={one} alt="" width={100}></img>},
-    {label: "Lower Operational Cost", disc:"Eliminate simple errors and cost overrun by adopting a cost-efficient custom solution to help with workflow automation and acceleration.", img: <img src={two} alt="" width={100}></img>},
-    {label: "Revamped Services", disc:"Cut time spent on routine tasks, improve service provision and redistribute your intellectual resources to focus on tasks requiring a human touch.", img: <img src={three} alt="" width={100}></img>},
-    {label: "Automated Flow", disc:"Enhance employee productivity and achieve cost savings by seamlessly integrating custom recognition and analysis algorithms into your business operations.", img: <img src={four} alt="" width={100}></img>},
-]
+    { label: "Consulting", disc: "Artificial intelligence is revolutionizing retailing. Interested in adopting it but unsure how? Our team of data scientists and software engineers is ready to discuss your ideas and assist in turning them into reality.", img: <img src={one} alt="" width={100}></img> },
+    { label: "AI Solution Development", disc: "Looking for a robust AI solution for the E-commerce or retail industry? Our engineers harness the power of artificial intelligence to propel your business to new heights.", img: <img src={two} alt="" width={100}></img> },
+    { label: "Predictive Analytics in Retail", disc: "Utilize data analysis and visualization for swift decision-making and comprehensive retail growth.", img: <img src={three} alt="" width={100}></img> },
+    { label: "Testing and QA", disc: "We prioritize premium service quality. Before product launch, we ensure it is reliable and free of errors.", img: <img src={four} alt="" width={100}></img> },
+  ];
+  

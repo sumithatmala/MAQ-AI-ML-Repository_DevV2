@@ -1,42 +1,37 @@
-
+import retailimg from './icons/AI-in-Retail-945x630.jpeg';
+import ecommerce from './icons/ecommerce.jpg';
+import invoice from './icons/invoice.jpg';
 
 const retailCustData = [
-    {
-        title: "Automated Feedback Processing",
-        // image: <img src={AutomatedFeedback} style={{height:"230px"}} />,
-        description: [
-          "Our team developed a cost-efficient analytics tool for evaluating feedback for an international game publisher.",
-          "Designed a tailored, NLP-driven solution to cut down on analysis costs and time, ensuring unbiased decision-making.",
-        ],
-        link: "https://indatalabs.com/resources/customer-feedback-analysis-software",
-      },
-      {
-        title: "Emotion Analysis Intelligence",
-        // image: <img src={EmotionalAnalysis} alt="Emotion Analysis Intelligence" style={{height:"230px"}}/>,
-        description: [
-          "Provided to a major US e-commerce platform aiming to enhance customer experience through automated sentiment analytics.",
-          "Deployed an ML-powered emotion analysis tool to identify the emotional tone in customer reviews.",
-        ],
-        link: "https://indatalabs.com/resources/customer-review-analytics-solution",
-      },
-      {
-        title: "Intelligent Cooking Assistant",
-        // image: <img src={CookingAssistant} alt="Intelligent Cooking Assistant" style={{height:"230px"}} />,
-        description: [
-          "Offered project recovery services to enhance the existing product and fix speech recognition functionality.",
-          "Addressed all client concerns and delivered an upgraded version of an AI cooking software with hands-free control and intelligent add-ons.",
-        ],
-        link: "https://indatalabs.com/resources/ai-cooking-assistant",
-      },
-      {
-        title: "Intelligent Service Solution",
-        // image: <img src={ServiceSoltion} alt="Intelligent Service Solution" style={{height:"230px"}}/>,
-        description: [
-          "A US FMCG company required an intelligent solution to extract actionable insights from emails and audio using NLP.",
-          "Implemented a robust data analysis pipeline for sentiment analysis, becoming a central tool for our client's customer strategy.",
-        ],
-        link: "https://indatalabs.com/resources/customer-analytics-ai-nlp",
-      },
-    ]
+  {
+    title: "Enhancing Retail Platform with Business Intelligence Solution",
+    image: <img src={retailimg} class="attachment-full size-full" alt="AI business intelligence solution" style={{height:"230px"}} />,
+    description: [
+      "Efficient decision-making and 91% sentiment accuracy achieved.",
+      "Our client, a global tech vendor in international trade, sought our expertise to integrate BI into their platform for precise sentiment analysis.",
+      "We provided an innovative solution that collects, analyzes, and stores customer reviews in the database.",
+    ],
+    link: "https://indatalabs.com/resources/nlp-for-trading-retail-platform",
+  },
+  {
+    title: "Developing Predictive Analytics Module for E-Commerce Platform",
+    image: <img src={ecommerce} class="attachment-full size-full" alt="Building Predictive Analytics Module" style={{height:"230px"}}/>,
+    description: [
+      "Streamlined processes and elevated customer experience.",
+      "Our client, operating in E-commerce, approached us for the development of a robust recommender system.",
+      "Our tech team implemented an ML-based solution to generate relevant recommendations. The result was an enhanced customer loyalty and improved brand perception for the client.",
+    ],
+    link: "https://indatalabs.com/resources/predictive-analytics-ecommerce",
+  },
+  {
+    title: "Revolutionizing Retail with Automated Invoice Processing Software",
+    image: <img src={invoice} class="attachment-full size-full" alt="ai software" style={{height:"230px"}} />,
+    description: [
+      "Achieved a 43% increase in performance.",
+      "Our client, a major retail company, sought to automate their invoice processing system.",
+      "We utilized ML for data capture and extraction, resulting in a 43% performance boost and a significant reduction in workload for the accounting department.",
+    ],
+  },
+];
 
 export default retailCustData;

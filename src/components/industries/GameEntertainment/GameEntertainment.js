@@ -1,0 +1,64 @@
+import featuresData from "./LeftRightData";
+import LeftRight from "../common/LeftRightSection";
+import "./css/GameEntertainment.css";
+import ContactForm from "../../solutions/common/contactForm";
+import CustomerSuccess from "../../solutions/common/CustomerSuccess";
+import CustData from "./CustData";
+import OneCardCoursal from "../common/OneCardCoursal";
+import OneCardDataGame from "./OneCardDataGame";
+import GameDev from "./GameDev";
+import WhyChooseSection from "./WhyChosen";
+
+const GameEntertainment = () => {
+  return (
+    <>
+      <section className="automotivetool">
+        <div className="container">
+          <div className="grids">
+            <div className="top">
+              <div className="heading">
+                <span>
+                  Incorporating Artificial Intelligence in Automotive
+                  Manufacturing
+                </span>
+              </div>
+              <div className="heading_inner">
+                <p>
+                  We assist manufacturers in integrating artificial intelligence
+                  into the automotive industry for intelligent and
+                  cost-effective vehicle production.
+                </p>
+              </div>
+
+              <div className="images">
+                <div className="imageone"></div>
+                <div className="imagetwo"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="keyExpertise" style={{ marginTop: "60px" }}>
+        <LeftRight
+          items={featuresData}
+          title={"Key Expertise"}
+          subtitle={
+            "We share our expertise for you to make it to the top charts."
+          }
+        />
+      </div>
+
+      <OneCardCoursal items={OneCardDataGame} />
+
+      <WhyChooseSection />
+
+      <GameDev />
+
+      <CustomerSuccess items={CustData} heading="Customer Success" />
+      <ContactForm />
+    </>
+  );
+};
+
+export default GameEntertainment;

@@ -42,11 +42,11 @@ const OneCardCoursal = (props) => {
         <Slider {...settings}>
           {props.items.map((outcome, index) => (
             <>
-              <div class="separate-slider__item" key={index}>
+              <div class="separate-slider__item" key={index} style={{boxShadow: "none",}}>
                 {outcome.image?(<div class="separate-slider__img-figure">
                   {outcome.image}
                 </div>):(<></>)}
-                <div class="separate-slider__content">
+                <div class="separate-slider__content" style={{boxShadow: "none",}}>
                   <h3 class="separate-slider__title">
                     {outcome.title}
                   </h3>

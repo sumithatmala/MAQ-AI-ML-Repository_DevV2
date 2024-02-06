@@ -33,7 +33,7 @@ form .input-box {
     border: 2px solid #73819c;
     outline: none;
     border-radius: 6px;
-     margin-bottom: 10px; 
+    margin-bottom: 10px; 
 }
 .field.error .item {
     border-color: #d93e25;
