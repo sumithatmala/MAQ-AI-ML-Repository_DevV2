@@ -60,7 +60,7 @@ const RecommendationSystems = () => {
 
         <section className="recommend">
 
-      <CustomerSuccess items={BiSlider} slidesToShow = {2}/>
+      <CustomerSuccess items={BiSlider} slidesToShow = {2}  heading="Customer Success"/>
       </section>
 
       <ContactForm />
