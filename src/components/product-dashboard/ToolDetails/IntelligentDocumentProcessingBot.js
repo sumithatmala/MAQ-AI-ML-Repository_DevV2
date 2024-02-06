@@ -15,7 +15,8 @@ import demoVideo from './demos/IntelligentDocumentProcessingBot.mp4'
 
 const iconSize = {
   height: "3rem",
-  width: "3rem"
+  width: "3rem",
+  color: "#dc848d"
 }
 
 export const IntelligentDocumentProcessingBot = {
@@ -26,24 +27,24 @@ export const IntelligentDocumentProcessingBot = {
   ],
   targetUsers: [
     {
-      name: "Healthcare Providers",
-      caption: "Doctors, nurses and other healthcare professionals who handle patient data on daily basis for various treatments and procedures.",
-      icon: <MdGroups style={iconSize} />,
+      title: "Healthcare Providers",
+      description: "Doctors, nurses and other healthcare professionals who handle patient data on daily basis for various treatments and procedures.",
+      iconSrc: <MdGroups style={iconSize} />,
     },
     {
-      name: "Healthcare Admins",
-      caption: "Responsible for managing and organizing patient records to maintain a structured and easily accessible database, with high rate of accuracy data integrity.",
+      title: "Healthcare Admins",
+      description: "Responsible for managing and organizing patient records to maintain a structured and easily accessible database, with high rate of accuracy data integrity.",
       icon: <PsychologyIcon style={iconSize} />,
     },
     {
-      name: "Medical Researchers",
-      caption: "Researchers working in healthcare, who refers to numerous research papers, clinical trial documents, and medical journals for their studies and contribute to medical advancements.",
-      icon: <CastForEducationIcon style={iconSize} />,
+      title: "Medical Researchers",
+      description: "Researchers working in healthcare, who refers to numerous research papers, clinical trial documents, and medical journals for their studies and contribute to medical advancements.",
+      iconSrc: <CastForEducationIcon style={iconSize} />,
     },
     {
-      name: "Health Insurance Providers",
-      caption: "Insurance companies dealing with healthcare claims often require accurate and up-to-date patient information, to process the claims by verifying medical bills & insurance forms.",
-      icon: <GrUserAdmin style={iconSize} />,
+      title: "Health Insurance Providers",
+      description: "Insurance companies dealing with healthcare claims often require accurate and up-to-date patient information, to process the claims by verifying medical bills & insurance forms.",
+      iconSrc: <GrUserAdmin style={iconSize} />,
     },
   ],
   businessOutcomes: [
@@ -131,6 +132,9 @@ export const IntelligentDocumentProcessingBot = {
   
   demo: {
     link: { demoVideo },
+  },
+  tryit: {
+      link: ""
   },
   // gallery: [
   //             {

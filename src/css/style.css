@@ -1693,7 +1693,3 @@ button.bg-dark:focus {
   transition: opacity 1s ease; /* Add transition property */
 }
 
-.bulletStyle li::marker{
-  color:#453c90;
-  font-size: 150%;
-}

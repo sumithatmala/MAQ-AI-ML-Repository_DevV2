@@ -15,7 +15,8 @@ import demoVideo from './demos/FeedbackSummarizerBot.mp4'
 
 const iconSize = {
     height: "3rem", 
-    width: "3rem"
+    width: "3rem",
+    color: "#dc848d"
 }
 
 export const FeedbackSummarizerBot = {
@@ -26,24 +27,24 @@ export const FeedbackSummarizerBot = {
     ],
     targetUsers: [
       {
-        name: " Product Managers",
-        caption: "Plays a key role in extracting actionable insights from customer feedback. Generates valuable reports by performing in-depth analysis",
-        icon: <MdGroups style={iconSize}/>,
+        title: " Product Managers",
+        description: "Plays a key role in extracting actionable insights from customer feedback. Generates valuable reports by performing in-depth analysis",
+        iconSrc: <MdGroups style={iconSize}/>,
       },
       {
-        name: "Data Analysts",
-        caption: "Need to gather insights, track progress and look for improvements",
-        icon: <PsychologyIcon style={iconSize}/>,
+        title: "Data Analysts",
+        description: "Need to gather insights, track progress and look for improvements",
+        iconSrc: <PsychologyIcon style={iconSize}/>,
       },
       {
-        name: "Customer Support Representatives",
-        caption: "Frontline team who directly interacts with the customers. accelerates the business by understanding the customer sentiments",
-        icon: <CastForEducationIcon style={iconSize}/>,
+        title: "Customer Support Representatives",
+        description: "Frontline team who directly interacts with the customers. accelerates the business by understanding the customer sentiments",
+        iconSrc: <CastForEducationIcon style={iconSize}/>,
       },
       {
-        name: "Product Development Teams",
-        caption: "Understanding customer needs, pain points, and suggestions to develop new features or products that align with customer expectations",
-        icon: <GrUserAdmin style={iconSize} />,
+        title: "Product Development Teams",
+        description: "Understanding customer needs, pain points, and suggestions to develop new features or products that align with customer expectations",
+        iconSrc: <GrUserAdmin style={iconSize} />,
       },
     ],
     businessOutcomes: [
@@ -85,6 +86,9 @@ export const FeedbackSummarizerBot = {
     ],
     demo: {
       link: {demoVideo},
+    },
+    tryit: {
+        link: ""
     },
     FAQs: [
       {
