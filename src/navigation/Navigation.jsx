@@ -36,9 +36,9 @@ const Navigation = () => {
       <Routes>
         <Route path="/" element={<Container />}>
           <Route path="/" element={<Automotive />} />
-          <Route path="/" element={<Retail />} />
-          <Route path="/" element={<RecommendationSystems/>} />
-          {/* <Route path="/" element={<HomePage />} /> */}
+          {/* <Route path="/" element={<Retail />} /> */}
+          {/* <Route path="/" element={<RecommendationSystems/>} /> */}
+          <Route path="/" element={<HomePage />} />
           
 
           <Route path="/" element={< HomePage/>} />
