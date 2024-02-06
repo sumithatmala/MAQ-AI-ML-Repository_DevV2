@@ -1,0 +1,120 @@
+.blue-tile-section {
+    margin: 100px auto;
+}
+.blue-tile-section {
+    margin-top: 120px;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+.big-cont .blue-tile-section__inner {
+    max-width: 1120px;
+}
+@media (max-width: 1023px){
+.blue-tile-section__inner {
+    padding: 0 20px;
+}}
+
+.blue-tile-section__inner {
+    max-width: 780px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.blue-tile-section-list {
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 0;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+ol, ul {
+    box-sizing: border-box;
+}
+
+.blue-tile-section-list__item.item38 {
+    max-width: 380px;
+}
+
+@media (max-width: 741px){
+.blue-tile-section-list__item {
+    width: 100%;
+    max-width: 500px;
+}}
+.blue-tile-section-list__item {
+    display: block;
+    width: 50%;
+    min-width: 0;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 10px 12px;
+}
+
+.blue-tile-section.icon-left .blue-tile-section-list__inner {
+    padding: 13px;
+    text-align: left;
+}
+
+.blue-tile-section-list__inner {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    min-width: 0;
+    height: 100%;
+    min-height: 110px;
+    padding: 13px 0;
+    border: 0;
+    border-radius: 7px;
+    box-shadow: 0 1px 10px rgba(81,169,225,.2), 0 4px 5px rgba(81,169,225,.12), 0 2px 4px rgba(81,169,225,.14);
+    text-align: center;
+}
+
+.blue-tile-section.icon-up .blue-tile-section-list__icon {
+    top: 10px;
+    transform: translateY(0);
+}
+.blue-tile-section.icon-left .blue-tile-section-list__icon {
+    position: relative;
+    width: 72px;
+    height: 72px;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+.blue-tile-section-list__icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.blue-tile-section.icon-left .blue-tile-section-list__icon img {
+    width: 100%;
+}
+
+img {
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
+.blue-tile-section.icon-left .blue-tile-section-list__content {
+    padding: 0 0 0 20px;
+}
+.blue-tile-section-list__content {
+    width: 85%;
+    padding: 0 20px;
+}
+.blue-tile-section-list__title {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.blue-tile-section-list__text {
+    line-height: 27px;
+}

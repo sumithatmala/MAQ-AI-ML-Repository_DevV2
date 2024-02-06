@@ -1,11 +1,11 @@
-import anamoly from './icons/anomaly-detection-crash-simulation.jpg';
-import pointernet from './icons/pointerNet.jpg';
-import selfSupervised from './icons/self-supervised-classification.jpg';
-import rlAgent from './icons/rlAgent.jpg';
-import simulation from './icons/intelligent-finite-element.jpg';
+import anamoly from '../Automotive//icons/anomaly-detection-crash-simulation.jpg';
+import pointernet from '../Automotive//icons/pointerNet.jpg';
+import selfSupervised from '../Automotive//icons/self-supervised-classification.jpg';
+import rlAgent from '../Automotive//icons/rlAgent.jpg';
+import simulation from '../Automotive//icons/intelligent-finite-element.jpg';
 
 
-const OneCardDataAuto = [
+const OneCardDataGame = [
   {
     title: 'Anomaly Detection in Collision Simulation',
     image: <img src={anamoly} alt="pa_customer_churn_prediction" />,
@@ -44,4 +44,4 @@ const OneCardDataAuto = [
   },
 ];
 
-export default OneCardDataAuto;
+export default OneCardDataGame;
