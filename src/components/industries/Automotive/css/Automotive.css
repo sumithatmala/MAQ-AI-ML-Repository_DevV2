@@ -29,7 +29,7 @@ body {
     left: 0;
     right: 0;
     top: 0;
-    background-image: url(../icons/industries-icon-retail.svg);
+    background-image: url('../icons/industries-icon-automotive.svg');
 }
 
 @media (min-width: 1280px){

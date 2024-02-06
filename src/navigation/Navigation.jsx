@@ -20,6 +20,7 @@ import ConsumerSentimentAnalysis from "../components/solutions/ConsumerSentiment
 import VirtualAssistantTool from "../components/solutions/VirtualAssistantTool/VirtualAssistantTool";
 import RecommendationSystems from "../components/solutions/RecommendationSystems/RecommendationSystems";
 import Retail from "../components/industries/Retail/Retail";
+import Automotive from "../components/industries/Automotive/Automotive";
 
 const Navigation = () => {
   return (
@@ -27,7 +28,8 @@ const Navigation = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
-          {/* <Route path="/" element={<Retail />} /> */}
+          <Route path="/" element={<Automotive />} />
+          <Route path="/" element={<Retail />} />
           <Route path="/" element={<RecommendationSystems/>} />
           {/* <Route path="/" element={<HomePage />} /> */}
           
