@@ -7,40 +7,40 @@ import sentiment from "../img/sentiment.jpg";
 
 const bannerData = [
     {
-        heading: "ChatGPT Implementation", 
-        details: "Emerge new business capabilities with custom ChatGPT-based solutions that use masses of data and machine learning algorithms to serve your business needs. Implementing ChatGPT, you can automate data management, improve customer service, reduce costs and save time. Enable fast and accurate data search, extraction and analysis with ChatGPT. Allow for more automated and efficient business processes and future-proof your business with the latest technology. Get more done in less time with ChatGPT.",
-        points:"",
-        img: <img src= {GPTImg} alt= "ChatGPT"></img>,
-    },
-    {
-        heading: "Customer Feedback Analysis",
-        details: "Overwhelmed with masses of data? Can't translate it into meaningful insights about your business' strengths and weaknesses? Make use of bespoke NLP models for customer feedback analysis. By integrating them into your app or infrastructure, you enable automated data collection and analysis of unstructured data. Detect and extract topics, analyze sentiments, and then alter your business plan. Use the uncovered insights to make sure your products or services line with the customer's expectations and solves their business problems." ,
-        points:"",
-        img: <img src= {customer} alt= "cutomer"></img>,
-    },
-    {
         heading: "Sentiment Analysis", 
-        details: "Tried different marketing strategies but not getting the profit you want? Switch to a data-based strategy for more brand insights. Custom sentiment analysis software allows you to mine socials, review platforms, and other important sources. Automatically interpreting hidden meanings behind tons of texts you'll easily detect your audience's moods and benefit from it. Use sentiment analysis to glean insights about your brand health and ongoing marketing campaigns for a stronger brand.",
+        details: "If you've tried various marketing strategies but haven't achieved the desired profit, consider transitioning to a data-driven strategy for deeper brand insights. Custom sentiment analysis software enables you to extract valuable information from social media, review platforms, and other critical sources. By automatically deciphering the underlying sentiments within large volumes of text, you can easily discern your audience's moods and capitalize on them. Leverage sentiment analysis to gain insights into your brand's health and ongoing marketing campaigns, ultimately strengthening your brand.",
         points:"",
         img: <img src= {sentiment} alt= "Sentiment Analysis"></img>,
     },
     {
         heading: "Data Collection and Analysis, Categorization and Clasterization", 
-        details: "With us data collection and analysis custom solutions, you save the trouble of collecting and extracting value from data manually. If you still process and label customer reviews manually, it's time you automated it. Smart data analysis, automated review categorization, customer base clustering, saved time, and error elimination - are the benefits you'll get. Soothe the burden of working with customer reviews and save time for more intelligent tasks.",
+        details: "With our custom data collection and analysis solutions, you can avoid the hassle of manually collecting and extracting value from data. If you're still processing and labeling customer reviews manually, it's time to automate. Enjoy the benefits of smart data analysis, automated review categorization, customer base clustering, time savings, and error reduction. Ease the burden of managing customer reviews and free up time for more strategic tasks.",
         points:"",
         img: <img src= {dataCollection} alt= "Data Collection"></img>,
     },
     {
-        heading: "Context-Aware Search, Summarization", 
-        details: "Whether it's a web or a mobile app, make content search easy and relevant for your customers with language processing as a service. We build custom intelligent content search and filtering solutions that will allow your clients to get only up-to-date and theme-related content. Create customer loyalty by offering them user-friendly solutions and saving their time.",
+        heading: "ChatGPT Implementation", 
+        details: "Unlock new business capabilities with custom ChatGPT-based solutions that harness vast amounts of data and machine learning algorithms to meet your business requirements. By implementing ChatGPT, you can automate data management, enhance customer service, reduce costs, and save time. Enable swift and precise data search, extraction, and analysis with ChatGPT. Embrace more automated and efficient business processes and future-proof your business with cutting-edge technology. Accomplish more in less time with ChatGPT.",
         points:"",
-        img: <img src= {context} alt= "Context Awareness"></img>,
+        img: <img src= {GPTImg} alt= "ChatGPT"></img>,
+    },
+    {
+        heading: "Customer Feedback Analysis",
+        details: "Struggling to manage vast amounts of data? Unable to derive meaningful insights about your business' strengths and weaknesses? Leverage custom NLP models for customer feedback analysis. By integrating these models into your app or infrastructure, you enable automated collection and analysis of unstructured data. Detect and extract topics, analyze sentiments, and adjust your business strategy accordingly. Utilize the insights to ensure your products or services align with customer expectations and address their business challenges." ,
+        points:"",
+        img: <img src= {customer} alt= "cutomer"></img>,
     },
     {
         heading: "Audience Analysis", 
-        details: "Looking for ways to get to know your audience better and see eye to eye with them? Use NLP-based audience analysis solutions to earn who your target audience is - their age, gender, location, nationality, language, and interests. Monitor your social media brand awareness and reputation. Work on your brand's weaknesses to get it on top of your industry.",
+        details: "Seeking ways to better understand your audience and align with their preferences? Utilize NLP-based audience analysis solutions to learn about your target audience - their age, gender, location, nationality, language, and interests. Monitor your social media brand awareness and reputation. Address your brand's weaknesses to position it at the forefront of your industry.",
         points:"",
         img: <img src= {analysis} alt= "Audience Analysis"></img>,
+    },
+    {
+        heading: "Context-Aware Search, Summarization", 
+        details: "Whether it's a web or mobile app, simplify and personalize content search for your customers with our language processing service. We develop custom intelligent content search and filtering solutions to ensure your clients receive only current and theme-relevant content. Enhance customer loyalty by providing user-friendly solutions that save their time.",
+        points:"",
+        img: <img src= {context} alt= "Context Awareness"></img>,
     },
 ];
 

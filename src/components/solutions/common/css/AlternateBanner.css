@@ -25,6 +25,7 @@
     margin:10px;
 }
 .ImgContainer img{
+    border-radius: 8px;
     width: 25rem;
     object-fit: cover;
 }

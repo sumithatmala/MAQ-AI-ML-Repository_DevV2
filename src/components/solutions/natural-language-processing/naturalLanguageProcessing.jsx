@@ -7,6 +7,7 @@ import Technologies from "../common/technologies"
 import ContactForm from "../common/contactForm";
 import FAQs from '../../product-dashboard/FAQs';
 import CustomerSuccess from "../common/CustomerSuccess";
+import RoadMap from "../common/RoadMap"
 
 //Data
 import customerSuccessData from "./JSONData/customerSuccessData";
@@ -15,6 +16,7 @@ import technologiesData from "./JSONData/technologiesData"
 import FAQsData from "./JSONData/FaqData";
 import industriesData from "./JSONData/IndustriesData";
 import blogData from "./JSONData/blogData";
+import roadMapData from "./JSONData/roadMapData";
 
 const NaturalLanguageProcessing = () => {
     return (
@@ -34,8 +36,9 @@ const NaturalLanguageProcessing = () => {
                     <Link to={"#"} className="TalkToUs" >Talk To Us</Link>
                 </section>
                 <section className="WorkProcess">
-                    <h3>How We Work</h3>
-                    <div className="ExplainProcess"></div>
+                    {/* <h3>How We Work</h3> */}
+                    {/* <div className="ExplainProcess"></div> */}
+                    <RoadMap items={roadMapData} title="How we work"/>
                 </section>
                 <section className="TargetIndustries">
                     <h4>Industries</h4>

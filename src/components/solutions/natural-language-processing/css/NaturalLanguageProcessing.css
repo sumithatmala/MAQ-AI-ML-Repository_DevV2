@@ -50,7 +50,8 @@
 }
 
 .ExplainProcess {
-    height: 20rem;
+    width: 100%;
+    /* height: 20rem; */
     background-color: #443c9086;
     margin-top: 3rem;
     border-radius: 10px;

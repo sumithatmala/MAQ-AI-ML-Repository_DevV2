@@ -10,7 +10,7 @@ const SpecialContainer = ({SpecialCards}) => {
                     {SpecialCards.map((item) => {
                         return(
                             <div className="indCard">
-                                <img src={process.env.PUBLIC_URL + item.img} alt={item.topic} height={80}></img>
+                                {item.img}
                                 <h3>{item.topic}</h3>
                                 <p>{item.disc}</p>
                             </div>
