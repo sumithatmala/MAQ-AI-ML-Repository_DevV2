@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" viewBox="0 0 505 505" xml:space="preserve">
+<circle style="fill:#da828d;" cx="252.5" cy="252.5" r="252.5"/>
+<polygon style="fill:#FFFFFF;" points="325.6,86.1 325.6,139.7 379.1,139.7 379.1,418.9 125.9,418.9 125.9,86.1 "/>
+<polygon style="fill:#E6E9EE;" points="325.6,86.1 379.1,139.7 325.6,139.7 "/>
+<g>
+	<rect x="331.2" y="170" style="fill:#9e0818;" width="17" height="78.8"/>
+	<rect x="306.5" y="184.9" style="fill:#9e0818;" width="17" height="63.9"/>
+	<rect x="281.7" y="206" style="fill:#9e0818;" width="17" height="42.8"/>
+	<rect x="257" y="223.7" style="fill:#9e0818;" width="17" height="25.1"/>
+</g>
+<g>
+	<rect x="152.6" y="273.3" style="fill:#fc3749;" width="17" height="78.8"/>
+	<rect x="177.3" y="273.3" style="fill:#fc3749;" width="17" height="63.9"/>
+	<rect x="202.1" y="273.3" style="fill:#fc3749;" width="17" height="42.8"/>
+	<rect x="226.8" y="273.3" style="fill:#fc3749;" width="17" height="25.1"/>
+</g>
+<rect x="152.6" y="257.5" style="fill:#E6E9EE;" width="195.6" height="6.8"/>
+</svg>

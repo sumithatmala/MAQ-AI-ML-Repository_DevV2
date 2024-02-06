@@ -1,11 +1,33 @@
+/* Logistic benefits */
 .LogisticsContainer {
-    display: block;
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .LogisticsTitle {
-    display: block;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .LogisticsDesc {
-    display: block;
+    margin: 20px 10px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.LogisticsImg {
+    margin: 20px;
+}
+.LogisticsImg img{
+    width: 350px;
+
 }
