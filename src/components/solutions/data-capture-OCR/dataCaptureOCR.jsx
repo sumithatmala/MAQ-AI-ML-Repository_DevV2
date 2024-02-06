@@ -7,7 +7,8 @@ import AccordionData from "./JSONData/AccordianData"
 import customerSuccessData from "./JSONData/customerSuccessData"
 import roadMapData from "./JSONData/roadMapData"
 import benefitsData from "./JSONData/BenefitsData"
-import LogisticsBenefits from "./JSONData/LogisticsBenefits"
+// import LogisticsBenefits from "./JSONData/LogisticsBenefits"
+import CartonImg from "./img/cartonImg.svg"
 
 //Components
 import Banner from "../common/Banner"
@@ -18,7 +19,7 @@ import CustomerSuccess from "../common/CustomerSuccess"
 import RoadMap from "../common/RoadMap"
 import BenefitCards from "./benefitsCards"
 import BackgroundBanner from "./backgroundBanner"
-import UsageBenefits from "./UsageBenefits"
+// import UsageBenefits from "./UsageBenefits"
 
 const DataCaptureOCR = () => {
     return(
@@ -35,7 +36,29 @@ const DataCaptureOCR = () => {
             <RoadMap items={roadMapData} title="How Our Data Capture and Extraction Services Work"/>
             <BackgroundBanner/>
             <BenefitCards cardsData = {benefitsData}/>
-            {/* <UsageBenefits data = {LogisticsBenefits} /> */}
+            <section className="LogisticsContainer">
+                <h4>OCR and Data Capture for Logistics & Transportation</h4>
+                <div className="LogisticsTitle">
+                    <div className="LogisticsDesc">
+                            <p>Optical character recognition (OCR) systems are designed to digitize paper documents, enabling automated data search, retrieval, and processing with minimal human involvement. These systems can significantly optimize business workflows that involve numerous manual tasks. Companies of all sizes can leverage OCR technology to meet consumer demands for expedited and secure goods shipment at reduced delivery costs.</p>
+                            <p>OCR scanning services offer significant benefits to representatives in the logistics industry, including:</p>
+                        <ul>
+                            <li>Reduces input errors by over 90%.</li>
+                            <li>Enables remote data capture via mobile devices.</li>
+                            <li>Automates manual input and streamlines paper-based workflows.</li>
+                            <li>Cuts data capture costs and time by more than 90%.</li>
+                            <li>Automates the transfer of captured data.</li>
+                            <li>Provides efficient automated invoice processing.</li>
+                            <li>Facilitates invoice and receipt processing.</li>
+                            <li>Makes package registration, tracking, and delivery time-efficient, leading to reduced overall delivery costs.</li>
+                            <li>Offers web data extraction services if needed.</li>
+                        </ul>
+                    </div>
+                    <div className="LogisticsImg">
+                        <img src={CartonImg} alt="Logistics and Transportation"></img>
+                    </div>
+                </div>
+        </section>
             <div style={{display: "flex", justifyContent: "center"}}>
                 <AccordionStatic title={"Other Industries"} desc = "As a data extraction company, we provide optical character recognition services and help companies across multiple industries optimize their business processes with the help of our automated data capture software." listItems = {AccordionData}/>
             </div>
