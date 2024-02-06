@@ -55,3 +55,14 @@ body {
     margin-top: 20px;
     text-align:start;
 }
+.slick-slide img {
+    display: block;
+    max-width: 100%;
+    border-radius: 8px;
+    max-height: 100%;
+}
+.slick-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}

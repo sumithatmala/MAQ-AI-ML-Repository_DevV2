@@ -7,6 +7,8 @@ import Grid from "../../solutions/common/grid";
 import { ServiceNum } from "./ServicesNum";
 import FAQs from "../../product-dashboard/FAQs";
 import FAQsDataAuto from "./FAQsDataAuto";
+import OneCardCoursal from "../common/OneCardCoursal";
+import OneCardDataAuto from "./OneCardDataAuto";
 
 const Automotive = () => {
   return (
@@ -48,7 +50,11 @@ const Automotive = () => {
       </section>
 
       <OurExpertise />
-
+    
+    <section className="onecard">
+      <OneCardCoursal items={OneCardDataAuto}/>
+      </section>
+      
       <FlatGridLayout  items={BenefitsData} />
     
     <section className="griddd">
