@@ -251,7 +251,7 @@ const NavigationLinks = [
       },
       {
         label: "Sport & Wellness",
-
+        link: "/Industries/SportWellness",
         icon: "/icons/nlp.svg",
         alt: "nlp",
       },

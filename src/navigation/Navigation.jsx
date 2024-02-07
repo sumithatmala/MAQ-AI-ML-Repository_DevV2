@@ -28,6 +28,7 @@ import Retail from "../components/industries/Retail/Retail";
 import Logistics from "../components/industries/Logistics/Logistics";
 import AISolutionsEcommerce from "../components/industries/AISolutionsEcommerce/AISolutionsEcommerce";
 import Fintech from "../components/industries/Fintech/Fintech";
+import SportWellness from "../components/industries/SportWellness/SportWellness";
 const Navigation = () => {
   return (
     <Router>
@@ -60,6 +61,7 @@ const Navigation = () => {
           <Route path="/Industries/Retail" element={<Retail />} />
           <Route path="/Industries/RecommendationSystems" element={<RecommendationSystems/>} />
           <Route path="/Industries/Fintech" element={<Fintech/>} />
+          <Route path="/Industries/SportWellness" element={<SportWellness/>} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

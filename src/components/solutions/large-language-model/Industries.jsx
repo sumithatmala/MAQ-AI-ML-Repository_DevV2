@@ -50,6 +50,11 @@ const industries = [
     alt: "Financial Services",
   },
   {
+    title: "Sport & Wellness",
+    image: biFinService,//change this
+    alt: "Sport & Wellness"
+  },
+  {
     title: "Retail & E-commerce",
     image: iconEcommerceAlt,
     alt: "ecommerce",
