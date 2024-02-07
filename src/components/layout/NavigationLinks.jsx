@@ -106,7 +106,7 @@
 //   ];
 
 const NavigationLinks = [
-  { label: "Home", link: "./" },
+  // { label: "Home", link: "./" },
   { label: "Expertise", link: "./Expertise" },
   {
     label: "Products",
