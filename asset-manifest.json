@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MAQ-AI-ML-Repository_DevV2/static/css/main.c71b516b.css",
+    "main.css": "/MAQ-AI-ML-Repository_DevV2/static/css/main.6e5c0303.css",
     "main.js": "/MAQ-AI-ML-Repository_DevV2/static/js/main.cd9c0d94.js",
     "static/js/228.6a8d4eed.chunk.js": "/MAQ-AI-ML-Repository_DevV2/static/js/228.6a8d4eed.chunk.js",
     "static/js/527.103a1f8a.chunk.js": "/MAQ-AI-ML-Repository_DevV2/static/js/527.103a1f8a.chunk.js",
@@ -322,7 +322,7 @@
     "static/media/icon-sector.svg": "/MAQ-AI-ML-Repository_DevV2/static/media/icon-sector.710fdfe5193293e6ec1cfae4b87f21fb.svg",
     "static/media/icon-1.svg": "/MAQ-AI-ML-Repository_DevV2/static/media/icon-1.931b06e4664ba1610cdb45721496655c.svg",
     "static/media/dashed-line.svg": "/MAQ-AI-ML-Repository_DevV2/static/media/dashed-line.7afec9642187cdcfe480.svg",
-    "main.c71b516b.css.map": "/MAQ-AI-ML-Repository_DevV2/static/css/main.c71b516b.css.map",
+    "main.6e5c0303.css.map": "/MAQ-AI-ML-Repository_DevV2/static/css/main.6e5c0303.css.map",
     "main.cd9c0d94.js.map": "/MAQ-AI-ML-Repository_DevV2/static/js/main.cd9c0d94.js.map",
     "228.6a8d4eed.chunk.js.map": "/MAQ-AI-ML-Repository_DevV2/static/js/228.6a8d4eed.chunk.js.map",
     "527.103a1f8a.chunk.js.map": "/MAQ-AI-ML-Repository_DevV2/static/js/527.103a1f8a.chunk.js.map",
@@ -345,7 +345,7 @@
     "136.f638adc3.chunk.js.map": "/MAQ-AI-ML-Repository_DevV2/static/js/136.f638adc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c71b516b.css",
+    "static/css/main.6e5c0303.css",
     "static/js/main.cd9c0d94.js"
   ]
 }
