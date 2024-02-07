@@ -92,8 +92,8 @@ const Navigation = () => {
             path="/Industries/GameEntertainment"
             element={<GameEntertainment />}
           />
+          <Route path="/Industries/Health&Pharma" element={<HealtcarePharma />} />
           <Route path="/Industries/SportWellness" element={<SportWellness/>} />
-          <Route path="/Industries/HealtcarePharma" element={<HealtcarePharma />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

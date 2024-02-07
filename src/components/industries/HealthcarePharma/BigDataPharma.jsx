@@ -1,38 +1,38 @@
 const BigData = [
   {
-    list: "Advanced RWE Analytics",
+    list: "Advanced Real-World Evidence Analytics",
     desc: {
-      para: ["Uncover insights from advanced real-world evidence across the whole pharma value chain to inform R&D decisions and improve trial design, achieve better patient access, implement smart targeting and data-driven commercial activities, as well as improve pharmacovigilance to be able to respond promptly to adverse events and unmet patient needs."],
+      para: ["Uncover insights from sophisticated real-world evidence across the entire pharmaceutical value chain. Inform R&D decisions, enhance trial design, achieve improved patient access, implement smart targeting, and engage in data-driven commercial activities. Additionally, improve pharmacovigilance to respond promptly to adverse events and address unmet patient needs."],
       points: [],
     },
   },
   {
-    list: "NLP: Scientific Literature and Patents Analysis",
+    list: "NLP: Analysis of Scientific Literature and Patents",
     desc: {
-      para: ["Implement artificial intelligence in pharmacy in a safe and controlled way with AI. Use custom NLP solutions for data mining and analysis including smart collection, labeling pharma studies, highlighting relevant information to your queries, and enhancing modeling."],
+      para: ["Implement artificial intelligence in pharmacy in a secure and controlled manner with AI. Utilize customized NLP solutions for data mining and analysis, including smart collection, labeling pharma studies, highlighting relevant information to your queries, and enhancing modeling."],
       points: [],
     },
   },
   {
-    list: "AI Drug Development and Analytics",
+    list: "AI-Driven Drug Development and Analytics",
     desc: {
-      para: ["Uncover opportunities in drug development with AI. Produce drug-like molecules, optimize for binding affinity to your protein target, choose most chemically promising leads for further validation using generative modeling, reinforcement learning, and evolutionary algorithms.",
+      para: ["Discover opportunities in drug development with AI. Generate drug-like molecules, optimize for binding affinity to your protein target, and select the most chemically promising leads for further validation using generative modeling, reinforcement learning, and evolutionary algorithms.",
 
-        "Improve your QSAR prediction of ADMET сompound properties with Graph Networks, it’s easy to approximate ADMET properties from the 3D compound structure or SMILES-like molecular representations."],
+        "Enhance your QSAR prediction of ADMET compound properties with Graph Networks. Easily approximate ADMET properties from the 3D compound structure or SMILES-like molecular representations."],
       points: [],
     },
   },
   {
-    list: "Cell Image Capture and Analysis",
+    list: "Automated Cell Image Capture and Analysis",
     desc: {
-      para: ["Want to make cell analysis easier? Implement automated image capture and analysis for cell imaging. With that, you’ll detect anomalous tissues, segment various types of cells, detect cancerous tissues, and what is the effect of a drug."],
+      para: ["Looking to simplify cell analysis? Implement automated image capture and analysis for cell imaging. With this, you'll detect anomalous tissues, segment various types of cells, identify cancerous tissues, and assess the effects of a drug."],
       points: [],
     },
   },
   {
-    list: "Big Data Analytics for Pharma Companies",
+    list: "Big Data Analytics for Pharmaceutical Companies",
     desc: {
-      para: ["With custom Big Data solutions, you can easily manage the wealth of data. Gather, store, transit and extract data in a click. Use emerging pharma tech to run analytics and machine learning models with ease. Get the most of data analytics to ensure the success of your pharma company."],
+      para: ["With customized Big Data solutions, efficiently manage a wealth of data. Gather, store, transit, and extract data with a click. Leverage emerging pharma tech to run analytics and machine learning models effortlessly. Maximize data analytics to ensure the success of your pharmaceutical company."],
       points: [],
     },
   },

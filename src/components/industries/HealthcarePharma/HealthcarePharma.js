@@ -23,15 +23,12 @@ const HealtcarePharma = () => {
             <div className="top">
               <div className="heading">
                 <span>
-                  Incorporating Artificial Intelligence in Automotive
-                  Manufacturing
+                Transformative Healthcare Analytics and AI in the Pharmaceutical Sector
                 </span>
               </div>
               <div className="heading_inner">
                 <p>
-                  We assist manufacturers in integrating artificial intelligence
-                  into the automotive industry for intelligent and
-                  cost-effective vehicle production.
+                Crafting Solutions for Enhanced Patient Outcomes and Operational Efficiency.
                 </p>
               </div>
 
@@ -84,8 +81,9 @@ const HealtcarePharma = () => {
           }}
         />
       </section>
-
+          <div className="pharmaCarousel">
       <CustomerSuccess items={PharmaCustData} heading="Customer Success" />
+      </div>
       <ContactForm />
     </>
   );
