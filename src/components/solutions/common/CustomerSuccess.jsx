@@ -61,9 +61,9 @@ const CustomerSuccess = (props) => {
               <div className="separate-slider__content">
                 <h3 className="separate-slider__title">{outcome.title}</h3>
                 <div className="separate-slider__text">
-                  {outcome.description.map((paragraph, index) => (
+                  {outcome.description?(outcome.description.map((paragraph, index) => (
                     <p key={index}> {paragraph} </p>
-                  ))}
+                  ))):(<></>)}
                 </div>
                 {outcome.link ? (
                   <a href={outcome.link}>Learn More</a>
