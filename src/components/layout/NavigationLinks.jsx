@@ -107,7 +107,7 @@
 
 const NavigationLinks = [
   // { label: "Home", link: "./" },
-  { label: "Expertise", link: "./Expertise" },
+  { label: "Expertise", link: "./" },
   {
     label: "Products",
     submenu: [
