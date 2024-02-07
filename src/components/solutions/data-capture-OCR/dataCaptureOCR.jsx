@@ -32,7 +32,7 @@ const DataCaptureOCR = () => {
                     <p>MAQ Software is a leading provider of automated data capture solutions, empowering data-driven businesses with efficient tools. We specialize in OCR, data capture, and extraction services to help you manage your data and automate business processes.</p>
                 </div>
             </section>
-            <Services items={{ item: ServiceData, title: "Data Capture Services We Offer" }} />
+            <Services items={{ item: ServiceData, NoCards:4, title: "Data Capture Services We Offer" }} />
             <RoadMap items={roadMapData} title="How Our Data Capture and Extraction Services Work" />
             <BackgroundBanner />
             <BenefitCards cardsData={benefitsData} />

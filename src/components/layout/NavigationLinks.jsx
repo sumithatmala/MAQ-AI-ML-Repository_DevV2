@@ -135,6 +135,9 @@ const NavigationLinks = [
             link: "./product/SmartSupportFramework",
           },
           { label: "TriviaBot", link: "./product/TriviaBot" },
+          { label: "Support Ticket Assistant", link: "./product/SupportTicketAssistant" },
+          { label: "Sales Assistant", link: "./product/SalesAssistant" },
+          { label: "Test Case Recommender", link: "./product/TestCaseRecommender" },
         ],
       },
       {
@@ -251,7 +254,7 @@ const NavigationLinks = [
       },
       {
         label: "Sport & Wellness",
-
+        link: "/Industries/SportWellness",
         icon: "/icons/nlp.svg",
         alt: "nlp",
       },
@@ -263,13 +266,13 @@ const NavigationLinks = [
       },
       {
         label: "MarTech",
-
+        link: "/Industries/MarTech",
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },
       {
         label: "Automotive",
-
+        link: "/Industries/Automotive",
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },
@@ -281,7 +284,7 @@ const NavigationLinks = [
       },
       {
         label: "Game & Entertainment",
-
+        link: "/Industries/GameEntertainment",
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },

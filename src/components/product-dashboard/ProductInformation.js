@@ -18,7 +18,7 @@ import AnimatedOutcome from './icons/AnimatedOutcome';
 import AnimatedSolution from './icons/AnimatedSolution';
 import AnimatedHighlights from './icons/AnimatedHighlights';
 import LoaderComp from '../views/LoaderComp';
-
+import GridOfCards from '../solutions/common/GridOfCards'
 
 const ProductInformation = () => {
   const [productDetails, setproductDetails] = useState(null);
@@ -63,7 +63,6 @@ const ProductInformation = () => {
 
   if (!productDetails) {
     return <LoaderComp />
-    // <div style={{height: "100vh"}}><center style = {{paddingTop: "20%"}}><h3>Loading...</h3></center></div>;
   }
 
  
@@ -79,12 +78,9 @@ const ProductInformation = () => {
           {productDetails.BusinessCase && productDetails.BusinessCase.length > 0 && (
             <Row id="prodinfo" className='product-overview'>
               <Col>
-                <div className='shadow-container' data-aos="fade-right">
-
-
-                  <h3>Business Case</h3>
+                <div className='text-block-center2' data-aos="fade-right" style={{boxShadow: "none", paddingLeft: "40px",}}>
                     {productDetails.BusinessCase.map((item, index) => (
-                      <p key={index}>{item}</p>
+                      <div key={index}>{item}</div>
                     ))}
                 </div>
               </Col>
@@ -101,49 +97,15 @@ const ProductInformation = () => {
           )}
           {/*target users */}
           {productDetails.targetUsers && productDetails.targetUsers.length > 0 && (
-              <section class="target-section" style={{backgroundColor: "white"}}>
-                <div class="target__inner">
-                  <h3 class="head-block-center" style={{ color: 'black' }}>Target Users</h3>
-                  <div class="target__list">
-                    {productDetails.targetUsers.map((user, index) => (
-                      <div key={index} class="target__list-item">
-                        <div class="target__item">
-                          <div class="target__item-icon"> 
-                  {user.icon}
-                  </div>
-                          <h3 class="target__item-title">{user.name}</h3>
-                          <div class="target__item-text">{user.caption}</div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
+            <section class="target-section" style={{backgroundColor: "white"}}>
+              <GridOfCards items={{item: productDetails.targetUsers, NoCards:4, title: "Target Users"}}/>
             </section>
           )}
-          {/* {productDetails.targetUsers && productDetails.targetUsers.length > 0 && (
-        <Row className='product-overview d-flex justify-content-center' data-aos="fade-left">
-        <h3>Target Users</h3>
-        {productDetails.targetUsers.map((user, index) => (
-          <Col key={user.name} md={3}>
-             <div key={index} className="square fixed-dimensions mb-4">
-               <div>
-                  <div className="icon-container" data-aos="fade-in" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                    {user.icon}
-                  </div>
-                 <h5>{user.name}</h5>
-                 <p style={{fontSize: "0.7rem"}}>{user.caption}</p>
-               </div>
-             </div>
-          </Col>
-            ))}
-          
-        </Row>
-        )} */}
 
         {/*business outcomes */}
         {productDetails.businessOutcomes && productDetails.businessOutcomes.length > 0 && (
           <section class="target-section" style={{backgroundColor: "white"}}>
-                <Row className='fade-in product-overview d-flex justify-content-center ' style={{backgroundColor: "white"}}>
+                <Row className='slick-list3 draggable fade-in product-overview d-flex justify-content-center ' style={{backgroundColor: "white"}}>
                   <h3 class="head-block-center">Business Outcomes</h3>
                   <Slider {...settings}>
                     {productDetails.businessOutcomes.map((outcome, index) => (
@@ -182,8 +144,6 @@ const ProductInformation = () => {
               <Row
                 id="prodinfo"
                 className="product-overview"
-              // data-aos="fade-left"
-              // style={{ boxShadow: "none" }}
               >
 
                 <Col
@@ -197,13 +157,6 @@ const ProductInformation = () => {
 
                     }}
                   >
-
-                    {/* <img
-                      style={{ height: "350px" }}
-                      // src='https://www.pinclipart.com/picdir/big/394-3941805_groundbreaking-technology-light-bulb-icon-transparent-clipart.png'
-                      src = {Highlights}
-                      alt="Highlights"
-                    ></img> */}
                     <AnimatedHighlights/>
 
                   </div>
@@ -214,9 +167,8 @@ const ProductInformation = () => {
                     <ul className='bulletStyle'>
                       {productDetails.solutionHighlights.map(
                         (highlights, index) => (
-                          // <li key={index}>{highlights}</li>
                           <li key={index} style={{ color: "#141414", position: 'relative', paddingLeft: '1.2em' }}>
-                            {/* <span style={{ position: 'absolute', left: '0em', color: "#453c90" }}>•</span>*/} {highlights}
+                            {highlights}
                           </li>
                         )
                       )}
@@ -230,7 +182,6 @@ const ProductInformation = () => {
           {/*Summary */}
           {productDetails.summary && productDetails.summary.length > 0 && (
             <Row id="prodinfo" className="product-overview">
-              {/* <h3>Summary</h3> */}
               {productDetails.summary.map((highlights, index) =>
                 index === 0 ? (
                   <Row key={index}>
@@ -266,9 +217,7 @@ const ProductInformation = () => {
                         <h3>{highlights.title}</h3>
                         <ul className='bulletStyle'>
                           {highlights.details.map((highlight, index) => (
-                            <li key={index} style={{ color: "#141414", position: 'relative', paddingLeft: '1.2em' }}>
-                              {/* <span style={{ position: 'absolute', left: '0em', color: "#453c90" }}>•</span>  */}
-                              {highlight}
+                            <li key={index} style={{ color: "#141414", position: 'relative', paddingLeft: '1.2em' }}>                              {highlight}
                             </li>
                           ))}
                         </ul>
@@ -299,7 +248,6 @@ const ProductInformation = () => {
                             alignItems: "center",
                           }}
                         >
-                          {/* {highlights.icon} */}
                           <AnimatedSolution />
                         </div>
                       </Col>
@@ -317,11 +265,6 @@ const ProductInformation = () => {
                           </ul>
                         </div>
                       </Col>
-
-
-
-
-
                     </Row>
                   )
               )}
@@ -330,7 +273,7 @@ const ProductInformation = () => {
         </Container>
       </section>
       <ProductDemo link={productDetails.demo.link}/>
-      <ProductTryIt items={productDetails.title}/>
+      <ProductTryIt items={productDetails.title} link={productDetails.tryit.link}/>
       <ProductContactUs/>
       {productDetails.FAQs && productDetails.FAQs.length > 0 && (
         <FAQs FAQs = {productDetails.FAQs}/>

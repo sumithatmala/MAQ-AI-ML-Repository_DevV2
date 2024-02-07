@@ -16,15 +16,15 @@ import ContactForm from '../../solutions/common/contactForm';
 const AISolutionsEcommerce = () => {
   return (
     <>
-        <Banner BannerData={BannerData}/>
-        
-          <section className="WelcomeMsg" style={{margin: "3rem"}}>
-            <h2>Our Strengths</h2>
-            <p>Elevating Online Shopping Experiences and Driving Conversion Growth.</p>
-          </section>
-          <OneCardCoursal items={OneCardData}/>
-          <div className="Container-Logistics">
-          <AlternateBanner banners={AlternateBannerData} count={0} ContactBtn={true}/>
+      <Banner BannerData={BannerData}/>
+      
+      <section className="WelcomeMsg" style={{margin: "3rem"}}>
+        <h2>Our Strengths</h2>
+        <p>Elevating Online Shopping Experiences and Driving Conversion Growth.</p>
+      </section>
+      <OneCardCoursal items={OneCardData}/>
+      <div className="InfoVisual">
+        <AlternateBanner banners={AlternateBannerData} count={0} ContactBtn={true}/>
       </div>
       <FlatGridLayout items={BusinessLevelUpData} title={"How We Can Level Up Your Business"}/>
       <div className="Container-ir">

@@ -1,4 +1,4 @@
-.slick-slider {
+.slick-list2 .slick-slider {
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -85,8 +85,9 @@
     margin-bottom: 20px;
 }
 
-.separate-slider__text {
+.separate-slider__text b{
     margin-bottom: 10px;
+    font-weight: 500;
 }
 
 .target-section {

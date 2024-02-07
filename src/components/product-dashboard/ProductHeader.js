@@ -43,6 +43,8 @@ const ProductHeader = (props) => {
                         to={"./#prodinfo"}
                         style={{
                             textAlign: "center",
+                            display: "inline-block",
+                            width: "fit-content",
                         }}>
                     <button className="learn-more">
                         <span className="circle" aria-hidden="true">
