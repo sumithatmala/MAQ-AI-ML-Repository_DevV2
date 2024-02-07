@@ -10,9 +10,9 @@ body {
     line-height: 1.25;
 }
 
-*, :after, :before {
+/* *, :after, :before {
     box-sizing: inherit;
-}
+} */
 
 .automotivetool {
     width: 100%;

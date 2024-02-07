@@ -36,8 +36,6 @@ const Navigation = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
-          <Route path="/" element={<HealtcarePharma />} />
-          <Route path="/" element={<HomePage />} />
           <Route path="/" element={<HomePage />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route
@@ -95,6 +93,7 @@ const Navigation = () => {
             element={<GameEntertainment />}
           />
           <Route path="/Industries/SportWellness" element={<SportWellness/>} />
+          <Route path="/Industries/HealtcarePharma" element={<HealtcarePharma />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

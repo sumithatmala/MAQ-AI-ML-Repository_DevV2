@@ -248,7 +248,7 @@ const NavigationLinks = [
     submenu: [
       {
         label: "Healthcare & Pharma",
-
+        link: "/Industries/HealtcarePharma",
         icon: "/icons/framework.svg",
         alt: "frwk",
       },
