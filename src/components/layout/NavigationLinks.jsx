@@ -135,6 +135,7 @@ const NavigationLinks = [
             link: "./product/SmartSupportFramework",
           },
           { label: "TriviaBot", link: "./product/TriviaBot" },
+          { label: "SupportTicketAssistant", link: "./product/SupportTicketAssistant" },
         ],
       },
       {
