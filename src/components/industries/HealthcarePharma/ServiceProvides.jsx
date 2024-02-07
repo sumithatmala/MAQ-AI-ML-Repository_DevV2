@@ -6,22 +6,22 @@ import four from './icons/gear.svg';
 const ServiceProvide = [
   {
     label: "Consulting",
-    disc: "Have a business problem? Use our consulting services, strong tech expertise, and experience in the healthcare IT solutions market.",
+    disc: "Facing a business challenge? Utilize our consulting services, robust tech expertise, and extensive experience in the healthcare IT solutions market.",
     img: <img src={one} alt="" width={100}></img>,
   },
   {
     label: "Healthcare IT Solution Development",
-    disc: "Not satisfied with packaged healthcare software available on the market? Let our tech team build web or mobile solutions specifically for your needs.",
+    disc: "Unsatisfied with off-the-shelf healthcare software? Let our tech team craft web or mobile solutions tailored to your specific requirements.",
     img: <img src={two} alt="" width={100}></img>,
   },
   {
     label: "Healthcare Analytics and Business Intelligence",
-    disc: "Want to get insights into clinical care, administration and costs? Make use of analytics and BI tools to track KPIs and readjust your strategies.",
+    disc: "Seeking insights into clinical care, administration, and costs? Leverage analytics and BI tools to track KPIs and refine your strategies.",
     img: <img src={three} alt="" width={100}></img>,
   },
   {
     label: "Testing and QA",
-    disc: "Document processing systems, AI apps for mental health or physical therapy – we’ll make sure your healthcare IT solution runs smoothly.",
+    disc: "Whether it's document processing systems, AI apps for mental health, or physical therapy – we'll ensure your healthcare IT solution operates seamlessly.",
     img: <img src={four} alt="" width={100}></img>,
   },
 ];
