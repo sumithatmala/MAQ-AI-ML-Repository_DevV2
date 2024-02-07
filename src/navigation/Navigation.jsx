@@ -26,12 +26,9 @@ import Logistics from "../components/industries/Logistics/Logistics";
 import AISolutionsEcommerce from "../components/industries/AISolutionsEcommerce/AISolutionsEcommerce";
 import Fintech from "../components/industries/Fintech/Fintech";import Automotive from "../components/industries/Automotive/Automotive";
 import GameEntertainment from "../components/industries/GameEntertainment/GameEntertainment";
-
 import MarTech from "../components/industries/MarTech/MarTech";
-
-
-
 import SportWellness from "../components/industries/SportWellness/SportWellness";
+
 const Navigation = () => {
   return (
     <Router>
