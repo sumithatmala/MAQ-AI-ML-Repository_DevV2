@@ -31,6 +31,7 @@ import MarTech from "../components/industries/MarTech/MarTech";
 
 
 
+import SportWellness from "../components/industries/SportWellness/SportWellness";
 const Navigation = () => {
   return (
     <Router>
@@ -67,6 +68,7 @@ const Navigation = () => {
           <Route path="/Industries/MarTech" element={<MarTech/>} />
           <Route path="/Industries/Automotive" element={<Automotive/>} />
           <Route path="/Industries/GameEntertainment" element={<GameEntertainment/>} />
+          <Route path="/Industries/SportWellness" element={<SportWellness/>} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
