@@ -1,11 +1,12 @@
 import React from "react";
 import './css/FlatGridLayout.css'
 
-const FlatGridLayout = ({items, title}) => {
+const FlatGridLayout = ({items, title, caption}) => {
   return (
     <section className="trinityContainer trinity _v2">
       <div className="trinityInner trinity__inner">
         <h2 className="centeredTitle head-block-center">{title?title: "Industries"}</h2>
+        {caption && <p style={{alignContent: "center",}}>{caption}</p>}
         <ul className="trinityList trinity__list">
           {items.map((industry, index) => (
             <li key={index} className="trinityItem trinity__item trinityItemWidth30 __w-30">

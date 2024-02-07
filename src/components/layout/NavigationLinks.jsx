@@ -107,7 +107,7 @@
 
 const NavigationLinks = [
   { label: "Home", link: "./" },
-  { label: "Expertise", link: "#" },
+  { label: "Expertise", link: "./Expertise" },
   {
     label: "Products",
     submenu: [
@@ -263,7 +263,7 @@ const NavigationLinks = [
       },
       {
         label: "MarTech",
-
+        link: "/Industries/MarTech",
         icon: "/icons/computerVision.svg",
         alt: "comp",
       },
