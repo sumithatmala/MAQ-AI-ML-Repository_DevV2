@@ -48,9 +48,24 @@ export const ArtificialIntelligenceData = [
                 link: "./product/SmartSupportFramework",
             },
             {
-                title: "TriviaBot",
+                title: "Trivia Bot",
                 description: "It transforms customer engagement in sales by gamifying learning through OpenAI, prompting users with strategic questions for interactive exploration. It enhances insights by extracting and generating scorecard reports, making the information-seeking process enjoyable and insightful.",
                 link: "./product/TriviaBot",
+            },
+            {
+                title: "Test Case Recommender",
+                description: "Revolutionize your software development process with our Test Case Recommender, eliminating the time-consuming and error-prone manual test case creation while ensuring comprehensive coverage of all relevant scenarios.",
+                link: "./product/TestCaseRecommender",
+            },
+            {
+                title: "Sales Assistant",
+                description: "Accelerate sales productivity and efficiency with AI-driven client profiling, enabling personalized solutions in record time.",
+                link: "./product/SalesAssistant",
+            },
+            {
+                title: "Support Ticket Assistant",
+                description: "Transform support operations with our automated system, ensuring faster responses and happier customers.",
+                link: "./product/SupportTicketAssistant",
             },
         ]
     },
