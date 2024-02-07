@@ -1,60 +1,25 @@
-import icon_accuracy from '../img/icon-accuracy-2.svg'
-import icon_person_check from '../img/icon-person-check.svg'
-import icon_car from '../img/icon-car.svg'
-import icon_lists from '../img/icon-lists.svg'
-import icon_three_arrows from '../img/icon-three-arrows.svg'
-import icon_cost from '../img/icon-cost-2.svg'
-import icon_like from '../img/icon-like.svg'
-import icon_roadmap from '../img/icon-roadmap.svg'
+import icon_reporting from '../img/icon-reporting.svg'
+import icon_human_model_alt from '../img/icon-human-model-alt.svg'
+import icon_engine from '../img/icon-engine.svg'
 
 const BusinessCasesData = [
     {
-      iconSrc: <img src={icon_accuracy} alt="icon accuracy" />,
-      altText: "Speed",
-      title: "Fast Data Processing",
-      description: "Process large volumes of data with lightning speed for real-time insights."
+      iconSrc: <img src={icon_reporting} alt="icon accuracy" />,
+      altText: "Data-Driven Consulting",
+      title: "Data-Driven Consulting",
+      description: "Leverage our expertise in AI and data analytics to address your business challenges effectively. Our consultants specialize in the sports and wellness industry, offering tailored solutions to maximize your potential."
     },
     {
-      iconSrc: <img src={icon_person_check} alt="icon person check" />,
-      altText: "Recommender systems",
-      title: "Personalized Recommendations",
-      description: "Deliver tailored recommendations to enhance user experience and engagement."
+      iconSrc: <img src={icon_human_model_alt} alt="icon person check" />,
+      altText: "Custom AI Solutions Development",
+      title: "Custom AI Solutions Development",
+      description: "Empower your sports and fitness ventures with cutting-edge AI solutions crafted by our team of skilled data scientists and engineers. From personalized fitness tracking to advanced sports analytics, we create bespoke solutions to propel your business forward."
     },
     {
-      iconSrc: <img src={icon_car} alt="icon car" />,
-      altText: "Data Analysis",
-      title: "Market Trend Analysis",
-      description: "Analyze market trends and patterns to make informed business decisions."
+      iconSrc: <img src={icon_engine} alt="icon car" />,
+      altText: "Streamlined Quality Assurance",
+      title: "Streamlined Quality Assurance",
+      description: "Ensure your AI-powered fitness solutions meet the highest standards of performance and usability. Our rigorous quality assurance process guarantees a seamless user experience, boosting customer satisfaction and trust in your offerings."
     },
-    {
-      iconSrc: <img src={icon_lists} alt="icon lists" />,
-      altText: "AI",
-      title: "Intelligent Customer Support",
-      description: "Implement AI-powered solutions for efficient and personalized customer support."
-    },
-    {
-      iconSrc: <img src={icon_three_arrows} alt="icon three arrows" />,
-      altText: "Predictive Analytics",
-      title: "Sales Forecasting",
-      description: "Predict future sales trends to optimize inventory management and resource allocation."
-    },
-    {
-      iconSrc: <img src={icon_cost} alt="icon cost" />,
-      altText: "icon cost",
-      title: "Cost Optimization",
-      description: "Identify cost-saving opportunities and streamline business operations for efficiency."
-    },
-    {
-      iconSrc: <img src={icon_like} alt="icon_like" />,
-      altText: "Predictive Analytics",
-      title: "Revenue Growth Strategies",
-      description: "Develop data-driven strategies to increase revenue and profitability."
-    },
-    {
-      iconSrc: <img src={icon_roadmap} alt="icon roadmap" />,
-      altText: "BI Implementation",
-      title: "Performance Analytics",
-      description: "Track and analyze key performance indicators for actionable insights and improvement."
-    }
   ];
   export default BusinessCasesData;

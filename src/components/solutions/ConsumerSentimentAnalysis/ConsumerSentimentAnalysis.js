@@ -85,7 +85,7 @@ const ConsumerSentimentAnalysis = () => {
         <SentimentAnalysisCompany />
       </section>
 
-      <CustomerSuccess items={CarouselData} />
+      <CustomerSuccess items={CarouselData}  heading="Customer Success"/>
 
       <FAQs FAQs={FAQsData} />
 

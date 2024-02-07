@@ -1,28 +1,30 @@
-import PA_Fraud_Prevention from "../img/PA-Fraud-Prevention.jpg"
-import Analytics_Credit_Scoring from "../img/Analytics-Credit-Scoring.jpg"
-import Data_Insights_Customer_Retention from "../img/Data-Insights-Customer-Retention.jpg"
+import cv_personnel_authentication from "../img/cv-personnel-authentication.jpg"
+import cv_dealing_documents from "../img/cv-dealing-documents.jpg"
+import cv_customer_experience from "../img/cv-customer-experience.jpg"
 
 const OneCardData = [
   {
-    title: "Enhancing Credit Scoring with Analytics",
-    image: <img src={Analytics_Credit_Scoring} alt="Analytics_Credit_Scoring" />,
+    title: "Enhanced Venue Security with Computer Vision",
+    image: <img src={cv_personnel_authentication} alt="cv_personnel_authentication" />,
     description: [
-      "Identify potential risks and prevent loan defaults with AI-driven analytical tools. Streamline credit history analysis to detect credit default signals, ensuring efficient risk management and decision-making in Fintech.",
+      "Utilize computer vision to monitor staff movements at sports venues with precision.",
+      "Implement facial recognition technology for real-time staff tracking, enabling efficient access control to restricted areas like training facilities and locker rooms while ensuring privacy for high-profile athletes.",
     ],
   },
   
   {
-    title: "Combatting Fraud with Predictive Analytics",
-    image: <img src={PA_Fraud_Prevention} alt="PA_Fraud_Prevention" />,
+    title: "Efficient Document Management with Computer Vision",
+    image: <img src={cv_dealing_documents} alt="PA_Fraud_Prevention" />,
     description: [
-      "Utilize predictive analytics in Fintech to detect anomalies in real-time across various financial transactions. Safeguard against fraud and money laundering with advanced financial IT solutions.",
+      "Simplify document handling tasks by leveraging computer vision capabilities.",
+      "Automate data capture, retrieval, and extraction processes to streamline team management documentation, saving time and resources with OCR solutions.",
     ],
   },
   {
-    title: "Driving Customer Retention with Data Insights",
-    image: <img src={Data_Insights_Customer_Retention} alt="pa_price_analysis" />,
+    title: "Personalized VIP Experiences Using Computer Vision",
+    image: <img src={cv_customer_experience} alt="pa_price_analysis" />,
     description: [
-      "Optimize customer retention strategies through data-driven insights. Leverage bespoke financial IT solutions to analyze client behavior and enhance retention campaigns. Utilize predictive analytics to identify client preferences and pain points for improved profitability.",
+      "Enhance VIP guest experiences with personalized services facilitated by cutting-edge face recognition technology. Effortlessly identify and greet guests by name, providing bespoke services to elevate their security and satisfaction within VIP zones.",
     ],
   },
 ];

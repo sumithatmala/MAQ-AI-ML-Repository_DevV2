@@ -1,5 +1,5 @@
 * {
-    line-height:2.3cap;
+    line-height:2.4cap;
 }
 
 h1,h2 {
@@ -40,15 +40,22 @@ h1,h2 {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin: 5rem 20px;
+    margin-top: 8rem;
+}
+.IntroBanner img {
+    border-radius: 8px;
 }
 
 .IntroBanner-det {
     padding: 10px;
+    width: 800px;
     margin: 20px 60px 20px 20px;
 }
 .IntroBanner-det h2{
-    font-size: 18px;
+    font-size: 22px;
+}
+.IntroBanner-det li{
+    margin: 8px 0;
 }
 
 /* roadmap */
@@ -59,6 +66,7 @@ h1,h2 {
     align-items: center;
     flex-direction: column;
     width: 740px;
+    margin-top: 8rem;
 }
 
 .Roadmap {
@@ -89,6 +97,7 @@ h1,h2 {
     margin: 0;
 }
 
+
 .ProcessCard {
     display: flex;
     flex-direction: column;
@@ -109,7 +118,11 @@ h1,h2 {
     justify-content: center;
     /* text-align: center; */
     align-items: center;
-    margin: 0 10px 5rem 10px;
+    margin: 20px 10px ;
+    max-width: 900px;
+}
+.UsageContainer img {
+    border-radius: 8px;
 }
 
 .UsageText {
@@ -117,8 +130,12 @@ h1,h2 {
     max-width: 500px;
     margin-left: 40px;
 }
+.UsageText li{
+    margin: 8px 0;
+}
 
 .Industryheading {
+    margin-top: 5rem;
     text-align: center;
     width: 60%;
 }

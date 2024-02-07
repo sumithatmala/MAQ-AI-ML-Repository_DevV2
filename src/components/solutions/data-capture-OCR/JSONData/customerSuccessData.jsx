@@ -1,31 +1,27 @@
-// import gamedev from "../../natural-language-model/img/gamedev.webp"
-// import cosmetics from "../../natural-language-model/img/cosmetics.webp"
-// import customerAnalysis from "../../natural-language-model/img/customerAnalysis.webp"
-// import analytics from "../../natural-language-model/img/analytics.webp"
+import travelT from "../img/travelTicket.jpg"
+import reciept from "../img/reciept.jpg"
+import brandV from "../img/brandVerif.jpg"
 
 const customerSuccessData = [
     {
-        title: "ML and NLP Models For Marketing & Advertising",
-        //image: <img src={cosmetics} alt="MML_NLP marketing ad" />,
+        title: "An OCR solution and API for secure infrared brand verification.",
+        image: <img src={brandV} alt="Verification made easy" />,
         description: [
-            "The client, a beauty company, faced challenges in managing and interpreting large amounts of data. They sought to leverage machine learning (ML) to automate data collection and gain insights.",
-            "This collaboration resulted in the client receiving tailored software solutions for efficient data collection and analysis, accurate customer behavior prediction, and comprehensive brand health tracking.",
+            "A country-based startup specializing in technologies for the security printing industry sought MAQ Softwares' machine learning consulting services and expertise in data management and AI software development. In response, the MAQ Software team delivered a Proof of Concept (PoC) to assess the capabilities of Computer Vision (OCR) tools in combating counterfeits for brands in the market."
         ],
     },
     {
-        title: "AI Customer Analytics Solution",
-        //image: <img src={customerAnalysis} alt="AI-Powered customer analytics" />,
+        title: "An OCR-based solution for extracting data from receipts.",
+        image: <img src={reciept} alt="Reciept analysis using OCR" />,
         description: [
-            "A medium-sized FMCG company based in the US sought a natural language processing service provider to assist with data collection and analysis.",
-            "In response, we delivered a comprehensive solution encompassing a data analysis pipeline for extracting insights. This software facilitates rapid and precise mining and analysis of email and audio data, meeting the client's needs effectively.",
+            "The Client supplied the MAQ Software team with a mobile application designed for storing digital receipts. The challenge was to enhance this app by implementing machine learning. Our data scientists used optical character recognition technology to train an algorithm for extracting key data from raw images, enhancing image quality through classical computer vision methods."
         ],
     },
     {
-        title: "Customer Review Analytics Solution for E-commerce",
-        //image: <img src={analytics} alt="E-commerce analytics solution" />,
+        title: "Utilizing image analysis to improve ticket processing software.",
+        image: <img src={travelT} alt="Ticket analysis using OCR" />,
         description: [
-            "A major US-based e-commerce platform was in search of a vendor offering natural language processing services. Their goal was to gain insights into their products and services to enhance their marketing campaigns.",
-            "This solution enabled the client to leverage advanced analytics for informed decision-making, leading to more effective marketing strategies and improved customer satisfaction.",
+            "MAQ Software offered consulting services for a machine learning and computer vision (OCR) solution. The Client tasked us with creating a solution for automated digitization of travel cheques, which necessitates a substantial dataset."
         ],
     },
 ];

@@ -15,7 +15,8 @@ import demoVideo from './demos/SessionInformationBot.mp4'
 
 const iconSize = {
     height: "3rem", 
-    width: "3rem"
+    width: "3rem",
+    color: "#dc848d"
 }
 
 export const SessionInformationBot = {
@@ -26,24 +27,24 @@ export const SessionInformationBot = {
     ],
     targetUsers: [
       {
-        name: "Attendees",
-        caption: "Primary users who attend various sessions, events might need to reference the session content later for better understanding",
-        icon: <MdGroups style={iconSize}/>,
+        title: "Attendees",
+        description: "Primary users who attend various sessions, events might need to reference the session content later for better understanding",
+        iconSrc: <MdGroups style={iconSize}/>,
       },
       {
-        name: "Analysts",
-        caption: "Need to gather insights, track progress and look for improvements",
-        icon: <PsychologyIcon style={iconSize}/>,
+        title: "Analysts",
+        description: "Need to gather insights, track progress and look for improvements",
+        iconSrc: <PsychologyIcon style={iconSize}/>,
       },
       {
-        name: "Training Teams",
-        caption: "Responsible for organizing and managing the sessions. Facilitates efficient knowledge management and sharing",
-        icon: <CastForEducationIcon style={iconSize}/>,
+        title: "Training Teams",
+        description: "Responsible for organizing and managing the sessions. Facilitates efficient knowledge management and sharing",
+        iconSrc: <CastForEducationIcon style={iconSize}/>,
       },
       {
-        name: "Administrators",
-        caption: "Maintain the record of sessions, transcripts available for usage of various teams",
-        icon: <GrUserAdmin style={iconSize} />,
+        title: "Administrators",
+        description: "Maintain the record of sessions, transcripts available for usage of various teams",
+        iconSrc: <GrUserAdmin style={iconSize} />,
       },
     ],
     businessOutcomes: [
@@ -125,6 +126,9 @@ export const SessionInformationBot = {
     ],
     demo: {
       link: {demoVideo},
+    },
+    tryit: {
+        link: ""
     },
     // gallery: [
     //             {

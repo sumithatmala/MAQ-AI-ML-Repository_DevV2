@@ -17,19 +17,19 @@ import ContactForm from '../../solutions/common/contactForm';
 const SportWellness =() =>{
     return (
         <>
-        <Banner BannerData={BannerData}/>
-        <div className="Container-SportWellness">
-          <section className="WelcomeMsg">
-              <h2>Areas of Expertise</h2>
-              <p>Unleash Peak Performance & Holistic Wellness through AI-Powered Solutions. Optimize your journey towards athletic excellence and sustainable well-being with our cutting-edge, AI-driven offerings designed to tackle critical challenges in the Sports & Wellness landscape.</p>
-          </section>
-          <AlternateBanner banners={AlternateBannerData} count={1} ContactBtn={true}/>
-          <OneCardCoursal items={OneCardData}/>
+          <Banner BannerData={BannerData}/>
+          <div className="InfoVisual">
+            <section className="WelcomeMsg">
+                <h2>Areas of Expertise</h2>
+                <div className='text-block-center'>Unleash Peak Performance & Holistic Wellness through AI-Powered Solutions. Optimize your journey towards athletic excellence and sustainable well-being with our cutting-edge, AI-driven offerings designed to tackle critical challenges in the Sports & Wellness landscape.</div>
+            </section>
+            <AlternateBanner banners={AlternateBannerData} count={1} ContactBtn={true}/>
           </div>
+          <OneCardCoursal items={OneCardData}/>
+          <BusinessCases items={{item: BusinessCasesData, NoCards:3, title: "How We Can Assist You", caption: "Delivering valuable services tailored to sports organizations and businesses."}}/>
           <div className="Container-ir">
             <Grid content={benefitCards}/>
           </div>
-          <BusinessCases items={{item: BusinessCasesData, title: "Pros of Implementing AI Software in Logistics and Transportation"}}/>
           <CustomerSuccess items={CutomerSuccessData} heading="Customer Success"/>
           <ContactForm />
         </>

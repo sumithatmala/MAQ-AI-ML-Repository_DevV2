@@ -14,10 +14,14 @@ const CustomerSuccess = (props) => {
   const slidesToShow = props.slidesToShow || defaultSlidesToShow;
 
   const settings = {
+    
     infinite: true,
     speed: 500,
     slidesToShow: slidesToShow,
+    // centerMode: true,
+    autoplay: true,
     slidesToScroll: 1,
+    slidesToShow: 3,
     dots: false,
     responsive: [
       {
@@ -43,6 +47,7 @@ const CustomerSuccess = (props) => {
         className="slick-list1 draggable fade-in product-overview d-flex justify-content-center "
         style={{ backgroundColor: "white", height: "auto" }}
       >
+        <h3 class="head-block-center">{props.heading}</h3>
         <Slider {...settings}>
           {items.map((outcome, index) => (
             <div className="separate-slider__item" key={index}>

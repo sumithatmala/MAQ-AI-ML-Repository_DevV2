@@ -457,7 +457,7 @@ nav a {
 
 .btn {
   padding: 1.3rem;
-  display: inline-block;
+  /* display: inline-block; */
   border: 2px solid var(--main-color);
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
@@ -1693,7 +1693,3 @@ button.bg-dark:focus {
   transition: opacity 1s ease; /* Add transition property */
 }
 
-.bulletStyle li::marker{
-  color:#453c90;
-  font-size: 150%;
-}

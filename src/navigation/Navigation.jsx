@@ -10,15 +10,12 @@ import SideBar from "../components/ui-elements/SideBar/SideBar";
 import ProductInformation from "../components/product-dashboard/ProductInformation";
 import '../css/style.css'
 import ScrollToTop from './ScrollToTop';
-
-//Vsuhil
 import PredictiveAnalytics from "../components/solutions/PredictiveAnalytics/PredictiveAnalytics";
 import TextAnalysis from "../components/solutions/textAnalysis/TextAnalysis";
 import ComputerVision from "../components/solutions/computerVision/ComputerVision";
 import ImageRecognition from "../components/solutions/imageRecognition/ImageRecognition";
 import DataCaptureOCR from "../components/solutions/data-capture-OCR/dataCaptureOCR";
-
-//Saurabh
+import Expertise from "../components/miscellaneous/Expertise/Expertise";
 import NaturalLanguageProcessing from "../components/solutions/natural-language-processing/naturalLanguageProcessing";
 import LargeLanguageModel from "../components/solutions/large-language-model/LargeLanguageModel";
 import ConsumerSentimentAnalysis from "../components/solutions/ConsumerSentimentAnalysis/ConsumerSentimentAnalysis";
@@ -27,7 +24,13 @@ import RecommendationSystems from "../components/solutions/RecommendationSystems
 import Retail from "../components/industries/Retail/Retail";
 import Logistics from "../components/industries/Logistics/Logistics";
 import AISolutionsEcommerce from "../components/industries/AISolutionsEcommerce/AISolutionsEcommerce";
-import Fintech from "../components/industries/Fintech/Fintech";
+import Fintech from "../components/industries/Fintech/Fintech";import Automotive from "../components/industries/Automotive/Automotive";
+import GameEntertainment from "../components/industries/GameEntertainment/GameEntertainment";
+
+import MarTech from "../components/industries/MarTech/MarTech";
+
+
+
 import SportWellness from "../components/industries/SportWellness/SportWellness";
 const Navigation = () => {
   return (
@@ -61,6 +64,10 @@ const Navigation = () => {
           <Route path="/Industries/Retail" element={<Retail />} />
           <Route path="/Industries/RecommendationSystems" element={<RecommendationSystems/>} />
           <Route path="/Industries/Fintech" element={<Fintech/>} />
+          <Route path="/Expertise" element={<Expertise/>} />
+          <Route path="/Industries/MarTech" element={<MarTech/>} />
+          <Route path="/Industries/Automotive" element={<Automotive/>} />
+          <Route path="/Industries/GameEntertainment" element={<GameEntertainment/>} />
           <Route path="/Industries/SportWellness" element={<SportWellness/>} />
           <Route path="*" element={<NotFound />} />
         </Route>

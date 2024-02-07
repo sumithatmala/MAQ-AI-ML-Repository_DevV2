@@ -1,9 +1,8 @@
 import React from "react";
-
-import { MdGroups } from "react-icons/md";
-import PsychologyIcon from '@mui/icons-material/Psychology';
-import CastForEducationIcon from '@mui/icons-material/CastForEducation';
-import { GrUserAdmin } from "react-icons/gr";
+import { FaBusinessTime } from "react-icons/fa";
+import { BiAnalyse } from "react-icons/bi";
+import { MdOutlineSupportAgent } from "react-icons/md";
+import { GrUserManager } from "react-icons/gr";
 import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
 import QueryStatsIcon from '@mui/icons-material/QueryStats';
 import { MdManageHistory } from "react-icons/md";
@@ -13,11 +12,12 @@ import SchoolIcon from '@mui/icons-material/School';
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import SpeedIcon from '@mui/icons-material/Speed';
 import OutputIcon from '@mui/icons-material/Output';
-// import demoVideo from './demos/SmartSupportFramework.mp4';
+import demoVideo from './demos/SmartSupportFramework.mp4';
 
 const iconSize = {
     height: "3rem",
-    width: "3rem"
+    width: "3rem",
+    color: "#dc848d"
 }
 
 export const TriviaBot = {
@@ -26,28 +26,28 @@ export const TriviaBot = {
     BusinessCase: [
         "Addressing sales challenges, Trivia Bot revolutionizes customer engagement through an interactive trivia generator, offering a gamified learning experience that efficiently gathers insights on specific topics, providing sales teams with a novel approach for enhanced interaction and knowledge acquisition.",
     ],
-    // targetUsers: [
-    //     {
-    //         name: "Ticket Requester",
-    //         caption: "Users who submit support tickets and seek timely and accurate assistance.",
-    //         icon: <MdGroups style={iconSize} />,
-    //     },
-    //     {
-    //         name: "Support Representative",
-    //         caption: "Support Engineers who are responsible for managing and resolving support tickets.",
-    //         icon: <PsychologyIcon style={iconSize} />,
-    //     },
-    //     {
-    //         name: "Support Manager",
-    //         caption: "Leads or supervisors overseeing support teams, ensuring efficient ticket resolution and customer satisfaction.",
-    //         icon: <CastForEducationIcon style={iconSize} />,
-    //     },
-    //     {
-    //         name: "System Administrator",
-    //         caption: "Administrators responsible for configuring and maintaining the support ticket management system.",
-    //         icon: <GrUserAdmin style={iconSize} />,
-    //     },
-    // ],
+    targetUsers: [
+        {
+            title: "Marketing Manager",
+            description: "Seeking innovative ways to engage customers and gather insights for sales strategies.",
+            iconSrc: <FaBusinessTime style={iconSize} />,
+        },
+        {
+            title: "Data Analyst",
+            description: "Utilizing customer engagement data collected by Trivia Bot to derive actionable insights.",
+            iconSrc: <BiAnalyse style={iconSize} />,
+        },
+        {
+            title: "Customer Experience Specialist",
+            description: "Focusing on enhancing customer interaction and satisfaction through engaging experiences.",
+            iconSrc: <MdOutlineSupportAgent style={iconSize} />,
+        },
+        {
+            title: "Product Manager",
+            description: "Monitoring user engagement metrics and using insights to optimize the Trivia Bot experience.",
+            iconSrc: <GrUserManager style={iconSize} />,
+        },
+    ],
     businessOutcomes: [
         {
             outcome: "Increased Customer Engagement",
@@ -122,9 +122,12 @@ export const TriviaBot = {
     //   ],
       
     
-    // demo: {
-    //     // link: { demoVideo2 },
-    // },
+    demo: {
+        link: { demoVideo },
+    },
+    tryit: {
+        link: ""
+    },
     FAQs : [
         {
           question: "What is the purpose of the Trivia Bot?",

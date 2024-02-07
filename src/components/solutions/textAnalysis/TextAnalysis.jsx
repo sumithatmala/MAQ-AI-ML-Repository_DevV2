@@ -1,7 +1,7 @@
-import headerImg from "./visuals/text-analysis.svg"
-import "./TextAnalysis.css"
+import headerImg from "./img/text-analysis.svg"
+import "./css/TextAnalysis.css"
 import { Link } from "react-router-dom";
-import { learnMoreItems, Banners, SpecialCards } from "./visuals/LearnMoreList";
+import { learnMoreItems, Banners, SpecialCards } from "./JSON/LearnMoreList";
 import ContactForm from "../common/contactForm";
 import AlternateBanner from "../common/alternateBanner";
 import SpecialContainer from "../common/specializationCards";
@@ -10,14 +10,14 @@ const TextAnalysis = () => {
     return (
         <>
             <div className="HeaderVisual">
-                <h1>AI-powered text analysis software</h1>
-                <h2>We use state-of-the-art natural language processing techniques to extract more value from your text data</h2>
+                <h1>AI-driven text analysis software.</h1>
+                <h2>We employ cutting-edge natural language processing techniques to maximize the value extracted from your text data.</h2>
                 <img src={headerImg} alt="Text analysis banner" className="cropSvg"/>
             </div>
             <div className="InfoVisual">
                 <div className="HeaderBox">
-                    <h1>Text analysis software built with your unique requirements in mind</h1>
-                    <p>We build custom text analysis software that helps you extract meaning from text data and speed up reporting and analysis. We use our proprietary natural language processing technology to accelerate project delivery for our customers. Our NLP solutions were designed to propel your customer-centric initiatives such as customer feedback analysis, customer support automation, information access, semantic search.</p>
+                    <h1>Text analysis software customized to meet your specific needs.</h1>
+                    <p>We develop tailored text analysis software that extracts meaning from text data, enhancing reporting and analysis speed. Our proprietary natural language processing (NLP) technology accelerates project delivery for our customers. Our NLP solutions are designed to drive customer-centric initiatives such as customer feedback analysis, customer support automation, information access, and semantic search.</p>
                 </div>
                 <div className="LearnMoreList">
                     <ul>

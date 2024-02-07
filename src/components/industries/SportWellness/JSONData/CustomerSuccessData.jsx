@@ -1,42 +1,37 @@
-import freight_rate_prediction_software from "../img/freight-rate.jpg"
-import ocr_solution_invoice_processing from "../img/ocr-solution.jpg"
-import implementing_ai_iot_based_healthcare_app from "../img/implementing-ai.jpg"
-import image_analysis_enhance_ticket_processing_sw from "../img/image-analysis.jpg"
+import fitness_slider_2 from "../img/fitness-slider-2.jpg"
+import fitness_slider_1 from "../img/fitness-slider-1.jpg"
+import fitness_slider_3 from "../img/fitness-slider-3.jpg"
 
 const CustomerSuccessData = [
   {
-    title: "Enhancing Freight Rate Predictions for Logistics and Supply Chain",
-    image: <img src={freight_rate_prediction_software} alt="Freight Rate Prediction Software" />,
+    title: "Enhanced Pose Estimation for Fitness and Physical Therapy Apps",
+    image: <img src={fitness_slider_2} alt="fitness_slider_2" />,
     description: [
-      "Our solution aids a renowned logistics firm in making precise freight rate forecasts, streamlining operations and empowering forwarding managers.",
-      "Through machine learning, we've doubled the accuracy of freight quote predictions, reduced errors, and accelerated decision-making processes.",
+      <b>Boosted pose estimation accuracy and error detection by 64%.</b>,
+      "Our team at InData Labs was tasked with refining pose estimation accuracy and implementing error-detection algorithms for a client in the fitness and physical therapy sector.",
+      "Leveraging deep learning techniques, we significantly improved pose estimation accuracy and successfully integrated AI-driven algorithms into the client’s application, enhancing overall performance.",
     ],
   },
   
   {
-    title: "Streamlining Invoice Processing with OCR Technology",
-    image: <img src={ocr_solution_invoice_processing} alt="OCR Solution for Invoice Processing" />,
+    title: "Advanced Activity Recognition Using Accelerometer Data",
+    image: <img src={fitness_slider_1} alt="fitness_slider_1" />,
     description: [
-      "We've equipped a logistics company with custom OCR software to enhance image recognition and automate manual data processing tasks.",
-      "This solution has significantly boosted productivity by automating document processing and registration, saving valuable time and resources.",
+      <b>Increased the accuracy of an activity recognition model by 48%.</b>,
+      "Working with a global IoT company, we developed sophisticated human activity recognition models utilizing accelerometer data to predict intense moments in sports games.",
+      "Our models accurately classify human actions in real-time, providing valuable insights for enhancing sports performance and analysis.",
     ],
   },
   {
-    title: "Improving IoT-Based Healthcare Applications with AI",
-    image: <img src={implementing_ai_iot_based_healthcare_app} alt="AI in IoT Healthcare" />,
+    title: "Optimizing Fitness Apps with Deep Learning Models",
+    image: <img src={fitness_slider_3} alt="fitness_slider_3" />,
     description: [
-      "Our AI integration into an IoT healthcare app enhances data analysis and personalizes notifications for improved employee well-being and workplace safety.",
-      "By leveraging machine learning, we've enabled the client to merge AI and IoT seamlessly, resulting in better care and reduced workplace risks.",
-    ],
-  },
-  {
-    title: "Optimizing Ticket Processing with Image Analysis",
-    image: <img src={image_analysis_enhance_ticket_processing_sw} alt="Ticket Processing with Image Analysis" />,
-    description: [
-      "We've helped a train operator automate ticket processing by developing an OCR model for ticket recognition and analysis.",
-      "This solution eliminates manual processes, improves efficiency, and reduces labor costs, ensuring seamless ticket management for the client.",
+      <b>Improved application performance by 19% through innovative deep neural networks.</b>,
+      "Partnering with a fitness tech startup, we deployed customized convolutional neural networks (CNNs) to detect human activity and identify errors in real-time within their fitness application.",
+      "Our tailored solutions have significantly enhanced user experience and operational efficiency, driving greater engagement and satisfaction.",
     ],
   },
 ];
+
 
 export default CustomerSuccessData;

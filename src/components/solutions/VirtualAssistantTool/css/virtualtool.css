@@ -225,9 +225,9 @@ body {
 }
 
 .block__action .btn-empty {
-    display: inline-block;
+    /* display: inline-block; */
     min-height: 50px;
-    padding: 14px 25px;
+    /* padding: 14px 25px; */
     border: 1px solid #453c90;
     margin: 0 auto;
     color: #141414;
