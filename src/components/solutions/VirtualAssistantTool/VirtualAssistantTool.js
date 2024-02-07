@@ -31,22 +31,6 @@ const VirtualAssistantTool = () => {
         </div>
       </section>
 
-      {/* <div className="video">
-        <h2 className="aurora">
-          Meet Aurora Borea, our chatbot for intelligent customer support
-        </h2>
-        <iframe
-          style={{ display: "block", margin: "0 auto 100px", maxWidth: "100%" }}
-          width="800"
-          height="450"
-          src="https://www.youtube.com/embed/LM6yn09axSc?si=BAXVPXV3aYjitC2V"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        ></iframe>
-      </div> */}
-
 
 
       <KeyFeaturesSection />

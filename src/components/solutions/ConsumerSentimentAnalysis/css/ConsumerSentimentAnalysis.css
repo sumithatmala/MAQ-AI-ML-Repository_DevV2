@@ -115,7 +115,7 @@
 .section-text-image__description{
     font-size: 16px;
     line-height: 27px;
-    font-weight: 300;
+    /* font-weight: 300; */
     
 }
 .industries__inner{
