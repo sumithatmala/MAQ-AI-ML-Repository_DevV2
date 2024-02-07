@@ -36,13 +36,13 @@
     padding: auto;
     /* border: 2px #443c90a8 solid; */
     border-radius: 8px;
-    box-shadow: 0px 3px 12px 0px #b9091b4f;
+    box-shadow: 0px 3px 12px 0px #c8c5dd;
     padding: 10px;
     transition: 0.3s;
 }
 
 .ServiceGridCard:hover{
-    box-shadow: 0px 6px 24px 0px #b9091b4f;
+    box-shadow: 0px 6px 24px 0px #c8c5dd;
 }
 
 .ServiceGridCard-noImg {
