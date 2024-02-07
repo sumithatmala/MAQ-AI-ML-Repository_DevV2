@@ -36,6 +36,9 @@ const Navigation = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
+        <Route path="/" element={<Expertise />} />
+
+        <Route path="/Expertise" element={<Expertise />} />
           {/* <Route path="/" element={<HomePage />} /> */}
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route
@@ -85,7 +88,7 @@ const Navigation = () => {
             element={<RecommendationSystems />}
           />
           <Route path="/Industries/Fintech" element={<Fintech />} />
-          <Route path="/" element={<Expertise />} />
+          
           <Route path="/Industries/MarTech" element={<MarTech />} />
           <Route path="/Industries/Automotive" element={<Automotive />} />
           <Route
