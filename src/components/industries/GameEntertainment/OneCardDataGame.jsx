@@ -1,47 +1,38 @@
-import anamoly from '../Automotive//icons/anomaly-detection-crash-simulation.jpg';
-import pointernet from '../Automotive//icons/pointerNet.jpg';
-import selfSupervised from '../Automotive//icons/self-supervised-classification.jpg';
-import rlAgent from '../Automotive//icons/rlAgent.jpg';
-import simulation from '../Automotive//icons/intelligent-finite-element.jpg';
+import eye from "./icons/eyeTrack.jpg";
+import face from "./icons/FacialEmotion.jpg";
+import pose from "./icons/PoseEstimation.webp";
 
-
-const OneCardDataGame = [
+const OneCardDataAI = [
   {
-    title: 'Anomaly Detection in Collision Simulation',
-    image: <img src={anamoly} alt="pa_customer_churn_prediction" />,
+    title: "AI-Powered Eye Tracking for Enhanced Gaming Experience",
+    image: (
+      <img src={eye} alt="AI-Based Eye Tracking to Enhance Gaming Experience" />
+    ),
     description: [
-      'Our group of AI engineers applies anomaly detection algorithms to identify undesired behavior in collision simulations. This AI automotive approach assists in anticipating abnormal behavior in simulations for design assessment and certification.',
-    ],
-  },
-  
-  {
-    title: 'Unsupervised Low-Dimensional Representation',
-    image: <img src={pointernet} alt="pa_inventory_management" />,
-    description: [
-      'We assist manufacturers in data-driven virtual product design. We calculate an unsupervised low-dimensional representation of collision simulations to visualize the collision behavior of different simulations. Utilizing geometric deep learning algorithms, we achieve remarkable visualization accuracy.',
+      "Looking to elevate your PC gaming experience? Explore tailored eye recognition and tracking software. Enhance gameplay by controlling the in-game camera with your gaze, providing players with freedom of movement and complete immersion in the gaming environment.",
     ],
   },
   {
-    title: 'Self-Supervised Classification',
-    image: <img src={selfSupervised} alt="pa_price_analysis" />,
+    title: "AI Facial Emotion Recognition for Personalized Gaming",
+    image: (
+      <img
+        src={face}
+        alt="AI Facial Emotion Recognition for Personalized Gaming"
+      />
+    ),
     description: [
-      'We introduce self-supervised methods that categorize deformation behavior in collision analysis. This model learns from a few training sample simulations to identify abnormal behavior, resulting in a sufficient number of 1-4 simulations per class.',
+      "Seeking strategies to boost player retention? Experiment with AI-driven emotion recognition. Identify players’ emotions and adapt gameplay based on individual personalities and moods using biometric facial recognition algorithms. Real-time recognition of emotions such as joy, rage, astonishment, antipathy, and fear adds a personalized touch to games and maximizes enjoyment.",
     ],
   },
   {
-    title: 'Geometry Optimization Using RL',
-    image: <img src={rlAgent} alt="pa_price_analysis" />,
+    title: "Pose Estimation for Body Movement in Gaming",
+    image: (
+      <img src={pose} alt="Pose Estimation for Body Movement in Video Games" />
+    ),
     description: [
-      'Collaborating with us, our clients obtain optimized geometry for improved collision behavior. We parameterize the model under consideration and employ RL to optimize the geometry, leading to increased energy absorption in collision analysis.',
-    ],
-  },
-  {
-    title: 'Intelligent Finite Element',
-    image: <img src={simulation} alt="pa_price_analysis" />,
-    description: [
-      'Our team of AI developers constructs a model for real-time structural simulation of a plate under a given load and BCs. The model captures spatiotemporal patterns to predict stress for a simple component under boundary conditions over a set period.',
+      "Capture and analyze player movements during video games with pose estimation and tracking. This technology provides real-time location of human skeletal joints, recognition of human motion, and detailed analysis. Whether in sports or dance video games, estimate players’ moves and determine the winner. Enhance the gaming experience with immersive and fun AI game solutions.",
     ],
   },
 ];
 
-export default OneCardDataGame;
+export default OneCardDataAI;

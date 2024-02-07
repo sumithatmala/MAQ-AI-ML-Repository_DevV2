@@ -29,6 +29,8 @@ import Logistics from "../components/industries/Logistics/Logistics";
 import AISolutionsEcommerce from "../components/industries/AISolutionsEcommerce/AISolutionsEcommerce";
 import Fintech from "../components/industries/Fintech/Fintech";import Automotive from "../components/industries/Automotive/Automotive";
 import GameEntertainment from "../components/industries/GameEntertainment/GameEntertainment";
+import HealtcarePharma from "../components/industries/HealthcarePharma/HealthcarePharma";
+
 
 const Navigation = () => {
   return (
@@ -36,6 +38,7 @@ const Navigation = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
+          <Route path="/" element={<HealtcarePharma />} />
           {/* <Route path="/" element={<GameEntertainment />} />
           <Route path="/" element={<Automotive />} /> */}
           <Route path="/" element={<HomePage />} />

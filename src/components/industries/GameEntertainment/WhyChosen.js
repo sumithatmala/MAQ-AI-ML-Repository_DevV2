@@ -1,24 +1,28 @@
 import React from 'react';
+import './css/WhyChosen.css';
+import preson from './icons/persontalking.svg';
+import ai from './icons/linkCircle.svg';
+import mobile from './icons/mobile.svg';
 
 const WhyChooseSection = () => {
   const servicesData = [
     {
-      iconSrc: 'https://indatalabs.com/wp-content/uploads/2021/04/icon-consulting-3.svg',
+      iconSrc: preson,
       altText: 'consulting',
-      title: 'Consulting',
-      description: 'Need a recommender system to increase in-app purchases? Or want to implement ChatGPT into your gaming business? Talk to our AI experts to see how we can help.',
+      title: 'Consulting Services',
+      description: 'Require a recommender system to boost in-app purchases? Or looking to integrate ChatGPT into your gaming business? Consult with our AI specialists to explore how we can assist you.',
     },
     {
-      iconSrc: 'https://indatalabs.com/wp-content/uploads/2021/04/icon-ai-white-alt.svg',
+      iconSrc: ai,
       altText: 'AI Game Solutions',
-      title: 'Artificial Intelligence in Game Development',
-      description: 'Planning to utilize AI in the gaming industry? Let us apply our expertise for your game to make it onto the top charts and bring insane profits.',
+      title: 'Artificial Intelligence in Game Development Solutions',
+      description: 'Considering the implementation of AI in the gaming industry? Let us leverage our expertise for your game, ensuring it climbs the charts and generates substantial profits.',
     },
     {
-      iconSrc: 'https://indatalabs.com/wp-content/uploads/2021/04/icon-phones-alt.svg',
-      altText: 'AI Game',
-      title: 'Mobile Gaming Analytics',
-      description: 'Use Machine Learning models for smart player analysis. Extract insights from gameplay data for player behavior prediction.',
+      iconSrc: mobile,
+      altText: 'Mobile Gaming AI',
+      title: 'Mobile Gaming AI Analytics',
+      description: 'Employ Machine Learning models for intelligent player analysis. Extract meaningful insights from gameplay data to predict player behavior.',
     },
   ];
 

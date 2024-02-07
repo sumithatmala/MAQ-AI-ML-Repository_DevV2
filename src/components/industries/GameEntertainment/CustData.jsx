@@ -1,49 +1,49 @@
 const CustData = [
   {
-    title: "Customer Feedback Analysis Automation for Game Developer",
+    title: "Automated Customer Feedback Analysis for Game Developers",
     image: (
       <img
         src="https://indatalabs.com/wp-content/uploads/2021/05/customer-feedback-analysis-automation.jpg"
-        alt="Customer Feedback Analysis Automation for Game Developer"
+        alt="Automated Customer Feedback Analysis for Game Developers"
         style={{ height: "230px" }}
       />
     ),
     description: [
-      "Topic retrieval and classification automation",
-      "The client is a well-known game developer. They needed an AI solution for game developers.",
-      "Our team built a customer feedback collection tool that enables game slang collection and analysis.",
+      "Automation of topic retrieval and classification",
+      "Our client, a renowned game developer, sought an AI solution for analyzing customer feedback.",
+      "Our team developed a tool for collecting and analyzing game slang in customer feedback, streamlining the analysis process.",
     ],
     link: "https://indatalabs.com/resources/customer-feedback-analysis-software",
   },
   {
-    title: "Emotion Recognition for Personalized Game Experience for Kids",
+    title: "Emotion Recognition for Customized Gaming Experience for Children",
     image: (
       <img
         src="https://indatalabs.com/wp-content/uploads/2021/02/Building-Predictive-Analytics-Module.jpg"
-        alt="Emotion Recognition for Personalized Game Experience for Kids"
+        alt="Emotion Recognition for Customized Gaming Experience for Children"
         style={{ height: "230px" }}
       />
     ),
     description: [
-      "Personalized learning and working memory enhanced",
-      "The client is a US private elementary school. They wanted to implement into their kid brain trainer emotion recognition so to better identify emotions and offer personalized exercises.",
-      "We integrated an AI model into the app for fast face recognition and analysis. Thanks to the app, kids get exercises per their mood and develop cognitive skills.",
+      "Enhanced personalized learning and improved working memory",
+      "Our client, a private elementary school in the US, aimed to implement emotion recognition in their brain training app for children.",
+      "We integrated an AI model for fast face recognition and analysis, allowing the app to offer exercises tailored to children's emotions, promoting cognitive skill development.",
     ],
-    link: "<https://indatalabs.com/resources/customer-feedback-analysis-software>",
+    link: "https://indatalabs.com/resources/customer-feedback-analysis-software",
   },
   {
-    title: "Winner Predictor Technology for Game Developer",
+    title: "Game Results Prediction Technology for Game Developers",
     image: (
       <img
         src="https://indatalabs.com/wp-content/uploads/2021/05/winner-predictor-technology-for-game-developer.jpg"
-        alt="Winner Predictor Technology for Game Developer"
+        alt="Game Results Prediction Technology for Game Developers"
         style={{ height: "230px" }}
       />
     ),
     description: [
-      "Enhanced calculation of winning probabilities",
-      "The client is a well-known game developer. They requested an AI solution that uses data to predict the game results.",
-      "Our team implemented the technology that based on the process replays, filtering and clustering data calculates the winning probabilities as well as visualises the results.",
+      "Improved calculation of winning probabilities",
+      "Our client, a well-known game developer, requested an AI solution for predicting game results using data.",
+      "Our team implemented technology that, based on process replays, filters and clusters data to calculate winning probabilities and visualize the results.",
     ],
     link: "https://indatalabs.com/resources/customer-feedback-analysis-software",
   },
