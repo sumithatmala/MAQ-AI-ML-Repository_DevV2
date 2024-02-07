@@ -1,11 +1,6 @@
-import Elevate from "../img/Elevate.webp";
-import Revolutionize from "../img/Revolutionize.png";
-import Streamline from "../img/Streamline.png";
-import Boost from "../img/Boost.jpg";
-// import context from "../img/context-aware.jpg";
-// import customer from "../img/customer.jpg";
-// import dataCollection from "../img/dataCollection.jpg";
-// import sentiment from "../img/sentiment.jpg";
+import Pose_Estimation from "../img/Pose-Estimation.png";
+import AI_Powered_Sports from "../img/AI-Powered-Sports.png";
+import AI_fanengagement from "../img/AI-fanengagement.webp";
 
 const bannerData = [
     {
@@ -18,7 +13,17 @@ const bannerData = [
             "Increased engagement: Gamified experiences and personalized support boost motivation.",
             "Improved outcomes: Achieve optimal results in physical therapy, fitness, and safety."
         ],
-        img: <img src= {Elevate} height="550px" width = "400px" alt= "ChatGPT"></img>,
+        img: <img src= {Pose_Estimation} height="550px" width = "400px" alt= "ChatGPT"></img>,
+    },
+    {
+        heading: "AI-Powered Sports Performance Analysis", 
+        details: "Elevate your team's performance using cutting-edge predictive analytics tailored for sports. Harness AI to delve into player performance, skill assessment, and injury prediction, optimizing training regimes for peak results. Moreover, leverage data mining to forecast ticket sales, ensuring optimal pricing strategies and maximizing stadium occupancy for enhanced revenue generation.",
+        img: <img src= {AI_Powered_Sports} height="550px" width = "400px" alt= "ChatGPT"></img>,
+    },
+    {
+        heading: "AI-Driven Fan Engagement Analysis", 
+        details: "Harness the power of NLP to understand fan sentiment on social media platforms effortlessly. Segment your audience by demographics and interests to elevate fan engagement strategies. Gain valuable insights into competitor performance and stay ahead in the game with AI-powered sports solutions.",
+        img: <img src= {AI_fanengagement} height="550px" width = "400px" alt= "ChatGPT"></img>,
     },
 ];
 

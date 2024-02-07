@@ -23,8 +23,8 @@ const SportWellness =() =>{
               <h2>Areas of Expertise</h2>
               <p>Unleash Peak Performance & Holistic Wellness through AI-Powered Solutions. Optimize your journey towards athletic excellence and sustainable well-being with our cutting-edge, AI-driven offerings designed to tackle critical challenges in the Sports & Wellness landscape.</p>
           </section>
-            <AlternateBanner banners={AlternateBannerData} count={1} ContactBtn={true}/>
-            <OneCardCoursal items={OneCardData}/>
+          <AlternateBanner banners={AlternateBannerData} count={1} ContactBtn={true}/>
+          <OneCardCoursal items={OneCardData}/>
           </div>
           <div className="Container-ir">
             <Grid content={benefitCards}/>
