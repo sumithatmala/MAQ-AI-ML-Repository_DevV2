@@ -17,11 +17,11 @@ const CustomerSuccess = (props) => {
     
     infinite: true,
     speed: 500,
+    // passing the slides to show dynamically and default will be 3
     slidesToShow: slidesToShow,
     // centerMode: true,
     autoplay: true,
     slidesToScroll: 1,
-    slidesToShow: 3,
     dots: false,
     responsive: [
       {

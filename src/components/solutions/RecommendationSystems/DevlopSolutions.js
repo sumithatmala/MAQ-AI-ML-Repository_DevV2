@@ -1,5 +1,9 @@
 import React from 'react';
-import gif from  '../VirtualAssistantTool/Tools/bot.gif'; 
+// import gif from  '../VirtualAssistantTool/Tools/bot.gif'; 
+import sentiment from './Images/SentimentAna.gif';
+import purpose from './Images/purpose.gif';
+
+
 
 const FeatureItem = ({ title, description, gifSrc, alignRight }) => (
   <div className="section-text-image-inner" style={{ flexDirection: alignRight ? 'row-reverse' : 'row' }}>
@@ -30,7 +34,7 @@ const DevlopSolutions = () => {
         '25% quicker',
         'users can discover their desired content more efficiently',
       ],
-      gifSrc: gif,
+      gifSrc: sentiment,
     },
     {
       title: 'Purpose Recognition',
@@ -41,7 +45,7 @@ const DevlopSolutions = () => {
         'users can easily locate their desired products',
        
       ],
-      gifSrc: gif,
+      gifSrc: purpose,
     },
     
     
