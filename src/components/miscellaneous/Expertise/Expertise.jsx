@@ -6,7 +6,8 @@ import serviceGridData from "./JSON/serviceGridData";
 import customerSuccessData from "./JSON/customerSuccessData";
 import { backBannerData_1,backBannerData_2 } from "./JSON/backbannerData";
 import blogData from "./JSON/blogData";
-import showcaseBannerData from "./JSON/showcaseBannerData";
+import showcaseBannerIndustriesData from "./JSON/showcaseBannerIndustriesData";
+import showcaseBannerSolutionsData from "./JSON/showcaseBannerSolutionsData";
 
 //components
 import ExpertiseBanner from "./expertiseBanner";
@@ -27,7 +28,7 @@ const Expertise = () => {
             <BackgroundBanner items={backBannerData_1} alignType={"center"} width={"800px"}/>
             <IncreasingCards items={whyWorkWithUsData} title={"Why You Should Choose Us"} showShadow={false}/>
             <BackgroundBanner items={backBannerData_2} alignType={"start"} width={"1000px"}/>
-            <ShowcaseBanner items={showcaseBannerData}/>
+            <ShowcaseBanner item1={showcaseBannerIndustriesData} item2={showcaseBannerSolutionsData}/>
             <CustomerSuccess heading={"Our blogs"} items={blogData}/>
             <ContactForm contactMsg = {"Let's Talk About Your Project."}/>
         </>
