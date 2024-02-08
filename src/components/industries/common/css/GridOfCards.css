@@ -13,6 +13,9 @@
 }
 
 @media (min-width: 742px) {
+    .head-block-center{
+        /* margin-top: 30px; */
+    }
     .predict-use-cases {
         padding-top: 104px;
     }

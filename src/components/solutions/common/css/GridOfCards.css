@@ -215,3 +215,9 @@
         top: -7px;
     }
 }
+@media (max-width: 740px){
+    .predict-use-cases-list__list-item {
+        width: 85% !important ;
+        margin: 0 auto;
+    }
+}
