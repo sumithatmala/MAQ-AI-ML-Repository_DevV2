@@ -18,15 +18,12 @@ const GameEntertainment = () => {
             <div className="top">
               <div className="heading">
                 <span>
-                  Incorporating Artificial Intelligence in Automotive
-                  Manufacturing
+                AI-Powered Game Solutions
                 </span>
               </div>
               <div className="heading_inner">
                 <p>
-                  We assist manufacturers in integrating artificial intelligence
-                  into the automotive industry for intelligent and
-                  cost-effective vehicle production.
+                Elevating Your Game Development Business to Success.
                 </p>
               </div>
 

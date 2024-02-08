@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./css/accordian.css"
-import AccordianData from "../data-capture-OCR/JSONData/AccordianData";
 
 const Description = (props) => {
     return(
@@ -17,7 +16,7 @@ const Description = (props) => {
 
 const AccordionStatic = (props) => {
 
-    const [selected, setSelected] = useState(AccordianData[0]);
+    const [selected, setSelected] = useState(props.listItems[0]);
 
     return (
         <section className="AccordianContiner">

@@ -38,6 +38,7 @@
 .trinity__item.__w-25, .trinity__item.__w-30, .trinity__item.__w-33 {
     line-height: 27px;
     text-align: center;
+    padding: 0 10px;
 }
 .trinity__item.__w-33 {
     width: 33%;

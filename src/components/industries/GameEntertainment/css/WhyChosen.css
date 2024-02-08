@@ -1,0 +1,113 @@
+.whychoose-section {
+    border-bottom: 0;
+}
+@media (max-width: 1023px){
+.whychoose-section-inner {
+    padding: 34px 20px 40px;
+}}
+
+.page-type-ai-game .whychoose-section-inner {
+    max-width: 1120px;
+    padding: 20px;
+}
+.whychoose-section-inner {
+    max-width: 1140px;
+    padding: 34px 20px 80px;
+    margin: 0 auto;
+}
+.head-block-center {
+    margin: 0 auto 16px;
+}
+.text-block-center {
+    margin: 15px auto 20px;
+}
+.whychoose-section-list {
+    margin: 30px -10px 0;
+}
+
+.whychoose-section-list {
+    padding: 0;
+    margin: 0 -10px;
+    list-style-type: none;
+}
+ol, ul {
+    box-sizing: border-box;
+}
+.whychoose-section-list__list-item {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.whychoose-section-list__list-item {
+    padding: 10px;
+}
+.whychoose-section-list__item {
+    overflow: hidden;
+    padding: 12px;
+    border: 0;
+    border-radius: 7px;
+    box-shadow: inherit;
+    box-shadow: 0 4px 5px rgba(146,201,236,.2), 0 0 14px rgba(146,201,236,.12), 0 8px 10px rgba(146,201,236,.14);
+}
+
+.whychoose-section-list__item {
+    height: 100%;
+    padding: 20px;
+    border: 2px solid #dfe4ea;
+    border-radius: 6px;
+    text-align: center;
+}
+@media (max-width: 741px){
+.whychoose-section-list__icon {
+    margin: 5px auto 10px;
+}}
+
+.whychoose-section-list__icon {
+    width: 130px;
+    margin: 5px 15px 0 -75px;
+}
+.whychoose-section-list__icon {
+    display: block;
+    min-width: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    margin-left: auto;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
+.whychoose-section-list__text {
+    line-height: 27px;
+}
+.page-type-ai-game .whychoose-section-list__title {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.whychoose-section-list__description {
+    min-width: 0;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+.block__action {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+@media (min-width: 742px){
+.whychoose-section-list__list-item:nth-child(2) .whychoose-section-list__item:after {
+    right: 0;
+    bottom: 0;
+    background-image: none;
+}}
+@media (min-width: 742px){
+.whychoose-section-list__list-item:first-child .whychoose-section-list__item::after {
+    right: -3px;
+    bottom: -13px;
+    background-image: none;
+}}

@@ -1,21 +1,22 @@
-import gif from '../../solutions/VirtualAssistantTool/Tools/bot.gif';
+import nlp from './icons/nlp_sentiment.png';
+import retention from './icons/RetentionPrediction.png';
 
 const featuresData = [
     {
-      title: 'NLP for Aspect-Based Sentiment Analysis',
+      title: 'NLP for Feature-Based Sentiment Analysis',
       description: [
-        'Want to learn what players like about your games most? Collect data from forums and social media channels and analyze it in a few clicks. Gain insights to readjust your game development plans and player retention strategies with automated player review analysis.',
-        'Personalized human-like responses',
-        'Classify players’ reviews by topics such as interface, characters, game speed issues, music, etc. to understand the direction for further game development and improvements.',
+        'Curious to understand what users appreciate most about your applications? Gather insights from forums and social media platforms, then analyze the data effortlessly. Obtain valuable information to adapt your development plans and enhance user engagement with automated feature review analysis.',
+        'Tailored human-like responses',
+        'Categorize users’ feedback by topics such as user interface, characters, application speed issues, music, etc. to comprehend the path for further development and enhancements.',
       ],
-      gifSrc: gif,
+      gifSrc: nlp,
     },
     {
-      title: 'Predictive Analytics in Games for Player Churn Prediction',
+      title: 'Advanced Analytics in Applications for User Retention Prediction',
       description: [
-        'Want to boost your game revenue? Detect early signs of player churn to increase a player’s lifetime and revenue contribution with effective predictive analytics solutions in games. Analyze log data and player behavior to get valuable cues on game enjoyment and retention strategies. Incentivize high-value players or cross-link them to other games to maintain a stable income.',
+        'Seeking to maximize your application revenue? Identify early indicators of user attrition to extend a user’s engagement and revenue contribution with effective advanced analytics solutions. Scrutinize log data and user behavior for valuable insights into user satisfaction and retention strategies. Encourage high-value users or connect them with other applications to sustain a consistent income.',
       ],
-      gifSrc: gif,
+      gifSrc: retention,
     },
     
   ];

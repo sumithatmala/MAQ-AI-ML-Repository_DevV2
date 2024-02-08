@@ -106,7 +106,7 @@
 //   ];
 
 const NavigationLinks = [
-  { label: "Home", link: "./" },
+  // { label: "Home", link: "./" },
   { label: "Expertise", link: "./Expertise" },
   {
     label: "Products",
@@ -248,7 +248,7 @@ const NavigationLinks = [
     submenu: [
       {
         label: "Healthcare & Pharma",
-
+        link: "/Industries/Health&Pharma",
         icon: "/icons/framework.svg",
         alt: "frwk",
       },

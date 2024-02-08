@@ -158,7 +158,7 @@
 @media (min-width: 1280px) {
   .static-pos {
     top: 20%;
-    left: 25%;
+    left: 27%;
     position: absolute;
     display: grid !important;
     grid-template-columns: repeat(3, 1fr);

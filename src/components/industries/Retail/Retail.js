@@ -19,11 +19,11 @@ const Retail = () => {
           <div className="grids">
             <div className="top">
               <div className="heading">
-                <span>Tailored Sentiment Analysis Solutions for Your Project</span>
+                <span>Elevate Your Retail Presence with AI Innovations</span>
               </div>
               <div className="heading_inner">
                 <p>
-                  Leverage consumer interaction data at scale with our sentiment analysis services.
+                Surpass Competitors in the Retail Landscape through Advanced AI Solutions.
                 </p>
               </div>
               <div className="images">

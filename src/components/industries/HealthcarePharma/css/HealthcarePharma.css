@@ -10,11 +10,11 @@ body {
     line-height: 1.25;
 }
 
-/* *, :after, :before {
+*, :after, :before {
     box-sizing: inherit;
-} */
+}
 
-.automotivetool {
+.healthcare {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -29,7 +29,7 @@ body {
     left: 0;
     right: 0;
     top: 0;
-    background-image: url('../icons/industries-icon-game.svg');
+    background-image: url('../icons/industries-icon-healthcare-analytics.svg');
 }
 
 @media (min-width: 1280px){
@@ -65,4 +65,17 @@ body {
     display: block;
     width: 100%;
     border-radius: 8px;
+}
+.container_pharma {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.pharmaCarousel .separate-slider__img-figure{
+    height: 173px;
+}
+.pharmaCarousel .separate-slider__content{
+    height: 620px;
 }
