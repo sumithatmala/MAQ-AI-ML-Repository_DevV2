@@ -49,6 +49,11 @@ const industries = [
     image: biFinService,
     alt: "Financial Services",
   },
+  // {
+  //   title: "Sport & Wellness",
+  //   image: biFinService,
+  //   alt: "Sport & Wellness"
+  // },
   {
     title: "Retail & E-commerce",
     image: iconEcommerceAlt,

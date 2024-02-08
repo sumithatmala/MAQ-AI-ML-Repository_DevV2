@@ -1,8 +1,9 @@
 import React from "react";
 import './css/GridOfCards.css'
 
-const CaseItem = ({ iconSrc, altText, title, description, NoCards }) => (
-  <li className="predict-use-cases-list__list-item2" style={{ width: NoCards === 3 ? "33.33%" : "25%" }}>
+const CaseItem = ({ iconSrc, altText, title, description, sizeOfCard }) => (
+  
+  <li className="predict-use-cases-list__list-item2" style={{ width: `${sizeOfCard}%`, }}>
     <div className="predict-use-cases-list__item">
       <div className="predict-use-cases-list__icon">
         {iconSrc}
@@ -15,7 +16,7 @@ const CaseItem = ({ iconSrc, altText, title, description, NoCards }) => (
 
 const GridOfCards = (props) => {
   const { items, NoCards } = props;
-
+  const sizeOfCard = String(100/items.NoCards);
   return (
     <section className="main-cases">
       {items.title && <h2 className="head-block-center">{items.title}</h2>}
@@ -26,7 +27,7 @@ const GridOfCards = (props) => {
             <div className="predict-use-cases-list-wrapper __type-predict">
               <ul className="predict-use-cases-list">
                 {items.item.map((caseItem, index) => (
-                  <CaseItem key={index} NoCards={items.NoCards} {...caseItem}/>
+                  <CaseItem key={index} sizeOfCard={sizeOfCard} {...caseItem}/>
                 ))}
               </ul>
             </div>

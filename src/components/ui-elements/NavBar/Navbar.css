@@ -81,7 +81,7 @@
     position: relative;
     display: block;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
     color: inherit;
     text-decoration: none;
     &::after {
@@ -111,7 +111,7 @@
     align-items: center;
     color: inherit;
     font-size: 0.875rem;
-    font-weight: 400;
+    font-weight: 500;
     border: none;
     cursor: pointer;
     width: 100%;
@@ -158,7 +158,7 @@
 @media (min-width: 1280px) {
   .static-pos {
     top: 20%;
-    left: 25%;
+    left: 27%;
     position: absolute;
     display: grid !important;
     grid-template-columns: repeat(3, 1fr);

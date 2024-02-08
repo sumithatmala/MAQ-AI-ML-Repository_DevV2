@@ -27,10 +27,8 @@ import AISolutionsEcommerce from "../components/industries/AISolutionsEcommerce/
 import Fintech from "../components/industries/Fintech/Fintech";
 import Automotive from "../components/industries/Automotive/Automotive";
 import GameEntertainment from "../components/industries/GameEntertainment/GameEntertainment";
-
 import MarTech from "../components/industries/MarTech/MarTech";
-
-import HealtcarePharma from "../components/industries/HealthcarePharma/HealthcarePharma";
+import SportWellness from "../components/industries/SportWellness/SportWellness";import HealtcarePharma from "../components/industries/HealthcarePharma/HealthcarePharma";
 
 const Navigation = () => {
   return (
@@ -38,7 +36,10 @@ const Navigation = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
-          <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<Expertise />} />
+
+        <Route path="/Expertise" element={<Expertise />} />
+          {/* <Route path="/" element={<HomePage />} /> */}
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route
             path="/product/:productName"
@@ -87,7 +88,7 @@ const Navigation = () => {
             element={<RecommendationSystems />}
           />
           <Route path="/Industries/Fintech" element={<Fintech />} />
-          <Route path="/Expertise" element={<Expertise />} />
+          
           <Route path="/Industries/MarTech" element={<MarTech />} />
           <Route path="/Industries/Automotive" element={<Automotive />} />
           <Route
@@ -95,6 +96,7 @@ const Navigation = () => {
             element={<GameEntertainment />}
           />
           <Route path="/Industries/Health&Pharma" element={<HealtcarePharma />} />
+          <Route path="/Industries/SportWellness" element={<SportWellness/>} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

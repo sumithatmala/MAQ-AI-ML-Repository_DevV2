@@ -106,7 +106,7 @@
 //   ];
 
 const NavigationLinks = [
-  { label: "Home", link: "./" },
+  // { label: "Home", link: "./" },
   { label: "Expertise", link: "./Expertise" },
   {
     label: "Products",
@@ -135,6 +135,9 @@ const NavigationLinks = [
             link: "./product/SmartSupportFramework",
           },
           { label: "TriviaBot", link: "./product/TriviaBot" },
+          { label: "Support Ticket Assistant", link: "./product/SupportTicketAssistant" },
+          { label: "Sales Assistant", link: "./product/SalesAssistant" },
+          { label: "Test Case Recommender", link: "./product/TestCaseRecommender" },
         ],
       },
       {
@@ -251,7 +254,7 @@ const NavigationLinks = [
       },
       {
         label: "Sport & Wellness",
-
+        link: "/Industries/SportWellness",
         icon: "/icons/nlp.svg",
         alt: "nlp",
       },

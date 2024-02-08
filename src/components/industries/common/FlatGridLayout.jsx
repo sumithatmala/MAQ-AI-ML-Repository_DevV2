@@ -6,7 +6,7 @@ const FlatGridLayout = ({items, title, caption}) => {
     <section className="trinityContainer trinity _v2">
       <div className="trinityInner trinity__inner">
         <h2 className="centeredTitle head-block-center">{title?title: "Industries"}</h2>
-        {caption && <p style={{alignContent: "center",}}>{caption}</p>}
+        {caption && <div className='text-block-center'>{caption}</div>}
         <ul className="trinityList trinity__list">
           {items.map((industry, index) => (
             <li key={index} className="trinityItem trinity__item trinityItemWidth30 __w-30">
