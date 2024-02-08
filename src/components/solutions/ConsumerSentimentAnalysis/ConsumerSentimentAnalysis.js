@@ -1,18 +1,18 @@
 import "./css/toolinformations.css";
 import IndustriesList from "./IndustriesList";
-import './css/ConsumerSentimentAnalysis.css';
+import "./css/ConsumerSentimentAnalysis.css";
 import OurServices from "./OurServices";
 import AdoptSentiment from "./AdoptSentiment";
 import SentimentAnalysis from "./SentimentAnalysis";
 import SentimentAnalyticsSection from "./SentimentAnalyticsSection";
-import IndustryGrids from "./IndustryGrid";
 import SentimentAnalysisCompany from "./SentimentAnalysisCompany";
 import CustomerSuccess from "../../solutions/common/CustomerSuccess";
 import CarouselData from "./CarouselData";
-import FAQs from '../../product-dashboard/FAQs'
+import FAQs from "../../product-dashboard/FAQs";
 import FAQsData from "./FAQsData";
 import ContactForm from "../../solutions/common/contactForm";
-
+import GridOfCards from "../../industries/common/GridOfCards";
+import IndustriesData from "./IndustriesData";
 
 const ConsumerSentimentAnalysis = () => {
   return (
@@ -22,11 +22,14 @@ const ConsumerSentimentAnalysis = () => {
           <div className="grids">
             <div className="top">
               <div className="heading">
-                <span>Tailored Sentiment Analysis Solutions for Your Project</span>
+                <span>
+                  Tailored Sentiment Analysis Solutions for Your Project
+                </span>
               </div>
               <div className="heading_inner">
                 <p>
-                  Leverage consumer interaction data at scale with our sentiment analysis services.
+                  Leverage consumer interaction data at scale with our sentiment
+                  analysis services.
                 </p>
               </div>
               <div className="images">
@@ -43,23 +46,25 @@ const ConsumerSentimentAnalysis = () => {
           className="industries__inner"
           style={{ marginTop: "40px", marginBottom: "0px" }}
         >
-         <h2 className="head-block-center">Elevate Your Business Strategy with User Sentiment</h2>
+          <h2 className="head-block-center">
+            Elevate Your Business Strategy with User Sentiment
+          </h2>
         </div>
 
         <div
           class="text-block-center"
           style={{ marginTop: "0px", marginBottom: "20px" }}
         >
-          Sentiment analytics, utilizing cutting-edge NLP-based technology, discerns the emotional tone within consumer sentiment data.
+          Sentiment analytics, utilizing cutting-edge NLP-based technology,
+          discerns the emotional tone within consumer sentiment data.
         </div>
       </section>
 
       <section>
-        <div>
+        <div className="consumer">
           <IndustriesList />
         </div>
       </section>
-
 
       <section style={{ marginTop: "100px" }}>
         <OurServices />
@@ -77,20 +82,28 @@ const ConsumerSentimentAnalysis = () => {
         <SentimentAnalyticsSection />
       </section>
 
-      <div>
-        <IndustryGrids />
-      </div>
+      <section className="gridd">
+        <GridOfCards
+          content={IndustriesData}
+          items={{
+            item: IndustriesData,
+            NoCards: 3,
+            title: "Industries",
+            caption:
+              "We inject our cross-domain experience into building custom solutions aligned with individual business needs.",
+          }}
+        />
+      </section>
 
       <section>
         <SentimentAnalysisCompany />
       </section>
 
-      <CustomerSuccess items={CarouselData}  heading="Customer Success"/>
+      <CustomerSuccess items={CarouselData} heading="Customer Success" />
 
       <FAQs FAQs={FAQsData} />
 
       <ContactForm />
-
     </>
   );
 };
