@@ -50,6 +50,7 @@
 }
 
 .ShowcaseBannerArrow {
+    color: #b8001c;
     margin-left: 2px;
     transition: 250ms;
 }
