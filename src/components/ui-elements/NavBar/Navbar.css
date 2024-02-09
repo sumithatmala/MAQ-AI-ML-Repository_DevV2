@@ -277,19 +277,20 @@
   }
   
   .desktop-nav .dropdown {
-    animation: 0.3s slidein;
-    position: absolute;
-    right: auto;
-    left: 2px;
-    box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),0 4px 6px -2px rgba(71, 63, 79, 0.16);
-    font-size: 0.875rem;
-    z-index: 9999;
-    min-width: 100%;
-    padding: 0.5rem 0;
-    list-style: none;
-    background-color: #fff;
-    border-radius: 0.5rem;
-    display: none;
+      animation: 0.3s slidein;
+      position: absolute;
+      right: auto;
+      left: 0;
+      box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),0 4px 6px -2px rgba(71, 63, 79, 0.16);
+      font-size: 0.875rem;
+      z-index: 9999;
+      min-width: 100%;
+      padding: 0.5rem 0;
+      list-style: none;
+      background-color: #fff;
+      border-bottom-right-radius: 0.5rem;
+      display: none;
+      border-bottom-left-radius: 0.5rem;
     /* position: absolute;
     top: 100%; 
     left: 0;
@@ -345,13 +346,9 @@
     display: none;
   }
   svg.rotateArrow{
-    margin-left: "4px";
+    margin-left: 4px;
     transition: 0.5s;
   }
-  svg.rotateArrow:hover {
-    transform: rotate(180deg);
-  }
-
   /* menu on mobile */
   @media screen and (max-width: 1030px) {
     .nav-area {

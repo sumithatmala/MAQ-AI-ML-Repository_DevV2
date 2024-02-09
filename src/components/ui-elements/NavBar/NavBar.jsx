@@ -123,7 +123,7 @@ const MenuItems = ({ items, depthLevel }) => {
                     {items.icon ? (items.icon) : (<></>)}
                     <button className='nav-list__item' type="button" aria-haspopup="menu" aria-expanded={dropdown ? "true" : "false"} onClick={() => setDropdown((prev) => !prev)}>
                         {items.label}
-                        <FiChevronDown className="rotateArrow" style={{marginLeft: "4px"}}/>
+                        <FiChevronDown className="rotateArrow"/>
                     </button>
                     {/* For other submenus, render the default dropdown */}
                     {items.label === 'Products' && dropdown ? (
