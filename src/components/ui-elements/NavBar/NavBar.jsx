@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 import NavigationLinks from '../../layout/NavigationLinks';
+import { FiChevronDown } from "react-icons/fi";
 
 const GridDropdown = ({ submenus, dropdown, depthLevel }) => {
     depthLevel = depthLevel + 1;
@@ -18,8 +19,8 @@ const GridDropdown = ({ submenus, dropdown, depthLevel }) => {
 const SubMenuItem = ({ label, link, icon }) => {
     return (
         <li className="list-sub-menu">
+            {icon ? (icon) : (<></>)}
             <Link className="nav-list__item link__underline" to={link}>
-                {icon ? (icon) : (<></>)}
                 <span>{label}</span>
             </Link>
         </li>
@@ -47,8 +48,8 @@ const MenuItem = ({ label, link, submenu, icon }) => {
 
     return (
         <li className="list-layout-menu-item" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+            {icon ? (icon) : (<></>)}
             <Link className="nav-list__item link__underline" to={link}>
-                {icon ? (icon) : (<></>)}
                 <span>{label}</span>
             </Link>
             {hovered?(submenu && <SubMenu items={submenu}/>):(<></>) }
@@ -113,9 +114,10 @@ const MenuItems = ({ items, depthLevel }) => {
         >
             {items.submenu ? (
                 <>
+                    {items.icon ? (items.icon) : (<></>)}
                     <button className='nav-list__item' type="button" aria-haspopup="menu" aria-expanded={dropdown ? "true" : "false"} onClick={() => setDropdown((prev) => !prev)}>
-                        {items.icon ? (items.icon) : (<></>)}
                         {items.label}
+                        <FiChevronDown style={{marginLeft: "4px"}}/>
                     </button>
                     {/* For other submenus, render the default dropdown */}
                     {items.label === 'Products' && dropdown ? (
@@ -131,10 +133,12 @@ const MenuItems = ({ items, depthLevel }) => {
                     )}
                 </>
             ) : (
-                    <Link to={items.link} className='nav-list__item'>
+                    <>
                         {items.icon ? (items.icon) : (<></>)}
-                        {items.label} 
-                    </Link>
+                        <Link to={items.link} className='nav-list__item'>
+                            {items.label} 
+                        </Link>
+                    </>
             )}
         </li>
     );
