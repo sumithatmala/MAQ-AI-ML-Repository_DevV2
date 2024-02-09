@@ -319,7 +319,7 @@
     justify-content: center;
   }
   .desktop-nav .dropdown.show a {
-    /* padding-left: 0; */
+    padding-left: 0;
     padding-bottom: 6px;
     margin: 5px 0px;
   }
