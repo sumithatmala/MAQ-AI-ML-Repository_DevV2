@@ -29,7 +29,7 @@ const Expertise = () => {
             <IncreasingCards items={whyWorkWithUsData} title={"Why You Should Choose Us"} showShadow={false}/>
             <BackgroundBanner items={backBannerData_2} alignType={"start"} width={"1000px"}/>
             <ShowcaseBanner item1={showcaseBannerIndustriesData} item2={showcaseBannerSolutionsData}/>
-            <CustomerSuccess heading={"Our blogs"} items={blogData}/>
+            <CustomerSuccess heading={"Our blogs"} items={blogData} CardHeight="30rem"/>
             <ContactForm contactMsg = {"Let's Talk About Your Project."}/>
         </>
     )

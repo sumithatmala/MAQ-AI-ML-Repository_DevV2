@@ -9,7 +9,7 @@ import "./css/CustomerSuccess.css"
 
 
 const CustomerSuccess = (props) => {
-  const { items, defaultSlidesToShow } = props;
+  const { items, defaultSlidesToShow, CardHeight } = props;
 
   const slidesToShow = props.slidesToShow || defaultSlidesToShow;
 
@@ -39,6 +39,12 @@ const CustomerSuccess = (props) => {
       delay: 20,
     });
     AOS.refresh();
+  }, []);
+
+  useEffect(() => {
+    // Update the CSS variable with the maximum height of cards
+    console.log(CardHeight)
+    document.documentElement.style.setProperty("--max-card-height", `${CardHeight? CardHeight: "50rem"}`);
   }, []);
 
   return (

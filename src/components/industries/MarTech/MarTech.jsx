@@ -27,7 +27,7 @@ const MarTech = () => {
       <OneCardCoursal items={OneCardData}/>
       <FlatGridLayout items={BusinessLevelUpData} title={"Our Services"} caption={"Enhance your customer experience with our tailored AI solutions, including big data analytics, predictive analytics, ML, computer vision, and NLP."}/>
       <BusinessCases content={BusinessCasesData} items={{item: BusinessCasesData, NoCards:3, title: "Have an Upper Hand with Leveraging AI Software Development for Marketing", caption: "We are ready to help you add value to your business with AI software development for reliable marketing solutions. You can give up guesswork with our predictive analytics technology for precise data-driven forecasts and better communication with your clients. Automate business processes to reduce marketing expenses and increase client satisfaction."}}/>
-      <CustomerSuccess items={CutomerSuccessData} heading="Customer Success"/>
+      <CustomerSuccess items={CutomerSuccessData} heading="Customer Success" CardHeight="40rem"/>
       <ContactForm />
     </>
   )
