@@ -260,6 +260,10 @@
   .desktop-nav .menu-items a:hover,
   .desktop-nav .menu-items button:hover {
     background-color: #f2f2f2;
+    svg.rotateArrow {
+      transform: rotate(180deg);
+    }
+  
   }
   
   .desktop-nav .arrow::after {
@@ -340,7 +344,14 @@
   .mobile-nav {
     display: none;
   }
-  
+  svg.rotateArrow{
+    margin-left: "4px";
+    transition: 0.5s;
+  }
+  svg.rotateArrow:hover {
+    transform: rotate(180deg);
+  }
+
   /* menu on mobile */
   @media screen and (max-width: 1030px) {
     .nav-area {
