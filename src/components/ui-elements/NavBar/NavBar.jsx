@@ -35,25 +35,31 @@ const SubMenu = ({ items }) => {
         </ul>
     );
 };
-const MenuItem = ({ label, link, submenu, icon }) => {
-    const [prevHovered,setPrevHovered] = useState(submenu);
+const MenuItem = ({ label, link, submenu, defaultMenu }) => {
     const [hovered, setHovered] = useState(label === 'Artificial Intelligence & ML');
+    const [isDefaultMenu, setDefaultMenu] = useState(true);
+
     const onMouseEnter = () => {
+        setDefaultMenu(false);
         setHovered(true);
     };
-
+    
     const onMouseLeave = () => {
         setHovered(false);
+        setDefaultMenu(true);
     };
 
     return (
-        <li className="list-layout-menu-item" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-            {icon ? (icon) : (<></>)}
-            <Link className="nav-list__item link__underline" to={link}>
-                <span>{label}</span>
-            </Link>
-            {hovered?(submenu && <SubMenu items={submenu}/>):(<></>) }
-        </li>
+            <>
+                <li className="list-layout-menu-item" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+                    <Link className="nav-list__item link__underline" to={link}>
+                        <span>{label}</span>
+                    </Link>
+                    {hovered && (submenu && label !== 'Artificial Intelligence & ML'&& <SubMenu items={submenu} />)}
+                </li>
+                {console.log(defaultMenu.submenu)}
+                {isDefaultMenu && label !== 'Artificial Intelligence & ML' && !hovered &&submenu && <SubMenu items={defaultMenu.submenu} />}
+            </>
     );
 };
 
@@ -65,7 +71,7 @@ const ListDropdown = ({ submenus, dropdown, depthLevel }) => {
             {/* <ul className={`dropdown ${dropdownClass} list-wrapper ${true ? "show" : ""}`}> */}
             {/* {console.log("aa", submenus)} */}
             {submenus.map((item, index) => (
-                <MenuItem key={index} label={item.label} link={item.link} submenu={item.submenu} icom={item.icon}/>
+                <MenuItem key={index} label={item.label} link={item.link} submenu={item.submenu} icom={item.icon} defaultMenu={submenus[0]}/>
             ))}
         </ul>
     );
