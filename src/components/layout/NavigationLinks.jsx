@@ -127,6 +127,16 @@ import predictive_icon from "./images/predictive.svg"
 import sentiment_icon from "./images/smiley.svg"
 import textAnalysis_icon from "./images/textAnalysis.svg"
 
+//products
+import documentSummeriser_icon from "./images/document.svg"
+import feedbackSummeriser_icon from "./images/feedback.svg"
+import sessionSummeriser_icon from "./images/session.svg"
+import salesAssis_icon from "./images/sales.svg"
+import smartSupport_icon from "./images/smartSupport.svg"
+import testcase_icon from "./images/testcase.svg"
+import SupportTicket_icon from "./images/ticket.svg"
+import triviaBot_icon from "./images/trivia.svg"
+
 const NavigationLinks = [
   // { label: "Home", link: "./" },
   { label: "Expertise", link: "./Expertise" },
@@ -138,28 +148,49 @@ const NavigationLinks = [
         submenu: [
           {
             label: "Session Information Bot",
+            icon: <img src={sessionSummeriser_icon} alt=""  width={35}/>,
             link: "./product/SessionInformationBot",
           },
           {
             label: "Feedback Summarizer Bot",
+            icon: <img src={feedbackSummeriser_icon} alt=""  width={35}/>,
             link: "./product/FeedbackSummarizerBot",
           },
           {
             label: "Intelligent Document Processing Bot",
+            icon: <img src={documentSummeriser_icon} alt=""  width={35}/>,
             link: "./product/IntelligentDocumentProcessingBot",
           },
           {
             label: "Document Classification Bot",
+            icon: <img src={documentSummeriser_icon} alt=""  width={35}/>,
             link: "./product/DocumentClassificationWithVirtualAssistant",
           },
           {
             label: "Smart Support Framework",
+            icon: <img src={smartSupport_icon} alt=""  width={35}/>,
             link: "./product/SmartSupportFramework",
           },
-          { label: "TriviaBot", link: "./product/TriviaBot" },
-          { label: "Support Ticket Assistant", link: "./product/SupportTicketAssistant" },
-          { label: "Sales Assistant", link: "./product/SalesAssistant" },
-          { label: "Test Case Recommender", link: "./product/TestCaseRecommender" },
+          { 
+            label: "TriviaBot",
+            icon: <img src={triviaBot_icon} alt=""  width={35}/>, 
+            link: "./product/TriviaBot" 
+          },
+          { 
+            label: "Support Ticket Assistant",
+            icon: <img src={SupportTicket_icon} alt=""  width={35}/>, 
+            link: "./product/SupportTicketAssistant" 
+          },
+          { 
+            label: "Sales Assistant",
+            icon: <img src={salesAssis_icon} alt=""  width={35}/>, 
+            link: "./product/SalesAssistant" 
+          },
+          { 
+            label: "Test Case Recommender",
+            icon: <img src={testcase_icon} alt=""  width={35}/>, 
+            link: "./product/TestCaseRecommender" 
+          },
         ],
       },
       {
