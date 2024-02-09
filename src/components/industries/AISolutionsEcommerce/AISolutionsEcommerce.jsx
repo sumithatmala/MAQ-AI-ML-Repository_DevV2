@@ -34,7 +34,7 @@ const AISolutionsEcommerce = () => {
           </section>
         <Grid content={benefitCards}/>
       </div>
-      <CustomerSuccess items={CutomerSuccessData} heading="Customer Success"/>
+      <CustomerSuccess items={CutomerSuccessData} heading="Customer Success" CardHeight="40rem"/>
       <ContactForm />
     </>
   )
