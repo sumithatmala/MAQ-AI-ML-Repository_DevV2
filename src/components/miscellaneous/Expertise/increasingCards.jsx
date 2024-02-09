@@ -27,7 +27,7 @@ const IncreasingCards = (props) => {
                     count++;
                     return (
                         <div className="IncreasingCardDesc" style={{ boxShadow: ((props.showShadow) ? "0px 8px 24px 0px #c8c5dd" : ("")) }}>
-                            <div className="IncreasingNumber"><p>{numbers[count - 1]}%</p></div>
+                            <div className="IncreasingNumber"><p>{numbers[count - 1]}{props.percentageType?('%'):('+')}</p></div>
                             <p>{item.details}</p>
                         </div>
                     )
