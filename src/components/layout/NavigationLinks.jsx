@@ -105,6 +105,17 @@
 
 //   ];
 
+
+import health_icon from "./images/health.svg"
+import automobile_icon from "./images/automobile.svg"
+import retail_icon from "./images/cashier.svg"
+import ecommerce_icon from "./images/ecommerce.svg"
+import fintech_icon from "./images/fintech.svg"
+import game_icon from "./images/game.svg"
+import logistics_icon from "./images/logistics.svg"
+import marketing_icon from "./images/marketing.svg"
+import sports_icon from "./images/sports.svg"
+
 const NavigationLinks = [
   // { label: "Home", link: "./" },
   { label: "Expertise", link: "./Expertise" },
@@ -249,55 +260,55 @@ const NavigationLinks = [
       {
         label: "Healthcare & Pharma",
         link: "/Industries/Health&Pharma",
-        icon: "/icons/framework.svg",
+        icon: <img src={health_icon} alt=""  width={35}/>,
         alt: "frwk",
       },
       {
         label: "Sport & Wellness",
         link: "/Industries/SportWellness",
-        icon: "/icons/nlp.svg",
+        icon: <img src={sports_icon} alt="" width={35}/>,
         alt: "nlp",
       },
       {
         label: "E-commerce",
         link: "/Industries/E-commerce",
-        icon: "/icons/computerVision.svg",
+        icon: <img src={ecommerce_icon} alt="" width={35}/>,
         alt: "comp",
       },
       {
         label: "MarTech",
         link: "/Industries/MarTech",
-        icon: "/icons/computerVision.svg",
+        icon: <img src={marketing_icon} alt="" width={35}/>,
         alt: "comp",
       },
       {
         label: "Automotive",
         link: "/Industries/Automotive",
-        icon: "/icons/computerVision.svg",
+        icon: <img src={automobile_icon} alt="" width={35}/>,
         alt: "comp",
       },
       {
         label: "Logistics",
         link: "/Industries/Logistics",
-        icon: "/icons/computerVision.svg",
+        icon: <img src={logistics_icon} alt="" width={35}/>,
         alt: "comp",
       },
       {
         label: "Game & Entertainment",
         link: "/Industries/GameEntertainment",
-        icon: "/icons/computerVision.svg",
+        icon: <img src={game_icon} alt="" width={35}/>,
         alt: "comp",
       },
       {
         label: "Fintech",
         link: "/Industries/Fintech",
-        icon: "/icons/computerVision.svg",
+        icon: <img src={fintech_icon} alt="" width={35}/>,
         alt: "comp",
       },
       {
         label: "Retail",
         link: "/Industries/Retail",
-        icon: "/icons/computerVision.svg",
+        icon: <img src={retail_icon} alt="" width={35}/>,
         alt: "comp",
       },
     ],

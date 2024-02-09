@@ -15,10 +15,11 @@ const GridDropdown = ({ submenus, dropdown, depthLevel }) => {
         </ul>
     );
 };
-const SubMenuItem = ({ label, link }) => {
+const SubMenuItem = ({ label, link, icon }) => {
     return (
         <li className="list-sub-menu">
             <Link className="nav-list__item link__underline" to={link}>
+                {icon ? (icon) : (<></>)}
                 <span>{label}</span>
             </Link>
         </li>
@@ -28,12 +29,12 @@ const SubMenu = ({ items }) => {
     return (
         <ul className="static-pos" >
             {items.map((item, index) => (
-                <SubMenuItem key={index} label={item.label} link={item.link} />
+                <SubMenuItem key={index} label={item.label} link={item.link} icon={item.icon}/>
             ))}
         </ul>
     );
 };
-const MenuItem = ({ label, link, submenu }) => {
+const MenuItem = ({ label, link, submenu, icon }) => {
     const [prevHovered,setPrevHovered] = useState(submenu);
     const [hovered, setHovered] = useState(label === 'Artificial Intelligence & ML');
     const onMouseEnter = () => {
@@ -47,6 +48,7 @@ const MenuItem = ({ label, link, submenu }) => {
     return (
         <li className="list-layout-menu-item" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
             <Link className="nav-list__item link__underline" to={link}>
+                {icon ? (icon) : (<></>)}
                 <span>{label}</span>
             </Link>
             {hovered?(submenu && <SubMenu items={submenu}/>):(<></>) }
@@ -62,7 +64,7 @@ const ListDropdown = ({ submenus, dropdown, depthLevel }) => {
             {/* <ul className={`dropdown ${dropdownClass} list-wrapper ${true ? "show" : ""}`}> */}
             {/* {console.log("aa", submenus)} */}
             {submenus.map((item, index) => (
-                <MenuItem key={index} label={item.label} link={item.link} submenu={item.submenu} />
+                <MenuItem key={index} label={item.label} link={item.link} submenu={item.submenu} icom={item.icon}/>
             ))}
         </ul>
     );
@@ -112,9 +114,7 @@ const MenuItems = ({ items, depthLevel }) => {
             {items.submenu ? (
                 <>
                     <button className='nav-list__item' type="button" aria-haspopup="menu" aria-expanded={dropdown ? "true" : "false"} onClick={() => setDropdown((prev) => !prev)}>
-                        {items.icon ? (
-                            <img src={process.env.PUBLIC_URL + items.icon} alt={items.alt} height={20} />
-                        ) : (<></>)}
+                        {items.icon ? (items.icon) : (<></>)}
                         {items.label}
                     </button>
                     {/* For other submenus, render the default dropdown */}
@@ -131,7 +131,10 @@ const MenuItems = ({ items, depthLevel }) => {
                     )}
                 </>
             ) : (
-                <Link to={items.link} className='nav-list__item'>{items.label} </Link>
+                    <Link to={items.link} className='nav-list__item'>
+                        {items.icon ? (items.icon) : (<></>)}
+                        {items.label} 
+                    </Link>
             )}
         </li>
     );
