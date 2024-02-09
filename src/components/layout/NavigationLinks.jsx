@@ -144,11 +144,11 @@ const NavigationLinks = [
         label: "Generative AI & GPT",
         submenu: [
           {
-            label: "Hugging Face Transformers",
+            label: "RunwayML",
             link: "#",
           },
           {
-            label: "RunwayML",
+            label: "Hugging Face Transformers",
             link: "#",
           },
           {

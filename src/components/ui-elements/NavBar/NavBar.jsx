@@ -34,8 +34,8 @@ const SubMenu = ({ items }) => {
     );
 };
 const MenuItem = ({ label, link, submenu }) => {
+    const [prevHovered,setPrevHovered] = useState(submenu);
     const [hovered, setHovered] = useState(label === 'Artificial Intelligence & ML');
-
     const onMouseEnter = () => {
         setHovered(true);
     };
@@ -43,12 +43,13 @@ const MenuItem = ({ label, link, submenu }) => {
     const onMouseLeave = () => {
         setHovered(false);
     };
+
     return (
         <li className="list-layout-menu-item" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
             <Link className="nav-list__item link__underline" to={link}>
                 <span>{label}</span>
             </Link>
-            {hovered && submenu && <SubMenu items={submenu} />}
+            {hovered?(submenu && <SubMenu items={submenu}/>):(<></>) }
         </li>
     );
 };
