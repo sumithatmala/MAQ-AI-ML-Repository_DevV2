@@ -173,9 +173,9 @@
     display: flex;
     border-left: 2px solid #b9091b;
     /* gap: 15px; */
-    width: 60%;
+    width: 65%;
     line-height: 2;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
   }
   .static-pos a{
