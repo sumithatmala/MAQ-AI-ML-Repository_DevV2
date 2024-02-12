@@ -1,4 +1,4 @@
-const showcaseBannerData = {
+const showcaseBannerIndustriesData = {
     heading: "Industries We Are Transforming",
     desc: "Take a look at examples of our work and learn how our clients from different industries have benefited from our data science consulting services.",
     title: [
@@ -11,4 +11,4 @@ const showcaseBannerData = {
     ]
 }
 
-export default showcaseBannerData;
+export default showcaseBannerIndustriesData;

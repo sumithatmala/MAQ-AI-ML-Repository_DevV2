@@ -52,7 +52,7 @@ const GameEntertainment = () => {
 
       <GameDev />
 
-      <CustomerSuccess items={CustData} heading="Customer Success" />
+      <CustomerSuccess items={CustData} heading="Customer Success" CardHeight="55rem"/>
       <ContactForm />
     </>
   );

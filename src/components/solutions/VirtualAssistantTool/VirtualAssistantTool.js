@@ -1,7 +1,6 @@
 import "./css/virtualtool.css";
 import FAQ from "./FAQ";
 import ContactForm from "./contactForm";
-import "./css/contactform.css";
 import IndustriesList from "./IndustryItem";
 import KeyFeaturesSection from "./KeyFeaturesSection";
 

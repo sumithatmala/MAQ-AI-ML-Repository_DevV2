@@ -34,7 +34,7 @@
 .IncreasingNumber::after {
     content: "";
     display: block;
-    width: 15%;
+    width: 20%;
     height: 2px;
     background-color: #b9091bc9;
     margin-top: 5px; /* Adjust as needed */

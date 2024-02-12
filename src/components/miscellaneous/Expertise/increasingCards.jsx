@@ -2,27 +2,32 @@ import "./css/increasingCards.css";
 import React, { useState, useEffect } from 'react';
 
 const IncreasingCards = (props) => {
-    const [number, setNumber] = useState(0);
+    const [numbers, setNumbers] = useState([0, 0, 0]);
+    const limit = [];
+    props.items.map((item, ind) => {
+        limit[ind] = item.limit;
+        ind++;
+    })
+    // console.log(limit);
 
     useEffect(() => {
-        const timer = setTimeout(() => {
-            if (number < 80) {
-                setNumber(number + 1);
-            }
-        }, 100);
-        console.log(props.items);
-        return () => clearTimeout(timer);
-    }, [number]);
+        const interval = setInterval(() => {
+            setNumbers(prevNumbers => {
+                return prevNumbers.map((num, index) => (num < limit[index] ? num + 1 : num));
+            });
+        }, 50);
+        return () => clearInterval(interval);
+    }, []);
 
     return (
         <section className="IncreasingCardCnt">
             <h2>{props.title}</h2>
             <div className="IncreasingcardTitle">
-                {props.items.map((item) => {
+                {props.items.map((item, count = 0) => {
+                    count++;
                     return (
-                    <div className="IncreasingCardDesc" style={{boxShadow: ((props.showShadow)?"0px 8px 24px 0px #c8c5dd":(""))}}>
-                            <div className="IncreasingNumber"><p>{number}%</p></div>
-                            {console.log(item)}
+                        <div className="IncreasingCardDesc" style={{ boxShadow: ((props.showShadow) ? "0px 8px 24px 0px #c8c5dd" : ("")) }}>
+                            <div className="IncreasingNumber"><p>{numbers[count - 1]}{props.percentageType?('%'):('+')}</p></div>
                             <p>{item.details}</p>
                         </div>
                     )
@@ -33,16 +38,3 @@ const IncreasingCards = (props) => {
 }
 
 export default IncreasingCards;
-
-
-// const Card = () => {
-
-
-//     return (
-//         <div className="card">
-//             <h2>Number: {number}</h2>
-//         </div>
-//     );
-// };
-
-// export default Card;
