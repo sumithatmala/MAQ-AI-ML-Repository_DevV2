@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./css/showcaseBanner.css"
 import { useState } from "react";
 import { RxArrowRight } from "react-icons/rx";
-import navIcon from "./img/navigateIcon.svg"
+import { VscArrowCircleRight } from "react-icons/vsc";
 
 const ShowcaseBanner = (props) => {
     const [data, setData] = useState(props.item1);
@@ -11,14 +11,17 @@ const ShowcaseBanner = (props) => {
         <section className="ShowcaseBannerCnt">
             <div className="ShowcaseBannerTitle">
                 <div className="ShowcaseBannerheader">
-                    <h3>{data.heading} <button
-                        onClick={() => {
-                            toggle ? (setData(props.item2)) : (setData(props.item1));
-                            setToggle(!toggle);
-                        }}
-                        className="ShowcaseBannerNavigate" >
-                        <img src={navIcon} alt="#" />
-                    </button></h3>
+                    <h3>
+                        {data.heading} 
+                        <button
+                            onClick={() => {
+                                toggle ? (setData(props.item2)) : (setData(props.item1));
+                                setToggle(!toggle);
+                            }}
+                            className="ShowcaseBannerNavigate" >
+                            <VscArrowCircleRight/>
+                        </button>
+                    </h3>
                     <p>{data.desc}</p>
                 </div>
                 <div className="ShowcaseBannerGrid">

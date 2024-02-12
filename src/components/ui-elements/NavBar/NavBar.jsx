@@ -3,6 +3,7 @@ import './Navbar.css';
 import { Link } from 'react-router-dom';
 import NavigationLinks from '../../layout/NavigationLinks';
 import { FiChevronDown } from "react-icons/fi";
+import { RxArrowRight } from "react-icons/rx";
 
 const GridDropdown = ({ submenus, dropdown, depthLevel }) => {
     depthLevel = depthLevel + 1;
@@ -54,6 +55,7 @@ const MenuItem = ({ label, link, submenu, defaultMenu }) => {
                 <li className="list-layout-menu-item" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                     <Link className="nav-list__item link__underline" to={link}>
                         <span>{label}</span>
+                        <RxArrowRight className="NavArrow" />
                     </Link>
                     {hovered && (submenu && label !== 'Artificial Intelligence & ML'&& <SubMenu items={submenu} />)}
                 </li>
@@ -71,7 +73,7 @@ const ListDropdown = ({ submenus, dropdown, depthLevel }) => {
             {/* <ul className={`dropdown ${dropdownClass} list-wrapper ${true ? "show" : ""}`}> */}
             {/* {console.log("aa", submenus)} */}
             {submenus.map((item, index) => (
-                <MenuItem key={index} label={item.label} link={item.link} submenu={item.submenu} icom={item.icon} defaultMenu={submenus[0]}/>
+                <MenuItem key={index} label={item.label} link={item.link} submenu={item.submenu} icon={item.icon} defaultMenu={submenus[0]}/>
             ))}
         </ul>
     );
@@ -144,6 +146,7 @@ const MenuItems = ({ items, depthLevel }) => {
                         <Link to={items.link} className='nav-list__item'>
                             {items.label} 
                         </Link>
+                        
                     </>
             )}
         </li>
