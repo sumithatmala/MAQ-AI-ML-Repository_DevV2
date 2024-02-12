@@ -234,3 +234,9 @@ img {
     font-size: 16px;
     line-height: 30px;
 }
+@media (max-width: 480px){
+    .section-benefits-list__list-item{
+        display: block;
+        text-align: center;
+    }
+}

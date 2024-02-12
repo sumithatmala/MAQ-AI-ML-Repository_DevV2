@@ -1,5 +1,4 @@
 import "./css/toolinformations.css";
-import IndustriesList from "./IndustriesList";
 import "./css/ConsumerSentimentAnalysis.css";
 import OurServices from "./OurServices";
 import AdoptSentiment from "./AdoptSentiment";
@@ -13,6 +12,8 @@ import FAQsData from "./FAQsData";
 import ContactForm from "../../solutions/common/contactForm";
 import GridOfCards from "../../industries/common/GridOfCards";
 import IndustriesData from "./IndustriesData";
+import IndustriesListData from "./IndustriesListData";
+import Grid from "../common/grid";
 
 const ConsumerSentimentAnalysis = () => {
   return (
@@ -41,36 +42,22 @@ const ConsumerSentimentAnalysis = () => {
         </div>
       </section>
 
-      <section className="section-SentimentAnalysis">
-        <div
-          className="industries__inner"
-          style={{ marginTop: "40px", marginBottom: "0px" }}
-        >
-          <h2 className="head-block-center">
-            Elevate Your Business Strategy with User Sentiment
-          </h2>
-        </div>
-
-        <div
-          class="text-block-center"
-          style={{ marginTop: "0px", marginBottom: "20px" }}
-        >
-          Sentiment analytics, utilizing cutting-edge NLP-based technology,
-          discerns the emotional tone within consumer sentiment data.
-        </div>
-      </section>
-
-      <section>
-        <div className="consumer">
-          <IndustriesList />
-        </div>
-      </section>
+      <GridOfCards
+      content={IndustriesListData}
+      items={{
+        item: IndustriesListData,
+        NoCards: 3,
+        title: "Elevate Your Business Strategy with User Sentiment",
+        caption:
+          "Sentiment analytics, utilizing cutting-edge NLP-based technology, discerns the emotional tone within consumer sentiment data.",
+      }}
+      />
 
       <section style={{ marginTop: "100px" }}>
         <OurServices />
       </section>
 
-      <section>
+      <section className="adopt">
         <AdoptSentiment />
       </section>
 
@@ -79,7 +66,8 @@ const ConsumerSentimentAnalysis = () => {
       </section>
 
       <section>
-        <SentimentAnalyticsSection />
+        <Grid content={SentimentAnalyticsSection} />
+        {/* <SentimentAnalyticsSection /> */}
       </section>
 
       <section className="gridd">

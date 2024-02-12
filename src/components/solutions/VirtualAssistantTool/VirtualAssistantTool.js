@@ -3,6 +3,8 @@ import FAQ from "./FAQ";
 import ContactForm from "./contactForm";
 import IndustriesList from "./IndustryItem";
 import KeyFeaturesSection from "./KeyFeaturesSection";
+import GridOfCards from "../common/GridOfCards";
+import IndustData from './IndusterieListData';
 
 const VirtualAssistantTool = () => {
   return (
@@ -34,27 +36,21 @@ const VirtualAssistantTool = () => {
 
       <KeyFeaturesSection />
 
+      <GridOfCards
+        content={IndustData}
+        items={{
+          item: IndustData,
+          NoCards: 3,
+          title: "Advantages of Virtual Assistant",
+          caption:
+          "Virtual assistant software development allows you to delegate non-core tasks to a chatbot and concentrate on growing your business.",
+        }}
+      />
 
-      <section className="section-industries">
-        <div className="industries__inner" style={{ marginTop: "10px", marginBottom: "0px" }}>
-          <h2 className="head-block-center">Advantages of Virtual Assistant</h2>
-        </div>
 
-        <div class="text-block-center" style={{ marginTop: "-10px", marginBottom: "20px" }}>
-          Virtual assistant software development allows you to delegate non-core
-          tasks to a chatbot and concentrate on growing your business.
-        </div>
-      </section>
-      <IndustriesList />
-      <section className="section-industries">
-        <div className="text-block-center" style={{ marginTop: "50px" }}>
-          <span className="gap">Ready to learn more about chatbot development?</span>
-        </div>
-
-        <div className="block__action"> <a href="#section-contacts" class="btn btn-empty">Contact us</a></div>
+      
         <FAQ />
         <ContactForm />
-      </section>
     </>
   );
 };

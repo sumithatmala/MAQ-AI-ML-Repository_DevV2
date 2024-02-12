@@ -70,3 +70,7 @@
     grid-template-columns: repeat(1, 1fr) !important;
   }
 }
+.center_grid{
+  display: flex;
+  justify-content: center;
+}
