@@ -15,6 +15,12 @@
 }
 @media (min-width: 742px)
 {
+    .predict-use-cases.__type-predict .predict-use-cases-list__list-item:hover {
+        top: -7px;
+    }
+}
+@media (min-width: 742px)
+{
     .predict-use-cases.__type-predict {
         padding-top: 0;
         padding-bottom: 44px;
@@ -219,5 +225,8 @@
     .predict-use-cases-list__list-item {
         width: 85% !important ;
         margin: 0 auto;
+    }
+    .predict-use-cases.__type-predict .predict-use-cases-list__list-item:hover {
+        top: -7px;
     }
 }

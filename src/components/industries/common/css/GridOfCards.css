@@ -63,7 +63,7 @@
         box-shadow: 0 4px 5px rgba(69, 60, 144, .2), 0 3px 14px rgba(69, 60, 144, .12), 0 8px 10px rgba(69, 60, 144, .14);
     }
 
-    .predict-use-cases.__type-predict .predict-use-cases-list__item:hover,
+    .predict-use-cases.__type-predict
     .predict-use-cases-list__list-item2:hover {
         top: -7px;
     }
