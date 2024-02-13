@@ -238,35 +238,30 @@ const NavigationLinks = [
         label: "Virtual Assistant Tool", 
         link: "/solution/VirtualAssistantTool",
         icon: <img src={bot_icon} alt=""  width={30}/>,
-        alt: "data",
       },
       {
         label: "Custom Large Language Models",
         link: "/solution/LargeLanguageModel",
         icon: <img src={LLM_icon} alt=""  width={30}/>,
-        alt: "ML",
       },
       { 
         label: "Natural Language Processing", 
         link: "/solution/NaturalLanguageProcessing",
         icon: <img src={NLP_icon} alt=""  width={30}/>,
-        alt: "data",
       },
       {
         label: "Consumer Sentiment Analysis",
         link: "/solution/ConsumerSentimentAnalysis",
         icon: <img src={sentiment_icon} alt=""  width={30}/>,
-        alt: "data",
       },
       { 
         label: "Text Analysis", 
         link: "./solution/TextAnalysis",
         icon: <img src={textAnalysis_icon} alt=""  width={30}/>,
-        alt: "data",
       },
       // {
       //   label: "Al Call Center Solutions",
-
+      //   link:
       //   icon: "/icons/dataV.svg",
       //   alt: "data",
       // },
@@ -274,13 +269,11 @@ const NavigationLinks = [
         label: "Predictive Analytics",
         link: "/solution/PredictiveAnalytics",
         icon: <img src={predictive_icon} alt=""  width={30}/>,
-        alt: "data",
       },
       {
         label: "Recommendation Systems",
         link: "/Industries/RecommendationSystems",
         icon: <img src={like_icon} alt=""  width={30}/>,
-        alt: "data",
       },
       // { 
       //   label: "Computer Vision", 
@@ -292,11 +285,10 @@ const NavigationLinks = [
         label: "Image Recognition", 
         link: "./solution/ImageRecognition",
         icon: <img src={image_icon} alt=""  width={30}/>,
-        alt: "data",
       },
       // {
       //   label: "Pose Estimation",
-
+      //   link:
       //   icon: "/icons/dataV.svg",
       //   alt: "data",
       // },
@@ -304,7 +296,6 @@ const NavigationLinks = [
         label: "Data capture & OCR",
         link: "./solution/DataCaptureOCR",
         icon: <img src={OCR_icon} alt=""  width={30}/>,
-        alt: "data",
       },
     ],
   },
@@ -315,55 +306,46 @@ const NavigationLinks = [
         label: "Healthcare & Pharma",
         link: "/Industries/Health&Pharma",
         icon: <img src={health_icon} alt=""  width={30}/>,
-        alt: "frwk",
       },
       {
         label: "Sport & Wellness",
         link: "/Industries/SportWellness",
         icon: <img src={sports_icon} alt="" width={30}/>,
-        alt: "nlp",
       },
       {
         label: "E-commerce",
         link: "/Industries/E-commerce",
         icon: <img src={ecommerce_icon} alt="" width={30}/>,
-        alt: "comp",
       },
       {
         label: "MarTech",
         link: "/Industries/MarTech",
-        icon: <img src={marketing_icon} alt="" width={40}/>,
-        alt: "comp",
+        icon: <img src={marketing_icon} alt="" width={30}/>,
       },
       {
         label: "Automotive",
         link: "/Industries/Automotive",
         icon: <img src={automobile_icon} alt="" width={30}/>,
-        alt: "comp",
       },
       {
         label: "Logistics",
         link: "/Industries/Logistics",
         icon: <img src={logistics_icon} alt="" width={30}/>,
-        alt: "comp",
       },
       {
         label: "Game & Entertainment",
         link: "/Industries/GameEntertainment",
         icon: <img src={game_icon} alt="" width={30}/>,
-        alt: "comp",
       },
       {
         label: "Fintech",
         link: "/Industries/Fintech",
         icon: <img src={fintech_icon} alt="" width={30}/>,
-        alt: "comp",
       },
       {
         label: "Retail",
         link: "/Industries/Retail",
         icon: <img src={retail_icon} alt="" width={30}/>,
-        alt: "comp",
       },
     ],
   },
