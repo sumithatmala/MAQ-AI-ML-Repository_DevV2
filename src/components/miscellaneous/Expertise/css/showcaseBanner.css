@@ -19,8 +19,23 @@
     margin: 15px 10px 30px;
 }
 .ShowcaseBannerheader h3 {
+    display: flex;
+    align-items: center;
     margin-bottom: 20px;
 }
+.ShowcaseBannerheader svg{
+    margin: 2px;
+    margin-left: 6px;
+    color: #b8001c;
+    transition: margin-left 0.3s;
+    font-size: 33px;
+}
+.ShowcaseBannerheader svg:hover {
+    margin-left: 10px;
+    /* color: #b8001c; */
+    /* background-color: #b8001c; */
+}
+
 
 .ShowcaseBannerGrid {
     display: grid;
