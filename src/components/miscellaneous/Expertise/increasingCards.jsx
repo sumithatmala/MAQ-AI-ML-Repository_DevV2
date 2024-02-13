@@ -7,6 +7,7 @@ const IncreasingCards = (props) => {
     props.items.map((item, ind) => {
         limit[ind] = item.limit;
         ind++;
+        return(<></>);
     })
     // console.log(limit);
 
