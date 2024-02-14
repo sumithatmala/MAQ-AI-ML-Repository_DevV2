@@ -63,3 +63,13 @@ img {
     font-size: 16px;
     font-weight: 600;
 }
+@media (max-width: 742px){
+    .trinity__list{
+        display: block;
+        text-align: center;
+    }
+    .trinity__item.__w-33 {
+        width: 100%;
+        padding: 10px 15px 0;
+    }
+}

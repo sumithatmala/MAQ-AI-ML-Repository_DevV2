@@ -1,18 +1,20 @@
 import "./css/toolinformations.css";
-import IndustriesList from "./IndustriesList";
-import './css/ConsumerSentimentAnalysis.css';
+import "./css/ConsumerSentimentAnalysis.css";
 import OurServices from "./OurServices";
 import AdoptSentiment from "./AdoptSentiment";
 import SentimentAnalysis from "./SentimentAnalysis";
 import SentimentAnalyticsSection from "./SentimentAnalyticsSection";
-import IndustryGrids from "./IndustryGrid";
 import SentimentAnalysisCompany from "./SentimentAnalysisCompany";
 import CustomerSuccess from "../../solutions/common/CustomerSuccess";
 import CarouselData from "./CarouselData";
-import FAQs from '../../product-dashboard/FAQs'
+import FAQs from "../../product-dashboard/FAQs";
 import FAQsData from "./FAQsData";
 import ContactForm from "../../solutions/common/contactForm";
-
+import GridOfCards from "../../industries/common/GridOfCards";
+import IndustriesData from "./IndustriesData";
+import IndustriesListData from "./IndustriesListData";
+import Grid from "../common/grid";
+import Alternate from '../common/alternateBanner';
 
 const ConsumerSentimentAnalysis = () => {
   return (
@@ -22,11 +24,14 @@ const ConsumerSentimentAnalysis = () => {
           <div className="grids">
             <div className="top">
               <div className="heading">
-                <span>Tailored Sentiment Analysis Solutions for Your Project</span>
+                <span>
+                  Tailored Sentiment Analysis Solutions for Your Project
+                </span>
               </div>
               <div className="heading_inner">
                 <p>
-                  Leverage consumer interaction data at scale with our sentiment analysis services.
+                  Leverage consumer interaction data at scale with our sentiment
+                  analysis services.
                 </p>
               </div>
               <div className="images">
@@ -38,34 +43,26 @@ const ConsumerSentimentAnalysis = () => {
         </div>
       </section>
 
-      <section className="section-SentimentAnalysis">
-        <div
-          className="industries__inner"
-          style={{ marginTop: "40px", marginBottom: "0px" }}
-        >
-         <h2 className="head-block-center">Elevate Your Business Strategy with User Sentiment</h2>
-        </div>
+      <GridOfCards
+      content={IndustriesListData}
+      items={{
+        item: IndustriesListData,
+        NoCards: 3,
+        title: "Elevate Your Business Strategy with User Sentiment",
+        caption:
+          "Sentiment analytics, utilizing cutting-edge NLP-based technology, discerns the emotional tone within consumer sentiment data.",
+      }}
+      />
 
-        <div
-          class="text-block-center"
-          style={{ marginTop: "0px", marginBottom: "20px" }}
-        >
-          Sentiment analytics, utilizing cutting-edge NLP-based technology, discerns the emotional tone within consumer sentiment data.
-        </div>
-      </section>
+{/* <div className="container_pharma">
+        <AlternateBanner banners={AreaExpertise} count={0} ContactBtn={true} />
+      </div> */}
 
-      <section>
-        <div>
-          <IndustriesList />
-        </div>
-      </section>
+      <div className="container_pharma">
+      <Alternate banners={OurServices} ContactBtn={false} />
+      </div>
 
-
-      <section style={{ marginTop: "100px" }}>
-        <OurServices />
-      </section>
-
-      <section>
+      <section className="adopt">
         <AdoptSentiment />
       </section>
 
@@ -74,12 +71,22 @@ const ConsumerSentimentAnalysis = () => {
       </section>
 
       <section>
-        <SentimentAnalyticsSection />
+        <Grid content={SentimentAnalyticsSection} />
+        {/* <SentimentAnalyticsSection /> */}
       </section>
 
-      <div>
-        <IndustryGrids />
-      </div>
+      <section className="gridd">
+        <GridOfCards
+          content={IndustriesData}
+          items={{
+            item: IndustriesData,
+            NoCards: 3,
+            title: "Industries",
+            caption:
+              "We inject our cross-domain experience into building custom solutions aligned with individual business needs.",
+          }}
+        />
+      </section>
 
       <section>
         <SentimentAnalysisCompany />
@@ -90,7 +97,6 @@ const ConsumerSentimentAnalysis = () => {
       <FAQs FAQs={FAQsData} />
 
       <ContactForm />
-
     </>
   );
 };

@@ -2,6 +2,7 @@ import "./css/Grid.css"
 
 const Grid = ({content}) => {
     return (
+        <section className="center_grid">
         <section className="IndustriesContainer">
             {content.map((item)=>{
                 return(
@@ -24,6 +25,7 @@ const Grid = ({content}) => {
                     // )
                 )
             })}
+        </section>
         </section>
     )
 }
