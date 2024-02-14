@@ -13,6 +13,12 @@ const IndustriesData = [
     description: "Transaction fraud detection, Credit risk assessment, Personalized financial recommendations"
   },
   {
+    title: "Sport & Wellness",
+    figure: <img src={icon_agriculture} alt="sport and wellness"/>, // change this
+    alt: "sport - wellness",
+    description: "Empowering Individuals, Optimizing Well-being"
+  },
+  {
     title: "Logistics",
     figure: <img src={icon_car} alt="logistics" />,
     alt: "logistics",

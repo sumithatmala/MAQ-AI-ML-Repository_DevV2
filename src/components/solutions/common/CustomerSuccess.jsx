@@ -9,7 +9,7 @@ import "./css/CustomerSuccess.css"
 
 
 const CustomerSuccess = (props) => {
-  const { items, defaultSlidesToShow } = props;
+  const { items, defaultSlidesToShow, CardHeight } = props;
 
   const slidesToShow = props.slidesToShow || defaultSlidesToShow;
 
@@ -41,13 +41,19 @@ const CustomerSuccess = (props) => {
     AOS.refresh();
   }, []);
 
+  useEffect(() => {
+    // Update the CSS variable with the maximum height of cards
+    console.log(CardHeight)
+    document.documentElement.style.setProperty("--max-card-height", `${CardHeight? CardHeight: "50rem"}`);
+  }, []);
+
   return (
     <section className="target-section" style={{ backgroundColor: "white" }}>
       <Row
         className="slick-list1 draggable fade-in product-overview d-flex justify-content-center "
         style={{ backgroundColor: "white", height: "auto" }}
       >
-        <h3 class="head-block-center" style={{marginTop: "5rem"}}>{props.heading}</h3>
+        <h3 class="head-block-center">{props.heading}</h3>
         <Slider {...settings}>
           {items.map((outcome, index) => (
             <div className="separate-slider__item" key={index}>
@@ -61,9 +67,9 @@ const CustomerSuccess = (props) => {
               <div className="separate-slider__content">
                 <h3 className="separate-slider__title">{outcome.title}</h3>
                 <div className="separate-slider__text">
-                  {outcome.description.map((paragraph, index) => (
+                  {outcome.description?(outcome.description.map((paragraph, index) => (
                     <p key={index}> {paragraph} </p>
-                  ))}
+                  ))):(<></>)}
                 </div>
                 {outcome.link ? (
                   <a href={outcome.link}>Learn More</a>

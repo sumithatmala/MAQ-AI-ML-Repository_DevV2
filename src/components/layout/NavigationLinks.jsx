@@ -105,9 +105,49 @@
 
 //   ];
 
+//industries
+import health_icon from "./images/health.svg"
+import automobile_icon from "./images/automobile.svg"
+import retail_icon from "./images/cashier.svg"
+import ecommerce_icon from "./images/ecommerce.svg"
+import fintech_icon from "./images/fintech.svg"
+import game_icon from "./images/game.svg"
+import logistics_icon from "./images/logistics.svg"
+import marketing_icon from "./images/marketing.svg"
+import sports_icon from "./images/sports.svg"
+
+//solutions
+import bot_icon from "./images/bot.svg"
+import image_icon from "./images/image.svg"
+import like_icon from "./images/like.svg"
+import LLM_icon from "./images/LLM.svg"
+import NLP_icon from "./images/NLP.svg"
+import OCR_icon from "./images/OCR.svg"
+import predictive_icon from "./images/predictive.svg"
+import sentiment_icon from "./images/smiley.svg"
+import textAnalysis_icon from "./images/textAnalysis.svg"
+
+//products
+
+//AI ML
+import documentSummeriser_icon from "./images/document.svg"
+import feedbackSummeriser_icon from "./images/feedback.svg"
+import sessionSummeriser_icon from "./images/session.svg"
+import salesAssis_icon from "./images/sales.svg"
+import smartSupport_icon from "./images/smartSupport.svg"
+import testcase_icon from "./images/testcase.svg"
+import SupportTicket_icon from "./images/ticket.svg"
+import triviaBot_icon from "./images/trivia.svg"
+
+//Generative Model
+import face_icon from "./images/face.svg"
+import GPT_icon from "./images/GPT.svg"
+import runaway_icon from "./images/runaway.svg"
+import deepAiText_icon from "./images/text.svg"
+
 const NavigationLinks = [
-  { label: "Home", link: "./" },
-  { label: "Expertise", link: "#" },
+  // { label: "Home", link: "./" },
+  { label: "Expertise", link: "./Expertise" },
   {
     label: "Products",
     submenu: [
@@ -116,25 +156,49 @@ const NavigationLinks = [
         submenu: [
           {
             label: "Session Information Bot",
+            icon: <img src={sessionSummeriser_icon} alt=""  width={30}/>,
             link: "./product/SessionInformationBot",
           },
           {
             label: "Feedback Summarizer Bot",
+            icon: <img src={feedbackSummeriser_icon} alt=""  width={30}/>,
             link: "./product/FeedbackSummarizerBot",
           },
           {
             label: "Intelligent Document Processing Bot",
+            icon: <img src={documentSummeriser_icon} alt=""  width={30}/>,
             link: "./product/IntelligentDocumentProcessingBot",
           },
           {
-            label: "Document Classification With Virtual Assistant",
+            label: "Document Classification Bot",
+            icon: <img src={documentSummeriser_icon} alt=""  width={30}/>,
             link: "./product/DocumentClassificationWithVirtualAssistant",
           },
           {
             label: "Smart Support Framework",
+            icon: <img src={smartSupport_icon} alt=""  width={30}/>,
             link: "./product/SmartSupportFramework",
           },
-          { label: "TriviaBot", link: "./product/TriviaBot" },
+          { 
+            label: "TriviaBot",
+            icon: <img src={triviaBot_icon} alt=""  width={30}/>, 
+            link: "./product/TriviaBot" 
+          },
+          { 
+            label: "Support Ticket Assistant",
+            icon: <img src={SupportTicket_icon} alt=""  width={30}/>, 
+            link: "./product/SupportTicketAssistant" 
+          },
+          { 
+            label: "Sales Assistant",
+            icon: <img src={salesAssis_icon} alt=""  width={30}/>, 
+            link: "./product/SalesAssistant" 
+          },
+          { 
+            label: "Test Case Recommender",
+            icon: <img src={testcase_icon} alt=""  width={30}/>, 
+            link: "./product/TestCaseRecommender" 
+          },
         ],
       },
       {
@@ -142,18 +206,22 @@ const NavigationLinks = [
         submenu: [
           {
             label: "Hugging Face Transformers",
-            link: "#",
-          },
-          {
-            label: "RunwayML",
+            icon: <img src={face_icon} alt=""  width={30}/>, 
             link: "#",
           },
           {
             label: "DeepAI Text Generation API",
+            icon: <img src={deepAiText_icon} alt=""  width={30}/>, 
             link: "#",
           },
           {
             label: "EleutherAI GPT Models",
+            icon: <img src={GPT_icon} alt=""  width={30}/>, 
+            link: "#",
+          },
+          {
+            label: "RunwayML",
+            icon: <img src={runaway_icon} alt=""  width={30}/>, 
             link: "#",
           },
         ],
@@ -169,50 +237,43 @@ const NavigationLinks = [
       {
         label: "Virtual Assistant Tool", 
         link: "/solution/VirtualAssistantTool",
-        icon: "/icons/dataP.svg",
-        alt: "data",
+        icon: <img src={bot_icon} alt=""  width={30}/>,
       },
       {
         label: "Custom Large Language Models",
         link: "/solution/LargeLanguageModel",
-        icon: "/icons/ML.svg",
-        alt: "ML",
+        icon: <img src={LLM_icon} alt=""  width={30}/>,
       },
       { 
         label: "Natural Language Processing", 
         link: "/solution/NaturalLanguageProcessing",
-        icon: "/icons/dataV.svg",
-        alt: "data",
+        icon: <img src={NLP_icon} alt=""  width={30}/>,
       },
       {
         label: "Consumer Sentiment Analysis",
         link: "/solution/ConsumerSentimentAnalysis",
-        icon: "/icons/dataV.svg",
-        alt: "data",
+        icon: <img src={sentiment_icon} alt=""  width={30}/>,
       },
       { 
         label: "Text Analysis", 
         link: "./solution/TextAnalysis",
-        icon: "/icons/dataV.svg",
-        alt: "data",
+        icon: <img src={textAnalysis_icon} alt=""  width={30}/>,
       },
       // {
       //   label: "Al Call Center Solutions",
-
+      //   link:
       //   icon: "/icons/dataV.svg",
       //   alt: "data",
       // },
       {
         label: "Predictive Analytics",
         link: "/solution/PredictiveAnalytics",
-        icon: "/icons/dataV.svg",
-        alt: "data",
+        icon: <img src={predictive_icon} alt=""  width={30}/>,
       },
       {
         label: "Recommendation Systems",
         link: "/Industries/RecommendationSystems",
-        icon: "/icons/dataV.svg",
-        alt: "data",
+        icon: <img src={like_icon} alt=""  width={30}/>,
       },
       // { 
       //   label: "Computer Vision", 
@@ -223,20 +284,18 @@ const NavigationLinks = [
       { 
         label: "Image Recognition", 
         link: "./solution/ImageRecognition",
-        icon: "/icons/dataV.svg",
-        alt: "data",
+        icon: <img src={image_icon} alt=""  width={30}/>,
       },
       // {
       //   label: "Pose Estimation",
-
+      //   link:
       //   icon: "/icons/dataV.svg",
       //   alt: "data",
       // },
       {
         label: "Data capture & OCR",
         link: "./solution/DataCaptureOCR",
-        icon: "/icons/dataV.svg",
-        alt: "data",
+        icon: <img src={OCR_icon} alt=""  width={30}/>,
       },
     ],
   },
@@ -245,57 +304,48 @@ const NavigationLinks = [
     submenu: [
       {
         label: "Healthcare & Pharma",
-
-        icon: "/icons/framework.svg",
-        alt: "frwk",
+        link: "/Industries/Health&Pharma",
+        icon: <img src={health_icon} alt=""  width={30}/>,
       },
       {
         label: "Sport & Wellness",
-
-        icon: "/icons/nlp.svg",
-        alt: "nlp",
+        link: "/Industries/SportWellness",
+        icon: <img src={sports_icon} alt="" width={30}/>,
       },
       {
         label: "E-commerce",
         link: "/Industries/E-commerce",
-        icon: "/icons/computerVision.svg",
-        alt: "comp",
+        icon: <img src={ecommerce_icon} alt="" width={30}/>,
       },
       {
         label: "MarTech",
-
-        icon: "/icons/computerVision.svg",
-        alt: "comp",
+        link: "/Industries/MarTech",
+        icon: <img src={marketing_icon} alt="" width={30}/>,
       },
       {
         label: "Automotive",
-
-        icon: "/icons/computerVision.svg",
-        alt: "comp",
+        link: "/Industries/Automotive",
+        icon: <img src={automobile_icon} alt="" width={30}/>,
       },
       {
         label: "Logistics",
         link: "/Industries/Logistics",
-        icon: "/icons/computerVision.svg",
-        alt: "comp",
+        icon: <img src={logistics_icon} alt="" width={30}/>,
       },
       {
         label: "Game & Entertainment",
-
-        icon: "/icons/computerVision.svg",
-        alt: "comp",
+        link: "/Industries/GameEntertainment",
+        icon: <img src={game_icon} alt="" width={30}/>,
       },
       {
         label: "Fintech",
         link: "/Industries/Fintech",
-        icon: "/icons/computerVision.svg",
-        alt: "comp",
+        icon: <img src={fintech_icon} alt="" width={30}/>,
       },
       {
         label: "Retail",
         link: "/Industries/Retail",
-        icon: "/icons/computerVision.svg",
-        alt: "comp",
+        icon: <img src={retail_icon} alt="" width={30}/>,
       },
     ],
   },

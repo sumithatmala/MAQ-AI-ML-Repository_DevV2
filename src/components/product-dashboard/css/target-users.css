@@ -27,11 +27,21 @@ body {
 
 .text-block-center {
     max-width: 780px;
-    margin: 15px auto 0;
+    margin: 15px auto;
     line-height: 1.875;
     text-align: center;
 }
-
+.text-block-center2 {
+    margin-top: 0px;
+    font-weight: 400;
+    max-width: 1000px;
+    margin: 15px auto;
+    line-height: 1.875;
+    text-align: center;
+}
+.target-section .main-cases {
+    margin: 0px auto !important;
+}
 .target__list {
     align-content: stretch;
     align-items: stretch;

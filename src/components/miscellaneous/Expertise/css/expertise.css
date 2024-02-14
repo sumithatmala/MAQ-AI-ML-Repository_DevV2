@@ -1,0 +1,9 @@
+.ExBannerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/BgImg_2.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}

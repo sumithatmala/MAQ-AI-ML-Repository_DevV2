@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     background-image: url(../img/BgImg.jpg);
-
+    background-size:cover;
 }
 .BannerInd {
     max-width: 820px;

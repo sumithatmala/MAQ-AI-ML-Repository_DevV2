@@ -12,14 +12,14 @@
 .btn-empty {
     display: inline-block;
     min-height: 50px;
-    padding: 14px 25px;
+    /* padding: 14px 25px; */
     border: 1px solid #77bce8;
     margin: 0 auto;
     color: #141414;
     font-size: 18px;
 }
 .btn {
-    display: inline-block;
+    /* display: inline-block; */
     min-width: 120px;
     /* padding: 9px 10px; */
     border: 1px solid #453c90 !important;

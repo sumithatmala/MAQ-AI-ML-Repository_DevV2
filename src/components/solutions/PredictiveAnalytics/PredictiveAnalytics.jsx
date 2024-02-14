@@ -20,12 +20,12 @@ const PredictiveAnalytics = () => {
   return (
     <>
     <Banner BannerData = {PredictiveAnalyticsBannerData}/>
-    <BusinessCases items={{item: BusinessCasesData, title: "How Our Predictive Analytics Models Can Augment Your Business"}}/>
+    <BusinessCases items={{item: BusinessCasesData, NoCards:4, title: "How Our Predictive Analytics Models Can Augment Your Business"}}/>
     <WhatWeOffer />
     <Insights />
     <FlatGridLayout items={IndustriesData}/>
     <RoadMap items={PredictiveAnalyticsModelsProcessData} title="How We Build Predictive Analytics Models"/>
-    <CustomerSuccess items={CutomerSuccessData} heading="Customer Success"/>
+    <CustomerSuccess items={CutomerSuccessData} heading="Customer Success" CardHeight="40rem"/>
     <FAQs FAQs = {FAQsData} />
     <ContactForm/>
     </>

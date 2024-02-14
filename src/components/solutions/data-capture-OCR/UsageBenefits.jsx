@@ -1,13 +1,11 @@
 import "./css/UsageBenefits.css"
+import CartonImg from "./img/cartonImg.svg"
 
 const UsageBenefits = (props) => {
-    console.log(props.data.title);
-    console.log(props.data.desc);
-    console.log(props.data.points);
     return (
         <section className="LogisticsContainer">
-            {/* <div className="LogisticsTitle">
-                <h5>{props.items.title}</h5>
+            <h5>{props.items.title}</h5>
+            <div className="LogisticsTitle">
                 <div className="LogisticsDesc">
                     {props.items.desc.map((para) => {
                         return(<p>{para}</p>)
@@ -19,7 +17,10 @@ const UsageBenefits = (props) => {
                         })}
                     </ul>
                 </div>
-            </div> */}
+                <div className="LogisticsImg">
+                        <img src={CartonImg} alt="Logistics and Transportation"></img>
+                </div>
+            </div>
         </section>
     )
 }

@@ -1,0 +1,62 @@
+.BackBannerContainer {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit:contain;
+    background-image: url(../img/BgImg.jpg);
+    background-size:cover;
+}
+.BackBannerInd {
+    text-align: center;
+    max-width: 1024px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 3rem 20px;
+}
+.BackBannerInd img{
+    margin: 30px;
+    width: 200px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.BackBannerDesc {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 20px;
+}
+.BackBannerDesc h5{
+    margin: 20px 0;
+}
+
+@media (max-width: 1024px) {
+    .BackBannerInd {
+        max-width: 730px;
+        margin: 3rem 20px;
+    }
+}
+
+@media (max-width: 788px) {
+    .BackBannerInd {
+        text-align: center;
+        flex-direction: column-reverse;
+        margin: 3rem 20px;
+        align-items: center;
+    }
+    .BackBannerDesc {
+        text-align: center;
+        width: 75%;
+    }
+    .BackBannerDesc p, .BackBannerDesc h5{
+        text-align: center;
+    }
+    .BackBannerInd img{
+        margin: 20px;
+        width: 50%;
+    }
+}

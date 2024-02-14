@@ -1,0 +1,16 @@
+.Container-SportWellness {
+    align-items: center;
+    margin: 0rem 15rem;
+}
+.Container-SportWellness, .HeaderVisual-SportWellness {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+/* .Alternate-SportWellness { */
+    /* margin: 5rem 15rem; */
+/* } */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
