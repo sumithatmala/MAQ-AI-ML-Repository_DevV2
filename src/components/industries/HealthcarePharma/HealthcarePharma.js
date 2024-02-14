@@ -1,5 +1,5 @@
 import AccordionStatic from "../../solutions/common/accordionStatic";
-import AlternateBanner from "../common/AlternateBanner";
+import AlternateBanner from "../../solutions/common/alternateBanner";
 import BiotechDigitalData from "./AccorData";
 import AreaExpertise from "./AreaExpertise";
 import "./css/HealthcarePharma.css";
@@ -7,13 +7,14 @@ import "./css/HealthcarePharma.css";
 import ContactForm from "../../solutions/common/contactForm";
 import CustomerSuccess from "../../solutions/common/CustomerSuccess";
 import PharmaCustData from "./PharmaCustData";
-import GridOfCards from "../common/GridOfCards";
+import GridOfCards from "../../solutions/common/GridOfCards";
 import ValueData from "./ValueData";
-import Grid from "../common/grid";
+import Grid from "../../solutions/common/grid";
 import ServiceProvide from "./ServiceProvides";
 import BigData from "./BigDataPharma";
 import OneCardCoursal from "../common/OneCardCoursal";
 import OCDataHealth from "./CarouselDataHealth";
+
 const HealtcarePharma = () => {
   return (
     <>
@@ -56,6 +57,7 @@ const HealtcarePharma = () => {
           title={"AI and Big Data for Pharma"}
           desc=""
           listItems={BigData}
+          listWidth={100}
         />
       </div>
 

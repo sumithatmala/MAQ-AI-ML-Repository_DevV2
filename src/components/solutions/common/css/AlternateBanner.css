@@ -22,11 +22,11 @@
     align-items: center;
     align-content: center;
     display: flex;
-    margin:10px;
+    margin: 20px;
 }
 .ImgContainer img{
     border-radius: 8px;
-    width: 25rem;
+    /* width: 25rem; */
     object-fit: cover;
 }
 
@@ -60,4 +60,38 @@
 }
 li::marker {
     color: #453c90;
+}
+
+@media (max-width: 1024px) {
+    .BannerVisualLft {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .BannerVisualRgt {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .BannerVisualRgt .ImgContainer {
+        margin-left: 10px;
+        margin-right: 5rem;
+    }
+
+    .BannerVisualLft .ImgContainer {
+        margin-right: 5rem;
+    }
+
+    .ImgContainer {
+        margin:10px;
+    }
+    .ImgContainer img{
+        width: 100px;
+        object-fit: cover;
+    }
+    
+    .BannerDetails {
+        margin: 20px;
+        max-width: 100%;
+    }
 }

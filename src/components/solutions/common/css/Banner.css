@@ -1,4 +1,4 @@
-.banner {
+.banner1 {
     position: relative;
     display: flex;
     min-width: 0;
@@ -10,7 +10,7 @@
 }
 
 @media (min-width: 640px) {
-    .banner {
+    .banner1 {
         padding-top: 70px;
         padding-bottom: 90px;
     }
@@ -19,6 +19,7 @@
 @media (min-width: 640px) {
     .banner-bg {
         min-height: 690px;
+        background-size: cover;
     }
 }
 
@@ -36,8 +37,9 @@
 }
 
 @media (min-width: 640px) {
-    .banner:before {
-        background-image: url(../img/heading-net-bg.svg);
+    .banner1:before {
+        /* background-image: url(../img/hero-banner-2.jpg); */
+        background-size: cover;
     }
 }
 
@@ -93,7 +95,7 @@
 }
 
 @media (min-width: 742px) {
-    .banner #banner-animation {
+    .banner1 #banner-animation {
         bottom: 0;
         max-width: 360px !important;
         max-height: 300px;
@@ -101,7 +103,7 @@
 }
 
 @media (min-width: 742px) {
-    .banner #banner-animation {
+    .banner1 #banner-animation {
         position: absolute;
         right: 0;
         left: 0;

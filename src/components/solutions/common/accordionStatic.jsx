@@ -1,15 +1,15 @@
 import { useState } from "react";
-import "./css/accordian.css"
+import "./css/accordianStatic.css"
 
 const Description = (props) => {
-    return(
+    return (
         <div className="AccordionDesc">
             {props.desc.para.map((para) => {
-                return(<p> {para} </p>)
-            })} 
+                return (<p> {para} </p>)
+            })}
             {props.desc.points.map((points) => {
-                return(<li> {points} </li>)
-            })} 
+                return (<li> {points} </li>)
+            })}
         </div>
     )
 }
@@ -25,10 +25,15 @@ const AccordionStatic = (props) => {
             <div className="AccordionTitle">
                 <div className="AccordionList">
                     {props.listItems.map((item) => {
-                        return(<div className={'AccordionListItem' + ((selected.list === item.list)?'_selected':'')} onClick={() => {setSelected(item)}}> <p> {item.list} </p> </div>)
+                        return (<div 
+                                    className={'AccordionListItem' + ((selected.list === item.list) ? '_selected' : '')} 
+                                    onClick={() => { setSelected(item) }}
+                                > 
+                                    <p> {item.list} </p> 
+                                </div>)
                     })}
                 </div>
-                <Description desc={selected.desc}/>
+                <Description desc={selected.desc} />
             </div>
         </section>
     )

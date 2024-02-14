@@ -1,13 +1,13 @@
 import React from 'react'
-import Banner from "../common/Banner";
+import Banner from "../../solutions/common/Banner";
 import BannerData from "./JSONData/BannerData";
 import OneCardCoursal from '../common/OneCardCoursal';
 import OneCardData from './JSONData/Exprtise'
-import AlternateBanner from '../common/AlternateBanner';
+import AlternateBanner from '../../solutions/common/alternateBanner';
 import AlternateBannerData from './JSONData/AlternateBannerData';
-import FlatGridLayout from '../common/FlatGridLayout'
+import FlatGridLayout from '../../solutions/common/FlatGridLayout'
 import BusinessLevelUpData from './JSONData/BusinessLevelUpData'
-import Grid from "../common/grid"
+import Grid from "../../solutions/common/grid"
 import { benefitCards } from './JSONData/Benefit';
 import CustomerSuccess from '../../solutions/common/CustomerSuccess';
 import CutomerSuccessData from "./JSONData/CustomerSuccessData";

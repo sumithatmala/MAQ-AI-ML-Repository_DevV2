@@ -11,7 +11,7 @@ const DevlopSolutions = [
         'Users can discover their desired content more efficiently',
       ],
       img: (
-        <img src={sentiment} />
+        <img src={sentiment} width={350}/>
       ),
     },
     {
@@ -22,7 +22,7 @@ const DevlopSolutions = [
         'Users can easily locate their desired products',
       ],
       img: (
-        <img src={purpose} />
+        <img src={purpose} width={350}/>
       ),
     }, 
   ];
