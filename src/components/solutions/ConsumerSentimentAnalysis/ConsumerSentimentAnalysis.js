@@ -14,6 +14,7 @@ import GridOfCards from "../../industries/common/GridOfCards";
 import IndustriesData from "./IndustriesData";
 import IndustriesListData from "./IndustriesListData";
 import Grid from "../common/grid";
+import Alternate from '../common/alternateBanner';
 
 const ConsumerSentimentAnalysis = () => {
   return (
@@ -53,9 +54,13 @@ const ConsumerSentimentAnalysis = () => {
       }}
       />
 
-      <section style={{ marginTop: "100px" }}>
-        <OurServices />
-      </section>
+{/* <div className="container_pharma">
+        <AlternateBanner banners={AreaExpertise} count={0} ContactBtn={true} />
+      </div> */}
+
+      <div className="container_pharma">
+      <Alternate banners={OurServices} ContactBtn={false} />
+      </div>
 
       <section className="adopt">
         <AdoptSentiment />

@@ -4,6 +4,9 @@ import BiSlider from "./BiSlider";
 import DevlopSolutions from "./DevlopSolutions";
 import "./css/RecommendationSystems.css";
 import CustomerSuccess from "../common/CustomerSuccess";
+import Alternate from '../common/alternateBanner';
+import bannerData from './BannerData';
+
 
 const RecommendationSystems = () => {
   return (
@@ -30,28 +33,9 @@ const RecommendationSystems = () => {
         </div>
       </section>
 
-      <section className="section-text-image __image-right __type-center __type-content-change">
-        <div className="section-text-image-inner">
-          <div className="section-text-image__figure"></div>
-          <div className="section-text-image-details">
-            <h2 className="section-text-image__title">
-              Understanding Recommendation Systems
-            </h2>
-            <div className="section-text-image__description">
-              <p>
-                Recommendation systems enable businesses to deliver tailored
-                suggestions and enhance the customer experience. High-quality
-                recommendations boost customer interaction and influence
-                customer lifetime value.
-              </p>
-              <p>
-                InData Labs develops solutions customized and adapted based on
-                each company’s performance metrics.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div className="container_pharma" >
+        <Alternate banners={bannerData} ContactBtn={false} />
+      </div>
 
       <section class="info-section">
         <div class="info-section-inner">
@@ -70,7 +54,9 @@ const RecommendationSystems = () => {
         </div>
       </section>
 
-      <DevlopSolutions />
+      <div className="container_pharma">
+        <Alternate banners={DevlopSolutions} ContactBtn={false} />
+      </div>
 
       <Benefits />
 

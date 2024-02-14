@@ -1,10 +1,10 @@
 import "./css/virtualtool.css";
 import FAQ from "./FAQ";
 import ContactForm from "./contactForm";
-import IndustriesList from "./IndustryItem";
-import KeyFeaturesSection from "./KeyFeaturesSection";
 import GridOfCards from "../common/GridOfCards";
-import IndustData from './IndusterieListData';
+import IndustData from "./IndusterieListData";
+import Alternate from "../common/alternateBanner";
+import BannerData from "./BannerData";
 
 const VirtualAssistantTool = () => {
   return (
@@ -32,9 +32,22 @@ const VirtualAssistantTool = () => {
         </div>
       </section>
 
+      <div className="quick-block">
+        <div className="head-block-center" style={{ marginBottom: "10px" , marginTop: "20px"}}>
+          <h2 className="headblock">
+            AI-Powered Virtual Assistant: Key Features
+          </h2>
+        </div>
+        <div className="text-block-center" style={{ marginBottom: "10px" }}>
+          Revolutionize customer support and enhance productivity with your
+          virtual assistant solution.
+        </div>
+      </div>
 
+      <div className="container_pharma">
+        <Alternate banners={BannerData} ContactBtn={false} />
+      </div>
 
-      <KeyFeaturesSection />
 
       <GridOfCards
         content={IndustData}
@@ -43,14 +56,12 @@ const VirtualAssistantTool = () => {
           NoCards: 3,
           title: "Advantages of Virtual Assistant",
           caption:
-          "Virtual assistant software development allows you to delegate non-core tasks to a chatbot and concentrate on growing your business.",
+            "Virtual assistant software development allows you to delegate non-core tasks to a chatbot and concentrate on growing your business.",
         }}
       />
 
-
-      
-        <FAQ />
-        <ContactForm />
+      <FAQ />
+      <ContactForm />
     </>
   );
 };
