@@ -118,3 +118,8 @@ img {
 .blue-tile-section-list__text {
     line-height: 27px;
 }
+@media (max-width:710px){
+    .item38{
+        width: 100% !important;
+    }
+}
