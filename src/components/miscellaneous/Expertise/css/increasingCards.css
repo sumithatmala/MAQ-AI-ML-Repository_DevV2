@@ -40,3 +40,20 @@
     margin-top: 5px; /* Adjust as needed */
     margin: 0 auto;
 }
+
+@media (max-width: 1245px) {
+    .IncreasingCardDesc {
+        margin: 20px;
+        width: 250px;
+        height: 200px;
+    }
+}   
+@media (max-width: 900px) {
+    .IncreasingcardTitle {
+        flex-direction: column;
+    }
+    .IncreasingCardDesc {
+        width: 320px;
+        height: 200px;
+    }
+}   

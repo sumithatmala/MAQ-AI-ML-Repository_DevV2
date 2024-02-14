@@ -2,7 +2,10 @@ import { Link } from "react-router-dom";
 import "./css/showcaseBanner.css"
 import { useState } from "react";
 import { RxArrowRight } from "react-icons/rx";
-import { VscArrowCircleRight } from "react-icons/vsc";
+// import { VscArrowCircleRight } from "react-icons/vsc";
+// import { BiChevronRightCircle } from "react-icons/bi";
+// import { CiCircleChevRight } from "react-icons/ci";
+import { TfiArrowCircleRight } from "react-icons/tfi";
 
 const ShowcaseBanner = (props) => {
     const [data, setData] = useState(props.item1);
@@ -19,7 +22,7 @@ const ShowcaseBanner = (props) => {
                                 setToggle(!toggle);
                             }}
                             className="ShowcaseBannerNavigate" >
-                            <VscArrowCircleRight/>
+                            <TfiArrowCircleRight/>
                         </button>
                     </h3>
                     <p>{data.desc}</p>
