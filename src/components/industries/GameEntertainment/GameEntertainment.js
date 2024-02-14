@@ -1,5 +1,5 @@
 import featuresData from "./LeftRightData";
-// import LeftRight from "../common/LeftRightSection";
+// // import LeftRight from "../common/LeftRightSection";
 import "./css/GameEntertainment.css";
 import ContactForm from "../../solutions/common/contactForm";
 import CustomerSuccess from "../../solutions/common/CustomerSuccess";

@@ -7,7 +7,7 @@ import GridData from './BusinessCases';
 import Grid from '../../solutions/common/grid';
 import { Number } from './Number';
 
-import AlternateBanner from '../common/AlternateBanner';
+import AlternateBanner from '../../solutions/common/alternateBanner';
 import AlternateData from './alternatedata';
 
 

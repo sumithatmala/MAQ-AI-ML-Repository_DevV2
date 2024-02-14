@@ -18,12 +18,12 @@ const bannerData = [
     {
         heading: "AI-Powered Sports Performance Analysis", 
         details: "Elevate your team's performance using cutting-edge predictive analytics tailored for sports. Harness AI to delve into player performance, skill assessment, and injury prediction, optimizing training regimes for peak results. Moreover, leverage data mining to forecast ticket sales, ensuring optimal pricing strategies and maximizing stadium occupancy for enhanced revenue generation.",
-        img: <img src= {AI_Powered_Sports} height="550px" width = "400px" alt= "ChatGPT"></img>,
+        img: <img src= {AI_Powered_Sports} height="300px" width = "400px" alt= "ChatGPT"></img>,
     },
     {
         heading: "AI-Driven Fan Engagement Analysis", 
         details: "Harness the power of NLP to understand fan sentiment on social media platforms effortlessly. Segment your audience by demographics and interests to elevate fan engagement strategies. Gain valuable insights into competitor performance and stay ahead in the game with AI-powered sports solutions.",
-        img: <img src= {AI_fanengagement} height="550px" width = "400px" alt= "ChatGPT"></img>,
+        img: <img src= {AI_fanengagement} height="200px" width = "400px" alt= "ChatGPT"></img>,
     },
 ];
 

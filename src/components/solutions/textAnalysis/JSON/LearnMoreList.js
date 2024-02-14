@@ -17,20 +17,20 @@ export const Banners = [
         heading: "Tailored NLP models designed specifically for customer feedback analysis.", 
         details: "Customer feedback analysis software powered by custom models that surpass simple domain adaptation, ideal for companies with customers and prospects who use unique language styles.", 
         points: ["Sentiment analysis","Topic detection","Sentiment scored topic extraction","Semantic ontology development"],
-        img: <img src= {nlp1} alt= "Custom NLP" width={100}></img>,
+        img: <img src= {nlp1} alt= "Custom NLP" width={250}></img>,
     },
     {
         heading: "Power your product with NLP technology", 
         details: "Enhance your products' customer engagement and satisfaction rates through the capabilities of Natural Language Processing.", 
         points: ["Speech recognition","Information extraction (from topic classification to entity extraction)","Semantic search","Text categorization"],
-        img: <img src= {nlp2} alt= "NLP technology" width={100}></img>,
+        img: <img src= {nlp2} alt= "NLP technology" width={250}></img>,
 
     },
     {
         heading: "An NLP API tailored for social media analytics.",
         details: "A user-friendly Natural Language Processing API for analyzing text data from social media, providing detailed audience insights, including demographic information and more.", 
         points: ["Gender","Age","Location","Interests","Language", "etc."],
-        img: <img src= {nlp3} alt= "AI" width={100}></img>,
+        img: <img src= {nlp3} alt= "AI" width={250}></img>,
     },
 ]
 
