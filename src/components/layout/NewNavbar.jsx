@@ -6,13 +6,13 @@ import { Link } from 'react-router-dom';
 const Dropdown = ({ submenus, dropdown, depthLevel }) => {
     depthLevel = depthLevel + 1;
     const dropdownClass = depthLevel > 1 ? "dropdown-submenu" : "";
- return (
-    <ul className={`dropdown ${dropdownClass} ${dropdown ? "show" : ""}`}>
-        {submenus.map((submenu, index) => (
-            <MenuItems items={submenu} key={index} depthLevel={depthLevel}/>
-        ))}
-    </ul>
- );
+    return (
+        <ul className={`dropdown ${dropdownClass} ${dropdown ? "show" : ""}`}>
+            {submenus.map((submenu, index) => (
+                <MenuItems items={submenu} key={index} depthLevel={depthLevel} />
+            ))}
+        </ul>
+    );
 };
 
 const MenuItems = ({ items, depthLevel }) => {
@@ -22,12 +22,12 @@ const MenuItems = ({ items, depthLevel }) => {
     let ref = useRef();
     useEffect(() => {
         const handler = (event) => {
-         if (dropdown && ref.current && !ref.current.contains(event.target)) {
-            setDropdown(false);
-         }
+            if (dropdown && ref.current && !ref.current.contains(event.target)) {
+                setDropdown(false);
+            }
         };
-            document.addEventListener("mousedown", handler);
-            document.addEventListener("touchstart", handler);
+        document.addEventListener("mousedown", handler);
+        document.addEventListener("touchstart", handler);
         return () => {
             // Cleanup the event listener
             document.removeEventListener("mousedown", handler);
@@ -39,7 +39,7 @@ const MenuItems = ({ items, depthLevel }) => {
     const onMouseEnter = () => {
         setDropdown(true);
     };
-    
+
     const onMouseLeave = () => {
         setDropdown(false);
     };
@@ -48,25 +48,25 @@ const MenuItems = ({ items, depthLevel }) => {
         dropdown && setDropdown(false);
     };
     return (
-        <li className="menu-items" 
+        <li className="menu-items"
             ref={ref}
             onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}   
-            onClick={closeDropdown} 
+            onMouseLeave={onMouseLeave}
+            onClick={closeDropdown}
         >
             {items.submenu ? (
                 <>
                     <button type="button" aria-haspopup="menu" aria-expanded={dropdown ? "true" : "false"} onClick={() => setDropdown((prev) => !prev)}>
-                        {items.icon ?(
-                            <img src={process.env.PUBLIC_URL + items.icon} alt={items.alt} height={20}/>
-                        ):(<></>)}
-                        {items.label}{' '} 
+                        {items.icon ? (
+                            <img src={process.env.PUBLIC_URL + items.icon} alt={items.alt} height={20} />
+                        ) : (<></>)}
+                        {items.label}{' '}
                         {/* {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />} */}
                     </button>
-                    <Dropdown 
-                    submenus={items.submenu} 
-                    dropdown={dropdown}
-                    depthLevel = {depthLevel}/>
+                    <Dropdown
+                        submenus={items.submenu}
+                        dropdown={dropdown}
+                        depthLevel={depthLevel} />
                 </>
             ) : (
                 <Link to={items.link}>{items.label}</Link>
@@ -79,11 +79,11 @@ const Navbar = () => {
     const depthLevel = 0;
     return (
         <nav className="desktop-nav">
-        <ul className="menus">
-        {NavigationLinks.map((menu, index) => {
-            return <MenuItems items={menu} key={index} depthLevel={depthLevel} />;
-        })}
-        </ul>
+            <ul className="menus">
+                {NavigationLinks.map((menu, index) => {
+                    return <MenuItems items={menu} key={index} depthLevel={depthLevel} />;
+                })}
+            </ul>
         </nav>
     );
 };

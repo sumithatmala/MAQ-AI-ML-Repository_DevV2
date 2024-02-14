@@ -42,7 +42,7 @@ const LargeLanguageModel = () => {
         <OurTechStack />
         <BroadExpertise />
         {/* <WhyMAQSoftware /> */}
-        <CustomerSuccess items={CutomerSuccessData} heading="Customer Success"/>
+        <CustomerSuccess items={CutomerSuccessData} heading="Customer Success" CardHeight="35rem"/>
         <FAQs FAQs = {FAQsData} />
         <ContactForm/>
       </div>

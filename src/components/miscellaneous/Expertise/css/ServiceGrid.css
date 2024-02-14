@@ -1,15 +1,21 @@
 /* industries */
 .ServiceGridCnt {
-    text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 5rem;
+    margin: 5rem 10px;
+}
+
+.ServiceGridHeading {
+    display: block;
+    text-align: center;
+    margin: 20px;
 }
 
 .ServiceGridTitle {
     display: grid;
+    transition: 0.3s ease;
     align-items: center;
     justify-content: center;
     grid-template-columns: repeat(3,1fr);
@@ -31,7 +37,7 @@
     justify-content: center;
     flex-direction: row;
     max-width: 350px;
-    min-height: 200px;
+    min-height: 225px;
     margin: 10px;
     padding: auto;
     /* border: 2px #443c90a8 solid; */
@@ -61,7 +67,9 @@
 }
 
 .ServiceGridCard img {
-    margin: 10px;
+    margin-right: 16px;
+    /* margin: 10px; */
+    border-radius: 8px;
 }
 
 .ServiceGridCard-txt {
@@ -81,18 +89,27 @@
     align-items: center;
 }
 
-/* .btn-class {
-    margin: 20px auto 5rem auto;
-}
-.Industry-btn {
-    color: black;
-    padding: 9px 10px;
-    border-radius: 5px;
-    border: 1px solid #443c90;
-    transition: background-color 0.3s;
-    font-weight: 50;
-}
-.Industry-btn:hover{
-    background-color: #443c90;
-    color: white;
-} */
+@media (max-width: 1245px) {
+    .ServiceGridTitle {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+        margin: 20px;
+    }
+}   
+@media (max-width: 900px) {
+    .ServiceGridHeading {
+        margin: 20px 30px;
+        width: 80%;
+    }
+    .ServiceGridTitle {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        margin: 20px;
+    }
+}   
