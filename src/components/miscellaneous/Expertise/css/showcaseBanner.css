@@ -27,12 +27,14 @@
     margin: 2px;
     margin-left: 6px;
     color: #b8001c;
-    transition: margin-left 0.3s;
-    font-size: 33px;
+    /* color: white; */
+    transition: 0.3s;
+    font-size: 25px;
 }
 .ShowcaseBannerheader svg:hover {
-    margin-left: 10px;
-    /* color: #b8001c; */
+    margin-left: 12px;
+    color: #b8001cab;
+    /* color: white; */
     /* background-color: #b8001c; */
 }
 
@@ -70,11 +72,12 @@
 }
 
 .ShowcaseBannerBg {
-    margin-left: 20%;
+    margin-top: 20px;
+    margin-left: 15%;
     position: absolute;
-    z-index: -1000;
-    width: 830px;
-    height: 700px;
+    z-index: 0;
+    width: 800px;
+    height: 650px;
     /* background-image: url(../img/showcaseBanner.jpg); */
     background-color: #e6e6cf;
     background-size: cover;
@@ -93,7 +96,7 @@
 @media (max-width: 1180px) {
 
     .ShowcaseBannerCnt{
-        margin: 3rem;
+        margin: 5rem 2%;
         display: flex;
         justify-content:start;
     }
@@ -115,15 +118,40 @@
     }
 
     .ShowcaseBannerBg {
-        margin-top: 20%;
-        margin-left: 20%;
+        margin-top: 30px;
+        left: -15%;
         position: absolute;
-        z-index: -1000;
-        width: 830px;
-        height: 700px;
+        z-index: 0;
+        /* width: 1000px; */
+        width: 90%;
+        height: 900px;
         /* background-image: url(../img/showcaseBanner.jpg); */
         background-color: #e6e6cf;
         background-size: cover;
-        border-radius: 60rem;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 738px) {
+
+    .ShowcaseBannerCnt{
+        margin: 5rem 0;
+        display: flex;
+        justify-content:start;
+    }
+    .ShowcaseBannerheader {
+        margin: 30px 0;
+    }
+    .ShowcaseBannerTitle {
+        padding: 20px;
+        max-width: 100%;
+        border-radius: 27px;
+        margin-right: 0;
+        min-height: 700px;
+        animation: opacityTrans 0.3;
+    }
+    
+    .ShowcaseBannerBg {
+        display: none;
     }
 }
