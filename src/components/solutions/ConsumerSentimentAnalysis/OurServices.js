@@ -15,7 +15,7 @@ const OurServices = [
       "Smart customer service solutions",
       "ChatGPT conversational solutions",
     ],
-    img: <img src={real} alt="" />,
+    img: <img src={real} alt="" width={350}/>,
   },
   {
     heading: "Intent Classification",
@@ -26,7 +26,7 @@ const OurServices = [
       "Sales and marketing campaign analysis",
       "Conversational AI applications",
     ],
-    img: <img src={intent} alt="" />,
+    img: <img src={intent} alt="" width={350}/>,
   },
   {
     heading: "Text Mining and Information Extraction",
@@ -37,7 +37,7 @@ const OurServices = [
       "Document analysis (CMS, RPA, ERP, and others)",
       "Text analytics for call centers",
     ],
-    img: <img src={info} alt="" />,
+    img: <img src={info} alt="" width={350}/>,
   },
   {
     heading: "Full-Cycle NLP Software Development",
@@ -48,7 +48,7 @@ const OurServices = [
       "Text categorization",
       "User feedback analysis",
     ],
-    img: <img src={nlp} alt="" />,
+    img: <img src={nlp} alt="" width={350}/>,
   },
 ];
 

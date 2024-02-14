@@ -115,9 +115,6 @@
     }
 
     /* saurabh */
-    .head-block-center{
-        /* margin-top: 30px; */
-    }
     .predict-use-cases {
         padding-top: 104px;
     }
@@ -246,12 +243,6 @@
 }
 
 
-@media (min-width: 960px) {
-    .predict-use-cases-list__list-item2 {
-        /* width: 25% !important; */
-    }
-}
-
 @media (max-width: 960px) {
     .predict-use-cases-list__list-item2 {
         width: 50% !important;
@@ -262,12 +253,5 @@
     .predict-use-cases-list__list-item2 {
         width: 85% !important ;
         margin: 0 auto;
-    }
-}
-
-@media (min-width: 1280px)
-{
-    .predict-use-cases-list__list-item2 {
-        /* width: 25% !important; */
     }
 }
