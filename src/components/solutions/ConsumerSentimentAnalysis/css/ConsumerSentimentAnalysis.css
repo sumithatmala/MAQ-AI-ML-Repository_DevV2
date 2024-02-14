@@ -83,7 +83,7 @@
 }
 .text-block-center{
     margin-top: 0px;
-    font-weight: 300;
+    /* font-weight: 300; */
 }
 
 .section-text-image{
@@ -203,4 +203,10 @@
 .block__action .btn-empty:hover{
     background-color: #453c90;
     color: #fff;
+}
+
+@media (max-width: 960px){
+    .consumer_grid .predict-use-cases-list__list-item2 {
+        width: 100% !important;
+    }
 }

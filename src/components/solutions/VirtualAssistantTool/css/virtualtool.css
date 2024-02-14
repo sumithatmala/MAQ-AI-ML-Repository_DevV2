@@ -6,7 +6,7 @@ body {
     color: #141414;
     font-family: 'proxima-nova', 'Helvetica Neue', Arial, sans-serif;
     font-size: 16px;
-    font-weight: 300;
+    /* font-weight: 300; */
     line-height: 1.25;
 }
 
@@ -118,7 +118,7 @@ body {
 }
 .text-block-center{
     margin-top: 0px;
-    font-weight: 300;
+    /* font-weight: 300; */
 }
 
 .section-text-image{

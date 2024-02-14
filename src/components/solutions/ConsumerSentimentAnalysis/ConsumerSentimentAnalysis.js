@@ -43,16 +43,19 @@ const ConsumerSentimentAnalysis = () => {
         </div>
       </section>
 
-      <GridOfCards
-      content={IndustriesListData}
-      items={{
-        item: IndustriesListData,
-        NoCards: 3,
-        title: "Elevate Your Business Strategy with User Sentiment",
-        caption:
-          "Sentiment analytics, utilizing cutting-edge NLP-based technology, discerns the emotional tone within consumer sentiment data.",
-      }}
-      />
+
+      <section className="consumer_grid">
+        <GridOfCards
+        content={IndustriesListData}
+        items={{
+          item: IndustriesListData,
+          NoCards: 3,
+          title: "Elevate Your Business Strategy with User Sentiment",
+          caption:
+            "Sentiment analytics, utilizing cutting-edge NLP-based technology, discerns the emotional tone within consumer sentiment data.",
+        }}
+        />
+      </section>
 
 {/* <div className="container_pharma">
         <AlternateBanner banners={AreaExpertise} count={0} ContactBtn={true} />
