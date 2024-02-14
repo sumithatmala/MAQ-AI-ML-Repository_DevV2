@@ -1,5 +1,5 @@
 import featuresData from "./LeftRightData";
-import LeftRight from "../common/LeftRightSection";
+// import LeftRight from "../common/LeftRightSection";
 import "./css/GameEntertainment.css";
 import ContactForm from "../../solutions/common/contactForm";
 import CustomerSuccess from "../../solutions/common/CustomerSuccess";
@@ -37,13 +37,13 @@ const GameEntertainment = () => {
       </section>
 
       <div className="keyExpertise" style={{ marginTop: "60px" }}>
-        <LeftRight
+        {/* <LeftRight
           items={featuresData}
           title={"Key Expertise"}
           subtitle={
             "We share our expertise for you to make it to the top charts."
           }
-        />
+        /> */}
       </div>
 
       <OneCardCoursal items={OneCardDataGame} />

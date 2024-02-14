@@ -6,7 +6,7 @@ const AreaExpertise = [
   {
     heading: "Enhancing Healthcare Delivery with Predictive Analytics",
     details:
-      "Address unique patients’ needs and elevate healthcare delivery through exceptional predictive analytics solutions. Streamline diagnostics with big data analysis and machine learning. Leverage our ML-based predictive models for automated anomaly detection in patient clinical data. Analyze the results to fine-tune treatment plans and navigate medicine risks such as adverse reactions and medication side effects. Proactively prevent chronic diseases and enhance patient outcomes. By analyzing patient-generated data, predict disorders like diabetes or heart disease. Utilize predictive analytics tools to identify high-risk patients and foresee their future outcomes. Implement personalized predictions and treatment plans, reducing the risk of hospitalization.",
+      "Utilize predictive analytics and machine learning to address unique patient needs and enhance healthcare delivery. Streamline diagnostics and automate anomaly detection in patient data. Analyze results to improve treatment plans and manage medicine risks. Proactively prevent chronic diseases and predict disorders like diabetes or heart disease. Identify high-risk patients and implement personalized treatment plans to reduce hospitalization risk.",
     points: [
       "Automated detection of anomalies in patient clinical data",
       "Fine-tune treatment plans based on analysis results",
@@ -18,28 +18,28 @@ const AreaExpertise = [
       <img
         src={delivery}
         alt="Enhancing Healthcare Delivery with Predictive Analytics"
-        height={550}
+        height={450}
+        width={350}
       />
     ),
   },
   {
     heading: "OCR Solutions for Healthcare Business Process Optimization",
     details:
-      "Streamline the transition from paper to digital with our customized OCR solutions. Optimize healthcare business processes through data capture, retrieval, and extraction. With OCR solutions, easily digitize various healthcare documents, including patients’ records, prescriptions, claims, reports, and invoices. Enable automatic data entry and seamless health data transfer between organizations. Deploy tailored OCR software in your hospital to tackle laborious tasks, saving time and money. Develop an AI pharma EHR for efficient clinical predictions and analytics. Facilitate smart workload forecasting and resource management, including medication demand. Gain insights to promote better patient outcomes with artificial intelligence in pharmacy.",
+      "Facilitate the transition from paper to digital in healthcare with our OCR solutions. Digitize various documents like patient records, prescriptions, claims, and reports. Enable automatic data entry and seamless data transfer. Deploy tailored OCR software to save time and money. Develop an AI pharma EHR for clinical predictions and analytics. Manage workload and resources efficiently with medication demand forecasting. Improve patient outcomes with AI in pharmacy.",
     points: [
       "Smooth transition from paper to digital with custom OCR solutions",
       "Digitize various healthcare documents, including records, prescriptions, claims, reports, and invoices",
       "Enable automatic data entry and seamless health data transfer between organizations",
       "Deploy tailored OCR software for laborious tasks, saving time and money",
       "Develop AI pharma EHR for clinical predictions and analytics",
-      "Smart workload forecasting and resource management in healthcare",
-      "Gain insights for better patient outcomes with AI in pharmacy",
     ],
     img: (
       <img
         src={ocr}
         alt="OCR Solutions for Healthcare Business Process Optimization"
-        height={550}
+        height={450}
+        width={350}
       />
     ),
   },
@@ -52,15 +52,14 @@ const AreaExpertise = [
       "Use NLP to extract data from clinical documents for intelligent diagnostics",
       "Understand clients better with NLP API software",
       "Identify target audience characteristics (age, gender, interests) for effective marketing",
-      "Analyze social media comments for customer feedback on services",
-      "Categorize comments into people, places, and services to assess customer satisfaction",
       "Use insights to improve the overall quality of services and care",
     ],
     img: (
       <img
         src={personal}
         alt="NLP for Personalized Healthcare"
-        height={550}
+        height={450}
+        width={350}
       />
     ),
   },
