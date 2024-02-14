@@ -18,6 +18,7 @@ const AreaExpertise = [
       <img
         src={delivery}
         alt="Enhancing Healthcare Delivery with Predictive Analytics"
+        height={550}
       />
     ),
   },
@@ -38,6 +39,7 @@ const AreaExpertise = [
       <img
         src={ocr}
         alt="OCR Solutions for Healthcare Business Process Optimization"
+        height={550}
       />
     ),
   },
@@ -58,6 +60,7 @@ const AreaExpertise = [
       <img
         src={personal}
         alt="NLP for Personalized Healthcare"
+        height={550}
       />
     ),
   },
