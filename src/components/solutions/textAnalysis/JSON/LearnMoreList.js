@@ -38,21 +38,21 @@ export const SpecialCards = [
     {
         topic: "Customizable solutions",
         disc: "We excel in delivering tailored solutions that precisely match customers' needs and data characteristics.",
-        img: <img src= {icon1} alt= "Custom NLP" width={50}></img>,
+        img: <img src= {icon1} alt= "Custom NLP" height={70}></img>,
     },
     {
         topic: "State of the art models",
         disc: "We constantly seek innovative methods to enhance our predictions and achieve optimal outcomes.",
-        img: <img src= {icon2} alt= "Custom NLP" width={60}></img>,
+        img: <img src= {icon2} alt= "Custom NLP" height={70}></img>,
     },
     {
         topic: "Scalable results",
         disc: "Our solutions are designed to scale alongside your business, continually enhancing your capabilities.",
-        img: <img src= {icon3} alt= "Custom NLP" width={70}></img>,
+        img: <img src= {icon3} alt= "Custom NLP" height={70}></img>,
     },
     {
         topic: "Highly professional team",
         disc: "We are committed to achieving excellence in all our endeavors for our clients.",
-        img: <img src= {icon4} alt= "Custom NLP" width={70}></img>,
+        img: <img src= {icon4} alt= "Custom NLP" height={70}></img>,
     },
 ]
