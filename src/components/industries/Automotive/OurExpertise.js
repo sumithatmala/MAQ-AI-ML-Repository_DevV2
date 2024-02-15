@@ -11,7 +11,7 @@ const OurExpertise =  [
         'Solution: Enhance the design of complex geometries using deep learning techniques. Geometry AI solutions for the automotive industry enable safe product design with real-time simulation, reducing costs and engineering effort.',
       ],
       img: (
-        <img src={geometry} alt="" />
+        <img src={geometry} alt="" width={400} />
       ),
     },
     {
@@ -21,7 +21,7 @@ const OurExpertise =  [
         'Solution: Process simulation results in an automated way with machine learning systems. An end-to-end data pipeline handles vast amounts of data and produces valuable insights like parameters affecting simulation results.',
       ],
       img: (
-        <img src={dataAnalysis} alt="" />
+        <img src={dataAnalysis} alt="" width={400} />
       ),
     },
     {
@@ -31,7 +31,7 @@ const OurExpertise =  [
         'Solution: Non-destructive visual testing that relies on 3D Geometry-based vision systems, enabling reliable and automated quality inspection. This AI automotive solution improves efficiency at your production sites and ensures traceability with low human intervention.',
       ],
       img: (
-        <img src={automatedDefect} alt="" />
+        <img src={automatedDefect} alt="" width={400} />
       ),
     },
     
