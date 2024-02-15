@@ -19,10 +19,8 @@ const ImageRecognition = () => {
         </div>
         <div className="Container-ir">
             <section className="Info-section">
-                {/* <div> */}
                 <p>We cooperate with clients across multiple industries and assist them in levelling up their businesses by harnessing the power of Big Data.</p>
                 <p>We have gained clients' trust across the globe by creating and delivering top-notch custom solutions for different industries. Our team of <b>machine learning (ML) experts</b> has extensive experience in on-demand computer vision and image recognition software development of any complexity.</p>
-                {/* </div> */}
             </section>
             <section className="IntroBanner">
                 <div className="IntroBanner-det">
@@ -57,8 +55,8 @@ const ImageRecognition = () => {
                         {process.map((item)=>{
                             return(
                                 <div className="ProcessCard">
-                                    <img src={process.env.PUBLIC_URL + item.img} alt={item.label} width={200}></img>
-                                    <b>{item.label}</b>
+                                    {item.img}
+                                    <b>{item.topic}</b>
                                     <p>{item.disc}</p>
                                 </div>
                             )
