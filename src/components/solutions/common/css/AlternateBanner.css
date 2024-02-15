@@ -103,7 +103,9 @@ li::marker {
     
     .BannerDetails h2{
         text-align: center;
-
+    }
+    .BannerDetails li{
+        text-align: start;
     }
 }
 
