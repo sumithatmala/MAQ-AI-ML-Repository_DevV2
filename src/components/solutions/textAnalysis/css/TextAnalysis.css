@@ -10,7 +10,7 @@
     color: white;
     width: 100%;
     background-color: #453c90;
-    height: 65vh;
+    height: 65;
     align-content: center;
     flex-direction: column;
     justify-content: flex-end;
@@ -39,9 +39,11 @@
 }
 
 .HeaderBox {
+    padding: 0 20px 40px;
     margin-top: 5rem;
     font-size:medium;
-    margin: 60px 25% 0 25%;
+    /* margin: 60px 25% 0 25%; */
+    max-width: 840px;
     text-align: center;
 }
 .HeaderBox p {
@@ -54,10 +56,11 @@
 .LearnMoreList {
     display: flex;
     text-align: center;
-    flex-wrap: row;
+    /* flex-wrap: row; */
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem;
+    margin: 5rem 0;
 }
 .LearnMoreList ul{
     margin-left: 0;
@@ -84,4 +87,17 @@
 } */
 .LearnMoreCard:hover{
     box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
-}    
+}
+
+@media (max-width: 910px) {
+    .LearnMoreList {
+        flex-direction: column;
+        margin: 3rem 0;
+    }
+    .LearnMoreCard {
+        margin: 4rem 0;
+        float:none;
+        transition: box-shadow 0.3s;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
+    }
+}

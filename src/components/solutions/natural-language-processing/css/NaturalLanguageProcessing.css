@@ -60,7 +60,8 @@
 /* industries */
 
 .TargetIndustries {
-    margin-top: 5rem;
+    max-width: 1300px;
+    margin-top: 2rem;
 }
 
 .IndustryItems {
@@ -68,8 +69,30 @@
     padding: 10px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .IndustryInditem {
-    margin: 10px 60px;
+    width: 188px;
+    margin: 10px 50px;
+}
+
+@media (max-width: 1024px) {
+    .TargetIndustries {
+        max-width: 1300px;
+        margin-top: 5rem;
+    }
+    
+    .IndustryItems {
+        margin-top: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .IndustryInditem {
+        margin: 20px 50px;
+    }
 }
