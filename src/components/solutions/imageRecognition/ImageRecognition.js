@@ -33,7 +33,7 @@ const ImageRecognition = () => {
                     </ul>
                 </div>
                 <div>
-                    <img src={RecogImg} alt="Image Recognition" width={300}></img>
+                    <img src={RecogImg} alt="ImageRecognition" width={300}></img>
                 </div>
             </section>
             <section className="RoadmapContainer">

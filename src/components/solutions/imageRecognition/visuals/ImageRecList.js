@@ -21,9 +21,9 @@ import evaluate from "./evaluate.svg"
 import train from "./train.svg"
 
 export const process = [
-    {topic: "Collect", disc:"We collect datasets, label images, and add meta tags to each unlabeled picture", img: <img src={collect} height={100}/>},
-    {topic: "Train", disc:"We use collected and labeled data to train an algorithm to process and analyze image datasets", img: <img src={train} height={100}/>},
-    {topic: "Evaluate", disc:"We provide a ready-made model with REST API calls to work with new datasets by using a computer vision model. ", img: <img src={evaluate} height={80}/>}
+    {topic: "Collect", disc:"We collect datasets, label images, and add meta tags to each unlabeled picture", img: <img src={collect} height={100} alt="Collect"/>},
+    {topic: "Train", disc:"We use collected and labeled data to train an algorithm to process and analyze image datasets", img: <img src={train} height={100} alt="Train"/>},
+    {topic: "Evaluate", disc:"We provide a ready-made model with REST API calls to work with new datasets by using a computer vision model. ", img: <img src={evaluate} height={80} alt="Evaluate"/>}
 ]
 
 export const industrialCards = [
