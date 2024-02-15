@@ -3,13 +3,10 @@ import Banner from "../common/Banner";
 import Benfits from "./Benefits";
 import UseCases from "./UseCases";
 import Industries from "./Industries";
-// import "./css/Industries.css";
 import "./css/LargeLanguageModel.css"
 import Expertise from "./Expertise";
-import ArticleBanner from "./ArticleBanner";
 import Benfits2 from "./Benefits2";
 import Integration from "./Integration";
-import WhyMAQSoftware from "../common/WhyMAQSoftware";
 import OurTechStack from "./OurTechStack";
 import BroadExpertise from "./BroadExpertise";
 import CustomerSuccess from "../common/CustomerSuccess";

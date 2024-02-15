@@ -19,7 +19,7 @@ const Integration = () => {
             class="wpbdmv-animation align-center renderer-svg playing"
             Style="max-width: 100%; margin-right: auto; margin-left: auto;"
           >
-            <img src={IntegrationSteps} alt="Integration Steps" />
+            <img src={IntegrationSteps} alt="Integration Steps" style={{maxWidth:"100%"}} />
           </div>
         </div>
       </div>
