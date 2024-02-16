@@ -38,7 +38,7 @@ const GridOfCards = (props) => {
       </div>
       <div className="text-block-center">Need a consultation?</div>
       <div className="block__action">
-        <HashLink  to="./#contactform" className="btn btn-empty">Contact us</HashLink>
+        <HashLink  to="./#contact" className="btn btn-empty">Contact us</HashLink>
       </div>
     </section>
   );

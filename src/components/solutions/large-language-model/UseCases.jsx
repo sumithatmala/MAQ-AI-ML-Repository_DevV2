@@ -7,6 +7,7 @@ import personalized_recommendations  from './img/personalized_recommendations.we
 import text_analysis  from './img/text_analysis.webp'
 import educational_tools   from './img/educational_tools.webp'
 import script_writing   from './img/script_writing.webp'
+import { HashLink } from "react-router-hash-link";
 
 const UseCases = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -48,7 +49,7 @@ const UseCases = () => {
           Explore how Large Language Models can revolutionize your operations!
         </div>
         <div className="block__action">
-          <a href="large-language-model.html#section-contacts" className="btn btn-empty">Request Demo</a>
+          <HashLink to="#contact" className="btn btn-empty">Request Demo</HashLink>
         </div>
       </div>
     </section>

@@ -24,7 +24,7 @@ const AlternateBanner = ({banners,ContactBtn}) => {
                             ):(
                                 <></>
                             )}
-                            {ContactBtn?(<HashLink  to="./#contactform" className="btn btn-empty" style={{width: "fit-content"}}> Contact Us </HashLink>):(<></>)}
+                            {ContactBtn?(<HashLink  to="./#contact" className="btn btn-empty" style={{width: "fit-content"}}> Contact Us </HashLink>):(<></>)}
                         </div>
                     </div>
                 )

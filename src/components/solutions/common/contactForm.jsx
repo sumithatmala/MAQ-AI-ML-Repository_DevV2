@@ -39,7 +39,7 @@ const ContactForm = ({contactMsg}) => {
     }
 
     return (
-        <section  id="contactform" className="FormBox">
+        <section  id="contact" className="FormBox">
             <div className="Contact">
                 <div className="Header">
                     <h2>Get in Touch with MAQ Software Today</h2>

@@ -89,7 +89,7 @@ const GameDev = () => {
           Need to develop an AI game solution?
         </div>
         <div className="block__action">
-          <HashLink  to="./#contactform" className="btn btn-empty">
+          <HashLink  to="./#contact" className="btn btn-empty">
             Get an Estimate
           </HashLink>
         </div>

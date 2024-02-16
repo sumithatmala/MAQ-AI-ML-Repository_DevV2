@@ -47,7 +47,7 @@ const WhyChooseSection = () => {
         </ul>
         <div className="text-block-center">Planning to use AI in game development?</div>
         <div className="block__action">
-          <HashLink  to="./#contactform" className="btn btn-empty">Contact Us</HashLink>
+          <HashLink  to="./#contact" className="btn btn-empty">Contact Us</HashLink>
         </div>
       </div>
     </section>

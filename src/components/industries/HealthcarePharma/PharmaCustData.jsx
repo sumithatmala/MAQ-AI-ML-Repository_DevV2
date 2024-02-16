@@ -8,7 +8,7 @@ const PharmaCustData = [
     image: <img src={pose} />,
     description: [
       "Enhanced pose estimation and error detection by 64%",
-      "The client, based in the United States, specializes in human activity recognition and motion analysis. They approached InData Labs to develop custom pose estimation models for real-time human pose detection during physical therapy and fitness.",
+      "The client, based in the United States, specializes in human activity recognition and motion analysis. They approached MAQ Software to develop custom pose estimation models for real-time human pose detection during physical therapy and fitness.",
       "As a result, we created proprietary pose estimation and error detection algorithms to enhance the client’s app. These algorithms detect human position and provide feedback on how to correct movements.",
     ],
   },

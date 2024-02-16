@@ -57,10 +57,6 @@ const ConsumerSentimentAnalysis = () => {
         />
       </section>
 
-{/* <div className="container_pharma">
-        <AlternateBanner banners={AreaExpertise} count={0} ContactBtn={true} />
-      </div> */}
-
       <div className="container_pharma">
       <Alternate banners={OurServices} ContactBtn={false} />
       </div>
@@ -75,7 +71,6 @@ const ConsumerSentimentAnalysis = () => {
 
       <section>
         <Grid content={SentimentAnalyticsSection} />
-        {/* <SentimentAnalyticsSection /> */}
       </section>
 
       <section className="gridd">

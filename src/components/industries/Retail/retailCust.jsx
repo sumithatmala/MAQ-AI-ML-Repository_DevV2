@@ -11,7 +11,7 @@ const retailCustData = [
       "Our client, a global tech vendor in international trade, sought our expertise to integrate BI into their platform for precise sentiment analysis.",
       "We provided an innovative solution that collects, analyzes, and stores customer reviews in the database.",
     ],
-    link: "https://indatalabs.com/resources/nlp-for-trading-retail-platform",
+    link: "",
   },
   {
     title: "Developing Predictive Analytics Module for E-Commerce Platform",
@@ -21,7 +21,7 @@ const retailCustData = [
       "Our client, operating in E-commerce, approached us for the development of a robust recommender system.",
       "Our tech team implemented an ML-based solution to generate relevant recommendations. The result was an enhanced customer loyalty and improved brand perception for the client.",
     ],
-    link: "https://indatalabs.com/resources/predictive-analytics-ecommerce",
+    link: "",
   },
   {
     title: "Revolutionizing Retail with Automated Invoice Processing Software",
@@ -31,6 +31,7 @@ const retailCustData = [
       "Our client, a major retail company, sought to automate their invoice processing system.",
       "We utilized ML for data capture and extraction, resulting in a 43% performance boost and a significant reduction in workload for the accounting department.",
     ],
+    link: "",
   },
 ];
 
