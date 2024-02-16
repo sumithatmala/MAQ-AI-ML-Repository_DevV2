@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./css/ContactForm.css"
 
 const ContactForm = ({contactMsg}) => {
@@ -40,8 +41,10 @@ const ContactForm = ({contactMsg}) => {
     return (
         <div className="FormBox">
             <section className="Contact">
-                <h2>Get in Touch with MAQ Software Today</h2>
-                <p>{contactMsg}</p>
+                <div className="Header">
+                    <h2>Get in Touch with MAQ Software Today</h2>
+                    <p>{contactMsg}</p>
+                </div>
                 <form action="#" onSubmit={handleSubmit}>
                     <div className="input-box">
                         <div className="input-field field">
@@ -69,6 +72,9 @@ const ContactForm = ({contactMsg}) => {
                         <div className="error-txt"> Error message </div>
                     </div>
                     <button type="submit"> Send Message </button>
+                    <div className="disclaimer">
+                        <p>By clicking Send Message, you agree to our <Link to={''}>Terms of Use</Link> and <Link to={''}>Privacy Policy</Link>.</p>
+                    </div>
                 </form>
             </section>
         </div>

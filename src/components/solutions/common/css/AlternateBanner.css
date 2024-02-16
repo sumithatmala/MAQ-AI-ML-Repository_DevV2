@@ -31,7 +31,7 @@
 }
 
 .BannerDetails {
-    text-align: justify;
+    text-align: start;
     line-height: 1.7;
     margin: 20px;
     display: flex;
@@ -74,24 +74,78 @@ li::marker {
     }
 
     .BannerVisualRgt .ImgContainer {
-        margin-left: 10px;
-        margin-right: 5rem;
+        margin: 0;
+        /* margin-left: 10px; */
+        /* margin-right: 5rem; */
     }
 
     .BannerVisualLft .ImgContainer {
-        margin-right: 5rem;
+        margin: 0;
+        /* margin-right: 5rem; */
     }
 
     .ImgContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin:10px;
     }
     .ImgContainer img{
-        width: 100px;
+        width: 400px;
         object-fit: cover;
     }
     
     .BannerDetails {
+        text-align: center;
         margin: 20px;
         max-width: 100%;
+    }
+    
+    .BannerDetails h2{
+        text-align: center;
+
+    }
+}
+
+@media (max-width: 780px) {
+    .BannerVisualLft {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .BannerVisualRgt {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .BannerVisualRgt .ImgContainer {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+
+    .BannerVisualLft .ImgContainer {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+
+    .ImgContainer {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        margin:10px;
+    }
+    .ImgContainer img{
+        width: 150px;
+        object-fit: cover;
+    }
+    
+    .BannerDetails {
+        text-align: start;
+        margin: 20px;
+        max-width: 100%;
+    }
+    
+    .BannerDetails h2{
+        text-align: start;
     }
 }
