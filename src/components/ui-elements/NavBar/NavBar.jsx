@@ -120,7 +120,7 @@ const MenuItems = ({ items, depthLevel }) => {
         dropdown && setDropdown(false);
     };
     return (
-        <li className={"menu-items"}
+        <li className="menu-items menu-selected"
             ref={ref}
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
@@ -132,9 +132,9 @@ const MenuItems = ({ items, depthLevel }) => {
                     <button 
                         className='nav-list__item' 
                         type="button" 
-                        aria-haspopup="menu" 
+                        aria-haspopup="menu"
                         // aria-expanded={dropdown ? "true" : "false"} 
-                        onClick={() => setDropdown((prev) => !prev)}
+                        // onClick={() => setDropdown((prev) => !prev)}
                     >
                         {items.label}
                         <FiChevronDown className="rotateArrow" />
