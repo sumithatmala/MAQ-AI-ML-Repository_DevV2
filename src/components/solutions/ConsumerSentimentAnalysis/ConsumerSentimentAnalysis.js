@@ -98,7 +98,6 @@ const ConsumerSentimentAnalysis = () => {
       <CustomerSuccess items={CarouselData}  heading="Customer Success" CardHeight="35rem"/>
 
       <FAQs FAQs={FAQsData} />
-
       <ContactForm />
     </>
   );

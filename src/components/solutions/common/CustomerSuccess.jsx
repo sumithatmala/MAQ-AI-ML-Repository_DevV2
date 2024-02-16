@@ -20,7 +20,7 @@ const CustomerSuccess = (props) => {
     // passing the slides to show dynamically and default will be 3
     slidesToShow: slidesToShow,
     // centerMode: true,
-    autoplay: true,
+    // autoplay: true,
     slidesToScroll: 1,
     dots: false,
     responsive: [
@@ -28,6 +28,13 @@ const CustomerSuccess = (props) => {
         breakpoint: 1440,
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
@@ -48,6 +55,7 @@ const CustomerSuccess = (props) => {
   }, []);
 
   return (
+    <section className="carousel_cost">
     <section className="target-section" style={{ backgroundColor: "white" }}>
       <Row
         className="slick-list1 draggable fade-in product-overview d-flex justify-content-center "
@@ -81,6 +89,7 @@ const CustomerSuccess = (props) => {
           ))}
         </Slider>
       </Row>
+    </section>
     </section>
   );
 };

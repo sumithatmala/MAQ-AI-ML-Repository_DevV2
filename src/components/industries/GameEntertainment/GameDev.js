@@ -5,6 +5,7 @@ import phone from './icons/mobile.svg';
 import clock from './icons/clock.svg';
 import cube from './icons/hexagon.svg';
 import { useEffect } from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 const GameDev = () => {
   const listItemData = [
@@ -88,9 +89,9 @@ const GameDev = () => {
           Need to develop an AI game solution?
         </div>
         <div className="block__action">
-          <a href="#section-contacts" className="btn btn-empty">
+          <HashLink  to="./#contactform" className="btn btn-empty">
             Get an Estimate
-          </a>
+          </HashLink>
         </div>
       </div>
     </section>
