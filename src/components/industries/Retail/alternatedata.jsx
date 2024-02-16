@@ -15,6 +15,7 @@ const AlternateData = [
       <img
         src={predictive}
         alt="Enhancing Healthcare Delivery with Predictive Analytics"
+        width={450}
       />
     ),
   },
@@ -29,6 +30,7 @@ const AlternateData = [
       <img
         src={competitive}
         alt="OCR Solutions for Healthcare Business Process Optimization"
+        width={450}
       />
     ),
   },

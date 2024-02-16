@@ -136,8 +136,7 @@ const ProductInformation = () => {
                 </Row>
             </section>
               )}
-
-
+            
             {/* Solution Highlights​ */}
           {productDetails.solutionHighlights &&
             productDetails.solutionHighlights.length > 0 && (
@@ -272,6 +271,7 @@ const ProductInformation = () => {
           )}
         </Container>
       </section>
+
       <ProductDemo link={productDetails.demo.link}/>
       <ProductTryIt items={productDetails.title} link={productDetails.tryit.link}/>
       <ProductContactUs/>
