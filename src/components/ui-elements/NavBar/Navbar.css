@@ -295,7 +295,13 @@ header {
   text-align: left;
   padding: 0.7rem 1rem;
 }
+.desktop-nav .menu-selected:hover {
+  color: #b9091b;
+  svg.rotateArrow {
+    transform: rotate(180deg);
+  }
 
+}
 .desktop-nav .menu-items a:hover,
 .desktop-nav .menu-items button:hover {
   background-color: #f2f2f2;
@@ -382,17 +388,34 @@ header {
   padding-right: 0;
   padding-bottom: 6px;
   margin: 5px 0px;
+  color: #000;
 }
 
 .desktop-nav .dropdown.show a:hover {
   background-color: #fff;
 
   /* background-color: #cc3d4bda; */
+ 
   .NavArrow {
     margin-left: 10px;
   }
+  
 }
-
+.aaa {
+  .desktop-nav .dropdown.show a:hover {
+    background-color: #fff;
+  
+    /* background-color: #cc3d4bda; */
+   
+    .NavArrow {
+      margin-left: 10px;
+    }
+    
+  }
+}
+/* .desktop-nav .dropdown.show .aaa:hover {
+  background-color: #dd8891;
+} */
 .NavArrow {
   color: #b9091b;
   font-size: 16px;

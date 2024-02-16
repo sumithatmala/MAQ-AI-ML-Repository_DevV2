@@ -210,3 +210,43 @@
         width: 100% !important;
     }
 }
+.trinity__inner{
+    display: flex;
+    /* text-align: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.trinity__list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    /* align-items: center; */
+    max-width: 70%;
+    /* padding: 15px; */
+}
+.trinity__item {
+    max-width: 30%;
+    text-align: center;
+    margin: 10px;
+}
+.trinity__item_figure{
+    height: 120px;
+}
+.trinity__item h3{
+    font-size: 20px !important;
+}
+@media (max-width:960px){
+    .trinity__inner{
+        display: block;
+    }
+    .trinity__list{
+        display: grid;
+  place-items: center;
+        max-width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .trinity__item{
+        max-width: 70%;
+    }
+}
