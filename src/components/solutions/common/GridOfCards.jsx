@@ -1,5 +1,7 @@
 import React from "react";
 import './css/GridOfCards.css'
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const CaseItem = ({ iconSrc, altText, title, description, sizeOfCard }) => (
 
@@ -36,7 +38,7 @@ const GridOfCards = (props) => {
       </div>
       <div className="text-block-center">Need a consultation?</div>
       <div className="block__action">
-        <a href="#section-contacts" className="btn btn-empty">Contact us</a>
+        <HashLink  to="./#contact" className="btn btn-empty">Contact us</HashLink>
       </div>
     </section>
   );

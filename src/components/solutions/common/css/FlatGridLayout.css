@@ -27,6 +27,10 @@
     list-style: none;
 }
 
+.trinityItem{
+    margin: 20px;
+}
+
 .trinityItem:not(:last-child) {
     margin-bottom: 30px;
 }
@@ -40,7 +44,7 @@
 
 .trinityItemFigure {
     width: 72px;
-    height: 72px;
+    height: 72px !important;
     margin: 0 auto 10px;
 }
 

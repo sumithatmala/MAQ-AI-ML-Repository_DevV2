@@ -3,6 +3,7 @@ import './css/WhyChosen.css';
 import preson from './icons/persontalking.svg';
 import ai from './icons/linkCircle.svg';
 import mobile from './icons/mobile.svg';
+import { HashLink } from 'react-router-hash-link';
 
 const WhyChooseSection = () => {
   const servicesData = [
@@ -46,7 +47,7 @@ const WhyChooseSection = () => {
         </ul>
         <div className="text-block-center">Planning to use AI in game development?</div>
         <div className="block__action">
-          <a href="#section-contacts" className="btn btn-empty">Contact Us</a>
+          <HashLink  to="./#contact" className="btn btn-empty">Contact Us</HashLink>
         </div>
       </div>
     </section>

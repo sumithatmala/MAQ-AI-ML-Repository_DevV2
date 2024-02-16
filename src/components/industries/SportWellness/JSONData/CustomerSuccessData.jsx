@@ -8,7 +8,7 @@ const CustomerSuccessData = [
     image: <img src={fitness_slider_2} alt="fitness_slider_2" />,
     description: [
       <b>Boosted pose estimation accuracy and error detection by 64%.</b>,
-      "Our team at InData Labs was tasked with refining pose estimation accuracy and implementing error-detection algorithms for a client in the fitness and physical therapy sector.",
+      "Our team at MAQ Software was tasked with refining pose estimation accuracy and implementing error-detection algorithms for a client in the fitness and physical therapy sector.",
       "Leveraging deep learning techniques, we significantly improved pose estimation accuracy and successfully integrated AI-driven algorithms into the client’s application, enhancing overall performance.",
     ],
   },

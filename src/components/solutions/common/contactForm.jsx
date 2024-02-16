@@ -39,8 +39,8 @@ const ContactForm = ({contactMsg}) => {
     }
 
     return (
-        <div className="FormBox">
-            <section className="Contact">
+        <section  id="contact" className="FormBox">
+            <div className="Contact">
                 <div className="Header">
                     <h2>Get in Touch with MAQ Software Today</h2>
                     <p>{contactMsg}</p>
@@ -76,8 +76,8 @@ const ContactForm = ({contactMsg}) => {
                         <p>By clicking Send Message, you agree to our <Link to={''}>Terms of Use</Link> and <Link to={''}>Privacy Policy</Link>.</p>
                     </div>
                 </form>
-            </section>
         </div>
+            </section>
     )
 }
 
