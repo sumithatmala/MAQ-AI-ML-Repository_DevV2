@@ -47,7 +47,7 @@ const NaturalLanguageProcessing = () => {
                             return(
                                 <div className="IndustryInditem">
                                     {item.icon}
-                                    <h5><a href={item.link}>{item.name}</a></h5>
+                                    <h5><Link to={item.link}>{item.name}</Link></h5>
                                 </div>
                             )
                         })}

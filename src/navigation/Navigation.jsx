@@ -28,7 +28,8 @@ import Fintech from "../components/industries/Fintech/Fintech";
 import Automotive from "../components/industries/Automotive/Automotive";
 import GameEntertainment from "../components/industries/GameEntertainment/GameEntertainment";
 import MarTech from "../components/industries/MarTech/MarTech";
-import SportWellness from "../components/industries/SportWellness/SportWellness";import HealtcarePharma from "../components/industries/HealthcarePharma/HealthcarePharma";
+import SportWellness from "../components/industries/SportWellness/SportWellness";
+import HealtcarePharma from "../components/industries/HealthcarePharma/HealthcarePharma";
 
 const Navigation = () => {
   return (

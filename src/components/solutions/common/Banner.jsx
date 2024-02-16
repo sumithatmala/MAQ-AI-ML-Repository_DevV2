@@ -2,11 +2,11 @@ import React from "react";
 import "./css/Banner.css";
 
 const Banner = (props) => {
-
+  const myStyle = { marginTop: "0px", backgroundImage: `url(${require('./img/heading-net-bg.svg')})` }
   return (
     <section
-      className="banner banner-order-effects banner-bg"
-      style={{ marginTop: "0px" }}
+      className="banner1 banner-order-effects banner-bg"
+      style={props.BannerData.backgroundImage ? props.BannerData.backgroundImage : myStyle}
     >
       <div className="banner-inner">
         <h1 className="banner-title">

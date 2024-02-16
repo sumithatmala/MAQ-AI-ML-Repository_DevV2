@@ -13,6 +13,11 @@
 .Contact {
     width: 50rem;
 }
+
+.Contact .Header {
+    margin-bottom: 3rem;
+}
+
 .Contact form{
     text-align: center;
     align-items: center;
@@ -78,9 +83,33 @@ form button {
     letter-spacing: 1px;
     cursor: pointer;
     margin-top: 20px;
-    transition: box-shadow 0.3s;
+    transition: background-color 0.3s;
     box-shadow: 0 1px 2px #453c90;
 }
 form button:hover {
     background-color: #393375;
+}
+
+.Contact .disclaimer {
+    font-size: small;
+    /* max-width: 200px; */
+    margin: 20px;
+}
+
+@media (max-width: 1024px) {
+    .Contact {
+        display: flex;
+        flex-direction: column;
+        max-width: 30rem;
+        width: auto;
+    }
+    form .input-box {
+        flex-direction: column;
+        display :flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .input-box .input-field {
+        width: 100%;
+    }
 }

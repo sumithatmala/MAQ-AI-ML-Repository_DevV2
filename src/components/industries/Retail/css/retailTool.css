@@ -55,3 +55,10 @@ body {
     margin-top: 20px;
     text-align:start;
 }
+.altBanner{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
