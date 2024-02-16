@@ -26,7 +26,7 @@ const TextAnalysis = () => {
                             return (
                                 <div className="LearnMoreCard">
                                     <div>
-                                        <img src={process.env.PUBLIC_URL + item.img} alt={index} width={25}></img>
+                                        <img src={process.env.PUBLIC_URL + item.img} alt={index} width={40}></img>
                                         <p>{item.disc}</p>
                                         <Link to={item.link}>Learn More</Link>
                                     </div>

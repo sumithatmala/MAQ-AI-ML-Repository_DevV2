@@ -96,3 +96,8 @@ img {
     vertical-align: middle;
     border-style: none;
 }
+@media (max-width:1024px){
+    .services-technologies-list{
+        text-align: center;
+    }
+}

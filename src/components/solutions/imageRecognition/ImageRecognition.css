@@ -26,9 +26,9 @@ h1,h2 {
 
 .Info-section {
     display: block;
-    width: 780px;
+    max-width: 780px;
     text-align: center;
-    margin: 40px 0 0 0;
+    margin: 40px 10px 10px 10px;
     padding: auto;
 }
 .Info-section p {
@@ -38,9 +38,9 @@ h1,h2 {
 
 .IntroBanner {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
-    margin-top: 8rem;
+    margin: 5rem 20px 0 20px;
 }
 .IntroBanner img {
     border-radius: 8px;
@@ -48,10 +48,11 @@ h1,h2 {
 
 .IntroBanner-det {
     padding: 10px;
-    width: 800px;
+    max-width: 700px;
     margin: 20px 60px 20px 20px;
 }
 .IntroBanner-det h2{
+    margin-bottom: 30px;
     font-size: 22px;
 }
 .IntroBanner-det li{
@@ -65,8 +66,8 @@ h1,h2 {
     text-align: center;
     align-items: center;
     flex-direction: column;
-    width: 740px;
-    margin-top: 8rem;
+    max-width: 740px;
+    margin: 5rem 20px 0 20px;
 }
 
 .Roadmap {
@@ -93,11 +94,8 @@ h1,h2 {
     flex-direction: row;
 }
 .irProcess .ul {
-    float: left;
     margin: 0;
 }
-
-
 .ProcessCard {
     display: flex;
     flex-direction: column;
@@ -108,7 +106,10 @@ h1,h2 {
     min-height: 300px;
     padding: 10px;
     align-items: center;
-    margin: 5rem 20px;
+    margin: 4rem 20px;
+}
+.ProcessCard img {
+    margin: 20px;
 }
 
 /* usage section */
@@ -135,12 +136,67 @@ h1,h2 {
 }
 
 .Industryheading {
-    margin-top: 5rem;
+    margin: 5rem 20px 0 20px;
     text-align: center;
-    width: 60%;
+    max-width: 950px;
 }
 
 /* CustomerSuccess */
 .CustomerSuccess {
     display: block !important;
+}
+
+@media (max-width: 1024px) {
+    .IntroBanner {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin: 5rem 20px 20px 0;
+        align-items: center;
+    }
+    .IntroBanner img {
+        border-radius: 8px;
+    }
+    
+    .IntroBanner-det {
+        text-align: center;
+        padding: 10px;
+        max-width: 700px;
+        margin: 20px 60px 20px 20px;
+    }
+    .IntroBanner-det p{
+        margin-left: 10px;
+        text-align: start;
+    }
+    .IntroBanner-det li{
+        text-align: start;
+        margin: 8px 0;
+    }
+
+    .irProcess {
+        margin: 0 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .ProcessCard {
+        margin: 1rem 20px;
+    }
+
+    .UsageContainer {
+        flex-direction: column;
+        /* justify-content: start; */
+        /* text-align: center; */
+        /* align-items: center; */
+        margin: 20px 10px ;
+        max-width: 100%;
+        width: 100%;
+    }
+    .UsageContainer img {
+        border-radius: 8px;
+    }
+    .UsageText {
+        max-width: 100%;
+        margin-left: 40px;
+        margin: 20px;
+    }
 }

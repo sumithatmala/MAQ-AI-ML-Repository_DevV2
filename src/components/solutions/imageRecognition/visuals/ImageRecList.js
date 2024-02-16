@@ -16,11 +16,14 @@ import one from "./1.png"
 import two from "./2.png"
 import three from "./3.png"
 import four from "./4.png"
+import collect from "./collect.svg"
+import evaluate from "./evaluate.svg"
+import train from "./train.svg"
 
 export const process = [
-    {label: "Collect", disc:"We collect datasets, label images, and add meta tags to each unlabeled picture", img: "/images/ImgRecognition/collect.svg"},
-    {label: "Train", disc:"We use collected and labeled data to train an algorithm to process and analyze image datasets", img: "/images/ImgRecognition/train.svg"},
-    {label: "Evaluate", disc:"We provide a ready-made model with REST API calls to work with new datasets by using a computer vision model.\n*(*Other formats of transfer solution are possible.)", img: "/images/ImgRecognition/evaluate.svg"},
+    {topic: "Collect", disc:"We collect datasets, label images, and add meta tags to each unlabeled picture", img: <img src={collect} height={100} alt="Collect"/>},
+    {topic: "Train", disc:"We use collected and labeled data to train an algorithm to process and analyze image datasets", img: <img src={train} height={100} alt="Train"/>},
+    {topic: "Evaluate", disc:"We provide a ready-made model with REST API calls to work with new datasets by using a computer vision model. ", img: <img src={evaluate} height={80} alt="Evaluate"/>}
 ]
 
 export const industrialCards = [
