@@ -104,7 +104,9 @@ li::marker {
     .BannerDetails h2{
         text-align: center;
     }
-    .BannerDetails li{
+    .BannerDetails ul{
+        width: 500px;
+        margin: 0 auto;
         text-align: start;
     }
 }
@@ -149,5 +151,11 @@ li::marker {
     
     .BannerDetails h2{
         text-align: start;
+    }
+
+    .BannerDetails ul{
+        width: fit-content;
+        margin: 0;
+        text-align: left;
     }
 }
