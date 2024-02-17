@@ -1,0 +1,36 @@
+.mainbody{
+    display: flex;
+    flex-direction: column;
+    /* background-image: url(./img/BgImg.jpg); */
+}
+.trusted-companies-block{
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit:contain;
+    background-size:cover;
+    box-shadow: 0px 1px 10px 0px #3d36809f;
+}
+.text-block-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.contributionGrid {
+    text-align: center;
+    margin-top: 3rem;
+    /* padding: 1rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit:contain;
+    background-size:cover;
+    /* box-shadow: 0px 1px 10px 0px #3d36809f; */
+}

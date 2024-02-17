@@ -4,7 +4,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 //Product elements
 import Container from "../components/layout/Container";
 import NotFound from "../components/views/NotFound";
-import HomePage from "../components/home-page/HomePage";
+import HomePage from "../components/HomePage/HomePage";
 import AboutUs from "../components/views/AboutUs";
 import SideBar from "../components/ui-elements/SideBar/SideBar";
 import ProductInformation from "../components/product-dashboard/ProductInformation";
@@ -37,7 +37,7 @@ const Navigation = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
-        <Route path="/" element={<Expertise />} />
+        <Route path="/" element={<HomePage />} />
 
         <Route path="/Expertise" element={<Expertise />} />
           {/* <Route path="/" element={<HomePage />} /> */}

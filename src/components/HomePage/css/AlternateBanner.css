@@ -1,0 +1,70 @@
+.expertiseIntroduction{
+    background-color: #fff;
+    margin-top: 48px;
+    padding: 3rem;
+    /* box-shadow: 0px 1px 10px 0px #3d36809f; */
+    border-radius: 8px; /* Border radius of 5px */
+}
+.BannerVisualLft {
+    margin: 40px 20px;
+    padding: 10px;
+    display: flex;
+}
+
+.BannerVisualRgt {
+    margin: 40px 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.BannerVisualRgt .ImgContainer {
+    margin-left: 5rem;
+}
+.BannerVisualLft .ImgContainer {
+    margin-right: 5rem;
+}
+
+.ImgContainer {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin:10px;
+}
+.ImgContainer img{
+    border-radius: 8px;
+    width: 25rem;
+    object-fit: cover;
+}
+
+.BannerDetails {
+    text-align: justify;
+    line-height: 1.7;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 35rem;
+}
+.BannerDetails h2{
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.ContactBtn {
+    color:black;
+    font-size:medium;
+    margin-right:auto;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: 1px solid #453c90;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.ContactBtn:hover {
+    color: white;
+    background-color: #453c90;
+}
+li::marker {
+    color: #453c90;
+}

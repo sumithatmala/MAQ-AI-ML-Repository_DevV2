@@ -1,0 +1,38 @@
+import {Link} from "react-router-dom"
+import "./css/AlternateBanner.css"
+
+const AlternateBanner = ({banners,ContactBtn}) => {
+    return (
+        <>
+        <div className="expertiseIntroduction">
+        {/* <h4>Our Expertise</h4> */}
+            {banners.map((item,count) => {
+                // console.log(item.points);
+                return (
+                    <div className={'BannerVisual' + (count%2 ? 'Rgt' : 'Lft')}>
+                        <div className="ImgContainer"> 
+                            {item.img} 
+                        </div>
+                        <div className="BannerDetails">
+                            <h2>{item.heading}</h2>
+                            <p>{item.details}</p>
+                            {item.points?(
+                                <ul>
+                                    {item.points.map((point) => {
+                                        return <li>{point}</li>
+                                    })}
+                                </ul>
+                            ):(
+                                <></>
+                            )}
+                            {ContactBtn?(<Link className="btn btn-empty" style={{width: "fit-content"}} to={'#'}> Contact Us </Link>):(<></>)}
+                        </div>
+                    </div>
+                )
+            })}
+            </div>
+        </>
+    )
+}
+
+export default AlternateBanner;
