@@ -43,6 +43,7 @@
 }
 .separate-slider__img-figure {
     height: 30%;
+    overflow: hidden;
 }
 .slick-slide.slick-active > div, .slick-slide.slick-active > div > div {
     height: 100% !important;
@@ -53,7 +54,7 @@
     flex-direction: column;
     max-width: 334px;
     margin: 20px;
-    height: 100% !important;
+    /* height: 100% !important; */
 }
  
 .slick-slide img {

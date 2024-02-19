@@ -49,9 +49,8 @@ const CustomerSuccess = (props) => {
   }, []);
 
   useEffect(() => {
-    // Update the CSS variable with the maximum height of cards
-    // console.log(CardHeight)
-    document.documentElement.style.setProperty("--max-card-height", `${CardHeight ? CardHeight : "50rem"}`);
+    console.log(CardHeight)
+    document.documentElement.style.setProperty("--max-card-height", `${CardHeight? CardHeight: "50rem"}`);
   }, []);
 
   return (
