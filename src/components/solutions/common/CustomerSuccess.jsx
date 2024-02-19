@@ -42,11 +42,11 @@ const CustomerSuccess = (props) => {
     AOS.refresh();
   }, []);
 
-  // useEffect(() => {
-  //   // Update the CSS variable with the maximum height of cards
-  //   console.log(CardHeight)
-  //   document.documentElement.style.setProperty("--max-card-height", `${CardHeight? CardHeight: "50rem"}`);
-  // }, []);
+  useEffect(() => {
+    // Update the CSS variable with the maximum height of cards
+    console.log(CardHeight)
+    document.documentElement.style.setProperty("--max-card-height", `${CardHeight? CardHeight: "50rem"}`);
+  }, []);
 
   return (
     <section className="target-section" style={{ backgroundColor: "white" }}>

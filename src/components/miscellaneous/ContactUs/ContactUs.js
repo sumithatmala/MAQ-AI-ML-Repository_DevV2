@@ -11,7 +11,7 @@ const ContactUs = () => {
 		<Container fluid>
 			<Row className="product-overview">
 				<Col>
-					<h2 class="heading-section">Contact Form</h2>
+					<center><h2 class="heading-section" style={{paddingTop: "15px"}}>Contact Form</h2></center>
 				</Col>
 			</Row>
 			<div class="product-content justify-content-center" >
