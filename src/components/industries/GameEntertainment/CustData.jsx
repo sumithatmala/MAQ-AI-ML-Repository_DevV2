@@ -1,9 +1,15 @@
+import game from './icons/Game-Development.jpeg';
+import emotion from './icons/gameEmotions.jpg';
+import res from './icons/resultPrediction.webp';
+
+
+
 const CustData = [
   {
     title: "Automated Customer Feedback Analysis for Game Developers",
     image: (
       <img
-        src="htg"
+        src={game}
         alt="Automated Customer Feedback Analysis for Game Developers"
         style={{ height: "230px" }}
       />
@@ -19,7 +25,7 @@ const CustData = [
     title: "Emotion Recognition for Customized Gaming Experience for Children",
     image: (
       <img
-        src="htg"
+        src={emotion}
         alt="Emotion Recognition for Customized Gaming Experience for Children"
         style={{ height: "230px" }}
       />
@@ -35,7 +41,7 @@ const CustData = [
     title: "Game Results Prediction Technology for Game Developers",
     image: (
       <img
-        src="htg"
+        src={res}
         alt="Game Results Prediction Technology for Game Developers"
         style={{ height: "230px" }}
       />
