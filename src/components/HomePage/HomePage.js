@@ -7,10 +7,10 @@ import Banner from './Banner';
 // import AlternateBanner from './AlternateBanner';
 import AlternateBanner from '../solutions/common/alternateBanner'
 import TrustedCompanies from './companies.js';
-import Customer from './CustomerReviews.js';
-import Blogs from "./Blogs.js";
-import Grid from './Grid.js';
-import ShowcaseBanner from "./showcaseBanner";
+import GridOfCards from '../solutions/common/GridOfCards';
+// import CustomerSuccess from "../solutions/common/CustomerSuccess";
+import Grid from "../solutions/common/grid"
+import ShowcaseBanner from "../miscellaneous/Expertise/showcaseBanner";
 import CertificateGrid from './Certificate.js';
 
 //component-data----
@@ -24,10 +24,11 @@ import showcaseBannerData2 from "./Data/showcaseBannerData2.js";
 
 //extra
 
-import OneCardCarousel from './OneCardCarousel';
-import BackgroundBanner from './backgroundBanner';
-import OneCardData from './Data/OneCardData';
-import { backBannerData } from './Data/backgroundBannerData';
+// import OneCardCarousel from './OneCardCarousel';
+// import BackgroundBanner from './backgroundBanner';
+// import OneCardData from './Data/OneCardData';
+// import { backBannerData } from './Data/backgroundBannerData';
+// import CustomerSuccess from './Blogs.js';
 
 
 const HomePage = () => {
@@ -39,7 +40,7 @@ const HomePage = () => {
         <div className='container-banner' style={{height:'20%'}}>
           <Banner />
         </div>
-        <div className='container mid-section'>
+        <div className='container mid-section parent-middle-sections'>
           <AlternateBanner banners={bannerData} count={0} ContactBtn={false}/>
           {/* <OneCardCarousel items={OneCardData}/> */}
           <ShowcaseBanner item1={showcaseBannerData1} item2={showcaseBannerData2}/>
@@ -57,14 +58,16 @@ const HomePage = () => {
 
           <TrustedCompanies/>
           
-          <section className="contributionGrid">
+          {/* <section className="contributionGrid"> */}
             <Grid content={ContributionData} />
-          </section>
+          {/* </section> */}
 
-          <Blogs heading={"Recommended Blogs"} items={blogData} CardHeight="30rem"/>
-          <Customer items={{ item: reviewData, NoCards:4, title: "Customer Reviews" }} />
+          {/* <CustomerSuccess heading={"Recommended Blogs"} items={blogData} CardHeight="30rem"/> */}
+          {/* <Customer items={{ item: reviewData, NoCards:4, title: "Customer Reviews" }} /> */}
         </div>
       </div>
+      {/* <CustomerSuccess heading={"Recommended Blogs"} items={blogData} CardHeight="30rem"/> */}
+      <GridOfCards items={{ item: reviewData, NoCards:4, title: "Customer Reviews", contactLink: "./ContactUs" }} />
     </>
   );
 };

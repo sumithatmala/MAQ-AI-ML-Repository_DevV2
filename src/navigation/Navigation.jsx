@@ -30,6 +30,7 @@ import GameEntertainment from "../components/industries/GameEntertainment/GameEn
 import MarTech from "../components/industries/MarTech/MarTech";
 import SportWellness from "../components/industries/SportWellness/SportWellness";
 import HealtcarePharma from "../components/industries/HealthcarePharma/HealthcarePharma";
+import ContactUs from "../components/miscellaneous/ContactUs/ContactUs";
 
 const Navigation = () => {
   return (
@@ -98,6 +99,7 @@ const Navigation = () => {
           />
           <Route path="/Industries/Health&Pharma" element={<HealtcarePharma />} />
           <Route path="/Industries/SportWellness" element={<SportWellness/>} />
+          <Route path="/ContactUs" element={<ContactUs/>} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
