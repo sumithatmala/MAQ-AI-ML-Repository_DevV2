@@ -92,3 +92,14 @@ p {
     /* justify-content: center;*/
     margin-left: 35px;
 }
+
+.slick-list1 .slick-slider{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.slick-list1 .slick-list .slick-track .slick-slide{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
