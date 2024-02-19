@@ -44,6 +44,30 @@
 .separate-slider__img-figure {
     height: 30%;
 }
+@media (max-width: 640px) {
+    .separate-slider__content {
+        height: fit-content;
+    }
+    .separate-slider__content p{
+        display: none;
+    }
+    .separate-slider__title {
+        font-size: 16px;
+    }
+}
+@media (max-width: 928px) {
+    .separate-slider__content {
+        height: fit-content;
+    }
+    .separate-slider__content p{
+        display: none;
+    }
+}
+@media (max-width: 1334px) {
+    .separate-slider__content {
+        height: fit-content;
+    }
+}
 .slick-slide.slick-active > div, .slick-slide.slick-active > div > div {
     height: 100% !important;
 }
