@@ -192,4 +192,25 @@ body {
     color:#453c90;
     font-size: 100%;
   }
+
+  @media screen and (max-width: 570px) {
+    .slick-prev,
+    .slick-next {
+      display: none !important; /* Use !important to override any inline styles applied by the slider library */
+    }
+    .slick-list3 {
+        width: 100% !important;
+        padding: 0px !important;
+    }
+    .slick-slider{
+        padding: 0px !important;
+        justify-content: left !important;
+    }
+    .slick-list{
+        padding: 0px !important;
+    }.slick-slide, .slick-active, .slick-current{
+        max-width: 390px !important;
+    }
+  }
+
   

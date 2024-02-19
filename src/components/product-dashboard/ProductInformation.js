@@ -35,10 +35,11 @@ const ProductInformation = () => {
     dots: false,
     responsive: [
       {
-        breakpoint: 1350,
+        breakpoint: 1450,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
+          centerMode: false,
         },
       },
       {
@@ -46,6 +47,7 @@ const ProductInformation = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          centerMode: false,
         },
       },
     ],
@@ -129,44 +131,48 @@ const ProductInformation = () => {
           {productDetails.businessOutcomes &&
             productDetails.businessOutcomes.length > 0 && (
               <section
-  class="target-section"
-  style={{ backgroundColor: "white" }}
->
-  <Row
-    className="slick-list3 draggable fade-in product-overview d-flex justify-content-center"
-    style={{ backgroundColor: "white" }}
-  >
-    <h3 class="head-block-center">Business Outcomes</h3>
-    <Slider {...settings} style={{ backgroundColor: "" }}>
-      {productDetails.businessOutcomes.map((outcome, index) => (
-        <div
-          key={index}
-          style={{
-            justifyContent: "center",
-            display: "flex",
-            display: index === 0 ? "flex" : "none", // Only display the first slide
-          }}
-        >
-          <div className="carousal__item mb-6 mt-7">
-            <div
-              className="target__item-icon"
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-              }}
-            >
-              {outcome.icon}
-            </div>
-            <div className="target__item-title">{outcome.outcome}</div>
-            <div className="target__item-text">{outcome.caption}</div>
-          </div>
-        </div>
-      ))}
-    </Slider>
-  </Row>
-</section>
-
+                class="target-section"
+                style={{ backgroundColor: "white" }}
+              >
+                <Row
+                  className="slick-list3 draggable fade-in product-overview d-flex justify-content-center"
+                  style={{ backgroundColor: "white" }}
+                >
+                  <h3 class="head-block-center">Business Outcomes</h3>
+                  <Slider {...settings} style={{ backgroundColor: "", padding: "0 20px"}}>
+                    {productDetails.businessOutcomes.map((outcome, index) => (
+                      <div
+                        key={index}
+                        style={{
+                          justifyContent: "center",
+                          display: "flex",
+                          display: index === 0 ? "flex" : "none", // Only display the first slide
+                          width: "100%", // Set the width to 100%
+                        }}
+                      >
+                        <div className="carousal__item mb-6 mt-7">
+                          <div
+                            className="target__item-icon"
+                            style={{
+                              display: "flex",
+                              flexDirection: "column",
+                              alignItems: "center",
+                            }}
+                          >
+                            {outcome.icon}
+                          </div>
+                          <div className="target__item-title">
+                            {outcome.outcome}
+                          </div>
+                          <div className="target__item-text">
+                            {outcome.caption}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </Slider>
+                </Row>
+              </section>
             )}
 
           {/* Solution Highlights​ */}
