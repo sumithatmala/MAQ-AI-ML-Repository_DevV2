@@ -4,7 +4,8 @@ import './HomePage.css';
 //components---
 
 import Banner from './Banner';
-import AlternateBanner from './AlternateBanner';
+// import AlternateBanner from './AlternateBanner';
+import AlternateBanner from '../solutions/common/alternateBanner'
 import TrustedCompanies from './companies.js';
 import Customer from './CustomerReviews.js';
 import Blogs from "./Blogs.js";

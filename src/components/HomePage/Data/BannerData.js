@@ -1,5 +1,5 @@
 import Competition from '../img/Competition.png'
-import solutions from '../img/solutions.png'
+import solutions from '../img/solutions2.png'
 import fintech from '../img/Fintech.png'
 const bannerData = [
     {
@@ -12,7 +12,7 @@ const bannerData = [
         heading: "How we can help you", 
         details: "At our company, we thrive on collaboration, embracing diverse teams and projects of any complexity to drive innovation. Together, we craft cutting-edge systems and solutions that set you apart in your industry. From AI/ML strategy and consulting to proof of concept for AI solutions, MVP development, custom model creation, and AI-driven software and mobile app development, our team is equipped to bring your vision to life and propel your business forward. Let us be your partner in progress.",
         points:"",
-        img: <img src= {solutions} alt= ""></img>,
+        img: <img src= {solutions} height="60%" width="100%" alt= ""></img>,
     },
     {
         heading: "Transforming Industries", 
