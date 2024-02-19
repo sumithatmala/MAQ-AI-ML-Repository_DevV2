@@ -72,16 +72,26 @@
 }
 
 .ShowcaseBannerBg {
-    margin-top: 20px;
-    margin-left: 15%;
+    top: 272%;
+    left: 45%;
+    /* margin-left: 27%; */
     position: absolute;
     z-index: 0;
-    width: 800px;
-    height: 650px;
-    /* background-image: url(../img/showcaseBanner.jpg); */
+    width: 670px;
+    height: 670px;
+    background-image: url(../img/showcaseBanner.jpg);
     background-color: #e6e6cf;
     background-size: cover;
-    border-radius: 60rem;
+    border-radius: 400px;
+    animation: rotateBackground 20s linear infinite;
+}
+@keyframes rotateBackground {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .ShowcaseBannerNavigate {
@@ -118,17 +128,18 @@
     }
 
     .ShowcaseBannerBg {
-        margin-top: 30px;
-        left: -15%;
+        top: 272%;
+        left: 25%;
+        /* margin-left: 27%; */
         position: absolute;
         z-index: 0;
-        /* width: 1000px; */
-        width: 90%;
-        height: 900px;
-        /* background-image: url(../img/showcaseBanner.jpg); */
+        width: 670px;
+        height: 670px;
+        background-image: url(../img/showcaseBanner.jpg);
         background-color: #e6e6cf;
         background-size: cover;
-        border-radius: 50%;
+        border-radius: 400px;
+        animation: rotateBackground 20s linear infinite;
     }
 }
 
