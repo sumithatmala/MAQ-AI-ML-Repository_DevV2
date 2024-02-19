@@ -98,6 +98,7 @@
         font-weight: 500;
         line-height: 27px;
         text-align: center;
+        padding-top: inherit;
     }
     .predict-use-cases-list__list-item {
         width: 85% !important ;
