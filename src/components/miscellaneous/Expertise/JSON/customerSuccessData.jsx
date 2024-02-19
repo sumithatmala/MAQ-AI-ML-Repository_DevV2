@@ -9,7 +9,7 @@ const customerSuccessData = [
     {
         title: "Recipe Generator App using Artificial Inteligence",
         image: <img src={recipe} alt="" height={220}/>,
-        // description: ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sit quos totam corrupti iure hic recusandae incidunt iste quia magnam."],
+        description: ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sit quos totam corrupti iure hic recusandae incidunt iste quia magnam."],
         link: "#",
     },
     {
