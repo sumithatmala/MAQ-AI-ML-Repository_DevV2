@@ -16,7 +16,7 @@ const CustomerSuccess = (props) => {
   const settings = {
     
     infinite: true,
-    speed: 500,
+    speed: 350,
     // passing the slides to show dynamically and default will be 3
     slidesToShow: slidesToShow,
     // centerMode: true,
@@ -48,11 +48,11 @@ const CustomerSuccess = (props) => {
     AOS.refresh();
   }, []);
 
-  useEffect(() => {
-    // Update the CSS variable with the maximum height of cards
-    console.log(CardHeight)
-    document.documentElement.style.setProperty("--max-card-height", `${CardHeight? CardHeight: "50rem"}`);
-  }, []);
+  // useEffect(() => {
+  //   // Update the CSS variable with the maximum height of cards
+  //   console.log(CardHeight)
+  //   document.documentElement.style.setProperty("--max-card-height", `${CardHeight? CardHeight: "50rem"}`);
+  // }, []);
 
   return (
     <section className="carousel_cost">

@@ -4,11 +4,7 @@ import "./css/ContactForm.css"
 const ContactForm = ({contactMsg}) => {
     //variables to be used at teh time of get request or mail stpl
     
-    // const form = document.querySelector("form");
-    // const name = document.getElementById("name");
-    // const CompName = document.querySelector("compName");
-    // const email = document.querySelector("email");
-    // const msg = document.querySelector("message");
+    
 
     function checkInpts() {
         const items = document.querySelectorAll(".item");
@@ -33,9 +29,39 @@ const ContactForm = ({contactMsg}) => {
     }
 
     function handleSubmit(e) {
+        const name = document.getElementById("name").value;
+        const CompName = document.getElementById("compName").value;
+        const email = document.getElementById("email").value;
+        const msg = document.getElementById("message").value;
+        console.log(CompName);
         e.preventDefault();
         // alert("form submitted!");
         checkInpts();
+
+        fetch('http://localhost:3001/sendEmail', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                name: name,
+                compName: CompName,
+                email: email,
+                msg: msg
+            })
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Failed to send email');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('Email sent successfully:', data);
+        })
+        .catch(error => {
+            console.error('Error sending email:', error);
+        });
     }
 
     return (
@@ -58,7 +84,7 @@ const ContactForm = ({contactMsg}) => {
                     </div>
                     <div className="input-box">
                         <div className="input-field field">
-                            <input type="text" placeholder="Email Adress*" id="email" className="item" autoComplete="off"></input>
+                            <input type="text" placeholder="Email Address*" id="email" className="item" autoComplete="off"></input>
                             <div className="error-txt"> Email Adress can't be blank </div>
                         </div>
                         
