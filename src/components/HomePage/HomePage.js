@@ -6,8 +6,6 @@ import './HomePage.css';
 import Banner from './Banner';
 import AlternateBanner from './AlternateBanner';
 import TrustedCompanies from './companies.js';
-import OneCardCarousel from './OneCardCarousel';
-import BackgroundBanner from './backgroundBanner';
 import Customer from './CustomerReviews.js';
 import Blogs from "./Blogs.js";
 import Grid from './Grid.js';
@@ -18,11 +16,18 @@ import CertificateGrid from './Certificate.js';
 import blogData from './Data/blogData.js';
 import reviewData from "./Data/reviewData";
 import bannerData from './Data/BannerData';
-import OneCardData from './Data/OneCardData';
 import ContributionData from './Data/ContributionData.js';
-import { backBannerData } from './Data/backgroundBannerData';
 import showcaseBannerData1 from "./Data/showcaseBannerData1.js";
 import showcaseBannerData2 from "./Data/showcaseBannerData2.js";
+
+
+//extra
+
+import OneCardCarousel from './OneCardCarousel';
+import BackgroundBanner from './backgroundBanner';
+import OneCardData from './Data/OneCardData';
+import { backBannerData } from './Data/backgroundBannerData';
+
 
 const HomePage = () => {
  
