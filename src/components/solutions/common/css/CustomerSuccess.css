@@ -83,7 +83,7 @@
         height: fit-content;
     }
     .separate-slider__content p{
-        display: none;
+        /* display: none; */
     }
     .separate-slider__title {
         font-size: 16px;
@@ -95,7 +95,7 @@
         height: fit-content;
     }
     .separate-slider__content p{
-        display: none;
+        /* display: none; */
     }
    
 }
