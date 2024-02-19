@@ -47,7 +47,7 @@ form .input-box {
     font-size: 14.5px;
     color: #d93e25;
     text-align: left;
-    margin: -5px 20px 10px;
+    margin: -20px 0 15px 0;
     display: none;
 }
 .field.error .error-txt {
@@ -112,4 +112,13 @@ form button:hover {
     .input-box .input-field {
         width: 100%;
     }
+}
+
+/* Success Message css */
+
+.MessageOnTop {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    z-index: 1000;
 }
