@@ -10,7 +10,7 @@ const showcaseBannerData1 = {
         {heading: "Trivia Bot", desc:"Offers engaging, gamified learning experience through interactive trivia generator tool.", link: "./product/TriviaBot"},
         {heading: "Support Ticket Assistant", desc:"Transforms support operations, ensuring faster responses and happier customers.", link: "./product/SupportTicketAssistant"},
         {heading: "Test Case Recommender", desc:"Streamlines software development process by recommending test cases.", link: "./product/TestCaseRecommender"},
-        {heading: "Sales Assistant", desc:"Accelerates sales productivity with AI-driven client profiling, enabling personalized solutions.", link: "./product/SalesAssistant"},
+    //     {heading: "Sales Assistant", desc:"Accelerates sales productivity with AI-driven client profiling, enabling personalized solutions.", link: "./product/SalesAssistant"},
     ]
 }
 

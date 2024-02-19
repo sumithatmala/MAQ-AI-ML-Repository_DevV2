@@ -1,29 +1,49 @@
-.ShowcaseBannerCnt{
+.ShowcaseBannerCnt {
     margin: 7rem 20px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
+}
+
+.ShowcaseBannerNavigate {
+    animation: arrowMove 2s infinite;
+}
+
+@keyframes arrowMove {
+    0%, 100% {
+        left: 0;
+    }
+    50% {
+        left: 9px;
+    }
+}
+
+.ShowcaseBannerNavigate:hover{
+    animation: none;
+    transform: scale(1.1);
 }
 
 .ShowcaseBannerTitle {
     z-index: 999;
     padding: 40px;
-    max-width: 810px;
+    width: 100%;
     background-color: #c8c5dd;
     border-radius: 27px;
-    margin-right: 20%;
-    min-height: 700px;
+    /* margin-right: 20%; */
+    height: auto;
     animation: opacityTrans 0.3;
 }
 
 .ShowcaseBannerheader {
     margin: 15px 10px 30px;
 }
+
 .ShowcaseBannerheader h3 {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
-.ShowcaseBannerheader svg{
+
+.ShowcaseBannerheader svg {
     margin: 2px;
     margin-left: 6px;
     color: #b8001c;
@@ -31,6 +51,7 @@
     transition: 0.3s;
     font-size: 25px;
 }
+
 .ShowcaseBannerheader svg:hover {
     margin-left: 12px;
     color: #b8001cab;
@@ -41,7 +62,7 @@
 .ShowcaseBannerGrid {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     align-items: center;
     margin: 10px;
@@ -50,17 +71,21 @@
 }
 
 .ShowcaseBanerCard {
-    width: 320px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     animation: opacityTrans 0.3;
+    margin: 15px;
 }
-.ShowcaseBanerCard a{
+
+.ShowcaseBanerCard a {
     color: black;
 }
-.ShowcaseBanerCard a:hover{
+
+.ShowcaseBanerCard a:hover {
     color: #b8001c;
-    .ShowcaseBannerArrow{
+
+    .ShowcaseBannerArrow {
         margin-left: 8px;
     }
 }
@@ -79,16 +104,18 @@
     z-index: 0;
     width: 670px;
     height: 670px;
-    background-image: url(../img/showcaseBanner.jpg);
+    background-image: url(../img/bgImage2.jpg);
     background-color: #e6e6cf;
     background-size: cover;
     border-radius: 400px;
     animation: rotateBackground 20s linear infinite;
 }
+
 @keyframes rotateBackground {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -99,21 +126,26 @@
 }
 
 @keyframes opacityTrans {
-    0%{opacity:0;}
-    100%{opacity:1;}
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @media (max-width: 1180px) {
 
-    .ShowcaseBannerCnt{
-        margin: 5rem 2%;
+    .ShowcaseBannerCnt {
+        margin: 5rem auto;
         display: flex;
-        justify-content:start;
+        justify-content: start;
     }
 
     .ShowcaseBannerTitle {
         padding: 40px;
-        max-width: 600px;
+        width: 100%;
         background-color: #c8c5dd;
         border-radius: 27px;
         margin-right: 90px;
@@ -122,7 +154,7 @@
     }
 
     .ShowcaseBannerGrid {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 30px;
         margin: 10px;
     }
@@ -135,7 +167,7 @@
         z-index: 0;
         width: 670px;
         height: 670px;
-        background-image: url(../img/showcaseBanner.jpg);
+        background-image: url(../img/bgImage2.jpg);
         background-color: #e6e6cf;
         background-size: cover;
         border-radius: 400px;
@@ -145,14 +177,16 @@
 
 @media (max-width: 738px) {
 
-    .ShowcaseBannerCnt{
-        margin: 5rem 0;
+    .ShowcaseBannerCnt {
+        margin: 5rem auto;
         display: flex;
-        justify-content:start;
+        justify-content: start;
     }
+
     .ShowcaseBannerheader {
         margin: 30px 0;
     }
+
     .ShowcaseBannerTitle {
         padding: 20px;
         max-width: 100%;
@@ -161,7 +195,7 @@
         min-height: 700px;
         animation: opacityTrans 0.3;
     }
-    
+
     .ShowcaseBannerBg {
         display: none;
     }
