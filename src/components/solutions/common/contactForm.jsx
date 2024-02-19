@@ -1,26 +1,19 @@
 import { Link } from "react-router-dom";
-import "./css/ContactForm.css"
+import "./css/ContactForm.css";
+import Swal from "sweetalert2"
 
-const ContactForm = ({contactMsg}) => {
-    //variables to be used at teh time of get request or mail stpl
-    
-    // const form = document.querySelector("form");
-    // const name = document.getElementById("name");
-    // const CompName = document.querySelector("compName");
-    // const email = document.querySelector("email");
-    // const msg = document.querySelector("message");
-
+const ContactForm = ({ contactMsg }) => {
     function checkInpts() {
         const items = document.querySelectorAll(".item");
 
-        for(const item of items) {
-            if(item.value === "") {
+        for (const item of items) {
+            if (item.value === "") {
                 item.classList.add("error");
                 item.parentElement.classList.add("error");
             }
 
-            item.addEventListener("keyup", ()=> {
-                if(item.value !== "") {
+            item.addEventListener("keyup", () => {
+                if (item.value !== "") {
                     item.classList.remove("error");
                     item.parentElement.classList.remove("error");
                 } else {
@@ -33,14 +26,54 @@ const ContactForm = ({contactMsg}) => {
     }
 
     function handleSubmit(e) {
+        const name = document.getElementById("name").value;
+        const CompName = document.getElementById("compName").value;
+        const email = document.getElementById("email").value;
+        const msg = document.getElementById("message").value;
+        const phone = document.getElementById("phone").value
+
         e.preventDefault();
         // alert("form submitted!");
         checkInpts();
+
+        fetch('http://localhost:3001/sendEmail', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                name: name,
+                compName: CompName,
+                email: email,
+                phone: phone,
+                msg: msg
+            })
+        })
+            .then(res => {
+                if (!res.ok) {
+                    throw new Error('Failed to send email');
+                } else {
+                    Swal.fire({
+                        title: "Mail Sent!",
+                        text: "We have recieved your concern!",
+                        icon: "success"
+                    });
+                }
+                console.log(res.body);
+                // return response.json();
+
+            })
+            // .then(data => {
+            //     console.log('Email sent successfully:', data);
+            // })
+            .catch(error => {
+                console.error('Error sending email:', error);
+            });
     }
 
     return (
-        <div className="FormBox">
-            <section className="Contact">
+        <section id="contact" className="FormBox">
+            <div className="Contact">
                 <div className="Header">
                     <h2>Get in Touch with MAQ Software Today</h2>
                     <p>{contactMsg}</p>
@@ -51,19 +84,19 @@ const ContactForm = ({contactMsg}) => {
                             <input type="text" placeholder="Name*" id="name" className="item" autoComplete="off"></input>
                             <div className="error-txt"> Full Name can't be blank </div>
                         </div>
-                        <div className="input-field field">    
+                        <div className="input-field field">
                             <input type="text" placeholder="Company Name*" id="compName" className="item" autoComplete="off"></input>
                             <div className="error-txt"> Company Name can't be blank </div>
                         </div>
                     </div>
                     <div className="input-box">
                         <div className="input-field field">
-                            <input type="text" placeholder="Email Adress*" id="email" className="item" autoComplete="off"></input>
+                            <input type="text" placeholder="Email Address*" id="email" className="item" autoComplete="off"></input>
                             <div className="error-txt"> Email Adress can't be blank </div>
                         </div>
-                        
-                        <div className="input-field field"> 
-                            <input type="text" placeholder="Phone" id="Phone" className="item" autoComplete="off"></input>
+
+                        <div className="input-field field">
+                            <input type="text" placeholder="Phone" id="phone" className="item" autoComplete="off"></input>
                             <div className="error-txt"> Error message </div>
                         </div>
                     </div>
@@ -76,8 +109,8 @@ const ContactForm = ({contactMsg}) => {
                         <p>By clicking Send Message, you agree to our <Link to={''}>Terms of Use</Link> and <Link to={''}>Privacy Policy</Link>.</p>
                     </div>
                 </form>
-            </section>
-        </div>
+            </div>
+        </section>
     )
 }
 

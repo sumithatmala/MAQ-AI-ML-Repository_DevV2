@@ -1,10 +1,10 @@
 import "./css/virtualtool.css";
 import FAQ from "./FAQ";
-import ContactForm from "./contactForm";
 import GridOfCards from "../common/GridOfCards";
 import IndustData from "./IndusterieListData";
 import Alternate from "../common/alternateBanner";
 import BannerData from "./BannerData";
+import ContactForm from "../common/contactForm";
 
 const VirtualAssistantTool = () => {
   return (

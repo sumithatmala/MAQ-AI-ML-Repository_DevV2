@@ -17,6 +17,7 @@ import FAQsData from "./JSONData/FaqData";
 import industriesData from "./JSONData/IndustriesData";
 import blogData from "./JSONData/blogData";
 import roadMapData from "./JSONData/roadMapData";
+import { HashLink } from "react-router-hash-link";
 
 const NaturalLanguageProcessing = () => {
     return (
@@ -33,7 +34,7 @@ const NaturalLanguageProcessing = () => {
                 <AlternateBanner banners={bannerData} count={0} ContactBtn={false}/>
                 <section className="LearnMoreSection">
                     <p>Lets have a talk on our NLP services</p>
-                    <Link to={"#"} className="btn btn-empty" >Talk To Us</Link>
+                    <HashLink to={"./#contact"} className="btn btn-empty" >Talk To Us</HashLink >
                 </section>
                 <section className="WorkProcess">
                     {/* <h3>How We Work</h3> */}

@@ -1,5 +1,6 @@
 import React from "react";
 import './css/Benefits.css'
+import { HashLink } from "react-router-hash-link";
 const Benfits = () => {
   return (
     <section class="whychoose-section bg-icons">
@@ -48,12 +49,12 @@ const Benfits = () => {
         </ul>
         <div class="block__action">
           
-          <a
-            href="large-language-model.html#section-contacts"
+          <HashLink
+            to="./#contact"
             class="btn btn-empty"
           >
             Request Demo
-          </a>
+          </HashLink>
         </div>
       </div>
     </section>

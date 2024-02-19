@@ -9,6 +9,7 @@ import Technologies from "../common/technologies"
 import CustomerSuccess from "../common/CustomerSuccess"
 import RoadMap from "../common/RoadMap"
 import {roadMapDataNew,roadMapDataExisting} from "./visuals/roadMapData"
+import { HashLink } from "react-router-hash-link"
 
 const ImageRecognition = () => {
     return(
@@ -40,7 +41,7 @@ const ImageRecognition = () => {
                 <h2>Your Project Development Roadmap</h2>
                 <div>
                     <p>Visual content is a trend in information provision. It makes image identification and recognition and analysis solutions an integral part of many business workflows. Developed for the client's business, they enable process automation and reduce labour costs.</p>
-                    <p>Businesses get in touch with InData Labs having different initial queries. We never take a one-size-fits-all approach but foster close cooperation with each client over a best-fit custom solution. Together, we map out development phases based on the available datasets.</p>
+                    <p>Businesses get in touch with MAQ Software having different initial queries. We never take a one-size-fits-all approach but foster close cooperation with each client over a best-fit custom solution. Together, we map out development phases based on the available datasets.</p>
                 </div>
                 {/* <div className="Roadmap">
                     <h2>Describe the roadmap for the project development</h2>
@@ -69,7 +70,7 @@ const ImageRecognition = () => {
                 <div className="UsageText">
                     <p>Custom image recognition and picture analysis solutions implementation and integration enable machines to replicate human vision, allowing them to identify objects and people in everyday reality. Machine learning algorithms contribute to recognizing objects and individuals in raw images with minimal error rates.</p>
                     <p>MAQ Software specializes in training robust machine learning algorithms to power custom image object recognition software. This software aids in collecting, recognizing, analyzing visual data, and presenting accurate statistics.</p>
-                    <p>Developing custom image recognition software with InData Labs can provide your business with the following benefits:</p>
+                    <p>Developing custom image recognition software with MAQ Software can provide your business with the following benefits:</p>
                     <ul>
                         <li>Enhanced performance</li>
                         <li>Reduced support costs</li>
@@ -84,7 +85,7 @@ const ImageRecognition = () => {
                 <p>Our team of machine learning experts has gained global trust by delivering customized solutions for a wide range of industries. We specialize in on-demand computer vision and image recognition software development, tailoring solutions to meet industry-specific needs. Our clients come from diverse sectors, including logistics, retail, media & entertainment, healthcare, and more.</p>
             </div>
             <Grid content={industrialCards}/>
-            <div className="btn-class"><Link to={"#"} className="btn btn-empty"> Request a Free Quote </Link></div>
+            <div className="btn-class"><HashLink to={"./#contact"} className="btn btn-empty"> Request a Free Quote </HashLink></div>
             <h2>Benefits</h2>
             <Grid content={benefitCards}/>
             <Technologies tech={technologies}/>

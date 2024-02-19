@@ -6,21 +6,21 @@ import "slick-carousel/slick/slick-theme.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./css/CustomerSuccess.css"
-
-
+ 
+ 
 const CustomerSuccess = (props) => {
   const { items, defaultSlidesToShow, CardHeight } = props;
-
+ 
   const slidesToShow = props.slidesToShow || defaultSlidesToShow;
-
+ 
   const settings = {
-    
+   
     infinite: true,
     speed: 500,
     // passing the slides to show dynamically and default will be 3
     slidesToShow: slidesToShow,
     // centerMode: true,
-    autoplay: true,
+    // autoplay: true,
     slidesToScroll: 1,
     dots: false,
     responsive: [
@@ -31,23 +31,31 @@ const CustomerSuccess = (props) => {
           slidesToScroll: 1,
         },
       },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
     ],
   };
-
+ 
   useEffect(() => {
     AOS.init({
       delay: 20,
     });
     AOS.refresh();
   }, []);
-
+ 
   useEffect(() => {
     // Update the CSS variable with the maximum height of cards
     console.log(CardHeight)
     document.documentElement.style.setProperty("--max-card-height", `${CardHeight? CardHeight: "50rem"}`);
   }, []);
-
+ 
   return (
+    <section className="carousel_cost">
     <section className="target-section" style={{ backgroundColor: "white" }}>
       <Row
         className="slick-list1 draggable fade-in product-overview d-flex justify-content-center "
@@ -82,12 +90,13 @@ const CustomerSuccess = (props) => {
         </Slider>
       </Row>
     </section>
+    </section>
   );
 };
-
+ 
 // Set a default value for slidesToShow if not provided
 CustomerSuccess.defaultProps = {
   defaultSlidesToShow: 3,
 };
-
+ 
 export default CustomerSuccess;

@@ -31,6 +31,7 @@ body {
     line-height: 1.875;
     text-align: center;
 }
+
 .text-block-center2 {
     margin-top: 0px;
     font-weight: 400;
@@ -39,9 +40,11 @@ body {
     line-height: 1.875;
     text-align: center;
 }
+
 .target-section .main-cases {
     margin: 0px auto !important;
 }
+
 .target__list {
     align-content: stretch;
     align-items: stretch;
@@ -79,7 +82,7 @@ body {
 }
 
 .target__item-icon {
-    margin: 0 auto ;
+    margin: 0 auto;
     width: 104px;
     height: 90px;
 }
@@ -106,7 +109,7 @@ body {
     height: 400px;
     padding: 25px 15px 15px;
     margin-bottom: 0;
-    box-shadow: 15px 15px 15px rgba(69, 60, 144, .2),0 4px 5px rgba(69, 60, 144, .12),0 2px 4px rgba(69, 60, 144, .14);
+    box-shadow: 15px 15px 15px rgba(69, 60, 144, .2), 0 4px 5px rgba(69, 60, 144, .12), 0 2px 4px rgba(69, 60, 144, .14);
     margin: 25px 15px 15px;
     width: 75%;
     background: #fff;
@@ -115,7 +118,7 @@ body {
 }
 
 .FAQ__item {
-    box-shadow: 15px 15px 15px rgba(69, 60, 144, .2),0 4px 5px rgba(69, 60, 144, .12),0 2px 4px rgba(69, 60, 144, .14);
+    box-shadow: 15px 15px 15px rgba(69, 60, 144, .2), 0 4px 5px rgba(69, 60, 144, .12), 0 2px 4px rgba(69, 60, 144, .14);
 }
 
 .slick-prev {
@@ -141,19 +144,23 @@ body {
     content: "";
 }
 
-.slick-next:before{
-    content: '';
-}
-.slick-prev:before{
+.slick-next:before {
     content: '';
 }
 
-.slick-next:focus, .slick-next:hover{
+.slick-prev:before {
+    content: '';
+}
+
+.slick-next:focus,
+.slick-next:hover {
     background-image: url(../icons/icon-reviews-arrow.svg);
     /* visibility: hidden; */
     background-repeat: no-repeat;
 }
-.slick-prev:focus, .slick-prev:hover{
+
+.slick-prev:focus,
+.slick-prev:hover {
     background-image: url(../icons/icon-reviews-arrow.svg);
     /* visibility: hidden; */
     background-repeat: no-repeat;
@@ -167,7 +174,7 @@ body {
 @media only screen and (max-width: 1350px) {
     .slick-center {
         transform: scale(1);
-    /* transition: transform 0.5s ease; */
+        /* transition: transform 0.5s ease; */
     }
 }
 
@@ -182,14 +189,44 @@ body {
     margin: 0;
     height: fit-content;
     width: 100%;
-    
+
 }
+
 .slick-list3 .slick-list {
     /* height: auto; */
     padding: 20px 50px !important;
 }
-.bulletStyle li::marker{
-    color:#453c90;
+
+.bulletStyle li::marker {
+    color: #453c90;
     font-size: 100%;
-  }
-  
+}
+
+@media screen and (max-width: 570px) {
+
+    .slick-prev,
+    .slick-next {
+        display: none !important;
+        /* Use !important to override any inline styles applied by the slider library */
+    }
+
+    .slick-list3 {
+        width: 100% !important;
+        padding: 0px !important;
+    }
+
+    .slick-slider {
+        padding: 0px !important;
+        justify-content: left !important;
+    }
+
+    .slick-list {
+        padding: 0px !important;
+    }
+
+    .slick-slide,
+    .slick-active,
+    .slick-current {
+        max-width: 390px !important;
+    }
+}

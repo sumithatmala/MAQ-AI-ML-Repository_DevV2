@@ -4,7 +4,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 //Product elements
 import Container from "../components/layout/Container";
 import NotFound from "../components/views/NotFound";
-import HomePage from "../components/home-page/HomePage";
+import HomePage from "../components/HomePage/HomePage";
 import AboutUs from "../components/views/AboutUs";
 import SideBar from "../components/ui-elements/SideBar/SideBar";
 import ProductInformation from "../components/product-dashboard/ProductInformation";
@@ -30,6 +30,7 @@ import GameEntertainment from "../components/industries/GameEntertainment/GameEn
 import MarTech from "../components/industries/MarTech/MarTech";
 import SportWellness from "../components/industries/SportWellness/SportWellness";
 import HealtcarePharma from "../components/industries/HealthcarePharma/HealthcarePharma";
+import ContactUs from "../components/miscellaneous/ContactUs/ContactUs";
 
 const Navigation = () => {
   return (
@@ -37,7 +38,7 @@ const Navigation = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
-        <Route path="/" element={<Expertise />} />
+        <Route path="/" element={<HomePage />} />
 
         <Route path="/Expertise" element={<Expertise />} />
           {/* <Route path="/" element={<HomePage />} /> */}
@@ -98,6 +99,7 @@ const Navigation = () => {
           />
           <Route path="/Industries/Health&Pharma" element={<HealtcarePharma />} />
           <Route path="/Industries/SportWellness" element={<SportWellness/>} />
+          <Route path="/ContactUs" element={<ContactUs/>} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

@@ -9,7 +9,7 @@ const FAQsDataAuto = [
     },
     {
       "question": "What are the obstacles in adopting artificial intelligence in the automotive sector?",
-      "answer": "The creation, training, and deployment of intelligent algorithms pose challenges with technical constraints such as the obscurity of ML algorithms, extensive and repetitive algorithm testing, a shortage of data and expertise to build and implement simulators, and unpredictable time and cost considerations. As one of the leading automotive AI companies, InData Labs provides expert guidance on AI solutions for the automotive industry, ensuring a fast and seamless implementation of AI."
+      "answer": "The creation, training, and deployment of intelligent algorithms pose challenges with technical constraints such as the obscurity of ML algorithms, extensive and repetitive algorithm testing, a shortage of data and expertise to build and implement simulators, and unpredictable time and cost considerations. As one of the leading automotive AI companies, MAQ Software provides expert guidance on AI solutions for the automotive industry, ensuring a fast and seamless implementation of AI."
     }
   ];
   

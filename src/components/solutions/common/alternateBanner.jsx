@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom"
 import "./css/AlternateBanner.css"
+import { HashLink } from "react-router-hash-link"
 
 const AlternateBanner = ({banners,ContactBtn}) => {
     return (
@@ -23,7 +24,7 @@ const AlternateBanner = ({banners,ContactBtn}) => {
                             ):(
                                 <></>
                             )}
-                            {ContactBtn?(<Link className="btn btn-empty" style={{width: "fit-content"}} to={'#'}> Contact Us </Link>):(<></>)}
+                            {ContactBtn?(<HashLink  to="./#contact" className="btn btn-empty" style={{width: "fit-content"}}> Contact Us </HashLink>):(<></>)}
                         </div>
                     </div>
                 )

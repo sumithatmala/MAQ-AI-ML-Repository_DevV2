@@ -10,9 +10,9 @@ const BusinessLevelUpData = [
     description: "Want to use AI in your Fintech projects but don’t know where to start? Explain your project vision and get a detailed estimate from our AI consultants."
   },
   {
-    title: "Financial Technology Solutions Development",
+    title: "Fintech Solutions Development",
     figure: <img src={icon_custom_software} alt="Custom Software Icon" />,
-    alt: "Financial Technology Solutions Development",
+    alt: "Fintech Solutions Development",
     description: "Need a robust artificial intelligence fintech solution with a focus on quality and top industry trends? Get help from us."
   },
   {
