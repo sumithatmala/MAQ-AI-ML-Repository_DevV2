@@ -8,8 +8,8 @@ const CustomerSuccessData = [
     image: <img src={fitness_slider_2} alt="fitness_slider_2" />,
     description: [
       <b>Boosted pose estimation accuracy and error detection by 64%.</b>,
-      "Our team at MAQ Software was tasked with refining pose estimation accuracy and implementing error-detection algorithms for a client in the fitness and physical therapy sector.",
-      "Leveraging deep learning techniques, we significantly improved pose estimation accuracy and successfully integrated AI-driven algorithms into the client’s application, enhancing overall performance.",
+      "MAQ Software was tasked with improving pose estimation accuracy and implementing error-detection algorithms for a client in fitness and physical therapy.",
+      "Using deep learning techniques, MAQ Software significantly improved pose estimation accuracy and integrated AI-driven algorithms into the client's app, enhancing overall performance.",
     ],
   },
   

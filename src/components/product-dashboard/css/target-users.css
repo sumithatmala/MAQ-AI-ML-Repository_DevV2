@@ -124,7 +124,7 @@ body {
 .slick-prev {
     width: 18px;
     height: 36px;
-    top: 46%;
+    top: 48%;
     transform: rotate(180deg);
     background-image: url(../icons/icon-reviews-arrow.svg);
     background-position: 50%;

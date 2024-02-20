@@ -53,7 +53,7 @@ const LargeLanguageModel = () => {
         <CustomerSuccess
           items={CutomerSuccessData}
           heading="Customer Success"
-          CardHeight="35rem"
+          CardHeight="320px"
         />
         <FAQs FAQs={FAQsData} />
         <ContactForm />
