@@ -40,7 +40,9 @@ const ShowcaseBanner = (props) => {
                     })}
                 </div>
             </div>
-            <div className="ShowcaseBannerBg" />
+                {/* <div className="ShowcaseBannerBg">
+                    <img src=""></img>
+                </div> */}
         </section>
     )
 }

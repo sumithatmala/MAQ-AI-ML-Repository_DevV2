@@ -351,6 +351,7 @@ const NavigationLinks = [
   },
   // { label: "Blog", link: "#" },
   // { label: "Contact", link: "#" },
+  { label: "Contact Us", link: "./ContactUs" },
 ];
 
 export default NavigationLinks;

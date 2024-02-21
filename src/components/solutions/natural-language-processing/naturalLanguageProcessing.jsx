@@ -48,7 +48,7 @@ const NaturalLanguageProcessing = () => {
                             return(
                                 <div className="IndustryInditem">
                                     {item.icon}
-                                    <h5><Link to={item.link}>{item.name}</Link></h5>
+                                    <h5>{item.name}</h5>
                                 </div>
                             )
                         })}
@@ -58,7 +58,7 @@ const NaturalLanguageProcessing = () => {
             </div>
             <CustomerSuccess items ={customerSuccessData} heading="Customer Success" CardHeight="50rem"/>
             <FAQs FAQs = {FAQsData}/>
-            <CustomerSuccess items={blogData} heading="More Insights"/>
+            <CustomerSuccess items={blogData} heading="More Insights" CardHeight="rem"/>
             <ContactForm/>
         </>
     )

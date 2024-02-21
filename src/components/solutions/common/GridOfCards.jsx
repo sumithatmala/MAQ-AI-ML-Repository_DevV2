@@ -17,7 +17,8 @@ const CaseItem = ({ iconSrc, altText, title, description, sizeOfCard }) => (
 );
 
 const GridOfCards = (props) => {
-  const { items, NoCards } = props;
+  const { items} = props;
+  console.log(items)
   const sizeOfCard = String(100 / items.NoCards);
   return (
     <section className="main-cases">
@@ -38,7 +39,7 @@ const GridOfCards = (props) => {
       </div>
       <div className="text-block-center">Need a consultation?</div>
       <div className="block__action">
-        <HashLink  to="./#contact" className="btn btn-empty">Contact us</HashLink>
+        <HashLink  to={items.contactLink? items.contactLink: "./#contact"} className="btn btn-empty">Contact us</HashLink>
       </div>
     </section>
   );
