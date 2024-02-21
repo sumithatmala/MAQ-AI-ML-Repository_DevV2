@@ -104,19 +104,6 @@ export const SessionInformationBot = {
     "Retrieval of video content with relevant timestamps to directly redirect to specific topic that the user is looking for",
     "Results include the relevant information with supporting sources like video links or documents",
   ],
-  // solutionHighlights1: [
-  //   {
-  //     heading: "Solution Highlights",
-  //     points: [
-  //       "Quick and accurate retrieval of the necessary information from the stored data",
-  //       "Contextual search for the user queries to reduce the search time and return prompt responses",
-  //       "Interactive UI experience to engage the users while exploring the content",
-  //       "Retrieval of video content with relevant timestamps to directly redirect to specific topic that the user is looking for",
-  //       "Results include the relevant information with supporting sources like video links or documents",
-  //     ],
-  //     img: <AnimatedHighlights />,
-  //   },
-  // ],
 
   summary: [
     {
@@ -156,47 +143,6 @@ export const SessionInformationBot = {
       ],
     },
   ],
-  // summary1: [
-  //   {
-  //     heading: "Pain points",
-
-  //     points: [
-  //       "Dissipation of Knowledge sources",
-  //       "Difficulty in finding Specific content",
-  //       "Limited Availability and Accessibility of Past Sessions",
-  //       "Lack of Context in search results",
-  //       "Availability & accessibility of the previous sessions",
-  //       "Lengthy Training and Onboarding Periods",
-  //       "Lack of Employee Engagement",
-  //     ],
-  //     img: <AnimatedDevelopment />,
-  //   },
-  //   {
-  //     heading: "How the Solution will help",
-
-  //     points: [
-  //       "Efficient information retrieval",
-  //       "Contextual search capabilities",
-  //       "Interactive virtual agent providing near human interactive experience",
-  //       "Inclusion of supporting sources pointing to specific parts of videos",
-  //       "Improved the user engagement while looking for information",
-  //     ],
-  //     img: <AnimatedSolution />,
-  //   },
-  //   {
-  //     heading: "Outcomes",
-
-  //     points: [
-  //       "Accelerated onboarding and training",
-  //       "Enhanced data analysis and research capabilities",
-  //       "Efficient project management",
-  //       "Heightened Employee Engagement",
-  //       "Enhanced Learning and Development Initiatives",
-  //       "Improved knowledge sharing and collaboration",
-  //     ],
-  //     img: <AnimatedOutcome />,
-  //   },
-  // ],
   demo: {
     link: { demoVideo },
   },
