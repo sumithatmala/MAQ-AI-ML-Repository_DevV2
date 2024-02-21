@@ -12,7 +12,7 @@ const UsageBenefits = (props) => {
                     })}
                     <ul>
                         {props.items.points.map((point) => {
-                            console.log(point);
+                            // console.log(point);
                             return(<li>{point}</li>)
                         })}
                     </ul>

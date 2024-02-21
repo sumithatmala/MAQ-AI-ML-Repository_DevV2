@@ -36,9 +36,9 @@ const DataCaptureOCR = () => {
             <RoadMap items={roadMapData} title="How Our Data Capture and Extraction Services Work" />
             <BackgroundBanner />
             <BenefitCards cardsData={benefitsData} />
-            <UsageBenefits items = {LogisticsBenefits} title = "OCR and Data Capture for Logistics & Transportation"/>
+            <UsageBenefits items = {LogisticsBenefits} title = "OCR and Data Capture for Logistics & Transportation" />
             <div style={{ display: "flex", justifyContent: "center" }}>
-                <AccordionStatic title={"Other Industries"} desc="As a data extraction company, we provide optical character recognition services and help companies across multiple industries optimize their business processes with the help of our automated data capture software." listItems={AccordionData} />
+                <AccordionStatic title={"Other Industries"} desc="As a data extraction company, we provide optical character recognition services and help companies across multiple industries optimize their business processes with the help of our automated data capture software." listItems={AccordionData} titleRatio = {"50%"} cntWidth = {"896px"}/>
             </div>
             <CustomerSuccess items={customerSuccessData} heading="Customer Success" CardHeight="390px" />
             <ContactForm contactMsg={"Want to start getting value from your data? Let's discuss how we can help you."} />

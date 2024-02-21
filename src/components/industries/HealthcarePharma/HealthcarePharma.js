@@ -45,8 +45,10 @@ const HealtcarePharma = () => {
       <div style={{ display: "flex", justifyContent: "center" }}>
         <AccordionStatic
           title={"Biotech Digital Transformation"}
-          desc="We will lead a successful digital transformation of your business, so you’ll easily meet new challenges and mitigate future risks."
+          desc="We will lead a successful digital transformation of your business, so you'll easily meet new challenges and mitigate future risks."
           listItems={BiotechDigitalData}
+          titleRatio={"25%"}
+          cntWidth={"1200px"}
         />
       </div>
 
@@ -58,6 +60,8 @@ const HealtcarePharma = () => {
           desc=""
           listItems={BigData}
           listWidth={100}
+          titleRatio={"50%"}
+          cntWidth={"1000px"}
         />
       </div>
 
