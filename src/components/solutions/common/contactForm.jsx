@@ -50,18 +50,18 @@ const ContactForm = ({ contactMsg }) => {
                     msg: msg
                 })
             })
-            
+            const data = await res.json();
             if (!res.ok) {
                 window.location.reload(true);
                 throw new Error('Failed to send email');
             } else {
-                console.log(res.body);
+                console.log(data);
                 await Swal.fire({
                     title: "Mail Sent!",
                     text: "We have recieved your concern!",
                     icon: "success"
                 });
-                // window.location.reload(true);
+                window.location.reload(true);
             }
         } catch(error) {
                 console.error('Error sending email:', error);
