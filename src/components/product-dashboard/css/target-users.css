@@ -307,6 +307,7 @@ body {
         flex-direction: column-reverse;
         justify-content: center;
         /* text-align: center; */
+        margin: 3% !important;
     }
     .row2 {
         flex-direction: column;
@@ -322,5 +323,12 @@ body {
     }
     .bulletStyle{
         width: 100%;
+    }
+    .icons_res svg{
+        max-width: 200px !important;
+        position: relative;
+    }
+    .product-container {
+        padding: 0 !important;
     }
   }
