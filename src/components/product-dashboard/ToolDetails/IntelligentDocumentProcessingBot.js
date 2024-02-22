@@ -13,9 +13,10 @@ import SpeedIcon from '@mui/icons-material/Speed';
 import OutputIcon from '@mui/icons-material/Output';
 import demoVideo from './demos/IntelligentDocumentProcessingBot.mp4';
 
+
 const iconSize = {
-  height: "3rem",
-  width: "3rem",
+  height: "5rem",
+  width: "5rem",
   color: "#dc848d"
 }
 const iconSizeBO = {
@@ -43,7 +44,7 @@ export const IntelligentDocumentProcessingBot = {
     {
       title: "Healthcare Admins",
       description: "Responsible for managing and organizing patient records to maintain a structured and easily accessible database, with high rate of accuracy data integrity.",
-      icon: <PsychologyIcon style={iconSize} />,
+      iconSrc: <PsychologyIcon style={iconSize} />,
     },
     {
       title: "Medical Researchers",
@@ -77,12 +78,12 @@ export const IntelligentDocumentProcessingBot = {
     {
       title: "Improved Analytics and Decision Making ",
       description: ["Accurate data extraction and structuring in healthcare enable advanced analytics, evidence-based decision-making, process optimization, and improved outcomes."],
-      icon: <LocalLibraryIcon style={iconSizeBO} />,
+      image: <LocalLibraryIcon style={iconSizeBO} />,
     },
     {
       title: "Cost Reduction",
       description: ["Reduction of manual effort, minimizing errors, saves costs associated with data entry and processing. It also eliminates the need for physical storage of paper documents], leading to image cost savings."],
-      icon: <ConstructionIcon style={iconSizeBO} />,
+      image: <ConstructionIcon style={iconSizeBO} />,
     },
     {
       title: "Improved efficiency & Time Saving",

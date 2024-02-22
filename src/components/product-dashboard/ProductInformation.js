@@ -238,7 +238,7 @@ const ProductInformation = () => {
               <>
                 <Row id="prodinfo" className="product-overview">
                   {/* <AlternateBanner banners={productDetails.summary1} ContactBtn={false} /> */}
-                  <div className="sum" style={{margin: "4rem 10px",alignItems:"center", justifyContent:"center"}}>
+                  <div className="sum" style={{margin: "1rem 10px",alignItems:"center", justifyContent:"center"}}>
                   {productDetails.summary.map((highlights, index) =>
                     index === 0 ? (
                       <Row key={index} style={{margin: "6rem 10px",alignItems:"center", justifyContent:"center"}}>

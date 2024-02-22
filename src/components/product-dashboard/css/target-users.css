@@ -254,7 +254,7 @@ body {
     .product-overview {
         padding: 0 !important;
         background: white;
-        width: 100%;
+        max-width: 1000px;
         display: flex !important;
         justify-content: center;
         align-items: center;

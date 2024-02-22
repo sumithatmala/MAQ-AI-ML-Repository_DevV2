@@ -28,7 +28,7 @@ const iconSizeBO = {
     padding: "30px 50px",
     borderRadius: "10px",
     // boxShadow: "0px 8px 16px 0px red"
-  }
+}
 export const SmartSupportFramework = {
     title: "Smart Support Framework",
     description: "Organizations face challenges in managing support tickets efficiently, necessitating an automated solution for assigning tickets, offering prompt severity feedback, and enabling seamless collaboration among teams for effective resolution.",
@@ -130,7 +130,7 @@ export const SmartSupportFramework = {
         },
     ],
     demo: {
-        link: [ demoVideo, demoVideo2 ],
+        link: [demoVideo, demoVideo2],
     },
     tryit: {
         link: ""
@@ -138,36 +138,36 @@ export const SmartSupportFramework = {
     // demo: {
     //     link: { demoVideo2 },
     // },
-    FAQs : [
+    FAQs: [
         {
-          question: "What is the purpose of the Smart Support Framework?",
-          answer: "The Smart Support Framework addresses challenges in managing support tickets efficiently by automating ticket assignments, offering prompt severity feedback, and enabling seamless collaboration among teams for effective issue resolution."
+            question: "What is the purpose of the Smart Support Framework?",
+            answer: "The Smart Support Framework addresses challenges in managing support tickets efficiently by automating ticket assignments, offering prompt severity feedback, and enabling seamless collaboration among teams for effective issue resolution."
         },
         {
-          question: "Who are the target users for the Smart Support Framework?",
-          answer: "The target users include Ticket Requesters, Support Representatives, Support Managers, and System Administrators. These users are involved in submitting support tickets, managing and resolving tickets, overseeing support teams, and configuring/maintaining the support ticket management system."
+            question: "Who are the target users for the Smart Support Framework?",
+            answer: "The target users include Ticket Requesters, Support Representatives, Support Managers, and System Administrators. These users are involved in submitting support tickets, managing and resolving tickets, overseeing support teams, and configuring/maintaining the support ticket management system."
         },
         {
-          question: "What are the key outcomes expected from implementing the Smart Support Framework?",
-          answer: "The expected outcomes include improved response time, enhanced ticket severity management, streamlined collaboration leading to quicker ticket resolution, increased customer satisfaction, improved operational efficiency through automation, and a streamlined escalation process for critical support tickets."
+            question: "What are the key outcomes expected from implementing the Smart Support Framework?",
+            answer: "The expected outcomes include improved response time, enhanced ticket severity management, streamlined collaboration leading to quicker ticket resolution, increased customer satisfaction, improved operational efficiency through automation, and a streamlined escalation process for critical support tickets."
         },
         {
-          question: "What are the highlights of the Smart Support Framework solution?",
-          answer: "The solution includes intelligent routing of support tickets using Open AI, contextual search for fast and efficient support, acknowledgment and priority assignment for support requests, identification of patterns for improved collaboration, and sentiment monitoring to ensure satisfactory responses are generated."
+            question: "What are the highlights of the Smart Support Framework solution?",
+            answer: "The solution includes intelligent routing of support tickets using Open AI, contextual search for fast and efficient support, acknowledgment and priority assignment for support requests, identification of patterns for improved collaboration, and sentiment monitoring to ensure satisfactory responses are generated."
         },
         {
-          question: "How does the Smart Support Framework address pain points in support ticket management?",
-          answer: "The solution addresses challenges such as delays and uncertainty in ticket severity, inefficient collaboration among support teams, and overall difficulties in managing support tickets efficiently. It achieves this through automated ticket assignment, timely severity feedback, and seamless collaboration."
+            question: "How does the Smart Support Framework address pain points in support ticket management?",
+            answer: "The solution addresses challenges such as delays and uncertainty in ticket severity, inefficient collaboration among support teams, and overall difficulties in managing support tickets efficiently. It achieves this through automated ticket assignment, timely severity feedback, and seamless collaboration."
         },
         {
-          question: "What role does Open AI play in the Smart Support Framework?",
-          answer: "Open AI is utilized for intelligent routing of support tickets, enhancing the efficiency of the ticket assignment process and contributing to fast and accurate support."
+            question: "What role does Open AI play in the Smart Support Framework?",
+            answer: "Open AI is utilized for intelligent routing of support tickets, enhancing the efficiency of the ticket assignment process and contributing to fast and accurate support."
         },
         {
-          question: "Is there a demo available for the Smart Support Framework?",
-          answer: "Yes, you can watch the demo video by following this link: [Demo Video](demoVideo)."
+            question: "Is there a demo available for the Smart Support Framework?",
+            answer: "Yes, you can watch the demo video by following this link: [Demo Video](demoVideo)."
         }
-      ]    
+    ]
 };
 
 export default SmartSupportFramework;
