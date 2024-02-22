@@ -19,6 +19,11 @@ const iconSize = {
     width: "3rem",
     color: "#dc848d"
 }
+const iconSizeBO = {
+    height: "8rem",
+    width: "5rem",
+    color: "#dc848d",
+}
 
 export const DocumentClassificationWithVirtualAssistant = {
     title: "Document Classification with Virtual Assistant",
@@ -50,34 +55,34 @@ export const DocumentClassificationWithVirtualAssistant = {
     ],
     businessOutcomes: [
         {
-            outcome: "Stramlined Operations",
-            caption: "Automated data extraction and retrieval processes streamline operations by eliminating manual tasks, reducing bottlenecks, and improving overall efficiency.",
-            icon: <IntegrationInstructionsIcon style={iconSize} />,
+            title: "Stramlined Operations",
+            description: ["Automated data extraction and retrieval processes streamline operations by eliminating manual tasks, reducing bottlenecks, and improving overall efficiency."],
+            image: <IntegrationInstructionsIcon style={iconSizeBO} />,
         },
         {
-            outcome: "Enhanced Productivity",
-            caption: "Quick and accurate retrieval of relevant information from business documents improves productivity and decision-making across various business functions.",
-            icon: <QueryStatsIcon style={iconSize} />,
+            title: "Enhanced Productivity",
+            description: ["Quick and accurate retrieval of relevant information from business documents improves productivity and decision-making across various business functions."],
+            image: <QueryStatsIcon style={iconSizeBO} />,
         },
         {
-            outcome: "Competitive Advantage",
-            caption: "By streamlining data extraction and retrieval processes, businesses can gain a competitive edge by delivering faster, more accurate, and personalized services to their customers.",
-            icon: <MdManageHistory style={iconSize} />,
+            title: "Competitive Advantage",
+            description: ["By streamlining data extraction and retrieval processes, businesses can gain a competitive edge by delivering faster, more accurate, and personalized services to their customers."],
+            image: <MdManageHistory style={iconSizeBO} />,
         },
         {
-            outcome: "Better Decision-Making",
-            caption: "Access to accurate and relevant data extracted from business documents enables informed decision-making and supports data-driven strategies.",
-            icon: <LocalLibraryIcon style={iconSize} />,
+            title: "Better Decision-Making",
+            description: ["Access to accurate and relevant data extracted from business documents enables informed decision-making and supports data-driven strategies."],
+            image: <LocalLibraryIcon style={iconSizeBO} />,
         },
         {
-            outcome: "Better Collaboration",
-            caption: "Solution facilitates collaboration among teams by centralizing and making business document data easily accessible, promoting knowledge sharing and cross-functional collaboration.",
-            icon: <ConstructionIcon style={iconSize} />,
+            title: "Better Collaboration",
+            description: ["Solution facilitates collaboration among teams by centralizing and making business document data easily accessible, promoting knowledge sharing and cross-functional collaboration."],
+            image: <ConstructionIcon style={iconSizeBO} />,
         },
         {
-            outcome: "Improved Data Accuracy",
-            caption: "Accuracy of data extraction is enhanced, minimizing errors and inconsistencies.",
-            icon: <SchoolIcon style={iconSize} />,
+            title: "Improved Data Accuracy",
+            description: ["Accuracy of data extraction is enhanced, minimizing errors and inconsistencies."],
+            image: <SchoolIcon style={iconSizeBO} />,
         },
     ],
     solutionHighlights: [

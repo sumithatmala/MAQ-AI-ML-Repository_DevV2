@@ -4,12 +4,18 @@ import { Menu, MenuItem, useProSidebar, Sidebar } from "react-pro-sidebar";
 // import ContactsRoundedIcon from "@mui/icons-material/ContactsRounded";
 // import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 // import OndemandVideoRoundedIcon from "@mui/icons-material/OndemandVideoRounded";
-// import InfoRoundedIcon from "@mui/icons-material/InfoRounded";
+// import InfoRoundedIcon from "@mui/icons-material/InfoRounded"
+
+//icons
 import { HashLink } from 'react-router-hash-link';
 import videoPlayer from './icons/videoplayer.png'
 import details from './icons/details.png'
 import tryIt from './icons/tryit.png'
 import contacts from './icons/contacts.png'
+import { AiOutlineUser, AiOutlineInfoCircle } from "react-icons/ai";
+// import { AiOutlineInfoCircle } from "react-icons/ai";
+
+
 import { React, useState } from "react";
 
 export default function SideBar() {
@@ -52,7 +58,7 @@ export default function SideBar() {
             // backgroundColor: "rgba(32,89,118,0.3)",
           }}
           breakPoint="sm"
-          transitionDuration={800}
+          transitionDuration={600}
           onMouseEnter={handleOnMouseEnter}
           onMouseLeave={handleOnMouseLeave}>
           <Menu
@@ -86,7 +92,9 @@ export default function SideBar() {
               <MenuItem
                 style={{ marginBottom: "15px" }}
                 
-                icon={<img src={details} height={"150%"} alt='details'/>}>
+                // icon={<img src={details} height={"150%"} alt='details'/>}
+                icon={<AiOutlineInfoCircle fontSize={"200%"}/>}
+                >
                 Details
               </MenuItem>
             </HashLink>
@@ -136,7 +144,9 @@ export default function SideBar() {
               }}>
               <MenuItem
                 style={{ marginBottom: "15px" }}
-                icon={<img src={contacts} height={"150%"}  alt='contacts'/>}>
+                // icon={<img src={contacts} height={"150%"}  alt='contacts'/>}
+                icon={<AiOutlineUser fontSize={"200%"}/> }
+              >
                 Contact
               </MenuItem>
             </HashLink>

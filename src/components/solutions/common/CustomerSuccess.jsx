@@ -25,7 +25,7 @@ const CustomerSuccess = (props) => {
     dots: false,
     responsive: [
       {
-        breakpoint: 1440,
+        breakpoint: 1540,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,

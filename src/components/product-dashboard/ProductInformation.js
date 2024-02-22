@@ -13,6 +13,8 @@ import ProductTryIt from "./ProductTryIt";
 import ProductContactUs from "./ProductContactUs";
 import "./css/target-users.css";
 import FAQs from "./FAQs";
+import ContactForm from "../solutions/common/contactForm";
+import CustomerSuccess from "../solutions/common/CustomerSuccess"
 
 import AnimatedDevelopment from "./icons/AnimatedDevelopment";
 import AnimatedOutcome from "./icons/AnimatedOutcome";
@@ -118,7 +120,7 @@ const ProductInformation = () => {
             productDetails.targetUsers.length > 0 && (
               <section
                 class="target-section"
-                style={{ backgroundColor: "white" }}
+                style={{ backgroundColor: "white" , paddingTop:"50px", margin:"0"}}
               >
                 <GridOfCards
                   items={{
@@ -131,7 +133,8 @@ const ProductInformation = () => {
             )}
 
           {/*business outcomes */}
-          {productDetails.businessOutcomes &&
+          <CustomerSuccess items={productDetails.businessOutcomes} CardHeight={"230px"}/>
+          {/* {productDetails.businessOutcomes &&
             productDetails.businessOutcomes.length > 0 && (
               <section
                 class="target-section"
@@ -179,7 +182,7 @@ const ProductInformation = () => {
                   </Slider>
                 </Row>
               </section>
-            )}
+            )} */}
 
           {/* Solution Highlights​ */}
           <section className="bannerCenter">
@@ -235,10 +238,10 @@ const ProductInformation = () => {
               <>
                 <Row id="prodinfo" className="product-overview">
                   {/* <AlternateBanner banners={productDetails.summary1} ContactBtn={false} /> */}
-                  <div className="sum">
+                  <div className="sum" style={{margin: "4rem 10px",alignItems:"center", justifyContent:"center"}}>
                   {productDetails.summary.map((highlights, index) =>
                     index === 0 ? (
-                      <Row key={index}>
+                      <Row key={index} style={{margin: "6rem 10px",alignItems:"center", justifyContent:"center"}}>
                         <Col data-aos="fade-right">
                           <div
                             className="product-container"
@@ -277,7 +280,7 @@ const ProductInformation = () => {
                         </Col>
                       </Row>
                     ) : index === 2 ? (
-                      <Row key={index}>
+                      <Row key={index} style={{margin: "6rem 10px",alignItems:"center", justifyContent:"center"}}>
                         <Col data-aos="fade-right">
                           <div
                             className="product-container"
@@ -317,7 +320,7 @@ const ProductInformation = () => {
                         </Col>
                       </Row>
                     ) : (
-                      <Row key={index} className="row2">
+                      <Row key={index} className="row2" style={{margin: "6rem 10px",alignItems:"center", justifyContent:"center"}}>
                         <Col>
                           <div
                             className="icon-container"
@@ -370,10 +373,11 @@ const ProductInformation = () => {
         items={productDetails.title}
         link={productDetails.tryit.link}
       />
-      <ProductContactUs />
+      {/* <ProductContactUs /> */}
       {productDetails.FAQs && productDetails.FAQs.length > 0 && (
         <FAQs FAQs={productDetails.FAQs} />
-      )}
+        )}
+        <ContactForm/>
     </>
   );
 };
