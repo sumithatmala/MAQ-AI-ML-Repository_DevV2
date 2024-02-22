@@ -11,8 +11,8 @@ import { MdVisibility } from "react-icons/md";
 import { MdPriceChange } from "react-icons/md";
 
 const iconSize = {
-  height: "3rem",
-  width: "3rem",
+  height: "5rem",
+  width: "5rem",
   color: "#dc848d",
 };
 const iconSizeBO = {

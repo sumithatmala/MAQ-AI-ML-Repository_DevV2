@@ -14,10 +14,10 @@ import OutputIcon from '@mui/icons-material/Output';
 import demoVideo from './demos/FeedbackSummarizerBot.mp4'
 
 const iconSize = {
-    height: "3rem", 
-    width: "3rem",
-    color: "#dc848d"
-}
+  height: "5rem",
+  width: "5rem",
+  color: "#dc848d",
+};
 const iconSizeBO = {
   height: "13rem",
   width: "20.4rem",

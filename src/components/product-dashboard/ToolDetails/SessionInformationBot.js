@@ -21,8 +21,8 @@ import demoVideo from "./demos/SessionInformationBot.mp4";
 import AnimatedHighlights from "../icons/AnimatedHighlights";
 
 const iconSize = {
-  height: "3rem",
-  width: "3rem",
+  height: "5rem",
+  width: "5rem",
   color: "#dc848d",
 };
 const iconSizeBO = {

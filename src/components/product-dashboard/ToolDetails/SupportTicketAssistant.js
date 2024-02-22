@@ -15,8 +15,8 @@ import { MdOutlinePriceCheck } from "react-icons/md";
 import ScaleIcon from "@mui/icons-material/Scale";
 
 const iconSize = {
-  height: "3rem",
-  width: "3rem",
+  height: "5rem",
+  width: "5rem",
   color: "#dc848d",
 };
 const iconSizeBO = {
