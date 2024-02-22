@@ -56,9 +56,9 @@ const NaturalLanguageProcessing = () => {
                 </section>
                 <Technologies tech = {technologiesData}/>
             </div>
-            <CustomerSuccess items ={customerSuccessData} heading="Customer Success" CardHeight="50rem"/>
+            <CustomerSuccess items ={customerSuccessData} heading="Customer Success" CardHeight="430px"/>
             <FAQs FAQs = {FAQsData}/>
-            <CustomerSuccess items={blogData} heading="More Insights" CardHeight="rem"/>
+            <CustomerSuccess items={blogData} heading="More Insights" CardHeight="230px"/>
             <ContactForm/>
         </>
     )

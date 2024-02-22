@@ -5,7 +5,6 @@ const CustData = [
       <img
         src="htg"
         alt="Automated Customer Feedback Analysis for Game Developers"
-        style={{ height: "230px" }}
       />
     ),
     description: [
@@ -21,7 +20,6 @@ const CustData = [
       <img
         src="htg"
         alt="Emotion Recognition for Customized Gaming Experience for Children"
-        style={{ height: "230px" }}
       />
     ),
     description: [
@@ -37,7 +35,6 @@ const CustData = [
       <img
         src="htg"
         alt="Game Results Prediction Technology for Game Developers"
-        style={{ height: "230px" }}
       />
     ),
     description: [

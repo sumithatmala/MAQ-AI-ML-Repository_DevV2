@@ -16,6 +16,7 @@
 @media (min-width: 742px)
 {
     .predict-use-cases.__type-predict .predict-use-cases-list__list-item:hover {
+        box-shadow: 0 8px 10px rgba(69, 60, 144,.2),0 3px 14px rgba(69, 60, 144,.12),0 8px 10px rgba(69, 60, 144, .14);
         top: -7px;
     }
     .predict-use-cases.__type-predict {
@@ -64,6 +65,7 @@
     .predict-use-cases.__type-predict
     .predict-use-cases-list__list-item2:hover {
         top: -7px;
+        
     }
     .predict-use-cases-list__list-item {
         width: 50%;
@@ -76,6 +78,10 @@
         margin: 15px;
         border-radius: 8px;
         box-shadow: 0 4px 5px rgba(69, 60, 144,.2),0 3px 14px rgba(69, 60, 144,.12),0 8px 10px rgba(69, 60, 144,.14);
+        /* min-height: 317px; */
+    }
+    .predict-use-cases.__type-predict .predict-use-cases-list-wrapper[class*=__type] .predict-use-cases-list__item:hover {
+        box-shadow: 0 36px 45px rgba(69, 60, 144,.2),0 3px 14px rgba(69, 60, 144,.12),0 8px 10px rgba(69, 60, 144,.14);
     }
     .predict-use-cases.__type-predict .predict-use-cases-list__item {
         border: 0;

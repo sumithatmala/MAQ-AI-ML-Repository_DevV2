@@ -18,7 +18,7 @@ const CaseItem = ({ iconSrc, altText, title, description, sizeOfCard }) => (
 
 const GridOfCards = (props) => {
   const { items} = props;
-  console.log(items)
+  // console.log(items)
   const sizeOfCard = String(100 / items.NoCards);
   return (
     <section className="main-cases">

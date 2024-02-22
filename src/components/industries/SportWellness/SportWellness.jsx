@@ -30,7 +30,7 @@ const SportWellness =() =>{
           <div className="Container-ir">
             <Grid content={benefitCards}/>
           </div>
-          <CustomerSuccess items={CutomerSuccessData} heading="Customer Success" CardHeight="55rem"/>
+          <CustomerSuccess items={CutomerSuccessData} heading="Customer Success" CardHeight="490px"/>
           <ContactForm />
         </>
       )

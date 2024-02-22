@@ -27,7 +27,7 @@ const Logistics = () => {
         <Grid content={benefitCards}/>
       </div>
       <BusinessCases items={{item: BusinessCasesData, NoCards:4, title: "Pros of Implementing AI Software in Logistics and Transportation"}}/>
-      <CustomerSuccess items={CutomerSuccessData} heading="Customer Success" CardHeight="45rem"/>
+      <CustomerSuccess items={CutomerSuccessData} heading="Customer Success" CardHeight="400px"/>
       <ContactForm />
     </>
   )

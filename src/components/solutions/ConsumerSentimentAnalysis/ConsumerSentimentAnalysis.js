@@ -90,7 +90,7 @@ const ConsumerSentimentAnalysis = () => {
         <SentimentAnalysisCompany />
       </section>
 
-      <CustomerSuccess items={CarouselData}  heading="Customer Success" CardHeight="35rem"/>
+      <CustomerSuccess items={CarouselData}  heading="Customer Success" CardHeight="300px"/>
 
       <FAQs FAQs={FAQsData} />
       <ContactForm />

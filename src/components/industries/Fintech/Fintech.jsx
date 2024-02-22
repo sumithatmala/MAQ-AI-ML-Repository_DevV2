@@ -34,7 +34,7 @@ const Fintech = () => {
           </section>
         <Grid content={benefitCards}/>
       </div>
-      <CustomerSuccess items={CutomerSuccessData} heading="Customer Success" CardHeight="40rem"/>
+      <CustomerSuccess items={CutomerSuccessData} heading="Customer Success" CardHeight="400px"/>
       <ContactForm />
     </>
   )

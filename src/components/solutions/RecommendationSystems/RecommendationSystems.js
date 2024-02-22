@@ -61,7 +61,7 @@ const RecommendationSystems = () => {
       <Benefits />
 
 
-      <CustomerSuccess items={BiSlider} slidesToShow = {2}  heading="Customer Success" CardHeight="60rem"/>
+      <CustomerSuccess items={BiSlider} slidesToShow = {2}  heading="Customer Success" CardHeight="510px"/>
 
       <ContactForm />
     </>

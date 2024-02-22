@@ -1,8 +1,8 @@
 const BiotechDigitalData = [
   {
-    list: "Phase 1: Creation of Data Lake",
+    list: "Phase 1: Creation",
     desc: {
-      para: ["We address the following aspects:"],
+      para: [<big>Creation of Data Lake:</big>],
       points: [
         "Multiple diverse Data Sources",
         "Multiple subsidiaries (e.g., Data providers)",
@@ -13,23 +13,23 @@ const BiotechDigitalData = [
     },
   },
   {
-    list: "Phase 2: Ingestion and Data Quality Check",
+    list: "Phase 2: Ingestion",
     desc: {
-      para: [""],
+      para: [<big>Ingestion and Data Quality Check:</big>],
       points: [
         "Support for processing all Data Sources",
-        "Ingestion of all data (including raw data) into the pipeline for Data Quality and Validation",
-        "Placement of all processed data into the Data Lake for immediate analysis",
+        "User ingests all data, including raw data, into the pipeline for Data Quality and Validation processes.",
+        "Placement of all processed data into the Data Lake for immediate analysis and storage.",
         "Implementation of ingestion into the pipeline during the POC",
       ],
     },
   },
   {
-    list: "Phase 3: Processing, ML, and Analysis",
+    list: "Phase 3: Processing",
     desc: {
-      para: [""],
+      para: [<big>Processing, ML, and Analysis:</big>],
       points: [
-        "Processing of valid data after ingestion using Step Functions and AWS Glue (including any ML transformations needed)",
+        "Processing valid data after ingestion using Step Functions and AWS Glue, including any necessary ML transformations.",
         "Availability of all processed data in Data Lake for immediate analysis",
         "Upload of all processed data into the Data Warehouse, accessible to all Data Analysts",
         "Full automation of the entire pipeline with multiple error retry mechanisms for self-sufficiency",
@@ -40,9 +40,9 @@ const BiotechDigitalData = [
     },
   },
   {
-    list: "Phase 4: Visualization and Reporting",
+    list: "Phase 4: Visualization",
     desc: {
-      para: [""],
+      para: [<big>Visualization and Reporting</big>],
       points: [
         "Upload of all processed data into Redshift for Analysis and Visualization",
         "Granting of Redshift access to subsidiaries (e.g., stakeholders or third-party subsidiary investors needing data access)",

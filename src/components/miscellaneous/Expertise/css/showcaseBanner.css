@@ -71,7 +71,7 @@
 }
 
 .ShowcaseBanerCard {
-    width: 450px;
+    max-width: 450px;
     display: flex;
     flex-direction: column;
     animation: opacityTrans 0.3;
@@ -148,7 +148,7 @@
         width: 100%;
         background-color: #c8c5dd;
         border-radius: 27px;
-        margin-right: 90px;
+        /* margin-right: 90px; */
         min-height: 700px;
         animation: opacityTrans 0.3;
     }
