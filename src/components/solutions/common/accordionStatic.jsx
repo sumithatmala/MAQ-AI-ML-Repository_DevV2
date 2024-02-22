@@ -19,18 +19,20 @@ const AccordionStatic = (props) => {
     const [selected, setSelected] = useState(props.listItems[0]);
 
     return (
-        <section className="AccordianContiner">
+        <section className="AccordianContiner" style={{maxWidth: props.cntWidth}}>
             <h3>{props.title}</h3>
             <p>{props.desc}</p>
             <div className="AccordionTitle">
-                <div className="AccordionList">
+                <div className="AccordionList" style={{width: props.titleRatio}}>
                     {props.listItems.map((item) => {
-                        return (<div 
-                                    className={'AccordionListItem' + ((selected.list === item.list) ? '_selected' : '')} 
-                                    onClick={() => { setSelected(item) }}
-                                > 
-                                    <p> {item.list} </p> 
-                                </div>)
+                        return (
+                            <div 
+                                className={'AccordionListItem' + ((selected.list === item.list) ? '_selected' : '')} 
+                                onClick={() => { setSelected(item) }}
+                            > 
+                                <button> {item.list} </button> 
+                            </div>
+                        )
                     })}
                 </div>
                 <Description desc={selected.desc} />

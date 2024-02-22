@@ -48,10 +48,10 @@ const CustomerSuccess = (props) => {
     AOS.refresh();
   }, []);
 
-  useEffect(() => {
-    console.log(CardHeight)
-    document.documentElement.style.setProperty("--max-card-height", `${CardHeight? CardHeight: "50rem"}`);
-  }, []);
+  // useEffect(() => {
+  //   console.log(CardHeight)
+  //   document.documentElement.style.setProperty("--max-card-height", `${CardHeight? CardHeight: "50rem"}`);
+  // }, []);
 
   return (
     <section className="carousel_cost">
@@ -71,7 +71,7 @@ const CustomerSuccess = (props) => {
                 ) : (
                   <></>
                 )}
-                <div className="separate-slider__content">
+                <div className="separate-slider__content" style={{height: CardHeight}}>
                   <h3 className="separate-slider__title">{outcome.title}</h3>
                   <div className="separate-slider__text">
                     {outcome.description ? (outcome.description.map((paragraph, index) => (

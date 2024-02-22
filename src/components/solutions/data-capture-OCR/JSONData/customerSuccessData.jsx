@@ -4,7 +4,7 @@ import brandV from "../img/brandVerif.jpg"
 
 const customerSuccessData = [
     {
-        title: "An OCR solution and API for secure infrared brand verification.",
+        title: "An OCR solution and API for secure IR brand verification.",
         image: <img src={brandV} alt="Verification made easy" />,
         description: [
             "A country-based startup specializing in technologies for the security printing industry sought MAQ Softwares' machine learning consulting services and expertise in data management and AI software development. In response, the MAQ Software team delivered a Proof of Concept (PoC) to assess the capabilities of Computer Vision (OCR) tools in combating counterfeits for brands in the market."

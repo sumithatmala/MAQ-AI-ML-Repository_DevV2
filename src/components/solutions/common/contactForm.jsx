@@ -25,51 +25,48 @@ const ContactForm = ({ contactMsg }) => {
 
     }
 
-    function handleSubmit(e) {
+    async function handleSubmit(e) {
         const name = document.getElementById("name").value;
         const CompName = document.getElementById("compName").value;
         const email = document.getElementById("email").value;
         const msg = document.getElementById("message").value;
         const phone = document.getElementById("phone").value
-
-        e.preventDefault();
+        
         // alert("form submitted!");
         checkInpts();
-
-        fetch('http://localhost:3001/sendEmail', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                name: name,
-                compName: CompName,
-                email: email,
-                phone: phone,
-                msg: msg
+        e.preventDefault();
+        
+        try{
+            const res = await fetch('http://localhost:3001/sendEmail', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: name,
+                    compName: CompName,
+                    email: email,
+                    phone: phone,
+                    msg: msg
+                })
             })
-        })
-            .then(res => {
-                if (!res.ok) {
-                    throw new Error('Failed to send email');
-                } else {
-                    Swal.fire({
-                        title: "Mail Sent!",
-                        text: "We have recieved your concern!",
-                        icon: "success"
-                    });
-                }
-                console.log(res.body);
-                // return response.json();
-
-            })
-            // .then(data => {
-            //     console.log('Email sent successfully:', data);
-            // })
-            .catch(error => {
+            const data = await res.json();
+            if (!res.ok) {
+                window.location.reload(true);
+                throw new Error('Failed to send email');
+            } else {
+                console.log(data);
+                await Swal.fire({
+                    title: "Mail Sent!",
+                    text: "We have recieved your concern!",
+                    icon: "success"
+                });
+                window.location.reload(true);
+            }
+        } catch(error) {
                 console.error('Error sending email:', error);
-            });
-    }
+            };
+        }
 
     return (
         <section id="contact" className="FormBox">

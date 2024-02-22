@@ -1,24 +1,26 @@
 .image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    gap: 10px;
-    justify-content: center;
+    display: flex;
+    /* grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); */
+    /* gap: 10px; */
+    justify-content: space-around;
     justify-items: center;
     align-items: center;
     align-content: center;
+    flex-wrap:wrap;
   }
   
   .image-grid img {
-    max-width: 100%;
-    height: auto;
+    /* max-width: 70%; */
+    max-height: 160px;
+    margin: 10px;
   }
   
   .certificate-section {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    max-width: 1200px;
     align-items: center;
-    margin: 5rem 0;
+    margin: 3rem auto;
 
   }
   .certificate-images {

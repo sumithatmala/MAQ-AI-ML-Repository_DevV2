@@ -7,7 +7,7 @@ const BigData = [
     },
   },
   {
-    list: "NLP: Analysis of Scientific Literature and Patents",
+    list: "Analysis of Scientific Literature and Patents",
     desc: {
       para: ["Implement artificial intelligence in pharmacy in a secure and controlled manner with AI. Utilize customized NLP solutions for data mining and analysis, including smart collection, labeling pharma studies, highlighting relevant information to your queries, and enhancing modeling."],
       points: [],
@@ -30,7 +30,7 @@ const BigData = [
     },
   },
   {
-    list: "Big Data Analytics for Pharmaceutical Companies",
+    list: "Big Data Analytics for Pharma Companies",
     desc: {
       para: ["With customized Big Data solutions, efficiently manage a wealth of data. Gather, store, transit, and extract data with a click. Leverage emerging pharma tech to run analytics and machine learning models effortlessly. Maximize data analytics to ensure the success of your pharmaceutical company."],
       points: [],

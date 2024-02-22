@@ -1,6 +1,5 @@
 /* Logistic benefits */
 .LogisticsContainer {
-    margin-top: 5rem;
     display: flex;
     width: 100%;
     text-align: center;
@@ -10,7 +9,7 @@
 }
 
 .LogisticsTitle {
-    width: 1000px;
+    max-width: 1000px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -18,7 +17,7 @@
 }
 
 .LogisticsDesc {
-    margin: 20px 10px;
+    margin: 20px 20px;
     text-align: start;
     display: flex;
     flex-direction: column;
@@ -29,5 +28,11 @@
 }
 .LogisticsImg img{
     width: 350px;
+}
 
+@media (max-width: 1024px) {
+    .LogisticsTitle {
+        max-width: 700px;
+        flex-direction: column-reverse;
+    }
 }

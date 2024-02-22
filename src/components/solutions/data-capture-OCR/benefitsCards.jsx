@@ -2,7 +2,7 @@ import "./css/benefitCards.css"
 
 const BenefitCards = (props) => {
     return(
-        <section style={{textAlign: "center", margin: "3rem"}}>
+        <section style={{textAlign: "center", margin: "3rem 20px"}}>
             <h4>Benefits</h4>
             <div className="BenefitCardsContainer">
                 <div className="Benefitcards">

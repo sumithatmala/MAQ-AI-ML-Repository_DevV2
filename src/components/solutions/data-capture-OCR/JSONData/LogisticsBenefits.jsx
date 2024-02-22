@@ -14,7 +14,7 @@ const LogisticsBenefits = {
         "Automates the transfer of captured data.",
         "Provides efficient automated invoice processing.",
         "Facilitates invoice and receipt processing.",
-        "Makes package registration, tracking, and delivery time-efficient, leading to reduced overall delivery costs.",
+        "Makes package registration, tracking, and delivery time-efficient",
         "Offers web data extraction services if needed.",
     ]
 }
