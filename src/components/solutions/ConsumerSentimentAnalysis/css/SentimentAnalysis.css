@@ -87,7 +87,7 @@ img {
   }
 }
 @media (max-width: 570px) {
-    .row{
+    .licon-text-list .row{
         height: 600px;
     }
     .licon-text-list{

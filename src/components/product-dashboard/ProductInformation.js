@@ -13,12 +13,15 @@ import ProductTryIt from "./ProductTryIt";
 import ProductContactUs from "./ProductContactUs";
 import "./css/target-users.css";
 import FAQs from "./FAQs";
+
 import AnimatedDevelopment from "./icons/AnimatedDevelopment";
 import AnimatedOutcome from "./icons/AnimatedOutcome";
 import AnimatedSolution from "./icons/AnimatedSolution";
+
 import AnimatedHighlights from "./icons/AnimatedHighlights";
 import LoaderComp from "../views/LoaderComp";
 import GridOfCards from "../solutions/common/GridOfCards";
+import AlternateBanner from "../solutions/common/alternateBanner";
 
 const ProductInformation = () => {
   const [productDetails, setproductDetails] = useState(null);
@@ -139,7 +142,10 @@ const ProductInformation = () => {
                   style={{ backgroundColor: "white" }}
                 >
                   <h3 class="head-block-center">Business Outcomes</h3>
-                  <Slider {...settings} style={{ backgroundColor: "", padding: "0 20px"}}>
+                  <Slider
+                    {...settings}
+                    style={{ backgroundColor: "", padding: "0 20px" }}
+                  >
                     {productDetails.businessOutcomes.map((outcome, index) => (
                       <div
                         key={index}
@@ -176,173 +182,189 @@ const ProductInformation = () => {
             )}
 
           {/* Solution Highlights​ */}
-          {productDetails.solutionHighlights &&
-            productDetails.solutionHighlights.length > 0 && (
-              <Row id="prodinfo" className="product-overview">
-                <Col style={{ boxShadow: "none" }}>
-                  <div
-                    className="icon-container"
-                    style={{
-                      display: "flex",
-                      flexDirection: "column",
-                      alignItems: "center",
-                    }}
-                  >
-                    <AnimatedHighlights />
-                  </div>
-                </Col>
-                <Col>
-                  <div
-                    className="product-container"
-                    data-aos="fade-left"
-                    style={{ display: "Block" }}
-                  >
-                    <h3 style={{ color: "black" }}>Solution Highlights​</h3>
-                    <ul className="bulletStyle">
-                      {productDetails.solutionHighlights.map(
-                        (highlights, index) => (
-                          <li
-                            key={index}
+          <section className="bannerCenter">
+            {productDetails.solutionHighlights &&
+              productDetails.solutionHighlights.length > 0 && (
+                <Row id="prodinfo" className="product-overview sol">
+                  {/* <AlternateBanner banners={productDetails.solutionHighlights1} ContactBtn={false} /> */}
+                  <Col style={{ boxShadow: "none" }}>
+                    <div
+                      className="icon-container"
+                      style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                      }}
+                    >
+                      <div className="icons_res">
+                        <AnimatedHighlights />
+                      </div>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div
+                      className="product-container"
+                      data-aos="fade-left"
+                      style={{ display: "Block" }}
+                    >
+                      <h3 style={{ color: "black" }}>Solution Highlights​</h3>
+                      <ul className="bulletStyle">
+                        {productDetails.solutionHighlights.map(
+                          (highlights, index) => (
+                            <li
+                              key={index}
+                              style={{
+                                color: "#141414",
+                                position: "relative",
+                                paddingLeft: "1.2em",
+                              }}
+                            >
+                              {highlights}
+                            </li>
+                          )
+                        )}
+                      </ul>
+                    </div>
+                  </Col>
+                </Row>
+              )}
+
+            {/*Summary */}
+
+            {productDetails.summary && productDetails.summary.length > 0 && (
+              <>
+                <Row id="prodinfo" className="product-overview">
+                  {/* <AlternateBanner banners={productDetails.summary1} ContactBtn={false} /> */}
+                  <div className="sum">
+                  {productDetails.summary.map((highlights, index) =>
+                    index === 0 ? (
+                      <Row key={index}>
+                        <Col data-aos="fade-right">
+                          <div
+                            className="product-container"
+                            style={{ display: "block" }}
+                          >
+                            <h3>{highlights.title}</h3>
+                            <ul className="bulletStyle">
+                              {highlights.details.map((highlight, index) => (
+                                <li
+                                  key={index}
+                                  style={{
+                                    color: "#141414",
+                                    position: "relative",
+                                    paddingLeft: "1.2em",
+                                  }}
+                                >
+                                  {highlight}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        </Col>
+                        <Col>
+                          <div
+                            className="icon-container"
                             style={{
-                              color: "#141414",
-                              position: "relative",
-                              paddingLeft: "1.2em",
+                              display: "flex",
+                              flexDirection: "column",
+                              alignItems: "center",
                             }}
                           >
-                            {highlights}
-                          </li>
-                        )
-                      )}
-                    </ul>
+                            <div className="icons_res">
+                              <AnimatedDevelopment />
+                            </div>
+                          </div>
+                        </Col>
+                      </Row>
+                    ) : index === 2 ? (
+                      <Row key={index}>
+                        <Col data-aos="fade-right">
+                          <div
+                            className="product-container"
+                            style={{ display: "block" }}
+                          >
+                            <h3>{highlights.title}</h3>
+                            <ul className="bulletStyle">
+                              {highlights.details.map((highlight, index) => (
+                                <li
+                                  key={index}
+                                  style={{
+                                    color: "#141414",
+                                    position: "relative",
+                                    paddingLeft: "1.2em",
+                                  }}
+                                >
+                                  {" "}
+                                  {highlight}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        </Col>
+                        <Col>
+                          <div
+                            className="icon-container"
+                            style={{
+                              display: "flex",
+                              flexDirection: "column",
+                              alignItems: "center",
+                            }}
+                          >
+                            <div className="icons_res">
+                              <AnimatedOutcome />
+                            </div>
+                          </div>
+                        </Col>
+                      </Row>
+                    ) : (
+                      <Row key={index} className="row2">
+                        <Col>
+                          <div
+                            className="icon-container"
+                            style={{
+                              display: "flex",
+                              flexDirection: "column",
+                              alignItems: "center",
+                            }}
+                          >
+                            <div className="icons_res">
+                              <AnimatedSolution />
+                            </div>
+                          </div>
+                        </Col>
+                        <Col data-aos="fade-left">
+                          <div
+                            className="product-container"
+                            style={{ display: "block" }}
+                          >
+                            <h4>{highlights.title}</h4>
+                            <ul className="bulletStyle">
+                              {highlights.details.map((highlight, index) => (
+                                <li
+                                  key={index}
+                                  style={{
+                                    position: "relative",
+                                    paddingLeft: "1em",
+                                  }}
+                                >
+                                  <span style={{ color: "#141414" }}>
+                                    {highlight}
+                                  </span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        </Col>
+                      </Row>
+                    )
+                  )}
                   </div>
-                </Col>
-              </Row>
+                </Row>
+              </>
             )}
-
-          {/*Summary */}
-          {productDetails.summary && productDetails.summary.length > 0 && (
-            <Row id="prodinfo" className="product-overview">
-              {productDetails.summary.map((highlights, index) =>
-                index === 0 ? (
-                  <Row key={index}>
-                    <Col data-aos="fade-right">
-                      <div
-                        className="product-container"
-                        style={{ display: "block" }}
-                      >
-                        <h3>{highlights.title}</h3>
-                        <ul className="bulletStyle">
-                          {highlights.details.map((highlight, index) => (
-                            <li
-                              key={index}
-                              style={{
-                                color: "#141414",
-                                position: "relative",
-                                paddingLeft: "1.2em",
-                              }}
-                            >
-                              {highlight}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    </Col>
-                    <Col>
-                      <div
-                        className="icon-container"
-                        style={{
-                          display: "flex",
-                          flexDirection: "column",
-                          alignItems: "center",
-                        }}
-                      >
-                        <AnimatedDevelopment />
-                      </div>
-                    </Col>
-                  </Row>
-                ) : index === 2 ? (
-                  <Row key={index}>
-                    <Col data-aos="fade-right">
-                      <div
-                        className="product-container"
-                        style={{ display: "block" }}
-                      >
-                        <h3>{highlights.title}</h3>
-                        <ul className="bulletStyle">
-                          {highlights.details.map((highlight, index) => (
-                            <li
-                              key={index}
-                              style={{
-                                color: "#141414",
-                                position: "relative",
-                                paddingLeft: "1.2em",
-                              }}
-                            >
-                              {" "}
-                              {highlight}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    </Col>
-                    <Col>
-                      <div
-                        className="icon-container"
-                        style={{
-                          display: "flex",
-                          flexDirection: "column",
-                          alignItems: "center",
-                        }}
-                      >
-                        <AnimatedOutcome />
-                      </div>
-                    </Col>
-                  </Row>
-                ) : (
-                  <Row key={index}>
-                    <Col>
-                      <div
-                        className="icon-container"
-                        style={{
-                          display: "flex",
-                          flexDirection: "column",
-                          alignItems: "center",
-                        }}
-                      >
-                        <AnimatedSolution />
-                      </div>
-                    </Col>
-                    <Col data-aos="fade-left">
-                      <div
-                        className="product-container"
-                        style={{ display: "block" }}
-                      >
-                        <h4>{highlights.title}</h4>
-                        <ul className="bulletStyle">
-                          {highlights.details.map((highlight, index) => (
-                            <li
-                              key={index}
-                              style={{
-                                position: "relative",
-                                paddingLeft: "1em",
-                              }}
-                            >
-                              <span style={{ color: "#141414" }}>
-                                {highlight}
-                              </span>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    </Col>
-                  </Row>
-                )
-              )}
-            </Row>
-          )}
+          </section>
         </Container>
       </section>
-
       <ProductDemo link={productDetails.demo.link} />
       <ProductTryIt
         items={productDetails.title}
