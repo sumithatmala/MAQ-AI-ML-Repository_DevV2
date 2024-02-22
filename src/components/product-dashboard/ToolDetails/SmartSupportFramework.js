@@ -19,7 +19,16 @@ const iconSize = {
     width: "3rem",
     color: "#dc848d"
 }
-
+const iconSizeBO = {
+    height: "13rem",
+    width: "20.4rem",
+    color: "#dc848d",
+    border: "solid #dc848d 3px",
+    // margin: "0px 10px",
+    padding: "30px 50px",
+    borderRadius: "10px",
+    // boxShadow: "0px 8px 16px 0px red"
+  }
 export const SmartSupportFramework = {
     title: "Smart Support Framework",
     description: "Organizations face challenges in managing support tickets efficiently, necessitating an automated solution for assigning tickets, offering prompt severity feedback, and enabling seamless collaboration among teams for effective resolution.",
@@ -50,34 +59,34 @@ export const SmartSupportFramework = {
     ],
     businessOutcomes: [
         {
-            outcome: "Improved Response Time",
-            caption: "Reduced response times for support ticket requests, enhancing customer satisfaction and loyalty.",
-            icon: <IntegrationInstructionsIcon style={iconSize} />,
+            title: "Improved Response Time",
+            description: ["Reduced response times for support ticket requests, enhancing customer satisfaction and loyalty."],
+            image: <IntegrationInstructionsIcon style={iconSizeBO} />,
         },
         {
-            outcome: "Enhanced Ticket Severity Management",
-            caption: "Accurate determination and communication of ticket severity enable better prioritization and faster resolution of critical issues.",
-            icon: <QueryStatsIcon style={iconSize} />,
+            title: "Enhanced Ticket Severity Management",
+            description: ["Accurate determination and communication of ticket severity enable better prioritization and faster resolution of critical issues."],
+            image: <QueryStatsIcon style={iconSizeBO} />,
         },
         {
-            outcome: "Streamlined Collaboration",
-            caption: "Efficient communication and collaboration between support teams lead to quicker ticket resolution, reducing overall response and resolution times.",
-            icon: <MdManageHistory style={iconSize} />,
+            title: "Streamlined Collaboration",
+            description: ["Efficient communication and collaboration between support teams lead to quicker ticket resolution, reducing overall response and resolution times."],
+            image: <MdManageHistory style={iconSizeBO} />,
         },
         {
-            outcome: "Increased Customer Satisfaction",
-            caption: "By addressing customer concerns quickly and efficiently can enhance the customer experience, resulting in higher satisfaction levels and positive brand perception.",
-            icon: <LocalLibraryIcon style={iconSize} />,
+            title: "Increased Customer Satisfaction",
+            description: ["By addressing customer concerns quickly and efficiently can enhance the customer experience, resulting in higher satisfaction levels and positive brand perception."],
+            image: <LocalLibraryIcon style={iconSizeBO} />,
         },
         {
-            outcome: "Improved Operational Efficiency",
-            caption: "Automating ticket assignment and streamlining collaboration can optimize resource allocation, improve productivity, and reduce operational costs.",
-            icon: <ConstructionIcon style={iconSize} />,
+            title: "Improved Operational Efficiency",
+            description: ["Automating ticket assignment and streamlining collaboration can optimize resource allocation, improve productivity, and reduce operational costs."],
+            image: <ConstructionIcon style={iconSizeBO} />,
         },
         {
-            outcome: "Enhanced Escalation Process",
-            caption: "Streamlined escalation process ensures that critical support tickets are promptly escalated to the appropriate teams or higher-level support.",
-            icon: <SchoolIcon style={iconSize} />,
+            title: "Enhanced Escalation Process",
+            description: ["Streamlined escalation process ensures that critical support tickets are promptly escalated to the appropriate teams or higher-level support."],
+            image: <SchoolIcon style={iconSizeBO} />,
         },
     ],
     solutionHighlights: [

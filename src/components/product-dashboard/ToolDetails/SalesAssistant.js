@@ -15,7 +15,11 @@ const iconSize = {
   width: "3rem",
   color: "#dc848d",
 };
-
+const iconSizeBO = {
+  height: "8rem",
+  width: "5rem",
+  color: "#dc848d",
+}
 export const SalesAssistant = {
   title: "Sales Assistant",
   description:
@@ -51,40 +55,40 @@ export const SalesAssistant = {
   ],
   businessOutcomes: [
     {
-      outcome: "Streamlined Client Profiling",
-      caption:
-        "Focused questioning and information gathering enables the sales team to streamline the client profiling process, reducing time and resource requirements.",
-      icon: <GoCodescanCheckmark style={iconSize} />,
+      title: "Streamlined Client Profiling",
+      description:
+        ["Focused questioning and information gathering enables the sales team to streamline the client profiling process, reducing time and resource requirements."],
+      image: <GoCodescanCheckmark style={iconSizeBO} />,
     },
     {
-      outcome: "Faster Personalized Solutions",
-      caption:
-        "By matching client data with business value maps, the sales team can provide personalized solutions more quickly, improving response times and customer satisfaction",
-      icon: <FaFastForward  style={iconSize} />,
+      title: "Faster Personalized Solutions",
+      description:
+        ["By matching client data with business value maps, the sales team can provide personalized solutions more quickly, improving response times and customer satisfaction"],
+      image: <FaFastForward  style={iconSizeBO} />,
     },
     {
-      outcome: "Improved Accuracy",
-      caption:
-        "Gathering precise and relevant information about client priorities, challenges, goals, and risks, leading to more accurate client profiles and better-aligned solutions",
-      icon: <GrDocumentPerformance style={iconSize} />,
+      title: "Improved Accuracy",
+      description:
+        ["Gathering precise and relevant information about client priorities, challenges, goals, and risks, leading to more accurate client profiles and better-aligned solutions"],
+      image: <GrDocumentPerformance style={iconSizeBO} />,
     },
     {
-      outcome: "Enhanced Efficiency and Productivity",
-      caption:
-        "Reduces manual effort, allowing the sales team to focus on more strategic activities, increasing overall efficiency and productivity.",
-      icon: <GiNetworkBars style={iconSize} />,
+      title: "Enhanced Efficiency and Productivity",
+      description:
+        ["Reduces manual effort, allowing the sales team to focus on more strategic activities, increasing overall efficiency and productivity."],
+      image: <GiNetworkBars style={iconSizeBO} />,
     },
     {
-      outcome: "Increased Sales Conversion",
-      caption:
-        "Provides tailored solutions quickly and accurately improves the chances of sales conversion, resulting in higher revenue and business growth.",
-      icon: <MdOutlineNetworkCheck style={iconSize} />,
+      title: "Increased Sales Conversion",
+      description:
+        ["Provides tailored solutions quickly and accurately improves the chances of sales conversion, resulting in higher revenue and business growth."],
+      image: <MdOutlineNetworkCheck style={iconSizeBO} />,
     },
     {
-      outcome: "Competitive Advantage",
-      caption:
-        "Efficient,& personalized solutions gives the company a competitive edge in the market, attracting more clients and retaining existing ones.",
-      icon: <GrStatusGood style={iconSize} />,
+      title: "Competitive Advantage",
+      description:
+        ["Efficient,& personalized solutions gives the company a competitive edge in the market, attracting more clients and retaining existing ones."],
+      image: <GrStatusGood style={iconSizeBO} />,
     },
   ],
   solutionHighlights: [

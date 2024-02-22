@@ -133,7 +133,7 @@ const ProductInformation = () => {
             )}
 
           {/*business outcomes */}
-          <CustomerSuccess items={productDetails.businessOutcomes} CardHeight={"230px"}/>
+          <CustomerSuccess items={productDetails.businessOutcomes} CardHeight={"230px"} style={{marginBottom: "0px", paddingBottom:"5rem"}}/>
           {/* {productDetails.businessOutcomes &&
             productDetails.businessOutcomes.length > 0 && (
               <section
@@ -204,13 +204,13 @@ const ProductInformation = () => {
                       </div>
                     </div>
                   </Col>
-                  <Col>
+                  <Col style={{}}>
                     <div
                       className="product-container"
                       data-aos="fade-left"
-                      style={{ display: "Block" }}
+                      style={{ display: "Block"}}
                     >
-                      <h3 style={{ color: "black" }}>Solution Highlights​</h3>
+                      <h3 style={{ color: "black" }}>Solution Highlights</h3>
                       <ul className="bulletStyle">
                         {productDetails.solutionHighlights.map(
                           (highlights, index) => (

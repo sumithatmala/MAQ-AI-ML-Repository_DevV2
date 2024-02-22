@@ -18,6 +18,16 @@ const iconSize = {
     width: "3rem",
     color: "#dc848d"
 }
+const iconSizeBO = {
+  height: "13rem",
+  width: "20.4rem",
+  color: "#dc848d",
+  border: "solid #dc848d 3px",
+  // margin: "0px 10px",
+  padding: "30px 50px",
+  borderRadius: "10px",
+  // boxShadow: "0px 8px 16px 0px red"
+}
 
 export const FeedbackSummarizerBot = {
     title: "Feedback Summarizer Bot",
@@ -49,34 +59,34 @@ export const FeedbackSummarizerBot = {
     ],
     businessOutcomes: [
       {
-        outcome: "Enhanced Customer Experience",
-        caption: "Leveraging the insights derived from customer feedback, organizations can prioritize product enhancements, leading to more innovative and customer-centric products.",
-        icon: <IntegrationInstructionsIcon style={iconSize}/>,
+        title: "Enhanced Customer Experience",
+        description: ["Using customer feedback insights, organizations can prioritize product enhancements for more innovative, customer-centric products."],
+        image: <IntegrationInstructionsIcon style={iconSizeBO}/>,
       },
       {
-        outcome: "Improved Product Development",
-        caption: "Researchers and analysts can leverage the solution to extract insights from session content and recordings, supporting data analysis, research projects.",
-        icon: <QueryStatsIcon style={iconSize}/>,
+        title: "Improved Product Development",
+        description: ["Researchers and analysts can leverage the solution to extract insights from session content and recordings, supporting data analysis, research projects."],
+        image: <QueryStatsIcon style={iconSizeBO}/>,
       },
       {
-        outcome: "Accelerated Decision-Making",
-        caption: "faster decision-making by business teams  leveraging the timely insights derived from feedback.",
-        icon: <MdManageHistory style={iconSize}/>,
+        title: "Accelerated Decision-Making",
+        description: ["faster decision-making by business teams  leveraging the timely insights derived from feedback."],
+        image: <MdManageHistory style={iconSizeBO}/>,
       },
       {
-        outcome: "Increased Customer Satisfaction",
-        caption: "By addressing customer concerns and implementing necessary changes based on feedback analysis, businesses can improve customer satisfaction levels, leading to increased loyalty and retention.",
-        icon: <LocalLibraryIcon style={iconSize}/>,
+        title: "Increased Customer Satisfaction",
+        description: ["Addressing customer concerns and implementing feedback-driven changes can boost satisfaction, loyalty, and retention."],
+        image: <LocalLibraryIcon style={iconSizeBO}/>,
       },
       {
-        outcome: "Proactive Issue Resolution",
-        caption: "proactively identify and resolve customer issues by analyzing feedback in real-time, minimizing negative impacts and improving customer loyalty.",
-        icon: <ConstructionIcon style={iconSize}/>,
+        title: "Proactive Issue Resolution",
+        description: ["proactively identify and resolve customer issues by analyzing feedback in real-time, minimizing negative impacts and improving customer loyalty."],
+        image: <ConstructionIcon style={iconSizeBO}/>,
       },
       {
-        outcome: "Competitive Advantage",
-        caption: "Efficient analysis of customer feedback allows businesses to stay ahead of the competition by identifying and addressing customer needs and preferences more effectively.",
-        icon: <SchoolIcon style={iconSize}/>,
+        title: "Competitive Advantage",
+        description: ["Efficient analysis of customer feedback allows businesses to stay ahead of the competition by identifying and addressing customer needs and preferences more effectively."],
+        image: <SchoolIcon style={iconSizeBO}/>,
       },
     ],
     solutionHighlights: [

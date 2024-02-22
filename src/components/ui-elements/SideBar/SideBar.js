@@ -12,7 +12,7 @@ import videoPlayer from './icons/videoplayer.png'
 import details from './icons/details.png'
 import tryIt from './icons/tryit.png'
 import contacts from './icons/contacts.png'
-import { AiOutlineUser, AiOutlineInfoCircle } from "react-icons/ai";
+import { AiOutlineUser, AiOutlineInfoCircle, AiOutlineLaptop, AiFillPlaySquare } from "react-icons/ai";
 // import { AiOutlineInfoCircle } from "react-icons/ai";
 
 
@@ -48,8 +48,7 @@ export default function SideBar() {
           width: "0vh",
           display: "flex",
           flexDirection: "column",
-          justifyContent: "center",
-          
+          justifyContent: "center"
         }}>
         <Sidebar
           defaultCollapsed
@@ -91,10 +90,10 @@ export default function SideBar() {
               }}>
               <MenuItem
                 style={{ marginBottom: "15px" }}
-                
+
                 // icon={<img src={details} height={"150%"} alt='details'/>}
-                icon={<AiOutlineInfoCircle fontSize={"200%"}/>}
-                >
+                icon={<AiOutlineInfoCircle fontSize={"200%"} />}
+              >
                 Details
               </MenuItem>
             </HashLink>
@@ -111,7 +110,8 @@ export default function SideBar() {
               }}>
               <MenuItem
                 style={{ marginBottom: "15px" }}
-                icon={<img src={videoPlayer} height={"150%"} alt='videoPlayer'/>}>
+                // icon={<img src={videoPlayer} height={"150%"} alt='videoPlayer'/>}>
+                icon={<AiFillPlaySquare fontSize={"200%"} />}>
                 Demo
               </MenuItem>
             </HashLink>
@@ -128,7 +128,8 @@ export default function SideBar() {
               }}>
               <MenuItem
                 style={{ marginBottom: "15px" }}
-                icon={<img src={tryIt} height={"150%"} alt='tryIt'/>}>
+                // icon={<img src={tryIt} height={"150%"} alt='tryIt'/>}>
+                icon={<AiOutlineLaptop fontSize={"200%"} />}>
                 Try It!
               </MenuItem>
             </HashLink>
@@ -145,7 +146,7 @@ export default function SideBar() {
               <MenuItem
                 style={{ marginBottom: "15px" }}
                 // icon={<img src={contacts} height={"150%"}  alt='contacts'/>}
-                icon={<AiOutlineUser fontSize={"200%"}/> }
+                icon={<AiOutlineUser fontSize={"200%"} />}
               >
                 Contact
               </MenuItem>

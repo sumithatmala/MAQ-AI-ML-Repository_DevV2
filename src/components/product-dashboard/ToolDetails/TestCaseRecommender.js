@@ -15,7 +15,16 @@ const iconSize = {
   width: "3rem",
   color: "#dc848d",
 };
-
+const iconSizeBO = {
+  height: "13rem",
+  width: "20.4rem",
+  color: "#dc848d",
+  border: "solid #dc848d 3px",
+  // margin: "0px 10px",
+  padding: "30px 50px",
+  borderRadius: "10px",
+  // boxShadow: "0px 8px 16px 0px red"
+}
 export const TestCaseRecommender = {
   title: "Test Case Recommender",
   description:
@@ -51,40 +60,40 @@ export const TestCaseRecommender = {
   ],
   businessOutcomes: [
     {
-      outcome: "Improved Test Coverage",
-      caption:
-        "Automated test case generation helps ensure comprehensive coverage of various scenarios, reducing the risk of undiscovered issues in the software.",
-      icon: <FaFastForward style={iconSize} />,
+      title: "Improved Test Coverage",
+      description:
+        ["Automated test case generation helps ensure comprehensive coverage of various scenarios, reducing the risk of undiscovered issues in the software."],
+      image: <FaFastForward style={iconSizeBO} />,
     },
     {
-      outcome: "Standardization and Consistency",
-      caption:
-        "Automated test case generation ensures consistent test case formats and adherence to predefined quality standards, promoting uniformity across the development team.",
-      icon: <BsWrenchAdjustable  style={iconSize} />,
+      title: "Standardization and Consistency",
+      description:
+        ["Automated test case generation ensures consistent formats and adherence to quality standards, promoting uniformity across the development team."],
+      image: <BsWrenchAdjustable  style={iconSizeBO} />,
     },
     {
-      outcome: "Enhanced Quality",
-      caption:
-        "Consistent and accurate test case generation reduces the risk of human errors, improving the overall quality and reliability of the software.",
-      icon: <GrDocumentPerformance style={iconSize} />,
+      title: "Enhanced Quality",
+      description:
+        ["Consistent and accurate test case generation reduces the risk of human errors, improving the overall quality and reliability of the software."],
+      image: <GrDocumentPerformance style={iconSizeBO} />,
     },
     {
-      outcome: "Faster Time-to-Market",
-      caption:
-        "Streamlined test case creation and management processes accelerate software development cycles, enabling faster time-to-market for products and features.",
-      icon: <GiNetworkBars style={iconSize} />,
+      title: "Faster Time-to-Market",
+      description:
+        ["Streamlined test case creation and management processes accelerate software development cycles, enabling faster time-to-market for products and features."],
+      image: <GiNetworkBars style={iconSizeBO} />,
     },
     {
-      outcome: "Enhanced Collaboration and Visibility",
-      caption:
-        "Integration with Azure DevOps facilitates better collaboration among team members, centralized test case management, and real-time visibility into testing progress.",
-      icon: <MdVisibility style={iconSize} />,
+      title: "Enhanced Collaboration and Visibility",
+      description:
+        ["Integration with Azure DevOps enables better team collaboration, centralized test case management, and real-time testing progress visibility."],
+      image: <MdVisibility style={iconSizeBO} />,
     },
     {
-      outcome: "Cost Savings",
-      caption:
-        "Automation reduces the need for manual labor, resulting in cost savings associated with test case creation and maintenance.",
-      icon: <MdPriceChange style={iconSize} />,
+      title: "Cost Savings",
+      description:
+        ["Automation reduces the need for manual labor, resulting in cost savings associated with test case creation and maintenance."],
+      image: <MdPriceChange style={iconSizeBO} />,
     },
   ],
   solutionHighlights: [
