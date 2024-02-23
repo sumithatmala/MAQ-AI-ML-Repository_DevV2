@@ -14,24 +14,37 @@
     padding-right: 10%;
     padding-top: 30px;
 }
+.locations{
+    /* background-color: rgb(37 29 62) !important;
+    background-image: linear-gradient( 135deg, rgb(37 29 62) 0%, rgb(105 94 222) 100% ); */
+    background-color: #afafaf;
+    color: black;
+    justify-content: center;
+    display: flex;
+    padding: 35px 30px;
+}
+.location_width{
+    width: 1196px;
+}
 .location_item{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     width: 100% !important;
-    background-color: rgb(37 29 62) !important;
+
+    /* background-color: rgb(37 29 62) !important;
     background-image: linear-gradient( 135deg, rgb(37 29 62) 0%, rgb(105 94 222) 100% );
-    color: white;
+    color: white; */
 }
 .place_center{
    display: flex;
    justify-content: center;
    margin: 0;
    padding: 0;
-   width: 70%;
+   width: -webkit-fill-available;
 }
 .place{
     width: 25%;
-    padding: 10px;
+    padding: 20px;
 }
 .place h5{
     margin: 0px;
@@ -39,7 +52,69 @@
 }
 .subheading{
     font-weight: 600;
+    font-size: 22px;
 }
 .text_center{
     text-align: center;
 }
+
+
+
+
+
+.social_media{
+    background-color: #e9e9e9;
+}
+
+.social_flex{
+    display: flex;
+}
+.social_image{
+    width: 50%;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.social_image img{
+    width: 300px;
+}
+.social_content{
+    width: 50%;
+    /* margin: 20px; */
+    padding: 30px 10px;
+    padding-right: 10%;
+    display: flex;
+}
+.media_links{
+    width: 50%;
+}
+.social_medias{
+    display: flex;
+    /* flex-direction: column; */
+}
+.line{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 201px;
+}
+.social_name{
+    padding: 10px;
+    margin: 10px;
+}
+.email_web{
+    width: 50%;
+    /* margin-right: 20px; */
+    /* padding: 10px; */
+    border-left: 1px solid black;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.email_web_links{
+    display: flex;
+    flex-direction: column;
+}
+

@@ -7,6 +7,22 @@ import LanguageIcon from "@mui/icons-material/Language";
 import ContactForm from "../../solutions/common/contactForm";
 import pic from "./Images/contact-us-MAQ.png";
 import "./css/ContactUs.css";
+import media from "./Images/Clients-4.png";
+// import face from './Images/5296500_fb_social media_facebook_facebook logo_social network_icon.svg';
+// import linked from './Images/5296501_linkedin_network_linkedin logo_icon.svg';
+// import twit from './Images/11244080_x_twitter_elon musk_twitter new logo_icon.svg';
+// import mail from './Images/622401_mail_packet_email_envelope_letter_icon.svg';
+// import yout from './Images/5296521_play_video_vlog_youtube_youtube logo_icon.svg';
+import {
+  Email,
+  Facebook,
+  GitHub,
+  LinkedIn,
+  Twitter,
+  Web,
+  YouTube,
+} from "@mui/icons-material";
+import { FaGlobe } from "react-icons/fa6";
 
 const ContactUs = () => {
   return (
@@ -23,49 +39,118 @@ const ContactUs = () => {
           <ContactForm />
         </div>
       </section>
-      <section className="locations">
-        <div className="our_location">
-          <h3>Our Locations</h3>
-        </div>
-        <div className="location_item">
-          <div className="place_center">
-            <div className="place">
-              <span className="subheading">Redmond</span>
-              <br></br>2027 152nd Avenue NE
-              <br></br>Redmond, WA 98052
+
+      <section className="social_media">
+        <div className="social_flex">
+          <div className="social_image">
+            <img src={media} alt="Contact Us at MAQ Software" />
+          </div>
+          <div className="social_content">
+            <div className="media_links">
+              <h3>Get help on social media</h3>
+              <div className="social_medias">
+                <div className="line line1">
+                  <a
+                    className="social_name"
+                    href="https://www.linkedin.com/company/maq-software/"
+                  >
+                    <LinkedIn />
+                    Linkedin
+                  </a>
+                  <a
+                    className="social_name"
+                    href="https://www.facebook.com/maqsoftware"
+                  >
+                    <Facebook />
+                    Facebook
+                  </a>
+                  <a
+                    className="social_name"
+                    href="https://twitter.com/MAQSoftware"
+                  >
+                    <Twitter />
+                    Twitter
+                  </a>
+                </div>
+                <div className="line line2">
+                  <a
+                    className="social_name"
+                    href="https://github.com/maqsoftware"
+                  >
+                    <GitHub style={{ fill: "black" }} />
+                    Git Hub
+                  </a>
+                  <a
+                    className="social_name"
+                    href="https://www.youtube.com/user/maqsoftware"
+                  >
+                    <YouTube style={{ fill: "red" }} />
+                    You Tube
+                  </a>
+                </div>
+              </div>
             </div>
-            <div className="place">
-              <span className="subheading">Hyderabad</span>
-              <br></br> Level 7, Astro, aVance Business Hub
-              <br></br> Behind Dell Campus
-              <br></br> HITEC City 2, Madhapur
-              <br></br> Hyderabad 500 081
-              <br></br> +91 40 4010 0570
-            </div>
-            <div className="place">
-              <span className="subheading">Mumbai</span>
-              <br></br>201, Meadows Building
-              <br></br>Sahar Plaza on Andheri Kurla Road <br></br> Andheri East
-              <br></br>Mumbai 400 059
-              <br></br>+91 908 256 1327
-            </div>
-            <div className="place">
-              <span className="subheading">Noida</span>
-              <br></br>Express Trade Towers 2<br></br>B-36, Tower 3, Second
-              Floor
-              <br></br>Sector 132
-              <br></br>NOIDA 201 301
-              <br></br>+91 908 256 1327
+            <div className="email_web">
+              <h4>For more information email us or visit our website</h4>
+              <div className="email_web_links">
+                <div className="line">
+                  {/* <div className="line email"> */}
+                  <a className="social_name" href="mailto:info@maqsoftware.com">
+                    <Email style={{ fill: "black" }} /> email
+                  </a>
+                  {/* </div> */}
+                  {/* <div className="line web"> */}
+                  <a className="social_name" href="maqsoftware.com">
+                    <FaGlobe style={{ fill: "black" }} /> website
+                  </a>
+                  {/* </div> */}
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-	  <section className="email_web">
-		<div className="text_center">
-		For more information, contact us through <a href='info@maqsoftware.com'>email</a> or visit our <a href='https://maqsoftware.com/'>website</a>.
-		</div>
-	  </section>
+      <section className="locations">
+        <div className="location_width">
+          <div className="our_location">
+            <h3>Our Locations</h3>
+          </div>
+          <div className="location_item">
+            <div className="place_center">
+              <div className="place">
+                <span className="subheading">Redmond</span>
+                <br></br>2027 152nd Avenue NE
+                <br></br>Redmond, WA 98052
+              </div>
+              <div className="place">
+                <span className="subheading">Hyderabad</span>
+                <br></br> Level 7, Astro, aVance Business Hub
+                <br></br> Behind Dell Campus
+                <br></br> HITEC City 2, Madhapur
+                <br></br> Hyderabad 500 081
+                <br></br> +91 40 4010 0570
+              </div>
+              <div className="place">
+                <span className="subheading">Mumbai</span>
+                <br></br>201, Meadows Building
+                <br></br>Sahar Plaza on Andheri Kurla Road <br></br> Andheri
+                East
+                <br></br>Mumbai 400 059
+                <br></br>+91 908 256 1327
+              </div>
+              <div className="place">
+                <span className="subheading">Noida</span>
+                <br></br>Express Trade Towers 2<br></br>B-36, Tower 3, Second
+                Floor
+                <br></br>Sector 132
+                <br></br>NOIDA 201 301
+                <br></br>+91 908 256 1327
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <div>
         {/* <Container fluid>
