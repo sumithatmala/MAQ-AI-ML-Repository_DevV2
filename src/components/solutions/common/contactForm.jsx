@@ -1,9 +1,16 @@
 import { Link } from "react-router-dom";
 import "./css/ContactForm.css";
-import Swal from "sweetalert2"
+import Swal from "sweetalert2";
+import { useState } from "react";
 
 const ContactForm = ({ contactMsg }) => {
-    function checkInpts() {
+    const [name, setName] = useState("");
+    const [compName, setCompName] = useState("");
+    const [email, setEmail] = useState("");
+    const [msg, setMsg] = useState("");
+    const [phone, setPhone] = useState("");
+
+    const checkInpts = () => {
         const items = document.querySelectorAll(".item");
 
         for (const item of items) {
@@ -20,53 +27,60 @@ const ContactForm = ({ contactMsg }) => {
                     item.classList.add("error");
                     item.parentElement.classList.add("error");
                 }
-            })
+            });
         }
+    };
 
-    }
+    const clearFields = () => {
+        setName("");
+        setCompName("");
+        setEmail("");
+        setMsg("");
+        setPhone("");
+    };
 
-    async function handleSubmit(e) {
-        const name = document.getElementById("name").value;
-        const CompName = document.getElementById("compName").value;
-        const email = document.getElementById("email").value;
-        const msg = document.getElementById("message").value;
-        const phone = document.getElementById("phone").value
-        
-        // alert("form submitted!");
-        checkInpts();
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        
-        try{
-            const res = await fetch('http://localhost:3001/sendEmail', {
-                method: 'POST',
+
+        checkInpts();
+
+        try {
+            const res = await fetch("http://localhost:3001/sendEmail", {
+                method: "POST",
                 headers: {
-                    'Content-Type': 'application/json'
+                    "Content-Type": "application/json",
                 },
                 body: JSON.stringify({
                     name: name,
-                    compName: CompName,
+                    compName: compName,
                     email: email,
                     phone: phone,
-                    msg: msg
-                })
-            })
+                    msg: msg,
+                }),
+            });
             const data = await res.json();
-            if (!res.ok) {
-                window.location.reload(true);
-                throw new Error('Failed to send email');
+            if (!data) {
+                // console.log(data);
+                clearFields();
+                throw new Error("Failed to send email");
             } else {
-                console.log(data);
+                // console.log(data);
                 await Swal.fire({
                     title: "Mail Sent!",
-                    text: "We have recieved your concern!",
-                    icon: "success"
+                    text: "We have received your concern!",
+                    icon: "success",
                 });
-                window.location.reload(true);
+                clearFields();
             }
-        } catch(error) {
-                console.error('Error sending email:', error);
-            };
+        } catch (error) {
+            await Swal.fire({
+                title: "Please try again!",
+                text: "It seems our server is busy!",
+                icon: "error",
+            });
+            console.error("Error sending email:", error);
         }
+    };
 
     return (
         <section id="contact" className="FormBox">
@@ -78,37 +92,83 @@ const ContactForm = ({ contactMsg }) => {
                 <form action="#" onSubmit={handleSubmit}>
                     <div className="input-box">
                         <div className="input-field field">
-                            <input type="text" placeholder="Name*" id="name" className="item" autoComplete="off"></input>
-                            <div className="error-txt"> Full Name can't be blank </div>
+                            <input
+                                type="text"
+                                placeholder="Name*"
+                                id="name"
+                                className="item"
+                                autoComplete="off"
+                                value={name}
+                                onChange={(e) => setName(e.target.value)}
+                            />
+                            <div className="error-txt">Full Name can't be blank</div>
                         </div>
                         <div className="input-field field">
-                            <input type="text" placeholder="Company Name*" id="compName" className="item" autoComplete="off"></input>
-                            <div className="error-txt"> Company Name can't be blank </div>
+                            <input
+                                type="text"
+                                placeholder="Company Name*"
+                                id="compName"
+                                className="item"
+                                autoComplete="off"
+                                value={compName}
+                                onChange={(e) => setCompName(e.target.value)}
+                            />
+                            <div className="error-txt">Company Name can't be blank</div>
                         </div>
                     </div>
                     <div className="input-box">
                         <div className="input-field field">
-                            <input type="text" placeholder="Email Address*" id="email" className="item" autoComplete="off"></input>
-                            <div className="error-txt"> Email Adress can't be blank </div>
+                            <input
+                                type="text"
+                                placeholder="Email Address*"
+                                id="email"
+                                className="item"
+                                autoComplete="off"
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                            />
+                            <div className="error-txt">Email Address can't be blank</div>
                         </div>
 
                         <div className="input-field field">
-                            <input type="text" placeholder="Phone" id="phone" className="item" autoComplete="off"></input>
-                            <div className="error-txt"> Error message </div>
+                            <input
+                                type="text"
+                                placeholder="Phone"
+                                id="phone"
+                                className="item"
+                                autoComplete="off"
+                                value={phone}
+                                onChange={(e) => setPhone(e.target.value)}
+                            />
+                            <div className="error-txt">Error message</div>
                         </div>
                     </div>
                     <div className="textarea-field field">
-                        <textarea name="" id="message" cols={30} rows={7} placeholder="Your Message" className="item" autoComplete="off"></textarea>
-                        <div className="error-txt"> Error message </div>
+                        <textarea
+                            name=""
+                            id="message"
+                            cols={30}
+                            rows={7}
+                            placeholder="Your Message"
+                            className="item"
+                            autoComplete="off"
+                            value={msg}
+                            onChange={(e) => setMsg(e.target.value)}
+                        />
+                        <div className="error-txt">Error message</div>
                     </div>
-                    <button type="submit"> Send Message </button>
+                    <button type="submit">Send Message</button>
                     <div className="disclaimer">
-                        <p>By clicking Send Message, you agree to our <Link to={''}>Terms of Use</Link> and <Link to={''}>Privacy Policy</Link>.</p>
+                        <p>
+                            By clicking Send Message, you agree to our{" "}
+                            <Link to={""}>Terms of Use</Link> and{" "}
+                            <Link to={""}>Privacy Policy</Link>.
+                        </p>
                     </div>
                 </form>
             </div>
         </section>
-    )
-}
+    );
+};
 
 export default ContactForm;
