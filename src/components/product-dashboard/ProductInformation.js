@@ -29,34 +29,34 @@ const ProductInformation = () => {
   const [productDetails, setproductDetails] = useState(null);
   const { productName } = useParams();
 
-  const settings = {
-    className: "center",
-    infinite: true,
-    centerMode: true,
-    autoplaySpeed: 5000,
-    // autoplay: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    dots: false,
-    responsive: [
-      {
-        breakpoint: 1450,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          centerMode: false,
-        },
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          centerMode: false,
-        },
-      },
-    ],
-  };
+  // const settings = {
+  //   className: "center",
+  //   infinite: true,
+  //   centerMode: true,
+  //   autoplaySpeed: 5000,
+  //   // autoplay: true,
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1,
+  //   dots: false,
+  //   responsive: [
+  //     {
+  //       breakpoint: 1450,
+  //       settings: {
+  //         slidesToShow: 2,
+  //         slidesToScroll: 1,
+  //         centerMode: false,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 1024,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1,
+  //         centerMode: false,
+  //       },
+  //     },
+  //   ],
+  // };
 
   useEffect(() => {
     console.log(productName);
@@ -133,7 +133,8 @@ const ProductInformation = () => {
             )}
 
           {/*business outcomes */}
-          <CustomerSuccess items={productDetails.businessOutcomes} CardHeight={"230px"} style={{marginBottom: "0px", paddingBottom:"5rem"}}/>
+          <h3 class="head-block-center">Business Outcomes</h3>
+          <CustomerSuccess items={productDetails.businessOutcomes} CardHeight={"230px"} autoPlay={true} centerUp={true} style={{marginBottom: "0px", paddingBottom:"5rem"}}/>
           {/* {productDetails.businessOutcomes &&
             productDetails.businessOutcomes.length > 0 && (
               <section
@@ -144,7 +145,6 @@ const ProductInformation = () => {
                   className="slick-list3 draggable fade-in product-overview d-flex justify-content-center"
                   style={{ backgroundColor: "white" }}
                 >
-                  <h3 class="head-block-center">Business Outcomes</h3>
                   <Slider
                     {...settings}
                     style={{ backgroundColor: "", padding: "0 20px" }}
