@@ -118,34 +118,38 @@ const ContactUs = () => {
           </div>
           <div className="location_item">
             <div className="place_center">
-              <div className="place">
-                <span className="subheading">Redmond</span>
-                <br></br>2027 152nd Avenue NE
-                <br></br>Redmond, WA 98052
+              <div className="box1">
+                <div className="place">
+                  <span className="subheading">Redmond</span>
+                  <br></br>2027 152nd Avenue NE
+                  <br></br>Redmond, WA 98052
+                </div>
+                <div className="place">
+                  <span className="subheading">Hyderabad</span>
+                  <br></br> Level 7, Astro, aVance Business Hub
+                  <br></br> Behind Dell Campus
+                  <br></br> HITEC City 2, Madhapur
+                  <br></br> Hyderabad 500 081
+                  <br></br> +91 40 4010 0570
+                </div>
               </div>
-              <div className="place">
-                <span className="subheading">Hyderabad</span>
-                <br></br> Level 7, Astro, aVance Business Hub
-                <br></br> Behind Dell Campus
-                <br></br> HITEC City 2, Madhapur
-                <br></br> Hyderabad 500 081
-                <br></br> +91 40 4010 0570
-              </div>
-              <div className="place">
-                <span className="subheading">Mumbai</span>
-                <br></br>201, Meadows Building
-                <br></br>Sahar Plaza on Andheri Kurla Road <br></br> Andheri
-                East
-                <br></br>Mumbai 400 059
-                <br></br>+91 908 256 1327
-              </div>
-              <div className="place">
-                <span className="subheading">Noida</span>
-                <br></br>Express Trade Towers 2<br></br>B-36, Tower 3, Second
-                Floor
-                <br></br>Sector 132
-                <br></br>NOIDA 201 301
-                <br></br>+91 908 256 1327
+              <div className="box2">
+                <div className="place">
+                  <span className="subheading">Mumbai</span>
+                  <br></br>201, Meadows Building
+                  <br></br>Sahar Plaza on Andheri Kurla Road <br></br> Andheri
+                  East
+                  <br></br>Mumbai 400 059
+                  <br></br>+91 908 256 1327
+                </div>
+                <div className="place">
+                  <span className="subheading">Noida</span>
+                  <br></br>Express Trade Towers 2<br></br>B-36, Tower 3, Second
+                  Floor
+                  <br></br>Sector 132
+                  <br></br>NOIDA 201 301
+                  <br></br>+91 908 256 1327
+                </div>
               </div>
             </div>
           </div>
