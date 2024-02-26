@@ -10,7 +10,7 @@ const Banner = (props) => {
     >
       <div className="banner-inner">
         <h1 className="banner-title">
-          <span className="text-alert">{props.BannerData.title}</span>
+          {props.BannerData.title}
         </h1>
         <div className="banner-subtitle">{props.BannerData.subtitle}</div>
       </div>

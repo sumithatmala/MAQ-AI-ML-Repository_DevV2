@@ -43,7 +43,7 @@ export const FeedbackSummarizerBot = {
       },
       {
         title: "Data Analysts",
-        description: "Need to gather insights, track progress and look for improvements",
+        description: "The client seeks insights, progress tracking, and improvements for their custom pose estimation models in physical therapy and fitness.",
         iconSrc: <PsychologyIcon style={iconSize}/>,
       },
       {

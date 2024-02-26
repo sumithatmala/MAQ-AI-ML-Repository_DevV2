@@ -79,6 +79,7 @@ const ContactForm = ({ contactMsg }) => {
                 icon: "error",
             });
             console.error("Error sending email:", error);
+            clearFields();
         }
     };
 

@@ -32,8 +32,6 @@ import showcaseBannerData2 from "./Data/showcaseBannerData2.js";
 
 
 const HomePage = () => {
-
-
   return (
     <>
       <div className='mainbody'>
