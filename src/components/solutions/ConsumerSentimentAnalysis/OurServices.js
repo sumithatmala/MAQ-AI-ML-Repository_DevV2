@@ -1,9 +1,12 @@
 import React from "react";
-import real from "./Images/RealTime.jpg";
+// import real from "./Images/RealTime.jpg";
 import intent from "./Images/Intent.gif";
-import info from "./Images/InfoExtraction.svg";
-import nlp from "./Images/NLp.svg";
+// import info from "./Images/InfoExtraction.svg";
+// import nlp from "./Images/NLp.svg";
 
+import sentiment from "./Images/sentiment.jpg"
+import textMining from "./Images/textmining.jpg"
+import fullcycle from "./Images/fullcycle.jpg"
 const OurServices = [
   {
     heading: "Real-Time Sentiment Monitoring",
@@ -15,7 +18,7 @@ const OurServices = [
       "Smart customer service solutions",
       "ChatGPT conversational solutions",
     ],
-    img: <img src={real} alt="" width={350}/>,
+    img: <img src={sentiment} alt="" width={400} height={250}/>,
   },
   {
     heading: "Intent Classification",
@@ -26,7 +29,7 @@ const OurServices = [
       "Sales and marketing campaign analysis",
       "Conversational AI applications",
     ],
-    img: <img src={intent} alt="" width={350}/>,
+    img: <img src={intent} alt="" width={400} height={250}/>,
   },
   {
     heading: "Text Mining and Information Extraction",
@@ -37,7 +40,7 @@ const OurServices = [
       "Document analysis (CMS, RPA, ERP, and others)",
       "Text analytics for call centers",
     ],
-    img: <img src={info} alt="" width={350}/>,
+    img: <img src={textMining} alt="" width={400} height={250}/>,
   },
   {
     heading: "Full-Cycle NLP Software Development",
@@ -48,7 +51,7 @@ const OurServices = [
       "Text categorization",
       "User feedback analysis",
     ],
-    img: <img src={nlp} alt="" width={350}/>,
+    img: <img src={fullcycle} alt="" width={400} height={250}/>,
   },
 ];
 
