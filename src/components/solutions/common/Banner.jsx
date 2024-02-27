@@ -18,7 +18,7 @@ const Banner = (props) => {
         <div
           id="anim-65b615d84fa7e"
           className="wpbdmv-animation align-center renderer-svg playing"
-          style={{ maxWidth: "100%", marginRight: "auto", marginLeft: "auto" }}
+          style={{ maxWidth: "100%", margin: "0 auto" }}
         >
           {props.BannerData.svgCode}
         </div>
