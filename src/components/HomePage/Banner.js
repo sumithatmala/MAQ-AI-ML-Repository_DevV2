@@ -9,8 +9,8 @@ export default function Banner() {
   return (
     <>
     <section id="hero" className="hero">
-      <img src={hero} style = {{marginTop: "2%"}} alt="" className="box fade-into-view hero-img"/>
-      <div className="container">
+      <img src={hero} style = {{marginTop: "0%"}} alt="" className="box fade-into-view hero-img"/>
+      <div className="container" style={{marginTop:"10%"}}>
         <div className="col mx-5">
           <div className="col-lg-5">
             <h2 className="box fade-up1" style={{fontFamily:"segoe UI"}}>

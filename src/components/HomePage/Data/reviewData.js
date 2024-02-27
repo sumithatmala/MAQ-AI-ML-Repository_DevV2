@@ -4,14 +4,14 @@ import marketing from '../img/marketing.png'
 import nlp from '../img/nlp.png'
 const reviewData = [
     {
-      iconSrc:  <img src={chat} alt="Raw image" width={140}/>,
+      iconSrc:  <img src={chat} alt="chat" width={140}/>,
       altText: "AI-Powered Website Assistants for Enhanced User Experience",
       title: "AI-Powered Website Assistants for Enhanced User Experience",
       description: 
       "Enhanced customer service response time by threefold, leading to heightened customer satisfaction levels."
     },
     {
-      iconSrc: <img src={program} alt="Raw image" width={140}/>,
+      iconSrc: <img src={program} alt="program" width={140}/>,
       altText: "Streamlined Data Extraction Techniques for Data Organization",
       title: "Streamlined Data Extraction Techniques for Data Organization",
       description: "Extracting insights from diverse data sources with data scraping."

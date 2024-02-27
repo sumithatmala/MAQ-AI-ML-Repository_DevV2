@@ -173,6 +173,7 @@
   .stats .container {
       position: relative;
       z-index: 3;
+      width: auto;
     }
     
     .call-to-action .container {

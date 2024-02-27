@@ -12,11 +12,13 @@ const ContactForm = ({ contactMsg }) => {
 
     const checkInpts = () => {
         const items = document.querySelectorAll(".item");
+        let flag = true;
 
         for (const item of items) {
             if (item.value === "") {
                 item.classList.add("error");
                 item.parentElement.classList.add("error");
+                flag=false;
             }
 
             item.addEventListener("keyup", () => {
@@ -29,6 +31,8 @@ const ContactForm = ({ contactMsg }) => {
                 }
             });
         }
+
+        return flag;
     };
 
     const clearFields = () => {
@@ -42,44 +46,44 @@ const ContactForm = ({ contactMsg }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        checkInpts();
-
-        try {
-            const res = await fetch("http://localhost:3001/sendEmail", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify({
-                    name: name,
-                    compName: compName,
-                    email: email,
-                    phone: phone,
-                    msg: msg,
-                }),
-            });
-            const data = await res.json();
-            if (!data) {
-                // console.log(data);
-                clearFields();
-                throw new Error("Failed to send email");
-            } else {
-                // console.log(data);
-                await Swal.fire({
-                    title: "Mail Sent!",
-                    text: "We have received your concern!",
-                    icon: "success",
+        if(checkInpts()) {
+            try {
+                const res = await fetch("http://localhost:3001/sendEmail", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({
+                        name: name,
+                        compName: compName,
+                        email: email,
+                        phone: phone,
+                        msg: msg,
+                    }),
                 });
+                const data = await res.json();
+                if (!data) {
+                    // console.log(data);
+                    clearFields();
+                    throw new Error("Failed to send email");
+                } else {
+                    // console.log(data);
+                    await Swal.fire({
+                        title: "Mail Sent!",
+                        text: "We have received your concern!",
+                        icon: "success",
+                    });
+                    clearFields();
+                }
+            } catch (error) {
+                await Swal.fire({
+                    title: "Please try again!",
+                    text: "It seems our server is busy!",
+                    icon: "error",
+                });
+                console.error("Error sending email:", error);
                 clearFields();
             }
-        } catch (error) {
-            await Swal.fire({
-                title: "Please try again!",
-                text: "It seems our server is busy!",
-                icon: "error",
-            });
-            console.error("Error sending email:", error);
-            clearFields();
         }
     };
 

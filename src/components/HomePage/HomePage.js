@@ -14,7 +14,7 @@ import ShowcaseBanner from "../miscellaneous/Expertise/showcaseBanner";
 import CertificateGrid from './Certificate.js';
 
 //component-data----
-import blogData from './Data/blogData.js';
+// import blogData from './Data/blogData.js';
 import reviewData from "./Data/reviewData";
 import bannerData from './Data/BannerData';
 import ContributionData from './Data/ContributionData.js';
@@ -59,7 +59,7 @@ const HomePage = () => {
           <Grid content={ContributionData} />
           {/* </section> */}
 
-          {/* <CustomerSuccess heading={"Recommended Blogs"} items={blogData} CardHeight="30rem"/> */}
+          {/* <CustomerSuccess heading={"Recommended Blogs"} items={blogData} CardHeight="250px"/> */}
           {/* <Customer items={{ item: reviewData, NoCards:4, title: "Customer Reviews" }} /> */}
         </div>
         {/* <CustomerSuccess heading={"Recommended Blogs"} items={blogData} CardHeight="30rem"/> */}
