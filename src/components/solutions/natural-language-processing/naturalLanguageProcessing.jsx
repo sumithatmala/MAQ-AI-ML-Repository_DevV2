@@ -1,6 +1,5 @@
 import "./css/NaturalLanguageProcessing.css"
 import { Link } from "react-router-dom";
-import { Suspense, lazy } from "react";
 
 //component
 import AlternateBanner from "../common/alternateBanner";
@@ -8,6 +7,7 @@ import Technologies from "../common/technologies"
 import ContactForm from "../common/contactForm";
 import FAQs from '../../product-dashboard/FAQs';
 import RoadMap from "../common/RoadMap"
+import CustomerSuccess from "../common/CustomerSuccess";
 
 //Data
 import customerSuccessData from "./JSONData/customerSuccessData";
@@ -19,7 +19,6 @@ import blogData from "./JSONData/blogData";
 import roadMapData from "./JSONData/roadMapData";
 import { HashLink } from "react-router-hash-link";
 
-const CustomerSuccess = lazy(() => import("../common/CustomerSuccess"));
 
 const NaturalLanguageProcessing = () => {
     return (
@@ -60,9 +59,7 @@ const NaturalLanguageProcessing = () => {
             </div>
             <CustomerSuccess items ={customerSuccessData} heading="Customer Success" CardHeight="430px"/>
             <FAQs FAQs = {FAQsData}/>
-            <Suspense fallback={<div>Loading...</div>}>
-                <CustomerSuccess items={blogData} heading="More Insights" CardHeight="230px"/>
-            </Suspense>
+            <CustomerSuccess items={blogData} heading="More Insights" CardHeight="230px"/>
             <ContactForm/>
         </section>
     )

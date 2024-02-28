@@ -1,5 +1,5 @@
 import "./css/RecommendationSystems.css";
-import Benefits from "./Benefits";
+// import Benefits from "./Benefits";
 import BiSlider from "./BiSlider";
 import DevlopSolutions from "./DevlopSolutions";
 import ContactForm from "../common/contactForm";

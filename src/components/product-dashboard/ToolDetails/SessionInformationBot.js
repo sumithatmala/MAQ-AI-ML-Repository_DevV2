@@ -13,12 +13,12 @@ import SchoolIcon from "@mui/icons-material/School";
 // import AnimatedOutcome from "../icons/AnimatedOutcome";
 // import AnimatedSolution from "../icons/AnimatedSolution";
 
-import AnimatedDevelopment from "../icons/AnimatedDevelopment";
-import AnimatedOutcome from "../icons/AnimatedOutcome";
-import AnimatedSolution from "../icons/AnimatedSolution";
+// import AnimatedDevelopment from "../icons/AnimatedDevelopment";
+// import AnimatedOutcome from "../icons/AnimatedOutcome";
+// import AnimatedSolution from "../icons/AnimatedSolution";
+// import AnimatedHighlights from "../icons/AnimatedHighlights";
 
 import demoVideo from "./demos/SessionInformationBot.mp4";
-import AnimatedHighlights from "../icons/AnimatedHighlights";
 
 const iconSize = {
   height: "5rem",
@@ -205,7 +205,7 @@ export const SessionInformationBot = {
     {
       question: "Is there a demo available for Session Information Bot?",
       answer:
-        "Yes, you can watch the demo video by following this link: [Demo Video](demoVideo).",
+        "Yes, you can watch the demo video or request us for a demo.",
     },
   ],
 };

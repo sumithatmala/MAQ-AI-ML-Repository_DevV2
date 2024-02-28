@@ -31,7 +31,7 @@ const Expertise = () => {
             <div className="container mid-section" style={{maxWidth: "1140px"}}>
                 <ShowcaseBanner item1={showcaseBannerIndustriesData} item2={showcaseBannerSolutionsData}/>
             </div>
-            <CustomerSuccess heading={"Our blogs"} items={blogData} CardHeight="240px"/>
+            <CustomerSuccess heading={"Our blogs"} items={blogData} CardHeight="260px"/>
             <ContactForm contactMsg = {"Let's Talk About Your Project."}/>
         </>
     )
