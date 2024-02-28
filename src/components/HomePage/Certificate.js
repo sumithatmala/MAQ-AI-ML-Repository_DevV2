@@ -20,7 +20,7 @@ const imageUrls = [
 
 const CertificateGrid = () => {
   return (
-    <>
+    <div className="">
         <div className='certificate-section'>
             <div className='certificate-head'>
                 <h2>Certificates</h2>
@@ -28,13 +28,13 @@ const CertificateGrid = () => {
             <div className='certificate-images'>
                 <div className="image-grid">
                 {imageUrls.map((imageUrl, index) => (
-                    <img key={index} src={imageUrl} alt={`Image ${index}`} />
+                    <img key={index} src={imageUrl} alt={`Certificate ${index}`} />
                 ))}
                 </div>
             </div>
             
         </div>
-    </>
+    </div>
   );
 };
 

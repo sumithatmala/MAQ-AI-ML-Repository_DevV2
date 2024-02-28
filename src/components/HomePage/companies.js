@@ -16,21 +16,19 @@ const imageUrls = [
 
 const TrustedCompanies = () => {
   return (
-    <>
+    <div className="BackBannerContainer bg-voilet-linear-gradient2 text-white w-100 p-4">
         <div className='companies-section'>
             <div className='companies-head'>
                 <h2>Trusted Companies</h2>
             </div>
             <div className='companies-images'>
-                <div className="companies-image-grid">
                 {imageUrls.map((imageUrl, index) => (
-                    <img key={index} src={imageUrl} alt={`Image ${index}`} />
+                    <img key={index} src={imageUrl} alt={`Certificate ${index}`} />
                 ))}
-                </div>
             </div>
             
         </div>
-    </>
+    </div>
   );
 };
 
