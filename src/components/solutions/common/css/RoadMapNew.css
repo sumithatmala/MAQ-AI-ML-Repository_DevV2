@@ -1,0 +1,93 @@
+.RoadMapSection {
+    margin: 0 0 3rem 0;
+    max-width: 1312px;
+    margin: 0 auto;
+    text-align: center;
+    h2{
+        margin-bottom: 5rem;
+    }
+}
+
+.RoadMapList {
+    display: flex;
+    min-width: 0;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-top: 3px;
+    padding-right: 200px;
+    padding-left: 200px;
+    list-style-type: none;
+}
+.RoadMapList::before {
+    position: absolute;
+    z-index: -1;
+    top: 211%;
+    left: 50%;
+    /* display: none; */
+    width: 1212px;
+    height: 766px;
+    margin-left: -606px;
+    background-image: url(../img/data-capture-orange-path.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+
+.RoadMapElement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 272px;
+    margin-bottom: 137px;
+    flex: 1 1 33.3333333333%;
+    padding: 0 50px;
+    text-align: center;
+    h5{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+
+.RoadMapImg {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    max-width: 100px;
+    min-height: 100px;
+    border-radius: 50%;
+    margin: 20px auto;
+    margin-bottom: 25px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+}
+.RoadMapImg::before {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    width: 240px;
+    height: 240px;
+    border: 1px solid #f5f5f5;
+    margin-top: -120px;
+    margin-left: -120px;
+    border-radius: 50%;
+    content: "";
+}
+
+.RoadMapBg::before {
+    position: absolute;
+    z-index: -1;
+    top: 47%;
+    left: 63%;
+    width: 160px;
+    height: 160px;
+    /* border: 1px solid #f5f5f5; */
+    background-color: #f5f5f5;
+    margin-top: -120px;
+    margin-left: -120px;
+    border-radius: 50%;
+    content: "";
+}
