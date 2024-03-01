@@ -80,6 +80,9 @@
 }
 
 @media (min-width: 640px) {
+    .banner-title {
+        font-size: larger;
+    }
     .banner-subtitle {
         animation: h 1s .2s forwards;
     }
@@ -93,7 +96,7 @@
     font-weight: 400;
     text-align: center;
 }
-
+/* 
 @media (min-width: 742px) {
     .banner1 #banner-animation {
         bottom: 0;
@@ -104,14 +107,18 @@
 
 @media (min-width: 742px) {
     .banner1 #banner-animation {
-        position: absolute;
         right: 0;
         left: 0;
         max-width: 870px;
         margin: auto;
     }
-}
+} */
 
 #banner-animation {
     animation: h 1.5s 3s forwards;
+    position: absolute;
+    max-width: 870px;
+    right: 0;
+    left: 38%;
+    bottom: 0;
 }

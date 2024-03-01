@@ -5,6 +5,7 @@
 }
 
 .ShowcaseBannerNavigate {
+    position: relative;
     animation: arrowMove 2s infinite;
 }
 
@@ -13,11 +14,12 @@
         left: 0;
     }
     50% {
-        left: 9px;
+        left: 7px;
     }
 }
 
 .ShowcaseBannerNavigate:hover{
+    position: relative;
     animation: none;
     transform: scale(1.1);
 }
@@ -35,6 +37,12 @@
 
 .ShowcaseBannerheader {
     margin: 15px 10px 30px;
+    h3{
+        transition: 0.3s;
+    }
+    h3:hover{
+        color: #b8001c;
+    }
 }
 
 .ShowcaseBannerheader h3 {
@@ -44,16 +52,15 @@
 }
 
 .ShowcaseBannerheader svg {
-    margin: 2px;
-    margin-left: 6px;
     color: #b8001c;
     /* color: white; */
-    transition: 0.3s;
+    transition: 0.4s;
     font-size: 25px;
+    margin-top: 3px;
 }
 
 .ShowcaseBannerheader svg:hover {
-    margin-left: 12px;
+    margin-left: 27px;
     color: #b8001cab;
     /* color: white; */
     /* background-color: #b8001c; */
@@ -122,7 +129,7 @@
 }
 
 .ShowcaseBannerNavigate {
-    margin-left: 2%;
+    margin-left: 20px   ;
 }
 
 @keyframes opacityTrans {

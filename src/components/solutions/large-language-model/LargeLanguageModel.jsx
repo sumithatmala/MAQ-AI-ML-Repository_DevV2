@@ -1,10 +1,9 @@
-import React, { useEffect } from "react";
 import Banner from "../common/Banner";
 import Benfits from "./Benefits";
 import UseCases from "./UseCases";
 import Industries from "./Industries";
 import "./css/LargeLanguageModel.css";
-import Expertise from "./Expertise";
+// import Expertise from "./Expertise";
 import Benfits2 from "./Benefits2";
 import Integration from "./Integration";
 import OurTechStack from "./OurTechStack";
@@ -16,6 +15,8 @@ import FAQsData from "./JSONData/FAQsData";
 import BannerData from "./JSONData/BannerData";
 import ContactForm from "../common/contactForm";
 import GridOfCards from "../common/GridOfCards";
+import AlternateBanner from "../common/alternateBanner";
+import AlternateBannerData from "./JSONData/AlternateBannerData"
 
 const LargeLanguageModel = () => {
   return (
@@ -43,7 +44,10 @@ const LargeLanguageModel = () => {
             specific requirements.
           </div>
         </div>
-        <Expertise />
+        <div style={{margin:"0 auto",maxWidth:"1470px"}}>
+          <AlternateBanner banners={AlternateBannerData}/>
+        </div>
+        {/* <Expertise /> */}
         {/* <ArticleBanner /> */}
         <Benfits2 />
         <Integration />

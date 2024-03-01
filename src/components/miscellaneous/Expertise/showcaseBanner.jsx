@@ -14,17 +14,15 @@ const ShowcaseBanner = (props) => {
         <section className="ShowcaseBannerCnt">
             <div className="ShowcaseBannerTitle">
                 <div className="ShowcaseBannerheader">
-                    <h3>
-                        {data.heading} 
-                        <button
-                            onClick={() => {
-                                toggle ? (setData(props.item2)) : (setData(props.item1));
-                                setToggle(!toggle);
-                            }}
-                            className="ShowcaseBannerNavigate" >
-                            <TfiArrowCircleRight/>
-                        </button>
-                    </h3>
+                    <button onClick={() => {
+                        toggle ? (setData(props.item2)) : (setData(props.item1));
+                        setToggle(!toggle);
+                    }}>
+                        <h3>
+                            {data.heading}
+                            <TfiArrowCircleRight className="ShowcaseBannerNavigate" />
+                        </h3>
+                    </button>
                     <p>{data.desc}</p>
                 </div>
                 <div className="ShowcaseBannerGrid">
@@ -40,7 +38,7 @@ const ShowcaseBanner = (props) => {
                     })}
                 </div>
             </div>
-                {/* <div className="ShowcaseBannerBg">
+            {/* <div className="ShowcaseBannerBg">
                     <img src=""></img>
                 </div> */}
         </section>

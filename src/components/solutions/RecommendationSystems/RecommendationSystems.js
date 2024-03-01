@@ -1,12 +1,13 @@
-import ContactForm from "../common/contactForm";
-import Benefits from "./Benefits";
+import "./css/RecommendationSystems.css";
+// import Benefits from "./Benefits";
 import BiSlider from "./BiSlider";
 import DevlopSolutions from "./DevlopSolutions";
-import "./css/RecommendationSystems.css";
+import ContactForm from "../common/contactForm";
 import CustomerSuccess from "../common/CustomerSuccess";
 import Alternate from '../common/alternateBanner';
+import GridOfCards from "../common/GridOfCards";
 import bannerData from './BannerData';
-
+import BenefitsData from './BenefitsData';
 
 const RecommendationSystems = () => {
   return (
@@ -44,11 +45,11 @@ const RecommendationSystems = () => {
           </h2>
           <div class="info-section__description">
             <p>
-              Customer engagement poses increasing challenges for both online
-              and brick-and-mortar businesses. Empowered by their social
-              networks and devices, consumers in the digital era are
-              progressively shaping the shopping process and specifying WHAT
-              they desire and WHERE and WHEN they want it.
+              <b>Customer engagement poses increasing challenges for both online
+                and brick-and-mortar businesses. Empowered by their social
+                networks and devices, consumers in the digital era are
+                progressively shaping the shopping process and specifying WHAT
+                they desire and WHERE and WHEN they want it.</b>
             </p>
           </div>
         </div>
@@ -58,10 +59,16 @@ const RecommendationSystems = () => {
         <Alternate banners={DevlopSolutions} ContactBtn={false} />
       </div>
 
-      <Benefits />
+      {/* <Benefits /> */}
+      <GridOfCards
+        items={{
+          item: BenefitsData,
+          NoCards: 3,
+          title: "Benefits of Bespoke Recommendation Systems",
+        }}
+      />
 
-
-      <CustomerSuccess items={BiSlider} slidesToShow = {2}  heading="Customer Success" CardHeight="510px"/>
+      <CustomerSuccess items={BiSlider} slidesToShow={2} heading="Customer Success" CardHeight="510px" />
 
       <ContactForm />
     </>

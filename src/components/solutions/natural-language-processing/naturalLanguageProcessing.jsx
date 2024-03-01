@@ -6,8 +6,8 @@ import AlternateBanner from "../common/alternateBanner";
 import Technologies from "../common/technologies"
 import ContactForm from "../common/contactForm";
 import FAQs from '../../product-dashboard/FAQs';
-import CustomerSuccess from "../common/CustomerSuccess";
 import RoadMap from "../common/RoadMap"
+import CustomerSuccess from "../common/CustomerSuccess";
 
 //Data
 import customerSuccessData from "./JSONData/customerSuccessData";
@@ -19,9 +19,10 @@ import blogData from "./JSONData/blogData";
 import roadMapData from "./JSONData/roadMapData";
 import { HashLink } from "react-router-hash-link";
 
+
 const NaturalLanguageProcessing = () => {
     return (
-        <>
+        <section>
             <div className="HeaderVisual-nlp">
                     <h1>NLP Services and Custom Solutions</h1>
                     <p>Enable Your Business to Better Understand Human Language with NLP Services</p>
@@ -48,7 +49,7 @@ const NaturalLanguageProcessing = () => {
                             return(
                                 <div className="IndustryInditem">
                                     {item.icon}
-                                    <h5>{item.name}</h5>
+                                    <Link to={item.link}><h5>{item.name}</h5></Link>
                                 </div>
                             )
                         })}
@@ -60,7 +61,7 @@ const NaturalLanguageProcessing = () => {
             <FAQs FAQs = {FAQsData}/>
             <CustomerSuccess items={blogData} heading="More Insights" CardHeight="230px"/>
             <ContactForm/>
-        </>
+        </section>
     )
 }
 

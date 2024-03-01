@@ -25,7 +25,7 @@ const customerSuccessData = [
         link: "#",
     },
     {
-        title: "Targeted Advertising System & API Built with AWS Cloud Environment",
+        title: "Targeted Advertising System & API Built with AWS Cloud",
         image: <img src={bigD} alt=""/>,
         description: ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sit quos totam corrupti iure hic recusandae incidunt iste quia magnam."],
         link: "#",
@@ -37,7 +37,7 @@ const customerSuccessData = [
         link: "#",
     },
     {
-        title: "Investment Data Management Solution with AWS Cloud Environment",
+        title: "Investment Data Management Solution with AWS Cloud",
         image: <img src={investment} alt=""/>,
         description: ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sit quos totam corrupti iure hic recusandae incidunt iste quia magnam."],
         link: "#",

@@ -9,7 +9,7 @@ import "./css/CustomerSuccess.css"
 
 
 const CustomerSuccess = (props) => {
-  const { items, defaultSlidesToShow, CardHeight } = props;
+  const { items, defaultSlidesToShow, CardHeight, autoPlay, centerUp } = props;
 
   const slidesToShow = props.slidesToShow || defaultSlidesToShow;
 
@@ -19,13 +19,21 @@ const CustomerSuccess = (props) => {
     speed: 500,
     // passing the slides to show dynamically and default will be 3
     slidesToShow: slidesToShow,
-    // centerMode: true,
-    // autoplay: true,
+
+    // centerMode: centerUp?true:false,
+    // className: "center",
+    // centerPadding: "60px",
+
+    autoplay: autoPlay?true:false,
+    cssEase: "ease",
+
     slidesToScroll: 1,
-    dots: false,
+    dots: autoPlay?true:false,
+    pauseOnHover: true,
+
     responsive: [
       {
-        breakpoint: 1440,
+        breakpoint: 1540,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,

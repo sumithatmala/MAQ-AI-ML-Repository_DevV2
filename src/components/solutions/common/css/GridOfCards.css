@@ -97,6 +97,9 @@
     .predict-use-cases.__type-predict .predict-use-cases-list__icon {
         height: 72px;
         margin-bottom: 18px;
+        img {
+            border-radius: 5px;
+        }
     }
     .predict-use-cases.__type-predict .predict-use-cases-list__title {
         margin: 0 0 10px;
@@ -176,7 +179,7 @@
 }
 .predict-use-cases__outer {
     width: 100%;
-    max-width: 1348px;
+    max-width: 1430px;
     padding: 0 20px;
     margin: 0 auto;
 }

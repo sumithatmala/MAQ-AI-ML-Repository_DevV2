@@ -1,0 +1,317 @@
+.RoadMapSection {
+    margin: 0 0 3rem 0;
+    max-width: 600px;
+    margin: 8rem auto;
+    text-align: center;
+
+    h2 {
+        margin-bottom: 5rem;
+    }
+}
+
+.RoadMapList {
+    display: flex;
+    min-width: 0;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding-top: 3px;
+    /* padding-right: 200px; */
+    /* padding-left: 200px; */
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+}
+
+
+.RoadMapElement {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    width: auto;
+    margin-bottom: 0;
+    flex: 0;
+    /* padding: 0 50px; */
+    text-align: center;
+
+    h5 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    li {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.RoadMapElement:nth-child(10) {
+    .RoadMapDesc::after {
+        display: none;
+    }
+}
+
+.RoadMapImg {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0;
+    margin-bottom: 25px;
+    box-shadow: 0px 16px 48px 0px rgba(0, 0, 0, 0.176);
+
+    img {
+        width: 50px;
+    }
+}
+
+.RoadMapDesc::after {
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 49px;
+    width: 4px;
+    background-color: #a8a8a8;
+    content: "";
+}
+
+.RoadMapDesc {
+    text-align: start;
+    margin: 20px 20px 0 20px;
+}
+
+._firstElement {
+    position: relative !important;
+
+    /* left: -30px; */
+    .RoadMapBg::before {
+        display: none;
+    }
+
+    .RoadMapImg::before {
+        display: none;
+    }
+
+    .RoadMapImg {
+        background-image: url(../img/data-source-cloud.svg);
+        /* background-color: white; */
+        width: 100px;
+        min-height: 100px;
+        border-radius: 0;
+        margin: 20px auto;
+        margin-bottom: 25px;
+        box-shadow: none;
+        background-size: contain;
+    }
+}
+
+@media (min-width: 1315px) {
+    ._firstElement {
+        position: absolute !important;
+        left: 1%;
+        .RoadMapBg::before {
+            display: none;
+        }
+
+        .RoadMapImg::before {
+            display: none;
+        }
+
+        .RoadMapImg {
+            display: none;
+        }
+
+        .RoadMapDataSource {
+            top: -44px;
+            left: -44px;
+            width: 271px;
+            height: 161px;
+            background-image: url(../img/data-source-cloud.svg);
+        }
+    }
+
+    .RoadMapSection {
+        max-width: 1312px;
+        margin: 0 auto;
+    }
+
+    .RoadMapList {
+        display: flex;
+        min-width: 0;
+        -ms-flex-wrap: wrap;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 3px;
+        padding-right: 200px;
+        padding-left: 200px;
+        list-style-type: none;
+    }
+
+    .RoadMapList::before {
+        position: absolute;
+        z-index: -1;
+        margin-top:60px;
+        left: 50%;
+        /* display: none; */
+        width: 1212px;
+        height: 766px;
+        margin-left: -606px;
+        background-image: url(../img/data-capture-orange-path.svg);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        content: "";
+    }
+
+    .RoadMapElement {
+        display: flex;
+        width: 272px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 137px;
+        flex: 1 1 33.3333333333%;
+        padding: 0 50px;
+        text-align: center;
+
+        h5 {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .RoadMapElement:first-child {
+        order: 1;
+    }
+    .RoadMapElement:nth-child(2) {
+        order: 2;
+    }
+    .RoadMapElement:nth-child(3) {
+        order: 3;
+    }
+    .RoadMapElement:nth-child(4) {
+        order: 4;
+    }
+    .RoadMapElement:nth-child(5) {
+        order: 7;
+    }
+    .RoadMapElement:nth-child(6) {
+        order: 6;
+    }
+    .RoadMapElement:nth-child(7) {
+        order: 5;
+    }
+    .RoadMapElement:nth-child(8) {
+        order: 8;
+    }
+    .RoadMapElement:nth-child(9) {
+        order: 9;
+    }
+    .RoadMapElement:nth-child(10) {
+        order: 10;
+    }
+
+    .RoadMapDesc {
+        text-align: inherit;
+        margin: 0;
+    }
+
+    .RoadMapDesc::after {
+        display: none;
+    }
+
+    .RoadMapImg {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: 20px auto;
+        margin-bottom: 25px;
+        box-shadow: 0px 16px 48px 0px rgba(0, 0, 0, 0.176);
+    }
+
+    .RoadMapImg::before {
+        position: absolute;
+        z-index: -1;
+        top: 50%;
+        left: 50%;
+        width: 240px;
+        height: 240px;
+        border: 1px solid #f5f5f5;
+        margin-top: -120px;
+        margin-left: -120px;
+        border-radius: 50%;
+        content: "";
+    }
+
+    .RoadMapBg::before {
+        position: absolute;
+        z-index: -1;
+        top: 46%;
+        left: 63%;
+        width: 160px;
+        height: 160px;
+        /* border: 1px solid #f5f5f5; */
+        background-color: #f5f5f5;
+        margin-top: -120px;
+        margin-left: -120px;
+        border-radius: 50%;
+        content: "";
+    }
+}
+
+@media (min-width: 1350px) {
+    ._firstElement {
+        left: 2%;
+    }
+}
+@media (min-width: 1400px) {
+    ._firstElement {
+        left: 3%;
+    }
+}
+@media (min-width: 1450px) {
+    ._firstElement {
+        left: 5%;
+    }
+}
+@media (min-width: 1500px) {
+    ._firstElement {
+        left: 6%;
+    }
+}
+@media (min-width: 1550px) {
+    ._firstElement {
+        left: 7%;
+    }
+}
+@media (min-width: 1600px) {
+    ._firstElement {
+        left: 8%;
+    }
+}
+@media (min-width: 1650px) {
+    ._firstElement {
+        left: 9%;
+    }
+}
+@media (min-width: 1700px) {
+    ._firstElement {
+        left: 11%;
+    }
+}

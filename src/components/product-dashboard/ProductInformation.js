@@ -13,6 +13,8 @@ import ProductTryIt from "./ProductTryIt";
 import ProductContactUs from "./ProductContactUs";
 import "./css/target-users.css";
 import FAQs from "./FAQs";
+import ContactForm from "../solutions/common/contactForm";
+import CustomerSuccess from "../solutions/common/CustomerSuccess"
 
 import AnimatedDevelopment from "./icons/AnimatedDevelopment";
 import AnimatedOutcome from "./icons/AnimatedOutcome";
@@ -27,34 +29,34 @@ const ProductInformation = () => {
   const [productDetails, setproductDetails] = useState(null);
   const { productName } = useParams();
 
-  const settings = {
-    className: "center",
-    infinite: true,
-    centerMode: true,
-    autoplaySpeed: 5000,
-    // autoplay: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    dots: false,
-    responsive: [
-      {
-        breakpoint: 1450,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          centerMode: false,
-        },
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          centerMode: false,
-        },
-      },
-    ],
-  };
+  // const settings = {
+  //   className: "center",
+  //   infinite: true,
+  //   centerMode: true,
+  //   autoplaySpeed: 5000,
+  //   // autoplay: true,
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1,
+  //   dots: false,
+  //   responsive: [
+  //     {
+  //       breakpoint: 1450,
+  //       settings: {
+  //         slidesToShow: 2,
+  //         slidesToScroll: 1,
+  //         centerMode: false,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 1024,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1,
+  //         centerMode: false,
+  //       },
+  //     },
+  //   ],
+  // };
 
   useEffect(() => {
     console.log(productName);
@@ -118,7 +120,7 @@ const ProductInformation = () => {
             productDetails.targetUsers.length > 0 && (
               <section
                 class="target-section"
-                style={{ backgroundColor: "white" }}
+                style={{ backgroundColor: "white" , paddingTop:"50px", margin:"0"}}
               >
                 <GridOfCards
                   items={{
@@ -131,7 +133,9 @@ const ProductInformation = () => {
             )}
 
           {/*business outcomes */}
-          {productDetails.businessOutcomes &&
+          <h3 class="head-block-center">Business Outcomes</h3>
+          <CustomerSuccess items={productDetails.businessOutcomes} CardHeight={"230px"} autoPlay={true} centerUp={true} style={{marginBottom: "0px", paddingBottom:"5rem"}}/>
+          {/* {productDetails.businessOutcomes &&
             productDetails.businessOutcomes.length > 0 && (
               <section
                 class="target-section"
@@ -141,7 +145,6 @@ const ProductInformation = () => {
                   className="slick-list3 draggable fade-in product-overview d-flex justify-content-center"
                   style={{ backgroundColor: "white" }}
                 >
-                  <h3 class="head-block-center">Business Outcomes</h3>
                   <Slider
                     {...settings}
                     style={{ backgroundColor: "", padding: "0 20px" }}
@@ -179,7 +182,7 @@ const ProductInformation = () => {
                   </Slider>
                 </Row>
               </section>
-            )}
+            )} */}
 
           {/* Solution Highlights​ */}
           <section className="bannerCenter">
@@ -201,13 +204,13 @@ const ProductInformation = () => {
                       </div>
                     </div>
                   </Col>
-                  <Col>
+                  <Col style={{}}>
                     <div
                       className="product-container"
                       data-aos="fade-left"
-                      style={{ display: "Block" }}
+                      style={{ display: "Block"}}
                     >
-                      <h3 style={{ color: "black" }}>Solution Highlights​</h3>
+                      <h3 style={{ color: "black" }}>Solution Highlights</h3>
                       <ul className="bulletStyle">
                         {productDetails.solutionHighlights.map(
                           (highlights, index) => (
@@ -235,10 +238,10 @@ const ProductInformation = () => {
               <>
                 <Row id="prodinfo" className="product-overview">
                   {/* <AlternateBanner banners={productDetails.summary1} ContactBtn={false} /> */}
-                  <div className="sum">
+                  <div className="sum" style={{margin: "1rem 10px",alignItems:"center", justifyContent:"center"}}>
                   {productDetails.summary.map((highlights, index) =>
                     index === 0 ? (
-                      <Row key={index}>
+                      <Row key={index} style={{margin: "6rem 10px",alignItems:"center", justifyContent:"center"}}>
                         <Col data-aos="fade-right">
                           <div
                             className="product-container"
@@ -277,7 +280,7 @@ const ProductInformation = () => {
                         </Col>
                       </Row>
                     ) : index === 2 ? (
-                      <Row key={index}>
+                      <Row key={index} style={{margin: "6rem 10px",alignItems:"center", justifyContent:"center"}}>
                         <Col data-aos="fade-right">
                           <div
                             className="product-container"
@@ -317,7 +320,7 @@ const ProductInformation = () => {
                         </Col>
                       </Row>
                     ) : (
-                      <Row key={index} className="row2">
+                      <Row key={index} className="row2" style={{margin: "6rem 10px",alignItems:"center", justifyContent:"center"}}>
                         <Col>
                           <div
                             className="icon-container"
@@ -370,10 +373,11 @@ const ProductInformation = () => {
         items={productDetails.title}
         link={productDetails.tryit.link}
       />
-      <ProductContactUs />
+      {/* <ProductContactUs /> */}
       {productDetails.FAQs && productDetails.FAQs.length > 0 && (
         <FAQs FAQs={productDetails.FAQs} />
-      )}
+        )}
+        <ContactForm/>
     </>
   );
 };

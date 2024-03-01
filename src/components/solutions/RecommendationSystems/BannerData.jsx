@@ -13,7 +13,7 @@ const BannerData = [
           <img
             src={image}
             alt=""
-            height={350}
+            height={250}
           />
         ),
       },
