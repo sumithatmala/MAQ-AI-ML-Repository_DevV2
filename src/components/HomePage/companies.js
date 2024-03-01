@@ -16,7 +16,7 @@ const imageUrls = [
 
 const TrustedCompanies = () => {
   return (
-    <div className="BackBannerContainer bg-voilet-linear-gradient2 text-white w-100 p-4">
+    <div style={{margin:"5rem 0"}}>
         <div className='companies-section'>
             <div className='companies-head'>
                 <h2>Trusted Companies</h2>

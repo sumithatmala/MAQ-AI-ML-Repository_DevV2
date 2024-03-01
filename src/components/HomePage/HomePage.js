@@ -26,7 +26,7 @@ import customerSuccessData from "./Data/customerSuccessData.js"
 // import OneCardCarousel from '../industries/common/OneCardCoursal.jsx';
 // import BackgroundBanner from '../miscellaneous/Expertise/backgroundBanner.jsx';
 // import OneCardData from './Data/OneCardData';
-import ContactForm from '../solutions/common/contactForm.jsx';
+// import ContactForm from '../solutions/common/contactForm.jsx';
 // import { backBannerData } from './Data/backgroundBannerData';
 // import CustomerSuccess from './Blogs.js';
 
@@ -51,7 +51,7 @@ const HomePage = () => {
         {/* <BackgroundBanner items={backBannerData} alignType={"start"} width={"1000px"} /> */}
         <CertificateGrid/>
         <CustomerSuccess heading={"Customer Reviews"} items={customerSuccessData} CardHeight="260px"/>
-        <ContactForm contactMsg={"Do Let Us Know Your Concern."}/>
+        {/* <ContactForm contactMsg={"Do Let Us Know Your Concern."}/> */}
     </>
   );
 };
