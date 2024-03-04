@@ -1,7 +1,7 @@
 import "./CSS/ImageRecognition.css";
 import { HashLink } from "react-router-hash-link";
-import RecogImg from "./visuals/imgRec.jpg";
-import phoneImg from "./visuals/hand-holding-mobile.jpg";
+import RecogImg from "./img/imgRec.jpg";
+import phoneImg from "./img/hand-holding-mobile.jpg";
 
 //components
 import ProjectDevRoadmap from "./ProjectDevRoadmap";
