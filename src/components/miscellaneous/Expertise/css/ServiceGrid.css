@@ -49,6 +49,7 @@
 
 .ServiceGridCard:hover{
     box-shadow: 0px 6px 24px 0px #c8c5dd;
+    color: #000;
 }
 
 .ServiceGridCard-noImg {

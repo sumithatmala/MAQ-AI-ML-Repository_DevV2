@@ -1,25 +1,25 @@
 export const roadmapLeft ={
-    title:"Starting a project from scratch.",
+    title:"Starting a Project From Scratch.",
     points:[
         {
-            heading:"Clarify Requirements",
-            desc:["Analyze requirements","Make high-level estimation"]
+            heading:"Define Requirements",
+            desc:["Requirements analysis","Provide initial estimation"]
         },
         {
-            heading:"Create PoC (Proof of Concept)",
-            desc:["Verify the concept","Prepare technical documents"]
+            heading:"Build Proof of Concept (PoC)",
+            desc:["Validate the concept","Create technical documentation"]
         },
         {
-            heading:"Develop a Prototype",
-            desc:["Develop a solution prototype","Perform internal and release testing"]
+            heading:"Develop Prototype",
+            desc:["Build a prototype solution","Conduct internal and release testing"]
         },
         {
-            heading:"Start Production and Implementation",
-            desc:["Final testing of the complete system","Live release after approval"]
+            heading:"Initiate Production and Implementation",
+            desc:["Conducting final testing of the entire system","Launch the product after approval"]
         },
         {
-            heading:"Provide Support & Maintenance",
-            desc:["Knowledge transfer","Support and maintenance of the custom solution"]
+            heading:"Deliver Support and Maintenance",
+            desc:["Knowledge transfer","Provide support and maintenance for the custom solution"]
         }
     ],
 }
@@ -28,24 +28,24 @@ export const roadmapRight ={
     title:"Improving Your Current App",
     points:[
         {
-            heading:"Clarify Requirements",
-            desc:["Analyze requirements","Make high-level estimation"]
+            heading:"Define Requirements",
+            desc:["Requirements analysis","Provide initial estimation"]
         },
         {
-            heading:"Analyze the Existing App",
-            desc:["Analyze the client's app","Investigate and analyze issues"]
+            heading:"Evaluate the Current Application",
+            desc:["Evaluate client's application","Investigate and analyze issues"]
         },
         {
-            heading:"Develop an Optimal Solution",
-            desc:["Develop an optimal solution with suggestions","Integrate custom features into the client's app"]
+            heading:"Develop Prototype",
+            desc:["Build a prototype solution","Conduct internal and release testing"]
         },
         {
-            heading:"Start Production and Implementation",
-            desc:["Final testing of the complete system","Live release after approval"]
+            heading:"Initiate Production and Implementation",
+            desc:["Conducting final testing of the entire system","Launch the product after approval"]
         },
         {
-            heading:"Provide Support & Maintenance",
-            desc:["Knowledge transfer","Support and maintenance of the custom solution"]
+            heading:"Deliver Support and Maintenance",
+            desc:["Knowledge transfer","Provide support and maintenance for the custom solution"]
         }
     ],
 }
