@@ -24,6 +24,7 @@ import AnimatedHighlights from "./icons/AnimatedHighlights";
 import LoaderComp from "../views/LoaderComp";
 import GridOfCards from "../solutions/common/GridOfCards";
 import AlternateBanner from "../solutions/common/alternateBanner";
+// import "./css/target-user2.css"
 
 const ProductInformation = () => {
   const [productDetails, setproductDetails] = useState(null);
@@ -135,54 +136,7 @@ const ProductInformation = () => {
           {/*business outcomes */}
           <h3 class="head-block-center">Business Outcomes</h3>
           <CustomerSuccess items={productDetails.businessOutcomes} CardHeight={"230px"} autoPlay={true} centerUp={true} style={{marginBottom: "0px", paddingBottom:"5rem"}}/>
-          {/* {productDetails.businessOutcomes &&
-            productDetails.businessOutcomes.length > 0 && (
-              <section
-                class="target-section"
-                style={{ backgroundColor: "white" }}
-              >
-                <Row
-                  className="slick-list3 draggable fade-in product-overview d-flex justify-content-center"
-                  style={{ backgroundColor: "white" }}
-                >
-                  <Slider
-                    {...settings}
-                    style={{ backgroundColor: "", padding: "0 20px" }}
-                  >
-                    {productDetails.businessOutcomes.map((outcome, index) => (
-                      <div
-                        key={index}
-                        style={{
-                          justifyContent: "center",
-                          display: "flex",
-                          display: index === 0 ? "flex" : "none", // Only display the first slide
-                          width: "100%", // Set the width to 100%
-                        }}
-                      >
-                        <div className="carousal__item mb-6 mt-7">
-                          <div
-                            className="target__item-icon"
-                            style={{
-                              display: "flex",
-                              flexDirection: "column",
-                              alignItems: "center",
-                            }}
-                          >
-                            {outcome.icon}
-                          </div>
-                          <div className="target__item-title">
-                            {outcome.outcome}
-                          </div>
-                          <div className="target__item-text">
-                            {outcome.caption}
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </Slider>
-                </Row>
-              </section>
-            )} */}
+          
 
           {/* Solution Highlights​ */}
           <section className="bannerCenter">

@@ -7,14 +7,15 @@ const BannerData = {
             xmlSpace="preserve"
             style={{
                 enableBackground: "new 0 0 2475 1650",
-                marginBottom: "10px"
+                marginBottom: "10px",
+                opacity: "0.7",
             }}
             viewBox="0 0 2475 1650"
         >
             <path
                 d="M0 0h2475v1650H0z"
                 style={{
-                    fill: "#fff",
+                    fill: "#453c90",
                 }}
             />
             <linearGradient
