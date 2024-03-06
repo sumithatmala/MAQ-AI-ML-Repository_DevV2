@@ -38,11 +38,12 @@ const Navigation = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Container />}>
-        <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
 
-        <Route path="/Expertise" element={<Expertise />} />
-          {/* <Route path="/" element={<HomePage />} /> */}
+          <Route path="/Expertise" element={<Expertise />} />
+
           <Route path="/AboutUs" element={<AboutUs />} />
+
           <Route
             path="/product/:productName"
             element={
@@ -52,54 +53,29 @@ const Navigation = () => {
               </>
             }
           />
+
           <Route path="/solution/TextAnalysis" element={<TextAnalysis />} />
           <Route path="/solution/ComputerVision" element={<ComputerVision />} />
-          <Route
-            path="/solution/ImageRecognition"
-            element={<ImageRecognition />}
-          />
-          <Route
-            path="/solution/NaturalLanguageProcessing"
-            element={<NaturalLanguageProcessing />}
-          />
-          <Route
-            path="/solution/LargeLanguageModel"
-            element={<LargeLanguageModel />}
-          />
+          <Route path="/solution/ImageRecognition" element={<ImageRecognition />} />
+          <Route path="/solution/NaturalLanguageProcessing" element={<NaturalLanguageProcessing />} />
+          <Route path="/solution/LargeLanguageModel" element={<LargeLanguageModel />} />
           <Route path="/solution/DataCaptureOCR" element={<DataCaptureOCR />} />
-          <Route
-            path="/solution/PredictiveAnalytics"
-            element={<PredictiveAnalytics />}
-          />
-          <Route
-            path="/solution/VirtualAssistantTool"
-            element={<VirtualAssistantTool />}
-          />
-          <Route
-            path="/solution/ConsumerSentimentAnalysis"
-            element={<ConsumerSentimentAnalysis />}
-          />
+          <Route path="/solution/PredictiveAnalytics" element={<PredictiveAnalytics />} />
+          <Route path="/solution/VirtualAssistantTool" element={<VirtualAssistantTool />} />
+          <Route path="/solution/ConsumerSentimentAnalysis" element={<ConsumerSentimentAnalysis />} />
+
           <Route path="/Industries/Logistics" element={<Logistics />} />
-          <Route
-            path="/Industries/E-commerce"
-            element={<AISolutionsEcommerce />}
-          />
+          <Route path="/Industries/E-commerce" element={<AISolutionsEcommerce />} />
           <Route path="/Industries/Retail" element={<Retail />} />
-          <Route
-            path="/Industries/RecommendationSystems"
-            element={<RecommendationSystems />}
-          />
+          <Route path="/Industries/RecommendationSystems" element={<RecommendationSystems />} />
           <Route path="/Industries/Fintech" element={<Fintech />} />
-          
           <Route path="/Industries/MarTech" element={<MarTech />} />
           <Route path="/Industries/Automotive" element={<Automotive />} />
-          <Route
-            path="/Industries/GameEntertainment"
-            element={<GameEntertainment />}
-          />
+          <Route path="/Industries/GameEntertainment" element={<GameEntertainment />} />
           <Route path="/Industries/Health&Pharma" element={<HealtcarePharma />} />
-          <Route path="/Industries/SportWellness" element={<SportWellness/>} />
-          <Route path="/ContactUs" element={<ContactUs/>} />
+          <Route path="/Industries/SportWellness" element={<SportWellness />} />
+          
+          <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

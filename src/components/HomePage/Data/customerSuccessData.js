@@ -1,7 +1,7 @@
-import chat from '../img/chat.png'
+import chat from '../img/chat.jpg'
 import program from '../img/program.png'
 import marketing from '../img/marketing.png'
-import nlp from '../img/nlp.png'
+import nlp from '../img/nlp.jpg'
 const customerSuccessData = [
     {
         title: "AI-Powered Website Assistants for Enhanced User Experience",

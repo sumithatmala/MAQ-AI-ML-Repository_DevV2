@@ -13,7 +13,7 @@ h1,h2 {
     color: white;
     flex-direction: column;
     height: 65vh;
-    background-image: url("./visuals/backImg.jpg");
+    background-image: url("../img/backImg.jpg");
     object-fit: cover;
 }
 
