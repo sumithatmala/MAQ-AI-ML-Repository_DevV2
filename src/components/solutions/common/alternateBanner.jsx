@@ -1,8 +1,7 @@
-import {Link} from "react-router-dom"
 import "./css/AlternateBanner.css"
 import { HashLink } from "react-router-hash-link"
 
-const AlternateBanner = ({banners,ContactBtn}) => {
+const AlternateBanner = ({banners,ContactBtn=false}) => {
     return (
         <>
             {banners.map((item,count) => {

@@ -13,18 +13,28 @@ import SchoolIcon from "@mui/icons-material/School";
 // import AnimatedOutcome from "../icons/AnimatedOutcome";
 // import AnimatedSolution from "../icons/AnimatedSolution";
 
-import AnimatedDevelopment from "../icons/AnimatedDevelopment";
-import AnimatedOutcome from "../icons/AnimatedOutcome";
-import AnimatedSolution from "../icons/AnimatedSolution";
+// import AnimatedDevelopment from "../icons/AnimatedDevelopment";
+// import AnimatedOutcome from "../icons/AnimatedOutcome";
+// import AnimatedSolution from "../icons/AnimatedSolution";
+// import AnimatedHighlights from "../icons/AnimatedHighlights";
 
 import demoVideo from "./demos/SessionInformationBot.mp4";
-import AnimatedHighlights from "../icons/AnimatedHighlights";
 
 const iconSize = {
-  height: "3rem",
-  width: "3rem",
+  height: "5rem",
+  width: "5rem",
   color: "#dc848d",
 };
+const iconSizeBO = {
+  height: "13rem",
+  width: "20.4rem",
+  color: "#dc848d",
+  border: "solid #dc848d 3px",
+  // margin: "0px 10px",
+  padding: "30px 50px",
+  borderRadius: "10px",
+  // boxShadow: "0px 8px 16px 0px red"
+}
 
 export const SessionInformationBot = {
   title: "Session Information Bot",
@@ -61,40 +71,40 @@ export const SessionInformationBot = {
   ],
   businessOutcomes: [
     {
-      outcome: "Accelerated onboarding and training especially for new hires",
-      caption:
-        "Enable new employees to quickly familiarize themselves with various trainings, expediting their integration into the organization.",
-      icon: <IntegrationInstructionsIcon style={iconSize} />,
+      title: "Accelerated onboarding and training for new hires",
+      description:
+        ["Enable new employees to quickly familiarize themselves with various trainings, expediting their integration into the organization."],
+      image: <IntegrationInstructionsIcon style={iconSizeBO} />,
     },
     {
-      outcome: "Enhanced data analysis and research capabilities",
-      caption:
-        "Researchers and analysts can leverage the solution to extract insights from session content and recordings, supporting data analysis, research projects.",
-      icon: <QueryStatsIcon style={iconSize} />,
+      title: "Enhanced data analysis and research capabilities",
+      description:
+        ["Researchers and analysts can leverage the solution to extract insights from session content and recordings, supporting data analysis, research projects."],
+      image: <QueryStatsIcon style={iconSizeBO} />,
     },
     {
-      outcome: "Efficient project management for successful outcomes",
-      caption:
-        "End to End tracking and maintenance of the content and improve usage.",
-      icon: <MdManageHistory style={iconSize} />,
+      title: "Efficient project management for successful outcomes",
+      description:
+        ["End to End tracking and maintenance of the content and improve usage."],
+      image: <MdManageHistory style={iconSizeBO} />,
     },
     {
-      outcome: "Enhanced engagement of Employees in terms of learning",
-      caption:
-        "Foster an environment that encourages employee engagement in learning activities, promoting a culture of continuous learning.",
-      icon: <LocalLibraryIcon style={iconSize} />,
+      title: "Enhanced engagement of Employees Regarding learning",
+      description:
+        ["Foster an environment that encourages employee engagement in learning activities, promoting a culture of continuous learning."],
+      image: <LocalLibraryIcon style={iconSizeBO} />,
     },
     {
-      outcome: "Improved learning and development initiatives",
-      caption:
-        "Enhanced training experience and continuous learning to support employee skill development and professional growth.",
-      icon: <ConstructionIcon style={iconSize} />,
+      title: "Improved learning and development initiatives",
+      description:
+        ["Enhanced training experience and continuous learning to support employee skill development and professional growth."],
+      image: <ConstructionIcon style={iconSizeBO} />,
     },
     {
-      outcome: "Improved knowledge sharing and collaboration",
-      caption:
-        "Promote seamless knowledge sharing and collaboration among employees, fostering a culture of information exchange and collective expertise.",
-      icon: <SchoolIcon style={iconSize} />,
+      title: "Improved knowledge sharing and collaboration",
+      description:
+        ["Promote seamless knowledge sharing and collaboration among employees, fostering a culture of information exchange and collective expertise."],
+      image: <SchoolIcon style={iconSizeBO} />,
     },
   ],
   solutionHighlights: [
@@ -195,7 +205,7 @@ export const SessionInformationBot = {
     {
       question: "Is there a demo available for Session Information Bot?",
       answer:
-        "Yes, you can watch the demo video by following this link: [Demo Video](demoVideo).",
+        "Yes, you can watch the demo video or request us for a demo.",
     },
   ],
 };

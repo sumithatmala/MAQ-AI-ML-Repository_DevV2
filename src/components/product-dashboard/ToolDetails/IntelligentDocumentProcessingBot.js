@@ -11,14 +11,24 @@ import SchoolIcon from '@mui/icons-material/School';
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import SpeedIcon from '@mui/icons-material/Speed';
 import OutputIcon from '@mui/icons-material/Output';
-import demoVideo from './demos/IntelligentDocumentProcessingBot.mp4'
+import demoVideo from './demos/IntelligentDocumentProcessingBot.mp4';
+
 
 const iconSize = {
-  height: "3rem",
-  width: "3rem",
+  height: "5rem",
+  width: "5rem",
   color: "#dc848d"
 }
-
+const iconSizeBO = {
+  height: "13rem",
+  width: "20.4rem",
+  color: "#dc848d",
+  border: "solid #dc848d 3px",
+  // margin: "0px 10px",
+  padding: "30px 50px",
+  borderRadius: "10px",
+  // boxShadow: "0px 8px 16px 0px red"
+}
 export const IntelligentDocumentProcessingBot = {
   title: "Intelligent Document Processing Bot",
   description: "An OCR system is needed to automate the conversion of patient information from PDFs and images, reducing manual effort and errors. The system extracts data from various documents, adds it to a structured knowledge base, and employs a question-based approach for accurate retrieval. An interactive virtual agent enhances user experience with an intuitive interface.",
@@ -34,7 +44,7 @@ export const IntelligentDocumentProcessingBot = {
     {
       title: "Healthcare Admins",
       description: "Responsible for managing and organizing patient records to maintain a structured and easily accessible database, with high rate of accuracy data integrity.",
-      icon: <PsychologyIcon style={iconSize} />,
+      iconSrc: <PsychologyIcon style={iconSize} />,
     },
     {
       title: "Medical Researchers",
@@ -49,36 +59,36 @@ export const IntelligentDocumentProcessingBot = {
   ],
   businessOutcomes: [
     {
-      outcome: "Improved Access to Insights ",
-      caption: "By structuring and indexing the extracted data, Healthcare providers can generate insightful reports, identify patterns, and make data-driven decisions more effectively.",
-      icon: <IntegrationInstructionsIcon style={iconSize} />,
+      title: "Improved Access to Insights ",
+      description: ["By structuring and indexing the extracted data, Healthcare providers can generate insightful reports, identify patterns, and make data-driven decisions more effectively."],
+      image: <IntegrationInstructionsIcon style={iconSizeBO} />,
     },
     {
-      outcome: "Enhanced Document handling",
-      caption: "Handling massive volumes of data from multiple documents by accurately classifying the documents helps the teams to easily access the required data quickly",
-      icon: <QueryStatsIcon style={iconSize} />,
+      title: "Enhanced Document handling",
+      description: ["Handling massive volumes of data from multiple documents by accurately classifying the documents helps the teams to easily access the required data quickly"],
+      image: <QueryStatsIcon style={iconSizeBO} />,
     },
     {
-      outcome: "Personalised Patient Experience",
-      caption: "Improved patient experience as healthcare professionals can provide personalized and timely care, considering relevant medical history and preferences.",
-      icon: <MdManageHistory style={iconSize} />,
+      title: "Personalised Patient Experience",
+      description: ["Improved patient experience as healthcare professionals can provide personalized and timely care, considering relevant medical history and preferences."],
+      image: <MdManageHistory style={iconSizeBO} />,
     },
 
     // done till this point
     {
-      outcome: "Improved Analytics and Decision Making ",
-      caption: "By extracting and structuring data accurately, healthcare organizations can perform advanced analytics and generate actionable insights. This facilitates evidence-based decision-making, process optimization, and improved healthcare outcomes.",
-      icon: <LocalLibraryIcon style={iconSize} />,
+      title: "Improved Analytics and Decision Making ",
+      description: ["Accurate data extraction and structuring in healthcare enable advanced analytics, evidence-based decision-making, process optimization, and improved outcomes."],
+      image: <LocalLibraryIcon style={iconSizeBO} />,
     },
     {
-      outcome: "Cost Reduction",
-      caption: "Reduction of manual effort, minimizing errors, saves costs associated with data entry and processing. It also eliminates the need for physical storage of paper documents, leading to further cost savings.",
-      icon: <ConstructionIcon style={iconSize} />,
+      title: "Cost Reduction",
+      description: ["Reduction of manual effort, minimizing errors, saves costs associated with data entry and processing. It also eliminates the need for physical storage of paper documents], leading to image cost savings."],
+      image: <ConstructionIcon style={iconSizeBO} />,
     },
     {
-      outcome: "Improved efficiency & Time Saving",
-      caption: "Elimination of manual intervention in data entry, data processing and retrieval improves the productivity of the staff and allows them to focus on much critical tasks.",
-      icon: <SchoolIcon style={iconSize} />,
+      title: "Improved efficiency & Time Saving",
+      description: ["Elimination of manual intervention in data entry, data processing and retrieval improves the productivity of the staff and allows them to focus on much critical tasks."],
+      image: <SchoolIcon style={iconSizeBO} />,
     },
   ],
   solutionHighlights: [

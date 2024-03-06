@@ -1,32 +1,32 @@
 const blogData = [
     {
-        title: "Blog 1",
+        title: "Optimizing banking and financial services with Al-powered automation",
         image: "",
-        description: ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sit quos totam corrupti iure hic recusandae incidunt iste quia magnam."],
+        description: ["See how Al-powered automation and cutting-edge technologies are furthering banking and financial services."],
         link: "#",
     },
     {
-        title: "Blog 2",
+        title: "Unleashing enterprise productivity.",
         image: "",
-        description: ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sit quos totam corrupti iure hic recusandae incidunt iste quia magnam."],
+        description: ["Read insights from UiPath Al experts on what the latest Al advances mean for enterprise users and how Al history informs the present."],
         link: "#",
     },
     {
-        title: "Blog 3",
+        title: "Expanding automation benefits with Al in insurance",
         image: "",
-        description: ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sit quos totam corrupti iure hic recusandae incidunt iste quia magnam."],
+        description: ["Automation and AI are transforming the insurance sector, streamlining processes, enhancing customer experiences, and improving operational efficiency."],
         link: "#",
     },
     {
-        title: "Blog 4",
+        title: "Transforming healthcare document processing with Al",
         image: "",
-        description: ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sit quos totam corrupti iure hic recusandae incidunt iste quia magnam."],
+        description: ["Learn how Al-powered automation can improve consistency, speed, and efficiency processing documents in the healthcare sectors."],
         link: "#",
     },
     {
-        title: "Blog 5",
+        title: "Maximize Buisness the potential of Generative Al",
         image: "",
-        description: ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sit quos totam corrupti iure hic recusandae incidunt iste quia magnam."],
+        description: ["Executives can leverage Generative AI to automate complex processes, differentiate their offerings, and create personalized customer experiences."],
         link: "#",
     },
 ]

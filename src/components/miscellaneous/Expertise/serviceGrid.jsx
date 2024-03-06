@@ -16,7 +16,7 @@ const ServiceGrid = (props) => {
                                 <div className="ServiceGridCard-txt">
                                     <div className="ServiceGridCardHeader">
                                         {item.img}
-                                        <b>{item.title}</b>
+                                        <h4 style={{fontSize:"19px"}}>{item.title}</h4>
                                     </div>
                                     <p>{item.desc}</p>
                                 </div>

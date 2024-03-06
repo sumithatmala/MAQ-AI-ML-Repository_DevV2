@@ -7,7 +7,7 @@ const ProductDemo = (props) => {
   console.log(props.link.demoVideo)
   return (
     <section id="demo" className="product-information" style={{paddingTop: "2%", backgroundColor: "white"}}>
-      <Container fluid>
+      <Container fluid style={{textAlign:"center"}}>
         <Row className='product-overview'>
           <Col>
             <h2>Product Demo</h2>

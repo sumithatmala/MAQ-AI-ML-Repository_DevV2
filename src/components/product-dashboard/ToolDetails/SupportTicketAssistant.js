@@ -15,11 +15,20 @@ import { MdOutlinePriceCheck } from "react-icons/md";
 import ScaleIcon from "@mui/icons-material/Scale";
 
 const iconSize = {
-  height: "3rem",
-  width: "3rem",
+  height: "5rem",
+  width: "5rem",
   color: "#dc848d",
 };
-
+const iconSizeBO = {
+  height: "13rem",
+  width: "20.4rem",
+  color: "#dc848d",
+  border: "solid #dc848d 3px",
+  // margin: "0px 10px",
+  padding: "30px 50px",
+  borderRadius: "10px",
+  // boxShadow: "0px 8px 16px 0px red"
+}
 export const SupportTicketAssistant = {
   title: "Support Ticket Assistant",
   description:
@@ -55,40 +64,40 @@ export const SupportTicketAssistant = {
   ],
   businessOutcomes: [
     {
-      outcome: "Improved Response Time",
-      caption:
-        "Reduced response times for support ticket requests, enhancing customer satisfaction and loyalty.",
-      icon: <IoIosTime style={iconSize} />,
+      title: "Improved Response Time",
+      description:
+        ["Reduced response times for support ticket requests, enhancing customer satisfaction and loyalty."],
+      image: <IoIosTime style={iconSizeBO} />,
     },
     {
-      outcome: "Standardized Support Processes",
-      caption:
-        "Automated system enforces consistent handling of support requests, ensuring standardized responses and improving the overall customer experience.",
-      icon: <GiProcessor  style={iconSize} />,
+      title: "Standardized Support Processes",
+      description:
+        ["Automated system enforces consistent handling of support requests, ensuring standardized responses and improving the overall customer experience."],
+      image: <GiProcessor  style={iconSizeBO} />,
     },
     {
-      outcome: "Improved Team Performance",
-      caption:
-        "Automation provides visibility into support team performance metrics, enabling managers to identify areas for improvement, provide targeted training, and enhance overall team performance.",
-      icon: <GrDocumentPerformance style={iconSize} />,
+      title: "Improved Team Performance",
+      description:
+        ["Automation provides visibility into support team performance metrics, enabling managers to identify areas for improvement, provide targeted training, and enhance overall team performance."],
+      image: <GrDocumentPerformance style={iconSizeBO} />,
     },
     {
-      outcome: "Increased Customer Satisfaction",
-      caption:
-        "By addressing customer concerns quickly and efficiently can enhance the customer experience, resulting in higher satisfaction levels and positive brand perception",
-      icon: <MdSentimentSatisfiedAlt style={iconSize} />,
+      title: "Increased Customer Satisfaction",
+      description:
+        ["By addressing customer concerns quickly and efficiently can enhance the customer experience, resulting in higher satisfaction levels and positive brand perception"],
+      image: <MdSentimentSatisfiedAlt style={iconSizeBO} />,
     },
     {
-      outcome: "Reduced Workload and Costs",
-      caption:
-        "Automation eliminates repetitive and manual tasks, reducing the workload on support teams and minimizing operational costs associated with support request handling.",
-      icon: <MdOutlinePriceCheck style={iconSize} />,
+      title: "Reduced Workload and Costs",
+      description:
+        ["Automation eliminates repetitive and manual tasks, reducing the workload on support teams and minimizing operational costs associated with support request handling."],
+      image: <MdOutlinePriceCheck style={iconSizeBO} />,
     },
     {
-      outcome: "Scalability",
-      caption:
-        "The automated system can handle high volumes of support requests without compromising response times or accuracy, allowing businesses to scale their support operations as needed.",
-      icon: <ScaleIcon style={iconSize} />,
+      title: "Scalability",
+      description:
+        ["The automated system can handle high volumes of support requests without compromising response times or accuracy, allowing businesses to scale their support operations as needed."],
+      image: <ScaleIcon style={iconSizeBO} />,
     },
   ],
   solutionHighlights: [

@@ -90,8 +90,12 @@ li::marker {
         justify-content: center;
         margin:10px;
     }
-    .ImgContainer img{
+    .ImgContainer svg{
         width: 400px;
+    }
+    .ImgContainer img{
+        width: 450px;
+        height: 300px;
         object-fit: cover;
     }
     
@@ -138,8 +142,11 @@ li::marker {
         justify-content: start;
         margin:10px;
     }
+    .ImgContainer svg{
+        width: 300px;
+    }
     .ImgContainer img{
-        width: 150px;
+        width: 250px;
         object-fit: cover;
     }
     

@@ -1,7 +1,12 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: white; */
+}
+
 .target-section {
     /* padding-bottom: 40px; */
-    /* padding-top: 40px; */
-    display: block;
+    padding-top: 40px;
+    /* display: block; */
     background-color: white;
 }
 
@@ -118,7 +123,7 @@ body {
 }
 
 .FAQ__item {
-    box-shadow: 15px 15px 15px rgba(69, 60, 144, .2), 0 4px 5px rgba(69, 60, 144, .12), 0 2px 4px rgba(69, 60, 144, .14);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
 }
 
 .slick-prev {
@@ -166,16 +171,16 @@ body {
     background-repeat: no-repeat;
 }
 
-.slick-center {
+/* .slick-center {
     transform: scale(1.1);
     transition: transform 1s ease;
-}
+} */
 
 @media only screen and (max-width: 1350px) {
-    .slick-center {
+    /* .slick-center {
         transform: scale(1);
-        /* transition: transform 0.5s ease; */
-    }
+        transition: transform 0.5s ease;
+    } */
 }
 
 /* .slick-list3{
@@ -229,37 +234,45 @@ body {
     .slick-current {
         max-width: 390px !important;
     }
-  }
+}
 
-  .bannerCenter {
+.bannerCenter {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     background-color: white;
-  }
+    padding-top: 3rem;
+    /* max-width: 1200px; */
+    background-color: white;
+    margin: 0 auto;
+}
 
 
 
-  @media (max-width:1440px){
-    .product-overview{
+@media (max-width:1440px) {
+    .product-overview {
         padding: 0 !important;
         background: white;
-        max-width: 1126px;
+        max-width: 1000px;
         display: flex !important;
         justify-content: center;
         align-items: center;
     }
-    .product-container{
+
+    .product-container {
         width: 500px !important;
     }
-    .bulletStyle{
+
+    .bulletStyle {
         width: 100%;
     }
-    .icons_res svg{
+
+    .icons_res svg {
         /* max-width: 400px !important; */
         position: relative;
     }
+
     /* .row{
         flex-direction: column-reverse;
         justify-content: center;
@@ -270,83 +283,98 @@ body {
         justify-content: center;
         text-align: center;;
     } */
-  }
-  @media (max-width: 1330px){
-    .row{
+}
+
+@media (max-width: 1330px) {
+    .row {
         /* flex-direction: column-reverse; */
         justify-content: center;
         /* text-align: center; */
     }
-    .row2 {
-        /* flex-direction: column; */
-    }
-    .icons_res svg{
+
+    /* .row2 {
+        flex-direction: column;
+    } */
+    .icons_res svg {
         max-width: 400px !important;
         position: relative;
     }
-    .sol{
+
+    .sol {
         flex-direction: column;
         justify-content: center;
         /* text-align: center;; */
     }
 
-    .product-container{
+    .product-container {
         width: auto !important;
     }
-    .bulletStyle{
+
+    .bulletStyle {
         width: 100%;
     }
-  }
-  @media (max-width: 860px){
-    .row{
-        flex-direction: column-reverse;
+}
+
+@media (max-width: 1024px) {
+    .row {
+        /* flex-direction: column-reverse; */
         justify-content: center;
         /* text-align: center; */
     }
+
     .row2 {
         flex-direction: column;
     }
-    .sol{
+
+    .sol {
         flex-direction: column;
         justify-content: center;
         /* text-align: center;; */
     }
-    .sum .product-container{
+
+    .sum .product-container {
         padding: 0 !important;
         width: 100% !important;
     }
-    .bulletStyle{
+
+    .bulletStyle {
         width: 100%;
     }
-  }
+}
 
-  @media (max-width: 570px){
-    .row{
-        flex-direction: column-reverse;
+@media (max-width: 1024px) {
+    .row {
+        /* flex-direction: column-reverse; */
         justify-content: center;
         /* text-align: center; */
         margin: 3% !important;
     }
+
     .row2 {
         flex-direction: column;
     }
-    .sol{
+
+    .sol {
         flex-direction: column;
         justify-content: center;
         /* text-align: center;; */
     }
-    .sum .product-container{
+
+    .sum .product-container {
         padding: 0 !important;
         width: 100% !important;
     }
-    .bulletStyle{
+
+    .bulletStyle {
         width: 100%;
     }
-    .icons_res svg{
+
+    .icons_res svg {
         max-width: 200px !important;
         position: relative;
     }
+
     .product-container {
         padding: 0 !important;
     }
-  }
+}

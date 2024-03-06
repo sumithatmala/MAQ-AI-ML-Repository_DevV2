@@ -1,12 +1,10 @@
-// import CookingAssistant from '../ConsumerSentimentAnalysis/Images/IntelligentCookingAssistant.jpeg';
-// import ServiceSoltion from '../ConsumerSentimentAnalysis/Images/IntelligentServiceSolution.jpg';
-import AutomatedFeedback from "../ConsumerSentimentAnalysis/Images/AutomatedFeedback.png";
-import EmotionalAnalysis from "../ConsumerSentimentAnalysis/Images/EmotionalAnalysis.jpeg";
+import tv from "./Images/tv.jpg"
+import analytics from "./Images/analytics.jpg"
 
 const BiSlider = [
   {
     title: "Smart TV App's Movie Suggestion Algorithm",
-    image: <img src={AutomatedFeedback} />,
+    image: <img src={tv} alt="tv"/>,
     description: [
       "Our client is a prominent player in the Smart TV digital home entertainment sector, offering a leading premium video-on-demand service. This service allows users to enjoy newly released movies in impeccable quality or select from an extensive library of over 7000 titles.",
       "With 1.5 million monthly active users on their Smart TV application, our client ensures that personalized movie recommendations are delivered to every customer.",
@@ -20,9 +18,8 @@ const BiSlider = [
     title: "Development of Predictive Analytics Module for E-Commerce Giant",
     image: (
       <img
-        src={EmotionalAnalysis}
+        src={analytics}
         alt="Emotion Analysis Intelligence"
-       
       />
     ),
     description: [

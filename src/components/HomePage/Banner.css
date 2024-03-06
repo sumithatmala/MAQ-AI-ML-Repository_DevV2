@@ -30,7 +30,7 @@
 --------------------------------------------------------------*/
 body {
   color: var(--default-color);
-  /* background-color: var(--background-color); */
+  background-color: var(--background-color);
   font-family: var(--default-font);
 }
 
@@ -79,6 +79,7 @@ h6 {
     position: relative;
     padding: 160px 0 100px 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
@@ -92,8 +93,6 @@ h6 {
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    z-index: 1;
-    margin-top: 0% !important;
   }
   
   .hero:before {
@@ -255,6 +254,7 @@ h6 {
     margin: auto;
     /* top: 15vh; */
     flex-direction: column;
+    z-index: 3;
   }
 
   .mouse-container img {
@@ -303,5 +303,3 @@ h6 {
       transform: translateY(0);
     }
   }
-
-  

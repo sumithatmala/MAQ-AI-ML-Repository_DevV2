@@ -173,6 +173,7 @@
   .stats .container {
       position: relative;
       z-index: 3;
+      width: auto;
     }
     
     .call-to-action .container {
@@ -252,7 +253,7 @@
       height: 74.132px;
       flex-shrink: 0;
       margin: auto;
-      /* top: 15vh; */
+      top: -8vh;
       flex-direction: column;
     }
   

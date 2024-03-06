@@ -4,7 +4,7 @@ const showcaseBannerData1 = {
     title: [
         {heading: "Session Information Bot", desc:"Optimizes information retrieval, enhances knowledge management, and streamlines support processes.", link: "./product/SessionInformationBot"},
         {heading: "Feedback Summarizer Bot", desc:"Swiftly analyzes and summarizes customer feedback, streamlining responses and improving product development.", link: "./product/FeedbackSummarizerBot"},
-        {heading: "Intelligent Document Processing Bot", desc:"Automates conversion of patient information, enhances data extraction, and improves user experience.", link: "./IntelligentDocumentProcessingBot"},
+        {heading: "Intelligent Document Processing Bot", desc:"Automates conversion of patient information, enhances data extraction, and improves user experience.", link: "./product/IntelligentDocumentProcessingBot"},
         {heading: "Document Classification with Virtual Assistant", desc:"Automates document classification process.", link: "./product/DocumentClassificationWithVirtualAssistant"},
         {heading: "Smart Support Framework", desc:"Automates support ticket management and facilitates collaboration among teams.", link: "./product/SmartSupportFramework"},
         {heading: "Trivia Bot", desc:"Offers engaging, gamified learning experience through interactive trivia generator tool.", link: "./product/TriviaBot"},

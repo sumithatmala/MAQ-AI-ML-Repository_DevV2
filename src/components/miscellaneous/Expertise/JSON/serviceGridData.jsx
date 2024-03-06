@@ -20,7 +20,7 @@ const serviceGridData = [
     },
     {
         title: "MVP of Al-based Product",
-        desc: "Need a breakthrough AI product? We’re ready to start with a version of just enough features to satisfy early customers and provide feedback for product development.",
+        desc: "Need a breakthrough AI product? We're ready to start with a version of just enough features to satisfy early customers and provide feedback for product development.",
         img: <img src={mvp_icon} alt="" width={40}/>,
         link:"",
     },

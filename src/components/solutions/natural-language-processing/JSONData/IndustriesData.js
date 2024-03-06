@@ -8,27 +8,27 @@ const industriesData = [
     {
         name: "Logistics",
         icon: <img src={car} alt="Logistics" width={100}></img>,
-        link: "#",
+        link: "/Industries/Logistics",
     },
     {
         name: "E-Commerce",
         icon: <img src={ecomm} alt="E-commerse" width={100}></img>,
-        link: "#",
+        link: "/Industries/E-commerce",
     },
     {
         name: "Finance and Banking",
         icon: <img src={bank} alt="Banking" width={100}></img>,
-        link: "#",
+        link: "/Industries/Fintech",
     },
     {
         name: "Marketing",
         icon: <img src={marketing} alt="Marketing" width={100}></img>,
-        link: "#",
+        link: "/Industries/MarTech",
     },
     {
         name: "Entertainment",
         icon: <img src={movie} alt="Entertainment" width={100}></img>,
-        link: "#",
+        link: "/Industries/GameEntertainment",
     },
 ]
 

@@ -4,12 +4,14 @@
     margin-bottom: 5%;
     /* margin-top:5%; */
     display: block;
-    
+
 }
+
 .faq-block-inner {
     max-width: 780px;
     margin: 0 auto;
 }
+
 .head-block-center {
     max-width: 600px;
     margin: 0 auto 26px;
@@ -31,10 +33,10 @@
     outline: none !important;
     box-shadow: none !important;
 }
+
 .custom-accordion-item .accordion-button {
-    font-style:normal;
+    font-style: normal;
     font-size: 16px !important;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-  }
-  
+}

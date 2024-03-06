@@ -5,9 +5,10 @@ import BannerData from "./JSONData/bannerData"
 import ServiceData from "./JSONData/buisnessCasesData"
 import AccordionData from "./JSONData/AccordianData"
 import customerSuccessData from "./JSONData/customerSuccessData"
-import roadMapData from "./JSONData/roadMapData"
+// import roadMapData from "./JSONData/roadMapData"
 import benefitsData from "./JSONData/BenefitsData"
 import LogisticsBenefits from "./JSONData/LogisticsBenefits"
+import RoadMapNewData from "./JSONData/RoadMapNewData"
 
 
 //Components
@@ -16,10 +17,11 @@ import Services from '../common/GridOfCards'
 import AccordionStatic from "../common/accordionStatic"
 import ContactForm from "../common/contactForm"
 import CustomerSuccess from "../common/CustomerSuccess"
-import RoadMap from "../common/RoadMap"
+// import RoadMap from "../common/RoadMap"
 import BenefitCards from "./benefitsCards"
 import BackgroundBanner from "./backgroundBanner"
 import UsageBenefits from "./UsageBenefits"
+import RoadMapNew from "../common/RoadMapNew"
 
 const DataCaptureOCR = () => {
     return (
@@ -33,7 +35,8 @@ const DataCaptureOCR = () => {
                 </div>
             </section>
             <Services items={{ item: ServiceData, NoCards:4, title: "Data Capture Services We Offer" }} />
-            <RoadMap items={roadMapData} title="How Our Data Capture and Extraction Services Work" />
+            {/* <RoadMap items={roadMapData} title="How Our Data Capture and Extraction Services Work" /> */}
+            <RoadMapNew heading={"How Our Data Extraction Service Works"} desc={""} items={RoadMapNewData}/>
             <BackgroundBanner />
             <BenefitCards cardsData={benefitsData} />
             <UsageBenefits items = {LogisticsBenefits} title = "OCR and Data Capture for Logistics & Transportation" />

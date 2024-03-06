@@ -15,11 +15,20 @@ import demoVideo from './demos/SmartSupportFramework.mp4'
 import demoVideo2 from './demos/SmartSupportFramework.mp4'
 
 const iconSize = {
-    height: "3rem",
-    width: "3rem",
-    color: "#dc848d"
+    height: "5rem",
+    width: "5rem",
+    color: "#dc848d",
+  };
+const iconSizeBO = {
+    height: "13rem",
+    width: "20.4rem",
+    color: "#dc848d",
+    border: "solid #dc848d 3px",
+    // margin: "0px 10px",
+    padding: "30px 50px",
+    borderRadius: "10px",
+    // boxShadow: "0px 8px 16px 0px red"
 }
-
 export const SmartSupportFramework = {
     title: "Smart Support Framework",
     description: "Organizations face challenges in managing support tickets efficiently, necessitating an automated solution for assigning tickets, offering prompt severity feedback, and enabling seamless collaboration among teams for effective resolution.",
@@ -50,34 +59,34 @@ export const SmartSupportFramework = {
     ],
     businessOutcomes: [
         {
-            outcome: "Improved Response Time",
-            caption: "Reduced response times for support ticket requests, enhancing customer satisfaction and loyalty.",
-            icon: <IntegrationInstructionsIcon style={iconSize} />,
+            title: "Improved Response Time",
+            description: ["Reduced response times for support ticket requests, enhancing customer satisfaction and loyalty."],
+            image: <IntegrationInstructionsIcon style={iconSizeBO} />,
         },
         {
-            outcome: "Enhanced Ticket Severity Management",
-            caption: "Accurate determination and communication of ticket severity enable better prioritization and faster resolution of critical issues.",
-            icon: <QueryStatsIcon style={iconSize} />,
+            title: "Enhanced Ticket Severity Management",
+            description: ["Accurate determination and communication of ticket severity enable better prioritization and faster resolution of critical issues."],
+            image: <QueryStatsIcon style={iconSizeBO} />,
         },
         {
-            outcome: "Streamlined Collaboration",
-            caption: "Efficient communication and collaboration between support teams lead to quicker ticket resolution, reducing overall response and resolution times.",
-            icon: <MdManageHistory style={iconSize} />,
+            title: "Streamlined Collaboration",
+            description: ["Efficient communication and collaboration between support teams lead to quicker ticket resolution, reducing overall response and resolution times."],
+            image: <MdManageHistory style={iconSizeBO} />,
         },
         {
-            outcome: "Increased Customer Satisfaction",
-            caption: "By addressing customer concerns quickly and efficiently can enhance the customer experience, resulting in higher satisfaction levels and positive brand perception.",
-            icon: <LocalLibraryIcon style={iconSize} />,
+            title: "Increased Customer Satisfaction",
+            description: ["By addressing customer concerns quickly and efficiently can enhance the customer experience, resulting in higher satisfaction levels and positive brand perception."],
+            image: <LocalLibraryIcon style={iconSizeBO} />,
         },
         {
-            outcome: "Improved Operational Efficiency",
-            caption: "Automating ticket assignment and streamlining collaboration can optimize resource allocation, improve productivity, and reduce operational costs.",
-            icon: <ConstructionIcon style={iconSize} />,
+            title: "Improved Operational Efficiency",
+            description: ["Automating ticket assignment and streamlining collaboration can optimize resource allocation, improve productivity, and reduce operational costs."],
+            image: <ConstructionIcon style={iconSizeBO} />,
         },
         {
-            outcome: "Enhanced Escalation Process",
-            caption: "Streamlined escalation process ensures that critical support tickets are promptly escalated to the appropriate teams or higher-level support.",
-            icon: <SchoolIcon style={iconSize} />,
+            title: "Enhanced Escalation Process",
+            description: ["Streamlined escalation process ensures that critical support tickets are promptly escalated to the appropriate teams or higher-level support."],
+            image: <SchoolIcon style={iconSizeBO} />,
         },
     ],
     solutionHighlights: [
@@ -121,7 +130,7 @@ export const SmartSupportFramework = {
         },
     ],
     demo: {
-        link: [ demoVideo, demoVideo2 ],
+        link: [demoVideo, demoVideo2],
     },
     tryit: {
         link: ""
@@ -129,36 +138,36 @@ export const SmartSupportFramework = {
     // demo: {
     //     link: { demoVideo2 },
     // },
-    FAQs : [
+    FAQs: [
         {
-          question: "What is the purpose of the Smart Support Framework?",
-          answer: "The Smart Support Framework addresses challenges in managing support tickets efficiently by automating ticket assignments, offering prompt severity feedback, and enabling seamless collaboration among teams for effective issue resolution."
+            question: "What is the purpose of the Smart Support Framework?",
+            answer: "The Smart Support Framework addresses challenges in managing support tickets efficiently by automating ticket assignments, offering prompt severity feedback, and enabling seamless collaboration among teams for effective issue resolution."
         },
         {
-          question: "Who are the target users for the Smart Support Framework?",
-          answer: "The target users include Ticket Requesters, Support Representatives, Support Managers, and System Administrators. These users are involved in submitting support tickets, managing and resolving tickets, overseeing support teams, and configuring/maintaining the support ticket management system."
+            question: "Who are the target users for the Smart Support Framework?",
+            answer: "The target users include Ticket Requesters, Support Representatives, Support Managers, and System Administrators. These users are involved in submitting support tickets, managing and resolving tickets, overseeing support teams, and configuring/maintaining the support ticket management system."
         },
         {
-          question: "What are the key outcomes expected from implementing the Smart Support Framework?",
-          answer: "The expected outcomes include improved response time, enhanced ticket severity management, streamlined collaboration leading to quicker ticket resolution, increased customer satisfaction, improved operational efficiency through automation, and a streamlined escalation process for critical support tickets."
+            question: "What are the key outcomes expected from implementing the Smart Support Framework?",
+            answer: "The expected outcomes include improved response time, enhanced ticket severity management, streamlined collaboration leading to quicker ticket resolution, increased customer satisfaction, improved operational efficiency through automation, and a streamlined escalation process for critical support tickets."
         },
         {
-          question: "What are the highlights of the Smart Support Framework solution?",
-          answer: "The solution includes intelligent routing of support tickets using Open AI, contextual search for fast and efficient support, acknowledgment and priority assignment for support requests, identification of patterns for improved collaboration, and sentiment monitoring to ensure satisfactory responses are generated."
+            question: "What are the highlights of the Smart Support Framework solution?",
+            answer: "The solution includes intelligent routing of support tickets using Open AI, contextual search for fast and efficient support, acknowledgment and priority assignment for support requests, identification of patterns for improved collaboration, and sentiment monitoring to ensure satisfactory responses are generated."
         },
         {
-          question: "How does the Smart Support Framework address pain points in support ticket management?",
-          answer: "The solution addresses challenges such as delays and uncertainty in ticket severity, inefficient collaboration among support teams, and overall difficulties in managing support tickets efficiently. It achieves this through automated ticket assignment, timely severity feedback, and seamless collaboration."
+            question: "How does the Smart Support Framework address pain points in support ticket management?",
+            answer: "The solution addresses challenges such as delays and uncertainty in ticket severity, inefficient collaboration among support teams, and overall difficulties in managing support tickets efficiently. It achieves this through automated ticket assignment, timely severity feedback, and seamless collaboration."
         },
         {
-          question: "What role does Open AI play in the Smart Support Framework?",
-          answer: "Open AI is utilized for intelligent routing of support tickets, enhancing the efficiency of the ticket assignment process and contributing to fast and accurate support."
+            question: "What role does Open AI play in the Smart Support Framework?",
+            answer: "Open AI is utilized for intelligent routing of support tickets, enhancing the efficiency of the ticket assignment process and contributing to fast and accurate support."
         },
         {
-          question: "Is there a demo available for the Smart Support Framework?",
-          answer: "Yes, you can watch the demo video by following this link: [Demo Video](demoVideo)."
+            question: "Is there a demo available for the Smart Support Framework?",
+            answer: "Yes, you can watch the demo video by following this link: [Demo Video](demoVideo)."
         }
-      ]    
+    ]
 };
 
 export default SmartSupportFramework;

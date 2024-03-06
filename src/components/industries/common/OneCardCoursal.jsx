@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import React, { useEffect } from "react";
+import { Row } from "react-bootstrap";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -35,7 +35,7 @@ const OneCardCoursal = (props) => {
   return (
     <section class="target-section" style={{ backgroundColor: "white" }}>
       <Row
-        className="slick-list2 draggable fade-in product-overview d-flex justify-content-center "
+        className="slick-list2 draggable fade-in product-overview d-flex justify-content-center"
         style={{ backgroundColor: "white" }}
       >
         {props.heading && <h3 class="head-block-center">{props.heading}</h3>}
