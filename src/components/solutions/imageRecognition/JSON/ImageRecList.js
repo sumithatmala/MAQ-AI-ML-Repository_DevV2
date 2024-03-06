@@ -1,24 +1,24 @@
-import case_targeted_advertising_system from "./case-targeted-advertising-system.webp"
-import case_customer_analytics_ai_nlp from "./case-customer-analytics-ai-nlp.webp"
-import case_customer_review_analytics_solution from "./case-customer-review-analytics-solution.webp"
-import case_predictive_models_improve_debt_collection_process from "./case-predictive-models.webp"
-import python from "./python.png"
-import scikit from "./scikit-learn.png"
-import spark from "./spark.png"
-import tensorflow from "./tensorflow.png"
-import health from "./health.svg"
-import logistics from "./logistics.svg"
-import Media from "./media.svg"
-import retail from "./retail.svg"
-import robot from "./robot.svg"
-import automobile from "./automobile.svg"
-import one from "./1.png"
-import two from "./2.png"
-import three from "./3.png"
-import four from "./4.png"
-import collect from "./collect.svg"
-import evaluate from "./evaluate.svg"
-import train from "./train.svg"
+import case_targeted_advertising_system from "../img/case-targeted-advertising-system.webp"
+import case_customer_analytics_ai_nlp from "../img/case-customer-analytics-ai-nlp.webp"
+import case_customer_review_analytics_solution from "../img/case-customer-review-analytics-solution.webp"
+import case_predictive_models_improve_debt_collection_process from "../img/case-predictive-models.webp"
+import python from "../img/python.png"
+import scikit from "../img/scikit-learn.png"
+import spark from "../img/spark.png"
+import tensorflow from "../img/tensorflow.png"
+import health from "../img/health.svg"
+import logistics from "../img/logistics.svg"
+import Media from "../img/media.svg"
+import retail from "../img/retail.svg"
+import robot from "../img/robot.svg"
+import automobile from "../img/automobile.svg"
+import one from "../img/1.png"
+import two from "../img/2.png"
+import three from "../img/3.png"
+import four from "../img/4.png"
+import collect from "../img/collect.svg"
+import evaluate from "../img/evaluate.svg"
+import train from "../img/train.svg"
 
 export const process = [
     {topic: "Collect", disc:"We collect datasets, label images, and add meta tags to each unlabeled picture", img: <img src={collect} height={100} alt="Collect"/>},
@@ -28,7 +28,7 @@ export const process = [
 
 export const industrialCards = [
     // {label: "Industries", disc:"Our team of machine learning experts has earned global trust by delivering custom solutions for various industries. Specializing in on-demand computer vision and image recognition software development, we customize solutions to address industry-specific needs. Our clientele spans diverse sectors including logistics, retail, media & entertainment, healthcare, and more.", img: ""},
-    {label: "Logistics", disc:"Analyze, plan, design, and control transferring processes, cargo locations, routes, etc.; monitor delivery status in real time by using ML algorithms for image processing.", img: <img src={logistics} alt="Logistics" width={100}></img>},
+    {label: "Logistics", disc:"Utilize machine learning algorithms for image processing to analyze, plan, design, and control transferring processes, cargo locations, routes, and monitor delivery status in real time.", img: <img src={logistics} alt="Logistics" width={100}></img>},
     {label: "Media", disc:"Get a solid bespoke solution developed for your needs to analyze visual content, provide your consumers with highly accurate and diverse recommendations, foster user engagement, and reach new audiences.", img: <img src={Media} alt="Media" width={100}></img>},
     {label: "Digital Health", disc:"Facilitate analysis of medical images, enable computer-aided diagnostics, allow predictive analytics and therapy, enhance mobile healthcare apps with custom computer vision software development.", img: <img src={health} alt="Health" width={100}></img>},
     {label: "Retail", disc:"Improve search experience by developing image recognition and analysis software solutions to please your customers with intelligent search by photo and help them find merchandise easily.", img: <img src={retail} alt="Retail" width={100}></img>},

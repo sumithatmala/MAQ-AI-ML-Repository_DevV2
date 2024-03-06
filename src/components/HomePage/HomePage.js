@@ -39,7 +39,7 @@ const HomePage = () => {
         </div>
         <div className='container mid-section parent-middle-sections' style={{marginTop:"-3rem"}}>
           <GridOfCards items={{ item: reviewData, NoCards: 4, title: "Our services", contactLink: "./ContactUs" }} />
-          <AlternateBanner banners={bannerData} count={0} ContactBtn={false} />
+          <AlternateBanner banners={bannerData} count={0} ContactBtn={false} backHighlights={true}/>
           {/* <OneCardCarousel items={OneCardData} /> */}
           <ServiceGrid  items = {transformIndustries} title={"Transforing Industries"} desc={"We welcome opportunities to work alongside different teams over projects of any complexity. By working together, we will develop new systems, solutions, and products to separate you from your competition."}/>
         </div>

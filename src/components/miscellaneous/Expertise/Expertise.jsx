@@ -1,4 +1,5 @@
 import "./css/expertise.css"
+
 //data
 import increasingCardData from "./JSON/increasingCardsData"
 import whyWorkWithUsData from "./JSON/whyWorkWithUsData";

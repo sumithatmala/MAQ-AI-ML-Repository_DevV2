@@ -4,6 +4,27 @@
     display: flex;
 }
 
+.BannerVisualLft ._backimg {
+    position: absolute;
+    width: 172px;
+    height: 132px;
+    background-color: #da828d;
+    margin-top: 150px;
+    z-index: -1;
+    border-radius: 10px;
+    margin-left: -20px;
+}
+.BannerVisualRgt ._backimg {
+    position: absolute;
+    width: 172px;
+    height: 132px;
+    background-color: #da828d;
+    margin-top: 150px;
+    z-index: -1;
+    border-radius: 10px;
+    margin-left: 295px;
+}
+
 .BannerVisualRgt {
     margin: 40px 20px;
     padding: 10px;
@@ -22,7 +43,8 @@
     align-items: center;
     align-content: center;
     display: flex;
-    margin: 20px;
+    margin: 10px;
+    padding: 10px;
 }
 .ImgContainer img{
     border-radius: 8px;
@@ -63,32 +85,34 @@ li::marker {
 }
 
 @media (max-width: 1024px) {
+    ._backimg {
+        display: none;
+    }
+
     .BannerVisualLft {
+        margin: 0;
         width: 100%;
         flex-direction: column;
     }
     
     .BannerVisualRgt {
+        margin: 0;
         width: 100%;
         flex-direction: column;
     }
 
     .BannerVisualRgt .ImgContainer {
-        margin: 0;
-        /* margin-left: 10px; */
-        /* margin-right: 5rem; */
+        margin-left: 0;
     }
-
     .BannerVisualLft .ImgContainer {
-        margin: 0;
-        /* margin-right: 5rem; */
+        margin-right: 0;
     }
 
     .ImgContainer {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin:10px;
+        margin: 0;
     }
     .ImgContainer svg{
         width: 400px;
@@ -115,7 +139,7 @@ li::marker {
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 580px) {
     .BannerVisualLft {
         width: 100%;
         flex-direction: column;
@@ -127,12 +151,12 @@ li::marker {
     }
 
     .BannerVisualRgt .ImgContainer {
-        margin-left: 20px;
+        margin-left: 10px;
         margin-right: 0;
     }
 
     .BannerVisualLft .ImgContainer {
-        margin-left: 20px;
+        margin-left: 10px;
         margin-right: 0;
     }
 
