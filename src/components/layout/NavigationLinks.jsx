@@ -235,36 +235,30 @@ const NavigationLinks = [
     label: "Solutions",
     submenu: [
       {
-        label: "Virtual Assistant Tool", 
-        link: "/solution/VirtualAssistantTool",
-        icon: <img src={bot_icon} alt=""  width={30}/>,
+        label: "Consumer Sentiment Analysis",
+        link: "/solution/ConsumerSentimentAnalysis",
+        icon: <img src={sentiment_icon} alt=""  width={30}/>,
       },
       {
         label: "Custom Large Language Models",
         link: "/solution/LargeLanguageModel",
         icon: <img src={LLM_icon} alt=""  width={30}/>,
       },
+      {
+        label: "Data capture & OCR",
+        link: "./solution/DataCaptureOCR",
+        icon: <img src={OCR_icon} alt=""  width={30}/>,
+      },
+      { 
+        label: "Image Recognition", 
+        link: "./solution/ImageRecognition",
+        icon: <img src={image_icon} alt=""  width={30}/>,
+      },
       { 
         label: "Natural Language Processing", 
         link: "/solution/NaturalLanguageProcessing",
         icon: <img src={NLP_icon} alt=""  width={30}/>,
       },
-      {
-        label: "Consumer Sentiment Analysis",
-        link: "/solution/ConsumerSentimentAnalysis",
-        icon: <img src={sentiment_icon} alt=""  width={30}/>,
-      },
-      { 
-        label: "Text Analysis", 
-        link: "./solution/TextAnalysis",
-        icon: <img src={textAnalysis_icon} alt=""  width={30}/>,
-      },
-      // {
-      //   label: "Al Call Center Solutions",
-      //   link:
-      //   icon: "/icons/dataV.svg",
-      //   alt: "data",
-      // },
       {
         label: "Predictive Analytics",
         link: "/solution/PredictiveAnalytics",
@@ -275,42 +269,43 @@ const NavigationLinks = [
         link: "/Industries/RecommendationSystems",
         icon: <img src={like_icon} alt=""  width={30}/>,
       },
+      { 
+        label: "Text Analysis", 
+        link: "./solution/TextAnalysis",
+        icon: <img src={textAnalysis_icon} alt=""  width={30}/>,
+      },
+      {
+        label: "Virtual Assistant Tool", 
+        link: "/solution/VirtualAssistantTool",
+        icon: <img src={bot_icon} alt=""  width={30}/>,
+      },
+      // {
+      //   label: "Al Call Center Solutions",
+      //   link:
+      //   icon: "/icons/dataV.svg",
+      //   alt: "data",
+      // },
       // { 
       //   label: "Computer Vision", 
       //   link: "./solution/ComputerVision",
       //   icon: "/icons/dataV.svg",
       //   alt: "data",
       // },
-      { 
-        label: "Image Recognition", 
-        link: "./solution/ImageRecognition",
-        icon: <img src={image_icon} alt=""  width={30}/>,
-      },
       // {
       //   label: "Pose Estimation",
       //   link:
       //   icon: "/icons/dataV.svg",
       //   alt: "data",
       // },
-      {
-        label: "Data capture & OCR",
-        link: "./solution/DataCaptureOCR",
-        icon: <img src={OCR_icon} alt=""  width={30}/>,
-      },
     ],
   },
   {
     label: "Industries",
     submenu: [
       {
-        label: "Healthcare & Pharma",
-        link: "/Industries/Health&Pharma",
-        icon: <img src={health_icon} alt=""  width={30}/>,
-      },
-      {
-        label: "Sport & Wellness",
-        link: "/Industries/SportWellness",
-        icon: <img src={sports_icon} alt="" width={30}/>,
+        label: "Automotive",
+        link: "/Industries/Automotive",
+        icon: <img src={automobile_icon} alt="" width={30}/>,
       },
       {
         label: "E-commerce",
@@ -318,19 +313,9 @@ const NavigationLinks = [
         icon: <img src={ecommerce_icon} alt="" width={30}/>,
       },
       {
-        label: "MarTech",
-        link: "/Industries/MarTech",
-        icon: <img src={marketing_icon} alt="" width={30}/>,
-      },
-      {
-        label: "Automotive",
-        link: "/Industries/Automotive",
-        icon: <img src={automobile_icon} alt="" width={30}/>,
-      },
-      {
-        label: "Logistics",
-        link: "/Industries/Logistics",
-        icon: <img src={logistics_icon} alt="" width={30}/>,
+        label: "Fintech",
+        link: "/Industries/Fintech",
+        icon: <img src={fintech_icon} alt="" width={30}/>,
       },
       {
         label: "Game & Entertainment",
@@ -338,19 +323,33 @@ const NavigationLinks = [
         icon: <img src={game_icon} alt="" width={30}/>,
       },
       {
-        label: "Fintech",
-        link: "/Industries/Fintech",
-        icon: <img src={fintech_icon} alt="" width={30}/>,
+        label: "Healthcare & Pharma",
+        link: "/Industries/Health&Pharma",
+        icon: <img src={health_icon} alt=""  width={30}/>,
+      },
+      {
+        label: "Logistics",
+        link: "/Industries/Logistics",
+        icon: <img src={logistics_icon} alt="" width={30}/>,
+      },
+      {
+        label: "MarTech",
+        link: "/Industries/MarTech",
+        icon: <img src={marketing_icon} alt="" width={30}/>,
       },
       {
         label: "Retail",
         link: "/Industries/Retail",
         icon: <img src={retail_icon} alt="" width={30}/>,
       },
+      {
+        label: "Sport & Wellness",
+        link: "/Industries/SportWellness",
+        icon: <img src={sports_icon} alt="" width={30}/>,
+      },
     ],
   },
   // { label: "Blog", link: "#" },
-  // { label: "Contact", link: "#" },
   { label: "Contact Us", link: "./ContactUs" },
 ];
 
