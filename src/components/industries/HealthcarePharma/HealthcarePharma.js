@@ -14,6 +14,7 @@ import ServiceProvide from "./ServiceProvides";
 import BigData from "./BigDataPharma";
 import OneCardCoursal from "../common/OneCardCoursal";
 import OCDataHealth from "./CarouselDataHealth";
+import BiotechDigitalTransformation from "../../solutions/common/accordion2";
 
 const HealtcarePharma = () => {
   return (
@@ -41,6 +42,8 @@ const HealtcarePharma = () => {
           </div>
         </div>
       </section>
+
+      <BiotechDigitalTransformation />
 
       <div style={{ display: "flex", justifyContent: "center" }}>
         <AccordionStatic
