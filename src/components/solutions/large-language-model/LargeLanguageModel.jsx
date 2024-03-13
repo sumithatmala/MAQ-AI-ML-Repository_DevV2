@@ -24,7 +24,9 @@ const LargeLanguageModel = () => {
       <div>
         <Banner BannerData={BannerData} />
         <Benfits />
+        <section className="usecases">
         <UseCases />
+        </section>
         {/* <Industries /> */}
         <div style={{width:"100%",display:"flex", justifyContent:"center", textAlign:"center"}}>
         <div style={{maxWidth:"1126px", }}>

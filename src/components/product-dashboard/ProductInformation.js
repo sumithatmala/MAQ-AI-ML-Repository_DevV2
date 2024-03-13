@@ -14,7 +14,7 @@ import ProductContactUs from "./ProductContactUs";
 import "./css/target-users.css";
 import FAQs from "./FAQs";
 import ContactForm from "../solutions/common/contactForm";
-import CustomerSuccess from "../solutions/common/CustomerSuccess"
+import CustomerSuccess from "../solutions/common/CustomerSuccess";
 
 import AnimatedDevelopment from "./icons/AnimatedDevelopment";
 import AnimatedOutcome from "./icons/AnimatedOutcome";
@@ -121,7 +121,11 @@ const ProductInformation = () => {
             productDetails.targetUsers.length > 0 && (
               <section
                 class="target-section"
-                style={{ backgroundColor: "white" , paddingTop:"50px", margin:"0"}}
+                style={{
+                  backgroundColor: "white",
+                  paddingTop: "50px",
+                  margin: "0",
+                }}
               >
                 <GridOfCards
                   items={{
@@ -135,8 +139,13 @@ const ProductInformation = () => {
 
           {/*business outcomes */}
           <h3 class="head-block-center">Business Outcomes</h3>
-          <CustomerSuccess items={productDetails.businessOutcomes} CardHeight={"230px"} autoPlay={true} centerUp={true} style={{marginBottom: "0px", paddingBottom:"5rem"}}/>
-          
+          <CustomerSuccess
+            items={productDetails.businessOutcomes}
+            CardHeight={"230px"}
+            autoPlay={true}
+            centerUp={true}
+            style={{ marginBottom: "0px", paddingBottom: "5rem" }}
+          />
 
           {/* Solution Highlights​ */}
           <section className="bannerCenter">
@@ -162,7 +171,7 @@ const ProductInformation = () => {
                     <div
                       className="product-container"
                       data-aos="fade-left"
-                      style={{ display: "Block"}}
+                      style={{ display: "Block" }}
                     >
                       <h3 style={{ color: "black" }}>Solution Highlights</h3>
                       <ul className="bulletStyle">
@@ -192,129 +201,158 @@ const ProductInformation = () => {
               <>
                 <Row id="prodinfo" className="product-overview">
                   {/* <AlternateBanner banners={productDetails.summary1} ContactBtn={false} /> */}
-                  <div className="sum" style={{margin: "1rem 10px",alignItems:"center", justifyContent:"center"}}>
-                  {productDetails.summary.map((highlights, index) =>
-                    index === 0 ? (
-                      <Row key={index} style={{margin: "6rem 10px",alignItems:"center", justifyContent:"center"}}>
-                        <Col data-aos="fade-right">
-                          <div
-                            className="product-container"
-                            style={{ display: "block" }}
-                          >
-                            <h3>{highlights.title}</h3>
-                            <ul className="bulletStyle">
-                              {highlights.details.map((highlight, index) => (
-                                <li
-                                  key={index}
-                                  style={{
-                                    color: "#141414",
-                                    position: "relative",
-                                    paddingLeft: "1.2em",
-                                  }}
-                                >
-                                  {highlight}
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                        </Col>
-                        <Col>
-                          <div
-                            className="icon-container"
-                            style={{
-                              display: "flex",
-                              flexDirection: "column",
-                              alignItems: "center",
-                            }}
-                          >
-                            <div className="icons_res">
-                              <AnimatedDevelopment />
-                            </div>
-                          </div>
-                        </Col>
-                      </Row>
-                    ) : index === 2 ? (
-                      <Row key={index} style={{margin: "6rem 10px",alignItems:"center", justifyContent:"center"}}>
-                        <Col data-aos="fade-right">
-                          <div
-                            className="product-container"
-                            style={{ display: "block" }}
-                          >
-                            <h3>{highlights.title}</h3>
-                            <ul className="bulletStyle">
-                              {highlights.details.map((highlight, index) => (
-                                <li
-                                  key={index}
-                                  style={{
-                                    color: "#141414",
-                                    position: "relative",
-                                    paddingLeft: "1.2em",
-                                  }}
-                                >
-                                  {" "}
-                                  {highlight}
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                        </Col>
-                        <Col>
-                          <div
-                            className="icon-container"
-                            style={{
-                              display: "flex",
-                              flexDirection: "column",
-                              alignItems: "center",
-                            }}
-                          >
-                            <div className="icons_res">
-                              <AnimatedOutcome />
-                            </div>
-                          </div>
-                        </Col>
-                      </Row>
-                    ) : (
-                      <Row key={index} className="row2" style={{margin: "6rem 10px",alignItems:"center", justifyContent:"center"}}>
-                        <Col>
-                          <div
-                            className="icon-container"
-                            style={{
-                              display: "flex",
-                              flexDirection: "column",
-                              alignItems: "center",
-                            }}
-                          >
-                            <div className="icons_res">
-                              <AnimatedSolution />
-                            </div>
-                          </div>
-                        </Col>
-                        <Col data-aos="fade-left">
-                          <div
-                            className="product-container"
-                            style={{ display: "block" }}
-                          >
-                            <h4>{highlights.title}</h4>
-                            <ul className="bulletStyle">
-                              {highlights.details.map((highlight, index) => (
-                                <li
-                                  key={index}
-                                  style={{
-                                    position: "relative",
-                                    paddingLeft: "1em",
-                                  }}
-                                >
-                                  <span style={{ color: "#141414" }}>
+                  <div
+                    className="sum"
+                    style={{
+                      margin: "1rem 10px",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    {productDetails.summary.map((highlights, index) =>
+                      index === 0 ? (
+                        <Row
+                          key={index}
+                          style={{
+                            margin: "6rem 10px",
+                            alignItems: "center",
+                            justifyContent: "center",
+                          }}
+                        >
+                          <Col data-aos="fade-right">
+                            <div
+                              className="product-container"
+                              style={{ display: "block" }}
+                            >
+                              <h3>{highlights.title}</h3>
+                              <ul className="bulletStyle">
+                                {highlights.details.map((highlight, index) => (
+                                  <li
+                                    key={index}
+                                    style={{
+                                      color: "#141414",
+                                      position: "relative",
+                                      paddingLeft: "1.2em",
+                                    }}
+                                  >
                                     {highlight}
-                                  </span>
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                        </Col>
-                      </Row>
-                    )
-                  )}
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          </Col>
+                          <Col>
+                            <div
+                              className="icon-container"
+                              style={{
+                                display: "flex",
+                                flexDirection: "column",
+                                alignItems: "center",
+                              }}
+                            >
+                              <div className="icons_res">
+                                <AnimatedDevelopment />
+                              </div>
+                            </div>
+                          </Col>
+                        </Row>
+                      ) : index === 2 ? (
+                        <Row
+                          key={index}
+                          style={{
+                            margin: "6rem 10px",
+                            alignItems: "center",
+                            justifyContent: "center",
+                          }}
+                        >
+                          <Col data-aos="fade-right">
+                            <div
+                              className="product-container"
+                              style={{ display: "block" }}
+                            >
+                              <h3>{highlights.title}</h3>
+                              <ul className="bulletStyle">
+                                {highlights.details.map((highlight, index) => (
+                                  <li
+                                    key={index}
+                                    style={{
+                                      color: "#141414",
+                                      position: "relative",
+                                      paddingLeft: "1.2em",
+                                    }}
+                                  >
+                                    {" "}
+                                    {highlight}
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          </Col>
+                          <Col>
+                            <div
+                              className="icon-container"
+                              style={{
+                                display: "flex",
+                                flexDirection: "column",
+                                alignItems: "center",
+                              }}
+                            >
+                              <div className="icons_res">
+                                <AnimatedOutcome />
+                              </div>
+                            </div>
+                          </Col>
+                        </Row>
+                      ) : (
+                        <Row
+                          key={index}
+                          className="row2"
+                          style={{
+                            margin: "6rem 10px",
+                            alignItems: "center",
+                            justifyContent: "center",
+                          }}
+                        >
+                          <Col>
+                            <div
+                              className="icon-container"
+                              style={{
+                                display: "flex",
+                                flexDirection: "column",
+                                alignItems: "center",
+                              }}
+                            >
+                              <div className="icons_res">
+                                <AnimatedSolution />
+                              </div>
+                            </div>
+                          </Col>
+                          <Col data-aos="fade-left">
+                            <div
+                              className="product-container"
+                              style={{ display: "block" }}
+                            >
+                              <h4>{highlights.title}</h4>
+                              <ul className="bulletStyle">
+                                {highlights.details.map((highlight, index) => (
+                                  <li
+                                    key={index}
+                                    style={{
+                                      position: "relative",
+                                      paddingLeft: "1em",
+                                    }}
+                                  >
+                                    <span style={{ color: "#141414" }}>
+                                      {highlight}
+                                    </span>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          </Col>
+                        </Row>
+                      )
+                    )}
                   </div>
                 </Row>
               </>
@@ -330,8 +368,8 @@ const ProductInformation = () => {
       {/* <ProductContactUs /> */}
       {productDetails.FAQs && productDetails.FAQs.length > 0 && (
         <FAQs FAQs={productDetails.FAQs} />
-        )}
-        <ContactForm/>
+      )}
+      <ContactForm />
     </>
   );
 };
