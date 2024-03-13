@@ -40,120 +40,125 @@ const ContactUs = () => {
         </div>
       </section>
 
-      <section className="social_media">
-        <div className="social_flex">
-          <div className="social_image">
-            <img src={media} alt="Contact Us at MAQ Software" />
-          </div>
-          <div className="social_content">
-            <div className="media_links">
-              <h3>Get help on social media</h3>
-              <div className="social_medias">
-                <div className="line line1">
-                  <a
-                    className="social_name"
-                    href="https://www.linkedin.com/company/maq-software/"
-                  >
-                    <LinkedIn />
-                    Linkedin
-                  </a>
-                  <a
-                    className="social_name"
-                    href="https://www.facebook.com/maqsoftware"
-                  >
-                    <Facebook />
-                    Facebook
-                  </a>
-                  <a
-                    className="social_name"
-                    href="https://twitter.com/MAQSoftware"
-                  >
-                    <Twitter />
-                    Twitter
-                  </a>
+      <section className="color_foot">
+        <section className="social_media">
+          <div className="social_flex">
+            <div className="social_image">
+              <img src={media} alt="Contact Us at MAQ Software" />
+            </div>
+            <div className="social_content">
+              <div className="media_links">
+                <h3>Get help on social media</h3>
+                <div className="social_medias">
+                  <div className="line line1">
+                    <a
+                      className="social_name"
+                      href="https://www.linkedin.com/company/maq-software/"
+                    >
+                      <LinkedIn />
+                      Linkedin
+                    </a>
+                    <a
+                      className="social_name"
+                      href="https://www.facebook.com/maqsoftware"
+                    >
+                      <Facebook />
+                      Facebook
+                    </a>
+                    <a
+                      className="social_name"
+                      href="https://twitter.com/MAQSoftware"
+                    >
+                      <Twitter />
+                      Twitter
+                    </a>
+                  </div>
+                  <div className="line line2">
+                    <a
+                      className="social_name"
+                      href="https://github.com/maqsoftware"
+                    >
+                      <GitHub style={{ fill: "black" }} />
+                      Git Hub
+                    </a>
+                    <a
+                      className="social_name"
+                      href="https://www.youtube.com/user/maqsoftware"
+                    >
+                      <YouTube style={{ fill: "red" }} />
+                      You Tube
+                    </a>
+                  </div>
                 </div>
-                <div className="line line2">
-                  <a
-                    className="social_name"
-                    href="https://github.com/maqsoftware"
-                  >
-                    <GitHub style={{ fill: "black" }} />
-                    Git Hub
-                  </a>
-                  <a
-                    className="social_name"
-                    href="https://www.youtube.com/user/maqsoftware"
-                  >
-                    <YouTube style={{ fill: "red" }} />
-                    You Tube
-                  </a>
+              </div>
+              <div className="email_web">
+                <h4>For more information email us or visit our website</h4>
+                <div className="email_web_links">
+                  <div className="line">
+                    {/* <div className="line email"> */}
+                    <a
+                      className="social_name"
+                      href="mailto:info@maqsoftware.com"
+                    >
+                      <Email style={{ fill: "black" }} /> email
+                    </a>
+                    {/* </div> */}
+                    {/* <div className="line web"> */}
+                    <a className="social_name" href="maqsoftware.com">
+                      <FaGlobe style={{ fill: "black" }} /> website
+                    </a>
+                    {/* </div> */}
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="email_web">
-              <h4>For more information email us or visit our website</h4>
-              <div className="email_web_links">
-                <div className="line">
-                  {/* <div className="line email"> */}
-                  <a className="social_name" href="mailto:info@maqsoftware.com">
-                    <Email style={{ fill: "black" }} /> email
-                  </a>
-                  {/* </div> */}
-                  {/* <div className="line web"> */}
-                  <a className="social_name" href="maqsoftware.com">
-                    <FaGlobe style={{ fill: "black" }} /> website
-                  </a>
-                  {/* </div> */}
-                </div>
-              </div>
-            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="locations">
-        <div className="location_width">
-          <div className="our_location">
-            <h3>Our Locations</h3>
-          </div>
-          <div className="location_item">
-            <div className="place_center">
-              <div className="box1">
-                <div className="place">
-                  <span className="subheading">Redmond</span>
-                  <br></br>2027 152nd Avenue NE
-                  <br></br>Redmond, WA 98052
+        <section className="locations">
+          <div className="location_width">
+            <div className="our_location">
+              <h3>Our Locations</h3>
+            </div>
+            <div className="location_item">
+              <div className="place_center">
+                <div className="box1">
+                  <div className="place">
+                    <span className="subheading">Redmond</span>
+                    <br></br>2027 152nd Avenue NE
+                    <br></br>Redmond, WA 98052
+                  </div>
+                  <div className="place">
+                    <span className="subheading">Hyderabad</span>
+                    <br></br> Level 7, Astro, aVance Business Hub
+                    <br></br> Behind Dell Campus
+                    <br></br> HITEC City 2, Madhapur
+                    <br></br> Hyderabad 500 081
+                    <br></br> +91 40 4010 0570
+                  </div>
                 </div>
-                <div className="place">
-                  <span className="subheading">Hyderabad</span>
-                  <br></br> Level 7, Astro, aVance Business Hub
-                  <br></br> Behind Dell Campus
-                  <br></br> HITEC City 2, Madhapur
-                  <br></br> Hyderabad 500 081
-                  <br></br> +91 40 4010 0570
-                </div>
-              </div>
-              <div className="box2">
-                <div className="place">
-                  <span className="subheading">Mumbai</span>
-                  <br></br>201, Meadows Building
-                  <br></br>Sahar Plaza on Andheri Kurla Road <br></br> Andheri
-                  East
-                  <br></br>Mumbai 400 059
-                  <br></br>+91 908 256 1327
-                </div>
-                <div className="place">
-                  <span className="subheading">Noida</span>
-                  <br></br>Express Trade Towers 2<br></br>B-36, Tower 3, Second
-                  Floor
-                  <br></br>Sector 132
-                  <br></br>NOIDA 201 301
-                  <br></br>+91 908 256 1327
+                <div className="box2">
+                  <div className="place">
+                    <span className="subheading">Mumbai</span>
+                    <br></br>201, Meadows Building
+                    <br></br>Sahar Plaza on Andheri Kurla Road <br></br> Andheri
+                    East
+                    <br></br>Mumbai 400 059
+                    <br></br>+91 908 256 1327
+                  </div>
+                  <div className="place">
+                    <span className="subheading">Noida</span>
+                    <br></br>Express Trade Towers 2<br></br>B-36, Tower 3,
+                    Second Floor
+                    <br></br>Sector 132
+                    <br></br>NOIDA 201 301
+                    <br></br>+91 908 256 1327
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </section>
 
       <div>

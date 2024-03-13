@@ -17,6 +17,9 @@ import ContactForm from "../common/contactForm";
 import GridOfCards from "../common/GridOfCards";
 import AlternateBanner from "../common/alternateBanner";
 import AlternateBannerData from "./JSONData/AlternateBannerData"
+import AccessibleTabs from "../common/LLM Accordion/AccessibleTabs";
+import AccessibleTabsData from "./useCasesData";
+
 
 const LargeLanguageModel = () => {
   return (
@@ -24,6 +27,10 @@ const LargeLanguageModel = () => {
       <div>
         <Banner BannerData={BannerData} />
         <Benfits />
+
+        <section className="access_tabs">
+          <AccessibleTabs  tabsData={AccessibleTabsData} />
+        </section>
         <section className="usecases">
         <UseCases />
         </section>
