@@ -22,7 +22,9 @@ const AlternateBanner = ({banners,ContactBtn=false,backHighlights=false}) => {
                                     })}
                                 </ul>
                             )}
-                            {ContactBtn?(<HashLink  to="./#contact" className="btn btn-empty" style={{width: "fit-content"}}> Contact Us </HashLink>):(<></>)}
+                            <div className="block__action">
+                                {ContactBtn?(<HashLink  to="./#contact" className="btn btn-empty" style={{width: "fit-content"}}> Contact Us </HashLink>):(<></>)}
+                            </div>
                         </div>
                     </div>
                 )
