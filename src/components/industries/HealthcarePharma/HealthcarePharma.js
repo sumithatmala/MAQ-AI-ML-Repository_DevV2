@@ -14,6 +14,7 @@ import ServiceProvide from "./ServiceProvides";
 import BigData from "./BigDataPharma";
 import OneCardCoursal from "../common/OneCardCoursal";
 import OCDataHealth from "./CarouselDataHealth";
+import Accordion from "./CustomAccordion/AccordionReact";
 
 const HealtcarePharma = () => {
   return (
@@ -42,6 +43,8 @@ const HealtcarePharma = () => {
         </div>
       </section>
 
+      
+
       <div style={{ display: "flex", justifyContent: "center" }}>
         <AccordionStatic
           title={"Biotech Digital Transformation"}
@@ -53,6 +56,8 @@ const HealtcarePharma = () => {
       </div>
 
       <OneCardCoursal items={OCDataHealth} />
+
+      {/* <Accordion listItems = {BigData} /> */}
 
       <div style={{ display: "flex", justifyContent: "center" }}>
         <AccordionStatic
