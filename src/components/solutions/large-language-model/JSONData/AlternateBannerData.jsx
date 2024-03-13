@@ -11,7 +11,7 @@ const bannerData = [
         img: <AnimatedTarget/>,
     },
     {
-        heading: "Model Developmen", 
+        heading: "Model Development", 
         details: "Our dedicated team constructs tailored language models using advanced AI techniques and tools. Leveraging natural language processing and machine learning expertise, we design models aligned with your business requirements.",
         points:["User-centric model design","Custom model development","Data preprocessing and cleansing","Seamless model integration"],
         img: <AnimatedDevelopment/>,

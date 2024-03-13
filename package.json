@@ -37,6 +37,7 @@
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "react-spring": "^9.7.3",
+    "react-tabs": "^6.0.2",
     "semantic-ui-react": "^2.1.5",
     "slick-carousel": "^1.8.1",
     "sweetalert2": "^11.10.5",

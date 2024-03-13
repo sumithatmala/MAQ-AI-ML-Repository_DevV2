@@ -69,7 +69,7 @@ export const IntelligentDocumentProcessingBot = {
       image: <QueryStatsIcon style={iconSizeBO} />,
     },
     {
-      title: "Personalised Patient Experience",
+      title: "Personalized Patient Experience",
       description: ["Improved patient experience as healthcare professionals can provide personalized and timely care, considering relevant medical history and preferences."],
       image: <MdManageHistory style={iconSizeBO} />,
     },
