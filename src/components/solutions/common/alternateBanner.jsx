@@ -7,7 +7,7 @@ const AlternateBanner = ({banners,ContactBtn=false,backHighlights=false}) => {
             {banners.map((item,count) => {
                 // console.log(item.points);
                 return (
-                    <div className={'BannerVisual' + (count%2 ? 'Rgt' : 'Lft')}>
+                    <div key={count} className={'BannerVisual' + (count%2 ? 'Rgt' : 'Lft')}>
                         <div className="ImgContainer"> 
                             {item.img} 
                             {backHighlights&&(<div className="_backimg"></div>)}
@@ -17,8 +17,8 @@ const AlternateBanner = ({banners,ContactBtn=false,backHighlights=false}) => {
                             <p>{item.details}</p>
                             {item.points&&(
                                 <ul>
-                                    {item.points.map((point) => {
-                                        return <li>{point}</li>
+                                    {item.points.map((point, index) => {
+                                        return <li key={index}>{point}</li>
                                     })}
                                 </ul>
                             )}

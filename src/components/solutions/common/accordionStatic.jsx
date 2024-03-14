@@ -5,11 +5,11 @@ import Accordion from "../../industries/HealthcarePharma/CustomAccordion/Accordi
 const Description = (props) => {
   return (
     <div className="AccordionDesc">
-      {props.desc.para.map((para) => {
-        return <p> {para} </p>;
+      {props.desc.para.map((para, index) => {
+        return <p key={index}> {para} </p>;
       })}
-      {props.desc.points.map((points) => {
-        return <li> {points} </li>;
+      {props.desc.points.map((points, index) => {
+        return <li key={index}> {points} </li>;
       })}
     </div>
   );
@@ -40,9 +40,9 @@ const AccordionStatic = (props) => {
           <Accordion listItems={props.listItems} />
         ) : (
           <div className="AccordionList" style={{ width: props.titleRatio }}>
-            {props.listItems.map((item) => (
+            {props.listItems.map((item, index) => (
               <div
-                key={item.list}
+                key={index}
                 className={
                   "AccordionListItem" +
                   (selected.list === item.list ? "_selected" : "")

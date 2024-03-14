@@ -6,18 +6,18 @@ import logo_hugging_face from './img/logo-hugging-face.png'
 import logo_flan_t5 from './img/logo-flan-t5.svg'
 const OurTechStack = () => {
   return (
-    <section class="services-section __type-technologies">
-      <div class="services-section-inner">
-        <h2 class="head-block-center">
+    <section className="services-section __type-technologies">
+      <div className="services-section-inner">
+        <h2 className="head-block-center">
           Our Array of Large Language Learning Models
         </h2>
-        <div class="text-block-center">
+        <div className="text-block-center">
           Explore our diverse selection of models tailored to address your business requirements.
         </div>
-        <ul class="services-technologies-list  __with-mobile-slider">
+        <ul className="services-technologies-list  __with-mobile-slider">
           
-          <li class="services-technologies-list__list-item">
-            <div class="services-technologies-list__item">
+          <li className="services-technologies-list__list-item">
+            <div className="services-technologies-list__item">
               
               <img
                 src={logo_open_ai}
@@ -26,8 +26,8 @@ const OurTechStack = () => {
               />
             </div>
           </li>
-          <li class="services-technologies-list__list-item">
-            <div class="services-technologies-list__item">
+          <li className="services-technologies-list__list-item">
+            <div className="services-technologies-list__item">
               
               <img
                 src={logo_llama_2}
@@ -37,8 +37,8 @@ const OurTechStack = () => {
             </div>
           </li>
           
-          <li class="services-technologies-list__list-item">
-            <div class="services-technologies-list__item">
+          <li className="services-technologies-list__list-item">
+            <div className="services-technologies-list__item">
               
               <img
                 src={logo_hugging_face}
@@ -48,8 +48,8 @@ const OurTechStack = () => {
             </div>
           </li>
           
-          <li class="services-technologies-list__list-item">
-            <div class="services-technologies-list__item">
+          <li className="services-technologies-list__list-item">
+            <div className="services-technologies-list__item">
               
               <img
                 src={logo_flan_t5}

@@ -74,8 +74,8 @@ const HealtcarePharma = () => {
         <AlternateBanner banners={AreaExpertise} count={0} ContactBtn={true} />
       </div>
 
-      <h2 class="head-block-center">Services We Provide</h2>
-      <div class="text-block-center">Artificial intelligence solutions in healthcare on demand.</div>
+      <h2 className="head-block-center">Services We Provide</h2>
+      <div className="text-block-center">Artificial intelligence solutions in healthcare on demand.</div>
       <section className="griddd">
         <Grid content={ServiceProvide} />
       </section>

@@ -35,7 +35,7 @@ const Retail = () => {
         </div>
       </section>
 
-      <section class="info-section"><div class="info-section-inner"><h2 class="head-block-center">Our Expertise</h2><div class="text-block-center"> Artificial intelligence in the retail industry: made easy.</div></div></section>
+      <section className="info-section"><div className="info-section-inner"><h2 className="head-block-center">Our Expertise</h2><div className="text-block-center"> Artificial intelligence in the retail industry: made easy.</div></div></section>
 
       
 

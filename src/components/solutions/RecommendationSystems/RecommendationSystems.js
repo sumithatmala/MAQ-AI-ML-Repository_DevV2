@@ -38,12 +38,12 @@ const RecommendationSystems = () => {
         <Alternate banners={bannerData} ContactBtn={false} />
       </div>
 
-      <section class="info-section">
-        <div class="info-section-inner">
-          <h2 class="info-section__title">
+      <section className="info-section">
+        <div className="info-section-inner">
+          <h2 className="info-section__title">
             The Significance of Personalization
           </h2>
-          <div class="info-section__description">
+          <div className="info-section__description">
             <p>
               <b>Customer engagement poses increasing challenges for both online
                 and brick-and-mortar businesses. Empowered by their social

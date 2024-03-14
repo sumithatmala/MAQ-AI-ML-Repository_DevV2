@@ -43,8 +43,8 @@ const Automotive = () => {
         </div>
       </section>
 
-      <section class="info-section">
-        <div class="info-section-inner"></div>
+      <section className="info-section">
+        <div className="info-section-inner"></div>
       </section>
 
       <div className="quick-block">

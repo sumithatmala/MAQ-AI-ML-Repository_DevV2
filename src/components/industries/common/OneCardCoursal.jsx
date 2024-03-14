@@ -33,36 +33,29 @@ const OneCardCoursal = (props) => {
   
 
   return (
-    <section class="target-section" style={{ backgroundColor: "white" }}>
+    <section className="target-section" style={{ backgroundColor: "white" }}>
       <Row
         className="slick-list2 draggable fade-in product-overview d-flex justify-content-center"
         style={{ backgroundColor: "white" }}
       >
-        {props.heading && <h3 class="head-block-center">{props.heading}</h3>}
+        {props.heading && <h3 className="head-block-center">{props.heading}</h3>}
         <Slider {...settings}>
           {props.items.map((outcome, index) => (
             <>
-              <div class="separate-slider__item" key={index} style={{boxShadow: "none",}}>
-                {outcome.image?(<div class="separate-slider__img-figure">
+              <div className="separate-slider__item" key={index} style={{boxShadow: "none",}}>
+                {outcome.image?(<div className="separate-slider__img-figure" key={outcome.imageKey}>
                   {outcome.image}
                 </div>):(<></>)}
-                <div class="separate-slider__content" style={{boxShadow: "none",}}>
-                  <h3 class="separate-slider__title">
+                <div className="separate-slider__content" style={{boxShadow: "none",}}>
+                  <h3 className="separate-slider__title">
                     {outcome.title}
                   </h3>
-                  <div class="separate-slider__text">
-                    {outcome.description.map((paragraph, index) =>(
-                      <p key={index}> {paragraph} </p>
+                  <div className="separate-slider__text">
+                    {outcome.description.map((paragraph, paraIndex) =>(
+                      <p key={paraIndex}> {paragraph} </p>
                     ))}
                   </div>
-                  {/* <a
-                    href="#"
-                    class="separate-slider__link reports-list__action"
-                    tabindex="0"
-                  >
-                    <span>View Details</span>
-                  </a> */}
-                  {outcome.link?(<a href={outcome.link}>Learn More</a>):(<></>)}
+                  {outcome.link?(<a href={outcome.linkKey}>Learn More</a>):(<></>)}
                 </div>
               </div>
             </>

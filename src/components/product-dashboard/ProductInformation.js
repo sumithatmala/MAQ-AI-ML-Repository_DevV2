@@ -120,7 +120,7 @@ const ProductInformation = () => {
           {productDetails.targetUsers &&
             productDetails.targetUsers.length > 0 && (
               <section
-                class="target-section"
+                className="target-section"
                 style={{
                   backgroundColor: "white",
                   paddingTop: "50px",
@@ -138,7 +138,7 @@ const ProductInformation = () => {
             )}
 
           {/*business outcomes */}
-          <h3 class="head-block-center">Business Outcomes</h3>
+          <h3 className="head-block-center">Business Outcomes</h3>
           <CustomerSuccess
             items={productDetails.businessOutcomes}
             CardHeight={"230px"}

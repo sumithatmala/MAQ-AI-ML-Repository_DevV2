@@ -65,11 +65,11 @@ const LargeLanguageModel = () => {
           </div>
         </div>
 
-        <div class="quick-block">
-          <h2 class="head-block-center w-800">
+        <div className="quick-block">
+          <h2 className="head-block-center w-800">
             Explore Our Advanced Language Model Solutions
           </h2>
-          <div class="text-block-center">
+          <div className="text-block-center">
             Discover a diverse range of language model services tailored to your
             specific requirements.
           </div>
