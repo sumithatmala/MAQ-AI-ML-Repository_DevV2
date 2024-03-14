@@ -16,10 +16,9 @@ import BannerData from "./JSONData/BannerData";
 import ContactForm from "../common/contactForm";
 import GridOfCards from "../common/GridOfCards";
 import AlternateBanner from "../common/alternateBanner";
-import AlternateBannerData from "./JSONData/AlternateBannerData"
+import AlternateBannerData from "./JSONData/AlternateBannerData";
 import AccessibleTabs from "../common/LLM Accordion/AccessibleTabs";
 import AccessibleTabsData from "./useCasesData";
-
 
 const LargeLanguageModel = () => {
   return (
@@ -28,20 +27,42 @@ const LargeLanguageModel = () => {
         <Banner BannerData={BannerData} />
         <Benfits />
 
-        <section className="access_tabs">
-          <AccessibleTabs  tabsData={AccessibleTabsData} />
+        <section
+          className="access_tabs"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          <AccessibleTabs
+            tabsData={AccessibleTabsData}
+            subheading="Discover the versatility of Large Language Models in various domains."
+            sectionName="Large Language Models Use Cases"
+            foot="Explore how Large Language Models can revolutionize your operations!"
+            bttn={true}
+          />
         </section>
-        <section className="usecases">
-        <UseCases />
-        </section>
+        {/* <section className="usecases">
+          <UseCases />
+        </section> */}
         {/* <Industries /> */}
-        <div style={{width:"100%",display:"flex", justifyContent:"center", textAlign:"center"}}>
-        <div style={{maxWidth:"1126px", }}>
-        <GridOfCards
-          content={Industries}
-          items={{ item: Industries, NoCards: 3, title: "Build a Custom LLM Model for Your Industry", caption: "Our generative AI company delivers custom models rooted in AI expertise &amp; years of cross-domain expertise." }}
-        />
-        </div>
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            justifyContent: "center",
+            textAlign: "center",
+          }}
+        >
+          <div style={{ maxWidth: "1126px" }}>
+            <GridOfCards
+              content={Industries}
+              items={{
+                item: Industries,
+                NoCards: 3,
+                title: "Build a Custom LLM Model for Your Industry",
+                caption:
+                  "Our generative AI company delivers custom models rooted in AI expertise &amp; years of cross-domain expertise.",
+              }}
+            />
+          </div>
         </div>
 
         <div class="quick-block">
@@ -53,8 +74,8 @@ const LargeLanguageModel = () => {
             specific requirements.
           </div>
         </div>
-        <div style={{margin:"0 auto",maxWidth:"1470px"}}>
-          <AlternateBanner banners={AlternateBannerData}/>
+        <div style={{ margin: "0 auto", maxWidth: "1470px" }}>
+          <AlternateBanner banners={AlternateBannerData} />
         </div>
         {/* <Expertise /> */}
         {/* <ArticleBanner /> */}
