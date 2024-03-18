@@ -9,7 +9,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 const customerSuccessData = [
   {
     title: "Helping a Leading Game Developer Automate Customer Feedback Analysis",
-    image: <LazyLoadImage src={gamedev} PlaceholderSrc={gamedev} alt="Game dev customer feedback" effect="blur"/>,
+    image: <LazyLoadImage src={gamedev} placeholderSrc={gamedev} alt="Game dev customer feedback" effect="blur"/>,
     description: [
       "A well-known game developer dedicated considerable resources to gathering and analyzing fan feedback on social media about their game releases. They enlisted us to develop an NLP-based tool for automated review collection and analysis.",
       "The tool we developed streamlined the collection and analysis of reviews and sentiments, providing deeper insights for the client's social media interactions.",
@@ -17,7 +17,7 @@ const customerSuccessData = [
   },
   {
     title: "ML and NLP Models For Marketing & Advertising",
-    image: <LazyLoadImage src={cosmetics} PlaceholderSrc={cosmetics} alt="MML_NLP marketing ad" effect="blur"/>,
+    image: <LazyLoadImage src={cosmetics} placeholderSrc={cosmetics} alt="MML_NLP marketing ad" effect="blur"/>,
     description: [
       "The client, a beauty company, faced challenges in managing and interpreting large amounts of data. They sought to leverage machine learning (ML) to automate data collection and gain insights.",
       "This collaboration resulted in the client receiving tailored software solutions for efficient data collection and analysis, accurate customer behavior prediction, and comprehensive brand health tracking.",
@@ -25,7 +25,7 @@ const customerSuccessData = [
   },
   {
     title: "AI Customer Analytics Solution",
-    image: <LazyLoadImage src={customerAnalysis} PlaceholderSrc={customerAnalysis} alt="AI-Powered customer analytics" effect="blur"/>,
+    image: <LazyLoadImage src={customerAnalysis} placeholderSrc={customerAnalysis} alt="AI-Powered customer analytics" effect="blur"/>,
     description: [
       "A medium-sized FMCG company based in the US sought a natural language processing service provider to assist with data collection and analysis.",
       "In response, we delivered a comprehensive solution encompassing a data analysis pipeline for extracting insights. This software facilitates rapid and precise mining and analysis of email and audio data, meeting the client's needs effectively.",
@@ -33,7 +33,7 @@ const customerSuccessData = [
   },
   {
     title: "Customer Review Analytics Solution for E-commerce",
-    image: <LazyLoadImage src={analytics} PlaceholderSrc={analytics} alt="E-commerce analytics solution" effect="blur"/>,
+    image: <LazyLoadImage src={analytics} placeholderSrc={analytics} alt="E-commerce analytics solution" effect="blur"/>,
     description: [
       "A major US-based e-commerce platform was in search of a vendor offering natural language processing services. Their goal was to gain insights into their products and services to enhance their marketing campaigns.",
       "This solution enabled the client to leverage advanced analytics for informed decision-making, leading to more effective marketing strategies and improved customer satisfaction.",

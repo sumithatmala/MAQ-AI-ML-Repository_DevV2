@@ -9,8 +9,8 @@ const BackgroundBanner = (props) => {
                 {/* <img src={monitor} alt="Easy to use" width={350}></img> */}
                 <div className="BackBannerDesc" style={{textAlign: props.alignType}}>
                     <h5>{props.items.title}</h5>
-                    {props.items.desc.map((para) => {
-                        return(<p>{para}</p>)
+                    {props.items.desc.map((para, index) => {
+                        return(<p key={index}>{para}</p>)
                     })}
                     {props.items.link?(<button><Link to={props.link}/></button>):(<></>)}
                 </div>

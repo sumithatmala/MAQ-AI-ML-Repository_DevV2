@@ -8,14 +8,14 @@ import gpt4 from "../img/logo-gpt-4.svg"
 import azure from "../img/logo-azure.svg"
 
 const technologiesData = [
-    {img:<img src={python} alt="python"></img>},
-    {img:<img src={scikit} alt="scikit-learn"></img>},
-    {img:<img src={gpt4} alt="gpt4"></img>},
-    {img:<img src={tensorflow} alt="tensorflow"></img>},
-    {img:<img src={nltk} alt="nltk"></img>},
-    {img:<img src={openAi} alt="openAI"></img>},
-    {img:<img src={langchain} alt="langchain"></img>},
-    {img:<img src={azure} alt="azure"></img>},
+    { src: python, alt: "Python" },
+    { src: scikit, alt: "Scikit-Learn" },
+    { src: gpt4, alt: "GPT-4" },
+    { src: tensorflow, alt: "TensorFlow" },
+    { src: nltk, alt: "NLTK" },
+    { src: openAi, alt: "OpenAI" },
+    { src: langchain, alt: "LangChain" },
+    { src: azure, alt: "Azure" }
 ];
 
 export default technologiesData;

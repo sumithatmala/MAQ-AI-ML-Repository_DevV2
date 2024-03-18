@@ -12,7 +12,7 @@ const RoadMapNew = (props) => {
                 {items.map((item,count=0) => {
                     count++;
                     return(
-                        <div className={count===1?"RoadMapElement _firstElement":("RoadMapElement")}>
+                        <div className={count===1?"RoadMapElement _firstElement":("RoadMapElement")} key={count}>
                             <li>
                                 {/* {item.img?( */}
                                     <div className="RoadMapBg">

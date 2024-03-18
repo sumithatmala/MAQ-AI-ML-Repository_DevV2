@@ -24,7 +24,7 @@ const TextAnalysis = () => {
                         {learnMoreItems.map((item, index) => {
                             // console.log(item.label);
                             return (
-                                <div className="LearnMoreCard">
+                                <div className="LearnMoreCard" key={index}>
                                     <div>
                                         <img src={process.env.PUBLIC_URL + item.img} alt={index} width={40}></img>
                                         <p>{item.disc}</p>

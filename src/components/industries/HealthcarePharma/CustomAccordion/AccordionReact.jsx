@@ -32,8 +32,8 @@ export default function Accordion(props) {
                 className="FAQ__item custom-accordion-item"
                 collapseId={index + 1}
                 headerTitle={faq.list}
-                isOpen={index === activeAccordion}
-                onOpen={() => setActiveAccordion(index)}
+                // isactive={index === activeAccordion}
+                onSelect={() => setActiveAccordion(index)}
               >
                 <div>
                   {faq.desc.para.map((paragraph, paraIndex) => (

@@ -1,3 +1,4 @@
+
 import React, { useEffect } from "react";
 import { Row } from "react-bootstrap";
 import Slider from "react-slick";
@@ -41,9 +42,8 @@ const OneCardCoursal = (props) => {
         {props.heading && <h3 className="head-block-center">{props.heading}</h3>}
         <Slider {...settings}>
           {props.items.map((outcome, index) => (
-            <>
               <div className="separate-slider__item" key={index} style={{boxShadow: "none",}}>
-                {outcome.image?(<div className="separate-slider__img-figure" key={outcome.imageKey}>
+                {outcome.image?(<div className="separate-slider__img-figure">
                   {outcome.image}
                 </div>):(<></>)}
                 <div className="separate-slider__content" style={{boxShadow: "none",}}>
@@ -51,14 +51,20 @@ const OneCardCoursal = (props) => {
                     {outcome.title}
                   </h3>
                   <div className="separate-slider__text">
-                    {outcome.description.map((paragraph, paraIndex) =>(
-                      <p key={paraIndex}> {paragraph} </p>
+                    {outcome.description.map((paragraph, index) =>(
+                      <p key={index}> {paragraph} </p>
                     ))}
                   </div>
-                  {outcome.link?(<a href={outcome.linkKey}>Learn More</a>):(<></>)}
+                  {/* <a
+                    href="#"
+                    className="separate-slider__link reports-list__action"
+                    tabindex="0"
+                  >
+                    <span>View Details</span>
+                  </a> */}
+                  {outcome.link?(<a href={outcome.link}>Learn More</a>):(<></>)}
                 </div>
               </div>
-            </>
           ))}
         </Slider>
       </Row>

@@ -3,7 +3,6 @@ import AlternateBanner from "../../solutions/common/alternateBanner";
 import BiotechDigitalData from "./AccorData";
 import AreaExpertise from "./AreaExpertise";
 import "./css/HealthcarePharma.css";
-// import data from '../AISolutionsEcommerce/JSONData/AlternateBannerData';
 import ContactForm from "../../solutions/common/contactForm";
 import CustomerSuccess from "../../solutions/common/CustomerSuccess";
 import PharmaCustData from "./PharmaCustData";
@@ -14,7 +13,6 @@ import ServiceProvide from "./ServiceProvides";
 import BigData from "./BigDataPharma";
 import OneCardCoursal from "../common/OneCardCoursal";
 import OCDataHealth from "./CarouselDataHealth";
-import Accordion from "./CustomAccordion/AccordionReact";
 
 const HealtcarePharma = () => {
   return (

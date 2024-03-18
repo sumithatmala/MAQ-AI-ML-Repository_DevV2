@@ -60,9 +60,9 @@ const ImageRecognition = () => {
                 <ProjectDevRoadmap leftData={roadmapLeft} rightData={roadmapRight}/>
                 <section className="irProcessContainer">
                     <div className="irProcess">
-                        {process.map((item) => {
+                        {process.map((item, index) => {
                             return (
-                                <div className="ProcessCard">
+                                <div className="ProcessCard" key={index}>
                                     {item.img}
                                     <b>{item.topic}</b>
                                     <p>{item.disc}</p>

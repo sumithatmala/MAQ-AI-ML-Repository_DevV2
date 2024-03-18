@@ -5,7 +5,7 @@ import invoice from './icons/invoice.jpg';
 const retailCustData = [
   {
     title: "Enhancing Retail Platform with Business Intelligence Solution",
-    image: <img src={retailimg} class="attachment-full size-full" alt="AI business intelligence solution" style={{height:"230px"}} />,
+    image: <img src={retailimg} className="attachment-full size-full" alt="AI business intelligence solution" style={{height:"230px"}} />,
     description: [
       <b>Efficient decision-making and 91% sentiment accuracy achieved.</b>,
       "Our client, a global tech vendor in international trade, sought our expertise to integrate BI into their platform for precise sentiment analysis.",
@@ -15,7 +15,7 @@ const retailCustData = [
   },
   {
     title: "Developing Predictive Analytics Module for E-Commerce Platform",
-    image: <img src={ecommerce} class="attachment-full size-full" alt="Building Predictive Analytics Module" style={{height:"230px"}}/>,
+    image: <img src={ecommerce} className="attachment-full size-full" alt="Building Predictive Analytics Module" style={{height:"230px"}}/>,
     description: [
       <b>Streamlined processes and elevated customer experience.</b>,
       "Our client, operating in E-commerce, approached us for the development of a robust recommender system.",
@@ -25,7 +25,7 @@ const retailCustData = [
   },
   {
     title: "Revolutionizing Retail with Automated Invoice Processing Software",
-    image: <img src={invoice} class="attachment-full size-full" alt="ai software" style={{height:"230px"}} />,
+    image: <img src={invoice} className="attachment-full size-full" alt="ai software" style={{height:"230px"}} />,
     description: [
       <b>Achieved a 43% increase in performance.</b>,
       "Our client, a major retail company, sought to automate their invoice processing system.",

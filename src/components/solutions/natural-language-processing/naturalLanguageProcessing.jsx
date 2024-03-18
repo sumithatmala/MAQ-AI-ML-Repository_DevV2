@@ -45,9 +45,9 @@ const NaturalLanguageProcessing = () => {
                 <section className="TargetIndustries">
                     <h4>Industries</h4>
                     <div className="IndustryItems">
-                        {industriesData.map((item) => {
+                        {industriesData.map((item, index) => {
                             return(
-                                <div className="IndustryInditem">
+                                <div className="IndustryInditem" key={index}>
                                     {item.icon}
                                     <Link to={item.link}><h5>{item.name}</h5></Link>
                                 </div>

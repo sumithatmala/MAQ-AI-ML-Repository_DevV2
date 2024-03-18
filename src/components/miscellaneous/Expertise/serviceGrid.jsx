@@ -9,9 +9,9 @@ const ServiceGrid = (props) => {
                 <p>{props.desc}</p>
             </div>
             <div className="ServiceGridTitle">
-                {props.items.map((item)=>{
+                {props.items.map((item, index)=>{
                     return(
-                        <Link to={item.link}>
+                        <Link to={item.link} key={index}>
                             <div className="ServiceGridCard">
                                 <div className="ServiceGridCard-txt">
                                     <div className="ServiceGridCardHeader">

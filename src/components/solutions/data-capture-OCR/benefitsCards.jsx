@@ -6,9 +6,9 @@ const BenefitCards = (props) => {
             <h4>Benefits</h4>
             <div className="BenefitCardsContainer">
                 <div className="Benefitcards">
-                    {props.cardsData.map((cards) => {
+                    {props.cardsData.map((cards, index) => {
                         return(
-                            <div className="BenefitcardInd">
+                            <div className="BenefitcardInd" key={index}>
                             {cards.img}
                                 <div className="BenefitcardDesc">
                                     <h5>{cards.title}</h5>
