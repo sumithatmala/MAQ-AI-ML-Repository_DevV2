@@ -9,6 +9,11 @@ import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
 import ConstructionIcon from "@mui/icons-material/Construction";
 import SchoolIcon from "@mui/icons-material/School";
 
+import TrainingTeam from '../images/TrainingTeam.svg'
+import Admin from '../images/Administrators.svg';
+import Analyst from '../images/Analyst.svg'
+import Attedes from '../images/Attendes.svg';
+
 // import AnimatedDevelopment from "../icons/AnimatedDevelopment";
 // import AnimatedOutcome from "../icons/AnimatedOutcome";
 // import AnimatedSolution from "../icons/AnimatedSolution";
@@ -48,25 +53,25 @@ export const SessionInformationBot = {
       title: "Attendees",
       description:
         "Primary users who attend various sessions, events might need to reference the session content later for better understanding",
-      iconSrc: <MdGroups style={iconSize} />,
+      iconSrc: <img src={Attedes} width="70px"  />,
     },
     {
       title: "Analysts",
       description:
         "Need to gather insights, track progress and look for improvements",
-      iconSrc: <PsychologyIcon style={iconSize} />,
+      iconSrc: <img src={Analyst}  width="70px" />,
     },
     {
       title: "Training Teams",
       description:
         "Responsible for organizing and managing the sessions. Facilitates efficient knowledge management and sharing",
-      iconSrc: <CastForEducationIcon style={iconSize} />,
+      iconSrc: <img src={TrainingTeam} width="70px"  />,
     },
     {
       title: "Administrators",
       description:
         "Maintain the record of sessions, transcripts available for usage of various teams",
-      iconSrc: <GrUserAdmin style={iconSize} />,
+      iconSrc: <img src={Admin} width="70px" />,
     },
   ],
   businessOutcomes: [

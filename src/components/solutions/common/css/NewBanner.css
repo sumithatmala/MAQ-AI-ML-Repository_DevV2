@@ -7,7 +7,7 @@
     overflow: visible; */
 }
 .backImg{
-    background-image: url('../img/bannerBack.png');
+    background-image: url('../../../miscellaneous/Expertise/img/bannerBack.png');
     background-repeat: no-repeat;
     background-size: cover; 
     overflow: visible;
@@ -20,7 +20,7 @@
 }
 .banner_image{
     margin-top: 45px;
-    background-image: url('../img/bannerImageBack.svg');
+    background-image: url('../../../miscellaneous/Expertise/img/bannerImageBack.svg');
     background-repeat: no-repeat;
     background-size: contain;
     overflow: visible;

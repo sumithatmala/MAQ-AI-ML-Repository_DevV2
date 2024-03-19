@@ -107,7 +107,7 @@ const ProductInformation = () => {
             )}
 
           {/*business outcomes */}
-          <h3 className="head-block-center">Business Outcomes</h3>
+          <h3 className="head-block-center" style={{marginTop:"30px"}}>Business Outcomes</h3>
           <CustomerSuccess
             items={productDetails.businessOutcomes}
             CardHeight={"230px"}

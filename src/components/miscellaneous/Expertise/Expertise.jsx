@@ -18,7 +18,7 @@ import ContactForm from "../../solutions/common/contactForm"
 import CustomerSuccess from "../../solutions/common/CustomerSuccess"
 import BackgroundBanner from "./backgroundBanner";
 import ShowcaseBanner from "./showcaseBanner";
-import NewBanner from "./NewBanner";
+import NewBanner from "../../solutions/common/NewBanner";
 import bannerData from "./bannerData";
 
 const Expertise = () => {
