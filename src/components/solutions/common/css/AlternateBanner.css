@@ -2,6 +2,7 @@
     margin: 40px 20px;
     padding: 10px;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .BannerVisualLft ._backimg {
@@ -30,6 +31,7 @@
     padding: 10px;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-evenly;
 }
 
 .BannerVisualRgt .ImgContainer {

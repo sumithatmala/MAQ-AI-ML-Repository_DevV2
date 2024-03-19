@@ -106,44 +106,83 @@
 //   ];
 
 //industries
-import health_icon from "./images/health.svg"
-import automobile_icon from "./images/automobile.svg"
-import retail_icon from "./images/cashier.svg"
-import ecommerce_icon from "./images/ecommerce.svg"
-import fintech_icon from "./images/fintech.svg"
-import game_icon from "./images/game.svg"
-import logistics_icon from "./images/logistics.svg"
-import marketing_icon from "./images/marketing.svg"
-import sports_icon from "./images/sports.svg"
+// import health_icon from "./images/health.svg"
+// import automobile_icon from "./images/automobile.svg"
+// import retail_icon from "./images/cashier.svg"
+// import ecommerce_icon from "./images/ecommerce.svg"
+// import fintech_icon from "./images/fintech.svg"
+// import game_icon from "./images/game.svg"
+// import logistics_icon from "./images/logistics.svg"
+// import marketing_icon from "./images/marketing.svg"
+// import sports_icon from "./images/sports.svg"
 
 //solutions
-import bot_icon from "./images/bot.svg"
-import image_icon from "./images/image.svg"
-import like_icon from "./images/like.svg"
-import LLM_icon from "./images/LLM.svg"
-import NLP_icon from "./images/NLP.svg"
-import OCR_icon from "./images/OCR.svg"
-import predictive_icon from "./images/predictive.svg"
-import sentiment_icon from "./images/smiley.svg"
-import textAnalysis_icon from "./images/textAnalysis.svg"
+// import bot_icon from "./images/bot.svg"
+// import image_icon from "./images/image.svg"
+// import like_icon from "./images/like.svg"
+// import LLM_icon from "./images/LLM.svg"
+// import NLP_icon from "./images/NLP.svg"
+// import OCR_icon from "./images/OCR.svg"
+// import predictive_icon from "./images/predictive.svg"
+// import sentiment_icon from "./images/smiley.svg"
+// import textAnalysis_icon from "./images/textAnalysis.svg"
 
 //products
 
 //AI ML
-import documentSummeriser_icon from "./images/document.svg"
-import feedbackSummeriser_icon from "./images/feedback.svg"
-import sessionSummeriser_icon from "./images/session.svg"
-import salesAssis_icon from "./images/sales.svg"
-import smartSupport_icon from "./images/smartSupport.svg"
-import testcase_icon from "./images/testcase.svg"
-import SupportTicket_icon from "./images/ticket.svg"
-import triviaBot_icon from "./images/trivia.svg"
+// import documentSummeriser_icon from "./images/document.svg"
+// import feedbackSummeriser_icon from "./images/feedback.svg"
+// import sessionSummeriser_icon from "./images/session.svg"
+// import salesAssis_icon from "./images/sales.svg"
+// import smartSupport_icon from "./images/smartSupport.svg"
+// import testcase_icon from "./images/testcase.svg"
+// import SupportTicket_icon from "./images/ticket.svg"
+// import triviaBot_icon from "./images/trivia.svg"
 
 //Generative Model
-import face_icon from "./images/face.svg"
-import GPT_icon from "./images/GPT.svg"
-import runaway_icon from "./images/runaway.svg"
-import deepAiText_icon from "./images/text.svg"
+// import face_icon from "./images/face.svg"
+// import GPT_icon from "./images/GPT.svg"
+// import runaway_icon from "./images/runaway.svg"
+// import deepAiText_icon from "./images/text.svg"
+
+//AI ML
+import documentSummeriser_icon from "./images/Intelligent Document Processing Bot.svg"
+import documentClassification_icon from "./images/Document Classification Bot.svg"
+import feedbackSummeriser_icon from "./images/Feedback Summarized Bot.svg"
+import sessionSummeriser_icon from "./images/Session Information Bot.svg"
+import salesAssis_icon from "./images/Slaes Assistant.svg"
+import smartSupport_icon from "./images/smartSupport.svg"//--
+import testcase_icon from "./images/Test Case Recommender.svg"
+import SupportTicket_icon from "./images/ticket.svg" //--
+import triviaBot_icon from "./images/Trivia Bot.svg"
+
+//Generative Model
+import face_icon from "./images/Hugging Face Transformers.svg"
+import GPT_icon from "./images/GPT.svg" //--
+import runaway_icon from "./images/runaway.svg" //-
+import deepAiText_icon from "./images/Deep Text Generation API.svg"
+
+//solutions
+import VirtualAssistantTool from "./images/bot.svg" //-
+import ImageRecognition from "./images/image.svg" //-
+import Recommendation from "./images/like.svg" //-
+import LLM_icon from "./images/Custom Large Language Models.svg"
+import NLP_icon from "./images/Natural Language Processing.svg"
+import OCR_icon from "./images/Data Capture.svg"
+import predictive_icon from "./images/Analyze.svg"
+import sentiment_icon from "./images/Consumer Sentiment Analysis.svg"
+import textAnalysis_icon from "./images/Text Analysis.svg"
+
+//industries
+import health_icon from "./images/health.svg" //-
+import automobile_icon from "./images/automobile.svg" //-
+import retail_icon from "./images/Retail.svg"
+import ecommerce_icon from "./images/Ecommerce.svg"
+import fintech_icon from "./images/fintech.svg" //-
+import game_icon from "./images/Game and Entertainment.svg"
+import logistics_icon from "./images/logistics.svg" //-
+import marketing_icon from "./images/MarTech.svg"
+import sports_icon from "./images/sports.svg" //-
 
 const NavigationLinks = [
   // { label: "Home", link: "./" },
@@ -171,7 +210,7 @@ const NavigationLinks = [
           },
           {
             label: "Document Classification Bot",
-            icon: <img src={documentSummeriser_icon} alt=""  width={30}/>,
+            icon: <img src={documentClassification_icon} alt=""  width={30}/>,
             link: "./product/DocumentClassificationWithVirtualAssistant",
           },
           {
@@ -252,7 +291,7 @@ const NavigationLinks = [
       { 
         label: "Image Recognition", 
         link: "./solution/ImageRecognition",
-        icon: <img src={image_icon} alt=""  width={30}/>,
+        icon: <img src={ImageRecognition} alt=""  width={30}/>,
       },
       { 
         label: "Natural Language Processing", 
@@ -267,7 +306,7 @@ const NavigationLinks = [
       {
         label: "Recommendation Systems",
         link: "/Industries/RecommendationSystems",
-        icon: <img src={like_icon} alt=""  width={30}/>,
+        icon: <img src={Recommendation} alt=""  width={30}/>,
       },
       { 
         label: "Text Analysis", 
@@ -277,7 +316,7 @@ const NavigationLinks = [
       {
         label: "Virtual Assistant Tool", 
         link: "/solution/VirtualAssistantTool",
-        icon: <img src={bot_icon} alt=""  width={30}/>,
+        icon: <img src={VirtualAssistantTool} alt=""  width={30}/>,
       },
       // {
       //   label: "Al Call Center Solutions",

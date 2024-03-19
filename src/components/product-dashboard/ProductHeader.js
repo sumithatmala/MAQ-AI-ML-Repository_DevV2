@@ -25,7 +25,7 @@ const ProductHeader = (props) => {
                 <img src={ProductBackground} alt="" className="hero-img" />
                 <div className="container">
                     <div className="row justify-content-end">
-                        <div className="col-lg-5">
+                        <div className="col-lg-6">
                             <div data-aos="zoom-in" data-aos-delay="500">
                                 <div style={{ fontFamily: "segoe UI", fontSize: "50px", fontWeight: "600" }}>{data.title}</div>
                             </div>
