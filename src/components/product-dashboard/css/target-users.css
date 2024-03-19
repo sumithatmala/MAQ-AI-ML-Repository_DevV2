@@ -117,8 +117,12 @@ body {
     text-align: center;
 }
 
-.FAQ__item {
+/* .FAQ__item {
     box-shadow: 15px 15px 15px rgba(69, 60, 144, .2), 0 4px 5px rgba(69, 60, 144, .12), 0 2px 4px rgba(69, 60, 144, .14);
+} */
+
+.FAQ__item {
+    box-shadow: 15px 15px 15px rgb(144 60 60 / 20%), 0 4px 5px rgb(144 60 60 / 10%), 0 2px 4px rgb(144 60 60 / 14%);
 }
 
 .slick-prev {
@@ -349,4 +353,17 @@ body {
     .product-container {
         padding: 0 !important;
     }
+  }
+
+  .product_carousel .separate-slider__img-figure {
+    border: 3px solid #b31c1c;
+    border-radius: 15px;
+    padding: 10%;
+    height: 230px;
+  }
+
+  .product_carousel .slick-slide img {
+    height: 10px !important;
+    object-fit: contain;
+    padding-bottom: 70px;
   }

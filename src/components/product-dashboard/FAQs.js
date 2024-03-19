@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { MDBAccordion, MDBAccordionItem, MDBContainer } from "mdb-react-ui-kit";
-import './css/FAQs.css';
+import "./css/FAQs.css";
 
 export default function App(props) {
   useEffect(() => {
@@ -23,13 +23,19 @@ export default function App(props) {
     <section className="faq-block">
       <div className="faq-block-inner">
         <h2 className="head-block-center">FAQ</h2>
-        <MDBContainer className="mt-5" style={{ maxWidth: '1000px' }}>
+        <MDBContainer className="mt-5" style={{ maxWidth: "1000px" }}>
           <MDBAccordion>
-          {props.FAQs.map((faq, index) => (
-            <MDBAccordionItem key={index} className="FAQ__item custom-accordion-item" collapseId={index+1} headerTitle={faq.question}>
-              {faq.answer}
-            </MDBAccordionItem>
-          ))}
+            {props.FAQs.map((faq, index) => (
+              <MDBAccordionItem
+                key={index}
+                className="FAQ__item custom-accordion-item"
+                collapseId={index + 1}
+                headerTitle={faq.question}
+                // style={{ fontSize: '20px' }}
+              >
+                {faq.answer}
+              </MDBAccordionItem>
+            ))}
           </MDBAccordion>
         </MDBContainer>
       </div>

@@ -8,7 +8,7 @@ const NewBanner = (props) => {
         <section className="bannerbody">
             <div className="backImg" >
             {/* <img src={props.backImage} alt="backgroundImage" className="bgImage" /> */}
-            <div className="container">
+            <div className="container container_newBanner">
                 <div className="banner_content">
                     <h2>{title} </h2>
                     <p> {content} </p>

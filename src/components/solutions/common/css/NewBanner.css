@@ -5,16 +5,24 @@
     /* background-repeat: no-repeat;
     background-size: cover; 
     overflow: visible; */
-}
-.backImg{
-    background-image: url('../../../miscellaneous/Expertise/img/bannerBack.png');
+    /* background-image: url('../../../miscellaneous/Expertise/img/Wave\ Background.svg'); */
+    background-image: url('../../../miscellaneous/Expertise/img/wavebackground.png');
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     overflow: visible;
     height: 610px;
+    background-color: white;
+}
+.backImg{
+    /* background-image: url('../../../miscellaneous/Expertise/img/Wave\ Background.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: visible;
+    height: 610px;
+    background-color: white; */
 }
 
-.container{
+.container_newBanner{
     display: flex;
     justify-content: space-between;
 }

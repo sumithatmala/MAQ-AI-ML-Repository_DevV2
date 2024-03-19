@@ -22,6 +22,11 @@ import AnimatedHighlights from "./icons/AnimatedHighlights";
 import LoaderComp from "../views/LoaderComp";
 import GridOfCards from "../solutions/common/GridOfCards";
 
+import solutionhigh from './icons/SolutionHigh.svg'
+import pain from './icons/PainPoints.svg'
+import howsolution from './icons/HowSolutionHelp.svg'
+import outcomes from './icons/Outcomes.svg';
+
 // import "./css/target-user2.css"
 
 const ProductInformation = () => {
@@ -107,14 +112,17 @@ const ProductInformation = () => {
             )}
 
           {/*business outcomes */}
+          <div className="product_carousel">
           <h3 className="head-block-center" style={{marginTop:"30px"}}>Business Outcomes</h3>
           <CustomerSuccess
             items={productDetails.businessOutcomes}
             CardHeight={"230px"}
-            autoPlay={true}
+            // autoPlay={true}
+            autoPlay={false}
             centerUp={true}
             style={{ marginBottom: "0px", paddingBottom: "5rem" }}
           />
+          </div>
 
           {/* Solution Highlights​ */}
           <section className="bannerCenter">
@@ -131,7 +139,8 @@ const ProductInformation = () => {
                       }}
                     >
                       <div className="icons_res">
-                        <AnimatedHighlights />
+                        {/* <AnimatedHighlights /> */}
+                        <img src={solutionhigh} />
                       </div>
                     </div>
                   </Col>
@@ -219,7 +228,8 @@ const ProductInformation = () => {
                               }}
                             >
                               <div className="icons_res">
-                                <AnimatedDevelopment />
+                                {/* <AnimatedDevelopment /> */}
+                                <img src={pain} />
                               </div>
                             </div>
                           </Col>
@@ -266,7 +276,8 @@ const ProductInformation = () => {
                               }}
                             >
                               <div className="icons_res">
-                                <AnimatedOutcome />
+                                {/* <AnimatedOutcome /> */}
+                                <img src={outcomes} />
                               </div>
                             </div>
                           </Col>
@@ -291,7 +302,8 @@ const ProductInformation = () => {
                               }}
                             >
                               <div className="icons_res">
-                                <AnimatedSolution />
+                                {/* <AnimatedSolution /> */}
+                                <img src={howsolution} />
                               </div>
                             </div>
                           </Col>
@@ -335,7 +347,9 @@ const ProductInformation = () => {
       />
       {/* <ProductContactUs /> */}
       {productDetails.FAQs && productDetails.FAQs.length > 0 && (
+        <div style={{marginTop: "30px"}}>
         <FAQs FAQs={productDetails.FAQs} />
+        </div>
       )}
       <ContactForm />
     </>
