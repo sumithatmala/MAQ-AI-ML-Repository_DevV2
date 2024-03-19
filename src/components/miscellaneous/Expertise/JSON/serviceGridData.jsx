@@ -4,6 +4,7 @@ import mvp_icon from "../img/mvp.svg"
 import model_icon from "../img/model.svg"
 import software_icon from "../img/software.svg"
 import Application_icon from "../img/application.svg"
+import pocicon from '../img/pocAiBased.webp';
 
 const serviceGridData = [
     {
@@ -15,7 +16,7 @@ const serviceGridData = [
     {
         title: "PoC of Al-based Solution",
         desc: "POC is an essential step before adopting any AI solution. If you have a project idea, our data science consultants will verify  that your concept has potential.",
-        img: <img src={ai_icon} alt="" width={40}/>,
+        img: <img src={pocicon} alt="" width={40}/>,
         link:"",
     },
     {

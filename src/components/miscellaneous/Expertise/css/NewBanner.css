@@ -1,0 +1,35 @@
+.bannerbody{
+    background-color: #e2e2e2;
+    min-height: 610px;
+    /* background-image: url('../img/bannerBackgroundImage.png'); */
+    /* background-repeat: no-repeat;
+    background-size: cover; 
+    overflow: visible; */
+}
+.backImg{
+    background-image: url('../img/bannerBack.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    overflow: visible;
+    height: 610px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.banner_image{
+    margin-top: 45px;
+    background-image: url('../img/bannerImageBack.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: visible;
+    /* width: -webkit-fill-available; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.banner_content{
+    width: 40%;
+    margin-top: 70px;
+}

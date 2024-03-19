@@ -35,7 +35,7 @@ form .input-box {
     width: 100%;
     padding: 10px;
     background: transparent;
-    border: 2px solid #73819c;
+    border: 2px solid #f4f5f6;
     outline: none;
     border-radius: 6px;
     margin-bottom: 20px; 
@@ -77,7 +77,7 @@ form .textarea-field .error-txt {
 form button {
     color: white;
     padding: 12px 32px;
-    background-color: #453c90;
+    background-color: #B22320;
     border: none;
     border-radius: 6px;
     letter-spacing: 1px;
@@ -87,7 +87,7 @@ form button {
     box-shadow: 0 1px 2px #453c90;
 }
 form button:hover {
-    background-color: #393375;
+    background-color: #9e1815;
 }
 
 .Contact .disclaimer {

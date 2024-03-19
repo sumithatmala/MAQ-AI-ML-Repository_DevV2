@@ -4,7 +4,7 @@ import "./css/backgroundBanner.css"
 
 const BackgroundBanner = (props) => {
     return(
-        <section className="BackBannerContainer bg-voilet-linear-gradient2 text-white w-100 p-md-5 p-4">
+        <section className="BackBannerContainer bg-voilet-linear-gradient2 text-black w-100 p-md-5 p-4">
             <div className="BackBannerInd" style={{width: props.width}}>
                 {/* <img src={monitor} alt="Easy to use" width={350}></img> */}
                 <div className="BackBannerDesc" style={{textAlign: props.alignType}}>

@@ -6,7 +6,7 @@
 
 .ShowcaseBannerNavigate {
     position: relative;
-    animation: arrowMove 2s infinite;
+    /* animation: arrowMove 2s infinite; */
 }
 
 @keyframes arrowMove {
@@ -28,7 +28,8 @@
     z-index: 999;
     padding: 40px;
     width: 100%;
-    background-color: #c8c5dd;
+    /* background-color: #c8c5dd; */
+    background-color: #f4f5f6 !important;
     border-radius: 27px;
     /* margin-right: 20%; */
     height: auto;
@@ -54,7 +55,7 @@
 .ShowcaseBannerheader svg {
     color: #b8001c;
     /* color: white; */
-    transition: 0.4s;
+    /* transition: 0.4s; */
     font-size: 25px;
     margin-top: 3px;
 }

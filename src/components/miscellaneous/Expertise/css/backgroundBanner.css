@@ -6,6 +6,7 @@
     object-fit:contain;
     /* background-image: url(../img/BgImg.jpg); */
     background-size:cover;
+    color: black !important;
 }
 .BackBannerInd {
     text-align: center;
@@ -17,10 +18,10 @@
     margin: 3rem 20px;
 }
 .BackBannerInd img{
-    margin: 30px;
-    width: 200px;
+    /* margin: 30px; */
+    width: 300px;
     object-fit: contain;
-    border-radius: 8px;
+    /* border-radius: 8px; */
 }
 
 .BackBannerDesc {
