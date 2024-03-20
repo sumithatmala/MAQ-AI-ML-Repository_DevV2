@@ -27,11 +27,11 @@
     justify-content: space-between;
 }
 .banner_image{
-    margin-top: 45px;
-    background-image: url('../../../miscellaneous/Expertise/img/bannerImageBack.svg');
+    /* margin-top: 45px; */
+    /* background-image: url('../../../miscellaneous/Expertise/img/bannerImageBack.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    overflow: visible;
+    overflow: visible; */
     /* width: -webkit-fill-available; */
     width: 40%;
     display: flex;
@@ -39,5 +39,5 @@
 }
 .banner_content{
     width: 40%;
-    margin-top: 70px;
+    margin-top: 141px;
 }

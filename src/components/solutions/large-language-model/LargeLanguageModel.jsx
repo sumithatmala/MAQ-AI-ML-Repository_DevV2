@@ -1,9 +1,7 @@
 import Banner from "../common/Banner";
 import Benfits from "./Benefits";
-import UseCases from "./UseCases";
 import Industries from "./Industries";
 import "./css/LargeLanguageModel.css";
-// import Expertise from "./Expertise";
 import Benfits2 from "./Benefits2";
 import Integration from "./Integration";
 import OurTechStack from "./OurTechStack";

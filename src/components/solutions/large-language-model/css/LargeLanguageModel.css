@@ -21,15 +21,15 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
-.block__action {
+/* .block__action {
     display: block;
     margin: 20px auto;
     text-align: center;
-}
-/* .block__action .btn.btn-empty {
-    display: inline-block;
 } */
-.block__action .btn-empty {
+.block__action .btn.btn-empty {
+    display: inline-block;
+}
+/* .block__action .btn-empty {
     display: inline-block;
     min-height: 50px;
     padding: 14px 25px;
@@ -44,4 +44,4 @@
 .btn:hover{
     background-color: rgba(185, 9, 27, 1) !important;
     color: #fff;
-}
+} */
