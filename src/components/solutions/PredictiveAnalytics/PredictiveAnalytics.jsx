@@ -1,6 +1,6 @@
 import React from 'react'
-import Banner from '../common/Banner'
-import PredictiveAnalyticsBannerData from './JSONData/PredictiveAnalyticsBannerData'
+// import Banner from '../common/Banner'
+// import PredictiveAnalyticsBannerData from './JSONData/PredictiveAnalyticsBannerData'
 import BusinessCases from '../common/GridOfCards'
 import './css/PredictiveAnalytics.css'
 import WhatWeOffer from './WhatWeOffer'
@@ -15,11 +15,14 @@ import FAQsData from "./JSONData/FAQsData";
 import ContactForm from "../common/contactForm";
 import RoadMap from '../common/RoadMap'
 import PredictiveAnalyticsModelsProcessData from './JSONData/PredictiveAnalyticsModelsProcessData'
+import NewBanner from '../common/NewBanner'
+import NewBannerdata from './JSONData/PaBannerdata'
 
 const PredictiveAnalytics = () => {
   return (
     <>
-    <Banner BannerData = {PredictiveAnalyticsBannerData}/>
+    <NewBanner data={NewBannerdata} />
+    {/* <Banner BannerData = {PredictiveAnalyticsBannerData}/> */}
     <BusinessCases items={{item: BusinessCasesData, NoCards:4, title: "How Our Predictive Analytics Models Can Augment Your Business"}}/>
     <WhatWeOffer />
     <Insights />

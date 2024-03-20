@@ -8,11 +8,14 @@ import Alternate from '../common/alternateBanner';
 import GridOfCards from "../common/GridOfCards";
 import bannerData from './BannerData';
 import BenefitsData from './BenefitsData';
+import NewBanner from "../common/NewBanner";
+import NewBannerdata from "./NewBannerdata";
 
 const RecommendationSystems = () => {
   return (
     <>
-      <section className="toolinformations_recommend">
+      <NewBanner data={ NewBannerdata } />
+      {/* <section className="toolinformations_recommend">
         <div className="container">
           <div className="grids">
             <div className="top">
@@ -32,7 +35,7 @@ const RecommendationSystems = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <div className="container_pharma" >
         <Alternate banners={bannerData} ContactBtn={false} />

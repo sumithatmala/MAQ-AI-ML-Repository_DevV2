@@ -5,11 +5,14 @@ import IndustData from "./IndusterieListData";
 import Alternate from "../common/alternateBanner";
 import BannerData from "./BannerData";
 import ContactForm from "../common/contactForm";
+import NewBanner from "../common/NewBanner";
+import DataBanner from './BannerDatajson'
 
 const VirtualAssistantTool = () => {
   return (
     <>
-      <section className="toolinformation">
+    <NewBanner data={DataBanner} />
+      {/* <section className="toolinformation">
         <div className="container">
           <div className="grids">
             <div className="top">
@@ -30,7 +33,7 @@ const VirtualAssistantTool = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <div className="quick-block">
         <div className="head-block-center" style={{ marginBottom: "10px" , marginTop: "20px"}}>

@@ -18,15 +18,18 @@ import industriesData from "./JSONData/IndustriesData";
 import blogData from "./JSONData/blogData";
 import roadMapData from "./JSONData/roadMapData";
 import { HashLink } from "react-router-hash-link";
+import NewBanner from "../common/NewBanner";
+import NewBanData from "./JSONData/NewBanData";
 
 
 const NaturalLanguageProcessing = () => {
     return (
         <section>
-            <div className="HeaderVisual-nlp">
+            <NewBanner data={NewBanData} />
+            {/* <div className="HeaderVisual-nlp">
                     <h1>NLP Services and Custom Solutions</h1>
                     <p>Enable Your Business to Better Understand Human Language with NLP Services</p>
-            </div>
+            </div> */}
             <div className="Container-nlp">
                 <section className="WelcomeMsg">
                     <h2>What We Offer</h2>

@@ -1,4 +1,4 @@
-import Banner from "../common/Banner";
+// import Banner from "../common/Banner";
 import Benfits from "./Benefits";
 import Industries from "./Industries";
 import "./css/LargeLanguageModel.css";
@@ -10,19 +10,22 @@ import CustomerSuccess from "../common/CustomerSuccess";
 import CutomerSuccessData from "./JSONData/CustomerSuccessData";
 import FAQs from "../../product-dashboard/FAQs";
 import FAQsData from "./JSONData/FAQsData";
-import BannerData from "./JSONData/BannerData";
+// import BannerData from "./JSONData/BannerData";
 import ContactForm from "../common/contactForm";
 import GridOfCards from "../common/GridOfCards";
 import AlternateBanner from "../common/alternateBanner";
 import AlternateBannerData from "./JSONData/AlternateBannerData";
 import AccessibleTabs from "../common/LLM Accordion/AccessibleTabs";
 import AccessibleTabsData from "./useCasesData";
+import NewBanner from "../common/NewBanner";
+import NewBannerdata from "./NewBannerData";
 
 const LargeLanguageModel = () => {
   return (
     <div>
       <div>
-        <Banner BannerData={BannerData} />
+        <NewBanner data={NewBannerdata} />
+        {/* <Banner BannerData={BannerData} /> */}
         <Benfits />
 
         <section
