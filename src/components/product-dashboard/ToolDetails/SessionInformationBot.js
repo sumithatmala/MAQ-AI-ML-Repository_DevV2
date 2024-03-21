@@ -39,12 +39,12 @@ const iconSize = {
   color: "#dc848d",
 };
 const iconSizeBO = {
-  height: "13rem",
-  width: "20.4rem",
+  height: "5rem",
+  width: "5rem",
   color: "#dc848d",
-  border: "solid #dc848d 3px",
+  // border: "solid #dc848d 3px",
   // margin: "0px 10px",
-  padding: "30px 50px",
+  // padding: "30px 50px",
   borderRadius: "10px",
   // boxShadow: "0px 8px 16px 0px red"
 }
@@ -87,37 +87,37 @@ export const SessionInformationBot = {
       title: "Accelerated onboarding and training for new hires",
       description:
         ["Enable new employees to quickly familiarize themselves with various trainings, expediting their integration into the organization."],
-      image: <img src={Accel} width="100px" height="100px"  />
+      image: <img src={Accel} width="100px" style={iconSizeBO} />
     },
     {
       title: "Enhanced data analysis and research capabilities",
       description:
         ["Researchers and analysts can leverage the solution to extract insights from session content and recordings, supporting data analysis, research projects."],
-      image: <img src={EnhancedData}  width="100px" />
+      image: <img src={EnhancedData}  style={iconSizeBO} />
     },
     {
       title: "Efficient project management for successful outcomes",
       description:
         ["End to End tracking and maintenance of the content and improve usage."],
-      image: <img src={EfficientProject}  width="100px" />
+      image: <img src={EfficientProject}  style={iconSizeBO} />
     },
     {
       title: "Enhanced engagement of Employees Regarding learning",
       description:
         ["Foster an environment that encourages employee engagement in learning activities, promoting a culture of continuous learning."],
-      image: <img src={Engagement} width="100px"  />
+      image: <img src={Engagement} style={iconSizeBO}  />
     },
     {
       title: "Improved learning and development initiatives",
       description:
         ["Enhanced training experience and continuous learning to support employee skill development and professional growth."],
-      image: <img src={ImporvedL}  width="100px" />
+      image: <img src={ImporvedL}  style={iconSizeBO} />
     },
     {
       title: "Improved knowledge sharing and collaboration",
       description:
         ["Promote seamless knowledge sharing and collaboration among employees, fostering a culture of information exchange and collective expertise."],
-      image: <img src={ImporvedKnw}  width="100px" />
+      image: <img src={ImporvedKnw}  style={iconSizeBO} />
     },
   ],
   solutionHighlights: [

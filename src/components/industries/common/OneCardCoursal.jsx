@@ -42,7 +42,8 @@ const OneCardCoursal = (props) => {
         {props.heading && <h3 className="head-block-center">{props.heading}</h3>}
         <Slider {...settings}>
           {props.items.map((outcome, index) => (
-              <div className="separate-slider__item" key={index} style={{boxShadow: "none",}}>
+
+              <div className="separate-slider__item" key={index} style={{boxShadow: "none", height: "100px"}}>
                 {outcome.image?(<div className="separate-slider__img-figure">
                   {outcome.image}
                 </div>):(<></>)}
@@ -51,8 +52,8 @@ const OneCardCoursal = (props) => {
                     {outcome.title}
                   </h3>
                   <div className="separate-slider__text">
-                    {outcome.description.map((paragraph, index) =>(
-                      <p key={index}> {paragraph} </p>
+                    {outcome.description.map((paragraph, index1) =>(
+                      <p key={index1}> {paragraph} </p>
                     ))}
                   </div>
                   {/* <a
