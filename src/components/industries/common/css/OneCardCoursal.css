@@ -5,6 +5,7 @@
     user-select: none;
     width: 65% !important;
     height: fit-content;
+    height: 300px !important;
 }
 
 .slick-list2 {
@@ -66,11 +67,11 @@
 }
 
 .slick-list2 .separate-slider__item {
-    display: flex;
+    display: flex !important;
     height: max-content;
     flex-direction: row-reverse;
     /* max-width: 334px; */
-    margin: 20px;
+    /* margin: 20px; */
     align-items: center;
 }
 
