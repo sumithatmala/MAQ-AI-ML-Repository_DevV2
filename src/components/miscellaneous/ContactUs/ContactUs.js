@@ -27,7 +27,14 @@ const ContactUs = () => {
             </p>
           </div>
           <div className="block__action">
-          <HashLink  to="./#contact" className="btn btn-empty" style={{width: "fit-content"}}> Send Message </HashLink>
+            <HashLink
+              to="./#contact"
+              className="btn btn-empty"
+              style={{ width: "fit-content" }}
+            >
+              {" "}
+              Send Message{" "}
+            </HashLink>
           </div>
         </div>
       </div>
@@ -240,12 +247,22 @@ const ContactUs = () => {
         </section>
       </section>
 
-      <div></div>
+      <div className="text-block-center" style={{fontWeight:"500", maxWidth:"900px"}}>
+        {" "}
+        <p>
+          For more information on our Microsoft offerings, please visit us on{" "}
+          <a href="https://appsource.microsoft.com/en-us/marketplace/consulting-services?search=MAQ%20Software&page=1"><span style={{color:"red"}}> Microsoft AppSource </span> </a> and{" "}
+          <a href="https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services?page=1&search=MAQ%20Software"><span style={{color:"red"}}> Microsoft Marketplace </span> </a>.
+        </p>{" "}
+      </div>
 
       <section className="image_form">
         <div className="form">
           <div className="width-form" style={{ width: "90%" }}>
             <ContactForm />
+          <div className="text-block-center">
+            <p>Or send us mail at  <a href="mailto:sales@MAQSoftware.com" style={{color: "red", fontWeight: "500"}}>Sales@MAQSoftware.com</a>.</p>
+          </div>
           </div>
         </div>
         <div className="image">
