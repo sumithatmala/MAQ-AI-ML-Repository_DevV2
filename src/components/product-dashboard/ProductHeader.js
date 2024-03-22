@@ -32,13 +32,7 @@ const ProductHeader = (props) => {
                             <p className="mt-3" data-aos="zoom-in" data-aos-delay="1000" style={{ fontFamily: "segoe UI", color: "#fff" }}>
                                 {data.description}
                             </p>
-                        </div>
-                    </div>
-                    {/* Reach out button */}
-                    {/* <div className="reach-out mt-4 fade-up3 ml-3 justify-content-end">
-                    Reach out to learn more
-                </div> */}
-                    <div id="container" className="row justify-content-center" style={{marginTop: "2rem"}}>
+                            <div id="container" className="row" style={{marginTop: "2rem", justifyContent:"left"}}>
                         <HashLink
                             to={"./#prodinfo"}
                             style={{
@@ -54,6 +48,13 @@ const ProductHeader = (props) => {
                             </button>
                         </HashLink>
                     </div>
+                        </div>
+                    </div>
+                    {/* Reach out button */}
+                    {/* <div className="reach-out mt-4 fade-up3 ml-3 justify-content-end">
+                    Reach out to learn more
+                </div> */}
+                    
                 </div>
             </section>
         </>

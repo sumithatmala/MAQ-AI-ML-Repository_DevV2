@@ -9,6 +9,19 @@ import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
 import ConstructionIcon from "@mui/icons-material/Construction";
 import SchoolIcon from "@mui/icons-material/School";
 
+import TrainingTeam from '../images/TrainingTeam.svg'
+import Admin from '../images/Administrators.svg';
+import Analyst from '../images/Analyst.svg'
+import Attedes from '../images/Attendes.svg';
+
+import Accel from '../images/Accelerated.svg';
+import EnhancedData from '../images/EnhancedData.svg';
+import EfficientProject from '../images/EfficientProject.svg'
+import Engagement from '../images/EnhancedEngagement.svg'
+import ImporvedL from '../images/ImprovedLearning.svg'
+import ImporvedKnw from '../images/ImprovedKnowledge.svg'
+
+
 // import AnimatedDevelopment from "../icons/AnimatedDevelopment";
 // import AnimatedOutcome from "../icons/AnimatedOutcome";
 // import AnimatedSolution from "../icons/AnimatedSolution";
@@ -26,12 +39,12 @@ const iconSize = {
   color: "#dc848d",
 };
 const iconSizeBO = {
-  height: "13rem",
-  width: "20.4rem",
+  height: "5rem",
+  width: "5rem",
   color: "#dc848d",
-  border: "solid #dc848d 3px",
+  // border: "solid #dc848d 3px",
   // margin: "0px 10px",
-  padding: "30px 50px",
+  // padding: "30px 50px",
   borderRadius: "10px",
   // boxShadow: "0px 8px 16px 0px red"
 }
@@ -48,25 +61,25 @@ export const SessionInformationBot = {
       title: "Attendees",
       description:
         "Primary users who attend various sessions, events might need to reference the session content later for better understanding",
-      iconSrc: <MdGroups style={iconSize} />,
+      iconSrc: <img src={Attedes} width="70px"  />,
     },
     {
       title: "Analysts",
       description:
         "Need to gather insights, track progress and look for improvements",
-      iconSrc: <PsychologyIcon style={iconSize} />,
+      iconSrc: <img src={Analyst}  width="70px" />,
     },
     {
       title: "Training Teams",
       description:
         "Responsible for organizing and managing the sessions. Facilitates efficient knowledge management and sharing",
-      iconSrc: <CastForEducationIcon style={iconSize} />,
+      iconSrc: <img src={TrainingTeam} width="70px"  />,
     },
     {
       title: "Administrators",
       description:
         "Maintain the record of sessions, transcripts available for usage of various teams",
-      iconSrc: <GrUserAdmin style={iconSize} />,
+      iconSrc: <img src={Admin} width="70px" />,
     },
   ],
   businessOutcomes: [
@@ -74,37 +87,37 @@ export const SessionInformationBot = {
       title: "Accelerated onboarding and training for new hires",
       description:
         ["Enable new employees to quickly familiarize themselves with various trainings, expediting their integration into the organization."],
-      image: <IntegrationInstructionsIcon style={iconSizeBO} />,
+      image: <img src={Accel} width="100px" style={iconSizeBO} />
     },
     {
       title: "Enhanced data analysis and research capabilities",
       description:
         ["Researchers and analysts can leverage the solution to extract insights from session content and recordings, supporting data analysis, research projects."],
-      image: <QueryStatsIcon style={iconSizeBO} />,
+      image: <img src={EnhancedData}  style={iconSizeBO} />
     },
     {
       title: "Efficient project management for successful outcomes",
       description:
         ["End to End tracking and maintenance of the content and improve usage."],
-      image: <MdManageHistory style={iconSizeBO} />,
+      image: <img src={EfficientProject}  style={iconSizeBO} />
     },
     {
       title: "Enhanced engagement of Employees Regarding learning",
       description:
         ["Foster an environment that encourages employee engagement in learning activities, promoting a culture of continuous learning."],
-      image: <LocalLibraryIcon style={iconSizeBO} />,
+      image: <img src={Engagement} style={iconSizeBO}  />
     },
     {
       title: "Improved learning and development initiatives",
       description:
         ["Enhanced training experience and continuous learning to support employee skill development and professional growth."],
-      image: <ConstructionIcon style={iconSizeBO} />,
+      image: <img src={ImporvedL}  style={iconSizeBO} />
     },
     {
       title: "Improved knowledge sharing and collaboration",
       description:
         ["Promote seamless knowledge sharing and collaboration among employees, fostering a culture of information exchange and collective expertise."],
-      image: <SchoolIcon style={iconSizeBO} />,
+      image: <img src={ImporvedKnw}  style={iconSizeBO} />
     },
   ],
   solutionHighlights: [

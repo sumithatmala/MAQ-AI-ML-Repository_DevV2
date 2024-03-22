@@ -22,11 +22,14 @@ import BenefitCards from "./benefitsCards"
 import BackgroundBanner from "./backgroundBanner"
 import UsageBenefits from "./UsageBenefits"
 import RoadMapNew from "../common/RoadMapNew"
+import NewBanner from "../common/NewBanner"
+import NewBann from "./NewBannerdata"
 
 const DataCaptureOCR = () => {
     return (
         <>
-            <Banner BannerData={BannerData} />
+            <NewBanner data={NewBann} />
+            {/* <Banner BannerData={BannerData} /> */}
             <section className="SectionDesc">
                 <div className="CenterDesc">
                     <h2>Powerful solutions for gaining deep insights into data and automating business processes.</h2>

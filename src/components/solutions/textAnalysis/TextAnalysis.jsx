@@ -5,15 +5,18 @@ import { learnMoreItems, Banners, SpecialCards } from "./JSON/LearnMoreList";
 import ContactForm from "../common/contactForm";
 import AlternateBanner from "../common/alternateBanner";
 import SpecialContainer from "../common/specializationCards";
+import NewBanner from "../common/NewBanner";
+import bannerdata from './JSON/bannerdata';
 
 const TextAnalysis = () => {
     return (
         <>
-            <div className="HeaderVisual">
+            <NewBanner data={bannerdata} />
+            {/* <div className="HeaderVisual">
                 <h1>AI-driven text analysis software.</h1>
                 <h2>We employ cutting-edge natural language processing techniques to maximize the value extracted from your text data.</h2>
                 <img src={headerImg} alt="Text analysis banner" className="cropSvg"/>
-            </div>
+            </div> */}
             <div className="InfoVisual">
                 <div className="HeaderBox">
                     <h1>Text analysis software customized to meet your specific needs.</h1>
@@ -24,7 +27,7 @@ const TextAnalysis = () => {
                         {learnMoreItems.map((item, index) => {
                             // console.log(item.label);
                             return (
-                                <div className="LearnMoreCard">
+                                <div className="LearnMoreCard" key={index}>
                                     <div>
                                         <img src={process.env.PUBLIC_URL + item.img} alt={index} width={40}></img>
                                         <p>{item.disc}</p>

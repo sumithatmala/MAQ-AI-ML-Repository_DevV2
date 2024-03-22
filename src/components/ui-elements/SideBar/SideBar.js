@@ -7,23 +7,25 @@ import { Menu, MenuItem, useProSidebar, Sidebar } from "react-pro-sidebar";
 // import InfoRoundedIcon from "@mui/icons-material/InfoRounded"
 
 //icons
-import { HashLink } from 'react-router-hash-link';
-import videoPlayer from './icons/videoplayer.png'
-import details from './icons/details.png'
-import tryIt from './icons/tryit.png'
-import contacts from './icons/contacts.png'
-import { AiOutlineUser, AiOutlineInfoCircle, AiOutlineLaptop, AiFillPlaySquare } from "react-icons/ai";
+import { HashLink } from "react-router-hash-link";
+import videoPlayer from "./icons/videoplayer.png";
+import details from "./icons/details.png";
+import tryIt from "./icons/tryit.png";
+import contacts from "./icons/contacts.png";
+import {
+  AiOutlineUser,
+  AiOutlineInfoCircle,
+  AiOutlineLaptop,
+  AiFillPlaySquare,
+} from "react-icons/ai";
 // import { AiOutlineInfoCircle } from "react-icons/ai";
 
-
 import { React, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function SideBar() {
   // const [opac, setOpac] = useState("1");
-  const {
-    collapseSidebar,
-    collapsed,
-  } = useProSidebar();
+  const { collapseSidebar, collapsed } = useProSidebar();
 
   const handleOnMouseEnter = () => {
     if (collapsed) {
@@ -48,8 +50,9 @@ export default function SideBar() {
           width: "0vh",
           display: "flex",
           flexDirection: "column",
-          justifyContent: "center"
-        }}>
+          justifyContent: "center",
+        }}
+      >
         <Sidebar
           defaultCollapsed
           style={{
@@ -59,7 +62,8 @@ export default function SideBar() {
           breakPoint="sm"
           transitionDuration={600}
           onMouseEnter={handleOnMouseEnter}
-          onMouseLeave={handleOnMouseLeave}>
+          onMouseLeave={handleOnMouseLeave}
+        >
           <Menu
             style={{
               background: "transparent",
@@ -68,7 +72,10 @@ export default function SideBar() {
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "normal",
-            }}>
+            }}
+          >
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+
             {/* <MenuItem
               icon={<MenuRoundedIcon style={{ fontSize: "3rem" }} />}
               onClick={() => {
@@ -77,80 +84,135 @@ export default function SideBar() {
               style={{ textAlign: "center", opacity: "1" }}>
               
             </MenuItem> */}
+            <div>
+              {/* <HashLink
+                to={"./#prodinfo"}
+                style={{
+                  textDecoration: "none",
+                  textAlign: "center",
+                  fontWeight: "bold",
+                  color: "#302758",
+                  fontSize: "20px",
+                  fontFamily: "Arial, Helvetica, sans-serif",
+                }}
+              > */}
+              <div>
+                <MenuItem
+                  style={{
+                    marginBottom: "15px",
+                    textDecoration: "none",
+                    textAlign: "center",
+                    fontWeight: "bold",
+                    color: "#302758",
+                    fontSize: "20px",
+                    fontFamily: "Arial, Helvetica, sans-serif",
+                  }}
+                  // icon={<img src={details} height={"150%"} alt='details'/>}
+                  component={<HashLink to={"./#prodinfo"} />}
+                  icon={<AiOutlineInfoCircle fontSize={"200%"} />}
+                >
+                  Details
+                </MenuItem>
+              </div>
+              {/* </HashLink> */}
+            </div>
 
-            <HashLink
-              to={"./#prodinfo"}
-              style={{
-                textDecoration: "none",
-                textAlign: "center",
-                fontWeight: "bold",
-                color: "#302758",
-                fontSize: "20px",
-                fontFamily: "Arial, Helvetica, sans-serif",
-              }}>
-              <MenuItem
-                style={{ marginBottom: "15px" }}
-
-                // icon={<img src={details} height={"150%"} alt='details'/>}
-                icon={<AiOutlineInfoCircle fontSize={"200%"} />}
-              >
-                Details
-              </MenuItem>
-            </HashLink>
-
-            <HashLink
-              to={"./#demo"}
-              style={{
-                textDecoration: "none",
-                textAlign: "center",
-                fontWeight: "bold",
-                color: "#302758",
-                fontSize: "20px",
-                fontFamily: "Arial, Helvetica, sans-serif",
-              }}>
-              <MenuItem
-                style={{ marginBottom: "15px" }}
-                // icon={<img src={videoPlayer} height={"150%"} alt='videoPlayer'/>}>
-                icon={<AiFillPlaySquare fontSize={"200%"} />}>
-                Demo
-              </MenuItem>
-            </HashLink>
-
-            <HashLink
-              to={"./#tryit"}
-              style={{
-                textDecoration: "none",
-                textAlign: "center",
-                fontWeight: "bold",
-                color: "#302758",
-                fontSize: "20px",
-                fontFamily: "Arial, Helvetica, sans-serif",
-              }}>
-              <MenuItem
-                style={{ marginBottom: "15px" }}
-                // icon={<img src={tryIt} height={"150%"} alt='tryIt'/>}>
-                icon={<AiOutlineLaptop fontSize={"200%"} />}>
-                Try It!
-              </MenuItem>
-            </HashLink>
-            <HashLink
-              to={"./#contact"}
-              style={{
-                textDecoration: "none",
-                textAlign: "center",
-                fontWeight: "bold",
-                color: "#302758",
-                fontSize: "20px",
-                fontFamily: "Arial, Helvetica, sans-serif",
-              }}>
-              <MenuItem
-                style={{ marginBottom: "15px" }}
-                // icon={<img src={contacts} height={"150%"}  alt='contacts'/>}
-                icon={<AiOutlineUser fontSize={"200%"} />}
-              >
-                Contact
-              </MenuItem>
-            </HashLink>
+            <div>
+              {/* <HashLink
+                to={"./#demo"}
+                style={{
+                  textDecoration: "none",
+                  textAlign: "center",
+                  fontWeight: "bold",
+                  color: "#302758",
+                  fontSize: "20px",
+                  fontFamily: "Arial, Helvetica, sans-serif",
+                }}
+              > */}
+              <div>
+                <MenuItem
+                  style={{
+                    marginBottom: "15px",
+                    textDecoration: "none",
+                    textAlign: "center",
+                    fontWeight: "bold",
+                    color: "#302758",
+                    fontSize: "20px",
+                    fontFamily: "Arial, Helvetica, sans-serif",
+                  }}
+                  // icon={<img src={videoPlayer} height={"150%"} alt='videoPlayer'/>}>
+                  component={<HashLink to={"./#demo"} />}
+                  icon={<AiFillPlaySquare fontSize={"200%"} />}
+                >
+                  Demo
+                </MenuItem>
+              </div>
+              {/* </HashLink> */}
+            </div>
+            <div>
+              {/* <HashLink
+                to={"./#tryit"}
+                style={{
+                  textDecoration: "none",
+                  textAlign: "center",
+                  fontWeight: "bold",
+                  color: "#302758",
+                  fontSize: "20px",
+                  fontFamily: "Arial, Helvetica, sans-serif",
+                }}
+              > */}
+              <div>
+                <MenuItem
+                  style={{
+                    marginBottom: "15px",
+                    textDecoration: "none",
+                    textAlign: "center",
+                    fontWeight: "bold",
+                    color: "#302758",
+                    fontSize: "20px",
+                    fontFamily: "Arial, Helvetica, sans-serif",
+                  }}
+                  component={<HashLink to={"./#tryit"} />}
+                  // icon={<img src={tryIt} height={"150%"} alt='tryIt'/>}>
+                  icon={<AiOutlineLaptop fontSize={"200%"} />}
+                >
+                  Try It!
+                </MenuItem>
+              </div>
+              {/* </HashLink> */}
+            </div>
+            <div>
+              {/* <HashLink
+                to={"./#contact"}
+                style={{
+                  textDecoration: "none",
+                  textAlign: "center",
+                  fontWeight: "bold",
+                  color: "#302758",
+                  fontSize: "20px",
+                  fontFamily: "Arial, Helvetica, sans-serif",
+                }}
+              > */}
+              <div>
+                <MenuItem
+                  style={{
+                    marginBottom: "15px",
+                    textDecoration: "none",
+                    textAlign: "center",
+                    fontWeight: "bold",
+                    color: "#302758",
+                    fontSize: "20px",
+                    fontFamily: "Arial, Helvetica, sans-serif",
+                  }}
+                  component={<HashLink to={"./#contact"} />}
+                  // icon={<img src={contacts} height={"150%"}  alt='contacts'/>}
+                  icon={<AiOutlineUser fontSize={"200%"} />}
+                >
+                  Contact
+                </MenuItem>
+              </div>
+              {/* </HashLink> */}
+            </div>
           </Menu>
         </Sidebar>
       </div>

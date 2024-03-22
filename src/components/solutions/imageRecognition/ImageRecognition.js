@@ -14,16 +14,19 @@ import Technologies from "../common/technologies";
 //data
 import { process, industrialCards, benefitCards, technologies, customerSuccessData } from "./JSON/ImageRecList";
 import { roadmapLeft, roadmapRight } from "./JSON/ProjectDevRoadmapData";
+import NewBanner from "../common/NewBanner";
+import IRbannerData from "./Banerdata";
 // import {roadMapDataNew,roadMapDataExisting} from "./JSON/roadMapData";
 
 
 const ImageRecognition = () => {
     return (
         <>
-            <div className="HeaderVisual-ir">
+            <NewBanner data={IRbannerData} />
+            {/* <div className="HeaderVisual-ir">
                 <h1>Custom Image Recognition and Picture Analysis Software Development</h1>
                 <p>We tailor robust custom solutions to serve your business needs. Derive valuable insights from your visual data with the help of proven solutions.</p>
-            </div>
+            </div> */}
             <div className="Container-ir">
                 <section className="Info-section">
                     <p>We cooperate with clients across multiple industries and assist them in levelling up their businesses by harnessing the power of Big Data.</p>
@@ -60,9 +63,9 @@ const ImageRecognition = () => {
                 <ProjectDevRoadmap leftData={roadmapLeft} rightData={roadmapRight}/>
                 <section className="irProcessContainer">
                     <div className="irProcess">
-                        {process.map((item) => {
+                        {process.map((item, index) => {
                             return (
-                                <div className="ProcessCard">
+                                <div className="ProcessCard" key={index}>
                                     {item.img}
                                     <b>{item.topic}</b>
                                     <p>{item.disc}</p>

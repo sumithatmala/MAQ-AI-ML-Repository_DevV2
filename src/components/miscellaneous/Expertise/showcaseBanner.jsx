@@ -26,9 +26,9 @@ const ShowcaseBanner = (props) => {
                     <p>{data.desc}</p>
                 </div>
                 <div className="ShowcaseBannerGrid">
-                    {data.title.map((val) => {
+                    {data.title.map((val, index) => {
                         return (
-                            <div className="ShowcaseBanerCard">
+                            <div className="ShowcaseBanerCard" key={index}>
                                 <h5>
                                     <Link to={val.link}>{val.heading} <RxArrowRight className="ShowcaseBannerArrow" /></Link>
                                 </h5>

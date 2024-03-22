@@ -8,11 +8,14 @@ import Alternate from '../common/alternateBanner';
 import GridOfCards from "../common/GridOfCards";
 import bannerData from './BannerData';
 import BenefitsData from './BenefitsData';
+import NewBanner from "../common/NewBanner";
+import NewBannerdata from "./NewBannerdata";
 
 const RecommendationSystems = () => {
   return (
     <>
-      <section className="toolinformations_recommend">
+      <NewBanner data={ NewBannerdata } />
+      {/* <section className="toolinformations_recommend">
         <div className="container">
           <div className="grids">
             <div className="top">
@@ -32,18 +35,18 @@ const RecommendationSystems = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <div className="container_pharma" >
         <Alternate banners={bannerData} ContactBtn={false} />
       </div>
 
-      <section class="info-section">
-        <div class="info-section-inner">
-          <h2 class="info-section__title">
+      <section className="info-section">
+        <div className="info-section-inner">
+          <h2 className="info-section__title">
             The Significance of Personalization
           </h2>
-          <div class="info-section__description">
+          <div className="info-section__description">
             <p>
               <b>Customer engagement poses increasing challenges for both online
                 and brick-and-mortar businesses. Empowered by their social

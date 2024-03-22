@@ -4,8 +4,8 @@ import featureScan from "../img/featureScan.svg"
 const ServiceData = [
     {
       iconSrc: <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-      <rect x="26" y="10" width="50" height="60" fill="none" stroke="#db838d" stroke-width="5" />
-      <text x="30" y="60" font-family="Arial" font-size="60" fill="#db838d">H</text>
+      <rect x="26" y="10" width="50" height="60" fill="none" stroke="#db838d" strokeWidth="5" />
+      <text x="30" y="60" fontFamily="Arial" fontSize="60" fill="#db838d">H</text>
     </svg>
     ,
       altText: "Character Recognition",

@@ -4,7 +4,7 @@ const Grid = ({content}) => {
     return (
         <>
             <div>
-                <h2 class="head-block-center">Main Contributions</h2>
+                <h2 className="head-block-center">Main Contributions</h2>
             </div>
             <section className="IndustriesContainer">
                 

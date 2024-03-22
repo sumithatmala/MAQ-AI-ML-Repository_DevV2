@@ -88,7 +88,7 @@ const ContactForm = ({ contactMsg }) => {
     };
 
     return (
-        <section id="contact" className="FormBox">
+        <section  className="FormBox">
             <div className="Contact">
                 <div className="Header">
                     <h2>Get in Touch with MAQ Software Today</h2>
@@ -162,7 +162,7 @@ const ContactForm = ({ contactMsg }) => {
                         />
                         <div className="error-txt">Error message</div>
                     </div>
-                    <button type="submit">Send Message</button>
+                    <button id="contact" type="submit">Send Message</button>
                     <div className="disclaimer">
                         <p>
                             By clicking Send Message, you agree to our{" "}

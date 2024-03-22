@@ -7,9 +7,9 @@ const SpecialContainer = ({SpecialCards}) => {
             <p>We make it easy to build awesome text analysis software</p>
             <div className="SpecialCards">
                 {/* <ul> */}
-                    {SpecialCards.map((item) => {
+                    {SpecialCards.map((item, index) => {
                         return(
-                            <div className="indCard">
+                            <div className="indCard" key={index}>
                                 {item.img}
                                 <h3>{item.topic}</h3>
                                 <p>{item.disc}</p>

@@ -15,11 +15,13 @@ import IndustriesData from "./IndustriesData";
 import IndustriesListData from "./IndustriesListData";
 import Grid from "../common/grid";
 import Alternate from '../common/alternateBanner';
+import NewBanner from '../common/NewBanner';
+import CsmBanner from "./CSMBannerData";
 
 const ConsumerSentimentAnalysis = () => {
   return (
     <>
-      <section className="toolinformations">
+      {/* <section className="toolinformations">
         <div className="container">
           <div className="grids">
             <div className="top">
@@ -41,7 +43,9 @@ const ConsumerSentimentAnalysis = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+      <NewBanner data={CsmBanner} />
 
 
       <section className="consumer_grid">

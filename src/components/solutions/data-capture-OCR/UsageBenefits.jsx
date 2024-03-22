@@ -7,13 +7,13 @@ const UsageBenefits = (props) => {
             <h5>{props.items.title}</h5>
             <div className="LogisticsTitle">
                 <div className="LogisticsDesc">
-                    {props.items.desc.map((para) => {
-                        return(<p>{para}</p>)
+                    {props.items.desc.map((para, index) => {
+                        return(<p key={index}>{para}</p>)
                     })}
                     <ul>
-                        {props.items.points.map((point) => {
+                        {props.items.points.map((point, index) => {
                             // console.log(point);
-                            return(<li>{point}</li>)
+                            return(<li key={index}>{point}</li>)
                         })}
                     </ul>
                 </div>

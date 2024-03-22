@@ -1,6 +1,6 @@
 import React from 'react'
-import Banner from "../../solutions/common/Banner";
-import BannerData from "./JSONData/BannerData";
+// import Banner from "../../solutions/common/Banner";
+// import BannerData from "./JSONData/BannerData";
 import OneCardCoursal from '../common/OneCardCoursal';
 import OneCardData from './JSONData/Exprtise'
 import AlternateBanner from '../../solutions/common/alternateBanner';
@@ -12,11 +12,14 @@ import BusinessCasesData from './JSONData/BusinessCasesData';
 import CustomerSuccess from '../../solutions/common/CustomerSuccess';
 import CutomerSuccessData from "./JSONData/CustomerSuccessData";
 import ContactForm from '../../solutions/common/contactForm';
+import NewBanner from '../../solutions/common/NewBanner'
+import bannerdata from './bannerdata'
 
 const MarTech = () => {
   return (
     <>
-      <Banner BannerData={BannerData}/>
+      <NewBanner data = {bannerdata} />
+      {/* <Banner BannerData={BannerData}/> */}
       <section className="WelcomeMsg">
         <h2>Our Strengths</h2>
         <div className='text-block-center'>Utilize our specialized knowledge to accelerate your digital evolution, minimize advertising expenditures, and elevate customer satisfaction through cutting-edge AI solutions.</div>

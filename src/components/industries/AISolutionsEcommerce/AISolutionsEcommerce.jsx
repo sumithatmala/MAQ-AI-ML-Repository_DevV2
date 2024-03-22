@@ -13,10 +13,14 @@ import CustomerSuccess from '../../solutions/common/CustomerSuccess';
 import CutomerSuccessData from "./JSONData/CustomerSuccessData";
 import ContactForm from '../../solutions/common/contactForm';
 
+import NewBanner from '../../solutions/common/NewBanner'
+import bannerdata from './bannerdata'
+
 const AISolutionsEcommerce = () => {
   return (
     <>
-      <Banner BannerData={BannerData}/>
+      <NewBanner data = {bannerdata} />
+      {/* <Banner BannerData={BannerData}/> */}
       
       <section className="WelcomeMsg" style={{margin: "3rem"}}>
         <h2>Our Strengths</h2>

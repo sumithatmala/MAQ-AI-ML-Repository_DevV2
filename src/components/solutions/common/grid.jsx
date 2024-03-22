@@ -4,10 +4,10 @@ const Grid = ({content}) => {
     return (
         <section className="center_grid">
         <section className="IndustriesContainer">
-            {content.map((item)=>{
+            {content.map((item, index)=>{
                 return(
                     // item.img?(
-                        <div className="IndustryCard">
+                        <div key={index} className="IndustryCard">
                             {/* <img src={process.env.PUBLIC_URL + item.img} alt={item.label} width={100}></img> */}
                             {item.img}
                             <div className="IndustryCard-txt">

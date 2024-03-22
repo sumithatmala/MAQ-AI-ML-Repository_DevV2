@@ -9,9 +9,10 @@
 }
 .bg-voilet-linear-gradient2 {
     /* background-color: rgb(37 29 62) !important; */
-    background-image: linear-gradient(
+    background-color: #f4f5f6 !important;
+    /* background-image: linear-gradient(
     0deg,
     #54638d 0%,
     rgb(123 106 175) 100%
-  );
+  ); */
 }

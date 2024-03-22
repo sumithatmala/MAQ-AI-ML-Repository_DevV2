@@ -68,7 +68,7 @@ const CustomerSuccess = (props) => {
           className="slick-list1 draggable fade-in product-overview d-flex justify-content-center "
           style={{ backgroundColor: "white", height: "auto" }}
         >
-          <h3 class="head-block-center">{props.heading}</h3>
+          <h3 className="head-block-center">{props.heading}</h3>
           <Slider {...settings}>
             {items.map((outcome, index) => (
               <div className="separate-slider__item" key={index}>

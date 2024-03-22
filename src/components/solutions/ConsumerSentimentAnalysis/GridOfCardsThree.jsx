@@ -19,7 +19,7 @@ const GridOfCardsThree = (props) => {
       <h2 className="head-block-center" style={{marginBottom:"20px"}}>
         {props.items.title}
       </h2>
-      <div class="text-block-center" style={{marginBottom:"20px"}}>We inject our cross-domain experience into building custom solutions aligned with individual business needs.</div>
+      <div className="text-block-center" style={{marginBottom:"20px"}}>We inject our cross-domain experience into building custom solutions aligned with individual business needs.</div>
       <div className="predict-use-cases __type-predict">
         <div className="predict-use-cases__outer">
           <div className="predict-use-cases__inner">

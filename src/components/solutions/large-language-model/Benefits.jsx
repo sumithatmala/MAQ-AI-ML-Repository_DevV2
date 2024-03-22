@@ -3,22 +3,22 @@ import './css/Benefits.css'
 import { HashLink } from "react-router-hash-link";
 const Benfits = () => {
   return (
-    <section class="whychoose-section bg-icons">
-      <div class="whychoose-section-inner">
-        <h2 class="head-block-center w-800">
+    <section className="whychoose-section bg-icons">
+      <div className="whychoose-section-inner">
+        <h2 className="head-block-center w-800">
           Benefits of On-Premise and Private-Cloud LLM Models
         </h2>
-        <div class="text-block-center">
+        <div className="text-block-center">
           We deploy language models locally to keep your proprietary data
           secure.
         </div>
-        <ul class="whychoose-section-list">
+        <ul className="whychoose-section-list">
           
-          <li class="whychoose-section-list__list-item">
-            <div class="whychoose-section-list__item">
-              <div class="whychoose-section-list__text">
-                <h3 class="whychoose-section-list__title">Strong Security</h3>
-                <div class="whychoose-section-list__description">
+          <li className="whychoose-section-list__list-item">
+            <div className="whychoose-section-list__item">
+              <div className="whychoose-section-list__text">
+                <h3 className="whychoose-section-list__title">Strong Security</h3>
+                <div className="whychoose-section-list__description">
                   <p>
                     We help you keep a tight rein on your data storage and
                     security by using our custom solutions built on language
@@ -29,13 +29,13 @@ const Benfits = () => {
               </div>
             </div>
           </li>
-          <li class="whychoose-section-list__list-item">
-            <div class="whychoose-section-list__item">
-              <div class="whychoose-section-list__text">
-                <h3 class="whychoose-section-list__title">
+          <li className="whychoose-section-list__list-item">
+            <div className="whychoose-section-list__item">
+              <div className="whychoose-section-list__text">
+                <h3 className="whychoose-section-list__title">
                   Custom Functionality
                 </h3>
-                <div class="whychoose-section-list__description">
+                <div className="whychoose-section-list__description">
                   <p>
                     Our developers adjust foundational models to match your
                     unique business and functional needs and improve the
@@ -47,11 +47,11 @@ const Benfits = () => {
             </div>
           </li>
         </ul>
-        <div class="block__action">
+        <div className="block__action">
           
           <HashLink
             to="./#contact"
-            class="btn btn-empty"
+            className="btn btn-empty"
           >
             Request Demo
           </HashLink>

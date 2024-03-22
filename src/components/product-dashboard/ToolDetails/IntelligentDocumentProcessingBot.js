@@ -1,7 +1,3 @@
-import { MdGroups } from "react-icons/md";
-import PsychologyIcon from '@mui/icons-material/Psychology';
-import CastForEducationIcon from '@mui/icons-material/CastForEducation';
-import { GrUserAdmin } from "react-icons/gr";
 import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
 import QueryStatsIcon from '@mui/icons-material/QueryStats';
 import { MdManageHistory } from "react-icons/md";
@@ -13,20 +9,26 @@ import SpeedIcon from '@mui/icons-material/Speed';
 import OutputIcon from '@mui/icons-material/Output';
 import demoVideo from './demos/IntelligentDocumentProcessingBot.mp4';
 
+import HealthcareAdmin from '../images/HealthcareAdmins.svg'
+import HealthcarePro from '../images/HealthcareProviders.svg'
+import HealthInsurance from '../images/HealthInsurancePro.svg'
+import MedicalRes from '../images/MedicalResearchers.svg'
 
-const iconSize = {
-  height: "5rem",
-  width: "5rem",
-  color: "#dc848d"
-}
+
+// const iconSize = {
+//   height: "5rem",
+//   width: "5rem",
+//   color: "#dc848d"
+// }
 const iconSizeBO = {
   height: "13rem",
   width: "20.4rem",
   color: "#dc848d",
-  border: "solid #dc848d 3px",
+  // border: "solid #dc848d 3px",
   // margin: "0px 10px",
-  padding: "30px 50px",
-  borderRadius: "10px",
+  // padding: "30px 50px",
+  // borderRadius: "10px",
+  padding: "10%",
   // boxShadow: "0px 8px 16px 0px red"
 }
 export const IntelligentDocumentProcessingBot = {
@@ -39,22 +41,22 @@ export const IntelligentDocumentProcessingBot = {
     {
       title: "Healthcare Providers",
       description: "Doctors, nurses and other healthcare professionals who handle patient data on daily basis for various treatments and procedures.",
-      iconSrc: <MdGroups style={iconSize} />,
+      iconSrc: <img src={HealthcarePro} width="100px" alt='' height="100px"  />
     },
     {
       title: "Healthcare Admins",
       description: "Responsible for managing and organizing patient records to maintain a structured and easily accessible database, with high rate of accuracy data integrity.",
-      iconSrc: <PsychologyIcon style={iconSize} />,
+      iconSrc: <img src={HealthcareAdmin} width="100px" alt='' height="100px"  />
     },
     {
       title: "Medical Researchers",
       description: "Researchers working in healthcare, who refers to numerous research papers, clinical trial documents, and medical journals for their studies and contribute to medical advancements.",
-      iconSrc: <CastForEducationIcon style={iconSize} />,
+      iconSrc: <img src={MedicalRes} width="100px" alt='' height="100px"  />
     },
     {
       title: "Health Insurance Providers",
       description: "Insurance companies dealing with healthcare claims often require accurate and up-to-date patient information, to process the claims by verifying medical bills & insurance forms.",
-      iconSrc: <GrUserAdmin style={iconSize} />,
+      iconSrc:<img src={HealthInsurance} width="100px" alt='' height="100px"  />
     },
   ],
   businessOutcomes: [

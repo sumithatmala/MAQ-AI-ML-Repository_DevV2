@@ -12,11 +12,15 @@ import OneCardDataAuto from "./OneCardDataAuto";
 import AccordionStatic from "../../solutions/common/accordionStatic";
 import AccordionDataAuto from "./AccordionDataAuto";
 import Alternate from "../../solutions/common/alternateBanner";
+import NewBanner from '../../solutions/common/NewBanner'
+import bannerdata from './bannerdata'
+
 
 const Automotive = () => {
   return (
     <>
-      <section className="automotivetool">
+    <NewBanner data = {bannerdata} />
+      {/* <section className="automotivetool">
         <div className="container">
           <div className="grids">
             <div className="top">
@@ -41,10 +45,10 @@ const Automotive = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section class="info-section">
-        <div class="info-section-inner"></div>
+      <section className="info-section">
+        <div className="info-section-inner"></div>
       </section>
 
       <div className="quick-block">

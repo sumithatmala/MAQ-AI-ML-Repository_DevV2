@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ProductGallery from "./ProductGallery";
@@ -10,7 +9,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import ProductDemo from "./ProductDemo";
 import ProductTryIt from "./ProductTryIt";
-import ProductContactUs from "./ProductContactUs";
 import "./css/target-users.css";
 import FAQs from "./FAQs";
 import ContactForm from "../solutions/common/contactForm";
@@ -23,41 +21,17 @@ import AnimatedSolution from "./icons/AnimatedSolution";
 import AnimatedHighlights from "./icons/AnimatedHighlights";
 import LoaderComp from "../views/LoaderComp";
 import GridOfCards from "../solutions/common/GridOfCards";
-import AlternateBanner from "../solutions/common/alternateBanner";
+
+import solutionhigh from './icons/SolutionHigh.svg'
+import pain from './icons/PainPoints.svg'
+import howsolution from './icons/HowSolutionHelp.svg'
+import outcomes from './icons/Outcomes.svg';
+
 // import "./css/target-user2.css"
 
 const ProductInformation = () => {
   const [productDetails, setproductDetails] = useState(null);
   const { productName } = useParams();
-
-  // const settings = {
-  //   className: "center",
-  //   infinite: true,
-  //   centerMode: true,
-  //   autoplaySpeed: 5000,
-  //   // autoplay: true,
-  //   slidesToShow: 3,
-  //   slidesToScroll: 1,
-  //   dots: false,
-  //   responsive: [
-  //     {
-  //       breakpoint: 1450,
-  //       settings: {
-  //         slidesToShow: 2,
-  //         slidesToScroll: 1,
-  //         centerMode: false,
-  //       },
-  //     },
-  //     {
-  //       breakpoint: 1024,
-  //       settings: {
-  //         slidesToShow: 1,
-  //         slidesToScroll: 1,
-  //         centerMode: false,
-  //       },
-  //     },
-  //   ],
-  // };
 
   useEffect(() => {
     console.log(productName);
@@ -120,7 +94,7 @@ const ProductInformation = () => {
           {productDetails.targetUsers &&
             productDetails.targetUsers.length > 0 && (
               <section
-                class="target-section"
+                className="target-section"
                 style={{
                   backgroundColor: "white",
                   paddingTop: "50px",
@@ -138,21 +112,23 @@ const ProductInformation = () => {
             )}
 
           {/*business outcomes */}
-          <h3 class="head-block-center">Business Outcomes</h3>
+          <div className="product_carousel">
+          <h3 className="head-block-center" style={{marginTop:"30px"}}>Business Outcomes</h3>
           <CustomerSuccess
             items={productDetails.businessOutcomes}
             CardHeight={"230px"}
-            autoPlay={true}
+            // autoPlay={true}
+            autoPlay={false}
             centerUp={true}
             style={{ marginBottom: "0px", paddingBottom: "5rem" }}
           />
+          </div>
 
           {/* Solution Highlights​ */}
           <section className="bannerCenter">
             {productDetails.solutionHighlights &&
               productDetails.solutionHighlights.length > 0 && (
                 <Row id="prodinfo" className="product-overview sol">
-                  {/* <AlternateBanner banners={productDetails.solutionHighlights1} ContactBtn={false} /> */}
                   <Col style={{ boxShadow: "none" }}>
                     <div
                       className="icon-container"
@@ -163,7 +139,8 @@ const ProductInformation = () => {
                       }}
                     >
                       <div className="icons_res">
-                        <AnimatedHighlights />
+                        {/* <AnimatedHighlights /> */}
+                        <img src={solutionhigh} />
                       </div>
                     </div>
                   </Col>
@@ -200,7 +177,7 @@ const ProductInformation = () => {
             {productDetails.summary && productDetails.summary.length > 0 && (
               <>
                 <Row id="prodinfo" className="product-overview">
-                  {/* <AlternateBanner banners={productDetails.summary1} ContactBtn={false} /> */}
+                 
                   <div
                     className="sum"
                     style={{
@@ -251,7 +228,8 @@ const ProductInformation = () => {
                               }}
                             >
                               <div className="icons_res">
-                                <AnimatedDevelopment />
+                                {/* <AnimatedDevelopment /> */}
+                                <img src={pain} />
                               </div>
                             </div>
                           </Col>
@@ -298,7 +276,8 @@ const ProductInformation = () => {
                               }}
                             >
                               <div className="icons_res">
-                                <AnimatedOutcome />
+                                {/* <AnimatedOutcome /> */}
+                                <img src={outcomes} />
                               </div>
                             </div>
                           </Col>
@@ -323,7 +302,8 @@ const ProductInformation = () => {
                               }}
                             >
                               <div className="icons_res">
-                                <AnimatedSolution />
+                                {/* <AnimatedSolution /> */}
+                                <img src={howsolution} />
                               </div>
                             </div>
                           </Col>
@@ -367,7 +347,9 @@ const ProductInformation = () => {
       />
       {/* <ProductContactUs /> */}
       {productDetails.FAQs && productDetails.FAQs.length > 0 && (
+        <div style={{marginTop: "30px"}}>
         <FAQs FAQs={productDetails.FAQs} />
+        </div>
       )}
       <ContactForm />
     </>

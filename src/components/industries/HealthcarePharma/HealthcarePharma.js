@@ -3,7 +3,6 @@ import AlternateBanner from "../../solutions/common/alternateBanner";
 import BiotechDigitalData from "./AccorData";
 import AreaExpertise from "./AreaExpertise";
 import "./css/HealthcarePharma.css";
-// import data from '../AISolutionsEcommerce/JSONData/AlternateBannerData';
 import ContactForm from "../../solutions/common/contactForm";
 import CustomerSuccess from "../../solutions/common/CustomerSuccess";
 import PharmaCustData from "./PharmaCustData";
@@ -14,12 +13,15 @@ import ServiceProvide from "./ServiceProvides";
 import BigData from "./BigDataPharma";
 import OneCardCoursal from "../common/OneCardCoursal";
 import OCDataHealth from "./CarouselDataHealth";
-import Accordion from "./CustomAccordion/AccordionReact";
+import NewBanner from '../../solutions/common/NewBanner';
+import BannerData from './BannerData'
+
 
 const HealtcarePharma = () => {
   return (
     <>
-      <section className="healthcare">
+    <NewBanner data={BannerData} />
+      {/* <section className="healthcare">
         <div className="container">
           <div className="grids">
             <div className="top">
@@ -41,7 +43,7 @@ const HealtcarePharma = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       
 
@@ -74,8 +76,8 @@ const HealtcarePharma = () => {
         <AlternateBanner banners={AreaExpertise} count={0} ContactBtn={true} />
       </div>
 
-      <h2 class="head-block-center">Services We Provide</h2>
-      <div class="text-block-center">Artificial intelligence solutions in healthcare on demand.</div>
+      <h2 className="head-block-center">Services We Provide</h2>
+      <div className="text-block-center">Artificial intelligence solutions in healthcare on demand.</div>
       <section className="griddd">
         <Grid content={ServiceProvide} />
       </section>

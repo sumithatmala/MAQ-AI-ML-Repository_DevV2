@@ -1,33 +1,34 @@
-import { MdGroups } from "react-icons/md";
-import PsychologyIcon from '@mui/icons-material/Psychology';
-import CastForEducationIcon from '@mui/icons-material/CastForEducation';
-import { GrUserAdmin } from "react-icons/gr";
-import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
-import QueryStatsIcon from '@mui/icons-material/QueryStats';
-import { MdManageHistory } from "react-icons/md";
-import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
-import ConstructionIcon from '@mui/icons-material/Construction';
-import SchoolIcon from '@mui/icons-material/School';
-import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
-import SpeedIcon from '@mui/icons-material/Speed';
-import OutputIcon from '@mui/icons-material/Output';
 import demoVideo from './demos/FeedbackSummarizerBot.mp4'
 
-const iconSize = {
-  height: "5rem",
-  width: "5rem",
-  color: "#dc848d",
-};
-const iconSizeBO = {
-  height: "13rem",
-  width: "20.4rem",
-  color: "#dc848d",
-  border: "solid #dc848d 3px",
-  // margin: "0px 10px",
-  padding: "30px 50px",
-  borderRadius: "10px",
-  // boxShadow: "0px 8px 16px 0px red"
-}
+
+import ProductMang from '../images/ProductManagers.svg'
+import CustSupp from '../images/CustomerSupport.svg'
+import ProdcutDev from '../images/ProductDevelopment.svg'
+import DataAnalyst from '../images/DataAnalyst.svg'
+
+import EnhancedCustExp from '../images/EnhancedCustExp.svg'
+import ImpProdDev from '../images/ImpProdDev.svg'
+import AcclDecisionMake from '../images/AcclDecisionMake.svg'
+import IncreasedCustSatasf from '../images/IncreasedCustSatasf.svg'
+import ProactiveIssueResolution from '../images/ProactiveIssueResolution.svg'
+import CompetitiveAdv from '../images/CompetitiveAdv.svg'
+
+
+// const iconSize = {
+//   height: "5rem",
+//   width: "5rem",
+//   color: "#dc848d",
+// };
+// const iconSizeBO = {
+//   height: "13rem",
+//   width: "20.4rem",
+//   color: "#dc848d",
+//   border: "solid #dc848d 3px",
+//   // margin: "0px 10px",
+//   padding: "30px 50px",
+//   borderRadius: "10px",
+//   // boxShadow: "0px 8px 16px 0px red"
+// }
 
 export const FeedbackSummarizerBot = {
     title: "Feedback Summarizer Bot",
@@ -39,54 +40,54 @@ export const FeedbackSummarizerBot = {
       {
         title: " Product Managers",
         description: "Plays a key role in extracting actionable insights from customer feedback. Generates valuable reports by performing in-depth analysis",
-        iconSrc: <MdGroups style={iconSize}/>,
+        iconSrc: <img src={ProductMang} alt=""  width="100px" height="100px"  />
       },
       {
         title: "Data Analysts",
         description: "The client seeks insights, progress tracking, and improvements for their custom pose estimation models in physical therapy and fitness.",
-        iconSrc: <PsychologyIcon style={iconSize}/>,
+        iconSrc: <img src={DataAnalyst} alt=""  width="100px" height="100px"  />
       },
       {
         title: "Customer Support Representatives",
         description: "Frontline team who directly interacts with the customers. accelerates the business by understanding the customer sentiments",
-        iconSrc: <CastForEducationIcon style={iconSize}/>,
+        iconSrc: <img src={CustSupp} alt=""  width="100px" height="100px"  />
       },
       {
         title: "Product Development Teams",
         description: "Understanding customer needs, pain points, and suggestions to develop new features or products that align with customer expectations",
-        iconSrc: <GrUserAdmin style={iconSize} />,
+        iconSrc: <img src={ProdcutDev} alt=""  width="100px" height="100px"  />
       },
     ],
     businessOutcomes: [
       {
         title: "Enhanced Customer Experience",
         description: ["Using customer feedback insights, organizations can prioritize product enhancements for more innovative, customer-centric products."],
-        image: <IntegrationInstructionsIcon style={iconSizeBO}/>,
+        image: <img src={EnhancedCustExp} alt=""  width="100px" height="100px"  />
       },
       {
         title: "Improved Product Development",
         description: ["Researchers and analysts can leverage the solution to extract insights from session content and recordings, supporting data analysis, research projects."],
-        image: <QueryStatsIcon style={iconSizeBO}/>,
+        image: <img src={ImpProdDev} alt=""   width="100px" />
       },
       {
         title: "Accelerated Decision-Making",
         description: ["faster decision-making by business teams  leveraging the timely insights derived from feedback."],
-        image: <MdManageHistory style={iconSizeBO}/>,
+        image: <img src={AcclDecisionMake} alt=""   width="100px" />
       },
       {
         title: "Increased Customer Satisfaction",
         description: ["Addressing customer concerns and implementing feedback-driven changes can boost satisfaction, loyalty, and retention."],
-        image: <LocalLibraryIcon style={iconSizeBO}/>,
+        image: <img src={IncreasedCustSatasf} alt=""  width="100px"  />
       },
       {
         title: "Proactive Issue Resolution",
         description: ["proactively identify and resolve customer issues by analyzing feedback in real-time, minimizing negative impacts and improving customer loyalty."],
-        image: <ConstructionIcon style={iconSizeBO}/>,
+        image: <img src={ProactiveIssueResolution} alt=""   width="100px" />
       },
       {
         title: "Competitive Advantage",
         description: ["Efficient analysis of customer feedback allows businesses to stay ahead of the competition by identifying and addressing customer needs and preferences more effectively."],
-        image: <SchoolIcon style={iconSizeBO}/>,
+        image: <img src={CompetitiveAdv} alt="" width="100px" />
       },
     ],
     solutionHighlights: [
