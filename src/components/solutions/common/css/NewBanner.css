@@ -41,3 +41,37 @@
     width: 40%;
     margin-top: 141px;
 }
+
+
+@media (max-width: 920px){
+    .bannerbody{
+        height: 350px !important;
+        min-height: 300px;
+    }
+    .container_newBanner{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner_content{
+        width: 100%;
+        text-align: center;
+        /* background-image:; */
+        z-index: 9;
+        margin-top: 100px;
+        font-weight: 600;
+    }
+    .banner_image{
+        /* display: none; */
+        width: 100%;
+        position: absolute;
+        opacity: 0.35;
+    }
+}
+
+@media (max-width: 570px){
+    .banner_image img{
+        width: -webkit-fill-available;
+    }
+}
