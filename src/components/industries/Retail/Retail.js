@@ -9,12 +9,15 @@ import { Number } from './Number';
 
 import AlternateBanner from '../../solutions/common/alternateBanner';
 import AlternateData from './alternatedata';
+import NewBanner from '../../solutions/common/NewBanner'
+import bannerdata from './bannerdata'
 
 
 const Retail = () => {
   return (
     <>
-      <section className="toolinformations">
+      <NewBanner data = {bannerdata} />
+      {/* <section className="toolinformations">
         <div className="container">
           <div className="grids">
             <div className="top">
@@ -33,7 +36,7 @@ const Retail = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="info-section"><div className="info-section-inner"><h2 className="head-block-center">Our Expertise</h2><div className="text-block-center"> Artificial intelligence in the retail industry: made easy.</div></div></section>
 

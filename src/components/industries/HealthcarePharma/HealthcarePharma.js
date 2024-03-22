@@ -13,11 +13,15 @@ import ServiceProvide from "./ServiceProvides";
 import BigData from "./BigDataPharma";
 import OneCardCoursal from "../common/OneCardCoursal";
 import OCDataHealth from "./CarouselDataHealth";
+import NewBanner from '../../solutions/common/NewBanner';
+import BannerData from './BannerData'
+
 
 const HealtcarePharma = () => {
   return (
     <>
-      <section className="healthcare">
+    <NewBanner data={BannerData} />
+      {/* <section className="healthcare">
         <div className="container">
           <div className="grids">
             <div className="top">
@@ -39,7 +43,7 @@ const HealtcarePharma = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       
 

@@ -13,11 +13,14 @@ import BusinessCasesData from './JSONData/BusinessCasesData';
 import CustomerSuccess from '../../solutions/common/CustomerSuccess';
 import CutomerSuccessData from "./JSONData/CustomerSuccessData";
 import ContactForm from '../../solutions/common/contactForm';
+import NewBanner from '../../solutions/common/NewBanner'
+import bannerdata from './bannerdata'
 
 const SportWellness =() =>{
     return (
         <>
-          <Banner BannerData={BannerData}/>
+          {/* <Banner BannerData={BannerData}/> */}
+          <NewBanner data = {bannerdata} />
           <div className="InfoVisual">
             <section className="WelcomeMsg">
                 <h2>Areas of Expertise</h2>

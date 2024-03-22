@@ -12,11 +12,14 @@ import { benefitCards } from './JSONData/Benefit';
 import CustomerSuccess from '../../solutions/common/CustomerSuccess';
 import CutomerSuccessData from "./JSONData/CustomerSuccessData";
 import ContactForm from '../../solutions/common/contactForm';
+import NewBanner from '../../solutions/common/NewBanner'
+import bannerdata from './bannerData'
 
 const Fintech = () => {
   return (
     <>
-      <Banner BannerData={BannerData}/>
+      {/* <Banner BannerData={BannerData}/> */}
+      <NewBanner data = {bannerdata} />
       
       <section className="WelcomeMsg" style={{margin: "3rem"}}>
         <h2>Our Strengths</h2>

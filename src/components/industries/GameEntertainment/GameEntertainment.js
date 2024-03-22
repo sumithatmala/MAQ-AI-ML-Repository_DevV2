@@ -9,11 +9,14 @@ import OneCardDataGame from "./OneCardDataGame";
 import GameDev from "./GameDev";
 import WhyChooseSection from "./WhyChosen";
 import LeftRight from '../../solutions/common/alternateBanner';
+import NewBanner from '../../solutions/common/NewBanner';
+import bannerdata from './bannerdata'
 
 const GameEntertainment = () => {
   return (
     <>
-      <section className="automotivetool">
+    <NewBanner data={ bannerdata } />
+      {/* <section className="automotivetool">
         <div className="container">
           <div className="grids">
             <div className="top">
@@ -35,7 +38,7 @@ const GameEntertainment = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <div className="keyExpertise container_pharma" style={{ marginTop: "60px" }}>
       <div className="quick-block">
