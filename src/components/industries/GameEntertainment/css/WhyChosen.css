@@ -47,7 +47,8 @@ ol, ul {
     border: 0;
     border-radius: 7px;
     box-shadow: inherit;
-    box-shadow: 0 4px 5px rgba(146,201,236,.2), 0 0 14px rgba(146,201,236,.12), 0 8px 10px rgba(146,201,236,.14);
+    /* box-shadow: 0 4px 5px rgba(146,201,236,.2), 0 0 14px rgba(146,201,236,.12), 0 8px 10px rgba(146,201,236,.14); */
+    box-shadow: 4px 3px 19px #80808066 !important;
 }
 
 .whychoose-section-list__item {

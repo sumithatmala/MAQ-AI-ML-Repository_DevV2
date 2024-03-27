@@ -41,22 +41,22 @@ export const IntelligentDocumentProcessingBot = {
     {
       title: "Healthcare Providers",
       description: "Doctors, nurses and other healthcare professionals who handle patient data on daily basis for various treatments and procedures.",
-      iconSrc: <img src={HealthcarePro} width="100px" alt='' height="100px"  />
+      iconSrc: <img src={HealthcarePro} width="70px" alt=''  />
     },
     {
       title: "Healthcare Admins",
       description: "Responsible for managing and organizing patient records to maintain a structured and easily accessible database, with high rate of accuracy data integrity.",
-      iconSrc: <img src={HealthcareAdmin} width="100px" alt='' height="100px"  />
+      iconSrc: <img src={HealthcareAdmin} width="70px" alt=''  />
     },
     {
       title: "Medical Researchers",
       description: "Researchers working in healthcare, who refers to numerous research papers, clinical trial documents, and medical journals for their studies and contribute to medical advancements.",
-      iconSrc: <img src={MedicalRes} width="100px" alt='' height="100px"  />
+      iconSrc: <img src={MedicalRes} width="70px" alt=''  />
     },
     {
       title: "Health Insurance Providers",
       description: "Insurance companies dealing with healthcare claims often require accurate and up-to-date patient information, to process the claims by verifying medical bills & insurance forms.",
-      iconSrc:<img src={HealthInsurance} width="100px" alt='' height="100px"  />
+      iconSrc:<img src={HealthInsurance} width="70px" alt=''  />
     },
   ],
   businessOutcomes: [

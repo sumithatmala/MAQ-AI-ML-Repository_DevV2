@@ -40,22 +40,22 @@ export const FeedbackSummarizerBot = {
       {
         title: " Product Managers",
         description: "Plays a key role in extracting actionable insights from customer feedback. Generates valuable reports by performing in-depth analysis",
-        iconSrc: <img src={ProductMang} alt=""  width="100px" height="100px"  />
+        iconSrc: <img src={ProductMang} alt=""  width="70px"  />
       },
       {
         title: "Data Analysts",
         description: "The client seeks insights, progress tracking, and improvements for their custom pose estimation models in physical therapy and fitness.",
-        iconSrc: <img src={DataAnalyst} alt=""  width="100px" height="100px"  />
+        iconSrc: <img src={DataAnalyst} alt=""  width="70px"  />
       },
       {
         title: "Customer Support Representatives",
         description: "Frontline team who directly interacts with the customers. accelerates the business by understanding the customer sentiments",
-        iconSrc: <img src={CustSupp} alt=""  width="100px" height="100px"  />
+        iconSrc: <img src={CustSupp} alt=""  width="70px"  />
       },
       {
         title: "Product Development Teams",
         description: "Understanding customer needs, pain points, and suggestions to develop new features or products that align with customer expectations",
-        iconSrc: <img src={ProdcutDev} alt=""  width="100px" height="100px"  />
+        iconSrc: <img src={ProdcutDev} alt=""  width="70px"  />
       },
     ],
     businessOutcomes: [

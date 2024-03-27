@@ -11,7 +11,7 @@ import showcaseBannerIndustriesData from "./JSON/showcaseBannerIndustriesData";
 import showcaseBannerSolutionsData from "./JSON/showcaseBannerSolutionsData";
 
 //components
-import ExpertiseBanner from "./expertiseBanner";
+// import ExpertiseBanner from "./expertiseBanner";
 import IncreasingCards from "./increasingCards";
 import ServiceGrid from "./serviceGrid";
 import ContactForm from "../../solutions/common/contactForm"
