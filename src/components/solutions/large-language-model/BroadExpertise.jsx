@@ -1,9 +1,14 @@
 import React from "react";
 import "./css/BroadExpertise.css";
-import iconCircleML from "./img/icon-circle-ml.svg";
-import iconCircleNLP from "./img/icon-circle-nlp.svg";
-import iconCircleCloud from "./img/icon-circle-cloud.svg";
-import iconCircleDataEngineering from "./img/icon-circle-data-engineering.svg";
+// import iconCircleML from "./img/icon-circle-ml.svg";
+// import iconCircleNLP from "./img/icon-circle-nlp.svg";
+// import iconCircleCloud from "./img/icon-circle-cloud.svg";
+// import iconCircleDataEngineering from "./img/icon-circle-data-engineering.svg";
+
+import iconCircleML from "./img/icons8-ai-100 1.svg";
+import iconCircleNLP from "./img/icons8-language-100 1.svg";
+import iconCircleCloud from "./img/icons8-secure-cloud-100 1.svg";
+import iconCircleDataEngineering from "./img/icons8-data-backup-100 1.svg";
 
 const BroadExpertise = () => {
   const expertiseAreas = [

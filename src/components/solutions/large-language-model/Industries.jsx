@@ -1,86 +1,57 @@
 import React from "react";
-import biFinService from './img/bi-fin-service.svg';
-import iconEcommerceAlt from './img/icon-ecommerce-alt.svg';
-import biMarketing from './img/bi-marketing.svg';
-import iconTelecommunications from './img/icon-telecommunications.svg';
-import biIconConslng from './img/bi-icon-conslng.svg';
-import iconSecurity from './img/icon-security.svg';
-// import "./css/Industries.css";
+// import biFinService from './img/bi-fin-service.svg';
+// import iconEcommerceAlt from './img/icon-ecommerce-alt.svg';
+// import biMarketing from './img/bi-marketing.svg';
+// import iconTelecommunications from './img/icon-telecommunications.svg';
+// import biIconConslng from './img/bi-icon-conslng.svg';
+// import iconSecurity from './img/icon-security.svg';
 
-// const Industries = () => {
-//   return (
-//     <section className="section-industries-alt">
-//       <div className="industries__inner-alt __bi-impl__inner-alt">
-//         <h2 className="head-block-center-alt">
-//           Build a Custom LLM Model for Your Industry
-//         </h2>
-//         <div className="text-block-center-alt">
-//           Our generative AI company delivers custom models rooted in AI
-//           expertise &amp; years of cross-domain expertise.
-//         </div>
-//         <div className="industries__list-alt">
-//           {industries.map((industry, index) => (
-//             <div key={index} className="industries__item-link-alt">
-//               <div className="industries__item-alt">
-//                 <div className="industries__item-icon-alt">
-//                   <img src={industry.image} alt={industry.alt} />
-//                 </div>
-//                 <div className="industries__item-title-alt">{industry.title}</div>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//         <div className="block__action">
-//           <a
-//             href="large-language-model.html#section-contacts"
-//             className="btn btn-empty"
-//           >
-//             Your Industry
-//           </a>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
+
+import biFinService from './img/icons8-technology-100 1.svg';
+import iconEcommerceAlt from './img/icons8-shopping-mall-100 2.svg';
+import biMarketing from './img/icons8-marketing-100 (1) 2.svg';
+import iconTelecommunications from './img/icons8-social-100 2.svg';
+import biIconConslng from './img/icons8-consultation-100 (1) 1.svg';
+import iconSecurity from './img/icons8-insurance-100 1.svg';
 
 const Industries = [
   {
-    iconSrc: <img src={biFinService} />,
+    iconSrc: <img src={biFinService}  alt="icon" width="70px"/>,
     title: "FinTech",
     // image: biFinService,
     alt: "Financial Services",
     description: "",
   },
   {
-    iconSrc: <img src={iconEcommerceAlt} />,
+    iconSrc: <img src={iconEcommerceAlt} alt="icon" width="70px" />,
     title: "Retail & E-commerce",
     // image: iconEcommerceAlt,
     alt: "ecommerce",
     description: "",
   },
   {
-    iconSrc: <img src={biMarketing} />,
+    iconSrc: <img src={biMarketing} alt="icon" width="70px" />,
     title: "Marketing & Advertising",
     // image: biMarketing,
     alt: "Marketing & Advertising",
     description: "",
   },
   {
-    iconSrc: <img src={iconTelecommunications} />,
+    iconSrc: <img src={iconTelecommunications} alt="icon" width="70px" />,
     title: "Telecommunication",
     // image: iconTelecommunications,
     alt: "telecommunications",
     description: "",
   },
   {
-    iconSrc: <img src={biIconConslng} />,
+    iconSrc: <img src={biIconConslng} alt="icon" width="70px" />,
     title: "Consulting services",
     // image: biIconConslng,
     alt: "BI Consulting Services",
     description: "",
   },
   {
-    iconSrc: <img src={iconSecurity} />,
+    iconSrc: <img src={iconSecurity} alt="icon" width="70px" />,
     title: "Insurance",
     // image: iconSecurity,
     alt: "security",

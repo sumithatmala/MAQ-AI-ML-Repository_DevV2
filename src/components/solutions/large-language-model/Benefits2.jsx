@@ -1,9 +1,14 @@
 import React from "react";
 import './css/Benefits2.css';
-import iconDollarIncrease from './img/icon-dollar-increase.svg';
-import iconCost from './img/icon-cost-2.svg';
-import iconAccuracy from './img/icon-accuracy-2.svg';
-import iconEngine from './img/icon-engine.svg';
+// import iconDollarIncrease from './img/icon-dollar-increase.svg';
+// import iconCost from './img/icon-cost-2.svg';
+// import iconAccuracy from './img/icon-accuracy-2.svg';
+// import iconEngine from './img/icon-engine.svg';
+
+import iconDollarIncrease from './img/icons8-user-groups-100 3.svg';
+import iconCost from './img/icons8-decision-100 2.svg';
+import iconAccuracy from './img/icons8-intelligence-100 1.svg';
+import iconEngine from './img/icons8-data-security-100 1.svg';
 
 const Benefits2 = () => {
   const benefits = [
@@ -45,7 +50,7 @@ const Benefits2 = () => {
                 {benefits.map((benefit, index) => (
                   <li key={index} className="use-cases-list__list-item">
                     <div className="use-cases-list__item">
-                      <div className="use-cases-list__icon">
+                      <div className="use-cases-list__icon" style={{display:"flex", justifyContent:"center"}}>
                         <img src={benefit.icon} alt={benefit.title} />
                       </div>
                       <h3 className="use-cases-list__title">{benefit.title}</h3>

@@ -1,9 +1,14 @@
 import React from 'react';
 import './css/SentimentAnalysis.css';
-import like from './icons/icon-like-alt.svg';
-import bar from './icons/icon-cost-bar.svg';
-import conversation from './icons/icon-conversation.svg';
-import search from './icons/icon-data-analysis-mag.svg';
+// import like from './icons/icon-like-alt.svg';
+// import bar from './icons/icon-cost-bar.svg';
+// import conversation from './icons/icon-conversation.svg';
+// import search from './icons/icon-data-analysis-mag.svg';
+
+import like from './icons/icons8-social-100 1.svg';
+import bar from './icons/icons8-customer-insights-manager-100 1.svg';
+import conversation from './icons/icons8-voice-100 1.svg';
+import search from './icons/icons8-fast-track-100 1.svg';
 
 const SentimentAnalysis = () => {
   const listItems = [

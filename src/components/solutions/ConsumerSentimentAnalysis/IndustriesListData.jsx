@@ -6,21 +6,21 @@ import structured from './icons/icon-structured-data.svg';
 
 const IndustriesListData = [
   {
-    iconSrc: <img src = {structured} />,
+    iconSrc: <img src = {structured} alt="" />,
     altText: "Aggregate",
     title: "Aggregate",
     description:
       "Broaden your analysis of consumer behavior. Gather sentiments from various sources and consolidate the data into a unified view.",
   },
   {
-    iconSrc: <img src = {dataAnalysis} />,
+    iconSrc: <img src = {dataAnalysis} alt="" />,
     altText: "Analyze",
     title: "Analyze",
     description:
       "Incorporate intelligent algorithms to gauge the vibe of emerging trends. Monitor crucial shifts in behavior and uncover hidden opportunities within sentiments.",
   },
   {
-    iconSrc: <img src = {idea} />,
+    iconSrc: <img src = {idea} alt="" />,
     altText: "Activate",
     title: "Activate",
     description:
