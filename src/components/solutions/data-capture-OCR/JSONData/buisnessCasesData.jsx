@@ -1,12 +1,16 @@
-import barcode from "../img/barcode.svg"
-import imageScan from "../img/imageScan.svg"
-import featureScan from "../img/featureScan.svg"
+// import barcode from "../img/barcode.svg"
+// import imageScan from "../img/imageScan.svg"
+// import featureScan from "../img/featureScan.svg"
+
+import charreg from "../img/icons8-character-100 1.svg"
+import barcode from "../img/icons8-image-100 1.svg"
+import imageScan from "../img/icons8-rfid-signal-100 1.svg"
+import featureScan from "../img/icons8-qr-code-100 1.svg"
+
+
 const ServiceData = [
     {
-      iconSrc: <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-      <rect x="26" y="10" width="50" height="60" fill="none" stroke="#db838d" strokeWidth="5" />
-      <text x="30" y="60" fontFamily="Arial" fontSize="60" fill="#db838d">H</text>
-    </svg>
+      iconSrc: <img src={charreg} alt="Character Recognition" width={70} />
     ,
       altText: "Character Recognition",
       title: "Character Recognition",

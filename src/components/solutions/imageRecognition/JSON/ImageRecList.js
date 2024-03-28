@@ -6,19 +6,19 @@ import python from "../img/python.png"
 import scikit from "../img/scikit-learn.png"
 import spark from "../img/spark.png"
 import tensorflow from "../img/tensorflow.png"
-import health from "../img/health.svg"
-import logistics from "../img/logistics.svg"
-import Media from "../img/media.svg"
-import retail from "../img/retail.svg"
-import robot from "../img/robot.svg"
-import automobile from "../img/automobile.svg"
+import logistics from "../img/icons8-trolley-100 1.svg"
+import Media from "../img/icons8-media-100 1.svg"
+import health from "../img/icons8-health-100 1.svg"
+import retail from "../img/icons8-retail-100 1.svg"
+import robot from "../img/icons8-robot-100 1.svg"
+import automobile from "../img/icons8-car-100 1.svg"
 import one from "../img/1.png"
 import two from "../img/2.png"
 import three from "../img/3.png"
 import four from "../img/4.png"
-import collect from "../img/collect.svg"
-import evaluate from "../img/evaluate.svg"
-import train from "../img/train.svg"
+import collect from "../img/icons8-collect-100 1.svg"
+import evaluate from "../img/icons8-investment-portfolio-100 1.svg"
+import train from "../img/icons8-learning-100 (1) 2.svg"
 
 export const process = [
     {topic: "Collect", disc:"We collect datasets, label images, and add meta tags to each unlabeled picture", img: <img src={collect} height={100} alt="Collect"/>},
@@ -28,12 +28,12 @@ export const process = [
 
 export const industrialCards = [
     // {label: "Industries", disc:"Our team of machine learning experts has earned global trust by delivering custom solutions for various industries. Specializing in on-demand computer vision and image recognition software development, we customize solutions to address industry-specific needs. Our clientele spans diverse sectors including logistics, retail, media & entertainment, healthcare, and more.", img: ""},
-    {label: "Logistics", disc:"Utilize machine learning algorithms for image processing to analyze, plan, design, and control transferring processes, cargo locations, routes, and monitor delivery status in real time.", img: <img src={logistics} alt="Logistics" width={100}></img>},
-    {label: "Media", disc:"Get a solid bespoke solution developed for your needs to analyze visual content, provide your consumers with highly accurate and diverse recommendations, foster user engagement, and reach new audiences.", img: <img src={Media} alt="Media" width={100}></img>},
-    {label: "Digital Health", disc:"Facilitate analysis of medical images, enable computer-aided diagnostics, allow predictive analytics and therapy, enhance mobile healthcare apps with custom computer vision software development.", img: <img src={health} alt="Health" width={100}></img>},
-    {label: "Retail", disc:"Improve search experience by developing image recognition and analysis software solutions to please your customers with intelligent search by photo and help them find merchandise easily.", img: <img src={retail} alt="Retail" width={100}></img>},
-    {label: "Robotics", disc:"Enable machines to efficiently perform a variety of repetitive tasks, such as object and target recognition, navigation, manufacturing & assembly, assisting physically challenged people with image processing techniques, etc.", img: <img src={robot} alt="Robot" width={100}></img>},
-    {label: "Automotive", disc:"Amplify design of complex geometries with deep learning techniques. Geometry AI solutions for the automotive industry allow for a safe product design with real-time simulation while reducing costs and engineering effort.", img: <img src={automobile} alt="Automobile" width={100}></img>},
+    {label: "Logistics", disc:"Utilize machine learning algorithms for image processing to analyze, plan, design, and control transferring processes, cargo locations, routes, and monitor delivery status in real time.", img: <img src={logistics} alt="Logistics" width={300}></img>},
+    {label: "Media", disc:"Get a solid bespoke solution developed for your needs to analyze visual content, provide your consumers with highly accurate and diverse recommendations, foster user engagement, and reach new audiences.", img: <img src={Media} alt="Media" width={300}></img>},
+    {label: "Digital Health", disc:"Facilitate analysis of medical images, enable computer-aided diagnostics, allow predictive analytics and therapy, enhance mobile healthcare apps with custom computer vision software development.", img: <img src={health} alt="Health" width={300}></img>},
+    {label: "Retail", disc:"Improve search experience by developing image recognition and analysis software solutions to please your customers with intelligent search by photo and help them find merchandise easily.", img: <img src={retail} alt="Retail" width={300}></img>},
+    {label: "Robotics", disc:"Enable machines to efficiently perform a variety of repetitive tasks, such as object and target recognition, navigation, manufacturing & assembly, assisting physically challenged people with image processing techniques, etc.", img: <img src={robot} alt="Robot" width={300}></img>},
+    {label: "Automotive", disc:"Amplify design of complex geometries with deep learning techniques. Geometry AI solutions for the automotive industry allow for a safe product design with real-time simulation while reducing costs and engineering effort.", img: <img src={automobile} alt="Automobile" width={300}></img>},
 ]
 
 export const benefitCards = [

@@ -46,20 +46,6 @@ const ImageRecognition = () => {
                         <img src={RecogImg} alt="ImageRecognition" width={300}></img>
                     </div>
                 </section>
-                {/* <section className="RoadmapContainer">
-                <h2>Your Project Development Roadmap</h2>
-                <div>
-                    <p>Visual content is a trend in information provision. It makes image identification and recognition and analysis solutions an integral part of many business workflows. Developed for the client's business, they enable process automation and reduce labour costs.</p>
-                    <p>Businesses get in touch with MAQ Software having different initial queries. We never take a one-size-fits-all approach but foster close cooperation with each client over a best-fit custom solution. Together, we map out development phases based on the available datasets.</p>
-                </div>
-                <div className="Roadmap">
-                    <h2>Describe the roadmap for the project development</h2>
-                </div>
-            </section> */}
-                {/* <div style={{width: "100%", margin: "5rem 20px"}}>
-                <RoadMap items={roadMapDataNew} title="New Project from scratch"/>
-                <RoadMap items={roadMapDataExisting} title="Existing App enhancement Project"/>
-            </div> */}
                 <ProjectDevRoadmap leftData={roadmapLeft} rightData={roadmapRight}/>
                 <section className="irProcessContainer">
                     <div className="irProcess">
