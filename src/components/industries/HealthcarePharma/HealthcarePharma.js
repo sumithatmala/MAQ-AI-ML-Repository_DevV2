@@ -20,32 +20,7 @@ import BannerData from './BannerData'
 const HealtcarePharma = () => {
   return (
     <>
-    <NewBanner data={BannerData} />
-      {/* <section className="healthcare">
-        <div className="container">
-          <div className="grids">
-            <div className="top">
-              <div className="heading">
-                <span>
-                Transformative Healthcare Analytics and AI in the Pharmaceutical Sector
-                </span>
-              </div>
-              <div className="heading_inner">
-                <p>
-                Crafting Solutions for Enhanced Patient Outcomes and Operational Efficiency.
-                </p>
-              </div>
-
-              <div className="images">
-                <div className="imageone"></div>
-                <div className="imagetwo"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-      
+    <NewBanner data={BannerData} />      
 
       <div style={{ display: "flex", justifyContent: "center" }}>
         <AccordionStatic

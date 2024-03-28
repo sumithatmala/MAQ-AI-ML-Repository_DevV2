@@ -14,13 +14,25 @@ import OutputIcon from '@mui/icons-material/Output';
 import demoVideo from './demos/DocumentClassificationWithVirtualAssistant.mp4'
 // import demoVideo2 from './demos/DocumentClassificationWithVirtualAssistant2.mp4'
 
+import BusinessAnalyst from '../images/DocumentClassificationWithVirtualAssistant/BusinessAnalyst.svg'
+import Collab from '../images/DocumentClassificationWithVirtualAssistant/Collab.svg'
+import CompetitiveAdv from '../images/DocumentClassificationWithVirtualAssistant/CompetitiveAdv.svg'
+import ComplianceTeam from '../images/DocumentClassificationWithVirtualAssistant/ComplianceTeam.svg'
+import DataAccuracy from '../images/DocumentClassificationWithVirtualAssistant/DataAccuracy.svg'
+import DecisionMaking from '../images/DocumentClassificationWithVirtualAssistant/DecisionMaking.svg'
+import EnhancedProd from '../images/DocumentClassificationWithVirtualAssistant/EnhancedProd.svg'
+import FinancialAdvisors from '../images/DocumentClassificationWithVirtualAssistant/FinancialAdvisors.svg'
+import SalesMarketing from '../images/DocumentClassificationWithVirtualAssistant/SalesMarketing.svg'
+import StreamlinedOp from '../images/DocumentClassificationWithVirtualAssistant/StreamlinedOp.svg'
+
+
 const iconSize = {
     height: "3rem",
     width: "3rem",
     color: "#dc848d"
 }
 const iconSizeBO = {
-    height: "8rem",
+    height: "5rem",
     width: "5rem",
     color: "#dc848d",
 }
@@ -35,54 +47,54 @@ export const DocumentClassificationWithVirtualAssistant = {
         {
             title: "Business Analysts",
             description: "Relies on accurate and timely data extraction from business documents to analyze trends, identify insights, and make informed business decisions.",
-            iconSrc: <MdGroups style={iconSize} />,
+            iconSrc: <img src={BusinessAnalyst} width="70px" alt=''  />
         },
         {
             title: "Sales & Marketing teams",
             description: "Responsible to analyze marketing campaigns, track key metrics, monitor operational performance, and identify areas for improvement.",
-            iconSrc: <PsychologyIcon style={iconSize} />,
+            iconSrc: <img src={SalesMarketing} width="70px" alt=''  />
         },
         {
             title: "Financial Advisors",
             description: "Help clients develop a comprehensive financial plan based on their goals, risk tolerance, and financial situation.",
-            iconSrc: <CastForEducationIcon style={iconSize} />,
+            iconSrc: <img src={FinancialAdvisors} width="70px" alt=''  />
         },
         {
             title: "Compliance Teams",
             description: "Ensures compliance with industry regulations and internal policies by extracting relevant information for audits and reporting.",
-            iconSrc: <GrUserAdmin style={iconSize} />,
+            iconSrc:<img src={ComplianceTeam} width="70px" alt=''  />
         },
     ],
     businessOutcomes: [
         {
             title: "Stramlined Operations",
             description: ["Automated data extraction and retrieval processes streamline operations by eliminating manual tasks, reducing bottlenecks, and improving overall efficiency."],
-            image: <IntegrationInstructionsIcon style={iconSizeBO} />,
+            image: <img src={StreamlinedOp} width="100px" style={iconSizeBO} />
         },
         {
             title: "Enhanced Productivity",
             description: ["Quick and accurate retrieval of relevant information from business documents improves productivity and decision-making across various business functions."],
-            image: <QueryStatsIcon style={iconSizeBO} />,
+            image:<img src={EnhancedProd} width="100px" style={iconSizeBO} />
         },
         {
             title: "Competitive Advantage",
             description: ["By streamlining data extraction and retrieval processes, businesses can gain a competitive edge by delivering faster, more accurate, and personalized services to their customers."],
-            image: <MdManageHistory style={iconSizeBO} />,
+            image: <img src={CompetitiveAdv} width="100px" style={iconSizeBO} />
         },
         {
             title: "Better Decision-Making",
             description: ["Access to accurate and relevant data extracted from business documents enables informed decision-making and supports data-driven strategies."],
-            image: <LocalLibraryIcon style={iconSizeBO} />,
+            image: <img src={DecisionMaking} width="100px" style={iconSizeBO} />
         },
         {
             title: "Better Collaboration",
             description: ["Solution facilitates collaboration among teams by centralizing and making business document data easily accessible, promoting knowledge sharing and cross-functional collaboration."],
-            image: <ConstructionIcon style={iconSizeBO} />,
+            image: <img src={Collab} width="100px" style={iconSizeBO} />
         },
         {
             title: "Improved Data Accuracy",
             description: ["Accuracy of data extraction is enhanced, minimizing errors and inconsistencies."],
-            image: <SchoolIcon style={iconSizeBO} />,
+            image: <img src={DataAccuracy} width="100px" style={iconSizeBO} />
         },
     ],
     solutionHighlights: [

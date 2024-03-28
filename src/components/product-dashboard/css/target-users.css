@@ -243,6 +243,11 @@ body {
     background-color: white;
   }
 
+  .icons_res img{
+    width: 534px !important;
+    height: 300px !important;
+  }
+
 
 
   @media (max-width:1440px){
@@ -360,10 +365,15 @@ body {
     border-radius: 15px;
     padding: 10%;
     height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .product_carousel .slick-slide img {
     height: 10px !important;
     object-fit: contain;
-    padding-bottom: 70px;
+    /* padding-bottom: 70px; */
+    height: 5rem;
+    width: 5rem;
   }

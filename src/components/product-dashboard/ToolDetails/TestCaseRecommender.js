@@ -10,6 +10,18 @@ import { GiNetworkBars } from "react-icons/gi";
 import { MdVisibility } from "react-icons/md";
 import { MdPriceChange } from "react-icons/md";
 
+// import QualityAssuranceEngineer from '../images/Test Case Recommender'
+// import ProjectManagers from '../images/Test Case Recommender'
+// import DevOpsTeamsLeads from '../images/Test Case Recommender'
+// import BusinessAnalysts from '../images/Test Case Recommender'
+
+// import ImprovedTestCoverage from '../images/Test Case Recommender/'
+// import StandardizationandConsistency from '../images/Test Case Recommender'
+// import EnhancedQuality from '../images/Test Case Recommender'
+// import FasterTimetoMarket from '../images/Test Case Recommender'
+// import EnhancedCollaborationandVisibility from '../images/Test Case Recommender'
+// import CostSavings from '../images/Test Case Recommender'
+
 const iconSize = {
   height: "5rem",
   width: "5rem",

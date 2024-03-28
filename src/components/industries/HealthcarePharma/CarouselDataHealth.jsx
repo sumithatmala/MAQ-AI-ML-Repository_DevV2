@@ -7,6 +7,7 @@ const OCDataHealth = [
   {
     title: "Computer Vision for Medical Imaging Analysis",
     image: <img src={medical} alt="Medical Imaging Analysis" style={{maxHeight:"200px"}} />,
+    backimage: medical,
     description: [
       "Utilize Machine Learning for disease detection and identification in medical image analysis. Gain valuable data insights for timely anomaly detection and early intervention based on clinical imaging. Streamline the workflow of radiologists and achieve improved patient outcomes.",
     ],
