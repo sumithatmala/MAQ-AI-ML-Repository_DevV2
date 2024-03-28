@@ -20,32 +20,6 @@ const Automotive = () => {
   return (
     <>
     <NewBanner data = {bannerdata} />
-      {/* <section className="automotivetool">
-        <div className="container">
-          <div className="grids">
-            <div className="top">
-              <div className="heading">
-                <span>
-                  Incorporating Artificial Intelligence in Automotive
-                  Manufacturing
-                </span>
-              </div>
-              <div className="heading_inner">
-                <p>
-                  We assist manufacturers in integrating artificial intelligence
-                  into the automotive industry for intelligent and
-                  cost-effective vehicle production.
-                </p>
-              </div>
-
-              <div className="images">
-                <div className="imageone"></div>
-                <div className="imagetwo"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
 
       <section className="info-section">
         <div className="info-section-inner"></div>

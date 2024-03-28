@@ -1,9 +1,9 @@
-import dataIcon from './icons/schema.svg';
-import upIcon from './icons/uptrend.svg';
-import downIcon from './icons/downtrend.svg';
-import penIcon from './icons/pencilpen.svg';
-import likeIcon from '../Retail/icons/icon-like-alt.svg';
-import tickIcon from './icons/tick.svg';
+import dataIcon from './icons/icons8-activity-history-100 1.svg';
+import upIcon from './icons/icons8-deployment-100 1.svg';
+import downIcon from './icons/icons8-money-bag-100 1.svg';
+import penIcon from './icons/icons8-design-100 1.svg';
+import likeIcon from './icons/icons8-quality-100 (1) 1.svg';
+import tickIcon from './icons/icons8-safety-100 1.svg';
 
 const BenefitsData = [
   {
