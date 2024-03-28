@@ -14,19 +14,33 @@ import { MdSentimentSatisfiedAlt } from "react-icons/md";
 import { MdOutlinePriceCheck } from "react-icons/md";
 import ScaleIcon from "@mui/icons-material/Scale";
 
+
+import TicketReq from '../images/Support Ticket Assistant/icons8-new-ticket-100 1.svg'
+import SupportRep from '../images/Support Ticket Assistant/icons8-support-100 2.svg'
+import SupportManage from '../images/Support Ticket Assistant/icons8-admin-100 3.svg'
+import BusinessOwners from '../images/Support Ticket Assistant/icons8-business-documentation-100 1.svg'
+
+import ImprovedResTime from '../images/Support Ticket Assistant/icons8-time-100 (1) 2.svg'
+import StandardizedSupport from '../images/Support Ticket Assistant/icons8-process-100 1.svg'
+import TeamPerformance from '../images/Support Ticket Assistant/icons8-onboarding-100 1.svg'
+import CustSatisfaction from '../images/Support Ticket Assistant/icons8-happy-100 1.svg'
+import WorkloadCosts from '../images/Support Ticket Assistant/icons8-low-price-pound-100 (1) 1.svg'
+import Scalability from '../images/Support Ticket Assistant/icons8-weight-care-100 1.svg'
+
+
 const iconSize = {
   height: "5rem",
   width: "5rem",
   color: "#dc848d",
 };
 const iconSizeBO = {
-  height: "13rem",
-  width: "20.4rem",
+  height: "5rem",
+  width: "5rem",
   color: "#dc848d",
-  border: "solid #dc848d 3px",
+  // border: "solid #dc848d 3px",
   // margin: "0px 10px",
-  padding: "30px 50px",
-  borderRadius: "10px",
+  // padding: "30px 50px",
+  // borderRadius: "10px",
   // boxShadow: "0px 8px 16px 0px red"
 }
 export const SupportTicketAssistant = {
@@ -41,25 +55,25 @@ export const SupportTicketAssistant = {
       title: "Ticket Requester",
       description:
         "Users who submit support tickets and seek timely and accurate assistance",
-      iconSrc: <IoTicketSharp style={iconSize} />,
+      iconSrc: <img src={TicketReq} width="70px" alt=''  />
     },
     {
       title: "Support Representative",
       description:
         "Support Engineers who are responsible for managing and resolving support tickets",
-      iconSrc: <SupportAgentIcon style={iconSize} />,
+      iconSrc: <img src={SupportRep} width="70px" alt=''  />
     },
     {
       title: "Support Manager",
       description:
         "Leads or supervisors overseeing support teams, ensuring efficient ticket resolution and customer satisfaction",
-      iconSrc: <GrUserManager style={iconSize} />,
+      iconSrc: <img src={SupportManage} width="70px" alt=''  />
     },
     {
       title: "Business Owners",
       description:
         "Rely on the support team to provide timely assistance to their customers, address any issues, and maintain positive customer relationships",
-      iconSrc: <FaBusinessTime style={iconSize} />,
+      iconSrc: <img src={BusinessOwners} width="70px" alt=''  />
     },
   ],
   businessOutcomes: [
@@ -67,37 +81,37 @@ export const SupportTicketAssistant = {
       title: "Improved Response Time",
       description:
         ["Reduced response times for support ticket requests, enhancing customer satisfaction and loyalty."],
-      image: <IoIosTime style={iconSizeBO} />,
+      image: <img src={ImprovedResTime} width="100px" style={iconSizeBO} />
     },
     {
       title: "Standardized Support Processes",
       description:
         ["Automated system enforces consistent handling of support requests, ensuring standardized responses and improving the overall customer experience."],
-      image: <GiProcessor  style={iconSizeBO} />,
+      image: <img src={StandardizedSupport} width="100px" style={iconSizeBO} />
     },
     {
       title: "Improved Team Performance",
       description:
         ["Automation provides visibility into support team performance metrics, enabling managers to identify areas for improvement, provide targeted training, and enhance overall team performance."],
-      image: <GrDocumentPerformance style={iconSizeBO} />,
+      image:<img src={TeamPerformance} width="100px" style={iconSizeBO} />
     },
     {
       title: "Increased Customer Satisfaction",
       description:
         ["By addressing customer concerns quickly and efficiently can enhance the customer experience, resulting in higher satisfaction levels and positive brand perception"],
-      image: <MdSentimentSatisfiedAlt style={iconSizeBO} />,
+      image: <img src={CustSatisfaction} width="100px" style={iconSizeBO} />
     },
     {
       title: "Reduced Workload and Costs",
       description:
         ["Automation eliminates repetitive and manual tasks, reducing the workload on support teams and minimizing operational costs associated with support request handling."],
-      image: <MdOutlinePriceCheck style={iconSizeBO} />,
+      image:<img src={WorkloadCosts} width="100px" style={iconSizeBO} />
     },
     {
       title: "Scalability",
       description:
         ["The automated system can handle high volumes of support requests without compromising response times or accuracy, allowing businesses to scale their support operations as needed."],
-      image: <ScaleIcon style={iconSizeBO} />,
+      image:<img src={Scalability} width="100px" style={iconSizeBO} />
     },
   ],
   solutionHighlights: [

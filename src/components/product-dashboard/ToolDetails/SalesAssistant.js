@@ -10,13 +10,31 @@ import { GiNetworkBars } from "react-icons/gi";
 import { MdOutlineNetworkCheck } from "react-icons/md";
 import { GrStatusGood } from "react-icons/gr";
 
+
+
+
+
+import PreSalesRepresentative from '../images/Sales Assistant/icons8-manager-100 (2) 1.svg'
+import DataAnalysts from '../images/Sales Assistant/icons8-analyzing-skill-100 (3) 1.svg'
+import CXO from '../images/Sales Assistant/icons8-accessibility-tools-100 1.svg'
+import StrategyManager from '../images/Sales Assistant/icons8-visualization-skill-100 1.svg'
+
+import StreamlinedClientProfiling from '../images/Sales Assistant/icons8-manager-100 (2) 2.svg'
+import FasterPersonalizedSolutions from '../images/Sales Assistant/icons8-solution-100 1.svg'
+import ImprovedAccuracy from '../images/Sales Assistant/icons8-accuracy-100 1.svg'
+import EnhancedEfficiencyandProductivity from '../images/Sales Assistant/icons8-punctuality-100 1.svg'
+import IncreasedSalesConversion from '../images/Sales Assistant/icons8-summer-sales-100 (1) 1.svg'
+import CompetitiveAdvantage from '../images/Sales Assistant/icons8-american-football-player-100 1.svg'
+
+
+
 const iconSize = {
   height: "5rem",
   width: "5rem",
   color: "#dc848d",
 };
 const iconSizeBO = {
-  height: "8rem",
+  height: "5rem",
   width: "5rem",
   color: "#dc848d",
 }
@@ -32,25 +50,25 @@ export const SalesAssistant = {
       title: "Pre-Sales Representative",
       description:
         "Team members responsible for conducting client calls, gathering information, and analyzing client profiles",
-      iconSrc: <StorefrontIcon style={iconSize} />,
+      iconSrc: <img src={PreSalesRepresentative} width="70px" alt=''  />
     },
     {
       title: "Data Analysts",
       description:
         "Professionals who analyze client data, develop business value maps, and provide insights to sales teams",
-      iconSrc: <TroubleshootIcon style={iconSize} />,
+      iconSrc: <img src={DataAnalysts} width="70px" alt=''  />
     },
     {
       title: "CXO",
       description:
         "Sets the overall strategic direction of the businesses. oversees the executive team, and ensures the achievement of business goals",
-      iconSrc: <ManageAccountsIcon style={iconSize} />,
+      iconSrc: <img src={CXO} width="70px" alt=''  />
     },
     {
       title: "Strategy Manager",
       description:
         "Develop strategies to capitalize on market opportunities and stay ahead of the competition.",
-      iconSrc: <GrUserManager style={iconSize} />,
+      iconSrc: <img src={StrategyManager} width="70px" alt=''  />
     },
   ],
   businessOutcomes: [
@@ -58,37 +76,37 @@ export const SalesAssistant = {
       title: "Streamlined Client Profiling",
       description:
         ["Focused questioning and information gathering enables the sales team to streamline the client profiling process, reducing time and resource requirements."],
-      image: <GoCodescanCheckmark style={iconSizeBO} />,
+      image: <img src={StreamlinedClientProfiling} width="100px" style={iconSizeBO} />
     },
     {
       title: "Faster Personalized Solutions",
       description:
         ["By matching client data with business value maps, the sales team can provide personalized solutions more quickly, improving response times and customer satisfaction"],
-      image: <FaFastForward  style={iconSizeBO} />,
+      image: <img src={FasterPersonalizedSolutions} width="100px" style={iconSizeBO} />
     },
     {
       title: "Improved Accuracy",
       description:
         ["Gathering precise and relevant information about client priorities, challenges, goals, and risks, leading to more accurate client profiles and better-aligned solutions"],
-      image: <GrDocumentPerformance style={iconSizeBO} />,
+      image: <img src={ImprovedAccuracy} width="100px" style={iconSizeBO} />
     },
     {
       title: "Enhanced Efficiency and Productivity",
       description:
         ["Reduces manual effort, allowing the sales team to focus on more strategic activities, increasing overall efficiency and productivity."],
-      image: <GiNetworkBars style={iconSizeBO} />,
+      image: <img src={EnhancedEfficiencyandProductivity} width="100px" style={iconSizeBO} />
     },
     {
       title: "Increased Sales Conversion",
       description:
         ["Provides tailored solutions quickly and accurately improves the chances of sales conversion, resulting in higher revenue and business growth."],
-      image: <MdOutlineNetworkCheck style={iconSizeBO} />,
+      image: <img src={IncreasedSalesConversion} width="100px" style={iconSizeBO} />
     },
     {
       title: "Competitive Advantage",
       description:
         ["Efficient,& personalized solutions gives the company a competitive edge in the market, attracting more clients and retaining existing ones."],
-      image: <GrStatusGood style={iconSizeBO} />,
+      image: <img src={CompetitiveAdvantage} width="100px" style={iconSizeBO} />
     },
   ],
   solutionHighlights: [
