@@ -37,7 +37,7 @@ const HomePage = () => {
         <div className='container-banner' style={{ height: '20%' }}>
           <Banner />
         </div>
-        <div className='container mid-section parent-middle-sections' style={{marginTop:"-3rem"}}>
+        <div className='container mid-section parent-middle-sections' style={{marginTop:"0"}}>
           <GridOfCards items={{ item: reviewData, NoCards: 4, title: "Our services", contactLink: "./ContactUs" }} />
           <AlternateBanner banners={bannerData} count={0} ContactBtn={false} backHighlights={true}/>
           {/* <OneCardCarousel items={OneCardData} /> */}
