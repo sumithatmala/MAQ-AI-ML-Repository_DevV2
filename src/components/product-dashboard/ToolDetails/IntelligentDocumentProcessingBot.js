@@ -15,20 +15,27 @@ import HealthInsurance from '../images/HealthInsurancePro.svg'
 import MedicalRes from '../images/MedicalResearchers.svg'
 
 
+import ImprovedAccesstoInsights from '../images/IntelligentDocProcessing/ImprovedAccesstoInsights.svg'
+import EnhancedDocHandling from '../images/IntelligentDocProcessing/EnhancedDocHandling.svg'
+import PersonalizedPatientEXp from '../images/IntelligentDocProcessing/PersonalizedPatientEXp.svg'
+import AnalyticsandDecisionMaking from '../images/IntelligentDocProcessing/AnalyticsandDecisionMaking.svg'
+import CostReduction from '../images/IntelligentDocProcessing/CostReduction.svg'
+import EfficiencyandTimeSaving from '../images/IntelligentDocProcessing/EfficiencyandTimeSaving.svg'
+
 // const iconSize = {
 //   height: "5rem",
 //   width: "5rem",
 //   color: "#dc848d"
 // }
 const iconSizeBO = {
-  height: "13rem",
-  width: "20.4rem",
+  height: "5rem",
+  width: "5rem",
   color: "#dc848d",
   // border: "solid #dc848d 3px",
   // margin: "0px 10px",
   // padding: "30px 50px",
   // borderRadius: "10px",
-  padding: "10%",
+  // padding: "10%",
   // boxShadow: "0px 8px 16px 0px red"
 }
 export const IntelligentDocumentProcessingBot = {
@@ -63,34 +70,34 @@ export const IntelligentDocumentProcessingBot = {
     {
       title: "Improved Access to Insights ",
       description: ["By structuring and indexing the extracted data, Healthcare providers can generate insightful reports, identify patterns, and make data-driven decisions more effectively."],
-      image: <IntegrationInstructionsIcon style={iconSizeBO} />,
+      image: <img src={ImprovedAccesstoInsights} width="100px" style={iconSizeBO} />
     },
     {
       title: "Enhanced Document handling",
       description: ["Handling massive volumes of data from multiple documents by accurately classifying the documents helps the teams to easily access the required data quickly"],
-      image: <QueryStatsIcon style={iconSizeBO} />,
+      image: <img src={EnhancedDocHandling} width="100px" alt='' style={iconSizeBO} />
     },
     {
       title: "Personalized Patient Experience",
       description: ["Improved patient experience as healthcare professionals can provide personalized and timely care, considering relevant medical history and preferences."],
-      image: <MdManageHistory style={iconSizeBO} />,
+      image: <img src={PersonalizedPatientEXp} width="100px" alt='' style={iconSizeBO} />
     },
 
     // done till this point
     {
       title: "Improved Analytics and Decision Making ",
       description: ["Accurate data extraction and structuring in healthcare enable advanced analytics, evidence-based decision-making, process optimization, and improved outcomes."],
-      image: <LocalLibraryIcon style={iconSizeBO} />,
+      image: <img src={AnalyticsandDecisionMaking} width="100px" style={iconSizeBO} />
     },
     {
       title: "Cost Reduction",
       description: ["Reduction of manual effort, minimizing errors, saves costs associated with data entry and processing. It also eliminates the need for physical storage of paper documents], leading to image cost savings."],
-      image: <ConstructionIcon style={iconSizeBO} />,
+      image:<img src={CostReduction} width="100px" alt='' style={iconSizeBO} />
     },
     {
       title: "Improved efficiency & Time Saving",
       description: ["Elimination of manual intervention in data entry, data processing and retrieval improves the productivity of the staff and allows them to focus on much critical tasks."],
-      image: <SchoolIcon style={iconSizeBO} />,
+      image: <img src={EfficiencyandTimeSaving} width="100px" alt='' style={iconSizeBO} />
     },
   ],
   solutionHighlights: [
