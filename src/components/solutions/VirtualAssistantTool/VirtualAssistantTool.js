@@ -12,28 +12,6 @@ const VirtualAssistantTool = () => {
   return (
     <>
     <NewBanner data={DataBanner} />
-      {/* <section className="toolinformation">
-        <div className="container">
-          <div className="grids">
-            <div className="top">
-              <div className="heading">
-                <span>Advanced AI-powered Support</span>
-              </div>
-              <div className="heading_inner">
-                <p>
-                  Revolutionize query resolution, elevate customer satisfaction,
-                  and empower human agents for more impactful tasks with your
-                  intelligent virtual assistant tool.
-                </p>
-              </div>
-              <div className="images">
-                <div className="imageone"></div>
-                <div className="imagetwo"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
 
       <div className="quick-block">
         <div className="head-block-center" style={{ marginBottom: "10px" , marginTop: "20px"}}>

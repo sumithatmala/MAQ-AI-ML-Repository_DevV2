@@ -1,15 +1,19 @@
 import nlp1 from "../img/nlp-1.svg"
 import nlp2 from "../img/nlp-2.svg"
 import nlp3 from "../img/nlp-3.svg"
-import icon1 from "../img/special-icon-1.svg"
-import icon2 from "../img/special-icon-2.svg"
-import icon3 from "../img/special-icon-3.svg"
-import icon4 from "../img/special-icon-4.svg"
+import icon1 from "../img/icons8-solution-100 (3) 1.svg"
+import icon2 from "../img/icons8-3d-model-100 (2) 1.svg"
+import icon3 from "../img/icons8-ratings-100 (1) 1.svg"
+import icon4 from "../img/icons8-leadership-100 1.svg"
+
+import chatgpt from '../img/icons8-chat-gpt-100 1.svg'
+import nlpai from '../img/icons8-language-100 (1) 1.svg'
+import nlpmodel from '../img/icons8-customer-survey-100 2.svg'
 
 export const learnMoreItems = [
-    {label: "ChatGPT", disc: "Power your product with ChatGPT technology", img: "/icons/framework.svg", link: ""},
-    {label: "NLP-AI", disc: "NLP API for social media analytics", img: "/icons/ML.svg", link: ""},
-    {label: "NLP Models", disc: "Custom NLP models for customer feedback analysis", img: "/icons/nlp.svg", link: ""},
+    {label: "ChatGPT", disc: "Power your product with ChatGPT technology", img: chatgpt, link: ""},
+    {label: "NLP-AI", disc: "NLP API for social media analytics", img: nlpai, link: ""},
+    {label: "NLP Models", disc: "Custom NLP models for customer feedback analysis", img: nlpmodel, link: ""},
 ]
 
 export const Banners = [

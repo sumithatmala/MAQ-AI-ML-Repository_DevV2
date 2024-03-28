@@ -1,6 +1,6 @@
-import clock from './Images/real-time.svg';
-import person from './Images/personalization.svg';
-import monitor from './Images/monitor.svg';
+import clock from './Images/icons8-recommendation-100 1.svg';
+import person from './Images/icons8-strategy-100 1.svg';
+import monitor from './Images/icons8-project-100 (1) 2.svg';
 
 const BenefitsData = [
     {

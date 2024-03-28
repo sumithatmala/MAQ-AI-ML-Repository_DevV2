@@ -1,9 +1,10 @@
-import icon_ecommerce_alt from '../img/icon-ecommerce-alt.svg'
-import icon_healtcare from '../img/icon-healtcare.svg'
-import icon_agriculture from '../img/icon-agriculture.svg'
-import icon_manufacturing from '../img/icon-manufacturing.svg'
-import icon_car from '../img/icon-car.svg'
-import icon_finance_banking_alt from '../img/icon-finance-banking-alt.svg'
+import icon_finance_banking_alt from '../img/icons8-technology-100 2.svg'
+import sportWell from '../img/icons8-ping-pong-100 1.svg';
+import icon_car from '../img/icons8-trolley-100 3.svg'
+import icon_manufacturing from '../img/icons8-manufacturing-100 2.svg'
+import icon_agriculture from '../img/icons8-agriculture-100 1.svg'
+import icon_healtcare from '../img/icons8-pharma-100 2.svg'
+import icon_ecommerce_alt from '../img/icons8-retail-100 3.svg'
 
 const IndustriesData = [
   {
@@ -14,7 +15,7 @@ const IndustriesData = [
   },
   {
     title: "Sport & Wellness",
-    figure: <img src={icon_agriculture} alt="sport and wellness"/>, // change this
+    figure: <img src={sportWell} alt="sport and wellness"/>, // change this
     alt: "sport - wellness",
     description: "Empowering Individuals, Optimizing Well-being"
   },
