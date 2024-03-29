@@ -50,7 +50,7 @@ const ConsumerSentimentAnalysis = () => {
       </section>
 
       <section>
-        <h2 className="head-block-center">
+        <h2 className="head-block-center" style={{marginTop:"50px"}}>
 Live Insights through Sentiment Analytics</h2>
         <Grid content={SentimentAnalyticsSection} />
       </section>
@@ -68,7 +68,7 @@ Live Insights through Sentiment Analytics</h2>
         />
       </section>
 
-      <section>
+      <section style={{marginBottom:"50px"}}>
         <SentimentAnalysisCompany />
       </section>
 

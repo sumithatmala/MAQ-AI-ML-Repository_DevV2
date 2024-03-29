@@ -81,7 +81,9 @@ const ImageRecognition = () => {
                     <p>Our team of machine learning experts has gained global trust by delivering customized solutions for a wide range of industries. We specialize in on-demand computer vision and image recognition software development, tailoring solutions to meet industry-specific needs. Our clients come from diverse sectors, including logistics, retail, media & entertainment, healthcare, and more.</p>
                 </div>
                 <Grid content={industrialCards} />
+                <div className="block__action">
                 <div className="btn-class"><HashLink to={"./#contact"} className="btn btn-empty"> Request a Free Quote </HashLink></div>
+                </div>
                 <h2>Benefits</h2>
                 <Grid content={benefitCards} />
                 <Technologies tech={technologies} />

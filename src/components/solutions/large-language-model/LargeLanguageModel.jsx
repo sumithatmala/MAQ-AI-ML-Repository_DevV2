@@ -40,10 +40,6 @@ const LargeLanguageModel = () => {
             bttn={true}
           />
         </section>
-        {/* <section className="usecases">
-          <UseCases />
-        </section> */}
-        {/* <Industries /> */}
         <div
           style={{
             width: "100%",

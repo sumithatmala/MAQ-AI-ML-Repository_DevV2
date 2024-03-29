@@ -7,10 +7,10 @@ import downArrow from "./img/down-arow.png";
 export default function Banner() {
   return (
     <>
-      <section id="hero" className="hero">
+      <section id="hero" className="hero" >
         <img
           src={hero}
-          style={{ marginTop: "0%" }}
+          style={{ marginTop: "3.5rem" }}
           alt=""
           className="box fade-into-view hero-img"
         />

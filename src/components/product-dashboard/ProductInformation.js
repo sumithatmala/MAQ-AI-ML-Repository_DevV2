@@ -13,12 +13,6 @@ import "./css/target-users.css";
 import FAQs from "./FAQs";
 import ContactForm from "../solutions/common/contactForm";
 import CustomerSuccess from "../solutions/common/CustomerSuccess";
-
-import AnimatedDevelopment from "./icons/AnimatedDevelopment";
-import AnimatedOutcome from "./icons/AnimatedOutcome";
-import AnimatedSolution from "./icons/AnimatedSolution";
-
-import AnimatedHighlights from "./icons/AnimatedHighlights";
 import LoaderComp from "../views/LoaderComp";
 import GridOfCards from "../solutions/common/GridOfCards";
 

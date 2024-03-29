@@ -34,7 +34,7 @@ import customerSuccessData from "./Data/customerSuccessData.js"
 const HomePage = () => {
   return (
     <>
-        <div className='container-banner' style={{ height: '20%' }}>
+        <div className='container-banner' style={{ height: '20%' , paddingTop: '3vh'}}>
           <Banner />
         </div>
         <div className='container mid-section parent-middle-sections' style={{marginTop:"0"}}>

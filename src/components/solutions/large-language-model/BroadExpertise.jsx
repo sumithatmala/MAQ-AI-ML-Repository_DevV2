@@ -51,7 +51,7 @@ const BroadExpertise = () => {
           {expertiseAreas.map((area, index) => (
             <li key={index} className="section-benefits-list__list-item">
               <div className="section-benefits-list__image">
-                <img src={area.image} alt={area.title} />
+                <img src={area.image} alt={area.title} width={70} />
               </div>
               <div className="section-benefits-list__item">
                 <h3 className="section-benefits-list__title">{area.title}</h3>

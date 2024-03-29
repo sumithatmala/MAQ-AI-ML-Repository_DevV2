@@ -18,15 +18,19 @@ header {
 .nav-area {
   display: flex;
   align-items: center;
-  max-width: 100%;
+  /* max-width: 100%; */
   padding: 10px 20px;
   background-color: rgb(244 245 246);
   justify-content: center;
   font-family: sans-serif;
   color: #333333;
   height: 3.5rem;
-  margin: 0 auto;
-  z-index: 999;
+  /* margin: 0 auto; */
+  z-index: 9999999999;
+  position: fixed;
+  width: 100%;
+  /* margin-top: -3.3vh !important; */
+  /* z-index: 999; */
 
   /* width: 100%;
     border-radius: 1px solid rgba(255, 255, 255, 0.1);

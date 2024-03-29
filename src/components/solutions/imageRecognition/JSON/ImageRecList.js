@@ -44,10 +44,10 @@ export const benefitCards = [
 ]
 
 export const technologies =  [
-    {img: <img src={python} alt="python"></img>},
-    {img: <img src={scikit} alt="scikit-learn"></img>},
-    {img: <img src={spark} alt="spark"></img>},
-    {img: <img src={tensorflow} alt="tensorflow"></img>},
+    { src : python, alt : "python"},
+    { src : scikit, alt : "scikit-learn"},
+    { src : spark, alt : "spark"},
+    { src : tensorflow, alt : "tensorflow"},
 ]
 
 export const customerSuccessData = [

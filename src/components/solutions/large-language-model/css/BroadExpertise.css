@@ -177,8 +177,8 @@
 @media (min-width: 820px)
 {
     .section-benefits-list__image img {
-        width: 160px;
-        height: 160px;
+        width: 100px;
+        height: 100px;
     }
 }
 

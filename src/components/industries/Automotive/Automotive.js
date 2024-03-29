@@ -44,7 +44,7 @@ const Automotive = () => {
         <OneCardCoursal items={OneCardDataAuto} />
       </section>
 
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div style={{ display: "flex", justifyContent: "center", marginBottom:"-10rem" }}>
         <AccordionStatic
           title={"Challenges Addressed in Manufacturing"}
           desc="Transform your manufacturing processes with the automated capabilities of artificial intelligence."

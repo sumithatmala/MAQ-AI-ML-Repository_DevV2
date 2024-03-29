@@ -39,7 +39,7 @@ const Tabs = ({ tabsData, sectionName, subheading, foot, bttn }) => {
                   // onMouseEnter={() => handleTabClick(index)}
                   className={activeTab === index ? "active active_border" : ""}
                 >
-                  <img src={tab.icon} />{" "}
+                  <img src={tab.icon} style={{width:"20px", marginRight:"2px"}} />{" "}
                   <span className="text_underline">{tab.heading} </span>{" "}
                 </li>
               ))}
