@@ -77,6 +77,10 @@
     margin: 10px 50px;
 }
 
+.IndustryInditem h5 {
+    color: black;
+}
+
 @media (max-width: 1024px) {
     .TargetIndustries {
         max-width: 1300px;

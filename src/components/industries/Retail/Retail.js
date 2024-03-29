@@ -27,6 +27,7 @@ const Retail = () => {
       <AlternateBanner banners={AlternateData} count={2} ContactBtn={true} />
       </section>
 
+        <h2 className='head-block-center'>AI Consulting and Implementation</h2>
       <section className='griddd'>
         <Grid content={Number} />
       </section>

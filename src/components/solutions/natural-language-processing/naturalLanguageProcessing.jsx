@@ -6,7 +6,7 @@ import AlternateBanner from "../common/alternateBanner";
 import Technologies from "../common/technologies"
 import ContactForm from "../common/contactForm";
 import FAQs from '../../product-dashboard/FAQs';
-import RoadMap from "../common/RoadMap"
+// import RoadMap from "../common/RoadMap"
 import CustomerSuccess from "../common/CustomerSuccess";
 
 //Data
@@ -16,7 +16,7 @@ import technologiesData from "./JSONData/technologiesData"
 import FAQsData from "./JSONData/FaqData";
 import industriesData from "./JSONData/IndustriesData";
 import blogData from "./JSONData/blogData";
-import roadMapData from "./JSONData/roadMapData";
+// import roadMapData from "./JSONData/roadMapData";
 import { HashLink } from "react-router-hash-link";
 import NewBanner from "../common/NewBanner";
 import NewBanData from "./JSONData/NewBanData";
@@ -38,13 +38,15 @@ const NaturalLanguageProcessing = () => {
                 <AlternateBanner banners={bannerData} count={0} ContactBtn={false}/>
                 <section className="LearnMoreSection">
                     <p>Lets have a talk on our NLP services</p>
+                    <div className="block__action">
                     <HashLink to={"./#contact"} className="btn btn-empty" >Talk To Us</HashLink >
+                    </div>
                 </section>
-                <section className="WorkProcess">
-                    {/* <h3>How We Work</h3> */}
-                    {/* <div className="ExplainProcess"></div> */}
+                {/* <section className="WorkProcess">
+                    <h3>How We Work</h3>
+                    <div className="ExplainProcess"></div>
                     <RoadMap items={roadMapData} title="How we work"/>
-                </section>
+                </section> */}
                 <section className="TargetIndustries">
                     <h4>Industries</h4>
                     <div className="IndustryItems">

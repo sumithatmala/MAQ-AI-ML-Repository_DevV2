@@ -2,31 +2,31 @@ const blogData = [
     {
         title: "Blog 1",
         image: "",
-        description: ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sit quos totam corrupti iure hic recusandae incidunt iste quia magnam."],
+        description: ["Exploring Sentiment Analysis and Text Classification Techniques for actionable insights and enhanced decision-making processes."],
         link: "#",
     },
     {
         title: "Blog 2",
         image: "",
-        description: ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sit quos totam corrupti iure hic recusandae incidunt iste quia magnam."],
+        description: ["Understanding Named Entity Recognition and Language Modeling for structured data extraction and predictive analytics."],
         link: "#",
     },
     {
         title: "Blog 3",
         image: "",
-        description: ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sit quos totam corrupti iure hic recusandae incidunt iste quia magnam."],
+        description: ["Improving Customer Service with Chatbots, Text Summarization, and Personalized Recommendations for enhanced user experiences."],
         link: "#",
     },
     {
         title: "Blog 4",
         image: "",
-        description: ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sit quos totam corrupti iure hic recusandae incidunt iste quia magnam."],
+        description: ["Deep Learning Approaches for Language Translation and Speech Recognition"],
         link: "#",
     },
     {
         title: "Blog 5",
         image: "",
-        description: ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sit quos totam corrupti iure hic recusandae incidunt iste quia magnam."],
+        description: [" Leveraging NLP for Semantic Search, Document Understanding, and Knowledge Extraction to drive business intelligence and strategic decision-making."],
         link: "#",
     },
 ]

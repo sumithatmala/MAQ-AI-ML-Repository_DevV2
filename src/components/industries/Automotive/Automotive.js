@@ -58,6 +58,7 @@ const Automotive = () => {
           title="Benefits for Your Business"
         />
       </section>
+      <h2 className="head-block-center">Comprehensive AI Advisory and Support Services</h2>
       <section className="griddd">
         <Grid content={ServiceNum} />
       </section>

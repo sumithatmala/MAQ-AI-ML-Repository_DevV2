@@ -26,6 +26,7 @@ const Logistics = () => {
         </section>
         <AlternateBanner banners={AlternateBannerData} count={1} ContactBtn={true}/>
       </div>
+      <h2 className='head-block-center'>Strategic Solutions for Advanced Logistics Optimization</h2>
       <div className="Container-ir">
         <Grid content={benefitCards}/>
       </div>

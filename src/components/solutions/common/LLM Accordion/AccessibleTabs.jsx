@@ -36,7 +36,7 @@ const Tabs = ({ tabsData, sectionName, subheading, foot, bttn }) => {
                 <li
                   key={index}
                   onClick={() => handleTabClick(index)}
-                  onMouseEnter={() => handleTabClick(index)}
+                  // onMouseEnter={() => handleTabClick(index)}
                   className={activeTab === index ? "active active_border" : ""}
                 >
                   <img src={tab.icon} />{" "}

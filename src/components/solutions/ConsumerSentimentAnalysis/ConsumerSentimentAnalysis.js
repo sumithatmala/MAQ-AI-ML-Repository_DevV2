@@ -50,6 +50,8 @@ const ConsumerSentimentAnalysis = () => {
       </section>
 
       <section>
+        <h2 className="head-block-center">
+Live Insights through Sentiment Analytics</h2>
         <Grid content={SentimentAnalyticsSection} />
       </section>
 
