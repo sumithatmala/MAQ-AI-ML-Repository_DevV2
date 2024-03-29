@@ -1,7 +1,7 @@
-import one from '../img/icon-1.svg'
-import two from '../img/icon-2.svg'
-import three from '../img/icon-3.svg'
-import four from '../img/icon-4.svg'
+import one from '../../solutions/ConsumerSentimentAnalysis/icons/icon-1.svg'
+import two from '../../solutions/ConsumerSentimentAnalysis/icons/icon-2.svg'
+import three from '../../solutions/ConsumerSentimentAnalysis/icons/icon-3.svg'
+import four from '../../solutions/ConsumerSentimentAnalysis/icons/icon-4.svg'
 
 const ContributionData = [
   {
