@@ -17,26 +17,6 @@ const Retail = () => {
   return (
     <>
       <NewBanner data = {bannerdata} />
-      {/* <section className="toolinformations">
-        <div className="container">
-          <div className="grids">
-            <div className="top">
-              <div className="heading">
-                <span>Elevate Your Retail Presence with AI Innovations</span>
-              </div>
-              <div className="heading_inner">
-                <p>
-                Surpass Competitors in the Retail Landscape through Advanced AI Solutions.
-                </p>
-              </div>
-              <div className="images">
-                <div className="imageone"></div>
-                <div className="imagetwo"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
 
       <section className="info-section"><div className="info-section-inner"><h2 className="head-block-center">Our Expertise</h2><div className="text-block-center"> Artificial intelligence in the retail industry: made easy.</div></div></section>
 
@@ -47,6 +27,7 @@ const Retail = () => {
       <AlternateBanner banners={AlternateData} count={2} ContactBtn={true} />
       </section>
 
+        <h2 className='head-block-center'>AI Consulting and Implementation</h2>
       <section className='griddd'>
         <Grid content={Number} />
       </section>

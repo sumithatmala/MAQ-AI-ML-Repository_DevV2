@@ -1,6 +1,6 @@
-import icon_custom_software from '../img/icon-custom-software.svg'
-import icon_chat from '../img/icon-chat.svg'
-import icon_graphic_rise_2 from '../img/icon-graphic-rise-2.svg'
+import icon_chat from '../img/icons8-you-(singular)-100 1.svg'
+import icon_custom_software from '../img/icons8-software-100 1.svg'
+import icon_graphic_rise_2 from '../img/icons8-analyzing-skill-100 4.svg'
 
 const BusinessLevelUpData = [
   {

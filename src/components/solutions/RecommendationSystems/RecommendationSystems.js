@@ -15,27 +15,6 @@ const RecommendationSystems = () => {
   return (
     <>
       <NewBanner data={ NewBannerdata } />
-      {/* <section className="toolinformations_recommend">
-        <div className="container">
-          <div className="grids">
-            <div className="top">
-              <div className="heading">
-                <span>Tailored Recommendation Solutions</span>
-              </div>
-              <div className="heading_inner">
-                <p>
-                  Unlock unparalleled business success by incorporating our
-                  cutting-edge recommendation systems.
-                </p>
-              </div>
-              <div className="images">
-                <div className="imageone"></div>
-                <div className="imagetwo"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
 
       <div className="container_pharma" >
         <Alternate banners={bannerData} ContactBtn={false} />

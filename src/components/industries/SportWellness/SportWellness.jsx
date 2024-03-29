@@ -31,6 +31,8 @@ const SportWellness =() =>{
           <OneCardCoursal items={OneCardData}/>
           <BusinessCases items={{item: BusinessCasesData, NoCards:3, title: "How We Can Assist You", caption: "Delivering valuable services tailored to sports organizations and businesses."}}/>
           <div className="Container-ir">
+            <h2 className='head-block-center'>
+Innovative AI Solutions for Various Domains</h2>
             <Grid content={benefitCards}/>
           </div>
           <CustomerSuccess items={CutomerSuccessData} heading="Customer Success" CardHeight="490px"/>

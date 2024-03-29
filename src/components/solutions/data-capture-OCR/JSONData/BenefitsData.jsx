@@ -1,8 +1,8 @@
-import accuracy from "../img/accuracy.svg"
-import costReduce from "../img/costReduce.svg"
-import productivity from "../img/productivity.svg"
-import time from "../img/time.svg"
-import Visibility from "../img/visibility.svg"
+import accuracy from "../img/icons8-target-100 1.svg"
+import Visibility from "../img/icons8-visible-100 1.svg"
+import productivity from "../img/icons8-learning-100 (2) 1.svg"
+import costReduce from "../img/icons8-cost-100 1.svg"
+import time from "../img/icons8-delivery-time-100 1.svg"
 
 const benefitsData = [
 {

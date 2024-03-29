@@ -13,8 +13,8 @@ import CutomerSuccessData from "./JSONData/CutomerSuccessData";
 import FAQs from '../../product-dashboard/FAQs'
 import FAQsData from "./JSONData/FAQsData";
 import ContactForm from "../common/contactForm";
-import RoadMap from '../common/RoadMap'
-import PredictiveAnalyticsModelsProcessData from './JSONData/PredictiveAnalyticsModelsProcessData'
+// import RoadMap from '../common/RoadMap'
+// import PredictiveAnalyticsModelsProcessData from './JSONData/PredictiveAnalyticsModelsProcessData'
 import NewBanner from '../common/NewBanner'
 import NewBannerdata from './JSONData/PaBannerdata'
 
@@ -27,7 +27,7 @@ const PredictiveAnalytics = () => {
     <WhatWeOffer />
     <Insights />
     <FlatGridLayout items={IndustriesData}/>
-    <RoadMap items={PredictiveAnalyticsModelsProcessData} title="How We Build Predictive Analytics Models"/>
+    {/* <RoadMap items={PredictiveAnalyticsModelsProcessData} title="How We Build Predictive Analytics Models"/> */}
     <CustomerSuccess items={CutomerSuccessData} heading="Customer Success" CardHeight="370px"/>
     <FAQs FAQs = {FAQsData} />
     <ContactForm/>

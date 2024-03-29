@@ -94,6 +94,12 @@ h6 {
     -o-object-fit: cover;
     object-fit: cover;
   }
+
+  @media (max-width: 1240px){
+    .hero .hero-img{
+      height: 80% !important;
+    }
+  }
   
   .hero:before {
     content: "";

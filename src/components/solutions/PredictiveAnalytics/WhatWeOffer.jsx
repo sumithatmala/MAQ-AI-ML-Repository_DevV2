@@ -1,25 +1,25 @@
 import React from "react";
-import icon_consulting from './img/icon-consulting.svg'
-import icon_pa_sw_dev from './img/icon-pa-sw-dev.svg'
-import icon_ml_model_dev from './img/icon-ml-model-dev.svg'
+import icon_consulting from './img/icons8-search-database-100 1.svg'
+import icon_pa_sw_dev from './img/icons8-solution-100 (2) 1.svg'
+import icon_ml_model_dev from './img/icons8-ai-100 (2) 1.svg'
 import './css/WhatWeOffer.css'
 
 const WhatWeOffer = () => {
   const offerings = [
     {
-      figure: <img src={icon_consulting} alt="Data Analysis" />,
+      figure: <img src={icon_consulting} alt="Data Analysis" width={70} />,
       title: "Data Analysis Services",
       description:
         "Unlock insights from your data with our comprehensive data analysis services tailored to your business needs."
     },
     {
-      figure: <img src={icon_pa_sw_dev} alt="Solution Design" />,
+      figure: <img src={icon_pa_sw_dev} alt="Solution Design" width={70} />,
       title: "Custom Solution Design",
       description:
         "Get tailored solutions designed specifically for your business, maximizing efficiency and performance."
     },
     {
-      figure: <img src={icon_ml_model_dev} alt="AI Integration" />,
+      figure: <img src={icon_ml_model_dev} alt="AI Integration" width={70} />,
       title: "AI Integration Services",
       description:
         "Integrate AI seamlessly into your existing systems and processes to enhance decision-making and drive innovation."

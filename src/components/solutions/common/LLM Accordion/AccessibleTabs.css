@@ -173,7 +173,8 @@
 }
 .active_border{
     /* border: 1px solid red; */
-    background-color: rgba(69, 60, 144, 0.3) !important;
+    /* background-color: rgba(69, 60, 144, 0.3) !important; */
+    background-color: #f4f5f6 !important;
     color: black;
     font-weight: 600;
 }

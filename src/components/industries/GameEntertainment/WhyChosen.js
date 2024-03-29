@@ -1,8 +1,8 @@
 import React from 'react';
 import './css/WhyChosen.css';
-import preson from './icons/persontalking.svg';
-import ai from './icons/linkCircle.svg';
-import mobile from './icons/mobile.svg';
+import preson from './icons/icons8-consultation-100 3.svg';
+import ai from './icons/icons8-game-controller-100 1.svg';
+import mobile from './icons/icons8-iphone-15-pro-100 1.svg';
 import { HashLink } from 'react-router-hash-link';
 
 const WhyChooseSection = () => {

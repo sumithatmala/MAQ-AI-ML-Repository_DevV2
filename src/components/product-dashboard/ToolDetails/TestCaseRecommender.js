@@ -10,17 +10,17 @@ import { GiNetworkBars } from "react-icons/gi";
 import { MdVisibility } from "react-icons/md";
 import { MdPriceChange } from "react-icons/md";
 
-// import QualityAssuranceEngineer from '../images/Test Case Recommender'
-// import ProjectManagers from '../images/Test Case Recommender'
-// import DevOpsTeamsLeads from '../images/Test Case Recommender'
-// import BusinessAnalysts from '../images/Test Case Recommender'
+import QualityAssuranceEngineer from '../images/Test Case Recommender/icons8-approval-100 1.svg'
+import ProjectManagers from '../images/Test Case Recommender/icons8-manager-100 (2) 3.svg'
+import DevOpsTeamsLeads from '../images/Test Case Recommender/icons8-leader-100 1.svg'
+import BusinessAnalysts from '../images/Test Case Recommender/icons8-admin-100 4.svg'
 
-// import ImprovedTestCoverage from '../images/Test Case Recommender/'
-// import StandardizationandConsistency from '../images/Test Case Recommender'
-// import EnhancedQuality from '../images/Test Case Recommender'
-// import FasterTimetoMarket from '../images/Test Case Recommender'
-// import EnhancedCollaborationandVisibility from '../images/Test Case Recommender'
-// import CostSavings from '../images/Test Case Recommender'
+import ImprovedTestCoverage from '../images/Test Case Recommender/icons8-test-100 1.svg'
+import StandardizationandConsistency from '../images/Test Case Recommender/icons8-neutral-trading-100 1.svg'
+import EnhancedQuality from '../images/Test Case Recommender/icons8-quality-100 1.svg'
+import FasterTimetoMarket from '../images/Test Case Recommender/icons8-market-100 1.svg'
+import EnhancedCollaborationandVisibility from '../images/Test Case Recommender/icons8-user-groups-100 2.svg'
+import CostSavings from '../images/Test Case Recommender/icons8-money-box-100 2.svg'
 
 
 
@@ -30,13 +30,13 @@ const iconSize = {
   color: "#dc848d",
 };
 const iconSizeBO = {
-  height: "13rem",
-  width: "20.4rem",
+  height: "5rem",
+  width: "5rem",
   color: "#dc848d",
-  border: "solid #dc848d 3px",
+  // border: "solid #dc848d 3px",
   // margin: "0px 10px",
-  padding: "30px 50px",
-  borderRadius: "10px",
+  // padding: "30px 50px",
+  // borderRadius: "10px",
   // boxShadow: "0px 8px 16px 0px red"
 }
 export const TestCaseRecommender = {
@@ -51,25 +51,25 @@ export const TestCaseRecommender = {
       title: "Quality Assurance Engineer",
       description:
         "Involved in testing activities, responsible for creating and executing test cases, and ensuring the quality of the software.",
-      iconSrc: <MdEngineering style={iconSize} />,
+      iconSrc: <img src={QualityAssuranceEngineer} width="70px" alt=''  />
     },
     {
       title: "Project Managers",
       description:
         "Responsible for overseeing the software development process, ensuring quality, and managing resources efficiently",
-      iconSrc: <GrUserManager style={iconSize} />,
+      iconSrc: <img src={ProjectManagers} width="70px" alt=''  />
     },
     {
       title: "DevOps Teams/Leads",
       description:
         "Collaborating with development and operations teams ensuring efficiency, reliability, and scalability",
-      iconSrc: <TiGroup style={iconSize} />,
+      iconSrc: <img src={DevOpsTeamsLeads} width="70px" alt=''  />
     },
     {
       title: "Business Analysts",
       description:
         "Collaborates with development teams to gather requirements, user stories, and functional specifications",
-      iconSrc: <FaBusinessTime style={iconSize} />,
+      iconSrc: <img src={BusinessAnalysts} width="70px" alt=''  />
     },
   ],
   businessOutcomes: [
@@ -77,37 +77,37 @@ export const TestCaseRecommender = {
       title: "Improved Test Coverage",
       description:
         ["Automated test case generation helps ensure comprehensive coverage of various scenarios, reducing the risk of undiscovered issues in the software."],
-      image: <FaFastForward style={iconSizeBO} />,
+      image: <img src={ImprovedTestCoverage} width="100px" style={iconSizeBO} />
     },
     {
       title: "Standardization and Consistency",
       description:
         ["Automated test case generation ensures consistent formats and adherence to quality standards, promoting uniformity across the development team."],
-      image: <BsWrenchAdjustable  style={iconSizeBO} />,
+      image: <img src={StandardizationandConsistency} width="100px" style={iconSizeBO} />
     },
     {
       title: "Enhanced Quality",
       description:
         ["Consistent and accurate test case generation reduces the risk of human errors, improving the overall quality and reliability of the software."],
-      image: <GrDocumentPerformance style={iconSizeBO} />,
+      image: <img src={EnhancedQuality} width="100px" style={iconSizeBO} />
     },
     {
       title: "Faster Time-to-Market",
       description:
         ["Streamlined test case creation and management processes accelerate software development cycles, enabling faster time-to-market for products and features."],
-      image: <GiNetworkBars style={iconSizeBO} />,
+      image: <img src={FasterTimetoMarket} width="100px" style={iconSizeBO} />
     },
     {
       title: "Enhanced Collaboration and Visibility",
       description:
         ["Integration with Azure DevOps enables better team collaboration, centralized test case management, and real-time testing progress visibility."],
-      image: <MdVisibility style={iconSizeBO} />,
+      image: <img src={EnhancedCollaborationandVisibility} width="100px" style={iconSizeBO} />
     },
     {
       title: "Cost Savings",
       description:
         ["Automation reduces the need for manual labor, resulting in cost savings associated with test case creation and maintenance."],
-      image: <MdPriceChange style={iconSizeBO} />,
+      image:<img src={CostSavings} width="100px" style={iconSizeBO} />
     },
   ],
   solutionHighlights: [

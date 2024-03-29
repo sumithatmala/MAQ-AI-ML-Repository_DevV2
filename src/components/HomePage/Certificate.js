@@ -22,8 +22,8 @@ const CertificateGrid = () => {
   return (
     <div className="">
         <div className='certificate-section'>
-            <div className='certificate-head'>
-                <h2>Certificates</h2>
+            <div className=''>
+                <h2 className='head-block-center'>Certificates</h2>
             </div>
             <div className='certificate-images'>
                 <div className="image-grid">

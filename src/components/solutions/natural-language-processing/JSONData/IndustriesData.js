@@ -1,8 +1,8 @@
-import bank from "../img/ind-banking.svg"
-import car from "../img/ind-car.svg"
-import ecomm from "../img/ind-ecommerce.svg"
-import marketing from "../img/ind-marketing.svg"
-import movie from "../img/ind-movie.svg"
+import car from "../img/icons8-trolley-100 2.svg"
+import ecomm from "../img/icons8-retail-100 2.svg"
+import bank from "../img/icons8-card-exchange-100 1.svg"
+import marketing from "../img/icons8-marketing-100 (1) 3.svg"
+import movie from "../img/icons8-entertainment-100 1.svg"
 
 const industriesData = [
     {
