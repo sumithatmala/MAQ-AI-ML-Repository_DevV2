@@ -10,7 +10,7 @@ const serviceGridData = [
         title: "AI/ML Strategy & Consulting",
         desc: "Have a project idea and need help implementing it? We're here to consult you and share our knowledge to help you avoid all unnecessary pitfalls.",
         img: <img src={strategy_icon} alt="" width={40}/>,
-        link:"",
+        link:"/Industries/MarTech",
     },
     {
         title: "PoC of Al-based Solution",
@@ -28,7 +28,7 @@ const serviceGridData = [
         title: "Custom Model Development",
         desc: "We can build and train custom models for your business needs, or retrain your existing ones (open-source and proprietary) for better efficiency and scalability.",
         img: <img src={model_icon} alt="" width={40}/>,
-        link:"",
+        link:"/solution/LargeLanguageModel",
     },
     {
         title: "Al Software Development",
