@@ -118,7 +118,7 @@ export const TestCaseRecommender = {
   ],
   summary: [
     {
-      title: "Pain Points",
+      title: "Challenges",
       details: [
         "Manual creation of test cases is time-consuming and error-prone.",
         "Identifying all relevant test scenarios manually is challenging and prone to human error.",
@@ -128,7 +128,7 @@ export const TestCaseRecommender = {
       ],
     },
     {
-      title: "How the Solution will Help",
+      title: "Building Solution",
       details: [
         <div><b>Automated Test Case Generation:</b> The tool automates the generation of test cases using Azure Open AI, reducing the time and effort required for manual creation.</div>,
         <div><b>Standardization and Consistency:</b> Ensures consistent test case formats, promoting uniformity and adherence to predefined quality standards.</div>,

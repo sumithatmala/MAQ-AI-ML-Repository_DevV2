@@ -21,14 +21,6 @@ import showcaseBannerData1 from "./Data/showcaseBannerData1.js";
 import showcaseBannerData2 from "./Data/showcaseBannerData2.js";
 import transformIndustries from './Data/transformIndustries.js';
 import customerSuccessData from "./Data/customerSuccessData.js"
-//extra
-
-// import OneCardCarousel from '../industries/common/OneCardCoursal.jsx';
-// import BackgroundBanner from '../miscellaneous/Expertise/backgroundBanner.jsx';
-// import OneCardData from './Data/OneCardData';
-// import ContactForm from '../solutions/common/contactForm.jsx';
-// import { backBannerData } from './Data/backgroundBannerData';
-// import CustomerSuccess from './Blogs.js';
 
 
 const HomePage = () => {

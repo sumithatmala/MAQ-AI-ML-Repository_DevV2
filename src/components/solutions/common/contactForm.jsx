@@ -91,7 +91,7 @@ const ContactForm = ({ contactMsg }) => {
         <section  className="FormBox">
             <div className="Contact">
                 <div className="Header">
-                    <h2>Get in Touch with MAQ Software today</h2>
+                    <h2>Get in touch with MAQ Software today</h2>
                     <p>{contactMsg}</p>
                 </div>
                 <form action="#" onSubmit={handleSubmit}>

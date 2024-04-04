@@ -109,7 +109,7 @@ export const IntelligentDocumentProcessingBot = {
   ],
   summary: [
     {
-      title: "Pain points",
+      title: "Challenges",
       icon: <PsychologyAltIcon style={{ height: "16rem", width: "16rem" }} />,
       details: [
         "Manual extraction of patient information from PDFs and images",
@@ -122,7 +122,7 @@ export const IntelligentDocumentProcessingBot = {
       ],
     },
     {
-      title: "How the Solution will help",
+      title: "Building Solution",
       icon: <SpeedIcon style={{ height: "16rem", width: "16rem" }} />,
       details: [
         "Automated OCR system for efficient data extraction",

@@ -84,7 +84,7 @@ form button {
     cursor: pointer;
     margin-top: 20px;
     transition: background-color 0.3s;
-    box-shadow: 0 1px 2px #453c90;
+    /* box-shadow: 0 1px 2px #453c90; */
 }
 form button:hover {
     background-color: #9e1815;

@@ -120,7 +120,7 @@ export const SupportTicketAssistant = {
   ],
   summary: [
     {
-      title: "Pain Points",
+      title: "Challenges",
       icon: <PsychologyAltIcon style={{ height: "16rem", width: "16rem" }} />,
       details: [
         "High Volumes of Support Requests: Existing manual systems struggle to handle the daily influx of support tickets efficiently.",
@@ -129,7 +129,7 @@ export const SupportTicketAssistant = {
       ],
     },
     {
-      title: "How the Solution will Help",
+      title: "Building Solution",
       icon: <SpeedIcon style={{ height: "16rem", width: "16rem" }} />,
       details: [
         "Automated Processing: The introduction of an automated system will streamline support ticket processing.",

@@ -1,7 +1,7 @@
-import one from './icons/qanda.svg';
-import two from './icons/icon-healthcare-it.svg';
-import three from './icons/find.svg';
-import four from './icons/gear.svg';
+import one from './icons/icons8-consultation-100 6.svg';
+import two from './icons/icons8-health-100 (1) 2.svg';
+import three from './icons/icons8-bar-chart-100 2.svg';
+import four from './icons/icons8-faq-64 1.svg';
 
 const ServiceProvide = [
   {

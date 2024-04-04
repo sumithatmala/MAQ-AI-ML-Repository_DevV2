@@ -105,7 +105,7 @@ export const DocumentClassificationWithVirtualAssistant = {
     ],
     summary: [
         {
-            title: "Pain Points",
+            title: "Challenges",
             icon: <PsychologyAltIcon style={{ height: "16rem", width: "16rem" }} />,
             details: [
                 "Time-consuming and error-prone manual data extraction from business documents",
@@ -113,7 +113,7 @@ export const DocumentClassificationWithVirtualAssistant = {
             ],
         },
         {
-            title: "How the Solution will Help",
+            title: "Building Solution",
             icon: <SpeedIcon style={{ height: "16rem", width: "16rem" }} />,
             details: [
                 "Automated data extraction to streamline processes and eliminate manual tasks",

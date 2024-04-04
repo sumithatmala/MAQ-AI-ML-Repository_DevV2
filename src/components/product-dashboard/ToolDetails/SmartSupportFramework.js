@@ -111,7 +111,7 @@ export const SmartSupportFramework = {
     ],
     summary: [
         {
-            title: "Pain Points",
+            title: "Challenges",
             icon: <PsychologyAltIcon style={{ height: "16rem", width: "16rem" }} />,
             details: [
                 "Challenges in managing support tickets efficiently",
@@ -120,7 +120,7 @@ export const SmartSupportFramework = {
             ],
         },
         {
-            title: "How the Solution will Help",
+            title: "Building Solution",
             icon: <SpeedIcon style={{ height: "16rem", width: "16rem" }} />,
             details: [
                 "Automated ticket assignment for efficient management",
@@ -169,7 +169,7 @@ export const SmartSupportFramework = {
             answer: "The solution includes intelligent routing of support tickets using Open AI, contextual search for fast and efficient support, acknowledgment and priority assignment for support requests, identification of patterns for improved collaboration, and sentiment monitoring to ensure satisfactory responses are generated."
         },
         {
-            question: "How does the Smart Support Framework address pain points in support ticket management?",
+            question: "How does the Smart Support Framework address Challenges in support ticket management?",
             answer: "The solution addresses challenges such as delays and uncertainty in ticket severity, inefficient collaboration among support teams, and overall difficulties in managing support tickets efficiently. It achieves this through automated ticket assignment, timely severity feedback, and seamless collaboration."
         },
         {

@@ -1,9 +1,9 @@
-import healthIcon from "../img/health.svg"
-import sportsIcon from "../img/sports.svg"
-import marketingIcon from "../img/marketing.svg"
-import ecommIcon from "../img/ecomm.svg"
-import fintechIcon from "../img/finance.svg"
-import gameIcon from "../img/game.svg"
+import healthIcon from "../img/icons8-health-100 (1) 1.svg"
+import sportsIcon from "../img/icons8-wellness-100 1.svg"
+import marketingIcon from "../img/icons8-marketing-100 (2) 1.svg"
+import ecommIcon from "../img/icons8-shop-100 1.svg"
+import fintechIcon from "../img/icons8-tech-100 1.svg"
+import gameIcon from "../img/icons8-game-controller-100 2.svg"
 
 const transformIndustries = [
     {

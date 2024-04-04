@@ -116,7 +116,7 @@ export const SalesAssistant = {
   ],
   summary: [
     {
-      title: "Pain Points",
+      title: "Challenges",
       details: [
         <div><b>Manual Client Profiling:</b> The sales teams currently engage in time-consuming and resource-intensive manual client profiling through calls.</div>,
         <div><b>Resource Intensiveness:</b> The process of gathering information about client priorities, challenges, goals, and risks is laborious.</div>,
@@ -125,7 +125,7 @@ export const SalesAssistant = {
       ],
     },
     {
-      title: "How the Solution will Help",
+      title: "Building Solution",
       details: [
         <div><b>Automated Client Profiling:</b> Leveraging OpenAI for specific questioning automates and streamlines the client profiling process.</div>,
         <div><b>Data-Driven Insights:</b> OpenAI's data generation provides insights into client priorities, challenges, goals, and risks.</div>,

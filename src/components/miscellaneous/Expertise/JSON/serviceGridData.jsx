@@ -1,10 +1,9 @@
-import strategy_icon from "../img/strategy.svg"
-import ai_icon from "../img/ai.svg"
-import mvp_icon from "../img/mvp.svg"
-import model_icon from "../img/model.svg"
-import software_icon from "../img/software.svg"
-import Application_icon from "../img/application.svg"
-import pocicon from '../img/pocAiBased.webp';
+import strategy_icon from "../img/icons8-consultation-100 5.svg"
+import pocicon from '../img/icons8-ai-100 (2) 6.svg'
+import mvp_icon from "../img/icons8-product-100 (1) 3.svg"
+import model_icon from "../img/icons8-dev-100 1.svg"
+import software_icon from "../img/icons8-solidworks-100 2.svg"
+import Application_icon from "../img/icons8-google-pixel-6-100 1.svg"
 
 const serviceGridData = [
     {

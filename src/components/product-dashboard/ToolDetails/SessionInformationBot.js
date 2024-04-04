@@ -130,7 +130,7 @@ export const SessionInformationBot = {
 
   summary: [
     {
-      title: "Pain points",
+      title: "Challenges",
       // icon: <PsychologyAltIcon style={{height: "16rem", width: "16rem"}}/>,
       details: [
         "Dissipation of Knowledge sources",
@@ -143,7 +143,7 @@ export const SessionInformationBot = {
       ],
     },
     {
-      title: "How the Solution will help",
+      title: "Building Solution",
       // icon: <SpeedIcon style={{height: "16rem", width: "16rem"}}/>,
       details: [
         "Efficient information retrieval",
@@ -206,9 +206,9 @@ export const SessionInformationBot = {
         "Key features include quick and accurate information retrieval, contextual search capabilities, an interactive UI experience, retrieval of video content with relevant timestamps, and results including supporting sources like video links or documents.",
     },
     {
-      question: "How does Session Information Bot address pain points?",
+      question: "How does Session Information Bot address Challenges?",
       answer:
-        "Session Information Bot addresses pain points such as the dissipation of knowledge sources, difficulty in finding specific content, limited availability and accessibility of past sessions, lack of context in search results, and lengthy training and onboarding periods.",
+        "Session Information Bot addresses Challenges such as the dissipation of knowledge sources, difficulty in finding specific content, limited availability and accessibility of past sessions, lack of context in search results, and lengthy training and onboarding periods.",
     },
     {
       question: "What are the outcomes of using Session Information Bot?",
