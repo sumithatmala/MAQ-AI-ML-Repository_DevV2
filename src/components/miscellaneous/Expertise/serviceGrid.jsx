@@ -5,7 +5,7 @@ const ServiceGrid = (props) => {
     return(
         <section className="ServiceGridCnt">
             <div className="ServiceGridHeading">
-                <h3>{props.title}</h3>
+                <h3 style={{fontSize:"32px"}}>{props.title}</h3>
                 <p>{props.desc}</p>
             </div>
             <div className="ServiceGridTitle">
