@@ -702,7 +702,7 @@ li.move-right {
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 12px;
-  padding-bottom: 2%;
+  /* padding-bottom: 2%; */
   background: white;
 }
 

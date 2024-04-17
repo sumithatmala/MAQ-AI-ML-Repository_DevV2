@@ -61,12 +61,12 @@ const ProductInformation = () => {
           {/* Product Overview Section */}
           {productDetails.BusinessCase &&
             productDetails.BusinessCase.length > 0 && (
-              <Row id="prodinfo" className="product-overview">
+              <Row id="prodinfo" className="product-overview margin-adjust">
                 <Col>
                   <div
                     className="text-block-center2"
                     data-aos="fade-right"
-                    style={{ boxShadow: "none", paddingLeft: "40px" }}
+                    style={{ boxShadow: "none", width:"1126px" }}
                   >
                     {productDetails.BusinessCase.map((item, index) => (
                       <div key={index}>{item}</div>
@@ -88,10 +88,10 @@ const ProductInformation = () => {
           {productDetails.targetUsers &&
             productDetails.targetUsers.length > 0 && (
               <section
-                className="target-section"
+                className="target-section margin-adjust"
                 style={{
                   backgroundColor: "white",
-                  paddingTop: "50px",
+                  // paddingTop: "50px",
                   margin: "0",
                 }}
               >
@@ -106,7 +106,7 @@ const ProductInformation = () => {
             )}
 
           {/*business outcomes */}
-          <div className="product_carousel">
+          <div className="product_carousel margin-adjust">
           <h3 className="head-block-center" style={{marginTop:"30px"}}>Business Outcomes</h3>
           <CustomerSuccess
             items={productDetails.businessOutcomes}
@@ -175,7 +175,7 @@ const ProductInformation = () => {
                   <div
                     className="sum"
                     style={{
-                      margin: "1rem 10px",
+                      // margin: "1rem 10px",
                       alignItems: "center",
                       justifyContent: "center",
                     }}
@@ -185,7 +185,7 @@ const ProductInformation = () => {
                         <Row
                           key={index}
                           style={{
-                            margin: "6rem 10px",
+                            // margin: "6rem 10px",
                             alignItems: "center",
                             justifyContent: "center",
                           }}
@@ -232,7 +232,7 @@ const ProductInformation = () => {
                         <Row
                           key={index}
                           style={{
-                            margin: "6rem 10px",
+                            // margin: "6rem 10px",
                             alignItems: "center",
                             justifyContent: "center",
                           }}
@@ -281,7 +281,7 @@ const ProductInformation = () => {
                           key={index}
                           className="row2"
                           style={{
-                            margin: "6rem 10px",
+                            // margin: "6rem 10px",
                             alignItems: "center",
                             justifyContent: "center",
                           }}
@@ -341,9 +341,11 @@ const ProductInformation = () => {
       />
       {/* <ProductContactUs /> */}
       {productDetails.FAQs && productDetails.FAQs.length > 0 && (
-        <div style={{marginTop: "30px"}}>
+        // <div style={{marginTop: "30px"}}>
+        <>
         <FAQs FAQs={productDetails.FAQs} />
-        </div>
+        {/* </div>
+       */}</>
       )}
       <ContactForm />
     </>

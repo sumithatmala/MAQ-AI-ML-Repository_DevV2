@@ -35,7 +35,7 @@ body {
 .text-block-center2 {
     margin-top: 0px;
     font-weight: 400;
-    max-width: 1000px;
+    /* max-width: 1000px; */
     margin: 15px auto;
     line-height: 1.875;
     text-align: center;
@@ -254,7 +254,7 @@ body {
     .product-overview{
         padding: 0 !important;
         background: white;
-        max-width: 1126px;
+        /* max-width: 1126px; */
         display: flex !important;
         justify-content: center;
         align-items: center;

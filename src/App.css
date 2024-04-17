@@ -38,6 +38,6 @@
 }
 
 .margin-adjust{
-  /* margin-top: 30px; */
-  margin-bottom: 50px;
+  margin-top: 0px !important;
+  margin-bottom: 75px !important;
 }

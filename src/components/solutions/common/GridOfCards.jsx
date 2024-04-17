@@ -20,7 +20,7 @@ const GridOfCards = (props) => {
   // console.log(items)
   const sizeOfCard = String(100 / items.NoCards);
   return (
-    <section className="main-cases">
+    <section className="main-cases margin-adjust" >
       {items.title && <h2 className="head-block-center">{items.title}</h2>}
       {items.caption && <div className='text-block-center'>{items.caption}</div>}
       <div className="predict-use-cases __type-predict">

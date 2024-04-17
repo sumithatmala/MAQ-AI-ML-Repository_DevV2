@@ -23,7 +23,7 @@ const IncreasingCards = (props) => {
   }, []);
 
   return (
-    <section className="IncreasingCardCnt">
+    <section className="IncreasingCardCnt margin-adjust">
       <h2>{props.title}</h2>
       <div className="IncreasingcardTitle">
         {props.items.map((item, count = 0) => {

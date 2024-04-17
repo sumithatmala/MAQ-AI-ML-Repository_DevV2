@@ -62,7 +62,7 @@ const CustomerSuccess = (props) => {
   // }, []);
 
   return (
-    <section className="carousel_cost">
+    <section className="carousel_cost margin-adjust">
       <section className="target-section" style={{ backgroundColor: "white" }}>
         <Row
           className="slick-list1 draggable fade-in product-overview d-flex justify-content-center "

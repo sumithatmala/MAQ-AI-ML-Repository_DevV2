@@ -11,7 +11,7 @@ const ShowcaseBanner = (props) => {
     const [data, setData] = useState(props.item1);
     const [toggle, setToggle] = useState(true);
     return (
-        <section className="ShowcaseBannerCnt">
+        <section className="ShowcaseBannerCnt margin-adjust">
             <div className="ShowcaseBannerTitle">
                 <div className="ShowcaseBannerheader">
                     <button onClick={() => {

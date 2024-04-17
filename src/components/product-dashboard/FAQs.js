@@ -20,7 +20,7 @@ export default function App(props) {
   }, []);
 
   return (
-    <section className="faq-block">
+    <section className="faq-block margin-adjust">
       <div className="faq-block-inner">
         <h2 className="head-block-center">FAQ</h2>
         <MDBContainer className="mt-5" style={{ maxWidth: "1000px" }}>

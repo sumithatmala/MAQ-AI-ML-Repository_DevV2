@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const ProductTryIt = ({ items, link }) => {
   return (
-    <section id="tryit" className='product-information' style={{ paddingTop: "2%", backgroundColor: "white", height: "100%" , textAlign:"center"}}>
+    <section id="tryit" className='product-information margin-adjust' style={{ backgroundColor: "white", height: "100%" , textAlign:"center"}}>
       <Container fluid>
         <Row className='product-overview'>
           <Col>
