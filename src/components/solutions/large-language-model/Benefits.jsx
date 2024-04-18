@@ -3,7 +3,7 @@ import './css/Benefits.css'
 import { HashLink } from "react-router-hash-link";
 const Benfits = () => {
   return (
-    <section className="whychoose-section bg-icons">
+    <section className="whychoose-section bg-icons margin-adjust">
       <div className="whychoose-section-inner">
         <h2 className="head-block-center w-800">
           Benefits of On-Premise and Private-Cloud LLM Models

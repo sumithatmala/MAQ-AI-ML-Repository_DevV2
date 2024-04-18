@@ -68,7 +68,7 @@ Live Insights through Sentiment Analytics</h2>
         />
       </section>
 
-      <section style={{marginBottom:"50px"}}>
+      <section className="margin-adjust">
         <SentimentAnalysisCompany />
       </section>
 

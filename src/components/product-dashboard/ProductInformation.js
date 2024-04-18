@@ -119,10 +119,10 @@ const ProductInformation = () => {
           </div>
 
           {/* Solution Highlights​ */}
-          <section className="bannerCenter">
+          <section className="bannerCenter margin-adjust">
             {productDetails.solutionHighlights &&
               productDetails.solutionHighlights.length > 0 && (
-                <Row id="prodinfo" className="product-overview sol">
+                <Row id="prodinfo" className="product-overview sol margin-adjust">
                   <Col style={{ boxShadow: "none" }}>
                     <div
                       className="icon-container"
@@ -170,7 +170,7 @@ const ProductInformation = () => {
 
             {productDetails.summary && productDetails.summary.length > 0 && (
               <>
-                <Row id="prodinfo" className="product-overview">
+                <Row id="prodinfo" className="product-overview ">
                  
                   <div
                     className="sum"
@@ -189,6 +189,7 @@ const ProductInformation = () => {
                             alignItems: "center",
                             justifyContent: "center",
                           }}
+                          className="margin-adjust"
                         >
                           <Col data-aos="fade-right">
                             <div
@@ -279,7 +280,7 @@ const ProductInformation = () => {
                       ) : (
                         <Row
                           key={index}
-                          className="row2"
+                          className="row2 margin-adjust"
                           style={{
                             // margin: "6rem 10px",
                             alignItems: "center",

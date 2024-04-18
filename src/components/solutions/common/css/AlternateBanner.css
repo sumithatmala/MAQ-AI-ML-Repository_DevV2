@@ -1,6 +1,6 @@
 .BannerVisualLft {
-    margin: 40px 20px;
-    padding: 10px;
+    /* margin: 40px 20px;
+    padding: 10px; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -45,8 +45,8 @@
     align-items: center;
     align-content: center;
     display: flex;
-    margin: 10px;
-    padding: 10px;
+    margin: 0px 10px;
+    padding: 0px 10px;
 }
 .ImgContainer img{
     border-radius: 8px;

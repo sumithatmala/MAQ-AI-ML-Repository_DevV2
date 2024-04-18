@@ -19,13 +19,13 @@
     text-align: center;
 }
 .use-cases.__type-predict {
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 @media (min-width: 742px)
 {
     .use-cases.__type-predict {
-        padding-top: 0;
-        padding-bottom: 44px;
+        /* padding-top: 0;
+        padding-bottom: 44px; */
     }
 }
 @media (min-width: 742px)

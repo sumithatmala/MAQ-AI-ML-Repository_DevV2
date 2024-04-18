@@ -42,7 +42,7 @@ const Benefits2 = () => {
       <div className="text-block-center">
         Discover how LLMs can revolutionize your business operations and drive meaningful outcomes.
       </div>
-      <div className="use-cases __type-predict">
+      <div className="use-cases __type-predict margin-adjust" style={{paddingBottom:"0px"}}>
         <div className="use-cases__outer">
           <div className="use-cases__inner">
             <div className="use-cases-list-wrapper __type-predict">

@@ -6,7 +6,7 @@ import logo_hugging_face from './img/logo-hugging-face.png'
 import logo_flan_t5 from './img/logo-flan-t5.svg'
 const OurTechStack = () => {
   return (
-    <section className="services-section __type-technologies">
+    <section className="services-section __type-technologies margin-adjust">
       <div className="services-section-inner">
         <h2 className="head-block-center">
           Our Array of Large Language Learning Models

@@ -22,7 +22,7 @@ export default function App(props) {
   return (
     <section className="faq-block margin-adjust">
       <div className="faq-block-inner">
-        <h2 className="head-block-center">FAQ</h2>
+        <h2 className="head-block-center">Frequently Asked Questions</h2>
         <MDBContainer className="mt-5" style={{ maxWidth: "1000px" }}>
           <MDBAccordion>
             {props.FAQs.map((faq, index) => (

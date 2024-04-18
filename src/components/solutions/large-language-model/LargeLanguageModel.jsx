@@ -29,7 +29,7 @@ const LargeLanguageModel = () => {
         <Benfits />
 
         <section
-          className="access_tabs"
+          className="access_tabs margin-adjust"
           style={{ display: "flex", justifyContent: "center" }}
         >
           <AccessibleTabs

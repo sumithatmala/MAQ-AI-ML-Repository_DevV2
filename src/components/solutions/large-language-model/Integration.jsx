@@ -2,7 +2,7 @@ import React from "react";
 import IntegrationSteps from './img/Integration-steps.svg'
 const Integration = () => {
   return (
-    <div className="moving-arrow">
+    <div className="moving-arrow margin-adjust">
       <h2 className="head-block-center w-800">
         Integrating Large Language Learning Models, Effortlessly
       </h2>

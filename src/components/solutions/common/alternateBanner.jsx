@@ -8,7 +8,7 @@ const AlternateBanner = ({
 }) => {
   return (
     <>
-      <div className="margin-adjust">
+      <div className="">
         {banners.map((item, count) => {
           // console.log(item.points);
           return (

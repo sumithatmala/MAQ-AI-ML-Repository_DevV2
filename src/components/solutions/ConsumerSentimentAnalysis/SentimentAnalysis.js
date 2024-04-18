@@ -36,7 +36,7 @@ const SentimentAnalysis = () => {
   ];
 
   return (
-    <section className="licon-text">
+    <section className="licon-text margin-adjust">
       <div className="licon-text-inner">
         <h2 className="head-block-center">Sentiment Analysis for Brand Building</h2>
         <div className="text-block-center">Get a leg up in the competition through innovative technologies for sentiment tracking.</div>

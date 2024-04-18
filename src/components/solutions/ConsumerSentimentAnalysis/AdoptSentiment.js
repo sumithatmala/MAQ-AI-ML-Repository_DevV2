@@ -1,8 +1,4 @@
 import React from 'react';
-// import graph from './icons/icon-sentiment-graph.svg';
-// import people from './icons/icon-sentiment-people.svg';
-// import smile from './icons/icon-sentiment-smile.svg';
-// import stars from './icons/icon-sentiment-stars.svg';
 
 import graph from './icons/icons8-consumer-100 1.svg';
 import people from './icons/icons8-project-100 (1) 1.svg';
@@ -10,7 +6,7 @@ import smile from './icons/icons8-interview-100 1.svg';
 import stars from './icons/icons8-ophthalmology-100 1.svg';
 
 const BenefitItem = ({ imgSrc, imgAlt, title, text }) => (
-  <li className="section-benefits-list__list-item">
+  <li className="section-benefits-list__list-item" style={{padding:"0px", marginBottom:"50px"}}>
     <div className="section-benefits-list__image">
       <img src={imgSrc} alt={imgAlt} width={30} />
     </div>
@@ -52,7 +48,7 @@ const AdoptSentiment = () => {
       
 
   return (
-    <section className="section-benefits __images-left">
+    <section className="section-benefits __images-left margin-adjust">
       <div className="section-benefits-inner">
         <h2 className="head-block-center">Adopt Sentiment Tracking to Stay on the Edge</h2>
         <div className="text-block-center">Put the customer’s perspective at the core of your operating model.</div>
