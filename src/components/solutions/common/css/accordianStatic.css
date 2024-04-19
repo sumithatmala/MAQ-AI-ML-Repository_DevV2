@@ -3,9 +3,9 @@
     text-align: center;
     /* max-width: 896px; */
     flex-direction: column;
-    margin: 3rem 0;
-    padding: 30px;
-    min-height: 545px;
+    /* margin: 3rem 0; */
+    padding: 0px 30px;
+    /* min-height: 545px; */
 }
 
 .AccordionTitle {

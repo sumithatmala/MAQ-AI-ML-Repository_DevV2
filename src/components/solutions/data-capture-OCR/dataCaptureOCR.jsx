@@ -30,7 +30,7 @@ const DataCaptureOCR = () => {
         <>
             <NewBanner data={NewBann} />
             {/* <Banner BannerData={BannerData} /> */}
-            <section className="SectionDesc">
+            <section className="SectionDesc margin-adjust">
                 <div className="CenterDesc">
                     <h2>Powerful solutions for gaining deep insights into data and automating business processes.</h2>
                     <p>The amount of data handled by businesses is rapidly increasing each day. Services like data capture, retrieval, and extraction are now essential components of organizational workflows. They are crucial for efficiently managing vast amounts of information stored in various formats and locations.</p>
@@ -43,7 +43,7 @@ const DataCaptureOCR = () => {
             <BackgroundBanner />
             <BenefitCards cardsData={benefitsData} />
             <UsageBenefits items = {LogisticsBenefits} title = "OCR and Data Capture for Logistics & Transportation" />
-            <div style={{ display: "flex", justifyContent: "center" }}>
+            <div style={{ display: "flex", justifyContent: "center" }} className="margin-adjust">
                 <AccordionStatic title={"Other Industries"} desc="As a data extraction company, we provide optical character recognition services and help companies across multiple industries optimize their business processes with the help of our automated data capture software." listItems={AccordionData} titleRatio = {"50%"} cntWidth = {"896px"}/>
             </div>
             <CustomerSuccess items={customerSuccessData} heading="Customer Success" CardHeight="390px" />

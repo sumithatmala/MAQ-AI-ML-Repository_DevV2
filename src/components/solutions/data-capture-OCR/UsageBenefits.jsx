@@ -3,8 +3,8 @@ import CartonImg from "./img/cartonImg.svg"
 
 const UsageBenefits = (props) => {
     return (
-        <section className="LogisticsContainer">
-            <h5>{props.items.title}</h5>
+        <section className="LogisticsContainer margin-adjust">
+            <div className="head-block-center">{props.items.title}</div>
             <div className="LogisticsTitle">
                 <div className="LogisticsDesc">
                     {props.items.desc.map((para, index) => {

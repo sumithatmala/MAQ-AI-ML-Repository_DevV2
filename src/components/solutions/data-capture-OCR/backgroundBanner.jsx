@@ -3,7 +3,7 @@ import monitor from "./img/monitor.svg"
 
 const BackgroundBanner = () => {
     return(
-        <section className="BannerContainer">
+        <section className="BannerContainer margin-adjust">
             <div className="BannerInd">
                 <img src={monitor} alt="Easy to use" width={350}></img>
                 <div className="BannerDesc">
