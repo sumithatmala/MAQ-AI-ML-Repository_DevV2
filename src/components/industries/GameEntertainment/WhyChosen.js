@@ -28,7 +28,7 @@ const WhyChooseSection = () => {
   ];
 
   return (
-    <section className="whychoose-section">
+    <section className="whychoose-section margin-adjust">
       <div className="whychoose-section-inner">
         <h2 className="head-block-center">Our Services for Your Needs</h2>
         <div className="text-block-center">Make use of artificial intelligence in games to pull ahead of your competitors.</div>

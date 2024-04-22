@@ -16,12 +16,12 @@ const RecommendationSystems = () => {
     <>
       <NewBanner data={ NewBannerdata } />
 
-      <div className="container_pharma" >
+      <div className="container_pharma" style={{margin:"0px"}} >
         <Alternate banners={bannerData} ContactBtn={false} />
       </div>
 
       <section className="info-section">
-        <div className="info-section-inner">
+        <div className="info-section-inner margin-adjust" style={{padding:"0px"}}>
           <h2 className="info-section__title">
             The Significance of Personalization
           </h2>

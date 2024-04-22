@@ -22,7 +22,7 @@ const ProjectDevRoadmap = (props) => {
             datasets.
           </p>
         </div>
-        <div className="ProjectDevRoadmap">
+        <div className="ProjectDevRoadmap margin-adjust">
           <div className="Roadmap-left">
             <div className="RoadmapTitle">{leftData.title}</div>
             <ul className="RoadmapPointList-left">

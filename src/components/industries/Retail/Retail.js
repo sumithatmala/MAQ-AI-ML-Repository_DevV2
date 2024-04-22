@@ -18,7 +18,7 @@ const Retail = () => {
     <>
       <NewBanner data = {bannerdata} />
 
-      <section className="info-section"><div className="info-section-inner"><h2 className="head-block-center">Our Expertise</h2><div className="text-block-center"> Artificial intelligence in the retail industry: made easy.</div></div></section>
+      <section className="info-section margin-adjust"><div className="info-section-inner" style={{padding:"0px"}}><h2 className="head-block-center">Our Expertise</h2><div className="text-block-center"> Artificial intelligence in the retail industry: made easy.</div></div></section>
 
       
 

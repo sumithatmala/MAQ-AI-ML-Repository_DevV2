@@ -14,7 +14,7 @@ const TextAnalysis = () => {
     <>
       <NewBanner data={bannerdata} />
       <div className="InfoVisual">
-        <div className="HeaderBox">
+        <div className="HeaderBox margin-adjust">
           <h1>
             Text analysis software customized to meet your specific needs.
           </h1>

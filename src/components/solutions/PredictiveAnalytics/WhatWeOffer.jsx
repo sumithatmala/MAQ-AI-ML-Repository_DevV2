@@ -27,7 +27,7 @@ const WhatWeOffer = () => {
   ];
   
   return (
-    <section className="section-benefits benefits-section __icon-left">
+    <section className="section-benefits benefits-section __icon-left margin-adjust">
       <div className="inner-benefits __bi-impl__inner">
         <h2 className="benefits-title">What We Offer</h2>
         <div className="benefits-description">

@@ -35,7 +35,7 @@ const OneCardCoursal = (props) => {
   }, []);
 
   return (
-    <section className="target-section" style={{ backgroundColor: "white" }}>
+    <section className="target-section margin-adjust" style={{ backgroundColor: "white" }}>
       <Row
         className="slick-list2 draggable fade-in product-overview d-flex justify-content-center"
         style={{ backgroundColor: "white" }}

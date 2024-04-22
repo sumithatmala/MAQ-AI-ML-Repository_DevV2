@@ -28,11 +28,11 @@ const ImageRecognition = () => {
                 <p>We tailor robust custom solutions to serve your business needs. Derive valuable insights from your visual data with the help of proven solutions.</p>
             </div> */}
             <div className="Container-ir">
-                <section className="Info-section">
+                <section className="Info-section margin-adjust">
                     <p>We cooperate with clients across multiple industries and assist them in levelling up their businesses by harnessing the power of Big Data.</p>
                     <p>We have gained clients' trust across the globe by creating and delivering top-notch custom solutions for different industries. Our team of <b>machine learning (ML) experts</b> has extensive experience in on-demand computer vision and image recognition software development of any complexity.</p>
                 </section>
-                <section className="IntroBanner">
+                <section className="IntroBanner" style={{margin:"0px"}}>
                     <div className="IntroBanner-det">
                         <h2>We Develop Custom Image Recognition and Analysis Solutions Focused on Your Business</h2>
                         <p>We can create bespoke solutions that:</p>
@@ -47,7 +47,7 @@ const ImageRecognition = () => {
                     </div>
                 </section>
                 <ProjectDevRoadmap leftData={roadmapLeft} rightData={roadmapRight}/>
-                <section className="irProcessContainer">
+                <section className="irProcessContainer margin-adjust">
                     <div className="irProcess">
                         {process.map((item, index) => {
                             return (
@@ -61,7 +61,7 @@ const ImageRecognition = () => {
                     </div>
                 </section>
                 <h1>How Can You Use It</h1>
-                <section className="UsageContainer">
+                <section className="UsageContainer margin-adjust">
                     <img src={phoneImg} alt="phone app preview" width={375}></img>
                     <div className="UsageText">
                         <p>Custom image recognition and picture analysis solutions implementation and integration enable machines to replicate human vision, allowing them to identify objects and people in everyday reality. Machine learning algorithms contribute to recognizing objects and individuals in raw images with minimal error rates.</p>
@@ -76,7 +76,7 @@ const ImageRecognition = () => {
                         </ul>
                     </div>
                 </section>
-                <div className="Industryheading">
+                <div className="Industryheading margin-adjust">
                     <h3>Industries</h3>
                     <p>Our team of machine learning experts has gained global trust by delivering customized solutions for a wide range of industries. We specialize in on-demand computer vision and image recognition software development, tailoring solutions to meet industry-specific needs. Our clients come from diverse sectors, including logistics, retail, media & entertainment, healthcare, and more.</p>
                 </div>

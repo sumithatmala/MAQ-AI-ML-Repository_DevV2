@@ -5,7 +5,7 @@ const FlatGridLayout = (props) => {
   const { title = "Industries", items } = props;
 
   return (
-    <section className="trinityContainer trinity _v2">
+    <section className="trinityContainer trinity _v2 margin-adjust">
       <div className="trinityInner trinity__inner">
         <h2 className="centeredTitle head-block-center">{title}</h2>
         <ul className="trinityList trinity__list">

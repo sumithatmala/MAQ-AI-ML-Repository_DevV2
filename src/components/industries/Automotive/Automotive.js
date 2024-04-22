@@ -20,12 +20,7 @@ const Automotive = () => {
   return (
     <>
     <NewBanner data = {bannerdata} />
-
-      <section className="info-section">
-        <div className="info-section-inner"></div>
-      </section>
-
-      <div className="quick-block">
+      <div className="quick-block margin-adjust">
         <div className="head-block-center" style={{ marginBottom: "10px" }}>
           <h2 className="headblock">Our Expertise</h2>
         </div>
@@ -40,11 +35,11 @@ const Automotive = () => {
         <Alternate banners={OurExpertise} ContactBtn={false} />
       </div>
 
-      <section className="onecard">
+      <section className="onecard margin-adjust">
         <OneCardCoursal items={OneCardDataAuto} />
       </section>
 
-      <div style={{ display: "flex", justifyContent: "center", marginBottom:"-10rem" }}>
+      <div style={{ display: "flex", justifyContent: "center"}} >
         <AccordionStatic
           title={"Challenges Addressed in Manufacturing"}
           desc="Transform your manufacturing processes with the automated capabilities of artificial intelligence."

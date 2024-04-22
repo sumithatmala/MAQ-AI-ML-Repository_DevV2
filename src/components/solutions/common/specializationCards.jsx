@@ -2,7 +2,7 @@ import "./css/SpecializationCards.css"
 
 const SpecialContainer = ({SpecialCards}) => {
     return (
-        <div className="SpecialContainer">
+        <div className="SpecialContainer margin-adjust">
             <h2>Why Work With Us</h2>
             <p>We make it easy to build awesome text analysis software</p>
             <div className="SpecialCards">
