@@ -3,7 +3,7 @@ import './css/Technologies.css';
 
 const Technologies = ({ tech }) => {
     return (
-        <section className="technologies">
+        <section className="technologies margin-adjust">
             <h3>Technologies</h3>
             <p>We use the best technologies available on the market, and we are continually expanding our tech stack.</p>
             <div className="imageContainer">

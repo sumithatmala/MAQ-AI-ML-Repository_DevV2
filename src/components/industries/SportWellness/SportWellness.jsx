@@ -22,7 +22,7 @@ const SportWellness =() =>{
           {/* <Banner BannerData={BannerData}/> */}
           <NewBanner data = {bannerdata} />
           <div className="InfoVisual">
-            <section className="WelcomeMsg">
+            <section className="WelcomeMsg margin-adjust">
                 <h2>Areas of Expertise</h2>
                 <div className='text-block-center'>Unleash Peak Performance & Holistic Wellness through AI-Powered Solutions. Optimize your journey towards athletic excellence and sustainable well-being with our cutting-edge, AI-driven offerings designed to tackle critical challenges in the Sports & Wellness landscape.</div>
             </section>

@@ -28,7 +28,7 @@ const Insights = () => {
     
 
   return (
-    <section className="vs-statistics __content-auto">
+    <section className="vs-statistics __content-auto margin-adjust">
       <div className="vs-statistics__inner">
         <h2 className="vs-statistics__title">Predictive Analytics Insights</h2>
         <ul className="vs-statistics__list __vs">

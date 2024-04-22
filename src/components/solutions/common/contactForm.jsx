@@ -88,7 +88,7 @@ const ContactForm = ({ contactMsg }) => {
     };
 
     return (
-        <section  className="FormBox">
+        <section  className="FormBox margin-adjust">
             <div className="Contact">
                 <div className="Header">
                     <h2>Get in touch with MAQ Software today</h2>

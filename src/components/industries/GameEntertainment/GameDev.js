@@ -58,7 +58,7 @@ const GameDev = () => {
   }, []); 
 
   return (
-    <section className="blue-tile-section icon-left icon-up big-cont">
+    <section className="blue-tile-section icon-left icon-up big-cont margin-adjust">
       <div className="blue-tile-section__inner">
         <h2 className="head-block-center">
           Enhance Your Gamedev Business with AI Technology
