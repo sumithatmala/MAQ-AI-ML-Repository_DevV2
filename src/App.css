@@ -43,7 +43,7 @@
 }
 
 .border-shadow{
-  border: 1px solid #ecedf2;
+  border: 1px solid #ecedf2 !important;
   box-shadow: none !important;
 }
 
