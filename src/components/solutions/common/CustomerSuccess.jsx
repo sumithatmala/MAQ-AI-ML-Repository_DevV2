@@ -87,7 +87,9 @@ const CustomerSuccess = (props) => {
                     ))) : (<></>)}
                   </div>
                   {outcome.link ? (
-                    <a href={outcome.link}>Learn More</a>
+                    <div className="learn-more">
+                    <a className="learn-more-text" href={outcome.link}>Learn More</a>
+                    </div>
                   ) : (
                     <></>
                   )}
