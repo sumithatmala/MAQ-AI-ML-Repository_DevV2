@@ -377,3 +377,14 @@ body {
     height: 5rem;
     width: 5rem;
   }
+
+
+  /* .product-try .container-fluid{
+    background: #b31c1c !important;
+  } */
+
+  .product-try .product-overview,
+  .product-try .product-gallery,
+  .product-try .product-content {
+    background: #f4f5f6 !important;
+  }

@@ -29,6 +29,7 @@ const DataCaptureOCR = () => {
     return (
         <>
             <NewBanner data={NewBann} />
+            {/* <ContactButton /> */}
             {/* <Banner BannerData={BannerData} /> */}
             <section className="SectionDesc margin-adjust">
                 <div className="CenterDesc">

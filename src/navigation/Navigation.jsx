@@ -31,55 +31,62 @@ import MarTech from "../components/industries/MarTech/MarTech";
 import SportWellness from "../components/industries/SportWellness/SportWellness";
 import HealtcarePharma from "../components/industries/HealthcarePharma/HealthcarePharma";
 import ContactUs from "../components/miscellaneous/ContactUs/ContactUs";
+// import AppContext from "../AppContex";
 
 const Navigation = () => {
   return (
+    <>
+    {/* <AppContext.Provider value={{basename: "/"}}> */}
     <Router>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Container />}>
-          <Route path="/" element={<HomePage />} />
+        {/* <Route path="/" element={<ContactButton />}> */}
+          <Route path="/" element={<Container />}>
+            <Route path="/" element={<HomePage />} />
 
-          <Route path="/Expertise" element={<Expertise />} />
+            <Route path="/Expertise" element={<Expertise />} />
 
-          <Route path="/AboutUs" element={<AboutUs />} />
+            <Route path="/AboutUs" element={<AboutUs />} />
 
-          <Route
-            path="/product/:productName"
-            element={
-              <>
-                <SideBar />
-                <ProductInformation />
-              </>
-            }
-          />
+            <Route
+              path="/product/:productName"
+              element={
+                <>
+                  <SideBar />
+                  <ProductInformation />
+                </>
+              }
+            />
 
-          <Route path="/solution/TextAnalysis" element={<TextAnalysis />} />
-          <Route path="/solution/ComputerVision" element={<ComputerVision />} />
-          <Route path="/solution/ImageRecognition" element={<ImageRecognition />} />
-          <Route path="/solution/NaturalLanguageProcessing" element={<NaturalLanguageProcessing />} />
-          <Route path="/solution/LargeLanguageModel" element={<LargeLanguageModel />} />
-          <Route path="/solution/DataCaptureOCR" element={<DataCaptureOCR />} />
-          <Route path="/solution/PredictiveAnalytics" element={<PredictiveAnalytics />} />
-          <Route path="/solution/VirtualAssistantTool" element={<VirtualAssistantTool />} />
-          <Route path="/solution/ConsumerSentimentAnalysis" element={<ConsumerSentimentAnalysis />} />
+            <Route path="/solution/TextAnalysis" element={<TextAnalysis />} />
+            <Route path="/solution/ComputerVision" element={<ComputerVision />} />
+            <Route path="/solution/ImageRecognition" element={<ImageRecognition />} />
+            <Route path="/solution/NaturalLanguageProcessing" element={<NaturalLanguageProcessing />} />
+            <Route path="/solution/LargeLanguageModel" element={<LargeLanguageModel />} />
+            <Route path="/solution/DataCaptureOCR" element={<DataCaptureOCR />} />
+            <Route path="/solution/PredictiveAnalytics" element={<PredictiveAnalytics />} />
+            <Route path="/solution/VirtualAssistantTool" element={<VirtualAssistantTool />} />
+            <Route path="/solution/ConsumerSentimentAnalysis" element={<ConsumerSentimentAnalysis />} />
 
-          <Route path="/Industries/Logistics" element={<Logistics />} />
-          <Route path="/Industries/E-commerce" element={<AISolutionsEcommerce />} />
-          <Route path="/Industries/Retail" element={<Retail />} />
-          <Route path="/Industries/RecommendationSystems" element={<RecommendationSystems />} />
-          <Route path="/Industries/Fintech" element={<Fintech />} />
-          <Route path="/Industries/MarTech" element={<MarTech />} />
-          <Route path="/Industries/Automotive" element={<Automotive />} />
-          <Route path="/Industries/GameEntertainment" element={<GameEntertainment />} />
-          <Route path="/Industries/Health&Pharma" element={<HealtcarePharma />} />
-          <Route path="/Industries/SportWellness" element={<SportWellness />} />
-          
-          <Route path="/ContactUs" element={<ContactUs />} />
-          <Route path="*" element={<NotFound />} />
-        </Route>
+            <Route path="/Industries/Logistics" element={<Logistics />} />
+            <Route path="/Industries/E-commerce" element={<AISolutionsEcommerce />} />
+            <Route path="/Industries/Retail" element={<Retail />} />
+            <Route path="/Industries/RecommendationSystems" element={<RecommendationSystems />} />
+            <Route path="/Industries/Fintech" element={<Fintech />} />
+            <Route path="/Industries/MarTech" element={<MarTech />} />
+            <Route path="/Industries/Automotive" element={<Automotive />} />
+            <Route path="/Industries/GameEntertainment" element={<GameEntertainment />} />
+            <Route path="/Industries/Health&Pharma" element={<HealtcarePharma />} />
+            <Route path="/Industries/SportWellness" element={<SportWellness />} />
+            
+            <Route path="/ContactUs" element={<ContactUs />} />
+            <Route path="*" element={<NotFound />} />
+          </Route>
+        {/* </Route> */}
       </Routes>
     </Router>
+    {/* </AppContext.Provider> */}
+    </>
   );
 };
 

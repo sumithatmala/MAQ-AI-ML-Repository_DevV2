@@ -92,14 +92,14 @@ const Tabs = ({ tabsData, sectionName, subheading, foot, bttn }) => {
           )}
         </div>
 
-        <div className="text-block-center"> {foot} </div>
+        {/* <div className="text-block-center"> {foot} </div>
         {bttn === true && (
           <div className="block__action">
             <HashLink to="#contact" className="btn btn-empty">
               Request Demo
             </HashLink>
           </div>
-        )}
+        )} */}
       </div>
     </>
   );

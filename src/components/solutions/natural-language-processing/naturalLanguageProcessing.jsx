@@ -36,12 +36,6 @@ const NaturalLanguageProcessing = () => {
                     <p>We're Pioneers in NLP Software Service Development. Whatever Your Business Problem is, We're Part of the Solution.</p>
                 </section>
                 <AlternateBanner banners={bannerData} count={0} ContactBtn={false}/>
-                <section className="LearnMoreSection margin-adjust">
-                    <p>Lets have a talk on our NLP services</p>
-                    <div className="block__action">
-                    <HashLink to={"./#contact"} className="btn btn-empty" >Talk To Us</HashLink >
-                    </div>
-                </section>
                 {/* <section className="WorkProcess">
                     <h3>How We Work</h3>
                     <div className="ExplainProcess"></div>
