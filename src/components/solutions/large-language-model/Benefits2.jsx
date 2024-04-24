@@ -49,7 +49,7 @@ const Benefits2 = () => {
               <ul className="use-cases-list">
                 {benefits.map((benefit, index) => (
                   <li key={index} className="use-cases-list__list-item">
-                    <div className="use-cases-list__item">
+                    <div className="use-cases-list__item border-shadow">
                       <div className="use-cases-list__icon" style={{display:"flex", justifyContent:"center"}}>
                         <img src={benefit.icon} alt={benefit.title} />
                       </div>
