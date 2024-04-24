@@ -1,0 +1,27 @@
+.contact-bt {
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    bottom: 20px;
+    /* Adjust as needed */
+    right: 20px;
+    /* Adjust as needed */
+    z-index: 1000;
+    /* Ensure it's above other elements */
+}
+
+.contact-action {
+    border-radius: 30px;
+    width: min-content;
+    background-color: #B22320 !important;
+    min-height: 55px !important;
+    border-radius: 40px !important;
+}
+
+.no-padding {
+    padding: 10px !important;
+    font-size: 10px !important;
+    display: inline-block;
+    margin: 0 auto;
+    color: #fff !important;
+}

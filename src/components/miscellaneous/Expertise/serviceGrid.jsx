@@ -12,7 +12,7 @@ const ServiceGrid = (props) => {
                 {props.items.map((item, index)=>{
                     return(
                         <Link to={item.link} key={index}>
-                            <div className="ServiceGridCard">
+                            <div className="ServiceGridCard border-shadow">
                                 <div className="ServiceGridCard-txt">
                                     <div className="ServiceGridCardHeader">
                                         {item.img}

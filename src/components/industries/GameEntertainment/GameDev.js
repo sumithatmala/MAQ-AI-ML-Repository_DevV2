@@ -85,14 +85,14 @@ const GameDev = () => {
             </li>
           ))}
         </ul>
-        <div className="text-block-center">
+        {/* <div className="text-block-center">
           Need to develop an AI game solution?
         </div>
         <div className="block__action">
           <HashLink  to="./#contact" className="btn btn-empty">
             Get an Estimate
           </HashLink>
-        </div>
+        </div> */}
       </div>
     </section>
   );

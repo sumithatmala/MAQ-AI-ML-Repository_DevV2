@@ -122,7 +122,7 @@ body {
 } */
 
 .FAQ__item {
-    box-shadow: 15px 15px 15px rgb(144 60 60 / 20%), 0 4px 5px rgb(144 60 60 / 10%), 0 2px 4px rgb(144 60 60 / 14%);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .15), 0 2px 5px rgba(0, 0, 0, .15), 0 2px 4px rgba(0, 0, 0, .15);
 }
 
 .slick-prev {
@@ -376,4 +376,15 @@ body {
     /* padding-bottom: 70px; */
     height: 5rem;
     width: 5rem;
+  }
+
+
+  /* .product-try .container-fluid{
+    background: #b31c1c !important;
+  } */
+
+  .product-try .product-overview,
+  .product-try .product-gallery,
+  .product-try .product-content {
+    background: #f4f5f6 !important;
   }

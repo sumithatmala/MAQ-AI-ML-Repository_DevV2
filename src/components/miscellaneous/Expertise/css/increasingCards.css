@@ -31,15 +31,15 @@
     font-weight: 600;
     margin: 0 20px 10px 20px;
 }
-.IncreasingNumber::after {
+/* .IncreasingNumber::after {
     content: "";
     display: block;
     width: 20%;
     height: 2px;
     background-color: #b9091bc9;
-    margin-top: 5px; /* Adjust as needed */
+    margin-top: 5px; /* Adjust as needed 
     margin: 0 auto;
-}
+} */
 
 @media (max-width: 1245px) {
     .IncreasingCardDesc {

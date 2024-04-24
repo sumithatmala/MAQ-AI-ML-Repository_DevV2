@@ -47,15 +47,7 @@ const Benfits = () => {
             </div>
           </li>
         </ul>
-        <div className="block__action">
-          
-          <HashLink
-            to="./#contact"
-            className="btn btn-empty"
-          >
-            Request Demo
-          </HashLink>
-        </div>
+        
       </div>
     </section>
   );

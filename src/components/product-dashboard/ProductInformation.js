@@ -144,7 +144,7 @@ const ProductInformation = () => {
                       data-aos="fade-left"
                       style={{ display: "Block" }}
                     >
-                      <h3 style={{ color: "black" }}>Solution Highlights</h3>
+                      <h3 style={{ color: "black", fontSize:"32px"}}>Solution Highlights</h3>
                       <ul className="bulletStyle">
                         {productDetails.solutionHighlights.map(
                           (highlights, index) => (
@@ -153,7 +153,7 @@ const ProductInformation = () => {
                               style={{
                                 color: "#141414",
                                 position: "relative",
-                                paddingLeft: "1.2em",
+                                // paddingLeft: "1.2em",
                               }}
                             >
                               {highlights}
@@ -196,7 +196,7 @@ const ProductInformation = () => {
                               className="product-container"
                               style={{ display: "block" }}
                             >
-                              <h3>{highlights.title}</h3>
+                              <h3 style={{fontSize:"32px"}}>{highlights.title}</h3>
                               <ul className="bulletStyle">
                                 {highlights.details.map((highlight, index) => (
                                   <li
@@ -204,7 +204,7 @@ const ProductInformation = () => {
                                     style={{
                                       color: "#141414",
                                       position: "relative",
-                                      paddingLeft: "1.2em",
+                                      // paddingLeft: "1.2em",
                                     }}
                                   >
                                     {highlight}
@@ -243,7 +243,7 @@ const ProductInformation = () => {
                               className="product-container"
                               style={{ display: "block" }}
                             >
-                              <h3>{highlights.title}</h3>
+                              <h3 style={{fontSize:"32px"}}>{highlights.title}</h3>
                               <ul className="bulletStyle">
                                 {highlights.details.map((highlight, index) => (
                                   <li
@@ -251,7 +251,7 @@ const ProductInformation = () => {
                                     style={{
                                       color: "#141414",
                                       position: "relative",
-                                      paddingLeft: "1.2em",
+                                      // paddingLeft: "1.2em",
                                     }}
                                   >
                                     {" "}
@@ -307,14 +307,14 @@ const ProductInformation = () => {
                               className="product-container"
                               style={{ display: "block" }}
                             >
-                              <h4>{highlights.title}</h4>
+                              <h4 style={{fontSize:"32px"}}>{highlights.title}</h4>
                               <ul className="bulletStyle">
                                 {highlights.details.map((highlight, index) => (
                                   <li
                                     key={index}
                                     style={{
                                       position: "relative",
-                                      paddingLeft: "1em",
+                                      // paddingLeft: "1em",
                                     }}
                                   >
                                     <span style={{ color: "#141414" }}>

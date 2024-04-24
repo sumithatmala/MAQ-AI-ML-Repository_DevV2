@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./css/ContactForm.css";
 import Swal from "sweetalert2";
 import { useState } from "react";
+import ContactButton from "../../miscellaneous/ContactUsButton/ContactButton";
 
 const ContactForm = ({ contactMsg }) => {
     const [name, setName] = useState("");
@@ -89,6 +90,7 @@ const ContactForm = ({ contactMsg }) => {
 
     return (
         <section  className="FormBox margin-adjust">
+            <ContactButton />
             <div className="Contact">
                 <div className="Header">
                     <h2>Get in touch with MAQ Software today</h2>

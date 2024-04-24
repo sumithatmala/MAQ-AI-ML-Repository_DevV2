@@ -144,7 +144,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #0056b3;
+  color: black;
   text-decoration: underline;
 }
 

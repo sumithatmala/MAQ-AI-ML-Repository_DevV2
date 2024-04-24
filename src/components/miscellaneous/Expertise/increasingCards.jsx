@@ -31,7 +31,7 @@ const IncreasingCards = (props) => {
           return (
             <div
               key={count}
-              className="IncreasingCardDesc"
+              className="IncreasingCardDesc border-shadow"
               style={{
                 // boxShadow: props.showShadow ? "0px 8px 24px 0px #c8c5dd" : "",
                 boxShadow: props.showShadow ? "4px 3px 19px #80808066" : "",
