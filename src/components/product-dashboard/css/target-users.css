@@ -122,7 +122,7 @@ body {
 } */
 
 .FAQ__item {
-    box-shadow: 15px 15px 15px rgba(0, 0, 0, .15), 0 4px 5px rgba(0, 0, 0, .15), 0 2px 4px rgba(0, 0, 0, .15);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .15), 0 2px 5px rgba(0, 0, 0, .15), 0 2px 4px rgba(0, 0, 0, .15);
 }
 
 .slick-prev {

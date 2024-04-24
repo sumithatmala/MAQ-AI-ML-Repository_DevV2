@@ -50,3 +50,7 @@
 .border-shadow:hover{
   box-shadow: 0 .4rem 2.4rem 0 rgba(0, 0, 0, .15) !important;
 }
+
+ol,ul{
+  padding-left: 18px !important;
+}
