@@ -5,7 +5,7 @@ import { HashLink } from "react-router-hash-link";
 const CaseItem = ({ iconSrc, altText, title, description, sizeOfCard }) => (
 
   <li className="predict-use-cases-list__list-item2" style={{ width: `${sizeOfCard}%`, }}>
-    <div className="predict-use-cases-list__item">
+    <div className="predict-use-cases-list__item border-shadow">
       {iconSrc?(<div className="predict-use-cases-list__icon">
         {iconSrc}
       </div>):(<></>)}
@@ -35,10 +35,6 @@ const GridOfCards = (props) => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="text-block-center">Need a consultation?</div>
-      <div className="block__action">
-        <HashLink  to={items.contactLink? items.contactLink: "./#contact"} className="btn btn-empty">Contact us</HashLink>
       </div>
     </section>
   );

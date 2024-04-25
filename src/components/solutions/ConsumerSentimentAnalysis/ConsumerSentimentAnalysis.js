@@ -23,7 +23,7 @@ const ConsumerSentimentAnalysis = () => {
     <>
       <NewBanner data={CsmBanner} />
 
-
+      {/* <ContactButton /> */}
       <section className="consumer_grid">
         <GridOfCards
           content={IndustriesListData}
@@ -75,6 +75,7 @@ const ConsumerSentimentAnalysis = () => {
       <CustomerSuccess items={CarouselData} heading="AI Sentiment Analysis" CardHeight="300px" />
 
       <FAQs FAQs={FAQsData} />
+      
       <ContactForm />
     </>
   );

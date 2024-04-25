@@ -20,6 +20,7 @@ export default function App(props) {
   }, []);
 
   return (
+    <>
     <section className="faq-block margin-adjust">
       <div className="faq-block-inner">
         <h2 className="head-block-center">Frequently Asked Questions</h2>
@@ -27,11 +28,11 @@ export default function App(props) {
           <MDBAccordion>
             {props.FAQs.map((faq, index) => (
               <MDBAccordionItem
-                key={index}
-                className="FAQ__item custom-accordion-item"
-                collapseId={index + 1}
-                headerTitle={faq.question}
-                // style={{ fontSize: '20px' }}
+              key={index}
+              className="FAQ__item custom-accordion-item"
+              collapseId={index + 1}
+              headerTitle={faq.question}
+              // style={{ fontSize: '20px' }}
               >
                 {faq.answer}
               </MDBAccordionItem>
@@ -40,5 +41,6 @@ export default function App(props) {
         </MDBContainer>
       </div>
     </section>
+            </>
   );
 }

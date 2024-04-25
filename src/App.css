@@ -41,3 +41,16 @@
   margin-top: 0px !important;
   margin-bottom: 75px !important;
 }
+
+.border-shadow{
+  border: 1px solid #ecedf2 !important;
+  box-shadow: none !important;
+}
+
+.border-shadow:hover{
+  box-shadow: 0 .4rem 2.4rem 0 rgba(0, 0, 0, .15) !important;
+}
+
+ol,ul{
+  padding-left: 18px !important;
+}

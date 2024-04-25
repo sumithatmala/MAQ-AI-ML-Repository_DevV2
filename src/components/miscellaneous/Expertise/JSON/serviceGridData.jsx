@@ -13,13 +13,13 @@ const serviceGridData = [
         link:"/Industries/MarTech",
     },
     {
-        title: "PoC of Al-based Solution",
+        title: "PoC of Al-Based Solution",
         desc: "POC is an essential step before adopting any AI solution. If you have a project idea, our data science consultants will verify  that your concept has potential.",
         img: <img src={pocicon} alt="" width={40}/>,
         link:"",
     },
     {
-        title: "MVP of Al-based Product",
+        title: "MVP of Al-Based Product",
         desc: "Need a breakthrough AI product? We're ready to start with a version of just enough features to satisfy early customers and provide feedback for product development.",
         img: <img src={mvp_icon} alt="" width={40}/>,
         link:"",
@@ -37,7 +37,7 @@ const serviceGridData = [
         link:"",
     },
     {
-        title: "Al-driven Mobile App Development",
+        title: "Al-Driven Mobile App Development",
         desc: "Our experts are here to help you build your innovative mobile app from scratch and power it with AI capabilities that your users will love.",
         img: <img src={Application_icon} alt="" width={40}/>,
         link:"",

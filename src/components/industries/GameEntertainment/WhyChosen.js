@@ -45,10 +45,10 @@ const WhyChooseSection = () => {
             </li>
           ))}
         </ul>
-        <div className="text-block-center">Planning to use AI in game development?</div>
+        {/* <div className="text-block-center">Planning to use AI in game development?</div>
         <div className="block__action">
           <HashLink  to="./#contact" className="btn btn-empty">Contact Us</HashLink>
-        </div>
+        </div> */}
       </div>
     </section>
   );
