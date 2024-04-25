@@ -63,6 +63,9 @@
     justify-content: center;
     max-width: 35rem;
 }
+.BannerDetails ul {
+    padding-left: 20px;
+}
 .BannerDetails h2{
     margin-bottom: 15px;
     text-align: left;

@@ -70,7 +70,7 @@ const HealtcarePharma = () => {
         />
       </section>
           <div className="pharmaCarousel">
-      <CustomerSuccess items={PharmaCustData} heading="Customer Success" CardHeight="500px"/>
+      <CustomerSuccess items={PharmaCustData} heading="AI in Health and Pharma" CardHeight="500px"/>
       </div>
       <ContactForm />
     </>

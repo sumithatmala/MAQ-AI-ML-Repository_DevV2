@@ -1,6 +1,6 @@
 import React from 'react'
-import Banner from "../../solutions/common/Banner";
-import BannerData from "./JSONData/BannerData";
+// import Banner from "../../solutions/common/Banner";
+// import BannerData from "./JSONData/BannerData";
 import AlternateBanner from '../../solutions/common/alternateBanner';
 import AlternateBannerData from './JSONData/AlternateBannerData';
 import './css/SportWellness.css'
@@ -35,7 +35,7 @@ const SportWellness =() =>{
 Innovative AI Solutions for Various Domains</h2>
             <Grid content={benefitCards}/>
           </div>
-          <CustomerSuccess items={CutomerSuccessData} heading="Customer Success" CardHeight="490px"/>
+          <CustomerSuccess items={CutomerSuccessData} heading="AI in Fitness and Tracking" CardHeight="490px"/>
           <ContactForm />
         </>
       )

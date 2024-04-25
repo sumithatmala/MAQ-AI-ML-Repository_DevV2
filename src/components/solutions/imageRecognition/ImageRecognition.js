@@ -88,7 +88,7 @@ const ImageRecognition = () => {
                 <Grid content={benefitCards} />
                 <Technologies tech={technologies} />
             </div>
-            <CustomerSuccess items={customerSuccessData} heading="Customer Success" CardHeight="315px" />
+            <CustomerSuccess items={customerSuccessData} heading="Image Recognition and Solutions" CardHeight="315px" />
             <ContactForm contactMsg={"Are you looking to improve your current image recognition software or require a tailor-made solution developed from the ground up? The team at MAQ Software is ready to deliver exceptional computer vision services and customized solutions to meet your needs."} />
         </>
     )

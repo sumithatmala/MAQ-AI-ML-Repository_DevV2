@@ -26,19 +26,19 @@ const ConsumerSentimentAnalysis = () => {
 
       <section className="consumer_grid">
         <GridOfCards
-        content={IndustriesListData}
-        items={{
-          item: IndustriesListData,
-          NoCards: 3,
-          title: "Elevate Your Business Strategy with User Sentiment",
-          caption:
-            "Sentiment analytics, utilizing cutting-edge NLP-based technology, discerns the emotional tone within consumer sentiment data.",
-        }}
+          content={IndustriesListData}
+          items={{
+            item: IndustriesListData,
+            NoCards: 3,
+            title: "Elevate Your Business Strategy with User Sentiment",
+            caption:
+              "Sentiment analytics, utilizing cutting-edge NLP-based technology, discerns the emotional tone within consumer sentiment data.",
+          }}
         />
       </section>
 
       <div className="container_pharma">
-      <Alternate banners={OurServices} ContactBtn={false} />
+        <Alternate banners={OurServices} ContactBtn={false} />
       </div>
 
       <section className="adopt">
@@ -50,8 +50,8 @@ const ConsumerSentimentAnalysis = () => {
       </section>
 
       <section>
-        <h2 className="head-block-center" style={{marginTop:"50px"}}>
-Live Insights through Sentiment Analytics</h2>
+        <h2 className="head-block-center" style={{ marginTop: "50px" }}>
+          Live Insights through Sentiment Analytics</h2>
         <Grid content={SentimentAnalyticsSection} />
       </section>
 
@@ -72,7 +72,7 @@ Live Insights through Sentiment Analytics</h2>
         <SentimentAnalysisCompany />
       </section>
 
-      <CustomerSuccess items={CarouselData}  heading="Customer Success" CardHeight="300px"/>
+      <CustomerSuccess items={CarouselData} heading="AI Sentiment Analysis" CardHeight="300px" />
 
       <FAQs FAQs={FAQsData} />
       <ContactForm />

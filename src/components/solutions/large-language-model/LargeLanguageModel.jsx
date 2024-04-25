@@ -83,7 +83,7 @@ const LargeLanguageModel = () => {
         {/* <WhyMAQSoftware /> */}
         <CustomerSuccess
           items={CutomerSuccessData}
-          heading="Customer Success"
+          heading="Large Language Models Implications"
           CardHeight="320px"
         />
         <FAQs FAQs={FAQsData} />

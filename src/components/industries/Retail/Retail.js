@@ -20,9 +20,6 @@ const Retail = () => {
 
       <section className="info-section margin-adjust"><div className="info-section-inner" style={{padding:"0px"}}><h2 className="head-block-center">Our Expertise</h2><div className="text-block-center"> Artificial intelligence in the retail industry: made easy.</div></div></section>
 
-      
-
-      {/* <AlternateBanner banners={AreaExpertise} count={0} ContactBtn={true} /> */}
       <section className='altBanner'>
       <AlternateBanner banners={AlternateData} count={2} ContactBtn={true} />
       </section>
@@ -34,8 +31,7 @@ const Retail = () => {
 
       <GridOfCards items={{ item: GridData,NoCards:4, title: "Benefits of Artificial Intelligence in Retail Industry" }} />
 
-      {/* <CustomerSuccess items={retailCustData} /> */}
-      <CustomerSuccess items={retailCustData}  heading="Customer Success" CardHeight="420px"/>
+      <CustomerSuccess items={retailCustData}  heading="AI Business Intelligence" CardHeight="420px"/>
 
       <ContactForm />
     </>

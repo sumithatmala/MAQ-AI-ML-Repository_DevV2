@@ -1,6 +1,6 @@
 import React from 'react'
-import Banner from "../../solutions/common/Banner";
-import BannerData from "./JSONData/BannerData";
+// import Banner from "../../solutions/common/Banner";
+// import BannerData from "./JSONData/BannerData";
 import OneCardCoursal from '../common/OneCardCoursal';
 import OneCardData from './JSONData/Exprtise'
 import AlternateBanner from '../../solutions/common/alternateBanner';
@@ -38,7 +38,7 @@ const AISolutionsEcommerce = () => {
           </section>
         <Grid content={benefitCards}/>
       </div>
-      <CustomerSuccess items={CutomerSuccessData} heading="Customer Success" CardHeight="400px"/>
+      <CustomerSuccess items={CutomerSuccessData} heading="Our AI Solutions" CardHeight="400px"/>
       <ContactForm />
     </>
   )

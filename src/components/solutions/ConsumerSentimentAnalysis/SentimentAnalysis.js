@@ -42,12 +42,7 @@ const SentimentAnalysis = () => {
         <div className="text-block-center">Get a leg up in the competition through innovative technologies for sentiment tracking.</div>
         <ul className="licon-text-list">
           {listItems.map((item, index) => (
-            index % 2 === 0 && (
-              <div className="row" key={index}>
-                <ListItem {...item} />
-                {index + 1 < listItems.length && <ListItem {...listItems[index + 1]} />}
-              </div>
-            )
+            ListItem(item)
           ))}
         </ul>
       </div>

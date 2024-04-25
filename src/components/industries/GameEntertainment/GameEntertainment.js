@@ -39,7 +39,7 @@ const GameEntertainment = () => {
 
       <CustomerSuccess
         items={CustData}
-        heading="Customer Success"
+        heading="AI Game Solutions"
         CardHeight="470px"
       />
       <ContactForm />

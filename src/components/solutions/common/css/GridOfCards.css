@@ -100,6 +100,7 @@
     .predict-use-cases.__type-predict .predict-use-cases-list__icon {
         height: 72px;
         margin-bottom: 18px;
+        margin-top: 18px;
         img {
             border-radius: 5px;
         }
@@ -110,7 +111,6 @@
         font-weight: 500;
         line-height: 27px;
         text-align: center;
-        padding-top: inherit;
     }
     .predict-use-cases-list__list-item {
         width: 85% !important ;

@@ -9,12 +9,12 @@ const reviewData = [
     {
       iconSrc:  <img src={consult} alt="chat" height={70}/>,
       title: "Consulting Services",
-      description: "Require a recommender system to boost in-app purchases? Or looking to integrate ChatGPT into your gaming business? Consult with our AI specialists to explore how we can assist you."
+      description: "Need a boost in in-app purchases? Considering integrating ChatGPT into your gaming business? Talk to our AI specialists to explore how we can help."
     },
     {
       iconSrc: <img src={feature} alt="program" height={70}/>,
       title: "Feature Detection",
-      description: "Recognition of separate elements of each character, such as lines, strokes, angles, etc."
+      description: "Recognition of individual elements of characters, including lines, strokes, angles, and other features, is crucial for advanced text analysis and processing."
     },
     {
       iconSrc: <img src={soft} alt="Feature Analysis" height={70}/>,
