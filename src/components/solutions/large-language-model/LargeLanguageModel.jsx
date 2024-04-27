@@ -51,7 +51,7 @@ const LargeLanguageModel = () => {
         >
           <div style={{ maxWidth: "1126px" }}>
             <GridOfCards
-              content={Industries}
+              //content={Industries}
               items={{
                 item: Industries,
                 NoCards: 3,
@@ -77,7 +77,16 @@ const LargeLanguageModel = () => {
         </div>
         {/* <Expertise /> */}
         {/* <ArticleBanner /> */}
-        <Benfits2 />
+        {/* <Benfits2 /> */}
+        <GridOfCards
+          content={Benfits2}
+          items={{
+            item: Benfits2,
+            NoCards: 4,
+            title: "Unlock the Potential Benefits of Large Language Learning Models",
+            caption:
+              "Discover how LLMs can revolutionize your business operations and drive meaningful outcomes.",
+          }} />
         <Integration />
         <OurTechStack />
         <BroadExpertise />

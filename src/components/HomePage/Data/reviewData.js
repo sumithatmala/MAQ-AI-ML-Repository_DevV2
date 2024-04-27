@@ -9,7 +9,7 @@ const reviewData = [
     {
       iconSrc:  <img src={consult} alt="chat" height={70}/>,
       title: "Consulting Services",
-      description: "Need a boost in in-app purchases? Considering integrating ChatGPT into your gaming business? Talk to our AI specialists to explore how we can help."
+      description: "For boosting in-app purchases or integrating ChatGPT into your gaming business, consult with our AI specialists for expert assistance."
     },
     {
       iconSrc: <img src={feature} alt="program" height={70}/>,

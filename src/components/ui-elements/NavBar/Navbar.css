@@ -29,6 +29,9 @@ header {
   z-index: 9999999999;
   position: fixed;
   width: 100%;
+  img{
+    margin: 0 16px;
+  }
   /* margin-top: -3.3vh !important; */
   /* z-index: 999; */
 
@@ -57,7 +60,7 @@ header {
 
 /* menu on desktop */
 .desktop-nav {
-  /* margin: 10px 0 0 30rem; */
+  margin: 10px 0 0 450px; 
   margin-top: 20px;
 }
 

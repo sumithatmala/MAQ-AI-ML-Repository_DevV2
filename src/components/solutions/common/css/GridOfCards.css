@@ -133,8 +133,7 @@
     }
 
     .predict-use-cases.__type-predict .predict-use-cases__outer {
-        padding-right: 104px;
-        padding-left: 104px;
+        padding: 0 75px;
     }
 
     .predict-use-cases {

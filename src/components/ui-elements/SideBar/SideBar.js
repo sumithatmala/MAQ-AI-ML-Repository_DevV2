@@ -45,29 +45,32 @@ export default function SideBar() {
         id="app"
         className="fixed-top"
         style={{
-          height: "100vh",
+          // top: "10%",
+          // height: "40vh",
           opacity: 1,
           width: "0vh",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
+          backgroundColor: "blue"
         }}
       >
         <Sidebar
           defaultCollapsed
           style={{
-            height: "50vh",
+            // height: "50vh",
             // backgroundColor: "rgba(32,89,118,0.3)",
           }}
           breakPoint="sm"
-          transitionDuration={600}
+          transitionDuration={450}
           onMouseEnter={handleOnMouseEnter}
           onMouseLeave={handleOnMouseLeave}
         >
           <Menu
             style={{
               background: "transparent",
-              height: "50vh",
+              // top: "50%",
+              height: "45vh",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
