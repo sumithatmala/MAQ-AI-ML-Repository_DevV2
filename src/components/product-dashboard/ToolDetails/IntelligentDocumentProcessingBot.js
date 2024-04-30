@@ -21,7 +21,7 @@ import PersonalizedPatientEXp from '../images/IntelligentDocProcessing/Personali
 import AnalyticsandDecisionMaking from '../images/IntelligentDocProcessing/AnalyticsandDecisionMaking.svg'
 import CostReduction from '../images/IntelligentDocProcessing/CostReduction.svg'
 import EfficiencyandTimeSaving from '../images/IntelligentDocProcessing/EfficiencyandTimeSaving.svg'
-
+import bannerImg from '../images/IntelligentDocProcessing/Intelligent Document Process Bot.svg'
 // const iconSize = {
 //   height: "5rem",
 //   width: "5rem",
@@ -39,8 +39,9 @@ const iconSizeBO = {
   // boxShadow: "0px 8px 16px 0px red"
 }
 export const IntelligentDocumentProcessingBot = {
-  title: "Intelligent Document Processing Bot",
-  description: "An OCR system is needed to automate the conversion of patient information from PDFs and images, reducing manual effort and errors. The system extracts data from various documents, adds it to a structured knowledge base, and employs a question-based approach for accurate retrieval. An interactive virtual agent enhances user experience with an intuitive interface.",
+  title: "Intelligent Document Process Bot",
+  content: "An OCR system automates converting patient information from PDFs and images, reducing manual effort and errors. It extracts data from documents, adds it to a knowledge base, and uses a question-based approach for accurate retrieval. An interactive virtual agent improves user experience with an intuitive interface.",
+  img:bannerImg,
   BusinessCase: [
     "A highly efficient and accurate OCR system is required to automate the conversion of patient information from PDFs and images, reducing manual effort, saving time, and minimizing errors while generating structured and insightful data.",
   ],

@@ -12,7 +12,7 @@ import AcclDecisionMake from '../images/AcclDecisionMake.svg'
 import IncreasedCustSatasf from '../images/IncreasedCustSatasf.svg'
 import ProactiveIssueResolution from '../images/ProactiveIssueResolution.svg'
 import CompetitiveAdv from '../images/CompetitiveAdv.svg'
-
+import bannerImg from '../images/Feedback Summerizer Bot/Feedback Summerized Bot.svg'
 
 // const iconSize = {
 //   height: "5rem",
@@ -32,7 +32,8 @@ import CompetitiveAdv from '../images/CompetitiveAdv.svg'
 
 export const FeedbackSummarizerBot = {
     title: "Feedback Summarizer Bot",
-    description: "The Feedback Summarizer Bot utilizes AI and NLP to swiftly analyze and summarize customer feedback, streamlining organizational responses and improving product development.",
+    content: "The Session Information Bot optimizes information retrieval from past sessions, offering quick access, contextual search, and interactive user experiences. It enhances knowledge management, streamlining support processes and fostering improved collaboration within organizations.",
+    img:bannerImg,
     BusinessCase: [
       "As businesses increasingly depend on customer feedback for product development and enhancing customer experience, efficiently analyzing vast amounts of feedback data poses a significant challenge. Traditional analysis methods are often subjective and time-consuming, resulting in missed opportunities and delays in implementing crucial changes. Recognizing this, there is a pressing need for an intelligent feedback mechanism that efficiently accelerates organizational responses to the received feedback, facilitating more timely and informed decision-making processes."
     ],

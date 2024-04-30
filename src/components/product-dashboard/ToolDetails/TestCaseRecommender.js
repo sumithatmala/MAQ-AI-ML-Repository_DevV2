@@ -21,7 +21,7 @@ import EnhancedQuality from '../images/Test Case Recommender/icons8-quality-100 
 import FasterTimetoMarket from '../images/Test Case Recommender/icons8-market-100 1.svg'
 import EnhancedCollaborationandVisibility from '../images/Test Case Recommender/icons8-user-groups-100 2.svg'
 import CostSavings from '../images/Test Case Recommender/icons8-money-box-100 2.svg'
-
+import bannerImg from '../images/Test Case Recommender/Test Care Recommender.svg'
 
 
 const iconSize = {
@@ -41,8 +41,9 @@ const iconSizeBO = {
 }
 export const TestCaseRecommender = {
   title: "Test Case Recommender",
-  description:
+  content:
     "Revolutionize your software development process with our Test Case Recommender, eliminating the time-consuming and error-prone manual test case creation while ensuring comprehensive coverage of all relevant scenarios.",
+  img: bannerImg,
   BusinessCase: [
     "Creating effective and comprehensive test cases is critical in software development to ensure the quality of the final product. Manual test case creation is both time-consuming and error-prone, especially for complex projects. Additionally, manually identifying all relevant test scenarios is challenging and prone to human errors and inconsistencies.",
   ],
@@ -51,25 +52,25 @@ export const TestCaseRecommender = {
       title: "Quality Assurance Engineer",
       description:
         "Involved in testing activities, responsible for creating and executing test cases, and ensuring the quality of the software.",
-      iconSrc: <img src={QualityAssuranceEngineer} width="70px" alt=''  />
+      iconSrc: <img src={QualityAssuranceEngineer} width="70px" alt='' />
     },
     {
       title: "Project Managers",
       description:
         "Responsible for overseeing the software development process, ensuring quality, and managing resources efficiently",
-      iconSrc: <img src={ProjectManagers} width="70px" alt=''  />
+      iconSrc: <img src={ProjectManagers} width="70px" alt='' />
     },
     {
       title: "DevOps Teams/Leads",
       description:
         "Collaborating with development and operations teams ensuring efficiency, reliability, and scalability",
-      iconSrc: <img src={DevOpsTeamsLeads} width="70px" alt=''  />
+      iconSrc: <img src={DevOpsTeamsLeads} width="70px" alt='' />
     },
     {
       title: "Business Analysts",
       description:
         "Collaborates with development teams to gather requirements, user stories, and functional specifications",
-      iconSrc: <img src={BusinessAnalysts} width="70px" alt=''  />
+      iconSrc: <img src={BusinessAnalysts} width="70px" alt='' />
     },
   ],
   businessOutcomes: [
@@ -107,7 +108,7 @@ export const TestCaseRecommender = {
       title: "Cost Savings",
       description:
         ["Automation reduces the need for manual labor, resulting in cost savings associated with test case creation and maintenance."],
-      image:<img src={CostSavings} width="100px" style={iconSizeBO} />
+      image: <img src={CostSavings} width="100px" style={iconSizeBO} />
     },
   ],
   solutionHighlights: [
@@ -132,21 +133,21 @@ export const TestCaseRecommender = {
       details: [
         <div><b>Automated Test Case Generation:</b> The tool automates the generation of test cases using Azure Open AI, reducing the time and effort required for manual creation.</div>,
         <div><b>Standardization and Consistency:</b> Ensures consistent test case formats, promoting uniformity and adherence to predefined quality standards.</div>,
-        <div><b>Enhanced Quality:</b> Reduces the risk of human errors in test case creation, contributing to improved overall software quality and reliability.</div>, 
-        <div><b>Enhanced Collaboration and Visibility:</b> Integration with Azure DevOps facilitates better collaboration, centralized test case management, and real-time visibility into testing progress.</div>, 
+        <div><b>Enhanced Quality:</b> Reduces the risk of human errors in test case creation, contributing to improved overall software quality and reliability.</div>,
+        <div><b>Enhanced Collaboration and Visibility:</b> Integration with Azure DevOps facilitates better collaboration, centralized test case management, and real-time visibility into testing progress.</div>,
       ],
     },
     {
       title: "Outcomes",
       details: [
-        <div><b>Improved Test Coverage:</b> Automated test case generation ensures comprehensive coverage of various scenarios, minimizing the risk of undiscovered issues.</div>, 
-        <div><b>Faster Time-to-Market:</b> Streamlined processes accelerate software development cycles, leading to faster product releases.</div>, 
-        <div><b>Enhanced Collaboration and Visibility:</b> Integration with Azure DevOps facilitates better collaboration and provides real-time visibility into testing progress.</div>, 
-        <div><b>Cost Savings: </b> Automation reduces manual labor costs associated with test case creation and maintenance.</div>,       ],
+        <div><b>Improved Test Coverage:</b> Automated test case generation ensures comprehensive coverage of various scenarios, minimizing the risk of undiscovered issues.</div>,
+        <div><b>Faster Time-to-Market:</b> Streamlined processes accelerate software development cycles, leading to faster product releases.</div>,
+        <div><b>Enhanced Collaboration and Visibility:</b> Integration with Azure DevOps facilitates better collaboration and provides real-time visibility into testing progress.</div>,
+        <div><b>Cost Savings: </b> Automation reduces manual labor costs associated with test case creation and maintenance.</div>,],
     },
   ],
   demo: {
-    link: {demoVideo},
+    link: { demoVideo },
   },
   tryit: {
     link: "",
@@ -173,7 +174,7 @@ export const TestCaseRecommender = {
       question: "How accurate are the client profiles generated by the solution?",
       answer: "The client profiles generated by the solution are highly accurate due to the precise and relevant information gathered through OpenAI-driven questioning. This ensures that the solutions provided are well-aligned with the clients' needs and preferences."
     }
-]
+  ]
 };
 
 export default TestCaseRecommender;

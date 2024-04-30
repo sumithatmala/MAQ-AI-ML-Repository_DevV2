@@ -25,7 +25,7 @@ import SupportRep from '../images/SmartSupportFrameWorks/SupportRep.svg'
 import SystemAdmin from '../images/SmartSupportFrameWorks/SystemAdmin.svg'
 import TicketReg from '../images/SmartSupportFrameWorks/TicketReg.svg'
 
-
+import bannerImg from '../images/SmartSupportFrameWorks/Smart Support Framework.svg'
 
 const iconSize = {
     height: "5rem",
@@ -44,7 +44,8 @@ const iconSizeBO = {
 }
 export const SmartSupportFramework = {
     title: "Smart Support Framework",
-    description: "Organizations face challenges in managing support tickets efficiently, necessitating an automated solution for assigning tickets, offering prompt severity feedback, and enabling seamless collaboration among teams for effective resolution.",
+    content: "Organizations face challenges in managing support tickets efficiently, necessitating an automated solution for assigning tickets, offering prompt severity feedback, and enabling seamless collaboration among teams for effective resolution.",
+    img:bannerImg,
     BusinessCase: [
         "Organizations often face difficulties in managing support ticket requests, experiencing delays, uncertainty in ticket severity, and inefficient team collaboration. Addressing this, there's a rising demand for a solution to automate ticket assignments, offer timely severity feedback, and foster seamless communication among teams, aiming for more effective issue resolution.",
     ],

@@ -5,7 +5,7 @@ import ProductBackground from './images/product-banner-2.jpg'
 import './css/button.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 
@@ -32,29 +32,29 @@ const ProductHeader = (props) => {
                             <p className="mt-3" data-aos="zoom-in" data-aos-delay="1000" style={{ fontFamily: "segoe UI", color: "#fff" }}>
                                 {data.description}
                             </p>
-                            <div id="container" className="row" style={{marginTop: "2rem", justifyContent:"left"}}>
-                        <HashLink
-                            to={"./#prodinfo"}
-                            style={{
-                                textAlign: "center",
-                                display: "inline-block",
-                                width: "fit-content",
-                            }}>
-                            <button className="learn-more">
-                                <span className="circle" aria-hidden="true">
-                                    <span className="icon arrow"></span>
-                                </span>
-                                <span className="button-text" style={{ paddingLeft: "12px" }}>Learn More</span>
-                            </button>
-                        </HashLink>
-                    </div>
+                            <div id="container" className="row" style={{ marginTop: "2rem", justifyContent: "left" }}>
+                                <HashLink
+                                    to={"./#prodinfo"}
+                                    style={{
+                                        textAlign: "center",
+                                        display: "inline-block",
+                                        width: "fit-content",
+                                    }}>
+                                    <button className="learn-more">
+                                        <span className="circle" aria-hidden="true">
+                                            <span className="icon arrow"></span>
+                                        </span>
+                                        <span className="button-text" style={{ paddingLeft: "12px" }}>Learn More</span>
+                                    </button>
+                                </HashLink>
+                            </div>
                         </div>
                     </div>
                     {/* Reach out button */}
                     {/* <div className="reach-out mt-4 fade-up3 ml-3 justify-content-end">
                     Reach out to learn more
                 </div> */}
-                    
+
                 </div>
             </section>
         </>

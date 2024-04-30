@@ -25,7 +25,7 @@ import ImprovedAccuracy from '../images/Sales Assistant/icons8-accuracy-100 1.sv
 import EnhancedEfficiencyandProductivity from '../images/Sales Assistant/icons8-punctuality-100 1.svg'
 import IncreasedSalesConversion from '../images/Sales Assistant/icons8-summer-sales-100 (1) 1.svg'
 import CompetitiveAdvantage from '../images/Sales Assistant/icons8-american-football-player-100 1.svg'
-
+import bannerImg from '../images/Sales Assistant/Sales assistant.svg'
 
 
 const iconSize = {
@@ -40,8 +40,9 @@ const iconSizeBO = {
 }
 export const SalesAssistant = {
   title: "Sales Assistant",
-  description:
+  content:
     "Accelerate sales productivity and efficiency with AI-driven client profiling, enabling personalized solutions in record time.",
+  img: bannerImg,
   BusinessCase: [
     "The sales teams are currently burdened with the manual and resource-intensive task of client profiling through calls to map client profiles to business value metrics. To streamline this process, OpenAI is leveraged to ask targeted questions, swiftly gathering information on clients' priorities, challenges, goals, and risks. This data is then matched with business value maps, enabling the rapid delivery of personalized solutions. This approach significantly reduces the time and resources required for client profiling, enhancing efficiency in providing tailored solutions to clients.",
   ],
@@ -50,25 +51,25 @@ export const SalesAssistant = {
       title: "Pre-Sales Representative",
       description:
         "Team members responsible for conducting client calls, gathering information, and analyzing client profiles",
-      iconSrc: <img src={PreSalesRepresentative} width="70px" alt=''  />
+      iconSrc: <img src={PreSalesRepresentative} width="70px" alt='' />
     },
     {
       title: "Data Analysts",
       description:
         "Professionals who analyze client data, develop business value maps, and provide insights to sales teams",
-      iconSrc: <img src={DataAnalysts} width="70px" alt=''  />
+      iconSrc: <img src={DataAnalysts} width="70px" alt='' />
     },
     {
       title: "CXO",
       description:
         "Sets the overall strategic direction of the businesses. oversees the executive team, and ensures the achievement of business goals",
-      iconSrc: <img src={CXO} width="70px" alt=''  />
+      iconSrc: <img src={CXO} width="70px" alt='' />
     },
     {
       title: "Strategy Manager",
       description:
         "Develop strategies to capitalize on market opportunities and stay ahead of the competition.",
-      iconSrc: <img src={StrategyManager} width="70px" alt=''  />
+      iconSrc: <img src={StrategyManager} width="70px" alt='' />
     },
   ],
   businessOutcomes: [
@@ -129,18 +130,18 @@ export const SalesAssistant = {
       details: [
         <div><b>Automated Client Profiling:</b> Leveraging OpenAI for specific questioning automates and streamlines the client profiling process.</div>,
         <div><b>Data-Driven Insights:</b> OpenAI's data generation provides insights into client priorities, challenges, goals, and risks.</div>,
-        <div><b>Quick Personalized Solutions:</b> By matching client data with business value maps, the solution enables faster delivery of personalized solutions.</div>, 
-        <div><b>Enhanced Accuracy:</b> Precise information about clients leads to more accurate client profiles, ensuring better-aligned solutions.</div>, 
+        <div><b>Quick Personalized Solutions:</b> By matching client data with business value maps, the solution enables faster delivery of personalized solutions.</div>,
+        <div><b>Enhanced Accuracy:</b> Precise information about clients leads to more accurate client profiles, ensuring better-aligned solutions.</div>,
       ],
     },
     {
       title: "Outcomes",
       details: [
-        <div><b>Streamlined Client Profiling:</b> The solution reduces time and resource requirements for client profiling.</div>, 
-        <div><b>Faster Personalized Solutions:</b> Quick provision of tailored solutions improves response times and customer satisfaction.</div>, 
-        <div><b>Improved Accuracy:</b> Gathering precise and relevant information enhances the accuracy of client profiles and solutions.</div>, 
-        <div><b>Enhanced Efficiency and Productivity:</b> Reduction in manual effort allows the sales team to focus on more strategic activities, boosting overall efficiency.</div>, 
-        <div><b>Increased Sales Conversion:</b> Tailored solutions quickly and accurately delivered increase the likelihood of sales conversion, leading to higher revenue.</div>, 
+        <div><b>Streamlined Client Profiling:</b> The solution reduces time and resource requirements for client profiling.</div>,
+        <div><b>Faster Personalized Solutions:</b> Quick provision of tailored solutions improves response times and customer satisfaction.</div>,
+        <div><b>Improved Accuracy:</b> Gathering precise and relevant information enhances the accuracy of client profiles and solutions.</div>,
+        <div><b>Enhanced Efficiency and Productivity:</b> Reduction in manual effort allows the sales team to focus on more strategic activities, boosting overall efficiency.</div>,
+        <div><b>Increased Sales Conversion:</b> Tailored solutions quickly and accurately delivered increase the likelihood of sales conversion, leading to higher revenue.</div>,
       ],
     },
   ],
@@ -172,7 +173,7 @@ export const SalesAssistant = {
       question: "How accurate are the client profiles generated by the solution?",
       answer: "The client profiles generated by the solution are highly accurate due to the precise and relevant information gathered through OpenAI-driven questioning. This ensures that the solutions provided are well-aligned with the clients' needs and preferences."
     }
-]
+  ]
 };
 
 export default SalesAssistant;

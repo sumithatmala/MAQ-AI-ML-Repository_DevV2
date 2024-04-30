@@ -1,13 +1,13 @@
-import { MdGroups } from "react-icons/md";
-import PsychologyIcon from "@mui/icons-material/Psychology";
-import CastForEducationIcon from "@mui/icons-material/CastForEducation";
-import { GrUserAdmin } from "react-icons/gr";
-import IntegrationInstructionsIcon from "@mui/icons-material/IntegrationInstructions";
-import QueryStatsIcon from "@mui/icons-material/QueryStats";
-import { MdManageHistory } from "react-icons/md";
-import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
-import ConstructionIcon from "@mui/icons-material/Construction";
-import SchoolIcon from "@mui/icons-material/School";
+// import { MdGroups } from "react-icons/md";
+// import PsychologyIcon from "@mui/icons-material/Psychology";
+// import CastForEducationIcon from "@mui/icons-material/CastForEducation";
+// import { GrUserAdmin } from "react-icons/gr";
+// import IntegrationInstructionsIcon from "@mui/icons-material/IntegrationInstructions";
+// import QueryStatsIcon from "@mui/icons-material/QueryStats";
+// import { MdManageHistory } from "react-icons/md";
+// import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
+// import ConstructionIcon from "@mui/icons-material/Construction";
+// import SchoolIcon from "@mui/icons-material/School";
 
 import TrainingTeam from '../images/TrainingTeam.svg'
 import Admin from '../images/Administrators.svg';
@@ -32,7 +32,7 @@ import ImporvedKnw from '../images/ImprovedKnowledge.svg'
 // import AnimatedHighlights from "../icons/AnimatedHighlights";
 
 import demoVideo from "./demos/SessionInformationBot.mp4";
-
+import bannerImg from "../images/Session Information Bot.svg"
 const iconSize = {
   height: "5rem",
   width: "5rem",
@@ -51,8 +51,9 @@ const iconSizeBO = {
 
 export const SessionInformationBot = {
   title: "Session Information Bot",
-  description:
+  content:
     "The Session Information Bot optimizes information retrieval from past sessions, offering quick access, contextual search, and interactive user experiences. It enhances knowledge management, streamlining support processes and fostering improved collaboration within organizations.",
+  img: bannerImg,
   BusinessCase: [
     "Organizations often grapple with the challenge of retrieving pertinent information from past sessions and meetings, as the accessibility of session metadata and summaries remains limited for users. This results in time-consuming searches and difficulties in locating specific content. To overcome this hurdle, there is a pressing need for a comprehensive solution that provides users with effortless access to relevant content and recordings from previous sessions, consolidating all essential information in one accessible platform.",
   ],
@@ -61,25 +62,25 @@ export const SessionInformationBot = {
       title: "Attendees",
       description:
         "Primary users who attend various sessions, events might need to reference the session content later for better understanding",
-      iconSrc: <img src={Attedes} width="70px"  />,
+      iconSrc: <img src={Attedes} width="70px" alt=""/>,
     },
     {
       title: "Analysts",
       description:
         "Need to gather insights, track progress and look for improvements",
-      iconSrc: <img src={Analyst}  width="70px" />,
+      iconSrc: <img src={Analyst}  width="70px" alt=""/>,
     },
     {
       title: "Training Teams",
       description:
         "Responsible for organizing and managing the sessions. Facilitates efficient knowledge management and sharing",
-      iconSrc: <img src={TrainingTeam} width="70px"  />,
+      iconSrc: <img src={TrainingTeam} width="70px" alt=''/>,
     },
     {
       title: "Administrators",
       description:
         "Maintain the record of sessions, transcripts available for usage of various teams",
-      iconSrc: <img src={Admin} width="70px" />,
+      iconSrc: <img src={Admin} width="70px" alt=''/>,
     },
   ],
   businessOutcomes: [
@@ -87,37 +88,37 @@ export const SessionInformationBot = {
       title: "Accelerated onboarding and training for new hires",
       description:
         ["Enable new employees to quickly familiarize themselves with various trainings, expediting their integration into the organization."],
-      image: <img src={Accel} width="100px" style={iconSizeBO} />
+      image: <img src={Accel} width="100px" style={iconSizeBO} alt=''/>
     },
     {
       title: "Enhanced data analysis and research capabilities",
       description:
         ["Researchers and analysts can leverage the solution to extract insights from session content and recordings, supporting data analysis, research projects."],
-      image: <img src={EnhancedData}  style={iconSizeBO} />
+      image: <img src={EnhancedData}  style={iconSizeBO} alt=''/>
     },
     {
       title: "Efficient project management for successful outcomes",
       description:
         ["End to End tracking and maintenance of the content and improve usage."],
-      image: <img src={EfficientProject}  style={iconSizeBO} />
+      image: <img src={EfficientProject}  style={iconSizeBO} alt=''/>
     },
     {
       title: "Enhanced engagement of Employees Regarding learning",
       description:
         ["Foster an environment that encourages employee engagement in learning activities, promoting a culture of continuous learning."],
-      image: <img src={Engagement} style={iconSizeBO}  />
+      image: <img src={Engagement} style={iconSizeBO}  alt=''/>
     },
     {
       title: "Improved learning and development initiatives",
       description:
         ["Enhanced training experience and continuous learning to support employee skill development and professional growth."],
-      image: <img src={ImporvedL}  style={iconSizeBO} />
+      image: <img src={ImporvedL}  style={iconSizeBO} alt=''/>
     },
     {
       title: "Improved knowledge sharing and collaboration",
       description:
         ["Promote seamless knowledge sharing and collaboration among employees, fostering a culture of information exchange and collective expertise."],
-      image: <img src={ImporvedKnw}  style={iconSizeBO} />
+      image: <img src={ImporvedKnw}  style={iconSizeBO} alt=''/>
     },
   ],
   solutionHighlights: [

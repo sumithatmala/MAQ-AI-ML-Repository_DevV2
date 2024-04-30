@@ -26,7 +26,7 @@ import TeamPerformance from '../images/Support Ticket Assistant/icons8-onboardin
 import CustSatisfaction from '../images/Support Ticket Assistant/icons8-happy-100 1.svg'
 import WorkloadCosts from '../images/Support Ticket Assistant/icons8-low-price-pound-100 (1) 1.svg'
 import Scalability from '../images/Support Ticket Assistant/icons8-weight-care-100 1.svg'
-
+import bannerImg from '../images/Support Ticket Assistant/Support Ticket Assistant.svg'
 
 const iconSize = {
   height: "5rem",
@@ -45,8 +45,9 @@ const iconSizeBO = {
 }
 export const SupportTicketAssistant = {
   title: "Support Ticket Assistant",
-  description:
+  content:
     "Transform support operations with our automated system, ensuring faster responses and happier customers.",
+  img: bannerImg,
   BusinessCase: [
     "The support teams currently face challenges in responding to high volumes of requests daily, as the existing manual systems are slow, inefficient, and error-prone, resulting in customer dissatisfaction. To address this, the implementation of an automated system becomes crucial. Such a system aims to streamline the processing of repetitive and predictable requests, significantly reducing response times and enhancing accuracy. The introduction of automation not only boosts overall efficiency but also contributes to improved customer satisfaction by ensuring a more prompt and error-free support process.",
   ],
@@ -55,25 +56,25 @@ export const SupportTicketAssistant = {
       title: "Ticket Requester",
       description:
         "Users who submit support tickets and seek timely and accurate assistance",
-      iconSrc: <img src={TicketReq} width="70px" alt=''  />
+      iconSrc: <img src={TicketReq} width="70px" alt='' />
     },
     {
       title: "Support Representative",
       description:
         "Support Engineers who are responsible for managing and resolving support tickets",
-      iconSrc: <img src={SupportRep} width="70px" alt=''  />
+      iconSrc: <img src={SupportRep} width="70px" alt='' />
     },
     {
       title: "Support Manager",
       description:
         "Leads or supervisors overseeing support teams, ensuring efficient ticket resolution and customer satisfaction",
-      iconSrc: <img src={SupportManage} width="70px" alt=''  />
+      iconSrc: <img src={SupportManage} width="70px" alt='' />
     },
     {
       title: "Business Owners",
       description:
         "Rely on the support team to provide timely assistance to their customers, address any issues, and maintain positive customer relationships",
-      iconSrc: <img src={BusinessOwners} width="70px" alt=''  />
+      iconSrc: <img src={BusinessOwners} width="70px" alt='' />
     },
   ],
   businessOutcomes: [
@@ -93,7 +94,7 @@ export const SupportTicketAssistant = {
       title: "Improved Team Performance",
       description:
         ["Automation provides visibility into support team performance metrics, enabling managers to identify areas for improvement, provide targeted training, and enhance overall team performance."],
-      image:<img src={TeamPerformance} width="100px" style={iconSizeBO} />
+      image: <img src={TeamPerformance} width="100px" style={iconSizeBO} />
     },
     {
       title: "Increased Customer Satisfaction",
@@ -105,13 +106,13 @@ export const SupportTicketAssistant = {
       title: "Reduced Workload and Costs",
       description:
         ["Automation eliminates repetitive and manual tasks, reducing the workload on support teams and minimizing operational costs associated with support request handling."],
-      image:<img src={WorkloadCosts} width="100px" style={iconSizeBO} />
+      image: <img src={WorkloadCosts} width="100px" style={iconSizeBO} />
     },
     {
       title: "Scalability",
       description:
         ["The automated system can handle high volumes of support requests without compromising response times or accuracy, allowing businesses to scale their support operations as needed."],
-      image:<img src={Scalability} width="100px" style={iconSizeBO} />
+      image: <img src={Scalability} width="100px" style={iconSizeBO} />
     },
   ],
   solutionHighlights: [

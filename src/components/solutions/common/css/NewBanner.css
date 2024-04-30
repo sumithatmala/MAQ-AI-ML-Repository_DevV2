@@ -1,11 +1,7 @@
 .bannerbody{
     background-color: #e2e2e2;
     min-height: 610px;
-    /* background-image: url('../img/bannerBackgroundImage.png'); */
-    /* background-repeat: no-repeat;
-    background-size: cover; 
-    overflow: visible; */
-    /* background-image: url('../../../miscellaneous/Expertise/img/Wave\ Background.svg'); */
+    /* background-image: url('../img/Wave\ Background.svg'); */
     background-image: url('../../../miscellaneous/Expertise/img/wavebackground.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,10 +32,11 @@
     width: 40%;
     display: flex;
     justify-content: center;
+    margin: 46px -51px 15px 0px;
 }
 .banner_content{
     width: 40%;
-    margin-top: 141px;
+    margin-top: 105px;
 }
 
 
