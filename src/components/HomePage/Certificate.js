@@ -6,16 +6,18 @@ import copilot from "./img/certificates/copilot.png";
 import dashboard from "./img/certificates/dashboard.png";
 import fabric from "./img/certificates/fabric.png";
 import power from "./img/certificates/power.png";
+
+import ads from "./img/certificates/Group 84.svg";
+import aae from "./img/certificates/Group 85.svg";
+import ade from "./img/certificates/Group 86.svg";
+import asa from "./img/certificates/Group 87.svg";
+
 // Define an array of image URLs
 const imageUrls = [
-  app,
-  automation,
-  copilot,
-  dashboard,
-  power,
-  fabric,
-
-  // Add more image URLs as needed
+  ads,
+  aae,
+  ade,
+  asa,
 ];
 
 const CertificateGrid = () => {
