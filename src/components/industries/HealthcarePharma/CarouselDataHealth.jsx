@@ -1,7 +1,7 @@
-import medical from "./icons/computerVision.jpeg";
-import therapy from "./icons/theraphy.jpg";
+import medical from "./icons/Rectangle 100.svg";
+import therapy from "./icons/Rectangle 101.svg";
 import auth from "./icons/authentication.jpeg";
-import cust from "./icons/costService.jpg";
+import cust from "./icons/Rectangle 99.svg";
 
 const OCDataHealth = [
   {

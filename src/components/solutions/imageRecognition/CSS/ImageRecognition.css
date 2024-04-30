@@ -41,6 +41,7 @@ h1,h2 {
     justify-content: space-around;
     flex-direction: row;
     margin: 5rem 20px 0 20px;
+    align-items: center;
 }
 .IntroBanner img {
     border-radius: 8px;

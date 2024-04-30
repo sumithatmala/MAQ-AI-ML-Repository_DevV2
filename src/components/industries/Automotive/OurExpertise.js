@@ -1,7 +1,10 @@
 import React from 'react';
-import geometry from './icons/Geometry.jpg';
-import dataAnalysis from './icons/dataAnalysis.jpg';
-import automatedDefect from './icons/AutomatedDefect.jpg';
+// import geometry from './icons/Geometry.jpg';
+// import dataAnalysis from './icons/dataAnalysis.jpg';
+// import automatedDefect from './icons/AutomatedDefect.jpg';
+import geometry from './icons/Rectangle 71.svg';
+import dataAnalysis from './icons/Rectangle 72.svg';
+import automatedDefect from './icons/Rectangle 73.svg';
 
 const OurExpertise =  [
     {

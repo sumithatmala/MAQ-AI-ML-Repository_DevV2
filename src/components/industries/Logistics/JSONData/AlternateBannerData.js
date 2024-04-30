@@ -1,7 +1,7 @@
-import Elevate from "../img/Elevate.webp";
-import Revolutionize from "../img/Revolutionize.png";
-import Streamline from "../img/Streamline.png";
-import Boost from "../img/Boost.jpg";
+import Elevate from "../img/Rectangle 99.svg";
+import Revolutionize from "../img/Rectangle 107.svg";
+import Streamline from "../img/Rectangle 108.svg";
+import Boost from "../img/Rectangle 109.svg";
 // import context from "../img/context-aware.jpg";
 // import customer from "../img/customer.jpg";
 // import dataCollection from "../img/dataCollection.jpg";

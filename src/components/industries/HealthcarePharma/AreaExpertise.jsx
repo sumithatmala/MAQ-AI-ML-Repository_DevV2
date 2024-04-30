@@ -1,6 +1,6 @@
-import delivery from './icons/HealthCare.jpeg';
-import ocr from './icons/OCR.jpg'
-import personal from './icons/PersonalCare.webp';
+import delivery from './icons/Rectangle 1010.svg';
+import ocr from './icons/Rectangle 102.svg'
+import personal from './icons/Rectangle 103.svg';
 
 const AreaExpertise = [
   {

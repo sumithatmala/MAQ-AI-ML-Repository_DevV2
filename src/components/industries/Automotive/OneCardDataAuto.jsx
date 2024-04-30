@@ -1,6 +1,6 @@
 import anamoly from './icons/anomaly-detection-crash-simulation.jpg';
 import pointernet from './icons/pointerNet.jpg';
-import selfSupervised from './icons/self-supervised-classification.jpg';
+import selfSupervised from './icons/Rectangle 74.svg';
 import rlAgent from './icons/rlAgent.jpg';
 import simulation from './icons/intelligent-finite-element.jpg';
 

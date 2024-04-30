@@ -1,12 +1,16 @@
 import React from "react";
 // import real from "./Images/RealTime.jpg";
-import intent from "./Images/Intent.gif";
+// import intent from "./Images/Intent.gif";
 // import info from "./Images/InfoExtraction.svg";
 // import nlp from "./Images/NLp.svg";
 
-import sentiment from "./Images/sentiment.jpg"
-import textMining from "./Images/textmining.jpg"
-import fullcycle from "./Images/fullcycle.jpg"
+import sentiment from "./Images/Rectangle 43.svg"
+import intent from "./Images/Rectangle 44.svg"
+import textMining from "./Images/Rectangle 46.svg"
+import fullcycle from "./Images/Rectangle 45.svg"
+// import textMining from "./Images/textmining.jpg"
+// import fullcycle from "./Images/fullcycle.jpg"
+
 const OurServices = [
   {
     heading: "Real-Time Sentiment Monitoring",
@@ -32,7 +36,7 @@ const OurServices = [
     img: <img src={intent} alt="" width={400} height={250}/>,
   },
   {
-    heading: "Text Mining and Information Extraction",
+    heading: "Text Mining and Info Extraction",
     points: [
       "Extract knowledge from unstructured content and retrieve valuable information from diverse data sources.",
       "Optimize your use of emails, scripts, documents, and conversations with less effort and quicker turnarounds.",

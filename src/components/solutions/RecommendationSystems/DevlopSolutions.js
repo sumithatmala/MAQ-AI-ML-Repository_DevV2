@@ -1,6 +1,6 @@
 import React from 'react';
-import sentiment from './Images/SentimentAna.gif';
-import purpose from './Images/purpose.gif';
+import sentiment from './Images/Rectangle 67.svg';
+import purpose from './Images/Rectangle 68.svg';
 
 const DevlopSolutions = [
     {

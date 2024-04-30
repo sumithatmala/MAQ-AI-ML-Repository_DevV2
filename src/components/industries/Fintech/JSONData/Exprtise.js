@@ -1,6 +1,9 @@
-import PA_Fraud_Prevention from "../img/PA-Fraud-Prevention.jpg"
-import Analytics_Credit_Scoring from "../img/Analytics-Credit-Scoring.jpg"
-import Data_Insights_Customer_Retention from "../img/Data-Insights-Customer-Retention.jpg"
+// import PA_Fraud_Prevention from "../img/PA-Fraud-Prevention.jpg"
+// import Analytics_Credit_Scoring from "../img/Analytics-Credit-Scoring.jpg"
+// import Data_Insights_Customer_Retention from "../img/Data-Insights-Customer-Retention.jpg"
+import PA_Fraud_Prevention from "../img/Rectangle 83.svg"
+import Analytics_Credit_Scoring from "../img/Rectangle 84.svg"
+import Data_Insights_Customer_Retention from "../img/Rectangle 85.svg"
 
 const OneCardData = [
   {
