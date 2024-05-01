@@ -45,7 +45,7 @@ const HomePage = () => {
           <Grid content={ContributionData} />
         {/* <BackgroundBanner items={backBannerData} alignType={"start"} width={"1000px"} /> */}
         <CertificateGrid/>
-        <CustomerSuccess heading={"Customer Reviews"} items={customerSuccessData} CardHeight="260px"/>
+        <CustomerSuccess heading={"Highlight Articles"} items={customerSuccessData} CardHeight="260px"/>
         {/* <ContactForm contactMsg={"Do Let Us Know Your Concern."}/> */}
     </>
   );
