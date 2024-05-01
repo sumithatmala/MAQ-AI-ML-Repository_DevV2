@@ -74,12 +74,21 @@ header {
   /* transition: all 0.3s ease-in-out; */
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   .desktop-nav .menus {
     padding-left: 180px;
   }
+  .desktop-nav {
+    margin: 10px 0 0 400px; 
+    margin-top: 20px;
+  }
 }
-
+@media screen and (max-width: 1180px) {
+  .desktop-nav {
+    margin: 10px 0 0 250px; 
+    margin-top: 20px;
+  }
+}
 .desktop-nav .menu-items {
   /* padding: 0 10px 0 10px; */
   /* position: relative; */

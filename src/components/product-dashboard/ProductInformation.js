@@ -70,7 +70,7 @@ const ProductInformation = () => {
           {/* Product Overview Section */}
           {productDetails.BusinessCase &&
             productDetails.BusinessCase.length > 0 && (
-              <Row id="prodinfo" className="product-overview margin-adjust">
+              <Row id="prodinfo" className="product-overview margin-adjust" style={{paddingTop:"3rem"}}>
                 <Col>
                   <div
                     className="text-block-center2"

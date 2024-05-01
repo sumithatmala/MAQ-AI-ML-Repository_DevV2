@@ -386,5 +386,6 @@ body {
   .product-try .product-overview,
   .product-try .product-gallery,
   .product-try .product-content {
-    background: #f4f5f6 !important;
+    /* this is the background color for Feedback Summarizer Bot Tool Showcase section */
+    /* background: #f4f5f6 !important; */
   }
