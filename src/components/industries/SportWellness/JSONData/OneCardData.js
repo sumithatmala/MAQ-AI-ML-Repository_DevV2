@@ -1,4 +1,4 @@
-import cv_personnel_authentication from "../img/cv-personnel-authentication.jpg"
+import cv_personnel_authentication from "../img/Rectangle 130.svg"
 import cv_dealing_documents from "../img/cv-dealing-documents.jpg"
 import cv_customer_experience from "../img/cv-customer-experience.jpg"
 

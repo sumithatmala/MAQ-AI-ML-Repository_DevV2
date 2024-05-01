@@ -1,6 +1,6 @@
 import "./CSS/ImageRecognition.css";
 import { HashLink } from "react-router-hash-link";
-import RecogImg from "./img/imgRec.jpg";
+import RecogImg from "./img/Rectangle 58.png";
 import phoneImg from "./img/hand-holding-mobile.jpg";
 
 //components
@@ -43,7 +43,7 @@ const ImageRecognition = () => {
                         </ul>
                     </div>
                     <div>
-                        <img src={RecogImg} alt="ImageRecognition" width={300}></img>
+                        <img src={RecogImg} alt="ImageRecognition" width={400}></img>
                     </div>
                 </section>
                 <ProjectDevRoadmap leftData={roadmapLeft} rightData={roadmapRight}/>
@@ -88,7 +88,7 @@ const ImageRecognition = () => {
                 <Grid content={benefitCards} />
                 <Technologies tech={technologies} />
             </div>
-            <CustomerSuccess items={customerSuccessData} heading="Customer Success" CardHeight="315px" />
+            <CustomerSuccess items={customerSuccessData} heading="Image Recognition and Solutions" CardHeight="315px" />
             <ContactForm contactMsg={"Are you looking to improve your current image recognition software or require a tailor-made solution developed from the ground up? The team at MAQ Software is ready to deliver exceptional computer vision services and customized solutions to meet your needs."} />
         </>
     )

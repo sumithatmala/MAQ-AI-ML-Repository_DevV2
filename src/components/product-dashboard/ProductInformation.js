@@ -20,6 +20,7 @@ import solutionhigh from './icons/SolutionHigh.svg'
 import pain from './icons/PainPoints.svg'
 import howsolution from './icons/HowSolutionHelp.svg'
 import outcomes from './icons/Outcomes.svg';
+import NewBanner from "../solutions/common/NewBanner"
 
 // import "./css/target-user2.css"
 
@@ -50,13 +51,21 @@ const ProductInformation = () => {
     <>
       <section className="product-information">
         <Container fluid>
-          <Row className="bg-voilet-linear-gradient text-white">
-            <ProductHeader
+          <Row className="bg-voilet-linear-gradient">
+            <NewBanner
+              data={{
+                title: productDetails.title,
+                content: productDetails.content,
+                image: productDetails.img,
+                learnMore:true
+              }}
+            />
+            {/* <ProductHeader
               data={{
                 title: productDetails.title,
                 description: productDetails.description,
               }}
-            />
+            /> */}
           </Row>
           {/* Product Overview Section */}
           {productDetails.BusinessCase &&
@@ -66,7 +75,7 @@ const ProductInformation = () => {
                   <div
                     className="text-block-center2"
                     data-aos="fade-right"
-                    style={{ boxShadow: "none", width:"1126px" }}
+                    style={{ boxShadow: "none", width: "1126px" }}
                   >
                     {productDetails.BusinessCase.map((item, index) => (
                       <div key={index}>{item}</div>
@@ -107,15 +116,15 @@ const ProductInformation = () => {
 
           {/*business outcomes */}
           <div className="product_carousel margin-adjust">
-          <h3 className="head-block-center" style={{marginTop:"30px"}}>Business Outcomes</h3>
-          <CustomerSuccess
-            items={productDetails.businessOutcomes}
-            CardHeight={"230px"}
-            // autoPlay={true}
-            autoPlay={false}
-            centerUp={true}
-            style={{ marginBottom: "0px", paddingBottom: "5rem" }}
-          />
+            <h3 className="head-block-center" style={{ marginTop: "30px" }}>Business Outcomes</h3>
+            <CustomerSuccess
+              items={productDetails.businessOutcomes}
+              CardHeight={"230px"}
+              // autoPlay={true}
+              autoPlay={false}
+              centerUp={true}
+              style={{ marginBottom: "0px", paddingBottom: "5rem" }}
+            />
           </div>
 
           {/* Solution Highlights​ */}
@@ -134,7 +143,7 @@ const ProductInformation = () => {
                     >
                       <div className="icons_res">
                         {/* <AnimatedHighlights /> */}
-                        <img src={solutionhigh} />
+                        <img src={solutionhigh} alt="img" />
                       </div>
                     </div>
                   </Col>
@@ -144,7 +153,7 @@ const ProductInformation = () => {
                       data-aos="fade-left"
                       style={{ display: "Block" }}
                     >
-                      <h3 style={{ color: "black", fontSize:"32px"}}>Solution Highlights</h3>
+                      <h3 style={{ color: "black", fontSize: "32px" }}>Solution Highlights</h3>
                       <ul className="bulletStyle">
                         {productDetails.solutionHighlights.map(
                           (highlights, index) => (
@@ -171,7 +180,7 @@ const ProductInformation = () => {
             {productDetails.summary && productDetails.summary.length > 0 && (
               <>
                 <Row id="prodinfo" className="product-overview ">
-                 
+
                   <div
                     className="sum"
                     style={{
@@ -196,7 +205,7 @@ const ProductInformation = () => {
                               className="product-container"
                               style={{ display: "block" }}
                             >
-                              <h3 style={{fontSize:"32px"}}>{highlights.title}</h3>
+                              <h3 style={{ fontSize: "32px" }}>{highlights.title}</h3>
                               <ul className="bulletStyle">
                                 {highlights.details.map((highlight, index) => (
                                   <li
@@ -224,7 +233,7 @@ const ProductInformation = () => {
                             >
                               <div className="icons_res">
                                 {/* <AnimatedDevelopment /> */}
-                                <img src={pain} />
+                                <img src={pain} alt="img" />
                               </div>
                             </div>
                           </Col>
@@ -243,7 +252,7 @@ const ProductInformation = () => {
                               className="product-container"
                               style={{ display: "block" }}
                             >
-                              <h3 style={{fontSize:"32px"}}>{highlights.title}</h3>
+                              <h3 style={{ fontSize: "32px" }}>{highlights.title}</h3>
                               <ul className="bulletStyle">
                                 {highlights.details.map((highlight, index) => (
                                   <li
@@ -272,7 +281,7 @@ const ProductInformation = () => {
                             >
                               <div className="icons_res">
                                 {/* <AnimatedOutcome /> */}
-                                <img src={outcomes} />
+                                <img src={outcomes} alt="img" />
                               </div>
                             </div>
                           </Col>
@@ -298,7 +307,7 @@ const ProductInformation = () => {
                             >
                               <div className="icons_res">
                                 {/* <AnimatedSolution /> */}
-                                <img src={howsolution} />
+                                <img src={howsolution} alt="img" />
                               </div>
                             </div>
                           </Col>
@@ -307,7 +316,7 @@ const ProductInformation = () => {
                               className="product-container"
                               style={{ display: "block" }}
                             >
-                              <h4 style={{fontSize:"32px"}}>{highlights.title}</h4>
+                              <h4 style={{ fontSize: "32px" }}>{highlights.title}</h4>
                               <ul className="bulletStyle">
                                 {highlights.details.map((highlight, index) => (
                                   <li
@@ -344,8 +353,8 @@ const ProductInformation = () => {
       {productDetails.FAQs && productDetails.FAQs.length > 0 && (
         // <div style={{marginTop: "30px"}}>
         <>
-        <FAQs FAQs={productDetails.FAQs} />
-        {/* </div>
+          <FAQs FAQs={productDetails.FAQs} />
+          {/* </div>
        */}</>
       )}
       <ContactForm />

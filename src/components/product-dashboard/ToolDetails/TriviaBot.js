@@ -26,7 +26,7 @@ import EfficientReport from '../images/Trivia Bot/icons8-presentation-100 1@2x.s
 import DecisionMaking from '../images/Trivia Bot/icons8-problem-solving-skills-100 (1) 1@2x.svg'
 import MotivatedPart from '../images/Trivia Bot/icons8-volunteering-100 1@2x.svg'
 
-
+import bannerImg from '../images/Trivia Bot/Trivia Bot.svg'
 
 const iconSize = {
     height: "5rem",
@@ -46,7 +46,8 @@ const iconSizeBO = {
 
 export const TriviaBot = {
     title: "Trivia Bot",
-    description: "Trivia Bot transforms the challenge of gathering insights from customers in sales by offering an engaging, gamified learning experience through an interactive trivia generator tool focused on specific topics.",
+    content: "Trivia Bot transforms the challenge of gathering insights from customers in sales by offering an engaging, gamified learning experience through an interactive trivia generator tool focused on specific topics.",
+    img:bannerImg,
     BusinessCase: [
         "Addressing sales challenges, Trivia Bot revolutionizes customer engagement through an interactive trivia generator, offering a gamified learning experience that efficiently gathers insights on specific topics, providing sales teams with a novel approach for enhanced interaction and knowledge acquisition.",
     ],

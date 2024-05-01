@@ -1,13 +1,13 @@
-import { MdGroups } from "react-icons/md";
-import PsychologyIcon from '@mui/icons-material/Psychology';
-import CastForEducationIcon from '@mui/icons-material/CastForEducation';
-import { GrUserAdmin } from "react-icons/gr";
-import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
-import QueryStatsIcon from '@mui/icons-material/QueryStats';
-import { MdManageHistory } from "react-icons/md";
-import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
-import ConstructionIcon from '@mui/icons-material/Construction';
-import SchoolIcon from '@mui/icons-material/School';
+// import { MdGroups } from "react-icons/md";
+// import PsychologyIcon from '@mui/icons-material/Psychology';
+// import CastForEducationIcon from '@mui/icons-material/CastForEducation';
+// import { GrUserAdmin } from "react-icons/gr";
+// import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
+// import QueryStatsIcon from '@mui/icons-material/QueryStats';
+// import { MdManageHistory } from "react-icons/md";
+// import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
+// import ConstructionIcon from '@mui/icons-material/Construction';
+// import SchoolIcon from '@mui/icons-material/School';
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import SpeedIcon from '@mui/icons-material/Speed';
 import OutputIcon from '@mui/icons-material/Output';
@@ -24,6 +24,7 @@ import EnhancedProd from '../images/DocumentClassificationWithVirtualAssistant/E
 import FinancialAdvisors from '../images/DocumentClassificationWithVirtualAssistant/FinancialAdvisors.svg'
 import SalesMarketing from '../images/DocumentClassificationWithVirtualAssistant/SalesMarketing.svg'
 import StreamlinedOp from '../images/DocumentClassificationWithVirtualAssistant/StreamlinedOp.svg'
+import bannersvg from '../images/DocumentClassificationWithVirtualAssistant/Document Clarrification Bot.svg'
 
 
 const iconSize = {
@@ -39,7 +40,8 @@ const iconSizeBO = {
 
 export const DocumentClassificationWithVirtualAssistant = {
     title: "Document Classification with Virtual Assistant",
-    description: "Automating data extraction from business documents using an OpenAI-powered chatbot streamlines processes, ensures accuracy, and enhances user experience by applying business rules seamlessly.",
+    content: "The Session Information Bot optimizes information retrieval from past sessions, offering quick access, contextual search, and interactive user experiences. It enhances knowledge management, streamlining support processes and fostering improved collaboration within organizations.",
+    img: bannersvg,
     BusinessCase: [
         "Implementing an OpenAI-powered chatbot for automated data extraction from business documents addresses the time-consuming and error-prone nature of manual processes, ensuring accurate results while applying necessary business rules, thereby enhancing user experience and improving efficiency.",
     ],
@@ -69,32 +71,32 @@ export const DocumentClassificationWithVirtualAssistant = {
         {
             title: "Stramlined Operations",
             description: ["Automated data extraction and retrieval processes streamline operations by eliminating manual tasks, reducing bottlenecks, and improving overall efficiency."],
-            image: <img src={StreamlinedOp} width="100px" style={iconSizeBO} />
+            image: <img src={StreamlinedOp} width="100px" style={iconSizeBO} alt=''/>
         },
         {
             title: "Enhanced Productivity",
             description: ["Quick and accurate retrieval of relevant information from business documents improves productivity and decision-making across various business functions."],
-            image:<img src={EnhancedProd} width="100px" style={iconSizeBO} />
+            image:<img src={EnhancedProd} width="100px" style={iconSizeBO} alt=''/>
         },
         {
             title: "Competitive Advantage",
             description: ["By streamlining data extraction and retrieval processes, businesses can gain a competitive edge by delivering faster, more accurate, and personalized services to their customers."],
-            image: <img src={CompetitiveAdv} width="100px" style={iconSizeBO} />
+            image: <img src={CompetitiveAdv} width="100px" style={iconSizeBO} alt=''/>
         },
         {
             title: "Better Decision-Making",
             description: ["Access to accurate and relevant data extracted from business documents enables informed decision-making and supports data-driven strategies."],
-            image: <img src={DecisionMaking} width="100px" style={iconSizeBO} />
+            image: <img src={DecisionMaking} width="100px" style={iconSizeBO} alt=''/>
         },
         {
             title: "Better Collaboration",
             description: ["Solution facilitates collaboration among teams by centralizing and making business document data easily accessible, promoting knowledge sharing and cross-functional collaboration."],
-            image: <img src={Collab} width="100px" style={iconSizeBO} />
+            image: <img src={Collab} width="100px" style={iconSizeBO} alt=''/>
         },
         {
             title: "Improved Data Accuracy",
             description: ["Accuracy of data extraction is enhanced, minimizing errors and inconsistencies."],
-            image: <img src={DataAccuracy} width="100px" style={iconSizeBO} />
+            image: <img src={DataAccuracy} width="100px" style={iconSizeBO} alt=''/>
         },
     ],
     solutionHighlights: [

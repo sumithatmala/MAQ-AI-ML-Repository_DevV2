@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./AccessibleTabs.css"; // Import CSS file if necessary
-import { HashLink } from "react-router-hash-link";
 import Accordion from "../../../industries/HealthcarePharma/CustomAccordion/AccordionReact";
 
 const Tab = ({ title, content, imageUrl, isAcitive }) => (
@@ -63,6 +62,7 @@ const Tabs = ({ tabsData, sectionName, subheading, foot, bttn }) => {
                       <img
                         src={tab.icon}
                         style={{ width: "20px", marginRight: "2px" }}
+                        alt="icon"
                       />{" "}
                       <span className="text_underline">{tab.heading} </span>{" "}
                     </li>

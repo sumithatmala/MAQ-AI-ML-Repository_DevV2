@@ -1,6 +1,10 @@
-import game from './icons/Game-Development.jpeg';
-import emotion from './icons/gameEmotions.jpg';
-import res from './icons/resultPrediction.webp';
+// import game from './icons/Game-Development.jpeg';
+// import emotion from './icons/gameEmotions.jpg';
+// import res from './icons/resultPrediction.webp';
+
+import game from './icons/Rectangle 96.svg';
+import emotion from './icons/Rectangle 97.svg';
+import res from './icons/Rectangle 98.svg';
 
 
 

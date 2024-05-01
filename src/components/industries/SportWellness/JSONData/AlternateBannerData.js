@@ -1,6 +1,6 @@
-import Pose_Estimation from "../img/Pose-Estimation.png";
-import AI_Powered_Sports from "../img/AI-Powered-Sports.png";
-import AI_fanengagement from "../img/AI-fanengagement.webp";
+import Pose_Estimation from "../img/Rectangle 127.svg";
+import AI_Powered_Sports from "../img/Rectangle 128.svg";
+import AI_fanengagement from "../img/Rectangle 129.svg";
 
 const bannerData = [
     {

@@ -1,5 +1,5 @@
-import predictive from './icons/predictive-analytics-side.jpg';
-import competitive from './icons/compettiveAdv.webp';
+import predictive from './icons/Rectangle 122.svg';
+import competitive from './icons/Rectangle 123.svg';
 
 
 const AlternateData = [

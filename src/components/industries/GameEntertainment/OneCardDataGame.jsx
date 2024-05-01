@@ -1,4 +1,4 @@
-import eye from "./icons/eyeTrack.jpg";
+import eye from "./icons/Rectangle 95.svg";
 import face from "./icons/FacialEmotion.jpg";
 import pose from "./icons/PoseEstimation.webp";
 

@@ -55,11 +55,10 @@
   border-radius: 10px;
 }
 
-.text_underline {
+/* .text_underline {
   border-bottom: 1px solid transparent;
-  /* Set the initial border as transparent */
   border-image: linear-gradient(to right, #e60b0b -40%, transparent 50%) 4;
-}
+} */
 
 .tabs {
   position: relative;

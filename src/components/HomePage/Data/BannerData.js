@@ -1,6 +1,10 @@
-import Competition from '../img/Competition.png'
-import solutions from '../img/solutions2.png'
-import fintech from '../img/Fintech.png'
+// import Competition from '../img/Competition.png'
+// import solutions from '../img/solutions2.png'
+// import fintech from '../img/Fintech.png'
+import Competition from '../img/Rectangle 34.svg'
+import solutions from '../img/Rectangle 35.svg'
+import fintech from '../img/Rectangle 36.svg'
+
 const bannerData = [
     {
         heading: "Why Choose Us", 

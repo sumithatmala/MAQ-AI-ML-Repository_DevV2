@@ -2,12 +2,17 @@
 // import case_customer_analytics_ai_nlp from "../img/case-customer-analytics-ai-nlp.webp"
 // import case_customer_review_analytics_solution from "../img/case-customer-review-analytics-solution.webp"
 // import case_predictive_models_improve_debt_collection_process from "../img/case-predictive-models.webp"
-import CookingAssistant from './Images/IntelligentCookingAssistant.jpeg';
-import ServiceSoltion from './Images/IntelligentServiceSolution.jpg';
+// import CookingAssistant from './Images/IntelligentCookingAssistant.jpeg';
+// import ServiceSoltion from './Images/IntelligentServiceSolution.jpg';
 // import AutomatedFeedback from './Images/AutomatedFeedback.png';
 // import EmotionalAnalysis from './Images/EmotionalAnalysis.jpeg';
-import emotions from './Images/emotions.jpg';
-import feedback from './Images/feedback.jpg';
+// import emotions from './Images/emotions.jpg';
+// import feedback from './Images/feedback.jpg';
+
+import feedback from './Images/Rectangle 47.svg';
+import emotions from './Images/Rectangle 48.svg';
+import CookingAssistant from './Images/Rectangle 49.svg';
+import ServiceSoltion from './Images/Rectangle 50.svg';
 
 const CarouselData = [
   {

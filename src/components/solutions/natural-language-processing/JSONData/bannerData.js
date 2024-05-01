@@ -1,19 +1,19 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
-// import GPTImg from "../img/chatgpt.jpg";
-// import analysis from "../img/analysis.jpg";
-// import context from "../img/context-aware.jpg";
-// import customer from "../img/customer.jpg";
-// import dataCollection from "../img/dataCollection.jpg";
-// import sentiment from "../img/sentiment.jpg";
+// import GPTImgAlt from "../img/chatgpt_compressed.jpg";
+// import analysisAlt from "../img/analysis_compressed.jpg";
+// import contextAlt from "../img/context-aware_compressed.jpg";
+// import customerAlt from "../img/customer.jpg";
+// import dataCollectionAlt from "../img/dataCollection_compressed.jpg";
+// import sentimentAlt from "../img/sentiment_compressed.jpg";
 
-import GPTImgAlt from "../img/chatgpt_compressed.jpg";
-import analysisAlt from "../img/analysis_compressed.jpg";
-import contextAlt from "../img/context-aware_compressed.jpg";
-import customerAlt from "../img/customer.jpg";
-import dataCollectionAlt from "../img/dataCollection_compressed.jpg";
-import sentimentAlt from "../img/sentiment_compressed.jpg";
+import GPTImgAlt from "../img/Rectangle 62.svg";
+import analysisAlt from "../img/Rectangle 64.svg";
+import contextAlt from "../img/Rectangle 65.svg";
+import customerAlt from "../img/Rectangle 63.svg";
+import dataCollectionAlt from "../img/Rectangle 61.svg";
+import sentimentAlt from "../img/Rectangle 60.svg";
 
 const bannerData = [
     {

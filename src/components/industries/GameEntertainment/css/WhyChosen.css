@@ -16,10 +16,11 @@
     margin: 0 auto;
 }
 .head-block-center {
-    margin: 0 auto 16px;
+    margin: 0 auto 0;
 }
 .text-block-center {
     margin: 15px auto 20px;
+    font-size: large;
 }
 .whychoose-section-list {
     margin: 30px -10px 0;

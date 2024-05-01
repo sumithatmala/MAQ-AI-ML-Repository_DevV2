@@ -50,7 +50,7 @@ const RecommendationSystems = () => {
         }}
       />
 
-      <CustomerSuccess items={BiSlider} slidesToShow={2} heading="Customer Success" CardHeight="510px" />
+      <CustomerSuccess items={BiSlider} slidesToShow={2} heading="Intelligent Recommendation Solutions" CardHeight="500px" />
 
       <ContactForm />
     </>

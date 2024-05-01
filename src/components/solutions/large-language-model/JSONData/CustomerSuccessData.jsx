@@ -1,7 +1,12 @@
-import case_targeted_advertising_system from "../img/case-targeted-advertising-system.webp"
-import case_customer_analytics_ai_nlp from "../img/case-customer-analytics-ai-nlp.webp"
-import case_customer_review_analytics_solution from "../img/case-customer-review-analytics-solution.webp"
-import case_predictive_models_improve_debt_collection_process from "../img/case-predictive-models.webp"
+// import case_targeted_advertising_system from "../img/case-targeted-advertising-system.webp"
+// import case_customer_analytics_ai_nlp from "../img/case-customer-analytics-ai-nlp.webp"
+// import case_customer_review_analytics_solution from "../img/case-customer-review-analytics-solution.webp"
+// import case_predictive_models_improve_debt_collection_process from "../img/case-predictive-models.webp"
+
+import case_targeted_advertising_system from "../img/Rectangle 78.svg"
+import case_customer_analytics_ai_nlp from "../img/Rectangle 79.svg"
+import case_customer_review_analytics_solution from "../img/Rectangle 80.svg"
+import case_predictive_models_improve_debt_collection_process from "../img/Rectangle 81.svg"
 
 const CustomerSuccessData = [
   {

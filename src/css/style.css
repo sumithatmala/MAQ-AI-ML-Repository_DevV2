@@ -373,6 +373,7 @@ header {
 nav ul {
   list-style: none;
   font-weight: 500;
+  padding-left: 0 !important;
 }
 nav a {
   font-size: 0.9rem !important;
