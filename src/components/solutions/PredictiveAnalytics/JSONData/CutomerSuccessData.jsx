@@ -1,7 +1,12 @@
-import building_predictive_analytics from '../img/building-predictive-analytics.png';
+// import building_predictive_analytics from '../img/building-predictive-analytics.png';
 // import ocr_based_solution from '../img/ocr-based-solution.png';
-import building_predictive_models from '../img/building-predictive-models.png';
-import analyticsMarketing from '../img/analyticsMarketing.jpg';
+// import building_predictive_models from '../img/building-predictive-models.png';
+// import analyticsMarketing from '../img/analyticsMarketing.jpg';
+
+import building_predictive_analytics from '../img/Rectangle 63.svg';
+import building_predictive_models from '../img/Rectangle 65.svg';
+import analyticsMarketing from '../img/Rectangle 64.svg';
+
 const CutomerSuccessData = [
   {
     title: "Predictive Analytics for E-Commerce Growth",

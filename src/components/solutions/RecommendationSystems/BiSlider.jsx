@@ -1,6 +1,9 @@
-import tv from "./Images/tv.jpg"
-import analytics from "./Images/analytics.jpg"
+// import tv from "./Images/tv.jpg"
+// import analytics from "./Images/analytics.jpg"
 import healthCare from "./Images/healthCareAppointment.jpg"
+
+import tv from "./Images/Rectangle 69.svg"
+import analytics from "./Images/Rectangle 70.svg"
 
 const BiSlider = [
   {

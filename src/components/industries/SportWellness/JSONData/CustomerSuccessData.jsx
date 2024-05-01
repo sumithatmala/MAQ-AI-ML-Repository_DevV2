@@ -1,11 +1,15 @@
-import fitness_slider_2 from "../img/fitness-slider-2.jpg"
-import fitness_slider_1 from "../img/fitness-slider-1.jpg"
-import fitness_slider_3 from "../img/fitness-slider-3.jpg"
+// import fitness_slider_2 from "../img/fitness-slider-2.jpg"
+// import fitness_slider_1 from "../img/fitness-slider-1.jpg"
+// import fitness_slider_3 from "../img/fitness-slider-3.jpg"
+
+import fitness_slider_1 from "../img/Rectangle 131.svg"
+import fitness_slider_2 from "../img/Rectangle 132.svg"
+import fitness_slider_3 from "../img/Rectangle 133.svg"
 
 const CustomerSuccessData = [
   {
     title: "Enhanced Pose Estimation for Fitness and Physical Therapy Apps",
-    image: <img src={fitness_slider_2} alt="fitness_slider_2" />,
+    image: <img src={fitness_slider_1} alt="fitness_slider_2" />,
     description: [
       <b>Boosted pose estimation accuracy and error detection by 64%.</b>,
       "MAQ Software was tasked with improving pose estimation accuracy and implementing error-detection algorithms for a client in fitness and physical therapy.",
@@ -15,7 +19,7 @@ const CustomerSuccessData = [
   
   {
     title: "Advanced Activity Recognition Using Accelerometer Data",
-    image: <img src={fitness_slider_1} alt="fitness_slider_1" />,
+    image: <img src={fitness_slider_2} alt="fitness_slider_1" />,
     description: [
       <b>Increased the accuracy of an activity recognition model by 48%.</b>,
       "Working with a global IoT company, we developed sophisticated human activity recognition models utilizing accelerometer data to predict intense moments in sports games.",

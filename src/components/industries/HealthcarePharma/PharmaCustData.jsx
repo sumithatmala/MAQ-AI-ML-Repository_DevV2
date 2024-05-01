@@ -1,6 +1,10 @@
-import pose from "./icons/poseEstimation.jpg";
-import peroid from "./icons/periodPrediction.jpg";
-import baby from "./icons/BabyCare.png";
+// import pose from "./icons/poseEstimation.jpg";
+// import peroid from "./icons/periodPrediction.jpg";
+// import baby from "./icons/BabyCare.png";
+
+import pose from "./icons/Rectangle 104.svg";
+import peroid from "./icons/Rectangle 105.svg";
+import baby from "./icons/Rectangle 106.svg";
 
 const PharmaCustData = [
   {

@@ -1,7 +1,12 @@
-import gamedev from "../img/gamedev.webp"
-import cosmetics from "../img/cosmetics.webp"
-import customerAnalysis from "../img/customerAnalysis.webp"
-import analytics from "../img/analytics.webp"
+// import gamedev from "../img/gamedev.webp"
+// import cosmetics from "../img/cosmetics.webp"
+// import customerAnalysis from "../img/customerAnalysis.webp"
+// import analytics from "../img/analytics.webp"
+
+import gamedev from "../img/Rectangle 600.svg"
+import cosmetics from "../img/Rectangle 610.svg"
+import customerAnalysis from "../img/Rectangle 620.svg"
+import analytics from "../img/Rectangle 630.svg"
 
 import { LazyLoadImage } from "react-lazy-load-image-component"
 import 'react-lazy-load-image-component/src/effects/blur.css';

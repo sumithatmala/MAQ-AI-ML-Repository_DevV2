@@ -1,6 +1,11 @@
-import ml_nlp_models_advertising from '../img/ml-nlp-models_advertising-2.jpg'
-import influencer_marketing_scratch from '../img/influencer-marketing-scratch.jpg'
-import social_media_analytics from '../img/social-media-analytics.jpg'
+// import ml_nlp_models_advertising from '../img/ml-nlp-models_advertising-2.jpg'
+// import influencer_marketing_scratch from '../img/influencer-marketing-scratch.jpg'
+// import social_media_analytics from '../img/social-media-analytics.jpg'
+
+import ml_nlp_models_advertising from '../img/Rectangle 118.svg'
+import influencer_marketing_scratch from '../img/Rectangle 119.svg'
+import social_media_analytics from '../img/Rectangle 120.svg'
+
 const CustomerSuccessData = [
   {
     title: "Enhancing Marketing Insights with ML and NLP Models",

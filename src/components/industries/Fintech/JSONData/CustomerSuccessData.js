@@ -1,7 +1,12 @@
-import face_anti_spoofing from "../img/face-anti-spoofing.jpg"
-import retrieve_data_from_receipts from "../img/retrieve-data-from-receipts.jpg"
-import data_capture_sw_and_ml from "../img/data-capture-sw-and-ml.jpg"
-import big_data_processing from "../img/big-data-processing.jpg"
+// import face_anti_spoofing from "../img/face-anti-spoofing.jpg"
+// import retrieve_data_from_receipts from "../img/retrieve-data-from-receipts.jpg"
+// import data_capture_sw_and_ml from "../img/data-capture-sw-and-ml.jpg"
+// import big_data_processing from "../img/big-data-processing.jpg"
+
+import face_anti_spoofing from "../img/Rectangle 89.svg"
+import retrieve_data_from_receipts from "../img/Rectangle 90.svg"
+import data_capture_sw_and_ml from "../img/Rectangle 91.svg"
+import big_data_processing from "../img/Rectangle 92.svg"
 
 const CustomerSuccessData = [
   {
@@ -10,7 +15,7 @@ const CustomerSuccessData = [
     description: [
       <b>Security measures improved by 89%.</b>,
       "The client works in the E-commerce sector. They were looking for a face recognition solution for spoofing attacks prevention.",
-      "We’ve developed a solid DL-based model that detects digital/printed images and video fraud attempts.",
+      "We've developed a solid DL-based model that detects digital/printed images and video fraud attempts.",
     ],
   },
   

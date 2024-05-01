@@ -1,6 +1,10 @@
-import travelT from "../img/travelTicket.jpg"
-import reciept from "../img/reciept.jpg"
-import brandV from "../img/brandVerif.jpg"
+// import travelT from "../img/travelTicket.jpg"
+// import reciept from "../img/reciept.jpg"
+// import brandV from "../img/brandVerif.jpg"
+
+import brandV from "../img/Rectangle 56.svg"
+import reciept from "../img/Rectangle 57.svg"
+import travelT from "../img/Rectangle 58.svg"
 
 const customerSuccessData = [
     {

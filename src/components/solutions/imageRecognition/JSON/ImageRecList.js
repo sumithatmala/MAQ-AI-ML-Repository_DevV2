@@ -1,7 +1,7 @@
-import case_targeted_advertising_system from "../img/case-targeted-advertising-system.webp"
-import case_customer_analytics_ai_nlp from "../img/case-customer-analytics-ai-nlp.webp"
-import case_customer_review_analytics_solution from "../img/case-customer-review-analytics-solution.webp"
-import case_predictive_models_improve_debt_collection_process from "../img/case-predictive-models.webp"
+// import case_targeted_advertising_system from "../img/case-targeted-advertising-system.webp"
+// import case_customer_analytics_ai_nlp from "../img/case-customer-analytics-ai-nlp.webp"
+// import case_customer_review_analytics_solution from "../img/case-customer-review-analytics-solution.webp"
+// import case_predictive_models_improve_debt_collection_process from "../img/case-predictive-models.webp"
 import python from "../img/python.png"
 import scikit from "../img/scikit-learn.png"
 import spark from "../img/spark.png"
@@ -19,6 +19,11 @@ import four from "../../ConsumerSentimentAnalysis/icons/icon-4.svg"
 import collect from "../img/icons8-collect-100 1.svg"
 import evaluate from "../img/icons8-investment-portfolio-100 1.svg"
 import train from "../img/icons8-learning-100 (1) 2.svg"
+
+import case_targeted_advertising_system from "../img/Rectangle 60.svg"
+import case_customer_analytics_ai_nlp from "../img/Rectangle 61.svg"
+import case_customer_review_analytics_solution from "../img/Rectangle 62.svg"
+import case_predictive_models_improve_debt_collection_process from "../img/Rectangle 63.svg"
 
 export const process = [
     {topic: "Collect", disc:"We collect datasets, label images, and add meta tags to each unlabeled picture", img: <img src={collect} height={100} alt="Collect"/>},

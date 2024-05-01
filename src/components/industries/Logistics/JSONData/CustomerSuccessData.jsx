@@ -1,7 +1,12 @@
-import freight_rate_prediction_software from "../img/freight-rate.jpg"
-import ocr_solution_invoice_processing from "../img/ocr-solution.jpg"
-import implementing_ai_iot_based_healthcare_app from "../img/implementing-ai.jpg"
-import image_analysis_enhance_ticket_processing_sw from "../img/image-analysis.jpg"
+// import freight_rate_prediction_software from "../img/freight-rate.jpg"
+// import ocr_solution_invoice_processing from "../img/ocr-solution.jpg"
+// import implementing_ai_iot_based_healthcare_app from "../img/implementing-ai.jpg"
+// import image_analysis_enhance_ticket_processing_sw from "../img/image-analysis.jpg"
+
+import freight_rate_prediction_software from "../img/Rectangle 110.svg"
+import ocr_solution_invoice_processing from "../img/Rectangle 111.svg"
+import implementing_ai_iot_based_healthcare_app from "../img/Rectangle 112.svg"
+import image_analysis_enhance_ticket_processing_sw from "../img/Rectangle 113.svg"
 
 const CustomerSuccessData = [
   {

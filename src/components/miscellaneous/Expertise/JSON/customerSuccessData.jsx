@@ -1,9 +1,13 @@
 import bigD from "../img/bigdata.jpg"
-import chat from "../img/chatBot.jpg"
-import gender from "../img/genderClass.jpg"
+// import chat from "../img/chatBot.jpg"
+// import gender from "../img/genderClass.jpg"
 import insurance from "../img/insurance.jpg"
 import investment from "../img/investment.jpg"
-import recipe from "../img/recipe.jpg"
+// import recipe from "../img/recipe.jpg"
+
+import recipe from "../img/Rectangle 40.svg"
+import chat from "../img/Rectangle 41.svg"
+import gender from "../img/Rectangle 42.svg"
 
 const customerSuccessData = [
     {

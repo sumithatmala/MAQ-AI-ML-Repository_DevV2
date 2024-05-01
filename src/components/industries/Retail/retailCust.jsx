@@ -1,6 +1,10 @@
-import retailimg from './icons/AI-in-Retail-945x630.jpeg';
-import ecommerce from './icons/ecommerce.jpg';
-import invoice from './icons/invoice.jpg';
+// import retailimg from './icons/AI-in-Retail-945x630.jpeg';
+// import ecommerce from './icons/ecommerce.jpg';
+// import invoice from './icons/invoice.jpg';
+
+import retailimg from './icons/Rectangle 124.svg';
+import ecommerce from './icons/Rectangle 125.svg';
+import invoice from './icons/Rectangle 126.svg';
 
 const retailCustData = [
   {
