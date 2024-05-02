@@ -284,7 +284,17 @@ header {
   padding: 7px;
   /* border-right: 2px solid #b8001c */
 }
-
+@media (min-width: 1200px) {
+  .list-layout-menu-item {
+    width: 22%;
+    height: 60px;
+    display: flex;
+    padding-left: 10px;
+    padding: 7px 7px 7px 40px;
+    
+    /* border-right: 2px solid #b8001c */
+  }
+}
 @media (min-width: 1630px) {
   .dropdown.list-wrapper.show {
     padding: 60px 100px;
