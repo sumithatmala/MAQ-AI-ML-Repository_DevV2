@@ -1,30 +1,30 @@
 const blogData = [
     {
-        title: "Blog 1",
+        title: "Empowering Decision-Making",
         image: "",
         description: ["Exploring Sentiment Analysis and Text Classification Techniques for actionable insights and enhanced decision-making processes."],
         link: "#",
     },
     {
-        title: "Blog 2",
+        title: "Structured Extraction",
         image: "",
         description: ["Understanding Named Entity Recognition and Language Modeling for structured data extraction and predictive analytics."],
         link: "#",
     },
     {
-        title: "Blog 3",
+        title: "Revolutionizing Customer Service",
         image: "",
         description: ["Improving Customer Service with Chatbots, Text Summarization, and Personalized Recommendations for enhanced user experiences."],
         link: "#",
     },
     {
-        title: "Blog 4",
+        title: "Deep Learning Advancements",
         image: "",
         description: ["Deep Learning Approaches for Language Translation and Speech Recognition"],
         link: "#",
     },
     {
-        title: "Blog 5",
+        title: "Unleashing Business Intelligence",
         image: "",
         description: [" Leveraging NLP for Semantic Search, Document Understanding, and Knowledge Extraction to drive business intelligence and strategic decision-making."],
         link: "#",

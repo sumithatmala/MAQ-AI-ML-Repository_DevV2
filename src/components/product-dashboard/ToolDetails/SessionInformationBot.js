@@ -97,7 +97,7 @@ export const SessionInformationBot = {
       image: <img src={EnhancedData}  style={iconSizeBO} alt=''/>
     },
     {
-      title: "Efficient project management for successful outcomes",
+      title: "Efficient project management for successful outcomes", 
       description:
         ["End to End tracking and maintenance of the content and improve usage."],
       image: <img src={EfficientProject}  style={iconSizeBO} alt=''/>

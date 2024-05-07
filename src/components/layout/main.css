@@ -1266,6 +1266,9 @@ section {
   list-style: none;
   text-align: center;
 }
+.pordinfo{
+  margin-top: -220px;
+}
 
 .portfolio .portfolio-filters li {
   cursor: pointer;
