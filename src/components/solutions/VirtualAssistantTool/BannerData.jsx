@@ -1,4 +1,4 @@
-import gif from "./Tools/bot.gif";
+import gif from "./Tools/Rectangle 166.svg";
 import support from "./Tools/AiSupport.png";
 import appointment from "./Tools/AppointmentShedule.gif";
 import crm from "./Tools/chatbot.jpg";

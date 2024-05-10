@@ -22,6 +22,7 @@ h1,h2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: -30px;
 }
 
 .Info-section {

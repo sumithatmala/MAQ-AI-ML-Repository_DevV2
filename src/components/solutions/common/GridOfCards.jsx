@@ -7,13 +7,15 @@ const CaseItem = ({ iconSrc, altText, title, description, sizeOfCard }) => (
   <li className="predict-use-cases-list__list-item2" style={{ width: `${sizeOfCard}%`, }}>
     <div className="predict-use-cases-list__item border-shadow">
       {iconSrc?(<div className="predict-use-cases-list__icon">
-        {iconSrc}
+        <img src={iconSrc} alt="" srcset="" width={70}/>
       </div>):(<></>)}
       <h3 className="predict-use-cases-list__title">{title}</h3>
       <div className="predict-use-cases-list__text">{description}</div>
     </div>
   </li>
 );
+
+
 
 const GridOfCards = (props) => {
   const { items } = props;
@@ -39,5 +41,6 @@ const GridOfCards = (props) => {
     </section>
   );
 };
+
 
 export default GridOfCards;

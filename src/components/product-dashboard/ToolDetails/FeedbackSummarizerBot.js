@@ -1,4 +1,7 @@
 import demoVideo from './demos/FeedbackSummarizerBot.mp4'
+import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
+import SpeedIcon from '@mui/icons-material/Speed';
+import OutputIcon from '@mui/icons-material/Output';
 
 
 import ProductMang from '../images/ProductManagers.svg'
@@ -95,6 +98,47 @@ export const FeedbackSummarizerBot = {
       "Businesses can automatically categorize and summarize feedback data based on factors such as sentiment and product type. This enables quick identification of key insights and areas for improvement.",
       "A chatbot service is implemented to interact with the feedback data, allowing users to ask questions related to product feedback and retrieve relevant comments.",
       "Feedback insights can be retrieved based on specific criteria, such as a particular product or sentiment. This enhances the customer experience by providing valuable information for decision-making and addressing customer concerns.",
+    ],
+    summary: [
+      {
+        title: "Challenges",
+        icon: <PsychologyAltIcon style={{ height: "16rem", width: "16rem" }} />,
+        details: [
+          "Manual extraction of patient information from PDFs and images",
+          "Difficulty in organizing and accessing patient records",
+          "Handling massive volumes of data from diverse documents",
+          "Challenges in maintaining data accuracy and integrity",
+          "Limited insights due to unstructured data",
+          "Time-consuming processes for healthcare professionals",
+          "Issues in processing and verifying healthcare claims",
+        ],
+      },
+      {
+        title: "Building Solution",
+        icon: <SpeedIcon style={{ height: "16rem", width: "16rem" }} />,
+        details: [
+          "Automated OCR system for efficient data extraction",
+          "Structured knowledge base creation and indexing",
+          "Question-based approach for accurate data retrieval",
+          "Interactive virtual agent for an intuitive user interface",
+          "Improved access to insights through structured data",
+          "Efficient document handling with accurate classification",
+          "Personalized patient experience based on relevant data",
+        ],
+      },
+      {
+        title: "Outcomes",
+        icon: <OutputIcon style={{ height: "16rem", width: "16rem" }} />,
+        details: [
+          "Accelerated onboarding and training for healthcare professionals",
+          "Enhanced data analysis and research capabilities for researchers",
+          "Efficient project management for healthcare admins",
+          "Heightened employee engagement in healthcare processes",
+          "Improved learning and development initiatives",
+          "Cost reduction through minimized manual effort",
+          "Time savings with improved efficiency in data processing",
+        ],
+      },
     ],
     demo: {
       link: {demoVideo},
