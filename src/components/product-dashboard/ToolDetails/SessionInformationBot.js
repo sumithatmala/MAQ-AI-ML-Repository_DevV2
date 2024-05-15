@@ -62,13 +62,13 @@ export const SessionInformationBot = {
       title: "Attendees",
       description:
         "Primary users who attend various sessions, events might need to reference the session content later for better understanding",
-      iconSrc: <img src={Attedes} width="70px" alt=""/>,
+      iconSrc: <img src={Attedes} width="70px" alt=''/>,
     },
     {
       title: "Analysts",
       description:
         "Need to gather insights, track progress and look for improvements",
-      iconSrc: <img src={Analyst}  width="70px" alt=""/>,
+      iconSrc: <img src={Analyst} width="70px" alt=''/>,
     },
     {
       title: "Training Teams",

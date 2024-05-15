@@ -1,8 +1,8 @@
-import anamoly from './icons/anomaly-detection-crash-simulation.jpg';
-import pointernet from './icons/pointerNet.jpg';
+import anamoly from './icons/Rectangle 168.svg';
+import pointernet from './icons/Rectangle 169.svg';
 import selfSupervised from './icons/Rectangle 74.svg';
-import rlAgent from './icons/rlAgent.jpg';
-import simulation from './icons/intelligent-finite-element.jpg';
+import rlAgent from './icons/Rectangle 164.svg';
+import simulation from './icons/Rectangle 165.svg';
 
 
 const OneCardDataAuto = [

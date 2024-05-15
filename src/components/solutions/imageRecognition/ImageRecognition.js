@@ -29,6 +29,7 @@ const ImageRecognition = () => {
             </div> */}
             <div className="Container-ir">
                 <section className="Info-section margin-adjust">
+                <h2>Empower Your Business with Tailored Image Recognition and Picture Analysis Solutions.</h2>
                     <p>We cooperate with clients across multiple industries and assist them in levelling up their businesses by harnessing the power of Big Data.</p>
                     <p>We have gained clients' trust across the globe by creating and delivering top-notch custom solutions for different industries. Our team of <b>machine learning (ML) experts</b> has extensive experience in on-demand computer vision and image recognition software development of any complexity.</p>
                 </section>

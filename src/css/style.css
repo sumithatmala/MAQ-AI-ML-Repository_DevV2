@@ -750,7 +750,7 @@ li.move-right {
 .col   {
   /* background-color: #0062cc; */
   font-size: 13px;
-  color: #0062cc;
+  /* color: #0062cc; */
   /* padding-left: 112px;
   padding-right: 112px; */
   /* width: 953px; */
@@ -779,14 +779,14 @@ li.move-right {
 .nav-area .Navbar-brand {
   /* background-color: #0062cc; */
   position: relative;
-  left: 48px;
+  left: -30px;
 }
 
 
 /* reducing padding between banner and text in each page starting */
 .text-block-center2  {
   /* background-color: #0062cc; */
-  margin-top: -150px;
+  margin-top: -100px;
 }
 
 
@@ -837,15 +837,6 @@ li.move-right {
   /* grid-row-start: 1; */
   /* grid-row-end: 3; */
 /* }  */
-
-
-
-
-
-
-
-
-
 
 
 

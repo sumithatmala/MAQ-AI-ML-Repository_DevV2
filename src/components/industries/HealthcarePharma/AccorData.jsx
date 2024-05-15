@@ -1,6 +1,6 @@
 const BiotechDigitalData = [
   {
-    list: "Phase 1: Creation",
+    list: [<b> Phase 1: </b>, "Creation"],
     desc: {
       para: [<big>Creation of Data Lake:</big>],
       points: [
@@ -13,7 +13,7 @@ const BiotechDigitalData = [
     },
   },
   {
-    list: "Phase 2: Ingestion",
+    list: [<b>Phase 2:</b> ," Ingestion"],
     desc: {
       para: [<big>Ingestion and Data Quality Check:</big>],
       points: [
@@ -25,7 +25,7 @@ const BiotechDigitalData = [
     },
   },
   {
-    list: "Phase 3: Processing",
+    list: [<b>Phase 3:</b> ," Processing"],
     desc: {
       para: [<big>Processing, ML, and Analysis:</big>],
       points: [
@@ -40,7 +40,7 @@ const BiotechDigitalData = [
     },
   },
   {
-    list: "Phase 4: Visualization",
+    list: [<b>Phase 4:</b> ,"Visualization"],
     desc: {
       para: [<big>Visualization and Reporting</big>],
       points: [
