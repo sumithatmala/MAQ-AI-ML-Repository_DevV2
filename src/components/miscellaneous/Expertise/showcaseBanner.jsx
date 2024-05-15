@@ -18,10 +18,10 @@ const ShowcaseBanner = (props) => {
                         toggle ? (setData(props.item2)) : (setData(props.item1));
                         setToggle(!toggle);
                     }}>
-                        <h3>
-                            {data.heading}
+                        <div className="heading-container">
+                            <h3>{data.heading}</h3>
                             <TfiArrowCircleRight className="ShowcaseBannerNavigate" />
-                        </h3>
+                        </div>
                     </button>
                     <p>{data.desc}</p>
                 </div>
@@ -36,6 +36,10 @@ const ShowcaseBanner = (props) => {
                             </div>
                         )
                     })}
+                </div>
+                <div className="navigation-dots">
+                    <div className={toggle?"dot filled":"dot"}></div>
+                    <div className={toggle?"dot":"dot filled"}></div>
                 </div>
             </div>
             {/* <div className="ShowcaseBannerBg">

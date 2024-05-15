@@ -44,7 +44,12 @@
     }
     h3:hover{
         color: #b8001c;
+        margin-right: 12px;
     }
+}
+
+.heading-container{
+    display: flex;
 }
 
 .ShowcaseBannerheader h3 {
@@ -58,7 +63,7 @@
     /* color: white; */
     /* transition: 0.4s; */
     font-size: 25px;
-    margin-top: 3px;
+    margin-top: 7px;
 }
 
 .ShowcaseBannerheader svg:hover {
@@ -119,6 +124,23 @@
     background-size: cover;
     border-radius: 400px;
     animation: rotateBackground 20s linear infinite;
+}
+
+.navigation-dots{
+    justify-content: center;
+    display: flex;
+}
+
+.dot{
+    margin: 2px;
+    border: 2px #b8001c solid;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.filled{
+    background-color: #b8001c;
 }
 
 @keyframes rotateBackground {
