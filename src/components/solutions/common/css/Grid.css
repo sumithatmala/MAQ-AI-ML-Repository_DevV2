@@ -16,11 +16,18 @@
   max-width: 510px;
   height: auto;
   margin: 10px;
-  padding: auto;
   /* border: 2px #443c90a8 solid; */
+  padding: auto;
   border-radius: 5px;
-  box-shadow: 0px 8px 16px 0px rgba(32, 26, 43, 0.15);;
   padding: 10px;
+  transition: 0.2s all linear;
+  position: relative;
+  top: 0px;
+}
+
+.IndustryCard:hover{
+  box-shadow: 0px 8px 16px 0px rgba(32, 26, 43, 0.15);
+    top: -5px;
 }
 
 .IndustryCard-noImg {
@@ -75,3 +82,21 @@
   justify-content: center;
   margin-bottom: 60px;
 }
+
+
+.trinity_con__item{
+  padding: auto;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.2s all linear;
+  position: relative;
+  top: 0px;
+  box-shadow: none !important;
+}
+
+.trinity_con__item:hover{
+  /* box-shadow: 4px 3px 19px #80808066; */
+  box-shadow: 0px 8px 16px 0px rgba(32, 26, 43, 0.15) !important; 
+    top: -5px;
+}
+

@@ -1,4 +1,7 @@
 import demoVideo from './demos/FeedbackSummarizerBot.mp4'
+import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
+import SpeedIcon from '@mui/icons-material/Speed';
+import OutputIcon from '@mui/icons-material/Output';
 
 
 import ProductMang from '../images/ProductManagers.svg'
@@ -95,6 +98,43 @@ export const FeedbackSummarizerBot = {
       "Businesses can automatically categorize and summarize feedback data based on factors such as sentiment and product type. This enables quick identification of key insights and areas for improvement.",
       "A chatbot service is implemented to interact with the feedback data, allowing users to ask questions related to product feedback and retrieve relevant comments.",
       "Feedback insights can be retrieved based on specific criteria, such as a particular product or sentiment. This enhances the customer experience by providing valuable information for decision-making and addressing customer concerns.",
+    ],
+    summary: [
+      {
+        title: "Challenges",
+        icon: <PsychologyAltIcon style={{ height: "16rem", width: "16rem" }} />,
+        details: [
+          "Implementing the bot within existing systems may pose challenges",
+          " Storing and retrieving session information raises privacy concerns, especially if sensitive data is involved",
+          "As the volume of sessions and users increases, ensuring the bot can scale seamlessly but is challenging",
+          "concerns arise with the increasing volume of sessions and users, necessitating seamless expansion capabilities",
+          "Overcoming user adoption barriers and providing adequate training are essential for maximizing the bot's effectiveness within organizations",
+          "Time-consuming processes for healthcare professionalsEnsuring accurate natural language understanding for contextual search and interactive experiences remains a challenge",
+          "Scalability concerns arise with the increasing volume of sessions and users",
+        ],
+      },
+      {
+        title: "Building Solution",
+        icon: <SpeedIcon style={{ height: "16rem", width: "16rem" }} />,
+        details: [
+          "Accelerates information retrieval, ensuring quick access to past session details",
+          "Facilitates contextual search, enabling users to find relevant information efficiently",
+          "Enhances knowledge management by centralizing session data for easy access and organization",
+          "Fosters improved collaboration within organizations by enabling seamless sharing and referencing of past sessions",
+          "Increases productivity by offering interactive user experiences that streamline information retrieval tasks"
+        ],
+      },
+      {
+        title: "Outcomes",
+        icon: <OutputIcon style={{ height: "16rem", width: "16rem" }} />,
+        details: [
+          "Enhanced decision-making through access to historical insights",
+          "Streamlined problem-solving with comprehensive session details",
+          "Improved efficiency via optimized information retrieval",
+          "Fostered collaboration and learning through centralized data",
+          "Elevated customer satisfaction through faster support"
+        ],
+      },
     ],
     demo: {
       link: {demoVideo},

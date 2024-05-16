@@ -735,13 +735,114 @@ li.move-right {
   padding-right: 15%;
   padding-top: 5%;
   padding-bottom: 2%; */
-  background: white;
+  background:white;
   /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
   border-radius: 8px;
   font-family: proxima-nova,Helvetica Neue,Arial,sans-serif;
   /* font-weight: 300; */
   color: #141414;
 }
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1322px){
+.col   {
+  /* background-color: #0062cc; */
+  font-size: 13px;
+  /* color: #0062cc; */
+  /* padding-left: 112px;
+  padding-right: 112px; */
+  /* width: 953px; */
+  padding-left: 172px;
+  padding-right: 172px;
+}
+.nav-area a {
+  padding-left: 10px;
+}
+
+.product-container{
+  padding-left: 172px;
+  padding-right: 172px;
+}
+
+}
+
+
+
+
+
+
+
+
+/* logo positioning */
+.nav-area .Navbar-brand {
+  /* background-color: #0062cc; */
+  position: relative;
+  left: -30px;
+}
+
+
+/* reducing padding between banner and text in each page starting */
+.text-block-center2  {
+  /* background-color: #0062cc; */
+  margin-top: -100px;
+}
+
+
+
+
+
+/* three card testing */
+
+
+
+
+ /* .slick-track div{
+   padding: 0px 2px; 
+  margin: 0px 2px;
+   width: 152px;  
+ } */
+/* 
+.slick-slide  div{
+  padding: 0 2px !important;
+  background-color: #0062cc;
+}
+
+.slick-active div{
+  padding: 0 2px !important;
+}
+
+.slick-current div{
+  padding: 0 2px !important;
+} */
+
+/* .slick-list{
+  background-color: #17a2b8;
+  width: calc(100% - 26px); 
+  overflow-x: auto; 
+  white-space: nowrap; 
+} */
+
+
+
+/* .slick-list div{
+  display: inline-block; 
+  width: calc(100% - 4046px);
+  margin-right: 14px; 
+} */
+/* .slick-slider.slick-initialized{
+  /* width: 3580px; */
+  /* display: grid; */
+  /* grid-row-start: 1; */
+  /* grid-row-end: 3; */
+/* }  */
+
+
+
+
+
+
 
 .product-content h2 {
   margin-bottom: 20px;

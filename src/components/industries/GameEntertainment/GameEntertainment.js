@@ -11,6 +11,10 @@ import WhyChooseSection from "./WhyChosen";
 import LeftRight from "../../solutions/common/alternateBanner";
 import NewBanner from "../../solutions/common/NewBanner";
 import bannerdata from "./bannerdata";
+import GridOfCards from "../../solutions/common/GridOfCards";
+// import GameDev from "./GameDev"
+import GridData from "./GridData";
+
 
 const GameEntertainment = () => {
   return (
@@ -34,9 +38,11 @@ const GameEntertainment = () => {
       <OneCardCoursal items={OneCardDataGame} />
 
       <WhyChooseSection />
+        
 
-      <GameDev />
-
+        {/* edit from here */}
+      <GridOfCards items={{ item: GridData,NoCards:4, title: "Benefits of Artificial Intelligence in Retail Industry" }} />   
+      
       <CustomerSuccess
         items={CustData}
         heading="AI Game Solutions"

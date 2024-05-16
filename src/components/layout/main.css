@@ -422,7 +422,13 @@ section {
   .navmenu .dd-box-shadow {
     box-shadow: 0px 0px 30px rgba(var(--default-color-rgb), 0.15);
   }
+
+
 }
+
+
+
+
 
 /* Mobile Navigation */
 @media (max-width: 1199px) {
@@ -1265,6 +1271,9 @@ section {
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
+}
+.pordinfo{
+  margin-top: -220px;
 }
 
 .portfolio .portfolio-filters li {

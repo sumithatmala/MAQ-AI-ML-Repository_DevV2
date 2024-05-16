@@ -32,13 +32,13 @@ const GameDev = () => {
       altText: 'flexible cooperation models',
       title: 'Player Retention Prediction',
       text: 'ML models to detect player churn and extend the player’s lifetime.',
-  },
-  {
-      iconSrc: cube,
-      altText: 'AI Game Apps',
-      title: 'Immersive Experiences with AR',
-      text: 'Real first-person experiences and more immersive possibilities in gaming.',
-  },
+  }
+  // {
+  //     iconSrc: cube,
+  //     altText: 'AI Game Apps',
+  //     title: 'Immersive Experiences with AR',
+  //     text: 'Real first-person experiences and more immersive possibilities in gaming.',
+  // },
   ];
 
   useEffect(() => {

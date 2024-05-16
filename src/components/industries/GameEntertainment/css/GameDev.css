@@ -73,7 +73,7 @@ ol, ul {
     border: 0;
     border-radius: 7px;
     /* box-shadow: 0 1px 10px rgba(69, 60, 144,.2), 0 4px 5px rgba(69, 60, 144,.12), 0 2px 4px rgba(69, 60, 144,.14); */
-    box-shadow: 4px 3px 19px #80808066 !important;
+    /* box-shadow: 4px 3px 19px #80808066 !important; */
     text-align: center;
 }
 
@@ -123,4 +123,10 @@ img {
     .item38{
         width: 100% !important;
     }
+}
+
+
+.blue-tile-section-list__item.item38 :hover {
+    /* background-color: blue; */
+    box-shadow: 4px 3px 19px #80808066 !important;
 }

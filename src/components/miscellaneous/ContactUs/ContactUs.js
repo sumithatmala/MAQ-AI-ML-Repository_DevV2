@@ -176,7 +176,7 @@ const ContactUs = () => {
         <p>
           For more information on our Microsoft offerings, please visit us on{" "}
           <a href="https://appsource.microsoft.com/en-us/marketplace/consulting-services?search=MAQ%20Software&page=1"><span style={{color:"red"}}> Microsoft AppSource </span> </a> and{" "}
-          <a href="https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services?page=1&search=MAQ%20Software"><span style={{color:"red"}}> Microsoft Marketplace </span> </a>.
+          <a href="https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services?page=1&search=MAQ%20Software"><span style={{color:"red"}}> Microsoft Marketplace </span> </a>
         </p>{" "}
       </div>
 

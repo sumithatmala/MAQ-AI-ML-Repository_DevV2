@@ -1,5 +1,5 @@
 import React from "react";
-import IntegrationSteps from './img/Integration-steps.svg'
+import IntegrationSteps from './img/AI ML Image PNG.png'
 const Integration = () => {
   return (
     <div className="moving-arrow margin-adjust">
@@ -17,7 +17,7 @@ const Integration = () => {
           <div
             id="anim-65b615d870938"
             className="wpbdmv-animation align-center renderer-svg playing"
-            Style="max-width: 100%; margin-right: auto; margin-left: auto;"
+            Style="max-width: 76%; margin-right: auto; margin-left: auto;"
           >
             <img src={IntegrationSteps} alt="Integration Steps" style={{maxWidth:"100%"}} />
           </div>

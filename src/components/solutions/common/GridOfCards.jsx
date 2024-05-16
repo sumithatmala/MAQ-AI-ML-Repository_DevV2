@@ -15,6 +15,8 @@ const CaseItem = ({ iconSrc, altText, title, description, sizeOfCard }) => (
   </li>
 );
 
+
+
 const GridOfCards = (props) => {
   const { items } = props;
   // console.log(items)
@@ -39,5 +41,6 @@ const GridOfCards = (props) => {
     </section>
   );
 };
+
 
 export default GridOfCards;

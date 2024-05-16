@@ -1,4 +1,4 @@
-import Pose_Estimation from "../img/Rectangle 127.svg";
+import Pose_Estimation from "../img/reactangle 127_2.jpg";
 import AI_Powered_Sports from "../img/Rectangle 128.svg";
 import AI_fanengagement from "../img/Rectangle 129.svg";
 
