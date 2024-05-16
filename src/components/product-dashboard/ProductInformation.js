@@ -75,7 +75,7 @@ const ProductInformation = () => {
                   <div
                     className="text-block-center2"
                     data-aos="fade-right"
-                    style={{ boxShadow: "none", width: "1126px" }}
+                    style={{ boxShadow: "none", maxWidth: "1126px" }}
                   >
                     {productDetails.BusinessCase.map((item, index) => (
                       <div key={index}>{item}</div>
