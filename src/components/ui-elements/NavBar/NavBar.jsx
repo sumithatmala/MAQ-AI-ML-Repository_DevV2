@@ -61,10 +61,10 @@ const DropMenuItem = ({ label, link, submenu, defaultMenu }) => {
                     <span>{label}</span>
                     <RxArrowRight className="NavArrow" />
                 </Link>
-                {hovered && (submenu && label !== 'Artificial Intelligence & ML' && <SubMenu items={submenu} />)}
+                {hovered && (submenu && label !== 'Generative AI & GPT' && <SubMenu items={submenu} />)}
             </li>
             {/* {console.log(defaultMenu.submenu)} */}
-            {isDefaultMenu && label !== 'Artificial Intelligence & ML' && !hovered && submenu && <SubMenu items={defaultMenu.submenu} />}
+            {isDefaultMenu && label !== 'Generative AI & GPT' && !hovered && submenu && <SubMenu items={defaultMenu.submenu} />}
         </>
     );
 };

@@ -8,12 +8,12 @@ import downArrow from "./images/down-arow.png"
 export default function Banner() {
   return (
     <>
-    <section id="hero" className="hero">
+    <section id="hero" className="hero" style={{height:"100vh"}}>
       <img src={hero} style = {{marginTop: "2%"}} alt="" className="box fade-into-view hero-img"/>
 
       <div className="container">
-        <div className="col mx-5">
-          <div className="col-lg-5">
+        <div className="col mx-6">
+          <div className="col-lg-6">
             <h2 className="box fade-up1" style={{fontFamily:"segoe UI"}}>
               Machine Learning
             </h2>

@@ -83,6 +83,7 @@ h6 {
     align-items: center;
     justify-content: center;
     /* margin-top: 2rem; */
+    height: 100vh;
   }
   
   .hero .hero-img {
@@ -117,14 +118,14 @@ h6 {
   .hero h2 {
     color: var(--contrast-color);
     margin: 0;
-    font-size: 44px;
+    font-size: 3rem;
     font-weight: 700;
   }
   
   .hero p {
     color: rgba(var(--default-color-rgb), 0.8);
     margin: 5px 0 0 0;
-    font-size: 20px;
+    font-size: 1rem;
   }
   
   .hero .sign-up-form {

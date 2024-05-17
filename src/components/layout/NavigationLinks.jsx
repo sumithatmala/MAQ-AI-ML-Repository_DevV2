@@ -191,7 +191,7 @@ const NavigationLinks = [
     label: "Products",
     submenu: [
       {
-        label: "Artificial Intelligence & ML",
+        label: "Generative AI & GPT",
         submenu: [
           {
             label: "Session Information Bot",
@@ -241,7 +241,7 @@ const NavigationLinks = [
         ],
       },
       {
-        label: "Generative AI & GPT",
+        label: "Artificial Intelligence & ML",
         submenu: [
           {
             label: "Hugging Face Transformers",
