@@ -83,7 +83,7 @@ header {
     margin-top: 20px;
   }
 }
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1300px) {
   .desktop-nav {
     margin: 10px 0 0 250px; 
     margin-top: 20px;
@@ -294,6 +294,11 @@ header {
     
     /* border-right: 2px solid #b8001c */
   }
+  .dropdown.list-wrapper.show {
+    padding-left: 80px!important;
+    padding: 100px 100px;
+    line-height: 3;
+  }
 }
 @media (min-width: 1630px) {
   .dropdown.list-wrapper.show {
@@ -312,6 +317,7 @@ header {
 }
 
 .dropdown.list-wrapper.show {
+  padding-left: 60px;
   padding: 60px 100px;
   line-height: 3;
 }
@@ -465,7 +471,7 @@ svg.rotateArrow {
 }
 
 /* menu on mobile */
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 1150px) {
   .nav-area {
     justify-content: space-between;
   }
@@ -590,6 +596,6 @@ svg.rotateArrow {
 
 
 
-.list-layout-menu-item{
+/* .list-layout-menu-item{
   padding-left: 206px;
-}
+} */
