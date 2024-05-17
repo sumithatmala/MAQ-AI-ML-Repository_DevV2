@@ -43,11 +43,11 @@ const GameEntertainment = () => {
         {/* edit from here */}
       <GridOfCards items={{ item: GridData,NoCards:4, title: "Benefits of Artificial Intelligence in Retail Industry" }} />   
       
-      <CustomerSuccess
+      {/* <CustomerSuccess
         items={CustData}
         heading="AI Game Solutions"
         CardHeight="470px"
-      />
+      /> */}
       <ContactForm />
     </>
   );

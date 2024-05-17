@@ -249,18 +249,18 @@ const NavigationLinks = [
             link: "./product/IntelligentKnowledgeBaseBot" 
           },
           {
-            label: "Hugging Face Transformers",
-            icon: <img src={face_icon} alt=""  width={30}/>, 
+            label: "",
+            // icon: <img src={face_icon} alt=""  width={30}/>, 
             link: "#",
           },
           {
-            label: "DeepAI Text Generation API",
-            icon: <img src={deepAiText_icon} alt=""  width={30}/>, 
+            label: "",
+            // icon: <img src={deepAiText_icon} alt=""  width={30}/>, 
             link: "#",
           },
           {
-            label: "RunwayML",
-            icon: <img src={runaway_icon} alt=""  width={30}/>, 
+            label: "",
+            // icon: <img src={runaway_icon} alt=""  width={30}/>, 
             link: "#",
           },
           {

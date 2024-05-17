@@ -70,12 +70,12 @@ const ProductInformation = () => {
           {/* Product Overview Section */}
           {productDetails.BusinessCase &&
             productDetails.BusinessCase.length > 0 && (
-              <Row className="product-overview margin-adjust" style={{paddingTop:"3rem", display:"block"}}>
-                <Col>
+              <Row id="learn_more_navigate" className="product-overview margin-adjust" style={{display:"block"}}>
+                <Col style={{paddingTop: "2.2rem"}}>
                   <div id="prodinfo"
                     className="text-block-center2"
                     data-aos="fade-right"
-                    style={{ boxShadow: "none", maxWidth: "1126px", paddingTop: "60px" }}
+                    style={{ boxShadow: "none" }}
                   >
                     {productDetails.BusinessCase.map((item, index) => (
                       <div key={index}>{item}</div>
@@ -126,13 +126,12 @@ const ProductInformation = () => {
               style={{ marginBottom: "0px", paddingBottom: "5rem" }}
             />
           </div>
-
           {/* Solution Highlights​ */}
           <section className="bannerCenter margin-adjust">
             {productDetails.solutionHighlights &&
               productDetails.solutionHighlights.length > 0 && (
                 <Row id="prodinfo" className="product-overview sol margin-adjust">
-                  <Col style={{ boxShadow: "none" }}>
+                  <Col class = "prodinfor_highlights" style={{ boxShadow: "none" }}>
                     <div
                       className="icon-container"
                       style={{

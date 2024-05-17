@@ -32,7 +32,7 @@ const AccordionStatic = (props) => {
   }, []); // Empty dependency array to ensure the effect runs once on mount
 
   return (
-    <section className="AccordianContiner margin-adjust" style={{ maxWidth: props.cntWidth }}>
+    <section className="AccordianContiner margin-adjust" style={{ maxWidth: props.cntWidth, paddingBottom: "2%" }}>
       <h3>{props.title}</h3>
       <p>{props.desc}</p>
       <div className="AccordionTitle">

@@ -13,7 +13,7 @@ const NewBanner = (props) => {
                         <h2>{title} </h2>
                         <p> {content} </p>
                         {learnMore ? <HashLink
-                            to={"./#prodinfo"}
+                            to={"./#learn_more_navigate"}
                             style={{
                                 textAlign: "center",
                                 display: "inline-block",

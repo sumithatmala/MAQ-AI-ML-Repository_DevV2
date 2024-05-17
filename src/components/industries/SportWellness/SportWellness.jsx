@@ -35,7 +35,7 @@ const SportWellness =() =>{
 Innovative AI Solutions for Various Domains</h2>
             <Grid content={benefitCards}/>
           </div>
-          <CustomerSuccess items={CutomerSuccessData} heading="AI in Fitness and Tracking" CardHeight="490px"/>
+          {/* <CustomerSuccess items={CutomerSuccessData} heading="AI in Fitness and Tracking" CardHeight="490px"/> */}
           <ContactForm />
         </>
       )

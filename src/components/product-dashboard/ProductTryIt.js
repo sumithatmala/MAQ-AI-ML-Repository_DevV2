@@ -13,7 +13,7 @@ const ProductTryIt = ({ items, link }) => {
         </Row>
         <Row className='product-content'>
           <Col>
-            <MDBContainer>
+            <MDBContainer class = "iframe_size"style={{margin: "0 10%"}}>
               {link ? (
                 <iframe
                   title="Scikit-Learn Tool"

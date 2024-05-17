@@ -47,7 +47,7 @@ const DataCaptureOCR = () => {
             <div style={{ display: "flex", justifyContent: "center" }} className="margin-adjust">
                 <AccordionStatic title={"Other Industries"} desc="As a data extraction company, we provide optical character recognition services and help companies across multiple industries optimize their business processes with the help of our automated data capture software." listItems={AccordionData} titleRatio={"50%"} cntWidth={"896px"} />
             </div>
-            <CustomerSuccess items={customerSuccessData} heading="Computer Vision and Image Processing" CardHeight="390px" />
+            {/* <CustomerSuccess items={customerSuccessData} heading="Computer Vision and Image Processing" CardHeight="390px" /> */}
             <ContactForm contactMsg={"Want to start getting value from your data? Let's discuss how we can help you."} />
         </>
     )

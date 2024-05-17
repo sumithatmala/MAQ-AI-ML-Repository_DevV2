@@ -700,9 +700,9 @@ li.move-right {
 .product-content
 
 {
-  padding-left: 15%;
+  /* padding-left: 15%;
   padding-right: 15%;
-  padding-top: 12px;
+  padding-top: 12px; */
   /* padding-bottom: 2%; */
   background: white;
 }
@@ -767,8 +767,8 @@ body{
 }
 
 .product-container{
-  padding-left: 172px;
-  padding-right: 172px;
+  /* padding-left: 172px;
+  padding-right: 172px; */
 }
 
 }
@@ -795,7 +795,7 @@ body{
 }
 @media (max-width: 1300px) {
   .text-block-center2  {
-      margin-left: 5%;
+      margin-left: 10%;
   }
 }
 

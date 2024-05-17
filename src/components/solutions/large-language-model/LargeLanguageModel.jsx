@@ -91,11 +91,11 @@ const LargeLanguageModel = () => {
         <OurTechStack />
         <BroadExpertise />
         {/* <WhyMAQSoftware /> */}
-        <CustomerSuccess
+        {/* <CustomerSuccess
           items={CutomerSuccessData}
           heading="Large Language Models Implications"
           CardHeight="320px"
-        />
+        /> */}
         <FAQs FAQs={FAQsData} />
         <ContactForm />
       </div>

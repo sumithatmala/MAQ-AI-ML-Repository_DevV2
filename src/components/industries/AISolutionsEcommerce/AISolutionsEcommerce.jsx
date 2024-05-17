@@ -32,13 +32,13 @@ const AISolutionsEcommerce = () => {
       </div>
       <FlatGridLayout items={BusinessLevelUpData} title={"How We Can Level Up Your Business"}/>
       <div className="Container-ir">
-          <section className="WelcomeMsg" style={{margin: "3rem"}}>
+          <section className="WelcomeMsg" style={{margin: "0rem"}}>
             <h2>Leveraging AI for Business Advantages</h2>
             <p>Harnessing the potential of AI to revolutionize E-commerce.</p>
           </section>
         <Grid content={benefitCards}/>
       </div>
-      <CustomerSuccess items={CutomerSuccessData} heading="Our AI Solutions" CardHeight="400px"/>
+      {/* <CustomerSuccess items={CutomerSuccessData} heading="Our AI Solutions" CardHeight="400px"/> */}
       <ContactForm />
     </>
   )

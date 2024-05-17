@@ -3,6 +3,7 @@
 }
 .head-block-center.w-800 {
     max-width: 800px;
+    line-height: normal;
 }
 .head-block-center {
     max-width: 600px;

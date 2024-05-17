@@ -31,7 +31,7 @@ const Retail = () => {
 
       <GridOfCards items={{ item: GridData,NoCards:4, title: "Benefits of Artificial Intelligence in Retail Industry" }} />
 
-      <CustomerSuccess items={retailCustData}  heading="AI Business Intelligence" CardHeight="420px"/>
+      {/* <CustomerSuccess items={retailCustData}  heading="AI Business Intelligence" CardHeight="420px"/> */}
 
       <ContactForm />
     </>
