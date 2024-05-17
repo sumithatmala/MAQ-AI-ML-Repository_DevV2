@@ -32,7 +32,7 @@ import ImporvedKnw from '../images/ImprovedKnowledge.svg'
 // import AnimatedHighlights from "../icons/AnimatedHighlights";
 
 import demoVideo from "./demos/SessionInformationBot.mp4";
-import bannerImg from "../images/Session Information Bot.svg"
+import bannerImg from "../images/Session Information Bot.png"
 const iconSize = {
   height: "5rem",
   width: "5rem",

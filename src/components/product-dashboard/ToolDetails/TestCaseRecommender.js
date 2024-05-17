@@ -21,7 +21,7 @@ import EnhancedQuality from '../images/Test Case Recommender/icons8-quality-100 
 import FasterTimetoMarket from '../images/Test Case Recommender/icons8-market-100 1.svg'
 import EnhancedCollaborationandVisibility from '../images/Test Case Recommender/icons8-user-groups-100 2.svg'
 import CostSavings from '../images/Test Case Recommender/icons8-money-box-100 2.svg'
-import bannerImg from '../images/Test Case Recommender/Test Care Recommender.svg'
+import bannerImg from '../images/Test Case Recommender/Test Care Recommender.png'
 
 
 const iconSize = {

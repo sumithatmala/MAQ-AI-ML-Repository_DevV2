@@ -1,4 +1,4 @@
-import bannerimg from './icons/Healthcare and Pharma.svg'
+import bannerimg from './icons/Healthcare and Pharma.png'
 
 const CsmBanner = {
         title:"Transformative Healthcare Analytics and AI in the Pharmaceutical Sector",

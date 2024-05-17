@@ -33,7 +33,7 @@ const HomePage = () => {
           <GridOfCards items={{ item: reviewData, NoCards: 4, title: "Our services", contactLink: "./ContactUs" }} />
           <AlternateBanner banners={bannerData} count={0} ContactBtn={false} backHighlights={true} />
           {/* <OneCardCarousel items={OneCardData} /> */}
-          <ServiceGrid  items = {transformIndustries} title={"Transforing Industries"} desc={"We welcome opportunities to work alongside different teams over projects of any complexity. By working together, we will develop new systems, solutions, and products to separate you from your competition."}/>
+          <ServiceGrid  items = {transformIndustries} title={"Revolutionizing Industries"} desc={"We welcome opportunities to work alongside different teams over projects of any complexity. By working together, we will develop new systems, solutions, and products to separate you from your competition."}/>
         </div>
         <div className='margin-adjust'>
         <TrustedCompanies/>
@@ -45,7 +45,7 @@ const HomePage = () => {
           <Grid content={ContributionData} />
         {/* <BackgroundBanner items={backBannerData} alignType={"start"} width={"1000px"} /> */}
         <CertificateGrid/>
-        <CustomerSuccess heading={"Highlight Articles"} items={customerSuccessData} CardHeight="260px"/>
+        <CustomerSuccess heading={"Our Case Studies"} items={customerSuccessData} CardHeight="260px"/>
         {/* <ContactForm contactMsg={"Do Let Us Know Your Concern."}/> */}
     </>
   );
