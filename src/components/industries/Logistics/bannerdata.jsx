@@ -1,4 +1,4 @@
-import bannerimg from './img/Logistics.svg'
+import bannerimg from './img/Logistics.png'
 
 const CsmBanner = {
         title:"Intelligent Transport and Logistics Software Solutions",

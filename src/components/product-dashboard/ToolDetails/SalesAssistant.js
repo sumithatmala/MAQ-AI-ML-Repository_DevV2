@@ -1,14 +1,14 @@
 // import demoVideo from "./demos/SupportTicketAssistant.mp4";
-import StorefrontIcon from '@mui/icons-material/Storefront';
-import TroubleshootIcon from '@mui/icons-material/Troubleshoot';
-import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
-import { GrUserManager } from "react-icons/gr";
-import { FaFastForward } from "react-icons/fa";
-import { GrDocumentPerformance } from "react-icons/gr";
-import { GoCodescanCheckmark } from "react-icons/go";
-import { GiNetworkBars } from "react-icons/gi";
-import { MdOutlineNetworkCheck } from "react-icons/md";
-import { GrStatusGood } from "react-icons/gr";
+// import StorefrontIcon from '@mui/icons-material/Storefront';
+// import TroubleshootIcon from '@mui/icons-material/Troubleshoot';
+// import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
+// import { GrUserManager } from "react-icons/gr";
+// import { FaFastForward } from "react-icons/fa";
+// import { GrDocumentPerformance } from "react-icons/gr";
+// import { GoCodescanCheckmark } from "react-icons/go";
+// import { GiNetworkBars } from "react-icons/gi";
+// import { MdOutlineNetworkCheck } from "react-icons/md";
+// import { GrStatusGood } from "react-icons/gr";
 
 
 
@@ -25,7 +25,7 @@ import ImprovedAccuracy from '../images/Sales Assistant/icons8-accuracy-100 1.sv
 import EnhancedEfficiencyandProductivity from '../images/Sales Assistant/icons8-punctuality-100 1.svg'
 import IncreasedSalesConversion from '../images/Sales Assistant/icons8-summer-sales-100 (1) 1.svg'
 import CompetitiveAdvantage from '../images/Sales Assistant/icons8-american-football-player-100 1.svg'
-import bannerImg from '../images/Sales Assistant/Sales assistant.svg'
+import bannerImg from '../images/Sales Assistant/Sales assistant.png'
 
 
 const iconSize = {
@@ -77,37 +77,37 @@ export const SalesAssistant = {
       title: "Streamlined Client Profiling",
       description:
         ["Focused questioning and information gathering enables the sales team to streamline the client profiling process, reducing time and resource requirements."],
-      image: <img src={StreamlinedClientProfiling} width="100px" style={iconSizeBO} />
+      image: <img src={StreamlinedClientProfiling} width="100px" style={iconSizeBO} alt=""/>
     },
     {
       title: "Faster Personalized Solutions",
       description:
         ["By matching client data with business value maps, the sales team can provide personalized solutions more quickly, improving response times and customer satisfaction"],
-      image: <img src={FasterPersonalizedSolutions} width="100px" style={iconSizeBO} />
+      image: <img src={FasterPersonalizedSolutions} width="100px" style={iconSizeBO} alt=""/>
     },
     {
       title: "Improved Accuracy",
       description:
         ["Gathering precise and relevant information about client priorities, challenges, goals, and risks, leading to more accurate client profiles and better-aligned solutions"],
-      image: <img src={ImprovedAccuracy} width="100px" style={iconSizeBO} />
+      image: <img src={ImprovedAccuracy} width="100px" style={iconSizeBO} alt=""/>
     },
     {
       title: "Enhanced Efficiency and Productivity",
       description:
         ["Reduces manual effort, allowing the sales team to focus on more strategic activities, increasing overall efficiency and productivity."],
-      image: <img src={EnhancedEfficiencyandProductivity} width="100px" style={iconSizeBO} />
+      image: <img src={EnhancedEfficiencyandProductivity} width="100px" style={iconSizeBO} alt=""/>
     },
     {
       title: "Increased Sales Conversion",
       description:
         ["Provides tailored solutions quickly and accurately improves the chances of sales conversion, resulting in higher revenue and business growth."],
-      image: <img src={IncreasedSalesConversion} width="100px" style={iconSizeBO} />
+      image: <img src={IncreasedSalesConversion} width="100px" style={iconSizeBO} alt=""/>
     },
     {
       title: "Competitive Advantage",
       description:
         ["Efficient,& personalized solutions gives the company a competitive edge in the market, attracting more clients and retaining existing ones."],
-      image: <img src={CompetitiveAdvantage} width="100px" style={iconSizeBO} />
+      image: <img src={CompetitiveAdvantage} width="100px" style={iconSizeBO} alt=""/>
     },
   ],
   solutionHighlights: [

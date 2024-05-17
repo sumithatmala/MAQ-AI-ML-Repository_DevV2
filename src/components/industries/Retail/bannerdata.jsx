@@ -1,4 +1,4 @@
-import bannerimg from './icons/Retail.svg'
+import bannerimg from './icons/Retail.png'
 
 const CsmBanner = {
         title:"Elevate Your Retail Presence with AI Innovations",

@@ -1,9 +1,9 @@
-import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
-import QueryStatsIcon from '@mui/icons-material/QueryStats';
-import { MdManageHistory } from "react-icons/md";
-import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
-import ConstructionIcon from '@mui/icons-material/Construction';
-import SchoolIcon from '@mui/icons-material/School';
+// import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
+// import QueryStatsIcon from '@mui/icons-material/QueryStats';
+// import { MdManageHistory } from "react-icons/md";
+// import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
+// import ConstructionIcon from '@mui/icons-material/Construction';
+// import SchoolIcon from '@mui/icons-material/School';
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import SpeedIcon from '@mui/icons-material/Speed';
 import OutputIcon from '@mui/icons-material/Output';
@@ -21,7 +21,7 @@ import PersonalizedPatientEXp from '../images/IntelligentDocProcessing/Personali
 import AnalyticsandDecisionMaking from '../images/IntelligentDocProcessing/AnalyticsandDecisionMaking.svg'
 import CostReduction from '../images/IntelligentDocProcessing/CostReduction.svg'
 import EfficiencyandTimeSaving from '../images/IntelligentDocProcessing/EfficiencyandTimeSaving.svg'
-import bannerImg from '../images/IntelligentDocProcessing/Intelligent Document Process Bot.svg'
+import bannerImg from '../images/IntelligentDocProcessing/Intelligent Document Process Bot.png'
 // const iconSize = {
 //   height: "5rem",
 //   width: "5rem",
@@ -40,7 +40,7 @@ const iconSizeBO = {
 }
 export const IntelligentDocumentProcessingBot = {
   title: "Intelligent Document Process Bot",
-  content: "An OCR system automates converting patient information from PDFs and images, reducing manual effort and errors. It extracts data from documents, adds it to a knowledge base, and uses a question-based approach for accurate retrieval. An interactive virtual agent improves user experience with an intuitive interface.",
+  content: "An OCR system automates converting patient information from PDFs and images, reducing manual effort and errors. It extracts data, adds it to a knowledge base, and ensures accurate retrieval. An interactive virtual agent enhances user experience with an intuitive interface.",
   img:bannerImg,
   BusinessCase: [
     "A highly efficient and accurate OCR system is required to automate the conversion of patient information from PDFs and images, reducing manual effort, saving time, and minimizing errors while generating structured and insightful data.",
@@ -71,7 +71,7 @@ export const IntelligentDocumentProcessingBot = {
     {
       title: "Improved Access to Insights ",
       description: ["By structuring and indexing the extracted data, Healthcare providers can generate insightful reports, identify patterns, and make data-driven decisions more effectively."],
-      image: <img src={ImprovedAccesstoInsights} width="100px" style={iconSizeBO} />
+      image: <img src={ImprovedAccesstoInsights} width="100px" style={iconSizeBO} alt=''/>
     },
     {
       title: "Enhanced Document handling",
@@ -88,7 +88,7 @@ export const IntelligentDocumentProcessingBot = {
     {
       title: "Improved Analytics and Decision Making ",
       description: ["Accurate data extraction and structuring in healthcare enable advanced analytics, evidence-based decision-making, process optimization, and improved outcomes."],
-      image: <img src={AnalyticsandDecisionMaking} width="100px" style={iconSizeBO} />
+      image: <img src={AnalyticsandDecisionMaking} width="100px" style={iconSizeBO} alt=''/>
     },
     {
       title: "Cost Reduction",

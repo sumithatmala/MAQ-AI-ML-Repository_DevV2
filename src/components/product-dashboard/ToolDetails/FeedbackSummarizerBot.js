@@ -15,7 +15,7 @@ import AcclDecisionMake from '../images/AcclDecisionMake.svg'
 import IncreasedCustSatasf from '../images/IncreasedCustSatasf.svg'
 import ProactiveIssueResolution from '../images/ProactiveIssueResolution.svg'
 import CompetitiveAdv from '../images/CompetitiveAdv.svg'
-import bannerImg from '../images/Feedback Summerizer Bot/Feedback Summerized Bot.svg'
+import bannerImg from '../images/Feedback Summerizer Bot/Feedback Summerized Bot.png'
 
 // const iconSize = {
 //   height: "5rem",

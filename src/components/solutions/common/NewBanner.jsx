@@ -3,7 +3,7 @@ import './css/NewBanner.css';
 import { HashLink } from 'react-router-hash-link';
 
 const NewBanner = (props) => {
-    const { title, content, image, learnMore } = props.data;
+    const { title, content, image, learnMore, width, left} = props.data;
     return (
         <section className="bannerbody">
             <div className="backImg" >
@@ -12,7 +12,7 @@ const NewBanner = (props) => {
                     <div className="banner_content">
                         <h2>{title} </h2>
                         <p> {content} </p>
-                        {learnMore?<HashLink
+                        {learnMore ? <HashLink
                             to={"./#prodinfo"}
                             style={{
                                 textAlign: "center",
@@ -25,9 +25,9 @@ const NewBanner = (props) => {
                                 </span>
                                 <span className="button-text" style={{ paddingLeft: "12px" }}>Learn More</span>
                             </button>
-                        </HashLink>:<></>}
+                        </HashLink> : <></>}
                     </div>
-                    <div className="banner_image"> <img src={image} alt="bannerImage" /> </div>
+                    <div className="banner_image" style={{position: {left}}}> <img src={image} alt="bannerImage" width={width}/> </div>
                 </div>
             </div>
         </section>

@@ -17,6 +17,7 @@ const AlternateBanner = ({
               className={
                 "margin-adjust BannerVisual" + (count % 2 ? "Rgt" : "Lft")
               }
+              style={{marginBottom:"3rem"}}
             >
               <div className="ImgContainer">
                 {item.img}

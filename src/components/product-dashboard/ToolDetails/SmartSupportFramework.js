@@ -25,7 +25,7 @@ import SupportRep from '../images/SmartSupportFrameWorks/SupportRep.svg'
 import SystemAdmin from '../images/SmartSupportFrameWorks/SystemAdmin.svg'
 import TicketReg from '../images/SmartSupportFrameWorks/TicketReg.svg'
 
-import bannerImg from '../images/SmartSupportFrameWorks/Smart Support Framework.svg'
+import bannerImg from '../images/SmartSupportFrameWorks/Smart Support Framework.png'
 
 const iconSize = {
     height: "5rem",

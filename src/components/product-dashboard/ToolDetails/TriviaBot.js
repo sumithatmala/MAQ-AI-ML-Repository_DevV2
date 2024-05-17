@@ -26,7 +26,7 @@ import EfficientReport from '../images/Trivia Bot/icons8-presentation-100 1@2x.s
 import DecisionMaking from '../images/Trivia Bot/icons8-problem-solving-skills-100 (1) 1@2x.svg'
 import MotivatedPart from '../images/Trivia Bot/icons8-volunteering-100 1@2x.svg'
 
-import bannerImg from '../images/Trivia Bot/Trivia Bot.svg'
+import bannerImg from '../images/Trivia Bot/Trivia Bot.png'
 
 const iconSize = {
     height: "5rem",

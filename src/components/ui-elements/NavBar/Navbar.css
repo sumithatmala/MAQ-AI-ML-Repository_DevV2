@@ -30,7 +30,7 @@ header {
   position: fixed;
   width: 100%;
   img{
-    margin: 0 16px;
+    margin: 0 30px;
   }
   /* margin-top: -3.3vh !important; */
   /* z-index: 999; */
@@ -83,7 +83,7 @@ header {
     margin-top: 20px;
   }
 }
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1270px) {
   .desktop-nav {
     margin: 10px 0 0 250px; 
     margin-top: 20px;
@@ -465,7 +465,7 @@ svg.rotateArrow {
 }
 
 /* menu on mobile */
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1110px) {
   .nav-area {
     justify-content: space-between;
   }

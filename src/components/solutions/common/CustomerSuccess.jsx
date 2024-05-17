@@ -9,7 +9,7 @@ import "./css/CustomerSuccess.css"
 
 
 const CustomerSuccess = (props) => {
-  const { items, defaultSlidesToShow, CardHeight, autoPlay, centerUp } = props;
+  const { items, defaultSlidesToShow, CardHeight, autoPlay, centerUp,link } = props;
 
   const slidesToShow = props.slidesToShow || defaultSlidesToShow;
 
@@ -86,13 +86,13 @@ const CustomerSuccess = (props) => {
                       <p key={index}> {paragraph} </p>
                     ))) : (<></>)}
                   </div>
-                  {/* {outcome.link ? (
+                  {outcome.link ? (
                     <div className="learn-more">
                     <a className="learn-more-text" href={outcome.link}>Learn More</a>
                     </div>
                   ) : (
                     <></>
-                  )} */}
+                  )}
                 </div>
               </div>
             ))}

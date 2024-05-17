@@ -3,16 +3,16 @@ import PsychologyAltIcon from "@mui/icons-material/PsychologyAlt";
 import SpeedIcon from "@mui/icons-material/Speed";
 import OutputIcon from "@mui/icons-material/Output";
 import demoVideo from "./demos/SupportTicketAssistant.mp4";
-import { IoTicketSharp } from "react-icons/io5";
-import SupportAgentIcon from "@mui/icons-material/SupportAgent";
-import { GrUserManager } from "react-icons/gr";
-import { FaBusinessTime } from "react-icons/fa6";
-import { IoIosTime } from "react-icons/io";
-import { GiProcessor } from "react-icons/gi";
-import { GrDocumentPerformance } from "react-icons/gr";
-import { MdSentimentSatisfiedAlt } from "react-icons/md";
-import { MdOutlinePriceCheck } from "react-icons/md";
-import ScaleIcon from "@mui/icons-material/Scale";
+// import { IoTicketSharp } from "react-icons/io5";
+// import SupportAgentIcon from "@mui/icons-material/SupportAgent";
+// import { GrUserManager } from "react-icons/gr";
+// import { FaBusinessTime } from "react-icons/fa6";
+// import { IoIosTime } from "react-icons/io";
+// import { GiProcessor } from "react-icons/gi";
+// import { GrDocumentPerformance } from "react-icons/gr";
+// import { MdSentimentSatisfiedAlt } from "react-icons/md";
+// import { MdOutlinePriceCheck } from "react-icons/md";
+// import ScaleIcon from "@mui/icons-material/Scale";
 
 
 import TicketReq from '../images/Support Ticket Assistant/icons8-new-ticket-100 1.svg'
@@ -26,7 +26,7 @@ import TeamPerformance from '../images/Support Ticket Assistant/icons8-onboardin
 import CustSatisfaction from '../images/Support Ticket Assistant/icons8-happy-100 1.svg'
 import WorkloadCosts from '../images/Support Ticket Assistant/icons8-low-price-pound-100 (1) 1.svg'
 import Scalability from '../images/Support Ticket Assistant/icons8-weight-care-100 1.svg'
-import bannerImg from '../images/Support Ticket Assistant/Support Ticket Assistant.svg'
+import bannerImg from '../images/Support Ticket Assistant/Support Ticket Assistant.png'
 
 const iconSize = {
   height: "5rem",
@@ -82,37 +82,37 @@ export const SupportTicketAssistant = {
       title: "Improved Response Time",
       description:
         ["Reduced response times for support ticket requests, enhancing customer satisfaction and loyalty."],
-      image: <img src={ImprovedResTime} width="100px" style={iconSizeBO} />
+      image: <img src={ImprovedResTime} width="100px" style={iconSizeBO} alt=""/>
     },
     {
       title: "Standardized Support Processes",
       description:
         ["Automated system enforces consistent handling of support requests, ensuring standardized responses and improving the overall customer experience."],
-      image: <img src={StandardizedSupport} width="100px" style={iconSizeBO} />
+      image: <img src={StandardizedSupport} width="100px" style={iconSizeBO} alt=""/>
     },
     {
       title: "Improved Team Performance",
       description:
         ["Automation provides visibility into support team performance metrics, enabling managers to identify areas for improvement, provide targeted training, and enhance overall team performance."],
-      image: <img src={TeamPerformance} width="100px" style={iconSizeBO} />
+      image: <img src={TeamPerformance} width="100px" style={iconSizeBO} alt=""/>
     },
     {
       title: "Increased Customer Satisfaction",
       description:
         ["By addressing customer concerns quickly and efficiently can enhance the customer experience, resulting in higher satisfaction levels and positive brand perception"],
-      image: <img src={CustSatisfaction} width="100px" style={iconSizeBO} />
+      image: <img src={CustSatisfaction} width="100px" style={iconSizeBO} alt=""/>
     },
     {
       title: "Reduced Workload and Costs",
       description:
         ["Automation eliminates repetitive and manual tasks, reducing the workload on support teams and minimizing operational costs associated with support request handling."],
-      image: <img src={WorkloadCosts} width="100px" style={iconSizeBO} />
+      image: <img src={WorkloadCosts} width="100px" style={iconSizeBO} alt=""/>
     },
     {
       title: "Scalability",
       description:
         ["The automated system can handle high volumes of support requests without compromising response times or accuracy, allowing businesses to scale their support operations as needed."],
-      image: <img src={Scalability} width="100px" style={iconSizeBO} />
+      image: <img src={Scalability} width="100px" style={iconSizeBO} alt=""/>
     },
   ],
   solutionHighlights: [

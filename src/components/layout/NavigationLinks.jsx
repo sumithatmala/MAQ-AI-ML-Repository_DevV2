@@ -356,11 +356,11 @@ const NavigationLinks = [
         link: "/Industries/Fintech",
         icon: <img src={fintech_icon} alt="" width={30}/>,
       },
-      {
-        label: "Game & Entertainment",
-        link: "/Industries/GameEntertainment",
-        icon: <img src={game_icon} alt="" width={30}/>,
-      },
+      // {
+      //   label: "Game & Entertainment",
+      //   link: "/Industries/GameEntertainment",
+      //   icon: <img src={game_icon} alt="" width={30}/>,
+      // },
       {
         label: "Healthcare & Pharma",
         link: "/Industries/Health&Pharma",
@@ -381,11 +381,11 @@ const NavigationLinks = [
         link: "/Industries/Retail",
         icon: <img src={retail_icon} alt="" width={30}/>,
       },
-      {
-        label: "Sport & Wellness",
-        link: "/Industries/SportWellness",
-        icon: <img src={sports_icon} alt="" width={30}/>,
-      },
+      // {
+      //   label: "Sport & Wellness",
+      //   link: "/Industries/SportWellness",
+      //   icon: <img src={sports_icon} alt="" width={30}/>,
+      // },
     ],
   },
   // { label: "Blog", link: "#" },
