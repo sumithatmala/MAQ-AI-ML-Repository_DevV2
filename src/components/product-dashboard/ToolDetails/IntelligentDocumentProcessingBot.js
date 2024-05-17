@@ -154,7 +154,7 @@ export const IntelligentDocumentProcessingBot = {
     link: { demoVideo },
   },
   tryit: {
-      link: ""
+      link: "https://kbbotmaq-dev.azurewebsites.net/"
   },
   // gallery: [
   //             {

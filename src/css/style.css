@@ -793,7 +793,11 @@ body{
   /* background-color: #0062cc; */
   margin-top: -100px;
 }
-
+@media (max-width: 1300px) {
+  .text-block-center2  {
+      margin-left: 5%;
+  }
+}
 
 
 

@@ -1,13 +1,13 @@
-import StorefrontIcon from '@mui/icons-material/Storefront';
-import TroubleshootIcon from '@mui/icons-material/Troubleshoot';
-import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
-import { GrUserManager } from "react-icons/gr";
-import { FaFastForward } from "react-icons/fa";
-import { GrDocumentPerformance } from "react-icons/gr";
-import { GoCodescanCheckmark } from "react-icons/go";
-import { GiNetworkBars } from "react-icons/gi";
-import { MdOutlineNetworkCheck } from "react-icons/md";
-import { GrStatusGood } from "react-icons/gr";
+// import StorefrontIcon from '@mui/icons-material/Storefront';
+// import TroubleshootIcon from '@mui/icons-material/Troubleshoot';
+// import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
+// import { GrUserManager } from "react-icons/gr";
+// import { FaFastForward } from "react-icons/fa";
+// import { GrDocumentPerformance } from "react-icons/gr";
+// import { GoCodescanCheckmark } from "react-icons/go";
+// import { GiNetworkBars } from "react-icons/gi";
+// import { MdOutlineNetworkCheck } from "react-icons/md";
+// import { GrStatusGood } from "react-icons/gr";
 
 
 
@@ -25,7 +25,7 @@ import ImprovedAccuracy from '../images/Sales Assistant/icons8-accuracy-100 1.sv
 import EnhancedEfficiencyandProductivity from '../images/Sales Assistant/icons8-punctuality-100 1.svg'
 import IncreasedSalesConversion from '../images/Sales Assistant/icons8-summer-sales-100 (1) 1.svg'
 import CompetitiveAdvantage from '../images/Sales Assistant/icons8-american-football-player-100 1.svg'
-import bannerImg from '../images/Sales Assistant/Sales assistant.svg'
+import bannerImg from '../images/Sales Assistant/Sales assistant.png'
 
 
 const iconSize = {

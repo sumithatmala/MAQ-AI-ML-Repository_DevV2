@@ -2,7 +2,7 @@
 import PsychologyAltIcon from "@mui/icons-material/PsychologyAlt";
 import SpeedIcon from "@mui/icons-material/Speed";
 import OutputIcon from "@mui/icons-material/Output";
-import demoVideo from "./demos/SupportTicketAssistant.mp4";
+import demoVideo from "./DemoVideo/SupportTicketAssistant.mp4";
 // import { IoTicketSharp } from "react-icons/io5";
 // import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 // import { GrUserManager } from "react-icons/gr";

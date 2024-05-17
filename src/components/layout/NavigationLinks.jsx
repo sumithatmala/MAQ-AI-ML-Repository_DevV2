@@ -238,16 +238,16 @@ const NavigationLinks = [
             icon: <img src={testcase_icon} alt=""  width={30}/>, 
             link: "./product/TestCaseRecommender" 
           },
-          { 
-            label: "Intelligent Knowledge Base Bot",
-            icon: <img src={testcase_icon} alt=""  width={30}/>, 
-            link: "./product/IntelligentKnowledgeBaseBot" 
-          },
         ],
       },
       {
         label: "Artificial Intelligence & ML",
         submenu: [
+          { 
+            label: "Knowledge Base Bot",
+            icon: <img src={GPT_icon} alt=""  width={30}/>, 
+            link: "./product/IntelligentKnowledgeBaseBot" 
+          },
           {
             label: "Hugging Face Transformers",
             icon: <img src={face_icon} alt=""  width={30}/>, 
@@ -259,19 +259,31 @@ const NavigationLinks = [
             link: "#",
           },
           {
-            label: "EleutherAI GPT Models",
-            icon: <img src={GPT_icon} alt=""  width={30}/>, 
-            link: "#",
-          },
-          {
             label: "RunwayML",
             icon: <img src={runaway_icon} alt=""  width={30}/>, 
             link: "#",
           },
+          {
+            label: "",
+            icon: "", 
+            link: "#",
+          },
+          {
+            label: "",
+            icon: "", 
+            link: "#",
+          },
+          {
+            label: "",
+            icon: "", 
+            link: "#",
+          },
+          {
+            label: "",
+            icon: "", 
+            link: "#",
+          },
         ],
-        icon: "",
-        alt: "",
-        link: "#",
       },
     ],
   },
