@@ -177,7 +177,7 @@ import textAnalysis_icon from "./images/Text Analysis.svg"
 import health_icon from "./images/health.svg" //-
 import automobile_icon from "./images/automobile.svg" //-
 import retail_icon from "./images/Retail.svg"
-import ecommerce_icon from "./images/Ecommerce.svg"
+import ecommerce_icon from "./images/ecommerce.svg"
 import fintech_icon from "./images/fintech.svg" //-
 import game_icon from "./images/Game and Entertainment.svg"
 import logistics_icon from "./images/logistics.svg" //
