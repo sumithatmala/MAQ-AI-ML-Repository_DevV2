@@ -40,7 +40,7 @@ const iconSizeBO = {
 
 export const DocumentClassificationWithVirtualAssistant = {
     title: "Document Classification with Virtual Assistant",
-    content: "The Session Information Bot optimizes information retrieval from past sessions, offering quick access, contextual search, and interactive user experiences. It enhances knowledge management, streamlining support processes and fostering improved collaboration within organizations.",
+    content: "Document classification with a virtual assistant involves utilizing natural language processing (NLP) techniques and machine learning algorithms to automatically categorize and organize documents based on their content.",
     img: bannersvg,
     BusinessCase: [
         "Implementing an OpenAI-powered chatbot for automated data extraction from business documents addresses the time-consuming and error-prone nature of manual processes, ensuring accurate results while applying necessary business rules, thereby enhancing user experience and improving efficiency.",
@@ -138,7 +138,7 @@ export const DocumentClassificationWithVirtualAssistant = {
         },
     ],
     demo: {
-        link: [ demoVideo ],
+        link: {demoVideo},
     },
     tryit: {
         link: ""

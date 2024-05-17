@@ -297,7 +297,7 @@ header {
 }
 @media (min-width: 1630px) {
   .dropdown.list-wrapper.show {
-    padding: 60px 100px;
+    padding: 133px 100px;
     line-height: 3;
   }
 
@@ -312,7 +312,7 @@ header {
 }
 
 .dropdown.list-wrapper.show {
-  padding: 60px 100px;
+  padding: 100px 100px;
   line-height: 3;
 }
 
