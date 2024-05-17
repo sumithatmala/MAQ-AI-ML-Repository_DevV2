@@ -1,4 +1,4 @@
-import demoVideo from './demos/FeedbackSummarizerBot.mp4'
+import demoVideo from './DemoVideo/FeedbackSummarizerBot.mp4'
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import SpeedIcon from '@mui/icons-material/Speed';
 import OutputIcon from '@mui/icons-material/Output';
@@ -35,7 +35,7 @@ import bannerImg from '../images/Feedback Summerizer Bot/Feedback Summerized Bot
 
 export const FeedbackSummarizerBot = {
     title: "Feedback Summarizer Bot",
-    content: "The Session Information Bot optimizes information retrieval from past sessions, offering quick access, contextual search, and interactive user experiences. It enhances knowledge management, streamlining support processes and fostering improved collaboration within organizations.",
+    content: "Your go-to for consolidating feedback into actionable insights. With its knack for condensing diverse feedback sources, it's your shortcut to informed decision-making.",
     img:bannerImg,
     BusinessCase: [
       "As businesses increasingly depend on customer feedback for product development and enhancing customer experience, efficiently analyzing vast amounts of feedback data poses a significant challenge. Traditional analysis methods are often subjective and time-consuming, resulting in missed opportunities and delays in implementing crucial changes. Recognizing this, there is a pressing need for an intelligent feedback mechanism that efficiently accelerates organizational responses to the received feedback, facilitating more timely and informed decision-making processes."

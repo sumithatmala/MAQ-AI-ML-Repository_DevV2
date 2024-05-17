@@ -238,6 +238,11 @@ const NavigationLinks = [
             icon: <img src={testcase_icon} alt=""  width={30}/>, 
             link: "./product/TestCaseRecommender" 
           },
+          { 
+            label: "Intelligent Knowledge Base Bot",
+            icon: <img src={testcase_icon} alt=""  width={30}/>, 
+            link: "./product/IntelligentKnowledgeBaseBot" 
+          },
         ],
       },
       {

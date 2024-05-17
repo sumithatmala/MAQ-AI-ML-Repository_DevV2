@@ -12,7 +12,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import SpeedIcon from '@mui/icons-material/Speed';
 import OutputIcon from '@mui/icons-material/Output';
-import demoVideo from './demos/SmartSupportFramework.mp4';
+import demoVideo from './DemoVideo/TriviaBot.mp4';
 
 import MarketManage from '../images/Trivia Bot/icons8-marketing-100 1@2x.svg'
 import DataAnalyst from '../images/Trivia Bot/icons8-networking-manager-100 1@2x.svg'

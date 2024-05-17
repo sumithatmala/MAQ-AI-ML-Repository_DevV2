@@ -746,19 +746,24 @@ li.move-right {
 
 
 
-@media (min-width: 1200px) and (max-width: 1322px){
+@media (min-width: 1000px) and (max-width: 1322px){
 .col   {
   /* background-color: #0062cc; */
-  font-size: 13px;
+  
   /* color: #0062cc; */
   /* padding-left: 112px;
   padding-right: 112px; */
   /* width: 953px; */
   padding-left: 172px;
-  padding-right: 172px;
+  padding-right: 12px;
+  font-family: sans-serif;
 }
 .nav-area a {
   padding-left: 10px;
+}
+
+body{
+  font-size: 0.8rem;
 }
 
 .product-container{
@@ -1794,4 +1799,24 @@ button.bg-dark:focus {
   opacity: 1;
   transition: opacity 1s ease; /* Add transition property */
 }
+
+
+
+
+/* media query for laptop display */
+@media (min-width: 1030px) and (max-width: 1300px){
+  .menus{
+    /* background-color: #0062cc; */
+    margin-left: -152px;
+  }
+  
+  .Navbar-brand.mb-0.h1{
+    /* background-color: #0062cc; */
+    margin-left: 50px;
+  }
+
+}
+
+
+
 

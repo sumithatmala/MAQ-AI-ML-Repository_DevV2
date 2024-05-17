@@ -11,8 +11,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import SpeedIcon from '@mui/icons-material/Speed';
 import OutputIcon from '@mui/icons-material/Output';
-import demoVideo from './demos/SmartSupportFramework.mp4'
-import demoVideo2 from './demos/SmartSupportFramework.mp4'
+import demoVideo from './DemoVideo/SmartSupportFramework.mp4'
 
 import CustomerSatisfaction from '../images/SmartSupportFrameWorks/CustomerSatisfaction.svg'
 import EnhancedTicketSeverity from '../images/SmartSupportFrameWorks/EnhancedTicketSeverity.svg'
@@ -144,7 +143,7 @@ export const SmartSupportFramework = {
         },
     ],
     demo: {
-        link: [demoVideo, demoVideo2],
+        link: {demoVideo},
     },
     tryit: {
         link: ""

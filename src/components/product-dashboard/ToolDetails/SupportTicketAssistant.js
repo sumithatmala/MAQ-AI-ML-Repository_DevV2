@@ -152,7 +152,7 @@ export const SupportTicketAssistant = {
     },
   ],
   demo: {
-    link: [demoVideo],
+    link: {demoVideo},
   },
   tryit: {
     link: "",

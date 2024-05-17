@@ -11,8 +11,8 @@
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import SpeedIcon from '@mui/icons-material/Speed';
 import OutputIcon from '@mui/icons-material/Output';
-import demoVideo from './demos/DocumentClassificationWithVirtualAssistant.mp4'
-// import demoVideo2 from './demos/DocumentClassificationWithVirtualAssistant2.mp4'
+import demoVideo from './DemoVideo/DocumentClassificationWithVirtualAssistant.mp4'
+// import demoVideo2 from './DemoVideo/DocumentClassificationWithVirtualAssistant2.mp4'
 
 import BusinessAnalyst from '../images/DocumentClassificationWithVirtualAssistant/BusinessAnalyst.svg'
 import Collab from '../images/DocumentClassificationWithVirtualAssistant/Collab.svg'
@@ -40,7 +40,7 @@ const iconSizeBO = {
 
 export const DocumentClassificationWithVirtualAssistant = {
     title: "Document Classification with Virtual Assistant",
-    content: "The Session Information Bot optimizes information retrieval from past sessions, enhancing knowledge management and streamlining support processes. It fosters improved collaboration within organizations.",
+    content: "Document classification with a virtual assistant involves utilizing natural language processing (NLP) techniques and machine learning algorithms to automatically categorize and organize documents based on their content.",
     img: bannersvg,
     BusinessCase: [
         "Implementing an OpenAI-powered chatbot for automated data extraction from business documents addresses the time-consuming and error-prone nature of manual processes, ensuring accurate results while applying necessary business rules, thereby enhancing user experience and improving efficiency.",
@@ -138,7 +138,7 @@ export const DocumentClassificationWithVirtualAssistant = {
         },
     ],
     demo: {
-        link: [ demoVideo ],
+        link: {demoVideo},
     },
     tryit: {
         link: ""

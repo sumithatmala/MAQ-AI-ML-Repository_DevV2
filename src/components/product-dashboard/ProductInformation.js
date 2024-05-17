@@ -27,7 +27,7 @@ import NewBanner from "../solutions/common/NewBanner"
 const ProductInformation = () => {
   const [productDetails, setproductDetails] = useState(null);
   const { productName } = useParams();
-
+  // console.log(productName);
   useEffect(() => {
     console.log(productName);
     AOS.init({
