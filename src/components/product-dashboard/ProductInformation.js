@@ -70,12 +70,12 @@ const ProductInformation = () => {
           {/* Product Overview Section */}
           {productDetails.BusinessCase &&
             productDetails.BusinessCase.length > 0 && (
-              <Row id="prodinfo" className="product-overview margin-adjust" style={{paddingTop:"3rem"}}>
+              <Row className="product-overview margin-adjust" style={{paddingTop:"3rem", display:"block"}}>
                 <Col>
-                  <div
+                  <div id="prodinfo"
                     className="text-block-center2"
                     data-aos="fade-right"
-                    style={{ boxShadow: "none", maxWidth: "1126px" }}
+                    style={{ boxShadow: "none", maxWidth: "1126px", paddingTop: "60px" }}
                   >
                     {productDetails.BusinessCase.map((item, index) => (
                       <div key={index}>{item}</div>

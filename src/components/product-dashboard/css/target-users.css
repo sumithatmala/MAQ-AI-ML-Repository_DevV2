@@ -361,7 +361,7 @@ body {
   }
 
   .product_carousel .separate-slider__img-figure {
-    border: 3px solid #b31c1c;
+    border: 3px solid rgb(221 221 221);
     border-radius: 15px;
     padding: 10%;
     height: 230px;
