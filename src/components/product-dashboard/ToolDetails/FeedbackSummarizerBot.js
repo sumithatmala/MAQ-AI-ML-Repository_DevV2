@@ -1,4 +1,4 @@
-import demoVideo from './demos/FeedbackSummarizerBot.mp4'
+import demoVideo from './DemoVideo/FeedbackSummarizerBot.mp4'
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import SpeedIcon from '@mui/icons-material/Speed';
 import OutputIcon from '@mui/icons-material/Output';

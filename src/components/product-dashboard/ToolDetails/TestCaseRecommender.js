@@ -1,4 +1,4 @@
-import demoVideo from "./demos/TestCaseRecommender.mp4";
+import demoVideo from "./DemoVideo/TestCaseRecommender.mp4";
 import { MdEngineering } from "react-icons/md";
 import { GrUserManager } from "react-icons/gr";
 import { TiGroup } from "react-icons/ti";
@@ -150,7 +150,7 @@ export const TestCaseRecommender = {
     link: { demoVideo },
   },
   tryit: {
-    link: "",
+    link: "https://testcaserecommenderfrontend.azurewebsites.net/",
   },
 
   FAQs: [

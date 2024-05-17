@@ -7,7 +7,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import SpeedIcon from '@mui/icons-material/Speed';
 import OutputIcon from '@mui/icons-material/Output';
-import demoVideo from './demos/IntelligentDocumentProcessingBot.mp4';
+import demoVideo from './DemoVideo/IntelligentDocumentProcessingBot.mp4';
 
 import HealthcareAdmin from '../images/HealthcareAdmins.svg'
 import HealthcarePro from '../images/HealthcareProviders.svg'

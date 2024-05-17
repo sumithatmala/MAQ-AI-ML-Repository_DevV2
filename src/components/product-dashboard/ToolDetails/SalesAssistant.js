@@ -1,4 +1,4 @@
-// import demoVideo from "./demos/SupportTicketAssistant.mp4";
+// import demoVideo from "./demo/SupportTicketAssistant.mp4";
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import TroubleshootIcon from '@mui/icons-material/Troubleshoot';
 import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';

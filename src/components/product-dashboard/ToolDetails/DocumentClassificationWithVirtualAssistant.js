@@ -11,8 +11,8 @@
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import SpeedIcon from '@mui/icons-material/Speed';
 import OutputIcon from '@mui/icons-material/Output';
-import demoVideo from './demos/DocumentClassificationWithVirtualAssistant.mp4'
-// import demoVideo2 from './demos/DocumentClassificationWithVirtualAssistant2.mp4'
+import demoVideo from './DemoVideo/DocumentClassificationWithVirtualAssistant.mp4'
+// import demoVideo2 from './DemoVideo/DocumentClassificationWithVirtualAssistant2.mp4'
 
 import BusinessAnalyst from '../images/DocumentClassificationWithVirtualAssistant/BusinessAnalyst.svg'
 import Collab from '../images/DocumentClassificationWithVirtualAssistant/Collab.svg'

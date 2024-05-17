@@ -31,7 +31,7 @@ import ImporvedKnw from '../images/ImprovedKnowledge.svg'
 // import AnimatedSolution from "../icons/AnimatedSolution";
 // import AnimatedHighlights from "../icons/AnimatedHighlights";
 
-import demoVideo from "./demos/SessionInformationBot.mp4";
+import demoVideo from "./DemoVideo/SessionInformationBot.mp4";
 import bannerImg from "../images/Session Information Bot.svg"
 const iconSize = {
   height: "5rem",
