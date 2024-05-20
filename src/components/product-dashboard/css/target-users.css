@@ -445,5 +445,9 @@ div#learn_more_navigate {
     margin-top: -100px !important;
 }
 .slick-slider.slick-initialized {
-    width: 95% !important;
+    width: 70% !important;
+}
+.product_carousel 
+ .slick-slider.slick-initialized {
+    width: 80% !important;
 }

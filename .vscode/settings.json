@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/d6a9088a-728f-486b-b2a1-77604f712c4e/resourceGroups/openai-poc-rg/providers/Microsoft.Web/sites/AI-ML-tools-repo",
+    "appService.deploySubpath": "build"
+}
