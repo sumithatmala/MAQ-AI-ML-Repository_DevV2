@@ -294,6 +294,7 @@ const ProductInformation = () => {
                             // margin: "6rem 10px",
                             alignItems: "center",
                             justifyContent: "center",
+                            overflowX: "hidden"
                           }}
                         >
                           <Col>
