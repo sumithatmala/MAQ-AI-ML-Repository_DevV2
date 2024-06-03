@@ -1,6 +1,6 @@
 const showcaseBannerData1 = {
-    heading: "Our AI & ML Solutions",
-    desc: "Our AI & ML Solutions: Explore our range of AI and machine learning solutions designed to address various business challenges across different industries. Discover how our advanced algorithms and data-driven approach have helped clients optimize processes, enhance productivity, and drive innovation.",
+    heading: "Generative AI & GPT",
+    desc: "Generative AI, powered by cutting-edge models like GPT (Generative Pre-trained Transformer), revolutionizes the realm of artificial intelligence by enabling machines to generate novel, human-like content across various domains, including text, images, and even music.",
     title: [
         {heading: "Session Information Bot", desc:"Optimizes information retrieval, enhances knowledge management, and streamlines support processes.", link: "./product/SessionInformationBot"},
         {heading: "Feedback Summarizer Bot", desc:"Swiftly analyzes and summarizes customer feedback, streamlining responses and improving product development.", link: "./product/FeedbackSummarizerBot"},

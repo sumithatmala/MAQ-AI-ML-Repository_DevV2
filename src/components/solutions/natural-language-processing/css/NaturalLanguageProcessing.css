@@ -15,12 +15,13 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin-top: -200px;
+    margin-top: -80px;
 }
 
 .WelcomeMsg {
-    margin: 5rem;
+    margin-top: 3rem;
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .LearnMoreSection {

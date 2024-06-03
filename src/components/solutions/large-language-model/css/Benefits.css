@@ -13,9 +13,7 @@
         padding-left: 30px;
     }
  }
- .whychoose-section {
-    /* border-bottom: 1px solid #dfe4ea; */
-}
+
  .whychoose-section .whychoose-section-inner {
     max-width: 1130px;
     padding: 0;
@@ -23,7 +21,7 @@
 .whychoose-section-inner {
     max-width: 1140px;
     padding: 34px 20px 80px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 .head-block-center.w-800 {
     max-width: 800px;

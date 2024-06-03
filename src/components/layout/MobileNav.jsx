@@ -111,7 +111,7 @@ const MobileNav = () => {
     }, [showMenu]);
 
     return (
-        <nav className="mobile-nav">
+        <nav className="mobile-nav"style={{marginRight: "30px"}}>
             <Hamburger toggled={hamburgerToggle} onToggle={toggled => {
                 if (toggled) {
                   setShowMenu(toggled);

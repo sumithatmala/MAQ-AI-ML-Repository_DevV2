@@ -32,12 +32,18 @@
 }
 .RoadmapTitle {
     max-width: unset;
-    margin: 30px 20px 10px;
+    margin: 30px 20px 30px;
     font-size: 24px;
     font-weight: 600;
 }
 
 @media (max-width: 1024px) {
+
+    .ProjectDevRoadmap {
+        li{
+            margin-left: 22px;
+        }
+    }
 
     .Roadmap-left {
         width: 100%;
@@ -69,6 +75,9 @@
         text-align: left;
         background-repeat: no-repeat;
         background-size: contain;
+    }
+    .RoadmapPointList-right .RoadmapPoint-item:before {
+        margin-left: 0px;
     }
 }
 
@@ -107,7 +116,6 @@
     background-color: #fff;
     border-radius: 50%;
     content: "";
-    margin-left: 12px;
 }
 @media (min-width: 1024px) {    
     
@@ -159,15 +167,7 @@
     }
     
     .RoadmapPointList-right .RoadmapPoint-item:before {
-        left: -37px;
-        position: absolute;
-        top: 2px;
-        width: 18px;
-        height: 18px;
-        border: 5px solid #da828d;
-        background-color: #fff;
-        border-radius: 50%;
-        content: "";
+        margin-left: 12px;
     }
     
 }

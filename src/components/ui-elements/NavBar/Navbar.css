@@ -85,6 +85,17 @@ header {
 }
 @media screen and (max-width: 1300px) {
   .desktop-nav {
+    margin: 10px 0 0 400px; 
+    margin-top: 20px;
+  }
+  .nav-area{
+    a{
+      padding-left: 0px;
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .desktop-nav {
     margin: 10px 0 0 250px; 
     margin-top: 20px;
   }

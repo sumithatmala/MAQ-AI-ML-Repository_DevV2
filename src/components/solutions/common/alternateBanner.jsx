@@ -1,5 +1,4 @@
 import "./css/AlternateBanner.css";
-import { HashLink } from "react-router-hash-link";
 
 const AlternateBanner = ({
   banners,

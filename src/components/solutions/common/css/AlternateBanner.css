@@ -1,6 +1,6 @@
 .BannerVisualLft {
-    /* margin: 40px 20px;
-    padding: 10px; */
+    margin-left: 100px;
+    margin-right: 120px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -15,6 +15,7 @@
     border-radius: 10px;
     margin-left: -20px;
 }
+
 .BannerVisualRgt ._backimg {
     position: absolute;
     width: 172px;
@@ -27,7 +28,8 @@
 }
 
 .BannerVisualRgt {
-    margin: 40px 20px;
+    margin-left: 100px;
+    margin-right: 140px;
     padding: 10px;
     display: flex;
     flex-direction: row-reverse;
@@ -37,6 +39,7 @@
 .BannerVisualRgt .ImgContainer {
     margin-left: 5rem;
 }
+
 .BannerVisualLft .ImgContainer {
     margin-right: 5rem;
 }
@@ -48,7 +51,8 @@
     margin: 0px 10px;
     padding: 0px 10px;
 }
-.ImgContainer img{
+
+.ImgContainer img {
     border-radius: 8px;
     /* width: 25rem; */
     object-fit: cover;
@@ -63,33 +67,85 @@
     justify-content: center;
     max-width: 35rem;
 }
+
 .BannerDetails ul {
     padding-left: 20px;
 }
-.BannerDetails h2{
+
+.BannerDetails h2 {
     margin-bottom: 15px;
     text-align: left;
 }
 
 .ContactBtn {
-    color:black;
-    font-size:medium;
-    margin-right:auto;
+    color: black;
+    font-size: medium;
+    margin-right: auto;
     margin-left: 20px;
     padding: 5px 10px;
     border: 1px solid #453c90;
     border-radius: 5px;
     transition: 0.3s;
 }
+
 .ContactBtn:hover {
     color: white;
     background-color: #453c90;
 }
+
 li::marker {
     color: #453c90;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1440px) {
+
+    .ImgContainer svg {
+        width: 300px;
+    }
+
+    .ImgContainer img {
+        width: 350px;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .BannerDetails {
+        font-size: medium;
+        text-align: left;
+        margin: 20px;
+        max-width: 100%;
+        h2{
+            font-size: x-large;
+        }
+    }
+
+    .BannerVisualLft {
+        margin-left: 100px;
+        margin-right: 120px;
+    }
+    .BannerVisualRgt {
+        margin-left: 100px;
+        margin-right: 140px;
+    }
+    .BannerVisualRgt .ImgContainer {
+        margin-left: 10px;
+    }
+
+    .BannerVisualLft .ImgContainer {
+        margin-right: 10px;
+    }
+
+    .BannerDetails ul {
+        width: 500px;
+        /* margin: 0 auto; */
+        text-align: start;
+    }
+    .BannerVisualRgt ._backimg {
+        margin-left: 198px;
+    }
+}
+
+@media (max-width: 1023px) {
     ._backimg {
         display: none;
     }
@@ -99,7 +155,7 @@ li::marker {
         width: 100%;
         flex-direction: column;
     }
-    
+
     .BannerVisualRgt {
         margin: 0;
         width: 100%;
@@ -109,6 +165,7 @@ li::marker {
     .BannerVisualRgt .ImgContainer {
         margin-left: 0;
     }
+
     .BannerVisualLft .ImgContainer {
         margin-right: 0;
     }
@@ -119,25 +176,28 @@ li::marker {
         justify-content: center;
         margin: 0;
     }
-    .ImgContainer svg{
+
+    .ImgContainer svg {
         width: 400px;
     }
-    .ImgContainer img{
-        width: 450px;
-        height: 300px;
+
+    .ImgContainer img {
+        width: 550px;
+        height: 350px;
         object-fit: cover;
     }
-    
+
     .BannerDetails {
         text-align: left;
         margin: 20px;
         max-width: 100%;
     }
-    
-    .BannerDetails h2{
+
+    .BannerDetails h2 {
         text-align: center;
     }
-    .BannerDetails ul{
+
+    .BannerDetails ul {
         width: 500px;
         /* margin: 0 auto; */
         text-align: start;
@@ -149,7 +209,7 @@ li::marker {
         width: 100%;
         flex-direction: column;
     }
-    
+
     .BannerVisualRgt {
         width: 100%;
         flex-direction: column;
@@ -169,27 +229,29 @@ li::marker {
         display: flex;
         align-items: start;
         justify-content: start;
-        margin:10px;
+        margin: 10px;
     }
-    .ImgContainer svg{
+
+    .ImgContainer svg {
         width: 300px;
     }
-    .ImgContainer img{
+
+    .ImgContainer img {
         width: 250px;
         object-fit: cover;
     }
-    
+
     .BannerDetails {
         text-align: start;
         margin: 20px;
         max-width: 100%;
     }
-    
-    .BannerDetails h2{
+
+    .BannerDetails h2 {
         text-align: start;
     }
 
-    .BannerDetails ul{
+    .BannerDetails ul {
         width: fit-content;
         margin: 0;
         text-align: start;

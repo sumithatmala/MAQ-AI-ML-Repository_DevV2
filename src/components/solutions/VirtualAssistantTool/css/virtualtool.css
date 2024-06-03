@@ -234,11 +234,11 @@ body {
     font-size: 18px;
     /* border-radius: 30px; */
     border-radius: 6px !important;
-    background-color: #B22320;
+    background-color:#ba141a;
 }
 
 .block__action .btn-empty:hover{
-    background-color: #9e1815 !important;
+    background-color: #ba141a !important;
     color: #fff;
     /* font-weight: 500; */
 }

@@ -175,8 +175,8 @@ const ContactUs = () => {
         {" "}
         <p>
           For more information on our Microsoft offerings, please visit us on{" "}
-          <a href="https://appsource.microsoft.com/en-us/marketplace/consulting-services?search=MAQ%20Software&page=1"><span style={{color:"red"}}> Microsoft AppSource </span> </a> and{" "}
-          <a href="https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services?page=1&search=MAQ%20Software"><span style={{color:"red"}}> Microsoft Marketplace </span> </a>
+          <a href="https://appsource.microsoft.com/en-us/marketplace/consulting-services?search=MAQ%20Software&page=1"><span style={{color:"#ba141a"}}> Microsoft AppSource </span> </a> and{" "}
+          <a href="https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services?page=1&search=MAQ%20Software"><span style={{color:"#ba141a"}}> Microsoft Marketplace </span> </a>
         </p>{" "}
       </div>
 
@@ -185,7 +185,7 @@ const ContactUs = () => {
           <div className="width-form" style={{ width: "90%" }}>
             <ContactForm />
           <div className="text-block-center">
-            <p>Or send us mail at  <a href="mailto:sales@MAQSoftware.com" style={{color: "red", fontWeight: "500"}}>Sales@MAQSoftware.com</a>.</p>
+            <p>Or send us mail at  <a href="mailto:sales@MAQSoftware.com" style={{color: "#ba141a", fontWeight: "500"}}>Sales@MAQSoftware.com</a>.</p>
           </div>
           </div>
         </div>

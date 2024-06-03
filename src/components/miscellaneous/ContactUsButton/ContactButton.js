@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { HashLink } from "react-router-hash-link";
-import AppContext from "../../../AppContex";
+// import AppContext from "../../../AppContex";
 import './css/ContactButton.css'
 
 const ContactButton = () => {

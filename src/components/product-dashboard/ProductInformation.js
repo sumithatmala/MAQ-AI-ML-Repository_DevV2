@@ -8,7 +8,7 @@ import ProductHeader from "./ProductHeader";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ProductDemo from "./ProductDemo";
-import ProductTryIt from "./ProductTryIt"; 
+import ProductTryIt from "./ProductTryIt";
 import "./css/target-users.css";
 import FAQs from "./FAQs";
 import ContactForm from "../solutions/common/contactForm";
@@ -193,7 +193,7 @@ const ProductInformation = () => {
                         <Row
                           key={index}
                           style={{
-                            // margin: "6rem 10px",
+                            margin: "2rem 10px",
                             alignItems: "center",
                             justifyContent: "center",
                           }}
@@ -241,7 +241,7 @@ const ProductInformation = () => {
                         <Row
                           key={index}
                           style={{
-                            // margin: "6rem 10px",
+                            margin: "2rem 10px",
                             alignItems: "center",
                             justifyContent: "center",
                           }}

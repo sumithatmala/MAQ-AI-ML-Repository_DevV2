@@ -29,7 +29,7 @@ h1,h2 {
     display: block;
     max-width: 780px;
     text-align: center;
-    margin: 40px 10px 10px 10px;
+    margin: 40px 10px 27px 10px;
     padding: auto;
 }
 .Info-section p {
@@ -195,10 +195,12 @@ h1,h2 {
     }
     .UsageContainer img {
         border-radius: 8px;
+        width: 600px;
+        height: 400px;
     }
     .UsageText {
-        max-width: 100%;
-        margin-left: 40px;
-        margin: 20px;
+        max-width: 65%;
+        /* margin-left: 40px; */
+        margin: 0 auto;
     }
 }
