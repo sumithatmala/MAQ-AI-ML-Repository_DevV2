@@ -224,13 +224,15 @@ body {
     text-align: center;
 } */
 
+
+
 .block__action .btn-empty {
     display: inline-block;
     /* min-height: 50px; */
     padding: 14px 25px;
     /* border: 1px solid rgba(185, 9, 27, 1) !important; */
     margin: 0 auto;
-    color: #fff;
+    color: #fff !important;
     font-size: 18px;
     /* border-radius: 30px; */
     border-radius: 6px !important;
@@ -242,3 +244,4 @@ body {
     color: #fff;
     /* font-weight: 500; */
 }
+
