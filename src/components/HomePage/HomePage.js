@@ -44,8 +44,8 @@ const HomePage = () => {
           <h2 className='head-block-center'>AI/ML Solutions Offerings</h2>
           <Grid content={ContributionData} />
         {/* <BackgroundBanner items={backBannerData} alignType={"start"} width={"1000px"} /> */}
-        {/* <CertificateGrid/> */}
-        <CustomerSuccess heading={"Our Case Studies"} items={customerSuccessData} CardHeight="260px"/>
+        <CertificateGrid/>
+        <CustomerSuccess heading={"Highlight Articles"} items={customerSuccessData} CardHeight="260px"/>
         {/* <ContactForm contactMsg={"Do Let Us Know Your Concern."}/> */}
     </>
   );
