@@ -238,16 +238,6 @@ const NavigationLinks = [
             icon: <img src={testcase_icon} alt=""  width={30}/>, 
             link: "./product/TestCaseRecommender" 
           },
-          { 
-            label: "Intelligent Knowledge Base Bot",
-            icon: <img src={testcase_icon} alt=""  width={30}/>, 
-            link: "./product/IntelligentKnowledgeBaseBot" 
-          },
-          { 
-            label: "ShelfDetect Bot",
-            icon: <img src={feedbackSummeriser_icon} alt=""  width={30}/>, 
-            link: "./product/ShelfDetectBot" 
-          },
         ],
       },
       {
@@ -258,10 +248,10 @@ const NavigationLinks = [
             icon: <img src={GPT_icon} alt=""  width={30}/>, 
             link: "./product/IntelligentKnowledgeBaseBot" 
           },
-          {
-            label: "",
-            // icon: <img src={face_icon} alt=""  width={30}/>, 
-            link: "#",
+          { 
+            label: "SmartRetailAnalytics",
+            icon: <img src={feedbackSummeriser_icon} alt=""  width={30}/>, 
+            link: "./product/SmartRetailAnalytics" 
           },
           {
             label: "",
