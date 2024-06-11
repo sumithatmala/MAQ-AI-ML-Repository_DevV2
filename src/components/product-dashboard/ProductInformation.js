@@ -344,7 +344,9 @@ const ProductInformation = () => {
           </section>
         </Container>
       </section>
+      <div id="demo" style={{marginTop: "-40px"}}></div>
       <ProductDemo link={productDetails.demo.link} />
+      <div id="tryit" style={{marginTop: "-40px"}}></div>
       <ProductTryIt
         items={productDetails.title}
         link={productDetails.tryit.link}

@@ -111,7 +111,7 @@ export default function SideBar() {
                     fontFamily: "Arial, Helvetica, sans-serif",
                   }}
                   // icon={<img src={details} height={"150%"} alt='details'/>}
-                  component={<HashLink to={"./#prodinfo"} />}
+                  component={<HashLink to={"./#learn_more_navigate"} />}
                   icon={<AiOutlineInfoCircle fontSize={"200%"} />}
                 >
                   Details
