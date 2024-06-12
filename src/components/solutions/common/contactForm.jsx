@@ -63,7 +63,7 @@ const ContactForm = ({ contactMsg }) => {
                     }),
                 });
                 const data = await res.json();
-                if (!data) {
+                if (!data || res.responseCode < 200 || res.responseCode >= 300) {
                     // console.log(data);
                     clearFields();
                     throw new Error("Failed to send email");

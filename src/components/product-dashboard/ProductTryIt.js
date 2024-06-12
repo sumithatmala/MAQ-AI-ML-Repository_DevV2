@@ -16,6 +16,7 @@ const ProductTryIt = ({ items, link }) => {
             <MDBContainer class = "iframe_size"style={{margin: "0 10%"}}>
               {link ? (
                 <iframe
+                  // sandbox="allow-popups allow-popups-to-escape-sandbox"
                   title="Scikit-Learn Tool"
                   width="100%"
                   height="700vh"
