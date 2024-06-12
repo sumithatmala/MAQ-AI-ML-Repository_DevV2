@@ -16,12 +16,14 @@ const ProductTryIt = ({ items, link }) => {
             <MDBContainer class = "iframe_size"style={{margin: "0 10%"}}>
               {link ? (
                 <iframe
-                  // sandbox="allow-popups allow-popups-to-escape-sandbox"
+                  // sandbox="allow-scripts allow-same-origin"
                   title="Scikit-Learn Tool"
                   width="100%"
                   height="700vh"
                   src={link}
                   frameBorder="0"
+                  // referrerpolicy="no-referrer-when-downgrade"
+                  // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
                   style={{ border: "3px outset #adb5bd" }}
                 ></iframe>

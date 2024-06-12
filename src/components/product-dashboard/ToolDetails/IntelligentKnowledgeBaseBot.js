@@ -137,7 +137,7 @@ export const IntelligentKnowledgeBaseBot = {
     link: {demoVideo},
   },
   tryit: {
-    link: "https://kbbotmaq-dev.azurewebsites.net/",
+    link: ""//"https://kbbotmaq-dev.azurewebsites.net/",
   },
 
   FAQs: [
