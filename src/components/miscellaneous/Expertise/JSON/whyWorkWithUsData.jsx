@@ -4,12 +4,12 @@ const whyWorkWithUsData = [
         limit: 9,
     },
     {
-        details: "Implemented projects worldwide with key clients from: USA, UK, Europe, Singapore.",
+        details: "Implemented projects worldwide with key clients from: USA, UK, Europe.",
         limit: 123,
         
     },
     {
-        details: "Qualified employees with master's degrees in: Applied Math, System Analytics, Computer Science.", 
+        details: "Qualified employees with master's degrees in: System Analytics, Computer Science.", 
         limit: 77,
     },
 ]
