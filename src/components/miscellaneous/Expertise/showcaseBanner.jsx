@@ -19,7 +19,7 @@ const ShowcaseBanner = (props) => {
                         setToggle(!toggle);
                     }}>
                         <div className="heading-container">
-                            <h3>{data.heading}</h3>
+                            <h3 className="heading-size">{data.heading}</h3>
                             <TfiArrowCircleRight className="ShowcaseBannerNavigate" />
                         </div>
                     </button>

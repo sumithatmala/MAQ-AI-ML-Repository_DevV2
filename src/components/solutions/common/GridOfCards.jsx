@@ -9,8 +9,8 @@ const CaseItem = ({ iconSrc, altText, title, description, sizeOfCard }) => (
       {iconSrc?(<div className="predict-use-cases-list__icon">
         {iconSrc}
       </div>):(<></>)}
-      <h3 className="predict-use-cases-list__title">{title}</h3>
-      <div className="predict-use-cases-list__text">{description}</div>
+      <h3 className="predict-use-cases-list__title subheading-size">{title}</h3>
+      <div className="predict-use-cases-list__text content-size">{description}</div>
     </div>
   </li>
 );

@@ -11,8 +11,8 @@ const BenefitItem = ({ imgSrc, imgAlt, title, text }) => (
       <img src={imgSrc} alt={imgAlt} width={30} />
     </div>
     <div className="section-benefits-list__item">
-      <h3 className="section-benefits-list__title">{title}</h3>
-      <div className="section-benefits-list__text">{text}</div>
+      <h3 className="section-benefits-list__title subheading-size">{title}</h3>
+      <div className="section-benefits-list__text content-size">{text}</div>
     </div>
   </li>
 );

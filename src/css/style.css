@@ -1818,9 +1818,76 @@ button.bg-dark:focus {
     /* background-color: #0062cc; */
     margin-left: 30px;
   }
+  
+}
+
+/* ****************** */  /* ****************** */  /* ****************** */ /* ****************** */  /* ****************** */  
+
+
+
+.head-block-center {
+  max-width: 600px;
+  margin: 0 auto 26px;
+  font-size: 32px !important;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+
+.custom-accordion-item {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 2px solid #9b97b8a1 !important;
+  /* border-style:unset !important;; */
+}
+
+.custom-accordion-item button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.custom-accordion-item .accordion-button {
+  font-style: normal;
+  font-size: 16px !important;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.heading-size{
+  font-size: 32px !important;
+}
+.content-size{
+  font-size: 16px !important;
+}
+.subheading-size{
+  font-size: 19px !important;
+}
+.title-size, .text-block-center{
+  font-size: 24px !important;
+}
+
+@media(max-width: 1030px){
+  body, .content-size{
+    font-size: 14px !important;
+  }
+  .custom-accordion-item .accordion-button{
+    font-size: 14px !important;
+  }
+  .head-block-center, .heading-size{
+    font-size: 24px !important;
+  }
+  .subheading-size, .title-size, .text-block-center{
+    font-size: 17px !important;
+  }
 
 }
 
+@media (max-width: 541px){
+  body, .content-size{
+    font-size: 12px !important;
+  }
+}
 
 
 

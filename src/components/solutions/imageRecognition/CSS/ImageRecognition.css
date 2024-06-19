@@ -130,7 +130,7 @@ h1,h2 {
 
 .UsageText {
     padding: 10px;
-    max-width: 500px;
+    max-width: 600px;
     margin-left: 40px;
 }
 .UsageText li{
@@ -199,8 +199,31 @@ h1,h2 {
         height: 400px;
     }
     .UsageText {
-        max-width: 65%;
+        /* max-width: 65%; */
         /* margin-left: 40px; */
         margin: 0 auto;
+    }
+}
+
+@media(max-width: 650px){
+    .UsageContainer img{
+        min-width: 350px;
+        width: 90%;
+    }
+}
+
+.imgSize{
+    width: 300px !important;
+}
+
+@media(max-width: 960px){
+    .imgSize{
+        width: 200px !important;
+    }
+}
+
+@media(max-width: 540px){
+    .imgSize{
+        width: 100px !important;
     }
 }

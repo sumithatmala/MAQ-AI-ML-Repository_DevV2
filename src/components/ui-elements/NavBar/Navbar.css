@@ -485,6 +485,8 @@ svg.rotateArrow {
 @media screen and (max-width: 1150px) {
   .nav-area {
     justify-content: space-between;
+    position: fixed;
+    top: 0px;
   }
 
   .desktop-nav {

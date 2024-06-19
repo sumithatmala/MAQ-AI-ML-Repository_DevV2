@@ -5,7 +5,7 @@ const ServiceGrid = (props) => {
     return(
         <section className="ServiceGridCnt margin-adjust">
             <div className="ServiceGridHeading">
-                <h3 style={{fontSize:"32px"}}>{props.title}</h3>
+                <h3 className="heading-size">{props.title}</h3>
                 <p>{props.desc}</p>
             </div>
             <div className="ServiceGridTitle">
@@ -16,9 +16,9 @@ const ServiceGrid = (props) => {
                                 <div className="ServiceGridCard-txt">
                                     <div className="ServiceGridCardHeader">
                                         {item.img}
-                                        <h4 style={{fontSize:"19px"}}>{item.title}</h4>
+                                        <h4 className="subheading-size">{item.title}</h4>
                                     </div>
-                                    <p>{item.desc}</p>
+                                    <p className="content-size">{item.desc}</p>
                                 </div>
                             </div>
                         </Link>

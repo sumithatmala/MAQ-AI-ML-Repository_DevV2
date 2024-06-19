@@ -54,8 +54,8 @@ const BroadExpertise = () => {
                 <img src={area.image} alt={area.title} width={70} />
               </div>
               <div className="section-benefits-list__item">
-                <h3 className="section-benefits-list__title">{area.title}</h3>
-                <div className="section-benefits-list__text">{area.text}</div>
+                <h3 className="section-benefits-list__title subheading-size">{area.title}</h3>
+                <div className="section-benefits-list__text content-size">{area.text}</div>
               </div>
             </li>
           ))}

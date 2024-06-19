@@ -42,13 +42,13 @@ const NaturalLanguageProcessing = () => {
                     <RoadMap items={roadMapData} title="How we work"/>
                 </section> */}
                 <section className="TargetIndustries margin-adjust">
-                    <h4>Industries</h4>
+                    <h4 className="heading-size">Industries</h4>
                     <div className="IndustryItems">
                         {industriesData.map((item, index) => {
                             return(
                                 <div className="IndustryInditem" key={index}>
                                     {item.icon}
-                                    <Link to={item.link}><h5>{item.name}</h5></Link>
+                                    <Link to={item.link}><h5 className="title-size">{item.name}</h5></Link>
                                 </div>
                             )
                         })}

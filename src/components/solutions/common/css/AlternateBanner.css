@@ -1,6 +1,6 @@
 .BannerVisualLft {
-    margin-left: 100px;
-    margin-right: 120px;
+    /* margin-left: 100px;
+    margin-right: 120px; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -28,8 +28,8 @@
 }
 
 .BannerVisualRgt {
-    margin-left: 100px;
-    margin-right: 140px;
+    /* margin-left: 100px;
+    margin-right: 140px; */
     padding: 10px;
     display: flex;
     flex-direction: row-reverse;
@@ -119,14 +119,14 @@ li::marker {
         }
     }
 
-    .BannerVisualLft {
+    /* .BannerVisualLft {
         margin-left: 100px;
         margin-right: 120px;
     }
     .BannerVisualRgt {
         margin-left: 100px;
         margin-right: 140px;
-    }
+    } */
     .BannerVisualRgt .ImgContainer {
         margin-left: 10px;
     }
