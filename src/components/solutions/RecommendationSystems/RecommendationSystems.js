@@ -20,9 +20,9 @@ const RecommendationSystems = () => {
         <Alternate banners={bannerData} ContactBtn={false} />
       </div>
 
-      <section className="info-section">
+      <section className="info-section margin-adjust">
         <div className="info-section-inner margin-adjust" style={{padding:"0px"}}>
-          <h2 className="info-section__title">
+          <h2 className="info-section__title heading-size">
             The Significance of Personalization
           </h2>
           <div className="info-section__description">

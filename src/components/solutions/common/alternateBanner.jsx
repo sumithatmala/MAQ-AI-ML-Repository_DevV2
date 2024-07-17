@@ -23,12 +23,12 @@ const AlternateBanner = ({
                 {backHighlights && <div className="_backimg"></div>}
               </div>
               <div className="BannerDetails">
-                <h2>{item.heading}</h2>
-                <p>{item.details}</p>
+                <h2 className="title-size">{item.heading}</h2>
+                <p className="content-size">{item.details}</p>
                 {item.points && (
                   <ul>
                     {item.points.map((point, index) => {
-                      return <li key={index}>{point}</li>;
+                      return <li key={index} className="content-size">{point}</li>;
                     })}
                   </ul>
                 )}

@@ -102,3 +102,16 @@
         margin: 20px 50px;
     }
 }
+
+@media (max-width: 1024px){
+    .imgSize{
+        width: 550px !important;
+        /* max-width: 550px; */
+    }
+}
+
+@media (max-width: 580px){
+    .imgSize{
+        width: 250px !important;
+    }
+}

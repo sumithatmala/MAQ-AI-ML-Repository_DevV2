@@ -17,9 +17,9 @@ const Benfits = () => {
           <li className="whychoose-section-list__list-item">
             <div className="whychoose-section-list__item">
               <div className="whychoose-section-list__text">
-                <h3 className="whychoose-section-list__title">Strong Security</h3>
+                <h3 className="whychoose-section-list__title subheading-size">Strong Security</h3>
                 <div className="whychoose-section-list__description">
-                  <p>
+                  <p className="content-size">
                     We help you keep a tight rein on your data storage and
                     security by using our custom solutions built on language
                     models that can be deployed on-premise and on private clouds
@@ -32,11 +32,11 @@ const Benfits = () => {
           <li className="whychoose-section-list__list-item">
             <div className="whychoose-section-list__item">
               <div className="whychoose-section-list__text">
-                <h3 className="whychoose-section-list__title">
+                <h3 className="whychoose-section-list__title subheading-size">
                   Custom Functionality
                 </h3>
                 <div className="whychoose-section-list__description">
-                  <p>
+                  <p className="content-size">
                     Our developers adjust foundational models to match your
                     unique business and functional needs and improve the
                     accuracy of outputs by&nbsp;training large language models

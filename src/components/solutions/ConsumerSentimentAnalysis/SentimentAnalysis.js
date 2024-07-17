@@ -58,8 +58,8 @@ const ListItem = ({ iconSrc, title, description }) => {
           <img src={iconSrc} alt="icon" />
         </div>
         <div className="licon-text-list__content">
-          <h3 className="licon-text-list__title">{title}</h3>
-          <div className="licon-text-list__description">{description}</div>
+          <h3 className="licon-text-list__title subheading-size">{title}</h3>
+          <div className="licon-text-list__description content-size">{description}</div>
         </div>
       </div>
     </li>

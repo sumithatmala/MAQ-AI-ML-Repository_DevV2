@@ -93,7 +93,7 @@ const ContactForm = ({ contactMsg }) => {
             <ContactButton />
             <div className="Contact">
                 <div className="Header">
-                    <h2>Get in touch with MAQ Software today</h2>
+                    <h2 className="head-block-center">Get in touch with MAQ Software today</h2>
                     <p>{contactMsg}</p>
                 </div>
                 <form action="#" onSubmit={handleSubmit}>

@@ -11,8 +11,8 @@ const Grid = ({content}) => {
                             {/* <img src={process.env.PUBLIC_URL + item.img} alt={item.label} width={100}></img> */}
                             {item.img}
                             <div className="IndustryCard-txt">
-                                <b>{item.label}</b>
-                                <p>{item.disc}</p>
+                                <b className="subheading-size">{item.label}</b>
+                                <p className="content-size">{item.disc}</p>
                             </div>
                         </div>
                     //     ):(
