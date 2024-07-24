@@ -1,3 +1,5 @@
+import React from 'react';
+import { Helmet } from 'react-helmet';
 import "./css/virtualtool.css";
 import FAQ from "./FAQ";
 import GridOfCards from "../common/GridOfCards";
@@ -11,7 +13,12 @@ import DataBanner from './BannerDatajson'
 const VirtualAssistantTool = () => {
   return (
     <>
-    <NewBanner data={DataBanner} />
+      <Helmet>
+        <title>AI-Powered Virtual Assistant Software | Enhance Productivity</title>
+        <meta name="description" content="Revolutionize customer support and enhance productivity with our AI-powered virtual assistant software. Delegate non-core tasks to a chatbot and focus on growing your business." />
+        <meta name="keywords" content="AI-Powered Virtual Assistant, Virtual Assistant Software, Customer Support Automation, Productivity Enhancement, Virtual Assistant Solution, Chatbot Development, Business Automation" />
+      </Helmet>
+      <NewBanner data={DataBanner} />
 
       <div className="quick-block">
         <div className="head-block-center" style={{ marginBottom: "10px" , marginTop: "20px"}}>
@@ -28,7 +35,6 @@ const VirtualAssistantTool = () => {
       <div className="container_pharma">
         <Alternate banners={BannerData} ContactBtn={false} />
       </div>
-
 
       <GridOfCards
         content={IndustData}

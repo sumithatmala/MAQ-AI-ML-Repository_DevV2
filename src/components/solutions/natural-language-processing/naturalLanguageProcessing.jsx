@@ -1,9 +1,11 @@
-import "./css/NaturalLanguageProcessing.css"
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import "./css/NaturalLanguageProcessing.css";
 import { Link } from "react-router-dom";
 
 //component
 import AlternateBanner from "../common/alternateBanner";
-import Technologies from "../common/technologies"
+import Technologies from "../common/technologies";
 import ContactForm from "../common/contactForm";
 import FAQs from '../../product-dashboard/FAQs';
 // import RoadMap from "../common/RoadMap"
@@ -11,8 +13,8 @@ import CustomerSuccess from "../common/CustomerSuccess";
 
 //Data
 import customerSuccessData from "./JSONData/customerSuccessData";
-import bannerData from "./JSONData/bannerData"
-import technologiesData from "./JSONData/technologiesData"
+import bannerData from "./JSONData/bannerData";
+import technologiesData from "./JSONData/technologiesData";
 import FAQsData from "./JSONData/FaqData";
 import industriesData from "./JSONData/IndustriesData";
 import blogData from "./JSONData/blogData";
@@ -21,10 +23,14 @@ import { HashLink } from "react-router-hash-link";
 import NewBanner from "../common/NewBanner";
 import NewBanData from "./JSONData/NewBanData";
 
-
 const NaturalLanguageProcessing = () => {
     return (
         <section>
+            <Helmet>
+                <title>Natural Language Processing Services | NLP Solutions | MAQ Software</title>
+                <meta name="description" content="Discover MAQ Software's advanced NLP services and custom solutions. Leverage our expertise to better understand and utilize human language for your business needs." />
+                <meta name="keywords" content="Natural Language Processing, NLP Services, Custom NLP Solutions, MAQ Software, Human Language Understanding, NLP Development" />
+            </Helmet>
             <NewBanner data={NewBanData} />
             {/* <div className="HeaderVisual-nlp">
                     <h1>NLP Services and Custom Solutions</h1>

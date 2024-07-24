@@ -1,3 +1,5 @@
+import React from 'react';
+import { Helmet } from 'react-helmet';
 import "./css/DataCaptureOCR.css"
 
 //Data
@@ -9,7 +11,6 @@ import customerSuccessData from "./JSONData/customerSuccessData"
 import benefitsData from "./JSONData/BenefitsData"
 import LogisticsBenefits from "./JSONData/LogisticsBenefits"
 import RoadMapNewData from "./JSONData/RoadMapNewData"
-
 
 //Components
 // import Banner from "../common/Banner"
@@ -28,6 +29,12 @@ import NewBann from "./NewBannerdata"
 const DataCaptureOCR = () => {
     return (
         <>
+            <Helmet>
+                <title>Data Capture & OCR Solutions | MAQ Software</title>
+                <meta name="description" content="Empower your business with MAQ Software's automated data capture solutions. Specializing in OCR, data capture, and extraction services for efficient data management." />
+                <meta name="keywords" content="Data Capture, OCR, Data Extraction, Automated Data Solutions, Business Process Automation, MAQ Software" />
+            </Helmet>
+            
             <NewBanner data={NewBann} />
             {/* <ContactButton /> */}
             {/* <Banner BannerData={BannerData} /> */}
