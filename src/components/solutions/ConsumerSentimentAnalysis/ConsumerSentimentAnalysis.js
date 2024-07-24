@@ -1,3 +1,5 @@
+import React from 'react';
+import { Helmet } from 'react-helmet';
 import "./css/toolinformations.css";
 import "./css/ConsumerSentimentAnalysis.css";
 import OurServices from "./OurServices";
@@ -21,6 +23,12 @@ import CsmBanner from "./CSMBannerData";
 const ConsumerSentimentAnalysis = () => {
   return (
     <>
+      <Helmet>
+        <title>Consumer Sentiment Analysis | Advanced NLP Solutions | MAQ Software</title>
+        <meta name="description" content="Elevate your business strategy with MAQ Software's consumer sentiment analysis services. Utilize cutting-edge NLP-based technology to discern the emotional tone within consumer sentiment data and drive meaningful insights." />
+        <meta name="keywords" content="Consumer Sentiment Analysis, NLP Technology, Sentiment Analytics, Business Strategy, MAQ Software, Emotional Tone, Data Insights" />
+      </Helmet>
+      
       <NewBanner data={CsmBanner} />
 
       {/* <ContactButton /> */}
