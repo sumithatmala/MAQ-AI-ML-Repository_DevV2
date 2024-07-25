@@ -5,6 +5,7 @@ import {
   validateCaptcha,
 } from "react-simple-captcha";
 import "./css/Captcha.css";
+import CachedIcon from "@mui/icons-material/Cached";
 
 export const doSubmit = () => {
   let user_captcha = document.getElementById("user_captcha_input").value;
@@ -30,6 +31,7 @@ const CaptchaTest = () => {
         <div className="form-group">
           <div className="col mt-3">
             <LoadCanvasTemplate reloadColor="black" />
+            <CachedIcon />
           </div>
           <div className="col mt-3">
             <div className="input-field field">
