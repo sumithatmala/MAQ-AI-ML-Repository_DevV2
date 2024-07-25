@@ -41,7 +41,6 @@ const ContactUs = () => {
       <div className="location_block"></div>
 
       <section className="color_foot">
-
         <section className="locations">
           <div className="location_width">
             <div className="our_location">
@@ -171,12 +170,20 @@ const ContactUs = () => {
         </section>
       </section>
 
-      <div className="text-block-center" style={{fontWeight:"500", maxWidth:"900px"}}>
+      <div
+        className="text-block-center"
+        style={{ fontWeight: "500", maxWidth: "900px" }}
+      >
         {" "}
         <p>
           For more information on our Microsoft offerings, please visit us on{" "}
-          <a href="https://appsource.microsoft.com/en-us/marketplace/consulting-services?search=MAQ%20Software&page=1"><span style={{color:"#ba141a"}}> Microsoft AppSource </span> </a> and{" "}
-          <a href="https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services?page=1&search=MAQ%20Software"><span style={{color:"#ba141a"}}> Microsoft Marketplace </span> </a>
+          <a href="https://appsource.microsoft.com/en-us/marketplace/consulting-services?search=MAQ%20Software&page=1">
+            <span style={{ color: "#ba141a" }}> Microsoft AppSource </span>{" "}
+          </a>{" "}
+          and{" "}
+          <a href="https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services?page=1&search=MAQ%20Software">
+            <span style={{ color: "#ba141a" }}> Microsoft Marketplace </span>{" "}
+          </a>
         </p>{" "}
       </div>
 
@@ -184,9 +191,18 @@ const ContactUs = () => {
         <div className="form">
           <div className="width-form" style={{ width: "90%" }}>
             <ContactForm />
-          <div className="text-block-center">
-            <p>Or send us mail at  <a href="mailto:sales@MAQSoftware.com" style={{color: "#ba141a", fontWeight: "500"}}>Sales@MAQSoftware.com</a>.</p>
-          </div>
+            <div className="text-block-center">
+              <p>
+                Or send us mail at{" "}
+                <a
+                  href="mailto:sales@MAQSoftware.com"
+                  style={{ color: "#ba141a", fontWeight: "500" }}
+                >
+                  Sales@MAQSoftware.com
+                </a>
+                .
+              </p>
+            </div>
           </div>
         </div>
         <div className="image">
