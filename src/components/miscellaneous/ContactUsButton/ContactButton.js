@@ -11,9 +11,7 @@ const ContactButton = () => {
         <div className="contact-block">
           {/* <div className="text-block-center">Need a consultation?</div> */}
           <div className="block__action contact-action">
-            <HashLink to={`./#contact`} className="btn no-padding">
-              Contact us
-            </HashLink>
+            
           </div>
         </div>
       </div>
