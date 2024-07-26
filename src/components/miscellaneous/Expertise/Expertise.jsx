@@ -1,9 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import "./css/expertise.css";
-import React from "react";
-import { Helmet } from "react-helmet";
-import "./css/expertise.css";
+
 
 // Data imports
 import increasingCardData from "./JSON/increasingCardsData";
