@@ -10,8 +10,6 @@ import FlatGridLayout from '../../solutions/common/FlatGridLayout';
 import BusinessLevelUpData from './JSONData/BusinessLevelUpData';
 import Grid from "../../solutions/common/grid";
 import { benefitCards } from './JSONData/Benefit';
-import CustomerSuccess from '../../solutions/common/CustomerSuccess';
-import CutomerSuccessData from "./JSONData/CustomerSuccessData";
 import ContactForm from '../../solutions/common/contactForm';
 
 import NewBanner from '../../solutions/common/NewBanner';

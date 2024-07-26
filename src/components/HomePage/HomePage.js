@@ -11,7 +11,6 @@ import GridOfCards from '../solutions/common/GridOfCards';
 import CustomerSuccess from "../solutions/common/CustomerSuccess";
 import Grid from "../solutions/common/grid";
 import ShowcaseBanner from "../miscellaneous/Expertise/showcaseBanner";
-import CertificateGrid from './Certificate.js';
 
 //component-data----
 import reviewData from "./Data/reviewData";

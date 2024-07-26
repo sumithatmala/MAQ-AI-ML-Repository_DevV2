@@ -17,7 +17,7 @@ const ServiceData = [
       description: "Automated identification, data capture and character recognition of text in embedded images, image files, etc."
     },
     {
-      iconSrc: <img src={imageScan} alt="Raw image" width={70}/>,
+      iconSrc: <img src={imageScan}  alt="img1"  width={70}/>,
       altText: "Raw Image Recognition",
       title: "Character Recognition on Raw Images",
       description: "Data extraction from low-quality images with poor illumination, containing poorly printed characters, and more."

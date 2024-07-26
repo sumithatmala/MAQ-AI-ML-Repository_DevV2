@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import React, { useEffect } from "react";
+import {  Row } from "react-bootstrap";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -9,7 +9,7 @@ import "./css/CustomerSuccess.css"
 
 
 const CustomerSuccess = (props) => {
-  const { items, defaultSlidesToShow, CardHeight, autoPlay, centerUp,link } = props;
+  const { items, defaultSlidesToShow, CardHeight, autoPlay } = props;
 
   const slidesToShow = props.slidesToShow || defaultSlidesToShow;
 

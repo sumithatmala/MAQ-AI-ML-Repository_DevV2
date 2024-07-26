@@ -8,8 +8,6 @@ import Benfits2 from "./Benefits2";
 import Integration from "./Integration";
 import OurTechStack from "./OurTechStack";
 import BroadExpertise from "./BroadExpertise";
-import CustomerSuccess from "../common/CustomerSuccess";
-import CutomerSuccessData from "./JSONData/CustomerSuccessData";
 import FAQs from "../../product-dashboard/FAQs";
 import FAQsData from "./JSONData/FAQsData";
 // import BannerData from "./JSONData/BannerData";

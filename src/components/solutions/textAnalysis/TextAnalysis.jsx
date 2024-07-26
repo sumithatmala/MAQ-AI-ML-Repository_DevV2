@@ -1,8 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import headerImg from "./img/text-analysis.svg";
+
 import "./css/TextAnalysis.css";
-import { Link } from "react-router-dom";
+
 import { learnMoreItems, Banners, SpecialCards } from "./JSON/LearnMoreList";
 import ContactForm from "../common/contactForm";
 import AlternateBanner from "../common/alternateBanner";

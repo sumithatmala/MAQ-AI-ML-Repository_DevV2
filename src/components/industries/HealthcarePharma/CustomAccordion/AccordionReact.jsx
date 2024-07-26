@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, {  useEffect } from "react";
 import { MDBAccordion, MDBAccordionItem, MDBContainer } from "mdb-react-ui-kit";
 import '../../../product-dashboard/css/FAQs.css';
 
 export default function Accordion(props) {
-  const [activeAccordion, setActiveAccordion] = useState(0);
+  //const [activeAccordion, setActiveAccordion] = useState(0);
 
   useEffect(() => {
     const styleTag = document.createElement("style");
@@ -33,7 +33,7 @@ export default function Accordion(props) {
                 collapseId={index + 1}
                 headerTitle={faq.list}
                 // isactive={index === activeAccordion}
-                onSelect={() => setActiveAccordion(index)}
+                //onSelect={() => setActiveAccordion(index)}
               >
                 <div>
                   {faq.desc.para.map((paragraph, paraIndex) => (

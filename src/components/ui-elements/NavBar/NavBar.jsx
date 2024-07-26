@@ -85,7 +85,6 @@ const ListDropdown = ({ submenus, dropdown, depthLevel }) => {
 
 const MenuItems = ({ items, depthLevel }) => {
     //for open menu highlight
-    const [highlight,setHighlight] = useState(false);
     //toggle dropdown
     const [dropdown, setDropdown] = useState(false);
     //mouse click outside handle
@@ -116,9 +115,7 @@ const MenuItems = ({ items, depthLevel }) => {
         setDropdown(false);
     };
 
-    const closeDropdown = () => {
-        dropdown && setDropdown(false);
-    };
+   
     return (
         <li className="menu-items menu-selected"
             ref={ref}

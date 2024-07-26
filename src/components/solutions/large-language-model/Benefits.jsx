@@ -1,6 +1,5 @@
 import React from "react";
-import './css/Benefits.css'
-import { HashLink } from "react-router-hash-link";
+import './css/Benefits.css';
 const Benfits = () => {
   return (
     <section className="whychoose-section bg-icons margin-adjust">
