@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./css/ContactUs.css";
 import ContactForm from "../../solutions/common/contactForm";
 import pic from "./Images/FormSideImg.svg";
@@ -13,6 +14,11 @@ const ContactUs = () => {
       className="product-information backimg"
       style={{ backgroundColor: "white" }}
     >
+      <Helmet>
+        <title>Contact Us | MAQ Software</title>
+        <meta name="description" content="Get in touch with MAQ Software. Our offices in the US and India are conveniently located near key client facilities. Contact us today for more information and assistance with your projects." />
+        <meta name="keywords" content="contact MAQ Software, MAQ Software offices, MAQ Software locations, Redmond office, Hyderabad office, Mumbai office, NOIDA office, contact information, business consultation" />
+      </Helmet>
       <div className="content_info">
         <div className="heading-block">
           <div className="head-block-center">

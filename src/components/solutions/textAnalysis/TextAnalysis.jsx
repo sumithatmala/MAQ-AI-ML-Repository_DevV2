@@ -1,3 +1,5 @@
+import React from 'react';
+import { Helmet } from 'react-helmet';
 import headerImg from "./img/text-analysis.svg";
 import "./css/TextAnalysis.css";
 import { Link } from "react-router-dom";
@@ -12,6 +14,11 @@ import GridOfCards from "../common/GridOfCards";
 const TextAnalysis = () => {
   return (
     <>
+      <Helmet>
+        <title>Custom Text Analysis Software | NLP Solutions for Your Business</title>
+        <meta name="description" content="Develop tailored text analysis software to extract meaning from text data, enhance reporting, and accelerate project delivery. Discover our NLP solutions designed for customer feedback analysis, customer support automation, and more." />
+        <meta name="keywords" content="Text Analysis Software, Natural Language Processing, NLP Solutions, Customer Feedback Analysis, Customer Support Automation, Semantic Search, Text Data Analysis, MAQ Software" />
+      </Helmet>
       <NewBanner data={bannerdata} />
       <div className="InfoVisual">
         <div className="HeaderBox margin-adjust">
@@ -38,22 +45,6 @@ const TextAnalysis = () => {
               "Sentiment analytics, utilizing cutting-edge NLP-based technology, discerns the emotional tone within consumer sentiment data.",
           }}
         />
-        {/* <div className="LearnMoreList">
-          <ul>
-            {learnMoreItems.map((item, index) => {
-              // console.log(item.label);
-              return (
-                <div className="LearnMoreCard" key={index}>
-                  <div>
-                    <img src={item.img} alt={index} width={40}></img>
-                    <p>{item.disc}</p>
-                    <Link to={item.link}>Learn More</Link>
-                  </div>
-                </div>
-              );
-            })}
-          </ul>
-        </div> */}
         <AlternateBanner banners={Banners} count={0} ContactBtn={true} />
         <SpecialContainer SpecialCards={SpecialCards} />
         <ContactForm

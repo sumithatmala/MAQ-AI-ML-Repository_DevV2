@@ -1,3 +1,5 @@
+import React from 'react';
+import { Helmet } from 'react-helmet';
 import "./css/RecommendationSystems.css";
 // import Benefits from "./Benefits";
 import BiSlider from "./BiSlider";
@@ -14,6 +16,11 @@ import NewBannerdata from "./NewBannerdata";
 const RecommendationSystems = () => {
   return (
     <>
+      <Helmet>
+        <title>Personalized Recommendation Systems | Enhance Customer Engagement</title>
+        <meta name="description" content="Discover the power of personalized recommendation systems with MAQ Software. Enhance customer engagement and satisfaction with bespoke solutions tailored to your business needs." />
+        <meta name="keywords" content="Personalized Recommendation Systems, Customer Engagement, MAQ Software, Bespoke Solutions, Digital Era Shopping, Custom Solutions" />
+      </Helmet>
       <NewBanner data={ NewBannerdata } />
 
       <div className="container_pharma" style={{margin:"0px"}} >

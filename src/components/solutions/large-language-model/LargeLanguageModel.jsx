@@ -1,3 +1,5 @@
+import React from 'react';
+import { Helmet } from 'react-helmet';
 // import Banner from "../common/Banner";
 import Benfits from "./Benefits";
 import Industries from "./Industries";
@@ -23,6 +25,12 @@ import NewBannerdata from "./NewBannerData";
 const LargeLanguageModel = () => {
   return (
     <div>
+      <Helmet>
+        <title>Large Language Models | Custom AI Solutions | MAQ Software</title>
+        <meta name="description" content="Discover the power of large language models with MAQ Software. Our AI solutions provide custom language models tailored to your business needs, driving innovation and efficiency." />
+        <meta name="keywords" content="Large Language Models, AI Solutions, Custom Language Models, MAQ Software, AI Expertise, Business Innovation" />
+      </Helmet>
+
       <div>
         <NewBanner data={NewBannerdata} />
         {/* <ContactButton /> */}
@@ -57,7 +65,7 @@ const LargeLanguageModel = () => {
                 NoCards: 3,
                 title: "Build a Custom LLM Model for Your Industry",
                 caption:
-                  "Our generative AI company delivers custom models rooted in AI expertise &amp; years of cross-domain expertise.",
+                  "Our generative AI company delivers custom models rooted in AI expertise & years of cross-domain expertise.",
               }}
             />
           </div>

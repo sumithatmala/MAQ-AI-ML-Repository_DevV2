@@ -1,3 +1,5 @@
+import React from "react";
+import { Helmet } from "react-helmet";
 import ContactForm from "../../solutions/common/contactForm";
 import BenefitsData from "./BenefitsData";
 import OurExpertise from "./OurExpertise";
@@ -12,14 +14,22 @@ import OneCardDataAuto from "./OneCardDataAuto";
 import AccordionStatic from "../../solutions/common/accordionStatic";
 import AccordionDataAuto from "./AccordionDataAuto";
 import Alternate from "../../solutions/common/alternateBanner";
-import NewBanner from '../../solutions/common/NewBanner'
-import bannerdata from './bannerdata'
-
+import NewBanner from '../../solutions/common/NewBanner';
+import bannerdata from './bannerdata';
 
 const Automotive = () => {
   return (
     <>
-    <NewBanner data = {bannerdata} />
+      <Helmet>
+        <title>AI Solutions for Automotive Industry | Enhance Manufacturing | MAQ Software</title>
+        <meta name="description" content="Explore our AI services for the automotive industry. Leverage 3D computer vision and AI to enhance manufacturing processes and make data-driven decisions." />
+        <meta name="keywords" content="Automotive AI, AI in Manufacturing, 3D Computer Vision, Automotive Industry AI, Data-Driven Decisions, AI Services, Automotive AI Solutions, MAQ Software, maq software" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="AI Solutions for Automotive Industry | Enhance Manufacturing" />
+        <meta property="og:description" content="Discover how our AI solutions can transform the automotive manufacturing process through advanced 3D computer vision and data-driven decision making." />
+        <meta property="og:image" content="/path-to-image.jpg" /> {/* Replace with actual image URL */}
+      </Helmet>
+      <NewBanner data={bannerdata} />
       <div className="quick-block margin-adjust">
         <div className="head-block-center" style={{ marginBottom: "10px" }}>
           <h2 className="headblock">Our Expertise</h2>
