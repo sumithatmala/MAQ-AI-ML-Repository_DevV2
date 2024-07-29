@@ -16,9 +16,9 @@ import CustomerSuccess from "../solutions/common/CustomerSuccess";
 import LoaderComp from "../views/LoaderComp";
 import GridOfCards from "../solutions/common/GridOfCards";
 import { Helmet } from 'react-helmet';
-import solutionhigh from './icons/SolutionHigh.svg'
-import pain from './icons/PainPoints.svg'
-import howsolution from './icons/HowSolutionHelp.svg'
+import solutionhigh from './icons/SolutionHigh.svg';
+import pain from './icons/PainPoints.svg';
+import howsolution from './icons/HowSolutionHelp.svg';
 import outcomes from './icons/Outcomes.svg';
 import NewBanner from "../solutions/common/NewBanner";
 
@@ -60,13 +60,31 @@ const ProductInformation = () => {
       "availability": "http://schema.org/InStock",
     },
   };
-
+  console.log(productDetails)
+  console.log(productDetails.content);
   return (
     <>
       <Helmet>
         <title>{productDetails.title} | MAQ Software</title>
-        <meta name="description" content={productDetails.description} />
-        <meta name="keywords" content={`${productDetails.title}, AI, ML,Artificial Intelligence, Machine Learning, Products`} />
+        <meta name="title" content={productDetails.title + " | MAQ Software"} />
+        <meta name="description" content={productDetails.content+" By MAQ Software"} />
+        <meta name="keywords" content={productDetails.title +", AI, ML,Artificial Intelligence, Machine Learning, Products"} />
+        
+        
+       
+        <meta property="og:title"  content={productDetails.title + " | MAQ Software"}  />
+        <meta property="og:description" content={productDetails.content+" By MAQ Software"} />
+        <meta property="og:image" content={productDetails.img} />
+        <meta property="og:image:width" content="450"/>
+        <meta property="og:image:height" content="298"/>
+        <meta property="og:type" content="product" />
+
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title"  content={productDetails.title + " | MAQ Software"}  />
+        <meta name="twitter:description" content={productDetails.content+" By MAQ Software"} />
+        <meta name="twitter:image" content={productDetails.img} />
+        
         <script type="application/ld+json">
           {JSON.stringify(productSchema)}
         </script>
