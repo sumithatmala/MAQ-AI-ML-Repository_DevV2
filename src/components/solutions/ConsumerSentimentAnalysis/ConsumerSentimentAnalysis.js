@@ -25,6 +25,19 @@ const ConsumerSentimentAnalysis = () => {
         <title>Consumer Sentiment Analysis | Advanced NLP Solutions | MAQ Software</title>
         <meta name="description" content="Elevate your business strategy with MAQ Software's consumer sentiment analysis services. Utilize cutting-edge NLP-based technology to discern the emotional tone within consumer sentiment data and drive meaningful insights." />
         <meta name="keywords" content="Consumer Sentiment Analysis, NLP Technology, Sentiment Analytics, Business Strategy, MAQ Software, Emotional Tone, Data Insights" />
+
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Consumer Sentiment Analysis | Advanced NLP Solutions | MAQ Software" />
+        <meta name="twitter:description" content="Elevate your business strategy with MAQ Software's consumer sentiment analysis services. Utilize cutting-edge NLP-based technology to discern the emotional tone within consumer sentiment data and drive meaningful insights." />
+        <meta name="twitter:image" content="https://maqhatimd.github.io/img/Banners/contact.jpg" />
+
+        <meta property="og:title" content="Consumer Sentiment Analysis | Advanced NLP Solutions | MAQ Software" />
+        <meta property="og:description" content="Elevate your business strategy with MAQ Software's consumer sentiment analysis services. Utilize cutting-edge NLP-based technology to discern the emotional tone within consumer sentiment data and drive meaningful insights." />
+        <meta property="og:image" content="https://maqhatimd.github.io/img/Banners/contact.jpg" />
+        <meta property="og:url" content="https://sumithatmala.github.io/MAQ-AI-ML-Repository_DevV2/#/solution/TextAnalysis" />
+        <meta property="og:type" content="website" />
+
       </Helmet>
       
       <NewBanner data={CsmBanner} />
