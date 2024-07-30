@@ -24,6 +24,29 @@ const ContactUs = () => {
           name="keywords"
           content="contact MAQ Software, MAQ Software offices, MAQ Software locations, Redmond office, Hyderabad office, Mumbai office, NOIDA office, contact information, business consultation"
         />
+        <meta property="og:title" content="Contact Us | MAQ Software" />
+        <meta
+          property="og:description"
+          content="Get in touch with MAQ Software. Our offices in the US and India are conveniently located near key client facilities. Contact us today for more information and assistance with your projects."
+        />
+        <meta
+          property="og:image"
+          content="https://maqsoftware.com/images/generic/contact-us.png"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact Us | MAQ Software" />
+        <meta
+          name="twitter:description"
+          content="Get in touch with MAQ Software. Our offices in the US and India are conveniently located near key client facilities. Contact us today for more information and assistance with your projects."
+        />
+        <meta
+          name="twitter:image"
+          content="https://maqsoftware.com/images/generic/contact-us.png"
+        />
+        <link rel="canonical" href="https://www.maqsoftware.com/contact" />
       </Helmet>
       <div className="content_info">
         <div className="heading-block">

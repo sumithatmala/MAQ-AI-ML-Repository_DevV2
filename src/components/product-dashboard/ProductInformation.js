@@ -14,11 +14,11 @@ import ContactForm from "../solutions/common/contactForm";
 import CustomerSuccess from "../solutions/common/CustomerSuccess";
 import LoaderComp from "../views/LoaderComp";
 import GridOfCards from "../solutions/common/GridOfCards";
-import { Helmet } from 'react-helmet';
-import solutionhigh from './icons/SolutionHigh.svg';
-import pain from './icons/PainPoints.svg';
-import howsolution from './icons/HowSolutionHelp.svg';
-import outcomes from './icons/Outcomes.svg';
+import { Helmet } from "react-helmet";
+import solutionhigh from "./icons/SolutionHigh.svg";
+import pain from "./icons/PainPoints.svg";
+import howsolution from "./icons/HowSolutionHelp.svg";
+import outcomes from "./icons/Outcomes.svg";
 import NewBanner from "../solutions/common/NewBanner";
 
 const ProductInformation = () => {
@@ -47,43 +47,63 @@ const ProductInformation = () => {
   const productSchema = {
     "@context": "http://schema.org",
     "@type": "Product",
-    "name": productDetails.title,
-    "description": productDetails.description,
-    "image": productDetails.img,
-    "brand": "MAQ Software",
-    "offers": {
+    name: productDetails.title,
+    description: productDetails.description,
+    image: productDetails.img,
+    brand: "MAQ Software",
+    offers: {
       "@type": "Offer",
-      "priceCurrency": "USD",
-      "price": productDetails.price,
-      "itemCondition": "http://schema.org/NewCondition",
-      "availability": "http://schema.org/InStock",
+      priceCurrency: "USD",
+      price: productDetails.price,
+      itemCondition: "http://schema.org/NewCondition",
+      availability: "http://schema.org/InStock",
     },
   };
-  console.log(productDetails)
+  console.log(productDetails);
   console.log(productDetails.content);
+  console.log(productDetails.img);
   return (
     <>
       <Helmet>
         <title>{productDetails.title} | MAQ Software</title>
         <meta name="title" content={productDetails.title + " | MAQ Software"} />
-        <meta name="description" content={productDetails.content+" By MAQ Software"} />
-        <meta name="keywords" content={productDetails.title +", AI, ML,Artificial Intelligence, Machine Learning, Products"} />
-        
-        
-       
-        <meta property="og:title"  content={productDetails.title + " | MAQ Software"}  />
-        <meta property="og:description" content={productDetails.content+" By MAQ Software"} />
+        <meta
+          name="description"
+          content={productDetails.content + " By MAQ Software"}
+        />
+        <meta
+          name="keywords"
+          content={
+            productDetails.title +
+            ", AI, ML,Artificial Intelligence, Machine Learning, Products"
+          }
+        />
+        <meta name="author" content="MAQ Software" />
+
+        <meta
+          property="og:title"
+          content={productDetails.title + " | MAQ Software"}
+        />
+        <meta
+          property="og:description"
+          content={productDetails.content + " By MAQ Software"}
+        />
         <meta property="og:image" content={productDetails.img} />
-        <meta property="og:image:width" content="450"/>
-        <meta property="og:image:height" content="298"/>
+        <meta property="og:image:width" content="450" />
+        <meta property="og:image:height" content="298" />
         <meta property="og:type" content="product" />
 
-
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title"  content={productDetails.title + " | MAQ Software"}  />
-        <meta name="twitter:description" content={productDetails.content+" By MAQ Software"} />
+        <meta
+          name="twitter:title"
+          content={productDetails.title + " | MAQ Software"}
+        />
+        <meta
+          name="twitter:description"
+          content={productDetails.content + " By MAQ Software"}
+        />
         <meta name="twitter:image" content={productDetails.img} />
-        
+
         <script type="application/ld+json">
           {JSON.stringify(productSchema)}
         </script>
@@ -96,15 +116,20 @@ const ProductInformation = () => {
                 title: productDetails.title,
                 content: productDetails.content,
                 image: productDetails.img,
-                learnMore: true
+                learnMore: true,
               }}
             />
           </Row>
           {productDetails.BusinessCase &&
             productDetails.BusinessCase.length > 0 && (
-              <Row id="learn_more_navigate" className="product-overview margin-adjust" style={{display:"block"}}>
-                <Col style={{paddingTop: "2.2rem"}}>
-                  <div id="prodinfo"
+              <Row
+                id="learn_more_navigate"
+                className="product-overview margin-adjust"
+                style={{ display: "block" }}
+              >
+                <Col style={{ paddingTop: "2.2rem" }}>
+                  <div
+                    id="prodinfo"
                     className="text-block-center2"
                     data-aos="fade-right"
                     style={{ boxShadow: "none" }}
@@ -128,7 +153,7 @@ const ProductInformation = () => {
             productDetails.targetUsers.length > 0 && (
               <section
                 className="target-section margin-adjust"
-                style={{backgroundColor: "white", margin: "0"}}
+                style={{ backgroundColor: "white", margin: "0" }}
               >
                 <GridOfCards
                   items={{
@@ -140,7 +165,9 @@ const ProductInformation = () => {
               </section>
             )}
           <div className="product_carousel margin-adjust">
-            <h3 className="head-block-center" style={{ marginTop: "30px" }}>Business Outcomes</h3>
+            <h3 className="head-block-center" style={{ marginTop: "30px" }}>
+              Business Outcomes
+            </h3>
             <CustomerSuccess
               items={productDetails.businessOutcomes}
               CardHeight={"230px"}
@@ -152,8 +179,14 @@ const ProductInformation = () => {
           <section className="bannerCenter margin-adjust">
             {productDetails.solutionHighlights &&
               productDetails.solutionHighlights.length > 0 && (
-                <Row id="prodinfo" className="product-overview sol margin-adjust">
-                  <Col className="prodinfor_highlights" style={{ boxShadow: "none" }}>
+                <Row
+                  id="prodinfo"
+                  className="product-overview sol margin-adjust"
+                >
+                  <Col
+                    className="prodinfor_highlights"
+                    style={{ boxShadow: "none" }}
+                  >
                     <div
                       className="icon-container"
                       style={{
@@ -219,7 +252,9 @@ const ProductInformation = () => {
                               className="product-container"
                               style={{ display: "block" }}
                             >
-                              <h4 className="heading-size">{highlights.title}</h4>
+                              <h4 className="heading-size">
+                                {highlights.title}
+                              </h4>
                               <ul className="bulletStyle">
                                 {highlights.details.map((highlight, index) => (
                                   <li
@@ -264,7 +299,9 @@ const ProductInformation = () => {
                               className="product-container"
                               style={{ display: "block" }}
                             >
-                              <h4 className="heading-size">{highlights.title}</h4>
+                              <h4 className="heading-size">
+                                {highlights.title}
+                              </h4>
                               <ul className="bulletStyle">
                                 {highlights.details.map((highlight, index) => (
                                   <li
@@ -326,7 +363,9 @@ const ProductInformation = () => {
                               className="product-container"
                               style={{ display: "block" }}
                             >
-                              <h4 className="heading-size">{highlights.title}</h4>
+                              <h4 className="heading-size">
+                                {highlights.title}
+                              </h4>
                               <ul className="bulletStyle">
                                 {highlights.details.map((highlight, index) => (
                                   <li
@@ -353,9 +392,9 @@ const ProductInformation = () => {
           </section>
         </Container>
       </section>
-      <div id="demo" style={{marginTop: "-40px"}}></div>
+      <div id="demo" style={{ marginTop: "-40px" }}></div>
       <ProductDemo link={productDetails.demo.link} />
-      <div id="tryit" style={{marginTop: "-40px"}}></div>
+      <div id="tryit" style={{ marginTop: "-40px" }}></div>
       <ProductTryIt
         items={productDetails.title}
         link={productDetails.tryit.link}
