@@ -20,7 +20,7 @@ const IncreasingCards = (props) => {
       });
     }, 50);
     return () => clearInterval(interval);
-  },[]);
+  });
 
   return (
     <section className="IncreasingCardCnt margin-adjust">
