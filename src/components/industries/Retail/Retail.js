@@ -1,10 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import CustomerSuccess from '../../solutions/common/CustomerSuccess';
 import GridOfCards from '../../solutions/common/GridOfCards';
 import ContactForm from '../../solutions/common/contactForm';
 import './css/retailTool.css';
-import retailCustData from './retailCust';
 import GridData from './BusinessCases';
 import Grid from '../../solutions/common/grid';
 import { Number } from './Number';

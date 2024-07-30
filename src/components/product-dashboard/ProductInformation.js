@@ -4,7 +4,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ProductGallery from "./ProductGallery";
-import ProductHeader from "./ProductHeader";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ProductDemo from "./ProductDemo";

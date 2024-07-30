@@ -8,10 +8,6 @@ import { Menu, MenuItem, useProSidebar, Sidebar } from "react-pro-sidebar";
 
 //icons
 import { HashLink } from "react-router-hash-link";
-import videoPlayer from "./icons/videoplayer.png";
-import details from "./icons/details.png";
-import tryIt from "./icons/tryit.png";
-import contacts from "./icons/contacts.png";
 import {
   AiOutlineUser,
   AiOutlineInfoCircle,
@@ -20,8 +16,7 @@ import {
 } from "react-icons/ai";
 // import { AiOutlineInfoCircle } from "react-icons/ai";
 
-import { React, useState } from "react";
-import { Link } from "react-router-dom";
+import { React } from "react";
 
 export default function SideBar() {
   // const [opac, setOpac] = useState("1");

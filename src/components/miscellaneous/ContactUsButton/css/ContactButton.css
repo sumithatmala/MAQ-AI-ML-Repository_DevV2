@@ -1,6 +1,6 @@
 .contact-bt {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     position: fixed;
     bottom: 20px;
     /* Adjust as needed */

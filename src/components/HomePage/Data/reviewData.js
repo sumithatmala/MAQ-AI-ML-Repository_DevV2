@@ -1,5 +1,5 @@
 
-import statistics from "../img/statistics.svg"
+
 import consult from '../img/icons8-consultation-100 4.svg';
 import feature from '../img/icons8-rfid-signal-100 (1) 1.svg'
 import soft from '../img/icons8-ai-100 (2) 5.svg'
