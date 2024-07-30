@@ -28,11 +28,7 @@ import CompetitiveAdvantage from '../images/Sales Assistant/icons8-american-foot
 import bannerImg from '../images/Sales Assistant/Sales assistant.png'
 
 
-const iconSize = {
-  height: "5rem",
-  width: "5rem",
-  color: "#dc848d",
-};
+
 const iconSizeBO = {
   height: "5rem",
   width: "5rem",

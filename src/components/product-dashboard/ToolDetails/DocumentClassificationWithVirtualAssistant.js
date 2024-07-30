@@ -27,11 +27,7 @@ import StreamlinedOp from '../images/DocumentClassificationWithVirtualAssistant/
 import bannersvg from '../images/DocumentClassificationWithVirtualAssistant/Document Clarrification Bot.png'
 
 
-const iconSize = {
-    height: "3rem",
-    width: "3rem",
-    color: "#dc848d"
-}
+
 const iconSizeBO = {
     height: "5rem",
     width: "5rem",
