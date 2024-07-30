@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MAQ-AI-ML-Repository_DevV2/static/css/main.dc7634e9.css",
-    "main.js": "/MAQ-AI-ML-Repository_DevV2/static/js/main.badaae69.js",
+    "main.js": "/MAQ-AI-ML-Repository_DevV2/static/js/main.854210ec.js",
     "static/js/445.f8b606d7.chunk.js": "/MAQ-AI-ML-Repository_DevV2/static/js/445.f8b606d7.chunk.js",
     "static/js/728.64c0da34.chunk.js": "/MAQ-AI-ML-Repository_DevV2/static/js/728.64c0da34.chunk.js",
     "static/js/637.e8df97b3.chunk.js": "/MAQ-AI-ML-Repository_DevV2/static/js/637.e8df97b3.chunk.js",
@@ -474,7 +474,6 @@
     "static/media/icons8-media-100 1.svg": "/MAQ-AI-ML-Repository_DevV2/static/media/icons8-media-100 1.4c7b6e5eae4a4f1d44ad48cf4abec622.svg",
     "static/media/Document Classification Bot.svg": "/MAQ-AI-ML-Repository_DevV2/static/media/Document Classification Bot.0bd5d94e65e8defc26b5d9aba4484f15.svg",
     "static/media/Feedback Summarized Bot.svg": "/MAQ-AI-ML-Repository_DevV2/static/media/Feedback Summarized Bot.5bee15de9bb4d98db935ca0300e91b7c.svg",
-    "index.html": "/MAQ-AI-ML-Repository_DevV2/index.html",
     "static/media/data-capture-orange-path.svg": "/MAQ-AI-ML-Repository_DevV2/static/media/data-capture-orange-path.42769d182688297ea186.svg",
     "static/media/Data Capture.svg": "/MAQ-AI-ML-Repository_DevV2/static/media/Data Capture.4536ab7b45e69c67c8517bc0fad12494.svg",
     "static/media/locationicon.svg": "/MAQ-AI-ML-Repository_DevV2/static/media/locationicon.751cc71ffbaa6d857b3a88187389e806.svg",
@@ -482,6 +481,7 @@
     "static/media/logistics.svg": "/MAQ-AI-ML-Repository_DevV2/static/media/logistics.da43d1b260de8228d2d2ab83c23b5b76.svg",
     "static/media/Administrators.svg": "/MAQ-AI-ML-Repository_DevV2/static/media/Administrators.deec1c9e3fe5df62405d0e8e6318c02a.svg",
     "static/media/icon-3.svg": "/MAQ-AI-ML-Repository_DevV2/static/media/icon-3.9c0df45b08880a514c1d9487c131dbf7.svg",
+    "index.html": "/MAQ-AI-ML-Repository_DevV2/index.html",
     "static/media/phone-svgrepo-com.svg": "/MAQ-AI-ML-Repository_DevV2/static/media/phone-svgrepo-com.b6c5514d9187893bc3e2a6513cd71f94.svg",
     "static/media/orange-left.svg": "/MAQ-AI-ML-Repository_DevV2/static/media/orange-left.f17ea3fe19c6182f2830.svg",
     "static/media/orange-right.svg": "/MAQ-AI-ML-Repository_DevV2/static/media/orange-right.0a2bb2f0eea03d24cd4c.svg",
@@ -497,7 +497,7 @@
     "static/media/icon-reviews-arrow.svg": "/MAQ-AI-ML-Repository_DevV2/static/media/icon-reviews-arrow.b3eb4cc081901ac1cd45.svg",
     "static/media/icon-1.svg": "/MAQ-AI-ML-Repository_DevV2/static/media/icon-1.d28aeaca2a7d4b5cc502a484852093b7.svg",
     "main.dc7634e9.css.map": "/MAQ-AI-ML-Repository_DevV2/static/css/main.dc7634e9.css.map",
-    "main.badaae69.js.map": "/MAQ-AI-ML-Repository_DevV2/static/js/main.badaae69.js.map",
+    "main.854210ec.js.map": "/MAQ-AI-ML-Repository_DevV2/static/js/main.854210ec.js.map",
     "445.f8b606d7.chunk.js.map": "/MAQ-AI-ML-Repository_DevV2/static/js/445.f8b606d7.chunk.js.map",
     "728.64c0da34.chunk.js.map": "/MAQ-AI-ML-Repository_DevV2/static/js/728.64c0da34.chunk.js.map",
     "637.e8df97b3.chunk.js.map": "/MAQ-AI-ML-Repository_DevV2/static/js/637.e8df97b3.chunk.js.map",
@@ -517,6 +517,6 @@
   },
   "entrypoints": [
     "static/css/main.dc7634e9.css",
-    "static/js/main.badaae69.js"
+    "static/js/main.854210ec.js"
   ]
 }
