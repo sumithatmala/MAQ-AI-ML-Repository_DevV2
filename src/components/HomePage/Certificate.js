@@ -1,6 +1,11 @@
 import React from "react";
 import "./css/CertificateGrid.css";
-
+import app from "./img/certificates/app.png";
+import automation from "./img/certificates/automation.png";
+import copilot from "./img/certificates/copilot.png";
+import dashboard from "./img/certificates/dashboard.png";
+import fabric from "./img/certificates/fabric.png";
+import power from "./img/certificates/power.png";
 
 import ads from "./img/certificates/Group 84.svg";
 import aae from "./img/certificates/Group 85.svg";

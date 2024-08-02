@@ -172,7 +172,7 @@
     .ShowcaseBannerCnt {
         margin: 5rem auto;
         display: flex;
-        justify-content: flex-start;
+        justify-content: start;
     }
 
     .ShowcaseBannerTitle {
@@ -212,7 +212,7 @@
     .ShowcaseBannerCnt {
         margin: 5rem auto;
         display: flex;
-        justify-content: flex-start;
+        justify-content: start;
     }
 
     .ShowcaseBannerheader {

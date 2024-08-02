@@ -28,7 +28,11 @@ import WorkloadCosts from '../images/Support Ticket Assistant/icons8-low-price-p
 import Scalability from '../images/Support Ticket Assistant/icons8-weight-care-100 1.svg'
 import bannerImg from '../images/Support Ticket Assistant/Support Ticket Assistant.png'
 
-
+const iconSize = {
+  height: "5rem",
+  width: "5rem",
+  color: "#dc848d",
+};
 const iconSizeBO = {
   height: "5rem",
   width: "5rem",

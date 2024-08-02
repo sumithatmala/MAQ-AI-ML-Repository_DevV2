@@ -1,4 +1,13 @@
-
+import { MdGroups } from "react-icons/md";
+import PsychologyIcon from '@mui/icons-material/Psychology';
+import CastForEducationIcon from '@mui/icons-material/CastForEducation';
+import { GrUserAdmin } from "react-icons/gr";
+import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
+import QueryStatsIcon from '@mui/icons-material/QueryStats';
+import { MdManageHistory } from "react-icons/md";
+import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
+import ConstructionIcon from '@mui/icons-material/Construction';
+import SchoolIcon from '@mui/icons-material/School';
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import SpeedIcon from '@mui/icons-material/Speed';
 import OutputIcon from '@mui/icons-material/Output';
@@ -17,6 +26,11 @@ import TicketReg from '../images/SmartSupportFrameWorks/TicketReg.svg'
 
 import bannerImg from '../images/SmartSupportFrameWorks/Smart Support Framework.png'
 
+const iconSize = {
+    height: "5rem",
+    width: "5rem",
+    color: "#dc848d",
+  };
 const iconSizeBO = {
     height: "5rem",
     width: "5rem",
@@ -38,54 +52,54 @@ export const SmartSupportFramework = {
         {
             title: "Ticket Requester",
             description: "Users who submit support tickets and seek timely and accurate assistance.",
-            iconSrc: <img  alt="img1" src={TicketReg} width="70px"  />
+            iconSrc: <img src={TicketReg} width="70px" alt=''  />
         },
         {
             title: "Support Representative",
             description: "Support Engineers who are responsible for managing and resolving support tickets.",
-            iconSrc: <img  alt="img1" src={SupportRep} width="70px"  />
+            iconSrc: <img src={SupportRep} width="70px" alt=''  />
         },
         {
             title: "Support Manager",
             description: "Leads or supervisors overseeing support teams, ensuring efficient ticket resolution and customer satisfaction.",
-            iconSrc: <img  alt="img1" src={SupportManage} width="70px"  />
+            iconSrc: <img src={SupportManage} width="70px" alt=''  />
         },
         {
             title: "System Administrator",
             description: "Administrators responsible for configuring and maintaining the support ticket management system.",
-            iconSrc: <img  alt="img1" src={SystemAdmin} width="70px" />
+            iconSrc: <img src={SystemAdmin} width="70px" alt=''  />
         },
     ],
     businessOutcomes: [
         {
             title: "Improved Response Time",
             description: ["Reduced response times for support ticket requests, enhancing customer satisfaction and loyalty."],
-            image: <img  alt="img1" src={ResponseTime} width="100px" style={iconSizeBO} />
+            image: <img src={ResponseTime} width="100px" style={iconSizeBO} />
         },
         {
             title: "Enhanced Ticket Severity Management",
             description: ["Accurate determination and communication of ticket severity enable better prioritization and faster resolution of critical issues."],
-            image: <img alt="img1"  src={EnhancedTicketSeverity} width="100px" style={iconSizeBO} />
+            image: <img src={EnhancedTicketSeverity} width="100px" style={iconSizeBO} />
         },
         {
             title: "Streamlined Collaboration",
             description: ["Efficient communication and collaboration between support teams lead to quicker ticket resolution, reducing overall response and resolution times."],
-            image: <img  alt="img1" src={StreamlinedCollab} width="100px" style={iconSizeBO} />
+            image: <img src={StreamlinedCollab} width="100px" style={iconSizeBO} />
         },
         {
             title: "Increased Customer Satisfaction",
             description: ["By addressing customer concerns quickly and efficiently can enhance the customer experience, resulting in higher satisfaction levels and positive brand perception."],
-            image:<img  alt="img1" src={CustomerSatisfaction} width="100px" style={iconSizeBO} />
+            image:<img src={CustomerSatisfaction} width="100px" style={iconSizeBO} />
         },
         {
             title: "Improved Operational Efficiency",
             description: ["Automating ticket assignment and streamlining collaboration can optimize resource allocation, improve productivity, and reduce operational costs."],
-            image: <img  alt="img1" src={OperationalEfficiency} width="100px" style={iconSizeBO} />
+            image: <img src={OperationalEfficiency} width="100px" style={iconSizeBO} />
         },
         {
             title: "Enhanced Escalation Process",
             description: ["Streamlined escalation process ensures that critical support tickets are promptly escalated to the appropriate teams or higher-level support."],
-            image: <img  alt="img1" src={EscalationProcess} width="100px" style={iconSizeBO} />
+            image: <img src={EscalationProcess} width="100px" style={iconSizeBO} />
         },
     ],
     solutionHighlights: [

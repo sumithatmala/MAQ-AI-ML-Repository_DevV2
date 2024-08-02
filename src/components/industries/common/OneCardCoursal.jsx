@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 import "./css/OneCardCoursal.css";
 
 
-//import testimg from './img/heading-net-bg.svg';
+import testimg from './img/heading-net-bg.svg';
 
 const OneCardCoursal = (props) => {
   const settings = {

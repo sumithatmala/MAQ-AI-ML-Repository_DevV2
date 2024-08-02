@@ -14,7 +14,7 @@ import Technologies from "../common/technologies";
 // import RoadMap from "../common/RoadMap";
 
 //data
-import { process, industrialCards, benefitCards, technologies } from "./JSON/ImageRecList";
+import { process, industrialCards, benefitCards, technologies, customerSuccessData } from "./JSON/ImageRecList";
 import { roadmapLeft, roadmapRight } from "./JSON/ProjectDevRoadmapData";
 import NewBanner from "../common/NewBanner";
 import IRbannerData from "./Banerdata";
