@@ -21,7 +21,6 @@ import pain from "./icons/PainPoints.svg";
 import howsolution from "./icons/HowSolutionHelp.svg";
 import outcomes from "./icons/Outcomes.svg";
 import NewBanner from "../solutions/common/NewBanner";
-import "./css/button.css";
 
 const ProductInformation = () => {
   const [productDetails, setProductDetails] = useState(null);
