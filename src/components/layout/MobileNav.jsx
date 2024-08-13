@@ -101,7 +101,7 @@ const MobileNav = () => {
             }
         };
         document.addEventListener("mousedown", handler);
-        document.addEventListener("touchstart", handler);
+        // document.addEventListener("touchstart", handler);
         setHamburgerToggle(showMenu);
         return () => {
             // Cleanup the event listener

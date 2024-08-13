@@ -470,10 +470,12 @@ section#demo {
 
     iframe {
         width: 90%;
+        height: 26rem;
     }
 
     .iframe_size {
         margin: 0 5% !important;
+
     }
 }
 

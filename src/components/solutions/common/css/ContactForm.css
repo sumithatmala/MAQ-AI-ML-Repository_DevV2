@@ -18,6 +18,19 @@
     margin-bottom: 3rem;
 }
 
+@media (max-width: 1280px) {
+    .Contact .Header {
+        margin-bottom: 2rem;
+    }
+    .Contact form button{
+        margin-top: -5px;
+    }
+    form .textarea-field .item {
+        resize: none;
+        height: 120px;
+    }
+}
+
 .Contact form{
     text-align: center;
     align-items: center;
