@@ -26,10 +26,10 @@ const CaptchaTest = () => {
 
   return (
     <div>
-      <div className="container">
+      <div className="container" style={{display: "ruby-text"}}>
         <div className="form-group">
           <div
-            className="col"
+            // className="col"
             style={{
               display: "flex",
               alignItems: "center",
@@ -38,8 +38,8 @@ const CaptchaTest = () => {
           >
             <LoadCanvasTemplate reloadColor="black" />
           </div>
-          <div className="col mt-3">
-            <div className="input-field field">
+          <div className="mt-3" style={{paddingLeft: "0"}}>
+            <div className="input-field field" style={{marginLeft: "20px"}}>
               <input
                 type="text"
                 placeholder="Enter Captcha Value"
