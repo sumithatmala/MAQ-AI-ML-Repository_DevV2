@@ -23,16 +23,16 @@ import StreamlinedClientProfiling from '../images/Sales Assistant/icons8-manager
 import FasterPersonalizedSolutions from '../images/Sales Assistant/icons8-solution-100 1.svg'
 import ImprovedAccuracy from '../images/Sales Assistant/icons8-accuracy-100 1.svg'
 import EnhancedEfficiencyandProductivity from '../images/Sales Assistant/icons8-punctuality-100 1.svg'
-import IncreasedSalesConversion from '../images/Sales Assistant/icons8-summer-sales-100 (1) 1.svg'
-import CompetitiveAdvantage from '../images/Sales Assistant/icons8-american-football-player-100 1.svg'
+// import IncreasedSalesConversion from '../images/Sales Assistant/icons8-summer-sales-100 (1) 1.svg'
+// import CompetitiveAdvantage from '../images/Sales Assistant/icons8-american-football-player-100 1.svg'
 import bannerImg from '../images/Sales Assistant/Sales assistant.png'
 
 
-const iconSize = {
-  height: "5rem",
-  width: "5rem",
-  color: "#dc848d",
-};
+// const iconSize = {
+//   height: "5rem",
+//   width: "5rem",
+//   color: "#dc848d",
+// };
 const iconSizeBO = {
   height: "5rem",
   width: "5rem",
@@ -77,25 +77,25 @@ export const IntelligentKnowledgeBaseBot = {
       title: "Data-Driven Decision Making",
       description:
         ["Easy access to accurate information facilitates informed decision-making"],
-      image: <img src={StreamlinedClientProfiling} width="100px" style={iconSizeBO} />
+      image: <img src={StreamlinedClientProfiling} width="100px" style={iconSizeBO} alt=""/>
     },
     {
       title: "Improved Productivity",
       description:
         ["Quick and accurate retrieval of relevant information saves time and boosts productivity."],
-      image: <img src={FasterPersonalizedSolutions} width="100px" style={iconSizeBO} />
+      image: <img src={FasterPersonalizedSolutions} width="100px" style={iconSizeBO} alt=""/>
     },
     {
       title: "Enhanced Collaboration",
       description:
         ["Robust knowledge sharing enables better teamwork."],
-      image: <img src={ImprovedAccuracy} width="100px" style={iconSizeBO} />
+      image: <img src={ImprovedAccuracy} width="100px" style={iconSizeBO} alt=""/>
     },
     {
       title: "Competitive Advantage",
       description:
         ["Deliver faster and stay ahead of the competition."],
-      image: <img src={EnhancedEfficiencyandProductivity} width="100px" style={iconSizeBO} />
+      image: <img src={EnhancedEfficiencyandProductivity} width="100px" style={iconSizeBO} alt=""/>
     }
   ],
   solutionHighlights: [

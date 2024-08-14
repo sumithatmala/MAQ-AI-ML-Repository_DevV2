@@ -62,9 +62,7 @@ export const FeedbackSummarizerBot = {
       iconSrc: <img src={ProdcutDev} alt="" width="70px" />
     },
   ],
-  businessOutcomes: {
-    cardHeight: "230px",
-    cardList: [
+  businessOutcomes: [
       {
         title: "Enhanced Customer Experience",
         description: ["Using customer feedback insights, organizations can prioritize product enhancements for more innovative, customer-centric products."],
@@ -95,8 +93,7 @@ export const FeedbackSummarizerBot = {
         description: ["Efficient analysis of customer feedback allows businesses to stay ahead of the competition by identifying and addressing customer needs and preferences more effectively."],
         image: <img src={CompetitiveAdv} alt="" width="100px" />
       },
-    ]
-  },
+    ],
   solutionHighlights: [
     "Businesses can automatically categorize and summarize feedback data based on factors such as sentiment and product type. This enables quick identification of key insights and areas for improvement.",
     "A chatbot service is implemented to interact with the feedback data, allowing users to ask questions related to product feedback and retrieve relevant comments.",

@@ -1,14 +1,14 @@
 import demoVideo from "./DemoVideo/TestCaseRecommender.mp4";
-import { MdEngineering } from "react-icons/md";
-import { GrUserManager } from "react-icons/gr";
-import { TiGroup } from "react-icons/ti";
-import { FaBusinessTime } from "react-icons/fa6";
-import { FaFastForward } from "react-icons/fa";
-import { GrDocumentPerformance } from "react-icons/gr";
-import { BsWrenchAdjustable } from "react-icons/bs";
-import { GiNetworkBars } from "react-icons/gi";
-import { MdVisibility } from "react-icons/md";
-import { MdPriceChange } from "react-icons/md";
+// import { MdEngineering } from "react-icons/md";
+// import { GrUserManager } from "react-icons/gr";
+// import { TiGroup } from "react-icons/ti";
+// import { FaBusinessTime } from "react-icons/fa6";
+// import { FaFastForward } from "react-icons/fa";
+// import { GrDocumentPerformance } from "react-icons/gr";
+// import { BsWrenchAdjustable } from "react-icons/bs";
+// import { GiNetworkBars } from "react-icons/gi";
+// import { MdVisibility } from "react-icons/md";
+// import { MdPriceChange } from "react-icons/md";
 
 import QualityAssuranceEngineer from '../images/Test Case Recommender/icons8-approval-100 1.svg'
 import ProjectManagers from '../images/Test Case Recommender/icons8-manager-100 (2) 3.svg'
@@ -24,11 +24,11 @@ import CostSavings from '../images/Test Case Recommender/icons8-money-box-100 2.
 import bannerImg from '../images/Test Case Recommender/Test Care Recommender.png'
 
 
-const iconSize = {
-  height: "5rem",
-  width: "5rem",
-  color: "#dc848d",
-};
+// const iconSize = {
+//   height: "5rem",
+//   width: "5rem",
+//   color: "#dc848d",
+// };
 const iconSizeBO = {
   height: "5rem",
   width: "5rem",
@@ -78,37 +78,37 @@ export const TestCaseRecommender = {
       title: "Improved Test Coverage",
       description:
         ["Automated test case generation helps ensure comprehensive coverage of various scenarios, reducing the risk of undiscovered issues in the software."],
-      image: <img src={ImprovedTestCoverage} width="100px" style={iconSizeBO} />
+      image: <img src={ImprovedTestCoverage} width="100px" style={iconSizeBO} alt=""/>
     },
     {
       title: "Standardization and Consistency",
       description:
         ["Automated test case generation ensures consistent formats and adherence to quality standards, promoting uniformity across the development team."],
-      image: <img src={StandardizationandConsistency} width="100px" style={iconSizeBO} />
+      image: <img src={StandardizationandConsistency} width="100px" style={iconSizeBO} alt=""/>
     },
     {
       title: "Enhanced Quality",
       description:
         ["Consistent and accurate test case generation reduces the risk of human errors, improving the overall quality and reliability of the software."],
-      image: <img src={EnhancedQuality} width="100px" style={iconSizeBO} />
+      image: <img src={EnhancedQuality} width="100px" style={iconSizeBO} alt=""/>
     },
     {
       title: "Faster Time-to-Market",
       description:
         ["Streamlined test case creation and management processes accelerate software development cycles, enabling faster time-to-market for products and features."],
-      image: <img src={FasterTimetoMarket} width="100px" style={iconSizeBO} />
+      image: <img src={FasterTimetoMarket} width="100px" style={iconSizeBO} alt=""/>
     },
     {
       title: "Enhanced Collaboration and Visibility",
       description:
         ["Integration with Azure DevOps enables better team collaboration, centralized test case management, and real-time testing progress visibility."],
-      image: <img src={EnhancedCollaborationandVisibility} width="100px" style={iconSizeBO} />
+      image: <img src={EnhancedCollaborationandVisibility} width="100px" style={iconSizeBO} alt=""/>
     },
     {
-      title: "Cost Savings",
+      title: "Cost Savings from Test Automation",
       description:
         ["Automation reduces the need for manual labor, resulting in cost savings associated with test case creation and maintenance."],
-      image: <img src={CostSavings} width="100px" style={iconSizeBO} />
+      image: <img src={CostSavings} width="100px" style={iconSizeBO} alt=""/>
     },
   ],
   solutionHighlights: [

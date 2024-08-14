@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ProductGallery from "./ProductGallery";
-import ProductHeader from "./ProductHeader";
+// import ProductHeader from "./ProductHeader";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ProductDemo from "./ProductDemo";
@@ -21,6 +21,7 @@ import pain from "./icons/PainPoints.svg";
 import howsolution from "./icons/HowSolutionHelp.svg";
 import outcomes from "./icons/Outcomes.svg";
 import NewBanner from "../solutions/common/NewBanner";
+import "./css/button.css";
 
 const ProductInformation = () => {
   const [productDetails, setProductDetails] = useState(null);
@@ -170,8 +171,8 @@ const ProductInformation = () => {
               Business Outcomes
             </h3>
             <CustomerSuccess
-              items={productDetails.businessOutcomes.cardList}
-              CardHeight={productDetails.businessOutcomes.CardHeight}
+              items={productDetails.businessOutcomes}
+              CardHeight={"230px"}
               autoPlay={false}
               centerUp={true}
               style={{ marginBottom: "0px", paddingBottom: "5rem" }}
