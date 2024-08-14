@@ -29,7 +29,7 @@ const MarTech = () => {
       {/* <Banner BannerData={BannerData}/> */}
       <section className="WelcomeMsg margin-adjust">
         <h2>Our Strengths</h2>
-        <div className='text-block-center'>Utilize our specialized knowledge to accelerate your digital evolution, minimize advertising expenditures, and elevate customer satisfaction through cutting-edge AI solutions.</div>
+        <div className='text-block-center'><p style={{fontSize: "16px"}}>Utilize our specialized knowledge to accelerate your digital evolution, minimize advertising expenditures, and elevate customer satisfaction through cutting-edge AI solutions.</p></div>
       </section>
       <div className="InfoVisual">
         <AlternateBanner banners={AlternateBannerData} count={0} ContactBtn={true} />

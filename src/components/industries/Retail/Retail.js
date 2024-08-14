@@ -29,7 +29,7 @@ const Retail = () => {
       <section className="info-section margin-adjust">
         <div className="info-section-inner" style={{ padding: "0px" }}>
           <h2 className="head-block-center">Our Expertise</h2>
-          <div className="text-block-center">Artificial intelligence in the retail industry: made easy.</div>
+          <div className="text-block-center"><p style={{fontSize: "16px"}}>Artificial intelligence in the retail industry: made easy.</p></div>
         </div>
       </section>
 

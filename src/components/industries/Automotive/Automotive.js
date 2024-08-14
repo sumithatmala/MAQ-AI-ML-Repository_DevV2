@@ -31,13 +31,13 @@ const Automotive = () => {
       </Helmet>
       <NewBanner data={bannerdata} />
       <div className="quick-block margin-adjust">
-        <div className="head-block-center" style={{ marginBottom: "10px" }}>
+        <div className="head-block-center" style={{ marginBottom: "" }}>
           <h2 className="headblock">Our Expertise</h2>
         </div>
-        <div className="text-block-center" style={{ marginBottom: "10px" }}>
-          We provide automotive AI services for car manufacturers that leverage
+        <div className="text-block-center" style={{ marginBottom: "3rem", fontSize: "16px" }}>
+          <p style={{fontSize: "16px"}}>We provide automotive AI services for car manufacturers that leverage
           3D computer vision to make data-driven decisions at each manufacturing
-          stage.
+          stage.</p>
         </div>
       </div>
 
