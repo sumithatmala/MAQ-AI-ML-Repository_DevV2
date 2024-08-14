@@ -69,8 +69,8 @@ export const IntelligentDocumentProcessingBot = {
   ],
   businessOutcomes: [
     {
-      title: "Improved Access to Insights ",
-      description: ["By structuring and indexing the extracted data, Healthcare providers can generate insightful reports, identify patterns, and make data-driven decisions more effectively."],
+      title: "Improved Insights  Access",
+      description: ["By structuring and indexing data, healthcare providers can generate insightful reports, identify patterns, and make data-driven decisions more effectively."],
       image: <img src={ImprovedAccesstoInsights} width="100px" style={iconSizeBO} alt=''/>
     },
     {
@@ -97,7 +97,7 @@ export const IntelligentDocumentProcessingBot = {
     },
     {
       title: "Improved efficiency & Time Saving",
-      description: ["Elimination of manual intervention in data entry, data processing and retrieval improves the productivity of the staff and allows them to focus on much critical tasks."],
+      description: ["Eliminating manual intervention in data entry, processing, and retrieval improves staff productivity and allows focus on more critical tasks."],
       image: <img src={EfficiencyandTimeSaving} width="100px" alt='' style={iconSizeBO} />
     },
   ],
