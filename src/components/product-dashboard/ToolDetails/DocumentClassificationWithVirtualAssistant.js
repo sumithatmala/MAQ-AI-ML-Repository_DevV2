@@ -91,7 +91,7 @@ export const DocumentClassificationWithVirtualAssistant = {
         },
         {
             title: "Improved Data Accuracy",
-            description: ["Accuracy of data extraction is enhanced, minimizing errors and inconsistencies."],
+            description: ["Accuracy of data extraction is enhanced, minimizing errors and inconsistencies, and ensuring more reliable and trustworthy data."],
             image: <img src={DataAccuracy} width="100px" style={iconSizeBO} alt=''/>
         },
     ],

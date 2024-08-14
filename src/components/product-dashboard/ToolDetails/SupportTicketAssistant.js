@@ -89,7 +89,7 @@ export const SupportTicketAssistant = {
     {
       title: "Improved Team Performance",
       description:
-        ["Automation provides visibility into support team performance metrics, enabling managers to identify areas for improvement, provide targeted training, and enhance overall team performance."],
+        ["Automation provides visibility into support team performance metrics, helping managers identify areas for improvement and enhance overall team performance."],
       image: <img src={TeamPerformance} width="100px" style={iconSizeBO} alt=""/>
     },
     {
@@ -101,7 +101,7 @@ export const SupportTicketAssistant = {
     {
       title: "Reduced Workload and Costs",
       description:
-        ["Automation eliminates repetitive and manual tasks, reducing the workload on support teams and minimizing operational costs associated with support request handling."],
+        ["Automation eliminates repetitive tasks, reducing support team workload and operational costs."],
       image: <img src={WorkloadCosts} width="100px" style={iconSizeBO} alt=""/>
     },
     {

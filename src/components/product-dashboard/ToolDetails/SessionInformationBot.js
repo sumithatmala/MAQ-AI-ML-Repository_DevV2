@@ -99,7 +99,7 @@ export const SessionInformationBot = {
       image: <img src={EfficientProject}  style={iconSizeBO} alt=''/>
     },
     {
-      title: "Enhanced engagement of Employees Regarding learning",
+      title: "Enhanced engagement of Employees' learning",
       description:
         ["Foster an environment that encourages employee engagement in learning activities, promoting a culture of continuous learning."],
       image: <img src={Engagement} style={iconSizeBO}  alt=''/>

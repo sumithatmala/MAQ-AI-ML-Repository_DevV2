@@ -78,7 +78,7 @@ export const SalesAssistant = {
     {
       title: "Faster Personalized Solutions",
       description:
-        ["By matching client data with business value maps, the sales team can provide personalized solutions more quickly, improving response times and customer satisfaction"],
+        ["Matching client data with business value maps enables the sales team to provide personalized solutions faster, improving response times and customer satisfaction."],
       image: <img src={FasterPersonalizedSolutions} width="100px" style={iconSizeBO} alt=""/>
     },
     {
