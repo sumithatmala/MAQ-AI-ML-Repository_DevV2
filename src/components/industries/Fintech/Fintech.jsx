@@ -30,7 +30,7 @@ const Fintech = () => {
         <p>Unlocking enhanced efficiency and customer service through our tailored Fintech solutions.</p>
       </section>
       <OneCardCoursal items={OneCardData} />
-      <div className="InfoVisual">
+      <div className="InfoVisual" style={{padding: "0px 50px"}}>
         <AlternateBanner banners={AlternateBannerData} count={0} ContactBtn={true} />
       </div>
       <FlatGridLayout items={BusinessLevelUpData} title={"How We Can Help You"} />

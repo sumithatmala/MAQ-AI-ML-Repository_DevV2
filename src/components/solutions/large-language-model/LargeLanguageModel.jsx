@@ -80,7 +80,7 @@ const LargeLanguageModel = () => {
             specific requirements.
           </div>
         </div>
-        <div style={{ margin: "0 auto", maxWidth: "1470px" }}>
+        <div style={{ margin: "0 auto", maxWidth: "1063px" }}>
           <AlternateBanner banners={AlternateBannerData} />
         </div>
         {/* <Expertise /> */}

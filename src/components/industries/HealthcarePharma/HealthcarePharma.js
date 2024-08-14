@@ -53,7 +53,7 @@ const HealtcarePharma = () => {
         />
       </div>
 
-      <div className="container_pharma">
+      <div className="container_pharma" style={{padding: "0px 50px"}}>
         <AlternateBanner banners={AreaExpertise} count={0} ContactBtn={true} />
       </div>
 

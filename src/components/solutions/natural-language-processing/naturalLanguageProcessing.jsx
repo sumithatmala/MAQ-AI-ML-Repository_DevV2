@@ -41,7 +41,9 @@ const NaturalLanguageProcessing = () => {
                     <h2>What We Offer</h2>
                     <p>We're Pioneers in NLP Software Service Development. Whatever Your Business Problem is, We're Part of the Solution.</p>
                 </section>
-                <AlternateBanner banners={bannerData} count={0} ContactBtn={false}/>
+                <div style={{maxWidth: "1064px"}}>
+                    <AlternateBanner banners={bannerData} count={0} ContactBtn={false}/>
+                </div>
                 {/* <section className="WorkProcess">
                     <h3>How We Work</h3>
                     <div className="ExplainProcess"></div>

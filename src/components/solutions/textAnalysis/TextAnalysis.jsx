@@ -45,7 +45,9 @@ const TextAnalysis = () => {
               "Sentiment analytics, utilizing cutting-edge NLP-based technology, discerns the emotional tone within consumer sentiment data.",
           }}
         />
-        <AlternateBanner banners={Banners} count={0} ContactBtn={true} />
+        <div style={{maxWidth: "1064px"}}>
+          <AlternateBanner banners={Banners} count={0} ContactBtn={true} />
+        </div>
         <SpecialContainer SpecialCards={SpecialCards} />
         <ContactForm
           contactMsg={"Let's talk about your text analysis project."}

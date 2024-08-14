@@ -35,7 +35,9 @@ const Logistics = () => {
             <p>Maximize customer satisfaction by reliably delivering products on schedule, within budget, and at the pace expected by your clientele. Utilize intelligent logistics and transportation solutions to streamline delivery routes and prioritize driver safety throughout the journey. Access a comprehensive range of software and services tailored for carriers, freight forwarders, and logistics firms to enhance operational efficiency and exceed customer expectations.</p>
           </div>
         </section>
+        <div className="InfoVisual" style={{padding: "0px 50px"}}>
         <AlternateBanner banners={AlternateBannerData} count={1} ContactBtn={true} />
+        </div>
       </div>
       <h2 className='head-block-center'>Strategic Solutions for Advanced Logistics Optimization</h2>
       <div className="Container-ir">
