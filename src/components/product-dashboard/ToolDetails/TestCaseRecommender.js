@@ -38,65 +38,68 @@ export const TestCaseRecommender = {
       title: "Quality Assurance Engineer",
       description:
         "Involved in testing activities, responsible for creating and executing test cases, and ensuring the quality of the software.",
-      iconSrc: <img src={QualityAssuranceEngineer} width="70px"  alt="img1"  />
+      iconSrc: <img src={QualityAssuranceEngineer} width="70px" alt="img1" />
     },
     {
       title: "Project Managers",
       description:
         "Responsible for overseeing the software development process, ensuring quality, and managing resources efficiently",
-      iconSrc: <img src={ProjectManagers} width="70px"  alt="img1"  />
+      iconSrc: <img src={ProjectManagers} width="70px" alt="img1" />
     },
     {
       title: "DevOps Teams/Leads",
       description:
         "Collaborating with development and operations teams ensuring efficiency, reliability, and scalability",
-      iconSrc: <img src={DevOpsTeamsLeads} width="70px"  alt="img1"  />
+      iconSrc: <img src={DevOpsTeamsLeads} width="70px" alt="img1" />
     },
     {
       title: "Business Analysts",
       description:
         "Collaborates with development teams to gather requirements, user stories, and functional specifications",
-      iconSrc: <img src={BusinessAnalysts} width="70px"  alt="img1"  />
+      iconSrc: <img src={BusinessAnalysts} width="70px" alt="img1" />
     },
   ],
-  businessOutcomes: [
-    {
-      title: "Improved Test Coverage",
-      description:
-        ["Automated test case generation helps ensure comprehensive coverage of various scenarios, reducing the risk of undiscovered issues in the software."],
-      image: <img  alt="img1" src={ImprovedTestCoverage} width="100px" style={iconSizeBO} />
-    },
-    {
-      title: "Standardization and Consistency",
-      description:
-        ["Automated test case generation ensures consistent formats and adherence to quality standards, promoting uniformity across the development team."],
-      image: <img  alt="img1" src={StandardizationandConsistency} width="100px" style={iconSizeBO} />
-    },
-    {
-      title: "Enhanced Quality",
-      description:
-        ["Consistent and accurate test case generation reduces the risk of human errors, improving the overall quality and reliability of the software."],
-      image: <img  alt="img1" src={EnhancedQuality} width="100px" style={iconSizeBO} />
-    },
-    {
-      title: "Faster Time-to-Market",
-      description:
-        ["Streamlined test case creation and management processes accelerate software development cycles, enabling faster time-to-market for products and features."],
-      image: <img  alt="img1" src={FasterTimetoMarket} width="100px" style={iconSizeBO} />
-    },
-    {
-      title: "Enhanced Collaboration and Visibility",
-      description:
-        ["Integration with Azure DevOps enables better team collaboration, centralized test case management, and real-time testing progress visibility."],
-      image: <img  alt="img1" src={EnhancedCollaborationandVisibility} width="100px" style={iconSizeBO} />
-    },
-    {
-      title: "Cost Savings",
-      description:
-        ["Automation reduces the need for manual labor, resulting in cost savings associated with test case creation and maintenance."],
-      image: <img  alt="img1" src={CostSavings} width="100px" style={iconSizeBO} />
-    },
-  ],
+  businessOutcomes: {
+    cardHeight: "230px",
+    cardList: [
+      {
+        title: "Improved Test Coverage",
+        description:
+          ["Automated test case generation helps ensure comprehensive coverage of various scenarios, reducing the risk of undiscovered issues in the software."],
+        image: <img alt="img1" src={ImprovedTestCoverage} width="100px" style={iconSizeBO} />
+      },
+      {
+        title: "Standardization and Consistency",
+        description:
+          ["Automated test case generation ensures consistent formats and adherence to quality standards, promoting uniformity across the development team."],
+        image: <img alt="img1" src={StandardizationandConsistency} width="100px" style={iconSizeBO} />
+      },
+      {
+        title: "Enhanced Quality",
+        description:
+          ["Consistent and accurate test case generation reduces the risk of human errors, improving the overall quality and reliability of the software."],
+        image: <img alt="img1" src={EnhancedQuality} width="100px" style={iconSizeBO} />
+      },
+      {
+        title: "Faster Time-to-Market",
+        description:
+          ["Streamlined test case creation and management processes accelerate software development cycles, enabling faster time-to-market for products and features."],
+        image: <img alt="img1" src={FasterTimetoMarket} width="100px" style={iconSizeBO} />
+      },
+      {
+        title: "Enhanced Collaboration and Visibility",
+        description:
+          ["Integration with Azure DevOps enables better team collaboration, centralized test case management, and real-time testing progress visibility."],
+        image: <img alt="img1" src={EnhancedCollaborationandVisibility} width="100px" style={iconSizeBO} />
+      },
+      {
+        title: "Cost Savings",
+        description:
+          ["Automation reduces the need for manual labor, resulting in cost savings associated with test case creation and maintenance."],
+        image: <img alt="img1" src={CostSavings} width="100px" style={iconSizeBO} />
+      },
+    ]
+  },
   solutionHighlights: [
     "Web extension extracts user story data and retrieves relevant descriptions for test case generation using Azure Open AI. ",
     "The resulting test cases can be added to Azure DevOps for easy access and management.",

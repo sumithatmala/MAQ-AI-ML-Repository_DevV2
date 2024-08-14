@@ -37,7 +37,7 @@ export const TestCaseRecommender = {
       title: "Sales Managers",
       description:
         "Optimize product placement and reduce empty shelf space to drive higher sales.",
-      iconSrc: <img alt="img1" src={QualityAssuranceEngineer} width="70px"  />
+      iconSrc: <img alt="img1" src={QualityAssuranceEngineer} width="70px" />
     },
     {
       title: "Marketing Teams",
@@ -49,53 +49,56 @@ export const TestCaseRecommender = {
       title: "Supply Chain Analysts",
       description:
         "Ensure efficient inventory management, reducing stockouts and excess inventory.",
-      iconSrc: <img  alt="img1" src={DevOpsTeamsLeads} width="70px" />
+      iconSrc: <img alt="img1" src={DevOpsTeamsLeads} width="70px" />
     },
     {
       title: "Retail Store Managers",
       description:
         "Monitor and manage shelf space in real-time to improve product availability and display.",
-      iconSrc: <img  alt="img1" src={BusinessAnalysts} width="70px"/>
+      iconSrc: <img alt="img1" src={BusinessAnalysts} width="70px" />
     },
   ],
-  businessOutcomes: [
-    {
-      title: "Increased Sales Revenue",
-      description:
-        ["By optimizing product placement and minimizing empty shelf spaces, the tool helps increase sales and overall revenue."],
-      image: <img  alt="img1"  src={ImprovedTestCoverage} width="100px" style={iconSizeBO} />
-    },
-    {
-      title: "Enhanced Inventory Efficiency",
-      description:
-        ["Advanced analytics and real-time monitoring ensure efficient inventory management, reducing stockouts and excess inventory."],
-      image: <img  alt="img1" src={StandardizationandConsistency} width="100px" style={iconSizeBO} />
-    },
-    {
-      title: "Improved Competitive Positioning",
-      description:
-        ["Detailed competitor analysis enables better market positioning, helping PepsiCo stay ahead of competitors."],
-      image: <img  alt="img1" src={EnhancedQuality} width="100px" style={iconSizeBO} />
-    },
-    {
-      title: "Operational Cost Reduction",
-      description:
-        ["Streamlined inventory monitoring and management reduce the time and effort required for manual checks, lowering operational costs."],
-      image: <img  alt="img1" src={FasterTimetoMarket} width="100px" style={iconSizeBO} />
-    },
-    {
-      title: "Competitive Advantage",
-      description:
-        ["By leveraging the Shelf Detection Bot to optimize inventory management and product placement, businesses can gain a competitive edge in the market by offering a superior shopping experience."],
-      image: <img  alt="img1" src={EnhancedCollaborationandVisibility} width="100px" style={iconSizeBO} />
-    },
-    {
-      title: "Data-Driven Decision Making",
-      description:
-        ["Comprehensive reports and analytics provide actionable insights, supporting strategic planning and informed decision-making."],
-      image: <img  alt="img1" src={CostSavings} width="100px" style={iconSizeBO} />
-    },
-  ],
+  businessOutcomes: {
+    cardHeight: "230px",
+    cardList: [
+      {
+        title: "Increased Sales Revenue",
+        description:
+          ["By optimizing product placement and minimizing empty shelf spaces, the tool helps increase sales and overall revenue."],
+        image: <img alt="img1" src={ImprovedTestCoverage} width="100px" style={iconSizeBO} />
+      },
+      {
+        title: "Enhanced Inventory Efficiency",
+        description:
+          ["Advanced analytics and real-time monitoring ensure efficient inventory management, reducing stockouts and excess inventory."],
+        image: <img alt="img1" src={StandardizationandConsistency} width="100px" style={iconSizeBO} />
+      },
+      {
+        title: "Improved Competitive Positioning",
+        description:
+          ["Detailed competitor analysis enables better market positioning, helping PepsiCo stay ahead of competitors."],
+        image: <img alt="img1" src={EnhancedQuality} width="100px" style={iconSizeBO} />
+      },
+      {
+        title: "Operational Cost Reduction",
+        description:
+          ["Streamlined inventory monitoring and management reduce the time and effort required for manual checks, lowering operational costs."],
+        image: <img alt="img1" src={FasterTimetoMarket} width="100px" style={iconSizeBO} />
+      },
+      {
+        title: "Competitive Advantage",
+        description:
+          ["By leveraging the Shelf Detection Bot to optimize inventory management and product placement, businesses can gain a competitive edge in the market by offering a superior shopping experience."],
+        image: <img alt="img1" src={EnhancedCollaborationandVisibility} width="100px" style={iconSizeBO} />
+      },
+      {
+        title: "Data-Driven Decision Making",
+        description:
+          ["Comprehensive reports and analytics provide actionable insights, supporting strategic planning and informed decision-making."],
+        image: <img alt="img1" src={CostSavings} width="100px" style={iconSizeBO} />
+      },
+    ]
+  },
   solutionHighlights: [
     "YOLOV5 ensures precise identification of PepsiCo beverage products (bottles and cans), enabling reliable inventory tracking and analysis.",
     "The Power BI dashboard provides dynamic visualizations and KPI tracking, offering immediate access to crucial metrics for informed decision-making.",
