@@ -41,7 +41,7 @@ const iconSizeBO = {
 export const IntelligentDocumentProcessingBot = {
   title: "Intelligent Document Process Bot",
   content: "An OCR system automates converting patient information from PDFs and images, reducing manual effort and errors. It extracts data, adds it to a knowledge base, and ensures accurate retrieval. An interactive virtual agent enhances user experience with an intuitive interface.",
-  img:bannerImg,
+  img: bannerImg,
   BusinessCase: [
     "A highly efficient and accurate OCR system is required to automate the conversion of patient information from PDFs and images, reducing manual effort, saving time, and minimizing errors while generating structured and insightful data.",
   ],
@@ -49,58 +49,61 @@ export const IntelligentDocumentProcessingBot = {
     {
       title: "Healthcare Providers",
       description: "Doctors, nurses and other healthcare professionals who handle patient data on daily basis for various treatments and procedures.",
-      iconSrc: <img src={HealthcarePro} width="70px" alt=''  />
+      iconSrc: <img src={HealthcarePro} width="70px" alt='' />
     },
     {
       title: "Healthcare Admins",
       description: "Responsible for managing and organizing patient records to maintain a structured and easily accessible database, with high rate of accuracy data integrity.",
-      iconSrc: <img src={HealthcareAdmin} width="70px" alt=''  />
+      iconSrc: <img src={HealthcareAdmin} width="70px" alt='' />
     },
     {
       title: "Medical Researchers",
       description: "Researchers working in healthcare, who refers to numerous research papers, clinical trial documents, and medical journals for their studies and contribute to medical advancements.",
-      iconSrc: <img src={MedicalRes} width="70px" alt=''  />
+      iconSrc: <img src={MedicalRes} width="70px" alt='' />
     },
     {
       title: "Health Insurance Providers",
       description: "Insurance companies dealing with healthcare claims often require accurate and up-to-date patient information, to process the claims by verifying medical bills & insurance forms.",
-      iconSrc:<img src={HealthInsurance} width="70px" alt=''  />
+      iconSrc: <img src={HealthInsurance} width="70px" alt='' />
     },
   ],
-  businessOutcomes: [
-    {
-      title: "Improved Access to Insights ",
-      description: ["By structuring and indexing the extracted data, Healthcare providers can generate insightful reports, identify patterns, and make data-driven decisions more effectively."],
-      image: <img src={ImprovedAccesstoInsights} width="100px" style={iconSizeBO} alt=''/>
-    },
-    {
-      title: "Enhanced Document handling",
-      description: ["Handling massive volumes of data from multiple documents by accurately classifying the documents helps the teams to easily access the required data quickly"],
-      image: <img src={EnhancedDocHandling} width="100px" alt='' style={iconSizeBO} />
-    },
-    {
-      title: "Personalized Patient Experience",
-      description: ["Improved patient experience as healthcare professionals can provide personalized and timely care, considering relevant medical history and preferences."],
-      image: <img src={PersonalizedPatientEXp} width="100px" alt='' style={iconSizeBO} />
-    },
+  businessOutcomes: {
+    cardHeight: "230px",
+    cardList: [
+      {
+        title: "Improved Access to Insights ",
+        description: ["By structuring and indexing the extracted data, Healthcare providers can generate insightful reports, identify patterns, and make data-driven decisions more effectively."],
+        image: <img src={ImprovedAccesstoInsights} width="100px" style={iconSizeBO} alt='' />
+      },
+      {
+        title: "Enhanced Document handling",
+        description: ["Handling massive volumes of data from multiple documents by accurately classifying the documents helps the teams to easily access the required data quickly"],
+        image: <img src={EnhancedDocHandling} width="100px" alt='' style={iconSizeBO} />
+      },
+      {
+        title: "Personalized Patient Experience",
+        description: ["Improved patient experience as healthcare professionals can provide personalized and timely care, considering relevant medical history and preferences."],
+        image: <img src={PersonalizedPatientEXp} width="100px" alt='' style={iconSizeBO} />
+      },
 
-    // done till this point
-    {
-      title: "Improved Analytics and Decision Making ",
-      description: ["Accurate data extraction and structuring in healthcare enable advanced analytics, evidence-based decision-making, process optimization, and improved outcomes."],
-      image: <img src={AnalyticsandDecisionMaking} width="100px" style={iconSizeBO} alt=''/>
-    },
-    {
-      title: "Cost Reduction",
-      description: ["Reduction of manual effort, minimizing errors, saves costs associated with data entry and processing. It also eliminates the need for physical storage of paper documents], leading to image cost savings."],
-      image:<img src={CostReduction} width="100px" alt='' style={iconSizeBO} />
-    },
-    {
-      title: "Improved efficiency & Time Saving",
-      description: ["Elimination of manual intervention in data entry, data processing and retrieval improves the productivity of the staff and allows them to focus on much critical tasks."],
-      image: <img src={EfficiencyandTimeSaving} width="100px" alt='' style={iconSizeBO} />
-    },
-  ],
+      // done till this point
+      {
+        title: "Improved Analytics and Decision Making ",
+        description: ["Accurate data extraction and structuring in healthcare enable advanced analytics, evidence-based decision-making, process optimization, and improved outcomes."],
+        image: <img src={AnalyticsandDecisionMaking} width="100px" style={iconSizeBO} alt='' />
+      },
+      {
+        title: "Cost Reduction",
+        description: ["Reduction of manual effort, minimizing errors, saves costs associated with data entry and processing. It also eliminates the need for physical storage of paper documents], leading to image cost savings."],
+        image: <img src={CostReduction} width="100px" alt='' style={iconSizeBO} />
+      },
+      {
+        title: "Improved efficiency & Time Saving",
+        description: ["Elimination of manual intervention in data entry, data processing and retrieval improves the productivity of the staff and allows them to focus on much critical tasks."],
+        image: <img src={EfficiencyandTimeSaving} width="100px" alt='' style={iconSizeBO} />
+      },
+    ]
+  },
   solutionHighlights: [
     "Data is extracted by parsing diverse documents such as patient registration forms and health records.",
     "The extracted data is added to a knowledge base and indexed, facilitating efficient understanding and retrieval of relevant information from large knowledge bases.",
@@ -149,12 +152,12 @@ export const IntelligentDocumentProcessingBot = {
       ],
     },
   ],
-  
+
   demo: {
     link: { demoVideo },
   },
   tryit: {
-      link: "https://kbbotmaq-dev.azurewebsites.net/"
+    link: "https://kbbotmaq-dev.azurewebsites.net/"
   },
   // gallery: [
   //             {

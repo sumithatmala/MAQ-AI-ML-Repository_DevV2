@@ -68,44 +68,47 @@ export const SalesAssistant = {
       iconSrc: <img src={StrategyManager} width="70px" alt='' />
     },
   ],
-  businessOutcomes: [
-    {
-      title: "Streamlined Client Profiling",
-      description:
-        ["Focused questioning and information gathering enables the sales team to streamline the client profiling process, reducing time and resource requirements."],
-      image: <img src={StreamlinedClientProfiling} width="100px" style={iconSizeBO} alt=""/>
-    },
-    {
-      title: "Faster Personalized Solutions",
-      description:
-        ["By matching client data with business value maps, the sales team can provide personalized solutions more quickly, improving response times and customer satisfaction"],
-      image: <img src={FasterPersonalizedSolutions} width="100px" style={iconSizeBO} alt=""/>
-    },
-    {
-      title: "Improved Accuracy",
-      description:
-        ["Gathering precise and relevant information about client priorities, challenges, goals, and risks, leading to more accurate client profiles and better-aligned solutions"],
-      image: <img src={ImprovedAccuracy} width="100px" style={iconSizeBO} alt=""/>
-    },
-    {
-      title: "Enhanced Efficiency and Productivity",
-      description:
-        ["Reduces manual effort, allowing the sales team to focus on more strategic activities, increasing overall efficiency and productivity."],
-      image: <img src={EnhancedEfficiencyandProductivity} width="100px" style={iconSizeBO} alt=""/>
-    },
-    {
-      title: "Increased Sales Conversion",
-      description:
-        ["Provides tailored solutions quickly and accurately improves the chances of sales conversion, resulting in higher revenue and business growth."],
-      image: <img src={IncreasedSalesConversion} width="100px" style={iconSizeBO} alt=""/>
-    },
-    {
-      title: "Competitive Advantage",
-      description:
-        ["Efficient,& personalized solutions gives the company a competitive edge in the market, attracting more clients and retaining existing ones."],
-      image: <img src={CompetitiveAdvantage} width="100px" style={iconSizeBO} alt=""/>
-    },
-  ],
+  businessOutcomes: {
+    cardHeight: "230px",
+    cardList: [
+      {
+        title: "Streamlined Client Profiling",
+        description:
+          ["Focused questioning and information gathering enables the sales team to streamline the client profiling process, reducing time and resource requirements."],
+        image: <img src={StreamlinedClientProfiling} width="100px" style={iconSizeBO} alt="" />
+      },
+      {
+        title: "Faster Personalized Solutions",
+        description:
+          ["By matching client data with business value maps, the sales team can provide personalized solutions more quickly, improving response times and customer satisfaction"],
+        image: <img src={FasterPersonalizedSolutions} width="100px" style={iconSizeBO} alt="" />
+      },
+      {
+        title: "Improved Accuracy",
+        description:
+          ["Gathering precise and relevant information about client priorities, challenges, goals, and risks, leading to more accurate client profiles and better-aligned solutions"],
+        image: <img src={ImprovedAccuracy} width="100px" style={iconSizeBO} alt="" />
+      },
+      {
+        title: "Enhanced Efficiency and Productivity",
+        description:
+          ["Reduces manual effort, allowing the sales team to focus on more strategic activities, increasing overall efficiency and productivity."],
+        image: <img src={EnhancedEfficiencyandProductivity} width="100px" style={iconSizeBO} alt="" />
+      },
+      {
+        title: "Increased Sales Conversion",
+        description:
+          ["Provides tailored solutions quickly and accurately improves the chances of sales conversion, resulting in higher revenue and business growth."],
+        image: <img src={IncreasedSalesConversion} width="100px" style={iconSizeBO} alt="" />
+      },
+      {
+        title: "Competitive Advantage",
+        description:
+          ["Efficient,& personalized solutions gives the company a competitive edge in the market, attracting more clients and retaining existing ones."],
+        image: <img src={CompetitiveAdvantage} width="100px" style={iconSizeBO} alt="" />
+      },
+    ]
+  },
   solutionHighlights: [
     "Leveraging OpenAI to generate the Company profile from the answers derived for the questions related to the company's description, current priorities, challenges, risks, and industry trends.",
     "The Company profile generated through OpenAI returns the categories for each of the Organization values (Strategies, Goals, Industry and Sales Play).",

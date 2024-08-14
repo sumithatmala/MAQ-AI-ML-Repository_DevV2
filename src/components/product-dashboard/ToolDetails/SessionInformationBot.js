@@ -58,65 +58,68 @@ export const SessionInformationBot = {
       title: "Attendees",
       description:
         "Primary users who attend various sessions, events might need to reference the session content later for better understanding",
-      iconSrc: <img src={Attedes} width="70px" alt=''/>,
+      iconSrc: <img src={Attedes} width="70px" alt='' />,
     },
     {
       title: "Analysts",
       description:
         "Need to gather insights, track progress and look for improvements",
-      iconSrc: <img src={Analyst} width="70px" alt=''/>,
+      iconSrc: <img src={Analyst} width="70px" alt='' />,
     },
     {
       title: "Training Teams",
       description:
         "Responsible for organizing and managing the sessions. Facilitates efficient knowledge management and sharing",
-      iconSrc: <img src={TrainingTeam} width="70px" alt=''/>,
+      iconSrc: <img src={TrainingTeam} width="70px" alt='' />,
     },
     {
       title: "Administrators",
       description:
         "Maintain the record of sessions, transcripts available for usage of various teams",
-      iconSrc: <img src={Admin} width="70px" alt=''/>,
+      iconSrc: <img src={Admin} width="70px" alt='' />,
     },
   ],
-  businessOutcomes: [
-    {
-      title: "Accelerated onboarding and training for new hires",
-      description:
-        ["Enable new employees to quickly familiarize themselves with various trainings, expediting their integration into the organization."],
-      image: <img src={Accel} width="100px" style={iconSizeBO} alt=''/>
-    },
-    {
-      title: "Enhanced data analysis and research capabilities",
-      description:
-        ["Researchers and analysts can leverage the solution to extract insights from session content and recordings, supporting data analysis, research projects."],
-      image: <img src={EnhancedData}  style={iconSizeBO} alt=''/>
-    },
-    {
-      title: "Efficient project management for successful outcomes", 
-      description:
-        ["End to End tracking and maintenance of the content and improve usage."],
-      image: <img src={EfficientProject}  style={iconSizeBO} alt=''/>
-    },
-    {
-      title: "Enhanced engagement of Employees Regarding learning",
-      description:
-        ["Foster an environment that encourages employee engagement in learning activities, promoting a culture of continuous learning."],
-      image: <img src={Engagement} style={iconSizeBO}  alt=''/>
-    },
-    {
-      title: "Improved learning and development initiatives",
-      description:
-        ["Enhanced training experience and continuous learning to support employee skill development and professional growth."],
-      image: <img src={ImporvedL}  style={iconSizeBO} alt=''/>
-    },
-    {
-      title: "Improved knowledge sharing and collaboration",
-      description:
-        ["Promote seamless knowledge sharing and collaboration among employees, fostering a culture of information exchange and collective expertise."],
-      image: <img src={ImporvedKnw}  style={iconSizeBO} alt=''/>
-    },
-  ],
+  businessOutcomes: {
+    cardHeight: "230px",
+    cardList: [
+      {
+        title: "Accelerated onboarding and training for new hires",
+        description:
+          ["Enable new employees to quickly familiarize themselves with various trainings, expediting their integration into the organization."],
+        image: <img src={Accel} width="100px" style={iconSizeBO} alt='' />
+      },
+      {
+        title: "Enhanced data analysis and research capabilities",
+        description:
+          ["Researchers and analysts can leverage the solution to extract insights from session content and recordings, supporting data analysis, research projects."],
+        image: <img src={EnhancedData} style={iconSizeBO} alt='' />
+      },
+      {
+        title: "Efficient project management for successful outcomes",
+        description:
+          ["End to End tracking and maintenance of the content and improve usage."],
+        image: <img src={EfficientProject} style={iconSizeBO} alt='' />
+      },
+      {
+        title: "Enhanced engagement of Employees' learning",
+        description:
+          ["Foster an environment that encourages employee engagement in learning activities, promoting a culture of continuous learning."],
+        image: <img src={Engagement} style={iconSizeBO} alt='' />
+      },
+      {
+        title: "Improved learning and development initiatives",
+        description:
+          ["Enhanced training experience and continuous learning to support employee skill development and professional growth."],
+        image: <img src={ImporvedL} style={iconSizeBO} alt='' />
+      },
+      {
+        title: "Improved knowledge sharing and collaboration",
+        description:
+          ["Promote seamless knowledge sharing and collaboration among employees, fostering a culture of information exchange and collective expertise."],
+        image: <img src={ImporvedKnw} style={iconSizeBO} alt='' />
+      },
+    ]
+  },
   solutionHighlights: [
     "Quick and accurate retrieval of the necessary information from the stored data",
     "Contextual search for the user queries to reduce the search time and return prompt responses",

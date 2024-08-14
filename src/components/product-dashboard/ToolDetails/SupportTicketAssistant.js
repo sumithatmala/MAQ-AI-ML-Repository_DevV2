@@ -73,44 +73,47 @@ export const SupportTicketAssistant = {
       iconSrc: <img src={BusinessOwners} width="70px" alt='' />
     },
   ],
-  businessOutcomes: [
-    {
-      title: "Improved Response Time",
-      description:
-        ["Reduced response times for support ticket requests, enhancing customer satisfaction and loyalty."],
-      image: <img src={ImprovedResTime} width="100px" style={iconSizeBO} alt=""/>
-    },
-    {
-      title: "Standardized Support Processes",
-      description:
-        ["Automated system enforces consistent handling of support requests, ensuring standardized responses and improving the overall customer experience."],
-      image: <img src={StandardizedSupport} width="100px" style={iconSizeBO} alt=""/>
-    },
-    {
-      title: "Improved Team Performance",
-      description:
-        ["Automation provides visibility into support team performance metrics, enabling managers to identify areas for improvement, provide targeted training, and enhance overall team performance."],
-      image: <img src={TeamPerformance} width="100px" style={iconSizeBO} alt=""/>
-    },
-    {
-      title: "Increased Customer Satisfaction",
-      description:
-        ["By addressing customer concerns quickly and efficiently can enhance the customer experience, resulting in higher satisfaction levels and positive brand perception"],
-      image: <img src={CustSatisfaction} width="100px" style={iconSizeBO} alt=""/>
-    },
-    {
-      title: "Reduced Workload and Costs",
-      description:
-        ["Automation eliminates repetitive and manual tasks, reducing the workload on support teams and minimizing operational costs associated with support request handling."],
-      image: <img src={WorkloadCosts} width="100px" style={iconSizeBO} alt=""/>
-    },
-    {
-      title: "Scalability",
-      description:
-        ["The automated system can handle high volumes of support requests without compromising response times or accuracy, allowing businesses to scale their support operations as needed."],
-      image: <img src={Scalability} width="100px" style={iconSizeBO} alt=""/>
-    },
-  ],
+  businessOutcomes: {
+    cardHeight: "230px",
+    cardList: [
+      {
+        title: "Improved Response Time",
+        description:
+          ["Reduced response times for support ticket requests, enhancing customer satisfaction and loyalty."],
+        image: <img src={ImprovedResTime} width="100px" style={iconSizeBO} alt="" />
+      },
+      {
+        title: "Standardized Support Processes",
+        description:
+          ["Automated system enforces consistent handling of support requests, ensuring standardized responses and improving the overall customer experience."],
+        image: <img src={StandardizedSupport} width="100px" style={iconSizeBO} alt="" />
+      },
+      {
+        title: "Improved Team Performance",
+        description:
+          ["Automation provides visibility into support team performance metrics, enabling managers to identify areas for improvement, provide targeted training, and enhance overall team performance."],
+        image: <img src={TeamPerformance} width="100px" style={iconSizeBO} alt="" />
+      },
+      {
+        title: "Increased Customer Satisfaction",
+        description:
+          ["By addressing customer concerns quickly and efficiently can enhance the customer experience, resulting in higher satisfaction levels and positive brand perception"],
+        image: <img src={CustSatisfaction} width="100px" style={iconSizeBO} alt="" />
+      },
+      {
+        title: "Reduced Workload and Costs",
+        description:
+          ["Automation eliminates repetitive and manual tasks, reducing the workload on support teams and minimizing operational costs associated with support request handling."],
+        image: <img src={WorkloadCosts} width="100px" style={iconSizeBO} alt="" />
+      },
+      {
+        title: "Scalability",
+        description:
+          ["The automated system can handle high volumes of support requests without compromising response times or accuracy, allowing businesses to scale their support operations as needed."],
+        image: <img src={Scalability} width="100px" style={iconSizeBO} alt="" />
+      },
+    ]
+  },
   solutionHighlights: [
     "Azure Blob Storage is used to store data related to support requests for processing and analysis. By leveraging the indexing capabilities of Azure Search, the system can quickly and accurately retrieve necessary information from the stored data.",
     "App service interacts with the search index to retrieve relevant data when prompted by a user's request. Using Azure Open AI service, contextual information that matches the user's query is processed to generate a response, which is then displayed on the website or Chatbot.",
@@ -148,7 +151,7 @@ export const SupportTicketAssistant = {
     },
   ],
   demo: {
-    link: {demoVideo},
+    link: { demoVideo },
   },
   tryit: {
     link: "",

@@ -45,56 +45,59 @@ export const DocumentClassificationWithVirtualAssistant = {
         {
             title: "Business Analysts",
             description: "Relies on accurate and timely data extraction from business documents to analyze trends, identify insights, and make informed business decisions.",
-            iconSrc: <img src={BusinessAnalyst} width="70px" alt=''  />
+            iconSrc: <img src={BusinessAnalyst} width="70px" alt='' />
         },
         {
             title: "Sales & Marketing teams",
             description: "Responsible to analyze marketing campaigns, track key metrics, monitor operational performance, and identify areas for improvement.",
-            iconSrc: <img src={SalesMarketing} width="70px" alt=''  />
+            iconSrc: <img src={SalesMarketing} width="70px" alt='' />
         },
         {
             title: "Financial Advisors",
             description: "Help clients develop a comprehensive financial plan based on their goals, risk tolerance, and financial situation.",
-            iconSrc: <img src={FinancialAdvisors} width="70px" alt=''  />
+            iconSrc: <img src={FinancialAdvisors} width="70px" alt='' />
         },
         {
             title: "Compliance Teams",
             description: "Ensures compliance with industry regulations and internal policies by extracting relevant information for audits and reporting.",
-            iconSrc:<img src={ComplianceTeam} width="70px" alt=''  />
+            iconSrc: <img src={ComplianceTeam} width="70px" alt='' />
         },
     ],
-    businessOutcomes: [
-        {
-            title: "Stramlined Operations",
-            description: ["Automated data extraction and retrieval processes streamline operations by eliminating manual tasks, reducing bottlenecks, and improving overall efficiency."],
-            image: <img src={StreamlinedOp} width="100px" style={iconSizeBO} alt=''/>
-        },
-        {
-            title: "Enhanced Productivity",
-            description: ["Quick and accurate retrieval of relevant information from business documents improves productivity and decision-making across various business functions."],
-            image:<img src={EnhancedProd} width="100px" style={iconSizeBO} alt=''/>
-        },
-        {
-            title: "Competitive Advantage",
-            description: ["By streamlining data extraction and retrieval processes, businesses can gain a competitive edge by delivering faster, more accurate, and personalized services to their customers."],
-            image: <img src={CompetitiveAdv} width="100px" style={iconSizeBO} alt=''/>
-        },
-        {
-            title: "Better Decision-Making",
-            description: ["Access to accurate and relevant data extracted from business documents enables informed decision-making and supports data-driven strategies."],
-            image: <img src={DecisionMaking} width="100px" style={iconSizeBO} alt=''/>
-        },
-        {
-            title: "Better Collaboration",
-            description: ["Solution facilitates collaboration among teams by centralizing and making business document data easily accessible, promoting knowledge sharing and cross-functional collaboration."],
-            image: <img src={Collab} width="100px" style={iconSizeBO} alt=''/>
-        },
-        {
-            title: "Improved Data Accuracy",
-            description: ["Accuracy of data extraction is enhanced, minimizing errors and inconsistencies."],
-            image: <img src={DataAccuracy} width="100px" style={iconSizeBO} alt=''/>
-        },
-    ],
+    businessOutcomes: {
+        cardHeight: "230px",
+        cardList: [
+            {
+                title: "Stramlined Operations",
+                description: ["Automated data extraction and retrieval processes streamline operations by eliminating manual tasks, reducing bottlenecks, and improving overall efficiency."],
+                image: <img src={StreamlinedOp} width="100px" style={iconSizeBO} alt='' />
+            },
+            {
+                title: "Enhanced Productivity",
+                description: ["Quick and accurate retrieval of relevant information from business documents improves productivity and decision-making across various business functions."],
+                image: <img src={EnhancedProd} width="100px" style={iconSizeBO} alt='' />
+            },
+            {
+                title: "Competitive Advantage",
+                description: ["By streamlining data extraction and retrieval processes, businesses can gain a competitive edge by delivering faster, more accurate, and personalized services to their customers."],
+                image: <img src={CompetitiveAdv} width="100px" style={iconSizeBO} alt='' />
+            },
+            {
+                title: "Better Decision-Making",
+                description: ["Access to accurate and relevant data extracted from business documents enables informed decision-making and supports data-driven strategies."],
+                image: <img src={DecisionMaking} width="100px" style={iconSizeBO} alt='' />
+            },
+            {
+                title: "Better Collaboration",
+                description: ["Solution facilitates collaboration among teams by centralizing and making business document data easily accessible, promoting knowledge sharing and cross-functional collaboration."],
+                image: <img src={Collab} width="100px" style={iconSizeBO} alt='' />
+            },
+            {
+                title: "Improved Data Accuracy",
+                description: ["Accuracy of data extraction is enhanced, minimizing errors and inconsistencies."],
+                image: <img src={DataAccuracy} width="100px" style={iconSizeBO} alt='' />
+            },
+        ]
+    },
     solutionHighlights: [
         "Efficient Data Extraction: Our solution extracts important information from various types of documents, making it easier to access and use valuable data.",
         "Quick Information Retrieval: The extracted text is organized and categorized in a way that allows users to find specific details they need, helping them save time and effort.",
@@ -134,46 +137,46 @@ export const DocumentClassificationWithVirtualAssistant = {
         },
     ],
     demo: {
-        link: {demoVideo},
+        link: { demoVideo },
     },
     tryit: {
         link: ""
     },
-    FAQs : [
+    FAQs: [
         {
-          question: "What is the purpose of implementing a chatbot for automated data extraction from business documents?",
-          answer: "The purpose is to streamline processes, ensure accuracy, and enhance user experience by automating data extraction, especially from PowerPoint presentations, using an OpenAI-powered chatbot."
+            question: "What is the purpose of implementing a chatbot for automated data extraction from business documents?",
+            answer: "The purpose is to streamline processes, ensure accuracy, and enhance user experience by automating data extraction, especially from PowerPoint presentations, using an OpenAI-powered chatbot."
         },
         {
-          question: "How does the OpenAI-powered chatbot address the challenges of manual data extraction?",
-          answer: "The chatbot mitigates the time-consuming and error-prone nature of manual processes. It ensures accurate results while applying necessary business rules during data extraction."
+            question: "How does the OpenAI-powered chatbot address the challenges of manual data extraction?",
+            answer: "The chatbot mitigates the time-consuming and error-prone nature of manual processes. It ensures accurate results while applying necessary business rules during data extraction."
         },
         {
-          question: "Who are the target users for this automated data extraction solution?",
-          answer: "The target users include Business Analysts, Sales & Marketing teams, Financial Advisors, and Compliance Teams. These professionals rely on accurate and timely data extraction from business documents for various purposes."
+            question: "Who are the target users for this automated data extraction solution?",
+            answer: "The target users include Business Analysts, Sales & Marketing teams, Financial Advisors, and Compliance Teams. These professionals rely on accurate and timely data extraction from business documents for various purposes."
         },
         {
-          question: "What are the anticipated outcomes for users implementing this solution?",
-          answer: "Users can expect streamlined operations, enhanced productivity, a competitive advantage through faster and more accurate services, better decision-making, improved collaboration among teams, and enhanced data accuracy."
+            question: "What are the anticipated outcomes for users implementing this solution?",
+            answer: "Users can expect streamlined operations, enhanced productivity, a competitive advantage through faster and more accurate services, better decision-making, improved collaboration among teams, and enhanced data accuracy."
         },
         {
-          question: "How does the solution contribute to cost reduction in business data management?",
-          answer: "The solution reduces manual effort, minimizes errors, and eliminates bottlenecks in data extraction processes, leading to significant cost savings by streamlining operations."
+            question: "How does the solution contribute to cost reduction in business data management?",
+            answer: "The solution reduces manual effort, minimizes errors, and eliminates bottlenecks in data extraction processes, leading to significant cost savings by streamlining operations."
         },
         {
-          question: "What are the key highlights of the proposed solution?",
-          answer: "Key highlights include efficient data extraction from various documents, quick information retrieval, contextual understanding, seamless communication, and an interactive virtual assistant for an enhanced user experience."
+            question: "What are the key highlights of the proposed solution?",
+            answer: "Key highlights include efficient data extraction from various documents, quick information retrieval, contextual understanding, seamless communication, and an interactive virtual assistant for an enhanced user experience."
         },
         {
-          question: "How does the solution ensure accurate and meaningful responses in data extraction?",
-          answer: "The system employs an approach that retrieves data while maintaining the relevance of the question, ensuring accurate and meaningful responses by overcoming limitations in the context length passed to GPT models."
+            question: "How does the solution ensure accurate and meaningful responses in data extraction?",
+            answer: "The system employs an approach that retrieves data while maintaining the relevance of the question, ensuring accurate and meaningful responses by overcoming limitations in the context length passed to GPT models."
         },
         {
-          question: "Is there a demo available for the OpenAI-powered chatbot solution?",
-          answer: "Yes, you can watch the demo video by following this link: [Demo Video](demoVideo)."
+            question: "Is there a demo available for the OpenAI-powered chatbot solution?",
+            answer: "Yes, you can watch the demo video by following this link: [Demo Video](demoVideo)."
         }
-      ]
-      
+    ]
+
 
 };
 

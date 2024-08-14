@@ -170,8 +170,8 @@ const ProductInformation = () => {
               Business Outcomes
             </h3>
             <CustomerSuccess
-              items={productDetails.businessOutcomes}
-              CardHeight={"230px"}
+              items={productDetails.businessOutcomes.cardList}
+              CardHeight={productDetails.businessOutcomes.CardHeight}
               autoPlay={false}
               centerUp={true}
               style={{ marginBottom: "0px", paddingBottom: "5rem" }}

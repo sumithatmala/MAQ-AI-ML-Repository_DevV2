@@ -68,32 +68,35 @@ export const IntelligentKnowledgeBaseBot = {
       iconSrc: <img src={StrategyManager} width="70px" alt='' />
     },
   ],
-  businessOutcomes: [
-    {
-      title: "Data-Driven Decision Making",
-      description:
-        ["Easy access to accurate information facilitates informed decision-making"],
-      image: <img alt="img1" src={StreamlinedClientProfiling} width="100px" style={iconSizeBO} />
-    },
-    {
-      title: "Improved Productivity",
-      description:
-        ["Quick and accurate retrieval of relevant information saves time and boosts productivity."],
-      image: <img alt="img2" src={FasterPersonalizedSolutions} width="100px" style={iconSizeBO} />
-    },
-    {
-      title: "Enhanced Collaboration",
-      description:
-        ["Robust knowledge sharing enables better teamwork."],
-      image: <img alt="img3" src={ImprovedAccuracy} width="100px" style={iconSizeBO} />
-    },
-    {
-      title: "Competitive Advantage",
-      description:
-        ["Deliver faster and stay ahead of the competition."],
-      image: <img alt="img4" src={EnhancedEfficiencyandProductivity} width="100px" style={iconSizeBO} />
-    }
-  ],
+  businessOutcomes: {
+    cardHeight: "230px",
+    cardList: [
+      {
+        title: "Data-Driven Decision Making",
+        description:
+          ["Easy access to accurate information facilitates informed decision-making"],
+        image: <img alt="img1" src={StreamlinedClientProfiling} width="100px" style={iconSizeBO} />
+      },
+      {
+        title: "Improved Productivity",
+        description:
+          ["Quick and accurate retrieval of relevant information saves time and boosts productivity."],
+        image: <img alt="img2" src={FasterPersonalizedSolutions} width="100px" style={iconSizeBO} />
+      },
+      {
+        title: "Enhanced Collaboration",
+        description:
+          ["Robust knowledge sharing enables better teamwork."],
+        image: <img alt="img3" src={ImprovedAccuracy} width="100px" style={iconSizeBO} />
+      },
+      {
+        title: "Competitive Advantage",
+        description:
+          ["Deliver faster and stay ahead of the competition."],
+        image: <img alt="img4" src={EnhancedEfficiencyandProductivity} width="100px" style={iconSizeBO} />
+      }
+    ]
+  },
   solutionHighlights: [
     "User questions are classified using OpenAI for swift responses",
     "The bot accommodates custom prompts for personalized interactions.",
@@ -130,7 +133,7 @@ export const IntelligentKnowledgeBaseBot = {
     },
   ],
   demo: {
-    link: {demoVideo},
+    link: { demoVideo },
   },
   tryit: {
     link: ""//"https://kbbotmaq-dev.azurewebsites.net/",
