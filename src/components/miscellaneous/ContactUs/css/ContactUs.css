@@ -33,7 +33,7 @@
 .image_form .form{
     width: 50%;
     /* padding-right: 10%; */
-    padding-top: 30px;
+    /* padding-top: 30px; */
     display: flex;
     justify-content: center;
 }

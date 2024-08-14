@@ -23,6 +23,7 @@
     "bootstrap": "^5.3.2",
     "flowbite-react": "^0.7.2",
     "hamburger-react": "^2.5.0",
+    "html-react-parser": "^5.1.12",
     "lit": "^2.8.0",
     "mdb-react-ui-kit": "^7.0.0",
     "react": "^18.2.0",
