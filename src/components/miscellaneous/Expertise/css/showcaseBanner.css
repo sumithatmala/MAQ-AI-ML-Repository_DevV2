@@ -167,6 +167,25 @@
     }
 }
 
+@media (max-width: 1280px) {
+
+    .ShowcaseBannerTitle{
+        padding: 10px 30px;
+    }
+
+    .ShowcaseBannerGrid{
+        gap: 0px;
+    }
+
+    .navigation-dots{
+        display: none;
+    }
+
+    .ShowcaseBannerheader {
+        margin: 15px 10px -15px;
+    }
+}
+
 @media (max-width: 1180px) {
 
     .ShowcaseBannerCnt {

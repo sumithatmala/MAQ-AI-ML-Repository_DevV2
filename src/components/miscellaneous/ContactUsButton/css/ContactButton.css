@@ -1,5 +1,5 @@
 .contact-bt {
-    display: flex;
+    display: none;
     justify-content: end;
     position: fixed;
     bottom: 20px;
