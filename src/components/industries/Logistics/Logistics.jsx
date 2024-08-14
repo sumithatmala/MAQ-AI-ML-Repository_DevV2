@@ -32,7 +32,7 @@ const Logistics = () => {
         <section className="WelcomeMsg margin-adjust" style={{ marginTop: 0, width: "80%" }}>
           <h2>Areas of Expertise</h2>
           <div className='text-block-center'>
-            <p style={{fontSize: "16px"}}>Maximize customer satisfaction by reliably delivering products on schedule, within budget, and at the pace expected by your clientele. Utilize intelligent logistics and transportation solutions to streamline delivery routes and prioritize driver safety throughout the journey. Access a comprehensive range of software and services tailored for carriers, freight forwarders, and logistics firms to enhance operational efficiency and exceed customer expectations.</p>
+          <p style={{fontSize: "16px"}}>Maximize customer satisfaction by reliably delivering products on schedule, within budget, and at the pace expected by your clientele. Utilize intelligent logistics and transportation solutions to streamline delivery routes and prioritize driver safety throughout the journey. Access a comprehensive range of software and services tailored for carriers, freight forwarders, and logistics firms to enhance operational efficiency and exceed customer expectations.</p>
           </div>
         </section>
         <AlternateBanner banners={AlternateBannerData} count={1} ContactBtn={true} />
