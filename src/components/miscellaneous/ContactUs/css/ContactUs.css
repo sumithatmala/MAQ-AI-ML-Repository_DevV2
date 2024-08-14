@@ -6,7 +6,7 @@
 }
 
 .content_info{
-    height: 55vh;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@
 .image_form .form{
     width: 50%;
     /* padding-right: 10%; */
-    padding-top: 30px;
+    /* padding-top: 30px; */
     display: flex;
     justify-content: center;
 }

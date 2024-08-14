@@ -8,5 +8,15 @@
     border: 2px solid #dddddd;
     outline: none;
     border-radius: 6px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
+
+#reload_href {
+    display: inline-block; /* Ensure it behaves like a block element for hover effect */
+    padding: 5px; /* Add some padding to better visualize the background */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  #reload_href:hover {
+    background-color: #e0e0e0; /* Change this to your desired background color */
+  }

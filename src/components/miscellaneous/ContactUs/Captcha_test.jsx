@@ -3,12 +3,12 @@ import {
   loadCaptchaEnginge,
   LoadCanvasTemplate,
   validateCaptcha,
-} from "react-simple-captcha";
+} from "./customCaptcha";
 import "./css/Captcha.css";
- 
+
 export const doSubmit = () => {
   let user_captcha = document.getElementById("user_captcha_input").value;
- 
+
   if (validateCaptcha(user_captcha) === true) {
     loadCaptchaEnginge(6);
     document.getElementById("user_captcha_input").value = "";
@@ -18,21 +18,28 @@ export const doSubmit = () => {
     return false;
   }
 };
- 
+
 const CaptchaTest = () => {
   useEffect(() => {
     loadCaptchaEnginge(8);
   }, []);
- 
+
   return (
     <div>
-      <div className="container">
+      <div className="container" style={{display: "ruby-text"}}>
         <div className="form-group">
-          <div className="col mt-3">
+          <div
+            // className="col"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
             <LoadCanvasTemplate reloadColor="black" />
           </div>
-          <div className="col mt-3">
-            <div className="input-field field">
+          <div className="mt-3" style={{paddingLeft: "0"}}>
+            <div className="input-field field" style={{marginLeft: "20px"}}>
               <input
                 type="text"
                 placeholder="Enter Captcha Value"
@@ -48,6 +55,5 @@ const CaptchaTest = () => {
     </div>
   );
 };
- 
+
 export default CaptchaTest;
- 

@@ -14,7 +14,7 @@ const ProductDemo = (props) => {
             <p>Watch our demo video to see the product in action.</p>
           </Col>
         </Row>
-        <Row className='product-content' style={{ width: "81%", margin: "auto"}}>
+        <Row className='product-content' style={{ width: "65%", margin: "auto"}}>
           <Col>
           <Media>
             <Video loading="visible" controls preload="true">

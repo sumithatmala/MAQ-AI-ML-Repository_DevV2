@@ -2,24 +2,23 @@ import { Link } from "react-router-dom";
 import "./css/ContactForm.css";
 import Swal from "sweetalert2";
 import { useState } from "react";
-import ContactButton from "../../miscellaneous/ContactUsButton/ContactButton";
 import CaptchaTest, {
   doSubmit,
 } from "../../miscellaneous/ContactUs/Captcha_test";
- 
+import ContactButton from "../../miscellaneous/ContactUsButton/ContactButton";
+
 const ContactForm = ({ contactMsg }) => {
   const [name, setName] = useState("");
   const [compName, setCompName] = useState("");
   const [email, setEmail] = useState("");
   const [msg, setMsg] = useState("");
   const [phone, setPhone] = useState("");
- 
+
   const checkInpts = () => {
     const items = document.querySelectorAll(".item");
     let flag = true;
     if (!doSubmit()) {
       alert("Captcha does not match");
-      console.log("aa gya");
       return false;
     }
     for (const item of items) {
@@ -28,7 +27,7 @@ const ContactForm = ({ contactMsg }) => {
         item.parentElement.classList.add("error");
         flag = false;
       }
- 
+
       item.addEventListener("keyup", () => {
         if (item.value !== "") {
           item.classList.remove("error");
@@ -39,10 +38,10 @@ const ContactForm = ({ contactMsg }) => {
         }
       });
     }
- 
+
     return flag;
   };
- 
+
   const clearFields = () => {
     setName("");
     setCompName("");
@@ -50,12 +49,11 @@ const ContactForm = ({ contactMsg }) => {
     setMsg("");
     setPhone("");
   };
- 
+
   const handleSubmit = async (e) => {
     e.preventDefault();
- 
+
     if (checkInpts()) {
-      console.log("chl gya");
       try {
         const res = await fetch("http://localhost:3001/sendEmail", {
           method: "POST",
@@ -95,7 +93,7 @@ const ContactForm = ({ contactMsg }) => {
       }
     }
   };
- 
+
   return (
     <section className="FormBox margin-adjust">
       <ContactButton />
@@ -146,7 +144,7 @@ const ContactForm = ({ contactMsg }) => {
               />
               <div className="error-txt">Email Address can't be blank</div>
             </div>
- 
+
             <div className="input-field field">
               <input
                 type="text"
@@ -192,5 +190,5 @@ const ContactForm = ({ contactMsg }) => {
     </section>
   );
 };
- 
+
 export default ContactForm;

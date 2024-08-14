@@ -7,6 +7,8 @@ import AdoptSentiment from "./AdoptSentiment";
 import SentimentAnalysis from "./SentimentAnalysis";
 import SentimentAnalyticsSection from "./SentimentAnalyticsSection";
 import SentimentAnalysisCompany from "./SentimentAnalysisCompany";
+import CustomerSuccess from "../common/CustomerSuccess";
+import CarouselData from "./CarouselData";
 import FAQs from "../../product-dashboard/FAQs";
 import FAQsData from "./FAQsData";
 import ContactForm from "../common/contactForm";

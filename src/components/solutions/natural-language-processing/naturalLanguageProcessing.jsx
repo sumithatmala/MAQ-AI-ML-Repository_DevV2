@@ -9,10 +9,17 @@ import Technologies from "../common/technologies";
 import ContactForm from "../common/contactForm";
 import FAQs from '../../product-dashboard/FAQs';
 // import RoadMap from "../common/RoadMap"
+import CustomerSuccess from "../common/CustomerSuccess";
+
+//Data
+import customerSuccessData from "./JSONData/customerSuccessData";
 import bannerData from "./JSONData/bannerData";
 import technologiesData from "./JSONData/technologiesData";
 import FAQsData from "./JSONData/FaqData";
 import industriesData from "./JSONData/IndustriesData";
+import blogData from "./JSONData/blogData";
+// import roadMapData from "./JSONData/roadMapData";
+import { HashLink } from "react-router-hash-link";
 import NewBanner from "../common/NewBanner";
 import NewBanData from "./JSONData/NewBanData";
 

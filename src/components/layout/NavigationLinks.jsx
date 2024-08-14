@@ -157,10 +157,10 @@ import SupportTicket_icon from "./images/ticket.svg" //--
 import triviaBot_icon from "./images/Trivia Bot.svg"
 
 //Generative Model
-//import face_icon from "./images/Hugging Face Transformers.svg"
+import face_icon from "./images/Hugging Face Transformers.svg"
 import GPT_icon from "./images/GPT.svg" //--
-
-//import deepAiText_icon from "./images/Deep Text Generation API.svg"
+import runaway_icon from "./images/runaway.svg" //-
+import deepAiText_icon from "./images/Deep Text Generation API.svg"
 
 //solutions
 import VirtualAssistantTool from "./images/bot.svg" //-
@@ -179,8 +179,10 @@ import automobile_icon from "./images/automobile.svg" //-
 import retail_icon from "./images/Retail.svg"
 import ecommerce_icon from "./images/ecommerce.svg"
 import fintech_icon from "./images/fintech.svg" //-
+import game_icon from "./images/Game and Entertainment.svg"
 import logistics_icon from "./images/logistics.svg" //
 import marketing_icon from "./images/MarTech.svg"
+import sports_icon from "./images/sports.svg" //-
 
 const NavigationLinks = [
   // { label: "Home", link: "./" },

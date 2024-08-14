@@ -9,7 +9,8 @@ import Insights from './Insights';
 import BusinessCasesData from './JSONData/BusinessCasesData';
 import FlatGridLayout from '../common/FlatGridLayout';
 import IndustriesData from './JSONData/IndustriesData';
-
+import CustomerSuccess from "../common/CustomerSuccess";
+import CutomerSuccessData from "./JSONData/CutomerSuccessData";
 import FAQs from '../../product-dashboard/FAQs';
 import FAQsData from "./JSONData/FAQsData";
 import ContactForm from "../common/contactForm";

@@ -33,7 +33,11 @@ import ImporvedKnw from '../images/ImprovedKnowledge.svg'
 
 import demoVideo from "./DemoVideo/SessionInformationBot.mp4";
 import bannerImg from "../images/Session Information Bot.png"
-
+const iconSize = {
+  height: "5rem",
+  width: "5rem",
+  color: "#dc848d",
+};
 const iconSizeBO = {
   height: "5rem",
   width: "5rem",

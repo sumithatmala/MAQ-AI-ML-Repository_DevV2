@@ -3,9 +3,9 @@ import person from './icons/icons8-handball-100 (1) 1.svg';
 import light from './icons/icons8-ps-controller-100 1.svg';
 import phone from './icons/icons8-mobile-app-100 1.svg';
 import clock from './icons/icons8-pass-fail-100 1.svg';
-
+import cube from './icons/icons8-htc-vive-headset-100 1.svg';
 import { useEffect } from 'react';
-
+import { HashLink } from 'react-router-hash-link';
 
 const GameDev = () => {
   const listItemData = [

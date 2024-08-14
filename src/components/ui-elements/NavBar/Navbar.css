@@ -110,7 +110,7 @@ header {
 .desktop-nav .menu-items .nav-list__item {
   display: inline;
   font-size: 14px;
-  /* background-color: inherit; */
+
 }
 
 .desktop-nav .menu-items .nav-list__item a {
@@ -201,13 +201,13 @@ header {
 
 @media (min-width: 640px) {
   .static-pos {
-    top: 12%;
+    top: 6%;
     left: 30%;
     position: absolute;
     display: grid !important;
     grid-template-columns: repeat(3, 1fr);
     border-left: 2px solid #b9091b;
-    gap: 15px;
+    gap: 3px;
     width: 60%;
     line-height: 2;
     height: fit-content;
@@ -323,7 +323,7 @@ header {
     display: flex;
     padding: 7px;
     /* border-right: 2px solid #b8001c; */
-    margin-left: 160px;
+    margin-left: 120px;
   }
 }
 
@@ -421,7 +421,7 @@ header {
 
 .desktop-nav .dropdown.show {
   display: flex;
-  align-items: flex-start;
+  align-items: start;
   flex-direction: column;
   justify-content: center;
 }
@@ -521,6 +521,8 @@ svg.rotateArrow {
     padding: 0.5rem 0;
     background-color: #fff;
     border-radius: 0.5rem;
+    max-height: 80vh; /* Adjust the max-height as needed */
+    overflow-y: auto; /* Enables vertical scrolling */
   }
 
   .mobile-nav .menu-items a {
@@ -544,7 +546,7 @@ svg.rotateArrow {
   .mobile-nav .menu-items>a,
   .mobile-nav .menu-items button {
     text-align: left;
-    padding: 0.7rem 1rem;
+    padding: 0.53rem 1rem;
   }
 
   .mobile-nav .menu-items a:hover,
