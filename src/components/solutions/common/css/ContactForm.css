@@ -10,6 +10,7 @@
     margin: 20px;
     margin-top: 5rem;
 }
+
 .Contact {
     width: 50rem;
 }
@@ -22,28 +23,32 @@
     .Contact .Header {
         margin-bottom: 2rem;
     }
-    .Contact form button{
+
+    .Contact form button {
         margin-top: -5px;
     }
+
     form .textarea-field .item {
         resize: none;
         height: 120px;
     }
 }
 
-.Contact form{
+.Contact form {
     text-align: center;
     align-items: center;
 }
-.Contact h2{
+
+.Contact h2 {
     text-align: center;
     font-size: 30px;
 }
 
 form .input-box {
-    display :flex;
+    display: flex;
     justify-content: space-between;
 }
+
 .field .item {
     width: 100%;
     padding: 10px;
@@ -51,11 +56,13 @@ form .input-box {
     border: 2px solid #dddddd;
     outline: none;
     border-radius: 6px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
+
 .field.error .item {
     border-color: #d93e25;
 }
+
 .field .error-txt {
     font-size: 14.5px;
     color: #d93e25;
@@ -63,6 +70,7 @@ form .input-box {
     margin: -20px 0 15px 0;
     display: none;
 }
+
 .field.error .error-txt {
     display: block;
 }
@@ -99,6 +107,7 @@ form button {
     transition: background-color 0.3s;
     /* box-shadow: 0 1px 2px #453c90; */
 }
+
 form button:hover {
     background-color: #9e1815;
 }
@@ -116,12 +125,14 @@ form button:hover {
         max-width: 30rem;
         width: auto;
     }
+
     form .input-box {
         flex-direction: column;
-        display :flex;
+        display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .input-box .input-field {
         width: 100%;
     }
@@ -134,4 +145,18 @@ form button:hover {
     top: 50%;
     right: 50%;
     z-index: 1000;
+}
+
+.spinner {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }

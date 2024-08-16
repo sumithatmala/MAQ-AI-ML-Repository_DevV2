@@ -6,6 +6,7 @@ import CaptchaTest, {
   doSubmit,
 } from "../../miscellaneous/ContactUs/Captcha_test";
 import ContactButton from "../../miscellaneous/ContactUsButton/ContactButton";
+import { ImSpinner2 } from "react-icons/im";
 
 const ContactForm = ({ contactMsg }) => {
   const [name, setName] = useState("");
@@ -13,6 +14,7 @@ const ContactForm = ({ contactMsg }) => {
   const [email, setEmail] = useState("");
   const [msg, setMsg] = useState("");
   const [phone, setPhone] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
   const checkInpts = () => {
     const items = document.querySelectorAll(".item");
@@ -52,7 +54,7 @@ const ContactForm = ({ contactMsg }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    setIsLoading(true);
     if (checkInpts()) {
       try {
         const res = await fetch("http://localhost:3001/sendEmail", {
@@ -90,6 +92,8 @@ const ContactForm = ({ contactMsg }) => {
         });
         console.error("Error sending email:", error);
         clearFields();
+      } finally{
+        setIsLoading(false);
       }
     }
   };
@@ -176,7 +180,7 @@ const ContactForm = ({ contactMsg }) => {
             <CaptchaTest />
           </div>
           <button id="contact" type="submit">
-            Send Message
+            {isLoading?<ImSpinner2 className="spinner"/>:<p>Send Message</p>}
           </button>
           <div className="disclaimer">
             <p>
