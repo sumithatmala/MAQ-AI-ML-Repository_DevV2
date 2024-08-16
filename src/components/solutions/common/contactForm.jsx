@@ -54,8 +54,8 @@ const ContactForm = ({ contactMsg }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsLoading(true);
     if (checkInpts()) {
+      setIsLoading(true);
       try {
         const res = await fetch("http://localhost:3001/sendEmail", {
           method: "POST",

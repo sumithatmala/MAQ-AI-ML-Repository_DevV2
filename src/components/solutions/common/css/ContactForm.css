@@ -96,8 +96,9 @@ form .textarea-field .error-txt {
 }
 
 form button {
+    width: 11rem;
     color: white;
-    padding: 12px 32px;
+    padding: 12px 28px;
     background-color: #B22320;
     border: none;
     border-radius: 6px;
@@ -149,6 +150,7 @@ form button:hover {
 
 .spinner {
     animation: spin 1s linear infinite;
+    font-size: larger;
 }
 
 @keyframes spin {
