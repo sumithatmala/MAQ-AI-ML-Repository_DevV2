@@ -35,9 +35,7 @@ const Automotive = () => {
           <h2 className="headblock">Our Expertise</h2>
         </div>
         <div className="text-block-center" style={{ marginBottom: "3rem", fontSize: "16px" }}>
-          <p style={{fontSize: "16px"}}>We provide automotive AI services for car manufacturers that leverage
-          3D computer vision to make data-driven decisions at each manufacturing
-          stage.</p>
+          <p style={{fontSize: "16px"}}>We provide automotive AI services for car manufacturers that leverage 3D computer vision to make data-driven decisions at each manufacturing stage.</p>
         </div>
       </div>
 

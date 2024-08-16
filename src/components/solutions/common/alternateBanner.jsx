@@ -4,6 +4,7 @@ const AlternateBanner = ({
   banners,
   ContactBtn = false,
   backHighlights = false,
+  fontWgt = 500
 }) => {
   return (
     <>
@@ -24,7 +25,7 @@ const AlternateBanner = ({
               </div>
               <div className="BannerDetails">
                 <h2 className="title-size">{item.heading}</h2>
-                <p className="content-size">{item.details}</p>
+                <p className="content-size" style={{fontWeight: fontWgt}}>{item.details}</p>
                 {item.points && (
                   <ul>
                     {item.points.map((point, index) => {

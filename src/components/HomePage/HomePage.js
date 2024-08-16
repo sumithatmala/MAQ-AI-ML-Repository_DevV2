@@ -40,7 +40,7 @@ const HomePage = () => {
       </div>
       <div className='container mid-section parent-middle-sections margin-adjust' style={{marginTop:"0"}}>
         <GridOfCards items={{ item: reviewData, NoCards: 4, title: "Our services", contactLink: "./ContactUs" }} />
-        <AlternateBanner banners={bannerData} count={0} ContactBtn={false} backHighlights={true} />
+        <AlternateBanner banners={bannerData} count={0} ContactBtn={false} backHighlights={true} fontWgt={"normal"}/>
         <ServiceGrid items={transformIndustries} title={"Empowering Industries Through AI Solutions"} desc={"We welcome opportunities to work alongside different teams over projects of any complexity. By working together, we will develop new systems, solutions, and products to separate you from your competition."}/>
       </div>
       <div className='margin-adjust'>
