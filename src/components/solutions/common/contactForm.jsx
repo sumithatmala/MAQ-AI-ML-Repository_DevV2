@@ -15,14 +15,40 @@ const ContactForm = ({ contactMsg }) => {
   const [msg, setMsg] = useState("");
   const [phone, setPhone] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const [isEmailValid, setIsEmailValid] = useState(true);
+  const [isPhoneValid, setIsPhoneValid] = useState(true);
 
   const checkInpts = () => {
-    const items = document.querySelectorAll(".item");
-    let flag = true;
+    if (!checkRequiredFields()) return false;
     if (!doSubmit()) {
       alert("Captcha does not match");
       return false;
     }
+    return true;
+  };
+
+
+  const validateEmail = (e) => {
+    const emailInput = e.target.value;
+    setEmail(emailInput);
+
+    // Regular expression for basic email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    setIsEmailValid(emailRegex.test(emailInput));
+  };
+
+  const validatePhone = (e) => {
+    const phoneInput = e.target.value;
+    setPhone(phoneInput);
+
+    // Regular expression for basic phone number validation
+    const phoneRegex = /^[0-9]{10}$/;
+    setIsPhoneValid(phoneRegex.test(phoneInput));
+  };
+
+  const checkRequiredFields = () => {
+    const items = document.querySelectorAll(".required");
+    let flag = true;
     for (const item of items) {
       if (item.value === "") {
         item.classList.add("error");
@@ -42,7 +68,7 @@ const ContactForm = ({ contactMsg }) => {
     }
 
     return flag;
-  };
+  }
 
   const clearFields = () => {
     setName("");
@@ -92,7 +118,7 @@ const ContactForm = ({ contactMsg }) => {
         });
         console.error("Error sending email:", error);
         clearFields();
-      } finally{
+      } finally {
         setIsLoading(false);
       }
     }
@@ -115,7 +141,7 @@ const ContactForm = ({ contactMsg }) => {
                 type="text"
                 placeholder="Name*"
                 id="name"
-                className="item"
+                className="item required"
                 autoComplete="off"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -127,7 +153,7 @@ const ContactForm = ({ contactMsg }) => {
                 type="text"
                 placeholder="Company Name*"
                 id="compName"
-                className="item"
+                className="item required"
                 autoComplete="off"
                 value={compName}
                 onChange={(e) => setCompName(e.target.value)}
@@ -141,12 +167,15 @@ const ContactForm = ({ contactMsg }) => {
                 type="text"
                 placeholder="Email Address*"
                 id="email"
-                className="item"
+                className="item required"
                 autoComplete="off"
                 value={email}
-                onChange={(e) => setEmail(e.target.value)}
+                onChange={validateEmail}
               />
               <div className="error-txt">Email Address can't be blank</div>
+              {!isEmailValid && (
+                <div className="error-txt show">Please enter a valid email address</div>
+              )}
             </div>
 
             <div className="input-field field">
@@ -157,9 +186,12 @@ const ContactForm = ({ contactMsg }) => {
                 className="item"
                 autoComplete="off"
                 value={phone}
-                onChange={(e) => setPhone(e.target.value)}
+                onChange={validatePhone}
               />
-              <div className="error-txt">Error message</div>
+              <div className="error-txt">Please enter a valid phone number</div>
+              {!isPhoneValid && (
+                <div className="error-txt show">Please enter a valid phone number</div>
+              )}
             </div>
           </div>
           <div className="textarea-field field">
@@ -169,18 +201,18 @@ const ContactForm = ({ contactMsg }) => {
               cols={30}
               rows={7}
               placeholder="Your Message"
-              className="item"
+              className="item required"
               autoComplete="off"
               value={msg}
               onChange={(e) => setMsg(e.target.value)}
             />
-            <div className="error-txt">Error message</div>
+            <div className="error-txt">Message field cannot be empty</div>
           </div>
           <div>
             <CaptchaTest />
           </div>
           <button id="contact" type="submit">
-            {isLoading?<ImSpinner2 className="spinner"/>:<p>Send Message</p>}
+            {isLoading ? <ImSpinner2 className="spinner" /> : <p>Send Message</p>}
           </button>
           <div className="disclaimer">
             <p>

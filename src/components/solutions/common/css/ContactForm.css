@@ -71,7 +71,11 @@ form .input-box {
     display: none;
 }
 
-.field.error .error-txt {
+.field .show {
+    display: block;
+}
+
+.error .error-txt {
     display: block;
 }
 
